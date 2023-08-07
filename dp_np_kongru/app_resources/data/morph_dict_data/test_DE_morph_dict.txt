@@ -1,0 +1,157 @@
+denen
+die REL,noGender,dat,plu,<subst>,strong
+die DEMO,noGender,dat,plu,<subst>,strong
+denn
+denn CONJ,<coord>
+denn ADV
+denn CONJ,<subord>
+der
+die ART,noGender,gen,plu,<def>,strong
+die ART,fem,gen,sing,<def>,strong
+die REL,masc,nom,sing,<subst>,strong
+die ART,fem,dat,sing,<def>,strong
+die DEMO,fem,dat,sing,<subst>,strong
+die REL,fem,dat,sing,<subst>,strong
+die DEMO,masc,nom,sing,<subst>,strong
+die ART,masc,nom,sing,<def>,strong
+deren
+die REL,noGender,gen,plu,<attr>,strong
+die REL,fem,gen,sing,<attr>,strong
+die REL,noGender,gen,plu,<subst>,strong
+die REL,fem,gen,sing,<subst>,strong
+die DEMO,noGender,gen,plu,<attr>,strong
+die DEMO,fem,gen,sing,<attr>,strong
+die DEMO,noGender,gen,plu,<subst>,strong
+die DEMO,fem,gen,sing,<subst>,strong
+dergleichen
+dergleichen INDEF,<noinfl>,<attr>
+dergleichen INDEF,<noinfl>,<subst>
+derjenige
+diejenige DEMO,masc,nom,sing,<subst>,strong
+diejenige DEMO,masc,nom,sing,<attr>,strong
+derjenigen
+diejenige DEMO,fem,dat,sing,<subst>,strong
+diejenige DEMO,fem,dat,sing,<attr>,strong
+diejenige DEMO,fem,gen,sing,<subst>,strong
+diejenige DEMO,noGender,gen,plu,<attr>,strong
+diejenige DEMO,fem,gen,sing,<attr>,strong
+diejenige DEMO,noGender,gen,plu,<subst>,strong
+derlei
+derlei INDEF,<noinfl>,<subst>
+derlei INDEF,<noinfl>,<attr>
+derselbe
+dieselbe DEMO,masc,nom,sing,<attr>,strong
+dieselbe DEMO,masc,nom,sing,<subst>,strong
+kleine
+klein ADJ,noGender,nom,plu,pos,strong
+klein ADJ,neut,acc,sing,pos,weak
+klein ADJ,fem,nom,sing,pos
+klein ADJ,noGender,acc,plu,pos,strong
+klein ADJ,neut,nom,sing,pos,weak
+klein ADJ,fem,acc,sing,pos
+klein ADJ,masc,nom,sing,pos,weak
+kleinem
+klein ADJ,masc,dat,sing,pos,strong
+klein ADJ,neut,dat,sing,pos,strong
+kleinen
+klein ADJ,masc,acc,sing,pos
+klein ADJ,noGender,acc,plu,pos,weak
+klein ADJ,masc,gen,sing,pos
+klein ADJ,noGender,nom,plu,pos,weak
+klein ADJ,noGender,dat,sing,pos,weak
+klein ADJ,noGender,dat,plu,pos
+klein ADJ,noGender,gen,plu,pos,weak
+klein ADJ,neut,gen,sing,pos
+klein ADJ,fem,gen,sing,pos,weak
+kleiner
+klein ADJ,fem,gen,sing,pos,strong
+klein ADJ,noGender,gen,plu,pos,strong
+klein ADJ,masc,nom,sing,pos,strong
+klein ADJ,comp,<pred>
+klein ADJ,comp,<adv>
+klein ADJ,fem,dat,sing,pos,strong
+kleinere
+klein ADJ,fem,nom,sing,comp
+klein ADJ,neut,acc,sing,comp,weak
+klein ADJ,masc,nom,sing,comp,weak
+klein ADJ,neut,nom,sing,comp,weak
+klein ADJ,noGender,acc,plu,comp,strong
+klein ADJ,fem,acc,sing,comp
+klein ADJ,noGender,nom,plu,comp,strong
+kleinerem
+klein ADJ,neut,dat,sing,comp,strong
+klein ADJ,masc,dat,sing,comp,strong
+kleineren
+klein ADJ,masc,gen,sing,comp
+klein ADJ,noGender,acc,plu,comp,weak
+klein ADJ,noGender,nom,plu,comp,weak
+klein ADJ,noGender,gen,plu,comp,weak
+klein ADJ,neut,gen,sing,comp
+klein ADJ,noGender,dat,plu,comp
+klein ADJ,masc,acc,sing,comp
+klein ADJ,fem,gen,sing,comp,weak
+klein ADJ,noGender,dat,sing,comp,weak
+kleinerer
+klein ADJ,noGender,gen,plu,comp,strong
+klein ADJ,fem,dat,sing,comp,strong
+klein ADJ,masc,nom,sing,comp,strong
+klein ADJ,fem,gen,sing,comp,strong
+kleineres
+klein ADJ,neut,acc,sing,comp,strong
+klein ADJ,neut,nom,sing,comp,strong
+kleines
+klein ADJ,neut,acc,sing,pos,strong
+klein ADJ,neut,nom,sing,pos,strong
+daran
+daran PROADV
+daran VPART
+daran ADV
+darauf
+darauf ADV
+darauf PROADV
+darauf VPART
+daraus
+daraus PROADV
+daraus VPART
+darin
+darin ADV
+darum
+darum ADV
+darunter
+darunter PROADV
+darunter VPART
+darüber
+darüber PROADV
+darüber VPART
+das
+die REL,neut,nom,sing,<subst>,strong
+die DEMO,neut,nom,sing,<subst>,strong
+die ART,neut,acc,sing,<def>,strong
+die DEMO,neut,acc,sing,<subst>,strong
+die REL,neut,acc,sing,<subst>,strong
+die ART,neut,nom,sing,<def>,strong
+dasjenige
+diejenige DEMO,neut,acc,sing,<subst>,strong
+diejenige DEMO,neut,nom,sing,<subst>,strong
+diejenige DEMO,neut,nom,sing,<attr>,strong
+diejenige DEMO,neut,acc,sing,<attr>,strong
+Hund
+Hund NN,masc,acc,sing
+Hund NNP,noGender,dat,sing
+Hund NN,masc,dat,sing
+Hund NNP,noGender,nom,sing
+Hund NN,masc,nom,sing
+Hund NNP,noGender,acc,sing
+Hundchen
+Hundchen NN,neut,nom,sing
+Hundchen NN,neut,gen,plu
+Hundchen NN,neut,dat,sing
+Hundchen NN,neut,dat,plu
+Hundchen NN,neut,nom,plu
+Hundchen NN,neut,acc,sing
+Hundchen NN,neut,acc,plu
+Hunde
+Hund NN,masc,gen,plu
+Hund NN,masc,nom,plu
+Hund NN,masc,dat,sing,old
+Hund NN,masc,acc,plu
