@@ -1,0 +1,38 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X.	X.	N	NE	Fem|_|Sg	1	app	_	_
+
+1	26-4-12	26-4-12	ADJA	ADJA	_	2	attr	_	_
+2	Liber	Liber	N	NN	_	0	root	_	_
+3	Jens	Jens	N	NE	Masc|_|Sg	2	app	_	_
+4	du	du	PRO	PPER	2|Sg|_|Nom	5	subj	_	_
+5	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+6	glücklish	glücklish	ADV	ADJD	_	5	adv	_	_
+7	wie	wie	KOKOM	KOKOM	_	6	kom	_	_
+8	get	get	ADV	ADJD	_	9	adv	_	_
+9	es	es	PRO	PPER	3|Sg|Neut|_	7	cj	_	_
+10	das	die	ART	ART	Def|Neut|Nom|Sg	11	det	_	_
+11	Beby	Beby	N	NN	Neut|Nom|Sg	5	pred	_	_
+12	michael	michael	N	NE	Neut|Nom|Sg	11	app	_	_
+13	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hofe	hofe	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	vile	vile	ADJA	ADJA	_|Masc|Dat|Sg|_	4	attr	_	_
+4	Gruße	Gruß	N	NN	Masc|Dat|Sg	2	objd	_	_
+5	wie	wie	KOKOM	KOKOM	_	4	kom	_	_
+6	get	get	ADV	ADJD	_	7	adv	_	_
+7	es	es	PRO	PPER	3|Sg|Neut|_	5	cj	_	_
+8	der	die	ART	ART	Def|_|Gen|_	9	det	_	_
+9	Muttr	Muttr	N	NN	_|Gen|_	4	gmod	_	_
+10	das	die	ART	ART	Def|Neut|Acc|Sg	11	det	_	_
+11	Beby	Beby	N	NN	Neut|Acc|Sg	2	obja	_	_
+12	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	vile	vile	N	NE	_|_|_	2	obja	_	_
+4	Glük	Glük	N	NE	_|_|_	3	app	_	_
+5	Liber	Liber	N	NE	_|_|_	4	app	_	_
+6	Gruße	Gruß	N	NN	Masc|Dat|Sg	2	objd	_	_
+7	Friedrich	Friedrich	N	NE	_|Dat|Sg	6	app	_	_
+

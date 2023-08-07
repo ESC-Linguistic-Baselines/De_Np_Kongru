@@ -1,0 +1,61 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+5	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+6	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	9	obja	_	_
+7	in	in	PREP	APPR	_	9	pp	_	_
+8	Neuburg	Neuburg	N	NN	Fem|_|Sg	7	pn	_	_
+9	gefunden	finden	V	VVPP	_	4	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	gehen	gehen	V	VVINF	_	2	aux	_	_
+4	und	und	KON	KON	_	2	kon	_	_
+5	Ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+6	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	4	cj	_	_
+7	ein	eine	ART	ART	Indef|_|_|Sg	8	det	_	_
+8	Wohnung	Wohnung	N	NN	Neut|Acc|Sg	6	obja	_	_
+9	suche	suchen	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	3	3	CARD	CARD	_	4	obja	_	_
+4	schlafzimmer	schlafzimmer	V	VVINF	_	2	aux	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	1	1	CARD	CARD	_	7	attr	_	_
+7	Kucher	Kucher	N	NN	Neut|_|Sg	2	vok	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	1	1	CARD	CARD	_	10	attr	_	_
+10	Bad	Bad	N	NE	Neut|_|Sg	7	kon	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	Wohnzimmer	Wohnzimmer	N	NN	Neut|_|_	10	kon	_	_
+13	,	,	$,	$,	_	0	root	_	_
+14	1	1	CARD	CARD	_	15	attr	_	_
+15	Balkon	Balkon	N	NN	Masc|_|Sg	12	kon	_	_
+16	und	und	KON	KON	_	15	kon	_	_
+17	ein	eine	ART	ART	Indef|_|_|Sg	18	det	_	_
+18	Größe	Größe	N	NN	_|_|Sg	16	cj	_	_
+19	Kille	Kille	N	NE	_|_|Sg	18	app	_	_
+20	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+4	ein	eine	ART	ART	Indef|_|_|Sg	5	det	_	_
+5	Wohnungssuche	Wohnungssuche	N	NN	_|Nom|Sg	3	subj	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	dein	deine	ART	PPOSAT	_|_|Sg	5	det	_	_
+5	Hilfe	Hilfe	N	NN	Neut|Acc|Sg	3	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Fem|_|Sg	2	det	_	_
+2	Größe	Größe	N	NN	Fem|_|Sg	0	root	_	_
+3	Maria	Maria	N	NE	_|_|Sg	2	app	_	_
+

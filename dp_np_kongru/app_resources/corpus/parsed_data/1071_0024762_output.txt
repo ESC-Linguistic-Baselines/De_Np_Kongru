@@ -1,0 +1,52 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	Leibe	Leib	N	NN	Masc|Dat|Sg	0	root	_	_
+3	ingo	ingo	ADV	ADJD	_	7	adv	_	_
+4	wie	wie	KOKOM	KOKOM	_	3	kom	_	_
+5	gehts	gehts	ADV	ADJD	_	6	adv	_	_
+6	ihnen	sie	PRO	PPER	3|Pl|_|Dat	4	cj	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+9	ein	eine	ART	ART	Indef|_|_|Sg	10	det	_	_
+10	Arbeit	Arbeit	N	NN	Neut|Acc|Sg	11	obja	_	_
+11	gefunden	finden	V	VVPP	_	8	aux	_	_
+12	in	in	PREP	APPR	_	11	pp	_	_
+13	Neuburg	Neuburg	N	NN	Fem|_|Sg	12	pn	_	_
+14	Aber	aber	KON	KON	_	8	kon	_	_
+15	ich	ich	PRO	PPER	1|Sg|_|Nom	16	subj	_	_
+16	such	such	V	VVFIN	1|Sg|_|_	14	cj	_	_
+17	Noch	noch	ADV	ADV	_	16	adv	_	_
+18	einen	eine	ART	ART	Indef|Masc|Acc|Sg	19	det	_	_
+19	wohnung	wohnung	N	NN	Masc|Acc|Sg	16	obja	_	_
+20	in	in	PREP	APPR	_	16	pp	_	_
+21	Neuburg	Neuburg	N	NE	_|_|Sg	20	pn	_	_
+22	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+23	meldes	meldes	V	VVIMP	_	0	root	_	_
+24	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+25	mir	ich	PRO	PPER	1|Sg|_|Dat	0	root	_	_
+26	wie	wie	KOKOM	KOKOM	_	0	root	_	_
+27	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+28	ich	ich	PRO	PPER	1|Sg|_|Nom	27	subj	_	_
+29	finden	finden	V	VVINF	_	27	aux	_	_
+30	kann	können	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_
+31	.	.	$.	$.	_	0	root	_	_
+
+1	die	die	ART	ART	Def|_|_|_	2	det	_	_
+2	wohnung	wohnung	N	NN	_|_|_	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	3	3	CARD	CARD	_	2	obja	_	_
+2	zimmer	zimmer	V	VVFIN	_	0	root	_	_
+3	circa	circa	ADV	ADV	_	2	adv	_	_
+4	bis	bis	PREP	APPR	Acc	2	pp	_	_
+5	80	80	CARD	CARD	_	6	attr	_	_
+6	cm	cm	N	NN	_|Acc|Pl	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	Schön	Schön	N	NE	_|_|_	2	app	_	_
+4	Grüßen	Gruß	N	NN	_|_|_	3	app	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	von	von	PREP	APPR	_	0	root	_	_
+

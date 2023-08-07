@@ -1,0 +1,97 @@
+1	Au-pair-Agentur	Au-pair-Agentur	N	NN	Fem|_|Sg	0	root	_	_
+2	Schultz	Schultz	N	NE	Masc|_|_	1	app	_	_
+3	&	&	KON	KON	_	2	kon	_	_
+4	Partner	Partner	N	NN	Masc|_|_	3	cj	_	_
+5	Regenstr	Regenstr	N	NE	Masc|_|_	4	app	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	101	101	CARD	CARD	_	0	root	_	_
+2	90451	90451	CARD	CARD	_	0	root	_	_
+3	Nürnberg	Nürnberg	N	NE	_|Nom|Sg	12	subj	_	_
+4	Sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	geherten	geherten	ADJA	ADJA	_|Fem|Nom|Pl|_	6	attr	_	_
+6	Damen	Dame	N	NN	Fem|Nom|Pl	3	app	_	_
+7	und	und	KON	KON	_	6	kon	_	_
+8	Heren	Heren	N	NN	Fem|Nom|Pl	7	cj	_	_
+9	Seit	seit	PREP	APPR	Dat	8	pp	_	_
+10	drei	drei	CARD	CARD	_	9	pn	_	_
+11	monat	monat	V	VVPP	_	12	aux	_	_
+12	habe	haben	V	VAFIN	3|Sg|Pres|Subj	0	root	_	_
+13	ich	ich	PRO	PPER	1|Sg|_|Nom	19	subj	_	_
+14	bei	bei	PREP	APPR	Dat	19	pp	_	_
+15	einer	eine	ART	ART	Indef|Fem|Dat|Sg	16	det	_	_
+16	Gastfamilie	Gastfamilie	N	NN	Fem|Dat|Sg	14	pn	_	_
+17	in	in	PREP	APPR	_	19	pp	_	_
+18	Deutschland	Deutschland	N	NE	Neut|_|Sg	17	pn	_	_
+19	verbracht	verbringen	V	VVPP	_	12	neb	_	_
+20	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|Nom|Sg	2	det	_	_
+2	Situation	Situation	N	NN	Fem|Nom|Sg	3	pred	_	_
+3	sind	sein	V	VAFIN	_|Pl|Pres|Ind	0	root	_	_
+4	sehr	sehr	ADV	ADV	_	3	adv	_	_
+5	schwer	schwer	ADV	ADJD	Pos|	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Sie	sie	PRO	PPER	3|Pl|_|Nom	2	subj	_	_
+2	sind	sein	V	VAFIN	3|Pl|Pres|Ind	0	root	_	_
+3	meine	meine	ART	PPOSAT	Fem|Nom|Sg	4	det	_	_
+4	Betreuung	Betreuung	N	NN	Fem|Nom|Sg	2	pred	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	bitte	bitte	ADV	ADJD	_	7	adv	_	_
+7	rufen	rufen	V	VVINF	_	0	root	_	_
+8	Sie	sie	PRO	PPER	3|_|_|_	0	root	_	_
+9	mich	ich	PRO	PRF	1|Sg|Acc	0	root	_	_
+10	gleich	gleich	PTKVZ	PTKVZ	_	0	root	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	dass	dass	KOUS	KOUS	_	17	konj	_	_
+13	wie	wie	KOKOM	KOKOM	_	17	kom	_	_
+14	eine	eine	ART	ART	Indef|Fem|_|Sg	15	det	_	_
+15	solution	solution	N	NN	Fem|_|Sg	13	cj	_	_
+16	zusammen	zusammen	ADV	ADV	_	17	adv	_	_
+17	gefund	gefund	ADV	ADJD	_	0	root	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Gastfamilie	Gastfamilie	N	NN	Fem|Nom|Sg	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	sehr	sehr	ADV	ADV	_	4	adv	_	_
+4	nette	nett	ADJA	ADJA	Pos|_|Nom|_|_|	2	pred	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	aber	aber	KON	KON	_	2	kon	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	habe	haben	V	VAFIN	1|Sg|Pres|_	6	cj	_	_
+9	keine	keine	ART	PIAT	Fem|Acc|Sg	10	det	_	_
+10	Zeit	Zeit	N	NN	Fem|Acc|Sg	12	obja	_	_
+11	zu	zu	PTKZU	PTKZU	_	12	part	_	_
+12	Lehren	lehren	V	VVINF	_	8	aux	_	_
+13	,	,	$,	$,	_	0	root	_	_
+14	odre	odre	FM	FM	_	0	root	_	_
+15	für	für	PREP	APPR	Acc	14	pp	_	_
+16	meine	meine	ART	PPOSAT	_|Acc|_	17	det	_	_
+17	freizeit	freizeit	N	NN	_|Acc|_	15	pn	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Bitte	Bitte	ITJ	ITJ	_	0	root	_	_
+2	:	\:	$.	$.	_	0	root	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+4	warten	warten	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	Ihren	ihre	ART	PPOSAT	_|Acc|_	7	det	_	_
+7	antwort	antwort	N	NN	_|Acc|_	5	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Mit	mit	PREP	APPR	Dat	0	root	_	_
+2	freundlishe	freundlishe	ADJA	ADJA	_|Masc|_|Pl|_	3	attr	_	_
+3	Grüße	Gruß	N	NN	Masc|_|Pl	1	pn	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	Frau	Frau	N	NN	Fem|_|Sg	0	root	_	_
+2	Maria	Maria	N	NE	Fem|_|Sg	1	app	_	_
+3	Winkelmann	Winkelmann	N	NE	Fem|_|Sg	2	app	_	_
+4	Bahnhofsstraße	Bahnhofsstraße	N	NE	Fem|_|Sg	3	app	_	_
+5	12-14	12-14	N	NE	Fem|_|Sg	4	app	_	_
+6	12345	12345	CARD	CARD	_	5	app	_	_
+7	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+8	X	X	N	NE	Neut|_|Sg	7	app	_	_
+9	Deutschland	Deutschland	N	NE	Neut|_|Sg	8	app	_	_
+

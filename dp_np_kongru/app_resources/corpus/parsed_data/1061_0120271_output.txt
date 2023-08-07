@@ -1,0 +1,90 @@
+1	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Dana	Dana	N	NN	_|_|_	6	vok	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Vor	vor	PREP	APPR	Dat	6	pp	_	_
+5	allem	alle	PRO	PIS	_|Dat|Sg	4	pn	_	_
+6	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+8	zur	zu	PREP	APPRART	Dat	11	pp	_	_
+9	bestandenen	bestanden	ADJA	ADJA	Pos|Fem|Dat|Sg|Wk|	10	attr	_	_
+10	Prüfung	Prüfung	N	NN	Fem|Dat|Sg	8	pn	_	_
+11	gratulieren	gratulieren	V	VVINF	_	6	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+3	sicher	sicher	ADV	ADJD	Pos|	2	adv	_	_
+4	einen	eine	ART	ART	Indef|Masc|Acc|Sg	6	det	_	_
+5	schönen	schön	ADJA	ADJA	Pos|Masc|Acc|Sg|_|	6	attr	_	_
+6	Urlaub	Urlaub	N	NN	Masc|Acc|Sg	2	obja	_	_
+7	in	in	PREP	APPR	Dat	2	pp	_	_
+8	der	die	ART	ART	Def|Fem|Dat|Sg	9	det	_	_
+9	Turkei	Turkei	N	NN	Fem|Dat|Sg	7	pn	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	besuche	besuchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	adv	_	_
+4	meine	meine	ART	PPOSAT	_|Acc|Pl	5	det	_	_
+5	Verwandten	Verwandte	N	NN	_|Acc|Pl	2	obja	_	_
+6	in	in	PREP	APPR	_	2	pp	_	_
+7	England	England	N	NE	Neut|_|Sg	6	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	am	an	PREP	APPRART	Dat	9	pp	_	_
+4	nächsten	nah	ADJA	ADJA	_|_|Dat|_|_|	5	attr	_	_
+5	Wochende	Wochende	N	NN	_|Dat|_	3	pn	_	_
+6	in	in	PREP	APPR	_	9	pp	_	_
+7	Stadt	Stadt	N	NN	Fem|_|Sg	6	pn	_	_
+8	X	X	N	NE	Fem|_|Sg	7	app	_	_
+9	fahren	fahren	V	VVINF	_	2	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	zwei	zwei	CARD	CARD	_	0	root	_	_
+4	Woche	Woche	N	NN	Fem|Acc|Sg	5	grad	_	_
+5	dort	dort	ADV	ADV	_	0	root	_	_
+6	verbringen	verbringen	V	VVINF	_	0	root	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	mir	ich	PRO	PRF	1|Sg|Dat	2	objd	_	_
+4	aus	aus	PREP	APPR	Dat	2	pp	_	_
+5	Istambul	Istambul	N	NE	_|Dat|_	4	pn	_	_
+6	einige	einige	ART	PIAT	Fem|Acc|Sg	7	det	_	_
+7	Postkarte	Postkarte	N	NN	Fem|Acc|Sg	2	obja	_	_
+8	um	um	PREP	APPR	Acc	12	pp	_	_
+9	die	die	ART	ART	Def|Fem|Acc|Pl	10	det	_	_
+10	Sehenswürdigkeiten	Sehenswürdigkeit	N	NN	Fem|Acc|Pl	8	pn	_	_
+11	zu	zu	PTKZU	PTKZU	_	12	part	_	_
+12	sehen	sehen	V	VVINF	_	2	obji	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Nach	nach	PREP	APPR	Dat	4	pp	_	_
+2	deiner	deine	ART	PPOSAT	Fem|Dat|Sg	3	det	_	_
+3	Rückkerh	Rückkerh	N	NN	Fem|Dat|Sg	1	pn	_	_
+4	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+6	dich	du	PRO	PRF	2|Sg|Acc	9	obja	_	_
+7	am	an	PREP	APPRART	Dat	9	pp	_	_
+8	Wochenende	Wochenende	N	NN	Neut|Dat|Sg	7	pn	_	_
+9	besuchen	besuchen	V	VVINF	_	4	aux	_	_
+10	und	und	KON	KON	_	4	kon	_	_
+11	ich	ich	PRO	PPER	1|Sg|_|Nom	12	subj	_	_
+12	nehme	nehmen	V	VVFIN	1|Sg|Pres|_	10	cj	_	_
+13	etwas	etwas	ART	PIAT	_|_|_	14	det	_	_
+14	Geschänk	Geschänk	N	NN	_|_|_	12	obja	_	_
+15	aus	aus	PREP	APPR	Dat	12	pp	_	_
+16	Stadt	Stadt	N	NN	Fem|Dat|Sg	15	pn	_	_
+17	X	X	N	NE	Fem|Dat|Sg	16	app	_	_
+18	mit	mit	PTKVZ	PTKVZ	_	12	avz	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Maria	Maria	N	NE	_|_|Sg	2	app	_	_
+

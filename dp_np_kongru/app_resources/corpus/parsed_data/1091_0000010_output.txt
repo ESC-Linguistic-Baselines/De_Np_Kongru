@@ -1,0 +1,79 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	9	vok	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	05.01.2012	05.01.2012	CARD	CARD	_	5	attr	_	_
+5	Liebe	Liebe	N	NN	_|_|Pl	2	app	_	_
+6	Julia	Julia	N	NE	Fem|_|Sg	5	app	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+10	eine	eine	ART	ART	Indef|Fem|Acc|Sg	11	det	_	_
+11	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	9	obja	_	_
+12	für	für	PREP	APPR	Acc	11	pp	_	_
+13	eine	eine	ART	ART	Indef|Fem|_|Sg	15	det	_	_
+14	woche	woche	ADJA	ADJA	_|Fem|Acc|Sg|_	15	attr	_	_
+15	Urlaub	Urlaub	N	NN	Fem|Acc|Sg	12	pn	_	_
+16	nach	nach	PREP	APPR	Dat	9	pp	_	_
+17	Paris	Paris	N	NE	_|Dat|Sg	16	pn	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_
+2	Fahrt	Fahrt	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	beginnt	beginnen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+4	am	an	PREP	APPRART	Dat	3	pp	_	_
+5	samstag	samstag	N	NN	_|Dat|_	4	pn	_	_
+6	um	um	PREP	APPR	_	3	pp	_	_
+7	18.00	18.00	CARD	CARD	_	8	attr	_	_
+8	Uhr	Uhr	N	NN	Fem|_|Sg	6	pn	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	kann	können	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+4	leider	leider	ADV	ADV	_	6	adv	_	_
+5	nicht	nicht	PTKNEG	PTKNEG	_	6	adv	_	_
+6	fahren	fahren	V	VVINF	_	3	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	mit	mit	PREP	APPR	Dat	2	pp	_	_
+4	meiner	meine	ART	PPOSAT	Fem|Dat|Sg	5	det	_	_
+5	Mama	Mama	N	NN	Fem|Dat|Sg	3	pn	_	_
+6	nach	nach	PREP	APPR	Dat	2	pp	_	_
+7	London	London	N	NE	Neut|Dat|Sg	6	pn	_	_
+8	in	in	PREP	APPR	_	2	pp	_	_
+9	Urlaub	Urlaub	N	NN	_|_|Sg	8	pn	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Jalia	Jalia	N	NN	_|_|_	5	vok	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+5	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+6	dich	du	PRO	PRF	2|Sg|Acc	7	obja	_	_
+7	fragen	fragen	V	VVINF	_	5	aux	_	_
+8	ob	ob	KOUS	KOUS	_	13	konj	_	_
+9	du	du	PRO	PPER	2|Sg|_|Nom	13	subj	_	_
+10	die	die	ART	ART	Def|Fem|Acc|Sg	11	det	_	_
+11	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	12	obja	_	_
+12	haben	haben	V	VAINF	_	13	aux	_	_
+13	willst	wollen	V	VMFIN	2|Sg|Pres|Ind	7	objc	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Wenn	wenn	KOUS	KOUS	_	0	root	_	_
+2	Ja	Ja	N	NN	Neut|_|_	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+5	du	du	PRO	PPER	2|Sg|_|Nom	4	subj	_	_
+6	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+7	telefonisch	telefonisch	ADV	ADJD	Pos|	4	adv	_	_
+8	bescheid	bescheid	ADV	ADJD	_	4	adv	_	_
+9	sagen	sagen	V	VVINF	_	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Besten	gut	ADJA	ADJA	Sup|Masc|_|Sg|_|	2	attr	_	_
+2	Gruss	Gruss	N	NN	Masc|_|Sg	0	root	_	_
+3	M.	M.	N	NE	_|_|Sg	2	app	_	_
+4	Meier	Meier	N	NE	_|_|Sg	3	app	_	_
+

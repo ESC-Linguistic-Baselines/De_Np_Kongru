@@ -1,0 +1,124 @@
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+7	dir	du	PRO	PPER	2|Sg|_|Dat	5	objd	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Arbeitest	arbeiten	V	VVFIN	2|Sg|Pres|_	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	noch	noch	ADV	ADV	_	1	adv	_	_
+4	für	für	PREP	APPR	Acc	1	pp	_	_
+5	dieses	diese	ART	PDAT	_|_|Sg	7	det	_	_
+6	großes	groß	ADJA	ADJA	Pos|Neut|_|Sg|St|	7	attr	_	_
+7	Firma	Firma	N	NN	Neut|Acc|Sg	4	pn	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	dich	du	PRO	PRF	2|Sg|Acc	4	obja	_	_
+4	informieren	informieren	V	VVINF	_	2	aux	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	dass	dass	KOUS	KOUS	_	12	konj	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	12	subj	_	_
+8	eine	eine	ART	ART	Indef|Fem|Acc|Sg	10	det	_	_
+9	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	10	attr	_	_
+10	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	11	obja	_	_
+11	gefunden	finden	V	VVPP	_	12	aux	_	_
+12	habe	haben	V	VAFIN	1|Sg|Pres|_	4	objc	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Weißt	weißen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	wo	wo	PWAV	PWAV	_	0	root	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	In	in	PREP	APPR	_	0	root	_	_
+2	Neuburg	Neuburg	N	NN	Fem|_|Sg	1	pn	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	fänge	fänge	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	die	die	ART	ART	Def|_|_|_	5	det	_	_
+4	20ste	20ste	ADJA	ADJA	_|_|Acc|_|_	5	attr	_	_
+5	März	März	N	NN	_|Acc|_	2	obja	_	_
+6	an	an	PTKVZ	PTKVZ	_	2	avz	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Darvor	Darvor	N	NE	_	0	root	_	_
+2	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+5	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	6	attr	_	_
+6	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	_
+3	weißt	weißen	V	VVFIN	2|Sg|Pres|Ind	1	cj	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	das	die	PRO	PDS	Neut|Nom|Sg	6	subj	_	_
+6	braucht	brauchen	V	VVFIN	3|Sg|Pres|Ind	3	kon	_	_
+7	Zeit	Zeit	N	NN	Fem|Acc|Sg	6	obja	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Könnte	können	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	_
+3	für	für	PREP	APPR	Acc	9	pp	_	_
+4	ein	eine	ART	ART	Indef|Neut|Acc|Sg	5	det	_	_
+5	Paar	Paar	N	NN	Neut|Acc|Sg	3	pn	_	_
+6	Tagen	Tag	N	NN	Neut|Acc|Sg	5	app	_	_
+7	bei	bei	PREP	APPR	Dat	9	objp	_	_
+8	dir	du	PRO	PPER	2|Sg|_|Dat	7	pn	_	_
+9	bleiben	bleiben	V	VVINF	_	1	aux	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+2	deine	deine	ART	PPOSAT	Fem|Nom|Sg	3	det	_	_
+3	Wohnung	Wohnung	N	NN	Fem|Nom|Sg	1	subj	_	_
+4	groß	groß	ADV	ADJD	Pos|	1	pred	_	_
+5	genug	genug	ADV	ADV	_	4	adv	_	_
+6	für	für	PREP	APPR	Acc	1	pp	_	_
+7	uns	wir	PRO	PPER	1|Pl|_|Acc	6	pn	_	_
+8	zwei	zwei	CARD	CARD	_	1	objd	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	dass	dass	KOUS	KOUS	_	7	konj	_	_
+5	die	die	ART	ART	Def|Fem|Nom|Sg	6	det	_	_
+6	Suchung	Suchung	N	NN	Fem|Nom|Sg	7	subj	_	_
+7	soll	sollen	V	VMFIN	3|Sg|Pres|Ind	2	objc	_	_
+8	eine	eine	ART	ART	Indef|Fem|Acc|Sg	9	det	_	_
+9	Woche	Woche	N	NN	Fem|Acc|Sg	7	obja	_	_
+10	dauern	dauern	V	VVINF	_	0	root	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	nicht	nicht	PTKNEG	PTKNEG	_	13	adv	_	_
+13	mehr	mehr	ADV	ADV	_	0	root	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	3	koord	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	kenne	kennen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	3	adv	_	_
+5	der	die	ART	ART	Def|Fem|Dat|Sg	6	det	_	_
+6	Stadt	Stadt	N	NN	Fem|Dat|Sg	3	objd	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	-	-	$(	$(	_	0	root	_	_
+9	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+10	du	du	PRO	PPER	2|Sg|_|Nom	9	subj	_	_
+11	mir	ich	PRO	PPER	1|Sg|_|Dat	15	objd	_	_
+12	bei	bei	PREP	APPR	Dat	15	pp	_	_
+13	der	die	ART	ART	Def|Fem|Dat|Sg	14	det	_	_
+14	Wohnungssuche	Wohnungssuche	N	NN	Fem|Dat|Sg	12	pn	_	_
+15	helfen	helfen	V	VVINF	_	9	aux	_	_
+16	?	?	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Maria	Maria	N	NE	_|_|Sg	2	app	_	_
+

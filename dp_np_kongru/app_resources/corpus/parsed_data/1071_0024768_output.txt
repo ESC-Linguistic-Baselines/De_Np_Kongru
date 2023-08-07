@@ -1,0 +1,67 @@
+1	Meine	meine	ART	PPOSAT	Masc|_|_	2	det	_	_
+2	Lieber	Liebe	N	NN	Masc|_|_	0	root	_	_
+3	Ingo	Ingo	N	NE	Masc|_|Sg	2	app	_	_
+4	:	\:	$.	$.	_	0	root	_	_
+5	Ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+6	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+7	eine	eine	ART	ART	Indef|Fem|Acc|Sg	9	det	_	_
+8	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	9	attr	_	_
+9	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	6	obja	_	_
+10	in	in	PREP	APPR	_	6	pp	_	_
+11	Neuburg	Neuburg	N	NN	Fem|_|Sg	10	pn	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	7	obja	_	_
+5	in	in	PREP	APPR	_	7	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	gefunden	finden	V	VVPP	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Konntest	können	V	VMFIN	2|Sg|Past|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	bei	bei	PREP	APPR	Dat	7	pp	_	_
+4	der	die	ART	ART	Def|Fem|Dat|Sg	6	det	_	_
+5	größe	größe	ADJA	ADJA	_	6	attr	_	_
+6	Wohnungs	Wohnungs	N	NN	Fem|Dat|Sg	3	pn	_	_
+7	suchen	suchen	V	VVINF	_	1	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wohne	wohnen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	in	in	PREP	APPR	_	2	objp	_	_
+4	Neuburg	Neuburg	N	NN	Fem|_|Sg	3	pn	_	_
+5	mit	mit	PREP	APPR	Dat	4	pp	_	_
+6	Familie	Familie	N	NN	Fem|Dat|Sg	5	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	in	in	PREP	APPR	Acc	2	pp	_	_
+4	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	Schule	Schule	N	NN	Fem|Acc|Sg	3	pn	_	_
+6	finden	finden	V	VVINF	_	0	root	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|Nom|Sg	2	det	_	_
+2	Tochter	Tochter	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	in	in	PREP	APPR	_	3	pp	_	_
+5	Gymmasium	Gymmasium	N	NE	_|_|_	4	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	konntest	können	V	VMFIN	2|Sg|Past|Ind	0	root	_	_
+5	du	du	PRO	PPER	2|Sg|_|Nom	4	subj	_	_
+6	E-Mail	E-Mail	N	NN	_|Acc|Sg	4	obja	_	_
+7	Atworten	Atworten	N	NE	_|Acc|Sg	6	app	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Viel	viel	ART	PIDAT	Masc|Dat|Sg	2	det	_	_
+2	Gruße	Gruß	N	NN	Masc|Dat|Sg	0	root	_	_
+3	Maria	Maria	N	NE	_|Dat|Sg	2	app	_	_
+

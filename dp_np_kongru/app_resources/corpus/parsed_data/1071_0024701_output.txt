@@ -1,0 +1,114 @@
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+7	mit	mit	PREP	APPR	Dat	5	pp	_	_
+8	dir	du	PRO	PPER	2|Sg|_|Dat	7	pn	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+1	Mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	gut	gut	ADV	ADJD	Pos|	2	pred	_	_
+5	:	\:	$.	$.	_	0	root	_	_
+6	ich	ich	PRO	PPER	1|Sg|_|Nom	7	subj	_	_
+7	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+8	eine	eine	ART	ART	Indef|Fem|Acc|Sg	9	det	_	_
+9	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	12	obja	_	_
+10	in	in	PREP	APPR	_	12	pp	_	_
+11	Neuburg	Neuburg	N	NN	Fem|_|Sg	10	pn	_	_
+12	gefunden	finden	V	VVPP	_	7	aux	_	_
+13	!	!	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	adv	_	_
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+5	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+4	helfen	helfen	V	VVINF	_	1	aux	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|Nom|Sg	2	det	_	_
+2	Arbeit	Arbeit	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	beginnt	beginnen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+4	am	an	PREP	APPRART	_|Dat	0	root	_	_
+5	09	09	CARD	CARD	_	0	root	_	_
+6	Juli	Juli	N	NN	Masc|_|Sg	0	root	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	deshalb	deshalb	PROAV	PROAV	_	9	pp	_	_
+9	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+10	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+11	eine	eine	ART	ART	Indef|Fem|Acc|Sg	12	det	_	_
+12	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	9	obja	_	_
+13	in	in	PREP	APPR	_	9	pp	_	_
+14	Neuburg	Neuburg	N	NN	Fem|_|Sg	13	pn	_	_
+15	von	von	PREP	APPR	_	0	root	_	_
+16	01	01	CARD	CARD	_	15	pn	_	_
+17	Juli	Juli	N	NN	Masc|_|Sg	0	root	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	nur	nur	ADV	ADV	_	2	adv	_	_
+4	ein	eine	ART	ART	Indef|_|_|Sg	0	root	_	_
+5	mal	mal	ADV	ADV	_	9	adv	_	_
+6	in	in	PREP	APPR	_	9	pp	_	_
+7	Neuburg	Neuburg	N	NN	Fem|_|Sg	6	pn	_	_
+8	die	die	ART	ART	Def|Fem|_|Pl	9	det	_	_
+9	Wohnungen	Wohnung	N	NN	Fem|_|Pl	0	root	_	_
+10	besichtigen	besichtigen	V	VVINF	_	0	root	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	vielleich	vielleich	N	NE	_	0	root	_	_
+13	im	in	PREP	APPRART	Dat	12	pp	_	_
+14	Juni	Juni	N	NN	Masc|Dat|Sg	13	pn	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+4	kleine	klein	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	6	obja	_	_
+6	mieten	mieten	V	VVINF	_	2	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Sie	sie	PRO	PPER	3|Sg|Fem|Nom	2	subj	_	_
+2	muss	müssen	V	VMFIN	3|Sg|Pres|Ind	0	root	_	_
+3	nur	nur	ADV	ADV	_	12	adv	_	_
+4	ein	eine	ART	ART	Indef|Neut|Acc|Sg	5	det	_	_
+5	Badzimmer	Badzimmer	N	NN	Neut|Acc|Sg	12	obja	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	ein	eine	ART	ART	Indef|Neut|Acc|Sg	8	det	_	_
+8	Wohnzimmer	Wohnzimmer	N	NN	Neut|Acc|Sg	5	kon	_	_
+9	und	und	KON	KON	_	8	kon	_	_
+10	ein	eine	ART	ART	Indef|Neut|Acc|Sg	11	det	_	_
+11	Schlafzimmer	Schlafzimmer	N	NN	Neut|Acc|Sg	9	cj	_	_
+12	haben	haben	V	VAINF	_	2	aux	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	_
+3	dich	du	PRO	PPER	2|Sg|_|Acc	4	obja	_	_
+4	besuchen	besuchen	V	VVINF	_	1	aux	_	_
+5	im	in	PREP	APPRART	Dat	4	pp	_	_
+6	Juni	Juni	N	NN	Masc|Dat|Sg	5	pn	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	die	die	ART	ART	Def|Fem|Acc|Sg	5	det	_	_
+5	Hilfe	Hilfe	N	NN	Fem|Acc|Sg	3	pn	_	_
+6	!	!	$.	$.	_	0	root	_	_
+
+1	Grüß	Grüß	N	NE	Fem|_|Sg	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	deine	deine	ART	PPOSAT	Fem|_|Sg	4	det	_	_
+4	Maria	Maria	N	NN	Fem|_|Sg	1	app	_	_
+

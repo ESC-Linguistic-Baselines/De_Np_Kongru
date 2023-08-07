@@ -1,0 +1,163 @@
+1	Liebe	Liebe	N	NN	_|_|_	5	vok	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+5	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+6	alles	alle	PRO	PIS	_|_|Sg	5	adv	_	_
+7	gute	gut	ADJA	ADJA	Pos|_|_|_|_|	0	root	_	_
+8	mit	mit	PREP	APPR	Dat	0	root	_	_
+9	dir	du	PRO	PPER	2|Sg|_|Dat	8	pn	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	ein	eine	ART	ART	Indef|Neut|Acc|Sg	5	det	_	_
+4	groß	groß	ADV	ADJD	Pos|	5	adv	_	_
+5	Naricht	Naricht	N	NN	Neut|Acc|Sg	2	obja	_	_
+6	Für	für	PREP	APPR	Acc	5	pp	_	_
+7	dich	du	PRO	PPER	2|Sg|_|Acc	6	pn	_	_
+8	!	!	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+4	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	8	obja	_	_
+6	in	in	PREP	APPR	_	8	pp	_	_
+7	Neuburg	Neuburg	N	NN	Fem|_|Sg	6	pn	_	_
+8	gefunden	finden	V	VVPP	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	So	so	ADV	ADV	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+5	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+6	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	4	obja	_	_
+7	dar	dar	PTKVZ	PTKVZ	_	4	avz	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	wohnst	wohnen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+3	in	in	PREP	APPR	_	2	objp	_	_
+4	Neuburg	Neuburg	N	NN	Fem|_|Sg	3	pn	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Könntest	können	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	1	objd	_	_
+4	hilfen	hilfen	V	VVFIN	_	0	root	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|_|Sg	2	det	_	_
+2	Arbeit	Arbeit	N	NN	Fem|_|Sg	0	root	_	_
+3	beginn	beginn	N	NE	Fem|_|Sg	2	app	_	_
+4	ab	ab	PREP	APPR	Dat	0	root	_	_
+5	15	15	CARD	CARD	_	4	pn	_	_
+6	März	März	N	NN	Masc|_|Sg	0	root	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	glaube	glauben	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dass	dass	KOUS	KOUS	_	5	konj	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+5	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	2	objc	_	_
+6	eine	eine	ART	ART	Indef|Fem|Acc|Sg	7	det	_	_
+7	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	5	obja	_	_
+8	ab	ab	PREP	APPR	Dat	5	pp	_	_
+9	1	1	CARD	CARD	_	10	attr	_	_
+10	März	März	N	NN	Masc|Dat|Sg	8	pn	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Was	was	PRO	PWS	Neut|_|Sg	0	root	_	_
+2	denkst	denken	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	nur	nur	ADV	ADV	_	11	adv	_	_
+4	ein	eine	ART	ART	Indef|Masc|Nom|Sg	5	det	_	_
+5	Monat	Monat	N	NN	Masc|Nom|Sg	11	pred	_	_
+6	für	für	PREP	APPR	Acc	11	pp	_	_
+7	eine	eine	ART	ART	Indef|Fem|Acc|Sg	9	det	_	_
+8	schöne	schön	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	9	attr	_	_
+9	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	6	pn	_	_
+10	zu	zu	PTKZU	PTKZU	_	11	part	_	_
+11	finden	finden	V	VVINF	_	2	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_
+2	Wohnungssuche	Wohnungssuche	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	trotzdem	trotzdem	PROAV	PROAV	_	3	pp	_	_
+5	ganz	ganz	ADV	ADV	_	6	adv	_	_
+6	Kompliziert	kompliziert	ADV	ADJD	Pos|	3	pred	_	_
+7	von	von	PREP	APPR	_	3	pp	_	_
+8	hier	hier	ADV	ADV	_	7	adv	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	nur	nur	ADV	ADV	_	7	adv	_	_
+4	aus	aus	PREP	APPR	Dat	7	pp	_	_
+5	der	die	ART	ART	Def|_|_|_	6	det	_	_
+6	Internet	Internet	N	NN	Fem|Dat|Sg	4	pn	_	_
+7	gesucht	suchen	V	VVPP	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Könntest	können	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+4	eine	eine	ART	ART	Indef|Fem|Nom|Sg	6	det	_	_
+5	paar	paar	ART	PIDAT	Fem|Nom|Sg	6	attr	_	_
+6	Wohnung	Wohnung	N	NN	Fem|Nom|Sg	3	subj	_	_
+7	Für	für	PREP	APPR	Acc	6	pp	_	_
+8	mich	ich	PRO	PPER	1|Sg|_|Acc	7	pn	_	_
+9	besuchen	besuchen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	ziehe	zeihen	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	mit	mit	PREP	APPR	Dat	2	pp	_	_
+4	meine	meine	ART	PPOSAT	Fem|_|Sg	5	det	_	_
+5	Freundin	Freundin	N	NN	Fem|_|Sg	3	pn	_	_
+6	Maria	Maria	N	NE	_|_|Sg	5	app	_	_
+7	um	um	PTKVZ	PTKVZ	_	2	avz	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wollte	wollen	V	VMFIN	1|Sg|Past|_	0	root	_	_
+3	gern	gern	ADV	ADV	_	2	adv	_	_
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+5	DachWohnung	DachWohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+6	mit	mit	PREP	APPR	Dat	2	pp	_	_
+7	2	2	CARD	CARD	_	8	attr	_	_
+8	Zimmer	Zimmer	N	NN	Neut|_|Pl	6	pn	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Maria	Maria	N	NE	_|Acc|Sg	2	obja	_	_
+2	will	wollen	V	VMFIN	3|Sg|Pres|Ind	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	adv	_	_
+4	ein	eine	ART	ART	Indef|Masc|Nom|Sg	6	det	_	_
+5	klein	klein	ADV	ADJD	Pos|	6	adv	_	_
+6	Balkon	Balkon	N	NN	Masc|Nom|Sg	2	subj	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dass	dass	KOUS	KOUS	_	5	konj	_	_
+4	du	du	PRO	PPER	2|Sg|_|Nom	5	subj	_	_
+5	kannst	können	V	VMFIN	2|Sg|Pres|Ind	2	objc	_	_
+6	uns	wir	PRO	PPER	1|Pl|_|Acc	5	obja	_	_
+7	hilfe	hilfe	V	VVINF	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Bis	bis	PREP	APPR	Acc	0	root	_	_
+2	Bald	bald	ADV	ADV	_	1	adv	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Viele	viele	ART	PIDAT	Masc|_|Pl	5	det	_	_
+5	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	Katharina	Katharina	N	NN	Fem|_|Sg	5	app	_	_
+

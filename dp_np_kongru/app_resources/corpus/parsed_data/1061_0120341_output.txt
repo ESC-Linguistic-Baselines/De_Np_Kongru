@@ -1,0 +1,83 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Fem|_|Sg	1	app	_	_
+3	den	die	ART	ART	Def|_|_|_	5	det	_	_
+4	12.3.2012	12.3.2012	CARD	CARD	_	5	attr	_	_
+5	Bahnhofsstraße	Bahnhofsstraß	N	NN	_|_|_	0	root	_	_
+6	12	12	CARD	CARD	_	8	attr	_	_
+7	12345	12345	CARD	CARD	_	8	attr	_	_
+8	Liebe	Liebe	N	NN	_|Acc|Pl	5	app	_	_
+9	Dana	Dana	N	NE	_|Acc|Pl	8	app	_	_
+10	ich	ich	PRO	PPER	1|Sg|_|Nom	11	subj	_	_
+11	freue	freuen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+12	mich	ich	PRO	PRF	1|Sg|Acc	11	obja	_	_
+13	,	,	$,	$,	_	0	root	_	_
+14	dass	dass	KOUS	KOUS	_	17	konj	_	_
+15	deine	deine	ART	PPOSAT	_|Nom|Pl	16	det	_	_
+16	E-mail	E-mail	N	NN	_|Nom|Pl	17	subj	_	_
+17	ankommen	ankommen	V	VVFIN	3|Pl|Pres|_	11	objc	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	gratuliere	gratulieren	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+3	dein	deine	ART	PPOSAT	_|_|Sg	4	det	_	_
+4	Prüfung	Prüfung	N	NN	_|Nom|Sg	2	subj	_	_
+5	Ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+6	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+7	eine	eine	ART	ART	Indef|Fem|Acc|Sg	9	det	_	_
+8	schöne	schön	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	9	attr	_	_
+9	Kette	Kette	N	NN	Fem|Acc|Sg	6	obja	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	weil	weil	KOUS	KOUS	_	4	konj	_	_
+2	dort	dort	ADV	ADV	_	4	adv	_	_
+3	günstiga	günstiga	ADV	ADJD	_	4	pred	_	_
+4	sind	sein	V	VAFIN	_|Pl|Pres|Ind	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	wo	wo	PWAV	PWAV	_	2	adv	_	_
+2	lebt	leben	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	ihre	ihre	ART	PPOSAT	Fem|Nom|Sg	4	det	_	_
+4	Freundin	Freundin	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	auch	auch	ADV	ADV	_	6	adv	_	_
+4	ihre	ihre	ART	PPOSAT	Fem|Acc|Sg	5	det	_	_
+5	Adresse	Adresse	N	NN	Fem|Acc|Sg	6	obja	_	_
+6	haben	haben	V	VAINF	_	2	aux	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	weil	weil	KOUS	KOUS	_	10	konj	_	_
+9	wir	wir	PRO	PPER	1|Pl|_|Nom	10	subj	_	_
+10	machen	machen	V	VVFIN	1|Pl|Pres|_	2	neb	_	_
+11	in	in	PTKVZ	PTKVZ	_	10	avz	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	Sommer	Sommer	N	NE	_	2	vok	_	_
+14	urlaub	urlaub	N	NE	_	13	app	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+3	das	die	ART	ART	Def|Neut|Nom|Sg	4	det	_	_
+4	Wetter	Wetter	N	NN	Neut|Nom|Sg	2	subj	_	_
+5	und	und	KON	KON	_	0	root	_	_
+6	hastu	hastu	TRUNC	TRUNC	_	0	root	_	_
+7	meine	meine	ART	PPOSAT	Fem|_|Sg	8	det	_	_
+8	Tante	Tante	N	NN	Fem|_|Sg	0	root	_	_
+9	besucht	besuchen	V	VVPP	_	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	freue	freuen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	mich	ich	PRO	PRF	1|Sg|Acc	2	obja	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	dich	du	PRO	PPER	2|Sg|_|Acc	7	obja	_	_
+6	zu	zu	PTKZU	PTKZU	_	7	part	_	_
+7	besuchen	besuchen	V	VVINF	_	2	obji	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Deine	deine	ART	PPOSAT	Fem|_|Sg	4	det	_	_
+4	Maria	Maria	N	NN	Fem|_|Sg	0	root	_	_
+

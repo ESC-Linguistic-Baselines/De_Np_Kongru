@@ -1,0 +1,59 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Fem|_|Sg	1	app	_	_
+3	04.01.2012	04.01.2012	CARD	CARD	_	6	attr	_	_
+4	Sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	geehrte	geehrt	ADJA	ADJA	Pos|Fem|_|Pl|St|	6	attr	_	_
+6	Damen	Dame	N	NN	Fem|_|Pl	0	root	_	_
+7	und	und	KON	KON	_	6	kon	_	_
+8	Herren	Herr	N	NN	Masc|_|_	7	cj	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	Ich	ich	PRO	PPER	1|Sg|_|Nom	11	subj	_	_
+11	suches	suches	V	VVFIN	1|Sg|_|_	0	root	_	_
+12	eine	eine	ART	ART	Indef|Fem|Acc|Sg	13	det	_	_
+13	Wohneng	Wohneng	N	NN	Fem|Acc|Sg	11	obja	_	_
+14	Ich	ich	PRO	PPER	1|Sg|_|Nom	15	subj	_	_
+15	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+16	wohen	wohen	N	NN	_|_|_	15	obja	_	_
+17	mit	mit	PREP	APPR	Dat	15	objp	_	_
+18	3	3	CARD	CARD	_	19	attr	_	_
+19	Zimmer	Zimmer	N	NN	Neut|Nom|Pl	17	pn	_	_
+20	und	und	KON	KON	_	19	kon	_	_
+21	ein	eine	ART	ART	Indef|Masc|Nom|Sg	22	det	_	_
+22	Balkon	Balkon	N	NN	Masc|Nom|Sg	20	cj	_	_
+23	und	und	KON	KON	_	22	kon	_	_
+24	ein	eine	ART	ART	Indef|_|_|Sg	25	det	_	_
+25	Garage	Garage	N	NN	_|Nom|Sg	23	cj	_	_
+26	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	1	cj	_	_
+4	Garten	Garten	N	NN	Masc|Acc|Sg	3	obja	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	uber	uber	ADV	ADJD	_	2	adv	_	_
+2	wohen	wohen	V	VVFIN	_	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	1	cj	_	_
+4	Gruß	Gruß	N	NN	Masc|Acc|Sg	3	obja	_	_
+5	Keller	Keller	N	NE	_|Acc|Sg	4	app	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Schlafzimer	Schlafzimer	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+6	möchte	mögen	V	VMFIN	3|Sg|Past|Subj	0	root	_	_
+7	ein	eine	ART	ART	Indef|_|Nom|Sg	8	det	_	_
+8	GrußKüch	GrußKüch	N	NN	_|Nom|Sg	6	subj	_	_
+9	was	was	PRO	PIS	_|Nom|Sg	10	subj	_	_
+10	kostet	kosen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+11	its	its	ADV	ADV	_	10	adv	_	_
+12	500	500	CARD	CARD	_	13	attr	_	_
+13	€	€	FM	FM	_|_|Pl	10	obja	_	_
+14	vielGruß	vielGruß	FM	FM	_|_|Pl	13	app	_	_
+

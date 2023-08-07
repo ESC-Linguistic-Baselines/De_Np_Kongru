@@ -1,0 +1,94 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	13.3.2012	13.3.2012	CARD	CARD	_	5	attr	_	_
+5	Zentral	Zentral	FM	FM	_|Gen|Pl	8	gmod	_	_
+6	platz	platz	FM	FM	_|Gen|Pl	5	app	_	_
+7	123	123	CARD	CARD	_	6	app	_	_
+8	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+9	X	X	N	NE	Fem|_|Sg	8	app	_	_
+10	12345	12345	CARD	CARD	_	9	app	_	_
+11	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+12	Y	Y	N	NE	_|_|_	11	app	_	_
+13	Liebe	Liebe	N	NN	_|_|_	12	app	_	_
+14	Julia	Julia	N	NE	Fem|_|Sg	13	app	_	_
+15	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+16	,	,	$,	$,	_	0	root	_	_
+17	wie	wie	PWAV	PWAV	_	18	pred	_	_
+18	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	13	objc	_	_
+19	es	es	PRO	PPER	3|Sg|Neut|Nom	18	subj	_	_
+20	dir	du	PRO	PPER	2|Sg|_|Dat	18	objd	_	_
+21	?	?	$.	$.	_	0	root	_	_
+
+1	I	I	CARD	CARD	_	11	obja	_	_
+2	habe	haben	V	VAFIN	3|Sg|Pres|Subj	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Nom|Sg	4	det	_	_
+4	Fahrkarte	Fahrkarte	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	dieses	diese	ART	PDAT	Neut|Acc|Sg	7	det	_	_
+7	Wochenende	Wochenende	N	NN	Neut|Acc|Sg	5	pn	_	_
+8	(	(	$(	$(	_	0	root	_	_
+9	17-18.03	17-18.03	FM	FM	Neut|Acc|Sg	7	app	_	_
+10	)	)	$(	$(	_	0	root	_	_
+11	gekauft	kaufen	V	VVPP	_	2	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	kann	können	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+5	fahren	fahren	V	VVINF	_	3	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	weil	weil	KOUS	KOUS	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+3	ein	eine	ART	ART	Indef|_|_|Sg	0	root	_	_
+4	termin	termin	ADV	ADJD	Pos|	5	adv	_	_
+5	habe	haben	V	VAFIN	_|Sg|Pres|_	0	root	_	_
+6	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+7	du	du	PRO	PPER	2|Sg|_|Nom	6	subj	_	_
+8	mit	mit	PREP	APPR	Dat	6	objp	_	_
+9	einem	eine	ART	ART	Indef|_|Dat|Sg	10	det	_	_
+10	Zug	Zug	N	NN	Fem|Dat|Sg	8	pn	_	_
+11	Fahrkarte	Fahrkarte	N	NN	Fem|Dat|Sg	10	app	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Wenn	wenn	KOUS	KOUS	_	4	konj	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	4	subj	_	_
+3	das	die	PRO	PDS	Neut|Acc|Sg	4	obja	_	_
+4	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	Du	du	PRO	PPER	2|Sg|_|Nom	7	subj	_	_
+7	musst	müssen	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+8	zu	zu	PREP	APPR	Dat	13	objp	_	_
+9	Stadt	Stadt	N	NN	Fem|Dat|Sg	8	pn	_	_
+10	X	X	N	NE	Fem|Dat|Sg	9	app	_	_
+11	am	an	PREP	APPRART	Dat	9	pp	_	_
+12	16.03.2012	16.03.2012	CARD	CARD	_	11	pn	_	_
+13	kommen	kommen	V	VVINF	_	7	aux	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+3	nach	nach	PREP	APPR	Dat	9	pp	_	_
+4	Stadt	Stadt	N	NN	Neut|Dat|_	3	pn	_	_
+5	Z	Z	N	NN	Neut|Dat|_	4	app	_	_
+6	mit	mit	PREP	APPR	Dat	9	pp	_	_
+7	dem	die	ART	ART	Def|_|Dat|Sg	8	det	_	_
+8	Fahrkarte	Fahrkarte	N	NN	_|Dat|Sg	6	pn	_	_
+9	gehen	gehen	V	VVINF	_	2	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Antwortest	antworten	V	VVFIN	2|Sg|Pres|_	0	root	_	_
+2	Schnell	schnell	ADV	ADJD	Pos|	1	adv	_	_
+3	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	!	!	$.	$.	_	0	root	_	_
+
+1	Bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+2	bald	bald	ADV	ADV	_	1	adv	_	_
+3	Dein	deine	ART	PPOSAT	Masc|Nom|Sg	4	det	_	_
+4	Freund	Freund	N	NN	Masc|Nom|Sg	1	pred	_	_
+5	Tobias	Tobias	N	NE	Masc|Nom|Sg	4	app	_	_
+

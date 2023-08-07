@@ -1,0 +1,107 @@
+1	Lieber	Liebe	N	NN	_|_|_	0	root	_	_
+2	Michael	Michael	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Stadt	Stadt	N	NN	Fem|_|Sg	2	app	_	_
+5	X	X	N	NE	Fem|_|Sg	4	app	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	7.2.12	7.2.12	CARD	CARD	_	0	root	_	_
+8	vielen	viele	ART	PIDAT	Masc|_|Sg	9	det	_	_
+9	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+10	für	für	PREP	APPR	Acc	9	pp	_	_
+11	deine	deine	ART	PPOSAT	Fem|Acc|Sg	12	det	_	_
+12	Glückwunschkarte	Glückwunschkarte	N	NN	Fem|Acc|Sg	10	pn	_	_
+13	zum	zu	PREP	APPRART	Dat	12	pp	_	_
+14	neuen	neu	ADJA	ADJA	Pos|Neut|Dat|Sg|Wk|	15	attr	_	_
+15	Jahr	Jahr	N	NN	Neut|Dat|Sg	13	pn	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	auch	auch	ADV	ADV	_	2	adv	_	_
+5	alles	alle	ART	PIDAT	Neut|Acc|Sg	6	det	_	_
+6	Gute	Gut	N	NN	Neut|Acc|Sg	2	obja	_	_
+7	!	!	$.	$.	_	0	root	_	_
+
+1	In	in	PREP	APPR	_	3	pp	_	_
+2	Märzt	Märzt	N	NE	_|_|_	1	pn	_	_
+3	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	meine	meine	ART	PPOSAT	Fem|Nom|Sg	7	det	_	_
+6	neu	neu	ADV	ADJD	Pos|	7	adv	_	_
+7	Arbeit	Arbeit	N	NN	Fem|Nom|Sg	3	pred	_	_
+8	als	als	KOKOM	KOKOM	_	3	kom	_	_
+9	Verkäuferin	Verkäuferin	N	NN	Fem|_|Sg	8	cj	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	finde	finden	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	mir	ich	PRO	PPER	1|Sg|_|Dat	5	objd	_	_
+5	gefällt	gefallen	V	VVFIN	3|Sg|Pres|Ind	2	kon	_	_
+6	Neues	neu	ADJA	ADJA	Pos|Neut|_|Sg|St|	7	attr	_	_
+7	Arbeit	Arbeit	N	NN	Fem|Nom|Sg	5	subj	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	von	von	PREP	APPR	_	2	pp	_	_
+4	01.03.	01.03.	ADJA	ADJA	_|_|_|_|_|	3	pn	_	_
+5	arbeitet	arbeiten	V	VVFIN	_|_|Pres|_	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	Zeit	Zeit	N	NN	Fem|Acc|Sg	2	obja	_	_
+4	und	und	KON	KON	_	3	kon	_	_
+5	auch	auch	ADV	ADV	_	6	adv	_	_
+6	Lust	Lust	N	NN	Fem|Acc|Sg	4	cj	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Komm	kommen	V	VVIMP	Sg	0	root	_	_
+2	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+3	gerne	gerne	ADV	ADV	_	4	adv	_	_
+4	besuchen	besuchen	V	VVINF	_	0	root	_	_
+5	!	!	$.	$.	_	0	root	_	_
+
+1	An	an	PREP	APPR	_	3	pp	_	_
+2	Silvester	Silvester	N	NN	_|_|_	1	pn	_	_
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	verschiedene	verschieden	ADJA	ADJA	Pos|_|Acc|_|_|	6	obja	_	_
+6	gekocht	kochen	V	VVPP	_	3	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	gegesen	gegesen	N	NE	Masc|Nom|Sg	2	pred	_	_
+4	und	und	KON	KON	_	3	kon	_	_
+5	getrunken	getrunken	ADV	ADJD	Pos|	6	adv	_	_
+6	Rotwein	Rotwein	N	NN	Masc|Nom|Sg	4	cj	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Später	spät	ADV	ADJD	_|	2	adv	_	_
+2	sind	sein	V	VAFIN	1|Pl|Pres|Ind	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+4	auch	auch	ADV	ADV	_	9	adv	_	_
+5	dann	dann	ADV	ADV	_	9	adv	_	_
+6	in	in	PREP	APPR	Acc	9	objp	_	_
+7	die	die	ART	ART	Def|_|Acc|_	8	det	_	_
+8	Bahnhofsstraße	Bahnhofsstraß	N	NN	_|Acc|_	6	pn	_	_
+9	gegangen	gehen	V	VVPP	_	2	aux	_	_
+10	und	und	KON	KON	_	2	kon	_	_
+11	haben	haben	V	VAFIN	_|Pl|Pres|_	10	cj	_	_
+12	wir	wir	PRO	PPER	1|Pl|_|Nom	0	root	_	_
+13	das	die	ART	ART	Def|Neut|_|Sg	14	det	_	_
+14	Feuerwerk	Feuerwerk	N	NN	Neut|_|Sg	0	root	_	_
+15	angesehen	ansehen	V	VVPP	_	0	root	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	Bis	bis	PREP	APPR	Acc	0	root	_	_
+2	bald	bald	ADV	ADV	_	1	adv	_	_
+3	!	!	$.	$.	_	0	root	_	_
+
+1	Herzliche	herzlich	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+

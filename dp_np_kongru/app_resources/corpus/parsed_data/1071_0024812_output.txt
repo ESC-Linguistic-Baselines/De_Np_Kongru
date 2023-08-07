@@ -1,0 +1,56 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	wie	wie	PWAV	PWAV	_	4	pred	_	_
+4	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	´	´	FM	FM	_|Nom|Sg	4	subj	_	_
+6	s	s	FM	FM	_|Nom|Sg	5	app	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	muche	muche	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	am	an	PREP	APPRART	Dat	2	pp	_	_
+4	SO	SO	N	NN	Masc|Dat|Sg	3	pn	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	am	an	PREP	APPRART	Dat	4	pp	_	_
+2	17.00	17.00	CARD	CARD	_	3	attr	_	_
+3	Uhr	Uhr	N	NN	Fem|_|Sg	1	pn	_	_
+4	gehe	gehen	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+5	zum	zu	PREP	APPRART	_|Dat	0	root	_	_
+6	schwimmen	schwimmen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+7	Du	du	PRO	PPER	2|Sg|_|Nom	8	subj	_	_
+8	kommest	kommen	V	VVFIN	2|Sg|Pres|Subj	0	root	_	_
+9	mit	mit	PREP	APPR	Dat	0	root	_	_
+10	mier	mier	TRUNC	TRUNC	_	0	root	_	_
+11	oder	oder	KON	KON	_	0	root	_	_
+12	nein	nein	PTKANT	PTKANT	_	0	root	_	_
+13	?	?	$.	$.	_	0	root	_	_
+
+1	Tereffen	Tereffen	N	NE	_	0	root	_	_
+2	in	in	PREP	APPR	_	1	pp	_	_
+3	bis	bis	PREP	APPR	Acc	2	pp	_	_
+4	markplatz	markplatz	N	NN	_|Acc|_	3	pn	_	_
+5	bei	bei	PREP	APPR	Dat	4	pp	_	_
+6	Kaufhof	Kaufhof	N	NE	_|Dat|_	5	pn	_	_
+7	am	am	PTKA	PTKA	_	0	root	_	_
+8	16.00	16.00	CARD	CARD	_	9	attr	_	_
+9	Uhr	Uhr	N	NN	Fem|_|Sg	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	bracke	bracke	V	VVFIN	1|Pl|_|_	0	root	_	_
+3	ein	eine	ART	ART	Indef|Neut|Acc|Sg	4	det	_	_
+4	bikini	bikini	N	NN	Neut|Acc|Sg	2	obja	_	_
+5	und	und	KON	KON	_	0	root	_	_
+6	schampoo	schampoo	TRUNC	TRUNC	_	0	root	_	_
+7	und	und	KON	KON	_	0	root	_	_
+8	...	...	$.	$.	_	0	root	_	_
+9	dann	dann	ADV	ADV	_	10	adv	_	_
+10	bis	bis	PREP	APPR	Acc	0	root	_	_
+11	später	spät	ADV	ADJD	_|	12	adv	_	_
+12	Libe	Libe	N	NE	_|Acc|_	10	pn	_	_
+13	Groß	Groß	N	NE	_|Acc|_	12	app	_	_
+14	Stefan	Stefan	N	NE	_|Acc|_	13	app	_	_
+15	Tschüss	Tschüss	N	NE	_|Acc|_	14	app	_	_
+16	.	.	$.	$.	_	0	root	_	_
+

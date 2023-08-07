@@ -1,0 +1,47 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	Daniela	Daniela	N	NE	Fem|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+6	´	´	FM	FM	_|Nom|Sg	5	subj	_	_
+7	s	s	FM	FM	_|Nom|Sg	6	app	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Am	an	PREP	APPRART	Dat	3	pp	_	_
+2	Mittwoch	Mittwoch	N	NN	Masc|Dat|Sg	1	pn	_	_
+3	gehe	gehen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	zum	zu	PREP	APPRART	_|Dat	0	root	_	_
+6	schwimmen	schwimmen	V	VVINF	_	0	root	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	mochtest	mögen	V	VMFIN	2|Sg|Past|Ind	0	root	_	_
+9	du	du	PRO	PPER	2|Sg|_|Nom	8	subj	_	_
+10	kommen	kommen	V	VVINF	_	8	aux	_	_
+11	?	?	$.	$.	_	0	root	_	_
+
+1	Um	um	PREP	APPR	_	0	root	_	_
+2	6	6	CARD	CARD	_	3	attr	_	_
+3	uhr	uhr	N	NN	_|_|Pl	1	pn	_	_
+4	im	in	PREP	APPRART	Dat	3	pp	_	_
+5	A	A	N	NN	_|Dat|_	4	pn	_	_
+6	+	+	KON	KON	_	5	kon	_	_
+7	B.	B.	N	NN	Masc|Dat|Sg	6	cj	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bringe	bringen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	alle	alle	PRO	PIS	_|Acc|_	2	obja	_	_
+4	mit	mit	PTKVZ	PTKVZ	_	2	avz	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	bis	bis	PREP	APPR	Acc	0	root	_	_
+2	Mitwoch	Mitwoch	N	NE	_|Acc|Sg	1	pn	_	_
+3	Maria	Maria	N	NE	_|Acc|Sg	2	app	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	P.D.	P.D.	N	NE	_	0	root	_	_
+
+1	deine	deine	ART	PPOSAT	_|Nom|Sg	2	det	_	_
+2	froind	froind	N	NN	_|Nom|Sg	3	subj	_	_
+3	komme	kommen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+4	?	?	$.	$.	_	0	root	_	_
+

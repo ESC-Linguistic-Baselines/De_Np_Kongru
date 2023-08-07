@@ -1,0 +1,85 @@
+1	Hallo	Hallo	N	NN	Neut|_|Sg	0	root	_	_
+2	Jens	Jens	N	NE	Masc|_|Sg	1	app	_	_
+3	!	!	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	´	´	N	NE	_|Nom|Sg	2	subj	_	_
+4	s	s	PRO	PPER	_|_|_|Dat	2	objd	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	Masc|Nom|Pl	0	root	_	_
+2	Glückwünsche	Glückwunsch	N	NN	Masc|_|Pl	1	app	_	_
+3	!	!	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+3	Vater	Vater	N	NN	Masc|Nom|Sg	2	pred	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	deine	deine	ART	PPOSAT	Fem|Nom|Sg	4	det	_	_
+4	Frau	Frau	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Sie	sie	PRO	PPER	3|Sg|Fem|Nom	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	gesuntcheit	gesuntcheit	ADV	ADJD	_	2	pred	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	wie	wie	PWAV	PWAV	_	1	cj	_	_
+3	Baby	Baby	N	NN	Neut|_|Sg	0	root	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	heißt	heißen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	Baby	Baby	N	NN	Neut|Nom|Sg	2	subj	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	mannlich	mannlich	ADV	ADJD	Pos|	2	pred	_	_
+4	oder	oder	KON	KON	_	3	kon	_	_
+5	weiblich	weiblich	ADV	ADJD	Pos|	4	cj	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	hat	haben	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	viel	viel	ART	PIDAT	_|Nom|Sg	4	det	_	_
+4	cm	cm	N	NN	_|Nom|Sg	2	subj	_	_
+5	und	und	KON	KON	_	4	kon	_	_
+6	kg	kg	N	NN	_|Nom|Sg	5	cj	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Oh	oh	ITJ	ITJ	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+5	so	so	ADV	ADV	_	6	adv	_	_
+6	glücklich	glücklich	ADV	ADJD	Pos|	4	pred	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	heute	heute	ADV	ADV	_	6	adv	_	_
+4	sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	gut	gut	ADV	ADJD	Pos|	6	adv	_	_
+6	information	information	V	VVPP	_	2	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	mache	machen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Party	Party	N	NN	Fem|Acc|Sg	2	obja	_	_
+4	für	für	PREP	APPR	Acc	2	pp	_	_
+5	Baby	Baby	N	NN	Neut|Acc|Sg	4	pn	_	_
+6	-	-	$(	$(	_	0	root	_	_
+7	bin	sein	V	VAFIN	1|Sg|Pres|Ind	2	kon	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	7	subj	_	_
+9	Tante	Tante	N	NN	Fem|Nom|Sg	7	pred	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Tschuss	Tschuss	N	NE	_|_|Sg	0	root	_	_
+2	Maria	Maria	N	NE	_|_|Sg	1	app	_	_
+

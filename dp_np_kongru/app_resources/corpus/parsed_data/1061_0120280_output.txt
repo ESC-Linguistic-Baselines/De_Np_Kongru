@@ -1,0 +1,56 @@
+1	lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Dana	Dana	N	NE	_	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	gratuliere	gratulieren	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	für	für	PREP	APPR	Acc	6	pp	_	_
+5	Brüfung	Brüfung	N	NE	_|Acc|_	4	pn	_	_
+6	bestanden	bestehen	V	VVFIN	_|Pl|Past|Ind	0	root	_	_
+7	Ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	6	s	_	_
+9	dich	du	PRO	PRF	2|Sg|Acc	12	obja	_	_
+10	zu	zu	PREP	APPR	Dat	12	pp	_	_
+11	Hause	Haus	N	NN	Neut|Dat|Sg	10	pn	_	_
+12	besuchen	besuchen	V	VVINF	_	8	aux	_	_
+13	,	,	$,	$,	_	0	root	_	_
+14	aber	aber	KON	KON	_	6	kon	_	_
+15	ich	ich	PRO	PPER	1|Sg|_|Nom	16	subj	_	_
+16	habe	haben	V	VAFIN	1|Sg|Pres|_	14	cj	_	_
+17	keine	keine	ART	PIAT	Fem|Acc|Sg	18	det	_	_
+18	Zeit	Zeit	N	NN	Fem|Acc|Sg	16	obja	_	_
+19	ich	ich	PRO	PPER	1|Sg|_|Nom	20	subj	_	_
+20	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+21	lernen	lernen	V	VVINF	_	20	aux	_	_
+22	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+4	mich	ich	PRO	PPER	1|Sg|_|Acc	0	root	_	_
+5	eine	eine	ART	ART	Indef|Fem|_|Sg	7	det	_	_
+6	blaue	blau	ADJA	ADJA	Pos|Fem|_|Sg|_|	7	attr	_	_
+7	Auge	Auge	N	NN	Fem|_|Sg	0	root	_	_
+8	mitbringen	mitbringen	V	VVINF	_	0	root	_	_
+9	sie	sie	PRO	PPER	3|Sg|Fem|Nom	10	subj	_	_
+10	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+11	echt	echt	ADV	ADJD	Pos|	12	adv	_	_
+12	schön	schön	ADV	ADJD	Pos|	10	pred	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	meine	meine	ART	PPOSAT	Neut|Nom|Pl	3	det	_	_
+2	verwandten	verwandt	ADJA	ADJA	Pos|Neut|Nom|Pl|Wk|	3	attr	_	_
+3	Leben	Leben	N	NN	Neut|Nom|Pl	8	subj	_	_
+4	in	in	PREP	APPR	_	3	pp	_	_
+5	Syrian	Syrian	N	NN	_|_|_	4	pn	_	_
+6	und	und	KON	KON	_	3	kon	_	_
+7	wir	wir	PRO	PPER	1|Pl|_|Nom	6	cj	_	_
+8	müssen	müssen	V	VMFIN	3|Pl|Pres|_	0	root	_	_
+9	euch	ihr	PRO	PRF	2|Pl|Acc	10	obja	_	_
+10	besuchen	besuchen	V	VVINF	_	8	aux	_	_
+11	bis	bis	PREP	APPR	Acc	10	pp	_	_
+12	bald	bald	ADV	ADV	_	14	adv	_	_
+13	Deine	deine	ART	PPOSAT	Fem|Acc|Sg	14	det	_	_
+14	Julia	Julia	N	NN	Fem|Acc|Sg	11	pn	_	_
+

@@ -1,0 +1,127 @@
+1	Lieber	Liebe	N	NN	_|_|_	0	root	_	_
+2	Michael	Michael	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+5	X.26.03.2012	X.26.03.2012	N	NE	Fem|_|Sg	4	app	_	_
+6	vielen	viele	ART	PIDAT	Masc|_|Sg	7	det	_	_
+7	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+8	für	für	PREP	APPR	Acc	7	pp	_	_
+9	deinen	deine	ART	PPOSAT	Masc|Acc|Sg	10	det	_	_
+10	Brief	Brief	N	NN	Masc|Acc|Sg	8	pn	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Acc|Sg	2	det	_	_
+2	Silvesternacht	Silvesternacht	N	NN	Fem|Acc|Sg	14	obja	_	_
+3	haben	haben	V	VAFIN	_|Pl|Pres|_	0	root	_	_
+4	Stefan	Stefan	N	NE	Masc|Nom|Sg	3	subj	_	_
+5	und	und	KON	KON	_	4	kon	_	_
+6	ich	ich	PRO	PPER	1|Sg|_|Nom	5	cj	_	_
+7	wie	wie	KOKOM	KOKOM	_	14	kom	_	_
+8	jedes	jede	ART	PIDAT	Neut|_|Sg	9	det	_	_
+9	Jahr	Jahr	N	NN	Neut|_|Sg	7	cj	_	_
+10	mit	mit	PREP	APPR	Dat	14	pp	_	_
+11	Familie	Familie	N	NN	Fem|Dat|Sg	10	pn	_	_
+12	in	in	PREP	APPR	_	14	pp	_	_
+13	Holland	Holland	N	NE	Neut|_|Sg	12	pn	_	_
+14	verbracht	verbringen	V	VVPP	_	3	aux	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Meinem	meine	ART	PPOSAT	_|Dat|Sg	2	det	_	_
+2	Mutter	Mutter	N	NN	_|Dat|Sg	5	objd	_	_
+3	hatt	hatt	N	NE	_|Dat|Sg	2	app	_	_
+4	Super	Super	N	NE	_|Dat|Sg	3	app	_	_
+5	gekocht	kochen	V	VVPP	_	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	wir	wir	PRO	PPER	1|Pl|_|Nom	3	subj	_	_
+3	haben	haben	V	VAFIN	1|Pl|Pres|_	1	cj	_	_
+4	gemeinsam	gemeinsam	ADV	ADJD	Pos|	5	adv	_	_
+5	gegessen	essen	V	VVPP	_	3	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	sind	sein	V	VAFIN	1|Pl|Pres|Ind	0	root	_	_
+3	auch	auch	ADV	ADV	_	8	adv	_	_
+4	SPäter	SPäter	N	NN	_|Dat|_	8	objd	_	_
+5	in	in	PREP	APPR	Acc	8	objp	_	_
+6	die	die	ART	ART	Def|Fem|Acc|Sg	7	det	_	_
+7	Altstadt	Altstadt	N	NN	Fem|Acc|Sg	5	pn	_	_
+8	gegangen	gehen	V	VVPP	_	2	aux	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	wo	wo	PWAV	PWAV	_	15	adv	_	_
+11	wir	wir	PRO	PPER	1|Pl|_|Nom	16	subj	_	_
+12	uns	wir	PRO	PRF	1|Pl|Dat	15	objd	_	_
+13	das	die	ART	ART	Def|Neut|Acc|Sg	14	det	_	_
+14	Feuerwerk	Feuerwerk	N	NN	Neut|Acc|Sg	15	obja	_	_
+15	angesehen	ansehen	V	VVPP	_	16	aux	_	_
+16	haben	haben	V	VAFIN	1|Pl|Pres|_	8	rel	_	_
+17	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	Masc|Nom|Sg	0	root	_	_
+2	Wunsch	Wunsch	N	NN	Masc|_|Sg	1	app	_	_
+3	mich	ich	PRO	PRF	1|Sg|Acc	0	root	_	_
+4	für	für	PREP	APPR	Acc	10	pp	_	_
+5	das	die	ART	ART	Def|Neut|Acc|Sg	7	det	_	_
+6	neue	neu	ADJA	ADJA	Pos|Neut|Acc|Sg|Wk|	7	attr	_	_
+7	Jahr	Jahr	N	NN	Neut|Acc|Sg	4	pn	_	_
+8	einen	eine	ART	ART	Indef|Masc|Acc|Sg	10	det	_	_
+9	gute	gut	ADJA	ADJA	Pos|_|_|_|_|	10	attr	_	_
+10	Gesundheid	Gesundheid	N	NN	Masc|Acc|Sg	0	root	_	_
+11	und	und	KON	KON	_	10	kon	_	_
+12	viel	viel	ART	PIDAT	Masc|Acc|Sg	13	det	_	_
+13	SPass	SPass	N	NN	Masc|Acc|Sg	11	cj	_	_
+14	Ich	ich	PRO	PPER	Fem|Nom|Sg	0	root	_	_
+15	Arbeit	Arbeit	N	NN	Fem|_|Sg	14	app	_	_
+16	im	in	PREP	APPRART	Dat	15	pp	_	_
+17	moment	moment	N	NN	_|Dat|_	16	pn	_	_
+18	bei	bei	PREP	APPR	Dat	17	pp	_	_
+19	Firma	Firma	N	NN	Fem|Dat|Sg	18	pn	_	_
+20	XYZ	XYZ	N	NE	Fem|Dat|Sg	19	app	_	_
+21	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	mache	machen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Dialog	Dialog	N	NN	_|Acc|Sg	2	obja	_	_
+4	Marketing	Marketing	N	NE	_|Acc|Sg	3	app	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+2	macht	machen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	SPass	SPass	N	NN	_|_|_	2	obja	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	telefonier	telefonier	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	ganz	ganz	ADV	ADV	_	4	adv	_	_
+4	tag	tag	ADV	ADJD	_	2	adv	_	_
+5	mit	mit	PREP	APPR	Dat	2	pp	_	_
+6	Kunden	Kunde	N	NN	_|Dat|_	5	pn	_	_
+7	von	von	PREP	APPR	_	6	pp	_	_
+8	Firma	Firma	N	NN	Fem|_|Sg	7	pn	_	_
+9	AB	AB	N	NE	Fem|_|Sg	8	app	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	5	objd	_	_
+4	gerne	gerne	ADV	ADV	_	5	adv	_	_
+5	besuchen	besuchen	V	VVINF	_	2	aux	_	_
+6	wenn	wenn	KOUS	KOUS	_	8	konj	_	_
+7	du	du	PRO	PPER	2|Sg|_|Nom	8	subj	_	_
+8	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	2	neb	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wunsch	wunsch	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	viel	viel	ART	PIDAT	Masc|Acc|_	5	det	_	_
+5	Erfolg	Erfolg	N	NN	Masc|Acc|_	2	obja	_	_
+6	mit	mit	PREP	APPR	Dat	5	pp	_	_
+7	deinen	deine	ART	PPOSAT	Fem|Dat|Sg	8	det	_	_
+8	Ausbildung	Ausbildung	N	NN	Fem|Dat|Sg	6	pn	_	_
+9	Bäcker	Bäcker	N	NN	Masc|Acc|_	5	app	_	_
+10	Herzliche	herzlich	ADJA	ADJA	Pos|Masc|Acc|Pl|St|	11	attr	_	_
+11	Grüße	Gruß	N	NN	Masc|Acc|Pl	9	app	_	_
+12	Maria	Maria	N	NE	_|Acc|Sg	11	app	_	_
+

@@ -1,0 +1,120 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Maria	Maria	N	NE	_|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	0	root	_	_
+5	gehts	gehts	N	NE	_	0	root	_	_
+6	dir	du	PRO	PPER	2|Sg|_|Dat	0	root	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+2	geht	gehen	V	VVFIN	_|_|Pres|Ind	0	root	_	_
+3	gut	gut	ADV	ADJD	Pos|	2	pred	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+6	habe	haben	V	VAFIN	1|Sg|Pres|_	2	kon	_	_
+7	7	7	CARD	CARD	_	8	attr	_	_
+8	Tage	Tag	N	NN	Masc|Acc|Pl	6	obja	_	_
+9	Uhlaub	Uhlaub	N	NE	Masc|Acc|Pl	8	app	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	meine	meine	ART	PPOSAT	_|Acc|Pl	4	det	_	_
+4	Eltern	Elter	N	NN	_|Acc|Pl	5	obja	_	_
+5	besuchen	besuchen	V	VVINF	_	2	aux	_	_
+6	in	in	PREP	APPR	_	5	pp	_	_
+7	Hessen	Hessen	N	NE	Neut|_|Sg	6	pn	_	_
+8	und	und	KON	KON	_	2	kon	_	_
+9	dann	dann	ADV	ADV	_	10	adv	_	_
+10	fahren	fahren	V	VVFIN	1|Pl|Pres|_	8	cj	_	_
+11	wir	wir	PRO	PPER	1|Pl|_|Nom	10	subj	_	_
+12	zusammen	zusammen	ADV	ADV	_	13	adv	_	_
+13	nach	nach	PREP	APPR	Dat	10	pp	_	_
+14	Stadt	Stadt	N	NN	Fem|Dat|Sg	13	pn	_	_
+15	X	X	N	NE	Fem|Dat|Sg	14	app	_	_
+16	zu	zu	PREP	APPR	Dat	10	pp	_	_
+17	meiner	meine	ART	PPOSAT	Fem|Dat|Sg	18	det	_	_
+18	Tante	Tante	N	NN	Fem|Dat|Sg	16	pn	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Mein	meine	ART	PPOSAT	Neut|Nom|Sg	2	det	_	_
+2	Uhrlaub	Uhrlaub	N	NN	Neut|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	von	von	PREP	APPR	_	3	pp	_	_
+5	7	7	CARD	CARD	_	4	pn	_	_
+6	bis	bis	PREP	APPR	Acc	5	pp	_	_
+7	13	13	CARD	CARD	_	6	pn	_	_
+8	Januar	Januar	N	NN	Masc|Nom|Sg	3	pred	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Bitte	Bitte	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	dich	du	PRO	PPER	2|Sg|_|Acc	5	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	um	um	PREP	APPR	Acc	6	objp	_	_
+4	meine	meine	ART	PPOSAT	Fem|Acc|Sg	5	det	_	_
+5	Katze	Katze	N	NN	Fem|Acc|Sg	3	pn	_	_
+6	kümmern	kümmern	V	VVINF	_	1	aux	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Neut|Acc|Pl	2	det	_	_
+2	Katzenfutter	Katzenfutter	N	NN	Neut|Acc|Pl	7	obja	_	_
+3	und	und	KON	KON	_	2	kon	_	_
+4	Milch	Milch	N	NN	Fem|Acc|Sg	3	cj	_	_
+5	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+6	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+7	gekauft	kaufen	V	VVPP	_	5	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+2	muss	müssen	V	VMFIN	3|Sg|Pres|Ind	0	root	_	_
+3	die	die	ART	ART	Def|Fem|Nom|Sg	4	det	_	_
+4	Katze	Katze	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	3	3	CARD	CARD	_	6	attr	_	_
+6	Mal	Mal	N	NN	Neut|Acc|Pl	9	obja	_	_
+7	pro	pro	PREP	APPR	Dat	9	pp	_	_
+8	Tag	Tag	N	NN	Masc|Dat|Sg	7	pn	_	_
+9	futtern	futtern	V	VVINF	_	2	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+4	helfen	helfen	V	VVINF	_	1	aux	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Schreib	Schreib	N	NE	_|Nom|Sg	3	subj	_	_
+2	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+3	diene	dienen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+4	Antwort	Antwort	N	NN	Fem|Dat|Sg	3	objd	_	_
+5	so	so	ADV	ADV	_	6	adv	_	_
+6	schnell	schnell	ADV	ADJD	Pos|	3	adv	_	_
+7	wie	wie	KOKOM	KOKOM	_	3	kom	_	_
+8	möglich	möglich	ADV	ADJD	Pos|	7	cj	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	danke	danken	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dir	du	PRO	PPER	2|Sg|_|Dat	2	objd	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Ein	ein	ART	ART	Indef|Masc|Nom|Sg	2	det	_	_
+2	Kuß	Kuß	N	NN	Masc|Nom|Sg	0	root	_	_
+3	von	von	PREP	APPR	Dat	2	pp	_	_
+4	mir	ich	PRO	PPER	1|Sg|_|Dat	3	pn	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Deine	deine	ART	PPOSAT	Fem|_|Sg	2	det	_	_
+2	Freundin	Freundin	N	NN	Fem|_|Sg	0	root	_	_
+3	Eva	Eva	N	NE	Fem|_|Sg	2	app	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	4.01.2012	4.01.2012	CARD	CARD	_	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+

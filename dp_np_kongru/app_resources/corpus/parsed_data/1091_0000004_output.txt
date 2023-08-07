@@ -1,0 +1,43 @@
+1	05.01.2012	05.01.2012	CARD	CARD	_	0	root	_	_
+2	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+3	X	X	CARD	CARD	_	2	app	_	_
+4	Hallo	Hallo	N	NN	Neut|_|Sg	0	root	_	_
+5	Julia	Julia	N	NE	Fem|_|Sg	4	app	_	_
+6	Ich	ich	PRO	PPER	1|Sg|_|Nom	7	subj	_	_
+7	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+8	eine	eine	ART	ART	Indef|Fem|Acc|Sg	9	det	_	_
+9	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	10	obja	_	_
+10	gekauft	kaufen	V	VVPP	_	7	aux	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Leider	leider	ADV	ADV	_	2	adv	_	_
+2	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+5	fahren	fahren	V	VVINF	_	2	aux	_	_
+6	Habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+7	Ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+8	einen	eine	ART	ART	Indef|Masc|Acc|Sg	9	det	_	_
+9	Termin	Termin	N	NN	Masc|Acc|Sg	6	obja	_	_
+10	zum	zu	PREP	APPRART	Dat	12	pp	_	_
+11	Azten	Azten	N	NN	_|Dat|_	10	pn	_	_
+12	Ich	ich	PRO	PPER	1|Sg|_|Nom	13	subj	_	_
+13	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+14	krank	krank	ADV	ADJD	Pos|	13	pred	_	_
+15	Aber	aber	KON	KON	_	13	kon	_	_
+16	möchten	mögen	V	VMFIN	_|Pl|Past|Subj	15	cj	_	_
+17	Sie	sie	PRO	PPER	3|_|_|Acc	16	obja	_	_
+18	meine	meine	ART	PPOSAT	_|_|_	19	det	_	_
+19	Karten	Karte	N	NN	_|_|_	0	root	_	_
+20	haben	haben	V	VAINF	_	0	root	_	_
+21	morgen	morgen	ADV	ADV	_	22	adv	_	_
+22	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+23	du	du	PRO	PPER	2|Sg|_|Nom	22	subj	_	_
+24	Farkarte	Farkarte	N	NE	_|_|_	22	obja	_	_
+25	hollen	hollen	V	VVFIN	_	0	root	_	_
+26	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Maria	Maria	N	NE	_|_|Sg	2	app	_	_
+

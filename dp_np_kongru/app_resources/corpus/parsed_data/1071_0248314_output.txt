@@ -1,0 +1,75 @@
+1	Liebe	Liebe	N	NN	_|Nom|Sg	6	subj	_	_
+2	Daniela	Daniela	N	NE	Neut|Nom|Sg	1	app	_	_
+3	Hallo	Hallo	N	NN	Neut|Nom|Sg	2	app	_	_
+4	Daniela	Daniela	N	NE	Neut|Nom|Sg	3	app	_	_
+5	wi	wi	N	NE	Neut|Nom|Sg	4	app	_	_
+6	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+7	es	es	PRO	PPER	3|Sg|Neut|_	6	expl	_	_
+8	hir	hir	V	VVFIN	_	0	root	_	_
+9	ich	ich	PRO	PPER	1|Sg|_|Nom	10	subj	_	_
+10	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+11	dich	du	PRO	PRF	2|Sg|Acc	12	obja	_	_
+12	angerufen	anrufen	V	VVPP	_	10	aux	_	_
+13	zu	zu	PREP	APPR	Dat	15	pp	_	_
+14	Hause	Haus	N	NN	Neut|Dat|Sg	13	pn	_	_
+15	du	du	PRO	PPER	2|Sg|_|Nom	16	pred	_	_
+16	war	sein	V	VAFIN	_|Sg|Past|Ind	0	root	_	_
+17	nicht	nicht	PTKNEG	PTKNEG	_	16	adv	_	_
+18	zu	zu	PREP	APPR	Dat	16	pp	_	_
+19	Hause	Haus	N	NN	Neut|Dat|Sg	18	pn	_	_
+20	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	gerne	gerne	ADV	ADV	_	2	adv	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	am	am	PTKA	PTKA	_	2	adv	_	_
+2	wochnenden	wochnenden	ADV	ADJD	_	0	root	_	_
+3	bei	bei	PTKVZ	PTKVZ	_	0	root	_	_
+4	schwimmen	schwimmen	V	VVINF	_	5	obji	_	_
+5	gehen	gehen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+6	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+7	was	was	PRO	PIS	_	0	root	_	_
+8	nicht	nicht	PTKNEG	PTKNEG	_	7	adv	_	_
+9	wen	wer	PRO	PWS	_|Acc|Sg	0	root	_	_
+10	du	du	PRO	PPER	Fem|Nom|Sg	0	root	_	_
+11	Arbeit	Arbeit	N	NN	Fem|_|Sg	10	app	_	_
+12	bis	bis	PTKVZ	PTKVZ	_	0	root	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+2	schreibst	schreiben	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+4	mich	ich	PRO	PPER	1|Sg|_|Acc	2	obja	_	_
+5	zurück	zurück	PTKVZ	PTKVZ	_	2	avz	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	wen	wer	PRO	PWS	_|Acc|Sg	10	obja	_	_
+8	du	du	PRO	PPER	2|Sg|_|Nom	10	subj	_	_
+9	Zeit	Zeit	N	NN	Fem|Acc|Sg	10	zeit	_	_
+10	hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+11	dissen	dissen	ADJA	ADJA	_	12	attr	_	_
+12	wochen	wochen	N	NN	_	0	root	_	_
+13	enden	enden	V	VVINF	_	0	root	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	können	können	V	VMFIN	1|Pl|Pres|_	0	root	_	_
+3	zu	zu	PTKVZ	PTKVZ	_	2	avz	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	schwimmen	schwimmen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+2	zusammen	zusammen	ADV	ADV	_	1	adv	_	_
+3	gehen	gehen	V	VVINF	_	0	root	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Danke	Danke	V	VVIMP	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	warte	warten	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	deine	deine	ART	PPOSAT	_|_|_	2	det	_	_
+2	antwort	antwort	N	NN	_|_|_	0	root	_	_
+3	Grüß	Grüß	N	NE	Fem|_|Sg	2	app	_	_
+4	Eva	Eva	N	NE	Fem|_|Sg	3	app	_	_
+

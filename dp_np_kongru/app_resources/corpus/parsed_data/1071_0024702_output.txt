@@ -1,0 +1,76 @@
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	wie	wie	KOKOM	KOKOM	_	0	root	_	_
+4	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	es	es	PRO	PPER	3|Sg|Neut|Nom	4	subj	_	_
+6	dir	du	PRO	PPER	2|Sg|_|Dat	4	objd	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	4	attr	_	_
+4	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	7	obja	_	_
+5	in	in	PREP	APPR	_	7	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	gefunden	finden	V	VVPP	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Jetzt	jetzt	ADV	ADV	_	2	adv	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+4	für	für	PREP	APPR	Acc	3	pp	_	_
+5	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+6	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	4	pn	_	_
+7	in	in	PREP	APPR	_	3	pp	_	_
+8	Neuburg	Neuburg	N	NN	Fem|_|Sg	7	pn	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|Nom|Sg	2	det	_	_
+2	Arbeit	Arbeit	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	fängt	fangen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+4	am	an	PREP	APPRART	_|Dat	0	root	_	_
+5	11	11	CARD	CARD	_	0	root	_	_
+6	Juli	Juli	N	NN	Masc|_|Sg	0	root	_	_
+7	an	an	PTKVZ	PTKVZ	_	0	root	_	_
+8	und	und	KON	KON	_	0	root	_	_
+9	ich	ich	PRO	PPER	1|Sg|_|Nom	10	subj	_	_
+10	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	8	cj	_	_
+11	eine	eine	ART	ART	Indef|Fem|Acc|Sg	12	det	_	_
+12	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	10	obja	_	_
+13	bevor	bevor	KOUS	KOUS	_	0	root	_	_
+14	dann	dann	ADV	ADV	_	0	root	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	1	objd	_	_
+4	mit	mit	PREP	APPR	Dat	1	pp	_	_
+5	meine	meine	ART	PPOSAT	_|_|_	6	det	_	_
+6	Wohnungsuchen	Wohnungsuche	N	NN	_|_|_	4	pn	_	_
+7	hilfen	hilfen	N	NE	_|_|_	6	app	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Nom|Sg	4	det	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Nom|Sg	6	subj	_	_
+5	dass	dass	FM	FM	Fem|Nom|Sg	4	app	_	_
+6	ist	sein	V	VAFIN	3|Sg|Pres|Ind	2	s	_	_
+7	mindestens	mindestens	ADV	ADV	_	9	adv	_	_
+8	120	120	CARD	CARD	_	9	attr	_	_
+9	m	m	N	NN	_|_|Pl	6	obja	_	_
+10	²	²	N	NE	_|Nom|_	6	pred	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	weil	weil	KOUS	KOUS	_	0	root	_	_
+13	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+14	eine	eine	ART	ART	Indef|Fem|Acc|Sg	15	det	_	_
+15	Größe	Größe	N	NN	Fem|Acc|Sg	17	obja	_	_
+16	Familien	Familie	N	NN	Fem|Nom|Pl	17	subj	_	_
+17	haben	haben	V	VAFIN	3|Pl|Pres|_	0	root	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Schön	schön	ADV	ADJD	Pos|	2	adv	_	_
+2	Gruß	Gruß	N	NN	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Michael	Michael	N	NE	Masc|_|Sg	2	app	_	_
+

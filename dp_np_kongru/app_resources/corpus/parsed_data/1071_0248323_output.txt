@@ -1,0 +1,64 @@
+1	Hallo	Hallo	N	NN	Neut|_|Sg	0	root	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	1	app	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	haben	haben	V	VAFIN	_|Pl|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	in	in	PREP	APPR	_	2	pp	_	_
+6	Neuburg	Neuburg	N	NE	_|_|_	5	pn	_	_
+7	gefundet	gefundet	N	NE	_|_|_	6	app	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+10	beginnt	beginnen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+11	1st	1st	N	NN	Masc|Nom|Sg	10	subj	_	_
+12	Juli	Juli	N	NN	Masc|Nom|Sg	11	app	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	in	in	PREP	APPR	_	2	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Kann	können	V	VMFIN	3|Sg|Pres|Ind	0	root	_	_
+2	ihr	ihre	ART	PPOSAT	_|_|Sg	3	det	_	_
+3	Hilfe	Hilfe	N	NN	_|Nom|Sg	1	subj	_	_
+4	mich	ich	PRO	PPER	1|Sg|_|Acc	1	obja	_	_
+5	bei	bei	PREP	APPR	Dat	1	pp	_	_
+6	der	die	ART	ART	Def|Fem|Dat|Sg	7	det	_	_
+7	Wohnungssuche	Wohnungssuche	N	NN	Fem|Dat|Sg	5	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	an	an	PREP	APPR	_	2	pp	_	_
+4	Idee	Idee	N	NN	Fem|_|Sg	3	pn	_	_
+5	Große	Große	N	NN	_|Acc|_	2	obja	_	_
+6	der	die	ART	ART	Def|Fem|Gen|Sg	7	det	_	_
+7	Wohnung	Wohnung	N	NN	Fem|Gen|Sg	5	gmod	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Kann	können	V	VMFIN	3|Sg|Pres|Ind	0	root	_	_
+2	Sie	sie	PRO	PPER	3|Sg|Fem|Nom	1	subj	_	_
+3	anrufen	anrufen	V	VVINF	_	1	aux	_	_
+4	mich	ich	PRO	PPER	1|Sg|_|Acc	0	root	_	_
+5	und	und	KON	KON	_	0	root	_	_
+6	spricht	sprechen	V	VVFIN	3|Sg|Pres|Ind	5	cj	_	_
+7	mich	ich	PRO	PRF	1|Sg|Acc	6	obja	_	_
+8	wenn	wenn	KOUS	KOUS	_	10	konj	_	_
+9	Sie	sie	PRO	PPER	3|Pl|_|Nom	10	subj	_	_
+10	haben	haben	V	VAFIN	3|Pl|Pres|_	6	neb	_	_
+11	der	die	ART	ART	Def|Fem|Dat|Sg	12	det	_	_
+12	Zeit	Zeit	N	NN	Fem|Dat|Sg	10	objd	_	_
+13	Mit	mit	PREP	APPR	Dat	10	pp	_	_
+14	Große	groß	ADJA	ADJA	Pos|_|_|_|_|	15	attr	_	_
+15	Freundlich	Freundlich	N	NN	_|_|_	13	pn	_	_
+16	Vielen	viele	ART	PIDAT	_|Acc|_	17	det	_	_
+17	Vielen	Viele	N	NN	_|Acc|_	10	obja	_	_
+18	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	_
+19	.	.	$.	$.	_	0	root	_	_
+

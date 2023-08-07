@@ -1,0 +1,13 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Jens	Jens	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Mein	meine	ART	PPOSAT	Masc|Nom|Sg	5	det	_	_
+5	Freund	Freund	N	NN	Masc|Nom|Sg	0	root	_	_
+6	Glücknsche	Glücknsche	N	NE	Masc|Nom|Sg	5	app	_	_
+7	Mein	meine	ART	PPOSAT	_|_|Sg	8	det	_	_
+8	Babys	Baby	N	NN	_|_|Sg	0	root	_	_
+9	shon	shon	FM	FM	Masc|_|Pl	8	app	_	_
+10	biebe	biebe	FM	FM	Masc|_|Pl	9	app	_	_
+11	Grüße	Gruß	N	NN	Masc|_|Pl	10	app	_	_
+12	Eva	Eva	N	NE	Fem|_|Sg	11	app	_	_
+

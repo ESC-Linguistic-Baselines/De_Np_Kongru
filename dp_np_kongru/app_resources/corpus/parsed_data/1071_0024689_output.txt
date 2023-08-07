@@ -1,0 +1,79 @@
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	0	root	_	_
+2	gehts	gehts	N	NE	_	0	root	_	_
+3	dir	du	PRO	PPER	2|Sg|_|Dat	0	root	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+2	schon	schon	ADV	ADV	_	5	adv	_	_
+3	eine	eine	ART	ART	Indef|Fem|Nom|Sg	5	det	_	_
+4	lange	lang	ADJA	ADJA	Pos|Fem|Nom|Sg|_|	5	attr	_	_
+5	Seite	Seite	N	NN	Fem|Nom|Sg	12	subj	_	_
+6	wann	wann	PWAV	PWAV	_	7	adv	_	_
+7	habe	haben	V	VAFIN	1|Sg|Pres|_	5	objc	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	7	subj	_	_
+9	nach	nach	PREP	APPR	Dat	11	pp	_	_
+10	Berlin	Berlin	N	NE	_|Dat|Sg	9	pn	_	_
+11	gefahren	fahren	V	VVPP	_	7	aux	_	_
+12	since	since	V	VVFIN	_|Sg|_|_	0	root	_	_
+13	dann	dann	ADV	ADV	_	12	adv	_	_
+14	habe	haben	V	VAFIN	_|Sg|Pres|_	0	root	_	_
+15	uns	wir	PRO	PPER	1|Pl|_|Acc	17	obja	_	_
+16	nicht	nicht	PTKNEG	PTKNEG	_	17	adv	_	_
+17	gesprochen	sprechen	V	VVPP	_	14	aux	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	So	so	ADV	ADV	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+4	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	_
+5	schon	schon	ADV	ADV	_	3	adv	_	_
+6	wieder	wieder	ADV	ADV	_	3	adv	_	_
+7	ins	in	PREP	APPRART	Acc	3	pp	_	_
+8	Neuburg	Neuburg	N	NN	Fem|_|Sg	7	pn	_	_
+9	leben	leben	V	VVINF	_	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	deine	deine	ART	PPOSAT	_|Nom|Sg	4	det	_	_
+4	lebe	lebe	N	NN	_|Nom|Sg	2	subj	_	_
+5	...	...	$.	$.	_	0	root	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Erzhalt	Erzhalt	N	NN	Masc|_|Sg	0	root	_	_
+2	mir	ich	PRO	PPER	1|Sg|_|Dat	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+3	suchen	suchen	ADJA	ADJA	_|Fem|Nom|Sg|_	4	attr	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Nom|Sg	2	pred	_	_
+5	in	in	PREP	APPR	_	4	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	habe	haben	V	VAFIN	1|Sg|Pres|_	2	kon	_	_
+10	eine	eine	ART	ART	Indef|Fem|_|Sg	12	det	_	_
+11	neuen	neu	ADJA	ADJA	Pos|_|_|_|_|	12	attr	_	_
+12	Arbait	Arbait	N	NN	Fem|Acc|Sg	13	obja	_	_
+13	gefunden	finden	V	VVPP	_	9	aux	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	wenig	wenig	ART	PIDAT	_|_|_	4	det	_	_
+4	geld	geld	N	NN	_|_|_	2	obja	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	1	cj	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	etwas	etwas	ADV	ADV	_	5	adv	_	_
+5	kleine	klein	ADJA	ADJA	Pos|_|Acc|_|_|	2	obja	_	_
+6	...	...	$.	$.	_	0	root	_	_
+7	ddd	ddd	FM	FM	_	0	root	_	_
+

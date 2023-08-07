@@ -1,0 +1,52 @@
+1	Hallo	Hallo	N	NN	Neut|_|Sg	0	root	_	_
+2	Jens	Jens	N	NE	Masc|_|Sg	1	app	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Vile	Vile	N	NE	Masc|_|Pl	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	vile	vile	ADJA	ADJA	_|Masc|_|Pl|_	4	attr	_	_
+4	Glückwünsche	Glückwunsch	N	NN	Masc|_|Pl	1	app	_	_
+5	!	!	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+3	jetz	jetz	ADJA	ADJA	_|Masc|Nom|Sg|_	4	attr	_	_
+4	Papa	Papa	N	NN	Masc|Nom|Sg	2	pred	_	_
+5	!	!	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	heißt	heißen	V	VVFIN	_|_|Pres|Ind	0	root	_	_
+3	Deine	deine	ART	PPOSAT	Neut|Nom|Pl	4	det	_	_
+4	Babys	Baby	N	NN	Neut|Nom|Pl	2	pred	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	der	die	ART	ART	Def|Fem|Dat|Sg	4	det	_	_
+4	Mutter	Mutter	N	NN	Fem|Dat|Sg	2	objd	_	_
+5	das	die	ART	ART	Def|Neut|_|Sg	6	det	_	_
+6	Babys	Baby	N	NN	Neut|Nom|Sg	2	subj	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Sie	sie	PRO	PPER	3|_|_|_	0	root	_	_
+2	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	Sie	sie	PRO	PPER	3|Sg|Fem|Nom	2	subj	_	_
+4	Gesund	gesund	ADV	ADJD	Pos|	2	pred	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Wann	Wann	PWAV	PWAV	_	2	adv	_	_
+2	könenn	könenn	V	VVFIN	_	4	objc	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	4	subj	_	_
+4	besuchen	besuchen	V	VVFIN	1|Pl|Pres|_	0	root	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	Dir	du	PRO	PPER	2|Sg|_|Dat	4	objd	_	_
+4	helfen	helfen	V	VVINF	_	2	aux	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Tschuss	Tschuss	N	NE	_	0	root	_	_
+2	Deine	deine	ART	PPOSAT	Fem|_|Sg	3	det	_	_
+3	Maria	Maria	N	NN	Fem|_|Sg	0	root	_	_
+

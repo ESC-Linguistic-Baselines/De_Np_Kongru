@@ -1,0 +1,90 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	22.02.2012	22.02.2012	CARD	CARD	_	4	attr	_	_
+4	Lieber	Liebe	N	NN	_|_|Pl	2	app	_	_
+5	Peter	Peter	N	NE	_|_|Sg	4	app	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	vielen	viele	ART	PIDAT	Masc|_|Sg	8	det	_	_
+8	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+9	fur	fur	N	NE	Masc|_|Sg	8	app	_	_
+10	dein	deine	ART	PPOSAT	Masc|Nom|Sg	11	det	_	_
+11	Brief	Brief	N	NN	Masc|Nom|Sg	0	root	_	_
+12	und	und	KON	KON	_	11	kon	_	_
+13	deine	deine	ART	PPOSAT	_|Nom|Pl	15	det	_	_
+14	freundlichen	freundlich	ADJA	ADJA	Pos|_|Nom|Pl|Wk|	15	attr	_	_
+15	wünchen	wünchen	N	NN	_|Nom|Pl	12	cj	_	_
+16	zum	zu	PREP	APPRART	Dat	15	pp	_	_
+17	neuen	neu	ADJA	ADJA	Pos|Neut|Dat|Sg|Wk|	18	attr	_	_
+18	Jahr	Jahr	N	NN	Neut|Dat|Sg	16	pn	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hofe	hofe	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	dass	dass	KOUS	KOUS	_	0	root	_	_
+4	mindestens	mindestens	ADV	ADV	_	0	root	_	_
+5	ein	eine	ART	ART	Indef|_|_|Sg	0	root	_	_
+6	paar	paar	ART	PIDAT	_	0	root	_	_
+7	vom	von	PREP	APPRART	_|Dat	0	root	_	_
+8	meinen	meinen	V	VVINF	_	0	root	_	_
+9	träumen	träumen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+10	dieses	diese	ART	PDAT	Neut|Gen|Sg	11	det	_	_
+11	Jahres	Jahr	N	NN	Neut|Gen|Sg	0	root	_	_
+12	passiert	passieren	V	VVPP	_	0	root	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	glaube	glauben	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dass	dass	PRO	PDS	_	0	root	_	_
+4	konnte	können	V	VMFIN	1|Sg|Past|Ind	0	root	_	_
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+6	am	an	PREP	APPRART	Dat	14	pp	_	_
+7	die	die	ART	ART	Def|Fem|_|Pl	9	det	_	_
+8	wichtigsten	wichtig	ADJA	ADJA	Sup|Fem|_|Pl|Wk|	9	attr	_	_
+9	Ausstellungen	Ausstellung	N	NN	Fem|_|Pl	6	pn	_	_
+10	in	in	PREP	APPR	_	14	pp	_	_
+11	Früling	Früling	N	NE	Masc|_|Sg	10	pn	_	_
+12	und	und	KON	KON	_	11	kon	_	_
+13	Herbst	Herbst	N	NN	Masc|_|Sg	12	cj	_	_
+14	teilnehmen	teilnehmen	V	VVINF	_	4	aux	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	einen	eine	ART	ART	Indef|Masc|Acc|Sg	4	det	_	_
+3	neuen	neu	ADJA	ADJA	Pos|Masc|Acc|Sg|_|	4	attr	_	_
+4	Atelier	Atelier	N	NN	Masc|Acc|Sg	5	obja	_	_
+5	haben	haben	V	VAFIN	_|Pl|Pres|_	1	cj	_	_
+6	in	in	PREP	APPR	Acc	5	pp	_	_
+7	die	die	ART	ART	Def|Fem|Acc|Sg	9	det	_	_
+8	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	9	attr	_	_
+9	Halle	Halle	N	NN	Fem|Acc|Sg	6	pn	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Acc|Sg	5	obja	_	_
+2	konnte	können	V	VMFIN	1|Sg|Past|Ind	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	Michael	Michael	N	NE	Masc|Nom|Sg	3	app	_	_
+5	treffen	treffen	V	VVINF	_	2	aux	_	_
+6	und	und	KON	KON	_	0	root	_	_
+7	zusamen	zusamen	TRUNC	TRUNC	_	0	root	_	_
+8	arbeiten	arbeiten	V	VVINF	_	0	root	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eigentlich	eigentlich	ADV	ADV	_	7	adv	_	_
+4	mit	mit	PREP	APPR	Dat	7	pp	_	_
+5	er	er	PRO	PPER	3|Sg|Masc|Nom	4	pn	_	_
+6	Silvester	Silvester	N	NN	_|Acc|_	7	obja	_	_
+7	gefeiert	feiern	V	VVPP	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Er	er	PRO	PPER	3|Sg|Masc|Nom	2	subj	_	_
+2	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+3	der	die	ART	ART	Def|Masc|Nom|Sg	4	det	_	_
+4	Feuerwer	Feuerwer	N	NN	Masc|Nom|Sg	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Herzliche	herzlich	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Gruße	Gruß	N	NN	Masc|Dat|Sg	0	root	_	_
+3	Stefan	Stefan	N	NE	Masc|Dat|Sg	2	app	_	_
+

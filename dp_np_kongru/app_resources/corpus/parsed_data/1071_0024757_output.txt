@@ -1,0 +1,134 @@
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+7	dir	du	PRO	PPER	2|Sg|_|Dat	5	objd	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+4	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	8	obja	_	_
+6	in	in	PREP	APPR	_	8	pp	_	_
+7	Neuburg	Neuburg	N	NN	Fem|_|Sg	6	pn	_	_
+8	gefunden	finden	V	VVPP	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	toll	toll	ADV	ADJD	Pos|	2	pred	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	oder	oder	KON	KON	_	0	root	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	jetzt	jetzt	ADV	ADV	_	3	adv	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	1	cj	_	_
+5	dein	deine	ART	PPOSAT	Neut|Acc|Sg	6	det	_	_
+6	hilfe	hilfe	N	NN	Neut|Acc|Sg	4	obja	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	suche	suchen	V	VVFIN	1|Sg|Pres|_	8	s	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	in	in	PREP	APPR	_	2	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+9	du	du	PRO	PPER	2|Sg|_|Nom	8	subj	_	_
+10	mir	ich	PRO	PPER	1|Sg|_|Dat	8	objd	_	_
+11	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+12	hilfe	hilfe	N	NE	_|Nom|Sg	11	subj	_	_
+13	?	?	$.	$.	_	0	root	_	_
+
+1	Bis	bis	PREP	APPR	Acc	3	pp	_	_
+2	30.04	30.04	CARD	CARD	_	1	pn	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+5	in	in	PREP	APPR	Acc	8	pp	_	_
+6	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	7	attr	_	_
+7	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	5	pn	_	_
+8	umladen	umladen	V	VVINF	_	4	aux	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	weil	weil	KOUS	KOUS	_	0	root	_	_
+11	am	an	PREP	APPRART	Dat	15	pp	_	_
+12	01.05	01.05	N	NN	_|Dat|_	11	pn	_	_
+13	meine	meine	ART	PPOSAT	Fem|_|Sg	15	det	_	_
+14	neue	neu	ADJA	ADJA	Pos|Fem|_|Sg|_|	15	attr	_	_
+15	Arbeit	Arbeit	N	NN	Fem|_|Sg	0	root	_	_
+16	beginn	beginn	N	NE	Fem|_|Sg	15	app	_	_
+17	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	will	wollen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	nicht	nicht	PTKNEG	PTKNEG	_	2	adv	_	_
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+5	große	groß	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	6	attr	_	_
+6	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	60	60	CARD	CARD	_	9	attr	_	_
+9	qm	qm	FM	FM	_|Nom|Pl	10	pred	_	_
+10	ist	sein	V	VAFIN	3|Sg|Pres|Ind	2	kon	_	_
+11	ok	ok	N	NE	_|Nom|Sg	10	subj	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|Nom|Sg	3	det	_	_
+2	neue	neu	ADJA	ADJA	Pos|Fem|Nom|Sg|_|	3	attr	_	_
+3	Arbeit	Arbeit	N	NN	Fem|Nom|Sg	4	subj	_	_
+4	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+5	als	als	KOKOM	KOKOM	_	4	kom	_	_
+6	Buchhaldung	Buchhaldung	N	NN	_	5	cj	_	_
+7	bei	bei	PREP	APPR	Dat	4	pp	_	_
+8	dem	die	ART	ART	Def|_|Dat|Sg	9	det	_	_
+9	Firma	Firma	N	NN	_|Dat|Sg	7	pn	_	_
+10	Telecom	Telecom	N	NE	_|Nom|_	4	pred	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	hoffentlich	hoffentlich	ADV	ADV	_	13	adv	_	_
+13	kannst	können	V	VMFIN	2|Sg|Pres|Ind	4	kon	_	_
+14	du	du	PRO	PPER	2|Sg|_|Nom	13	subj	_	_
+15	eine	eine	ART	ART	Indef|Fem|Acc|Sg	16	det	_	_
+16	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	13	obja	_	_
+17	in	in	PREP	APPR	_	13	pp	_	_
+18	Nähe	Nähe	N	NN	Fem|_|Sg	17	pn	_	_
+19	finde	finden	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+20	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	auch	auch	ADV	ADV	_	4	adv	_	_
+4	in	in	PREP	APPR	_	7	pp	_	_
+5	internet	internet	N	NE	_|_|_	4	pn	_	_
+6	aber	aber	ADV	ADV	_	5	adv	_	_
+7	vivieleicht	vivieleicht	ADV	ADJD	_	10	pred	_	_
+8	in	in	PREP	APPR	_	7	pp	_	_
+9	Zeitung	Zeitung	N	NN	Fem|_|Sg	8	pn	_	_
+10	sind	sein	V	VAFIN	3|Pl|Pres|Ind	0	root	_	_
+11	mehr	mehr	ART	PIAT	Fem|Nom|Pl	12	det	_	_
+12	Anzeigen	Anzeige	N	NN	Fem|Nom|Pl	10	subj	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	rufe	rufen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dich	du	PRO	PPER	2|Sg|_|Acc	2	obja	_	_
+4	heute	heute	ADV	ADV	_	2	adv	_	_
+5	an	an	PTKVZ	PTKVZ	_	2	avz	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	dein	deine	ART	PPOSAT	Neut|Acc|Sg	5	det	_	_
+5	hilfe	hilfe	N	NN	Neut|Acc|Sg	3	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|Dat|Sg	2	det	_	_
+2	Gruße	Gruß	N	NN	Masc|Dat|Sg	0	root	_	_
+3	deine	deine	ART	PPOSAT	Fem|_|Sg	4	det	_	_
+4	Freundin	Freundin	N	NN	Fem|_|Sg	0	root	_	_
+5	Katharina	Katharina	N	NE	Fem|_|Sg	4	app	_	_
+

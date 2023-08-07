@@ -1,0 +1,66 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Masc|Dat|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	04	04	CARD	CARD	_	9	attr	_	_
+5	01	01	CARD	CARD	_	9	attr	_	_
+6	2012	2012	CARD	CARD	_	9	attr	_	_
+7	Sehr	sehr	ADV	ADV	_	8	adv	_	_
+8	geehrte	geehrt	ADJA	ADJA	Pos|_|_|_|_|	9	attr	_	_
+9	Domen	Dom	N	NN	Masc|Dat|Pl	2	app	_	_
+10	und	und	KON	KON	_	9	kon	_	_
+11	Herren	Herr	N	NN	Masc|Dat|_	10	cj	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+14	suchen	suchen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+15	eine	eine	ART	ART	Indef|Fem|Acc|Sg	17	det	_	_
+16	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	17	attr	_	_
+17	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	14	obja	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+3	heiratet	heiraten	V	VVFIN	_|_|Pres|_	0	root	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	moschte	moschte	V	VVFIN	_|_|_|_	0	root	_	_
+3	meine	meine	ART	PPOSAT	_|Nom|_	4	det	_	_
+4	wohnung	wohnung	N	NN	_|Nom|_	2	subj	_	_
+5	zwei	zwei	CARD	CARD	_	6	attr	_	_
+6	zimmer	zimmer	N	NN	_|Gen|Pl	4	gmod	_	_
+7	und	und	KON	KON	_	4	kon	_	_
+8	ein	eine	ART	ART	Indef|_|Nom|Sg	9	det	_	_
+9	kuche	kuche	N	NN	_|Nom|Sg	7	cj	_	_
+10	ein	eine	ART	ART	Indef|Neut|Acc|Sg	11	det	_	_
+11	Bod	Bod	N	NN	Neut|Acc|Sg	2	obja	_	_
+12	ein	eine	ART	ART	Indef|_|_|Sg	13	det	_	_
+13	Bolkon	Bolkon	N	NN	_|_|Sg	0	root	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Können	können	V	VMFIN	_|Pl|Pres|_	0	root	_	_
+2	sie	sie	PRO	PPER	3|Sg|Fem|Nom	3	subj	_	_
+3	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	1	s	_	_
+4	mir	ich	PRO	PPER	1|Sg|_|Dat	3	objd	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	wie	wie	PWAV	PWAV	_	0	root	_	_
+7	viel	viel	PRO	PIS	_	0	root	_	_
+8	kosstet	kosstet	ADV	ADJD	Pos|	9	adv	_	_
+9	om	om	ADV	ADJD	_	10	adv	_	_
+10	monot	monot	ADV	ADJD	Pos|	0	root	_	_
+11	und	und	KON	KON	_	0	root	_	_
+12	vie	vie	N	NE	_|Nom|Sg	15	subj	_	_
+13	viel	viel	ART	PIDAT	_|Acc|_	14	det	_	_
+14	Heben	Hebe	N	NN	_|Acc|_	15	obja	_	_
+15	koste	kosen	V	VVFIN	3|Sg|_|_	11	cj	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	Won	Won	N	NN	Masc|Nom|Sg	4	subj	_	_
+4	miete	mieten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+5	Mit	mit	PREP	APPR	Dat	4	pp	_	_
+6	freundliche	freundlich	ADJA	ADJA	Pos|Neut|_|Sg|Wk|	7	attr	_	_
+7	Grüßen	Gruß	N	NN	Neut|_|Sg	5	pn	_	_
+8	Evo	Evo	N	NE	Neut|_|Sg	7	app	_	_
+9	Muller	Muller	N	NN	_|_|_	4	obja	_	_
+

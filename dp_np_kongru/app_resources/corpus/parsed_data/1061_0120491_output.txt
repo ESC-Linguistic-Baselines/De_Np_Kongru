@@ -1,0 +1,103 @@
+1	Lieber	Liebe	N	NN	_|_|_	0	root	_	_
+2	Michael	Michael	N	NE	Masc|Dat|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Danke	Dank	N	NN	Masc|Dat|Sg	2	app	_	_
+5	schön	schön	ADV	ADJD	Pos|	6	adv	_	_
+6	für	für	PREP	APPR	Acc	4	pp	_	_
+7	deine	deine	ART	PPOSAT	_|Acc|_	8	det	_	_
+8	wünche	wünche	N	NN	_|Acc|_	6	pn	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünche	wünche	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	noch	noch	ADV	ADV	_	2	adv	_	_
+5	einmal	einmal	ADV	ADV	_	2	adv	_	_
+6	alles	alle	ART	PIDAT	Neut|Acc|Sg	7	det	_	_
+7	Gute	Gut	N	NN	Neut|Acc|Sg	2	obja	_	_
+8	zum	zu	PREP	APPRART	Dat	2	pp	_	_
+9	neuen	neu	ADJA	ADJA	Pos|Neut|Dat|Sg|Wk|	10	attr	_	_
+10	Jahr	Jahr	N	NN	Neut|Dat|Sg	8	pn	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Acc|Sg	2	det	_	_
+2	Silvesternacht	Silvesternacht	N	NN	Fem|Acc|Sg	10	obja	_	_
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	zu	zu	PTKA	PTKA	_	6	adv	_	_
+6	hause	hause	ADV	ADJD	_	10	adv	_	_
+7	mit	mit	PREP	APPR	Dat	10	pp	_	_
+8	meine	meine	ART	PPOSAT	Masc|_|_	9	det	_	_
+9	Mann	Mann	N	NN	Masc|_|_	7	pn	_	_
+10	verbracht	verbringen	V	VVPP	_	3	aux	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+3	Musik	Musik	N	NN	Fem|Dat|Sg	4	objd	_	_
+4	gehört	gehören	V	VVPP	_	2	aux	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Später	spät	ADV	ADJD	_|	2	adv	_	_
+2	sind	sein	V	VAFIN	1|Pl|Pres|Ind	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+4	dann	dann	ADV	ADV	_	8	adv	_	_
+5	zum	zu	PREP	APPRART	Dat	8	objp	_	_
+6	Meine	meine	ART	PPOSAT	_|_|Pl	7	det	_	_
+7	Eltern	Elter	N	NN	_|_|Pl	5	pn	_	_
+8	gegangen	gehen	V	VVPP	_	2	aux	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	wo	wo	PWAV	PWAV	_	14	adv	_	_
+11	wir	wir	PRO	PPER	1|Pl|_|Nom	15	subj	_	_
+12	das	die	ART	ART	Def|Neut|Acc|Sg	13	det	_	_
+13	Feuerwerk	Feuerwerk	N	NN	Neut|Acc|Sg	14	obja	_	_
+14	angesehen	ansehen	V	VVPP	_	15	aux	_	_
+15	haben	haben	V	VAFIN	1|Pl|Pres|_	8	rel	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	Letzte	letzte	ADJA	ADJA	Pos|Fem|_|Sg|_|	2	attr	_	_
+2	Zeit	Zeit	N	NN	Fem|_|Sg	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+5	viel	viel	ART	PIDAT	Fem|Acc|Sg	6	det	_	_
+6	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	4	obja	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	weil	weil	KOUS	KOUS	_	11	konj	_	_
+9	meine	meine	ART	PPOSAT	Masc|Nom|Sg	10	det	_	_
+10	Kollege	Kollege	N	NN	Masc|Nom|Sg	11	subj	_	_
+11	ist	sein	V	VAFIN	3|Sg|Pres|Ind	4	neb	_	_
+12	krank	krank	ADV	ADJD	Pos|	11	pred	_	_
+13	,	,	$,	$,	_	0	root	_	_
+14	aber	aber	KON	KON	_	11	kon	_	_
+15	sonst	sonst	ADV	ADV	_	16	adv	_	_
+16	ist	sein	V	VAFIN	3|Sg|Pres|Ind	14	cj	_	_
+17	alles	alle	PRO	PIS	Neut|Nom|Sg	16	subj	_	_
+18	gut	gut	ADV	ADJD	Pos|	16	pred	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	kommen	kommen	V	VVINF	_	1	aux	_	_
+4	wann	wann	PWAV	PWAV	_	6	adv	_	_
+5	du	du	PRO	PPER	2|Sg|_|Nom	6	subj	_	_
+6	willst	wollen	V	VMFIN	2|Sg|Pres|Ind	8	objc	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+9	immer	immer	ADV	ADV	_	8	adv	_	_
+10	Lust	Lust	N	NN	Fem|_|Sg	0	root	_	_
+11	mit	mit	PREP	APPR	Dat	14	pp	_	_
+12	dir	du	PRO	PPER	2|Sg|_|Dat	11	pn	_	_
+13	etwas	etwas	PRO	PIS	_|_|_	14	obja	_	_
+14	unternehmen	unternehmen	V	VVINF	_	0	root	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	warte	warten	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	auf	auf	PREP	APPR	Acc	2	pp	_	_
+4	dich	du	PRO	PPER	2|Sg|_|Acc	3	pn	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Herzliche	herzlich	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Maria	Maria	N	NE	_|_|Sg	2	app	_	_
+

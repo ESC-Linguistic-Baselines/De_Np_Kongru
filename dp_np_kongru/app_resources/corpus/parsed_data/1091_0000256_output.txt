@@ -1,0 +1,85 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	_|_|_	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	13.03-12	13.03-12	ADJA	ADJA	_|_|_|_|_	5	attr	_	_
+5	Liebe	Liebe	N	NN	_|_|_	2	app	_	_
+6	Julia	Julia	N	NE	Fem|_|Sg	5	app	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	Wie	Wie	PWAV	PWAV	_	9	pred	_	_
+9	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	1	objc	_	_
+10	´	´	N	NE	_|Nom|Sg	9	subj	_	_
+11	s	s	PRO	PPER	_|_|_|Dat	9	objd	_	_
+12	es	es	PRO	PPER	3|Sg|Neut|_	9	expl	_	_
+13	dir	du	PRO	PPER	2|Sg|_|Dat	0	root	_	_
+14	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	früher	früh	ADV	ADJD	_|	12	pred	_	_
+4	Plan	Plan	N	NN	Masc|Acc|Sg	12	obja	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	einen	eine	ART	ART	Indef|Masc|Acc|Sg	7	det	_	_
+7	Wochenendausflug	Wochenendausflug	N	NN	Masc|Acc|Sg	5	pn	_	_
+8	nach	nach	PREP	APPR	Dat	12	pp	_	_
+9	Stadt	Stadt	N	NN	Fem|Dat|Sg	8	pn	_	_
+10	Y	Y	N	NE	Fem|Dat|Sg	9	app	_	_
+11	zu	zu	PTKZU	PTKZU	_	12	part	_	_
+12	machen	machen	V	VVINF	_	2	aux	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Leider	leider	ADV	ADV	_	2	adv	_	_
+2	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+5	fahren	fahren	V	VVINF	_	2	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+3	KranK	KranK	N	NE	_|Nom|_	2	pred	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	müss	müss	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	einen	eine	ART	ART	Indef|Masc|Acc|Sg	4	det	_	_
+4	Paar	Paar	N	NN	Masc|Acc|Sg	2	obja	_	_
+5	Tagen	Tag	N	NN	Neut|Acc|Sg	4	app	_	_
+6	ins	in	PREP	APPRART	Acc	2	pp	_	_
+7	Bett	Bett	N	NN	Neut|Acc|Sg	6	pn	_	_
+8	bleiben	bleiben	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	schon	schon	ADV	ADV	_	7	adv	_	_
+4	einen	eine	ART	ART	Indef|Masc|Acc|Sg	5	det	_	_
+5	U-Bahn	U-Bahn	N	NN	Masc|Acc|Sg	7	obja	_	_
+6	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	5	app	_	_
+7	gekauft	kaufen	V	VVPP	_	2	aux	_	_
+8	Möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+9	du	du	PRO	PPER	2|Sg|_|Nom	8	subj	_	_
+10	die	die	ART	ART	Def|Fem|Acc|Sg	11	det	_	_
+11	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	12	obja	_	_
+12	haben	haben	V	VAINF	_	8	aux	_	_
+13	?	?	$.	$.	_	0	root	_	_
+
+1	Es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+2	gibt	geben	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	viele	viele	ART	PIDAT	Fem|Acc|Sg	4	det	_	_
+4	Sehenwundigkeit	Sehenwundigkeit	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	in	in	PREP	APPR	_	2	pp	_	_
+6	Stadt	Stadt	N	NN	Fem|_|Sg	5	pn	_	_
+7	Y.	Y.	N	NE	Fem|_|Sg	6	app	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	liebe	lieben	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Dich	Dich	N	NE	_|_|_	2	obja	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	Bis	bis	PREP	APPR	Acc	0	root	_	_
+2	bald	bald	ADV	ADV	_	1	adv	_	_
+3	!	!	$.	$.	_	0	root	_	_
+
+1	dein	deine	ART	PPOSAT	Masc|Nom|Sg	2	det	_	_
+2	Tobias	Tobias	N	NE	Masc|Nom|Sg	0	root	_	_
+

@@ -1,0 +1,57 @@
+1	Liebe	Liebe	N	NN	_|Nom|_	6	subj	_	_
+2	Daniela	Daniela	N	NE	Fem|Nom|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Lange	Lange	N	NE	_|Acc|Sg	6	obja	_	_
+5	nicht	nicht	PTKNEG	PTKNEG	_	6	adv	_	_
+6	gesehen	sehen	V	VVPP	_	0	root	_	_
+7	!	!	$.	$.	_	0	root	_	_
+
+1	Nächten	Nacht	N	NN	Masc|Dat|Sg	3	objd	_	_
+2	Freitag	Freitag	N	NN	Masc|Dat|Sg	1	app	_	_
+3	arbeite	arbeiten	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	nicht	nicht	PTKNEG	PTKNEG	_	3	adv	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	8	adv	_	_
+8	habe	haben	V	VAFIN	1|Sg|Pres|_	3	kon	_	_
+9	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+10	Zeit	Zeit	N	NN	Fem|Acc|Sg	8	obja	_	_
+11	Hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+12	du	du	PRO	PPER	2|Sg|_|Nom	11	subj	_	_
+13	Lust	Lust	N	NN	Fem|Acc|Sg	11	obja	_	_
+14	auf	auf	PTKVZ	PTKVZ	_	11	avz	_	_
+15	schwimmen	schwimmen	V	VVINF	_	16	aux	_	_
+16	gehen	gehen	V	VVINF	_	0	root	_	_
+17	?	?	$.	$.	_	0	root	_	_
+
+1	Es	es	PRO	PPER	3|Sg|Neut|_	2	expl	_	_
+2	gibt	geben	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	ein	eine	ART	ART	Indef|Masc|Nom|Sg	5	det	_	_
+4	neu	neu	ADV	ADJD	Pos|	5	adv	_	_
+5	Strand	Strand	N	NN	Masc|Nom|Sg	2	subj	_	_
+6	am	an	PREP	APPRART	Dat	2	pp	_	_
+7	Rhein	Rhein	N	NE	_|Dat|_	6	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+2	kann	können	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_
+3	Trinken	Trinken	N	NN	Neut|Nom|Sg	4	subj	_	_
+4	mitbringe	mitbringen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bringe	bringen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	noch	noch	ADV	ADV	_	2	adv	_	_
+4	obst	obst	ADV	ADJD	_	2	adv	_	_
+5	mit	mit	PTKVZ	PTKVZ	_	2	avz	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Schreib	Schreib	N	NE	_	0	root	_	_
+2	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+3	züruck	züruck	V	VVIMP	_	0	root	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	_|_|_	2	det	_	_
+2	Grüß	Grüß	N	NN	_|_|_	0	root	_	_
+3	Michael	Michael	N	NE	Masc|_|Sg	2	app	_	_
+

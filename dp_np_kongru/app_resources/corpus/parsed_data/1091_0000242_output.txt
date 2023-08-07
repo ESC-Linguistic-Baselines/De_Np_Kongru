@@ -1,0 +1,80 @@
+1	12.3.2012	12.3.2012	CARD	CARD	_	2	attr	_	_
+2	Liebe	Liebe	N	NN	_|_|Pl	0	root	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	wie	wie	PWAV	PWAV	_	0	root	_	_
+6	gehts	gehts	N	NE	_	0	root	_	_
+7	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	gut	gut	ADV	ADJD	Pos|	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	Urlaub	Urlaub	N	NN	_|Acc|Sg	2	obja	_	_
+4	von	von	PREP	APPR	_	3	pp	_	_
+5	15.03.12	15.03.12	CARD	CARD	_	4	pn	_	_
+6	bis	bis	PREP	APPR	Acc	5	pp	_	_
+7	20.03.12	20.03.12	CARD	CARD	_	6	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	nach	nach	PREP	APPR	Dat	5	pp	_	_
+4	Berlin	Berlin	N	NE	_|Dat|Sg	3	pn	_	_
+5	fahren	fahren	V	VVINF	_	2	aux	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	aber	aber	KON	KON	_	2	kon	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	habe	haben	V	VAFIN	1|Sg|Pres|_	7	cj	_	_
+10	ein	eine	ART	ART	Indef|Neut|Acc|Sg	11	det	_	_
+11	problem	problem	N	NN	Neut|Acc|Sg	9	obja	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	Kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	meine	meine	ART	PPOSAT	Fem|Acc|Sg	4	det	_	_
+4	Katze	Katze	N	NN	Fem|Acc|Sg	7	obja	_	_
+5	nicht	nicht	PTKNEG	PTKNEG	_	7	adv	_	_
+6	mit	mit	ADV	ADV	_	7	adv	_	_
+7	nehmen	nehmen	V	VVINF	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brache	brechen	V	VVFIN	1|Sg|Past|Subj	0	root	_	_
+3	deine	deine	ART	PPOSAT	_|Acc|_	4	det	_	_
+4	hilfe	hilfe	N	NN	_|Acc|_	2	obja	_	_
+5	im	in	PREP	APPRART	Dat	2	pp	_	_
+6	diese	diese	PRO	PDS	_|_|_	5	pn	_	_
+7	tag	tag	V	VVFIN	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	bitte	bitten	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+4	mit	mit	PREP	APPR	Dat	7	pp	_	_
+5	meine	meine	ART	PPOSAT	Fem|_|Sg	6	det	_	_
+6	Katze	Katze	N	NN	Fem|_|Sg	4	pn	_	_
+7	spielen	spielen	V	VVINF	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	4	subj	_	_
+4	können	können	V	VMFIN	1|Pl|Pres|_	0	root	_	_
+5	uns	wir	PRO	PRF	1|Pl|Acc	8	obja	_	_
+6	bald	bald	ADV	ADV	_	8	adv	_	_
+7	einmal	einmal	ADV	ADV	_	8	adv	_	_
+8	sehen	sehen	V	VVINF	_	4	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	deine	deine	ART	PPOSAT	Fem|_|Sg	5	det	_	_
+5	Katharina	Katharina	N	NN	Fem|_|Sg	2	app	_	_
+

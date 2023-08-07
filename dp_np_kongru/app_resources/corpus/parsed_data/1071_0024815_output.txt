@@ -1,0 +1,65 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	meine	meine	ART	PPOSAT	_|_|_	5	det	_	_
+4	freundin	freundin	ADV	ADJD	Pos|	5	adv	_	_
+5	Daniiela	Daniiela	N	NE	_|_|_	0	root	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	Ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+9	gern	gern	ADV	ADV	_	8	adv	_	_
+10	heute	heute	ADV	ADV	_	8	adv	_	_
+11	mit	mit	PREP	APPR	Dat	8	pp	_	_
+12	dir	du	PRO	PPER	2|Sg|_|Dat	11	pn	_	_
+13	zum	zu	PREP	APPRART	_|Dat	0	root	_	_
+14	schwimmen	schwimmen	V	VVINF	_	0	root	_	_
+15	kommen	kommen	V	VVINF	_	0	root	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	soll	sollen	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+5	schwimmbaden	schwimmbaden	N	NN	Fem|Acc|Sg	6	obja	_	_
+6	kaufen	kaufen	V	VVINF	_	2	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	3	adv	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	komme	kommen	V	VVFIN	1|Sg|Pres|_	1	cj	_	_
+5	bei	bei	PREP	APPR	Dat	4	pp	_	_
+6	dir	du	PRO	PPER	2|Sg|_|Dat	5	pn	_	_
+7	und	und	KON	KON	_	4	kon	_	_
+8	wir	wir	PRO	PPER	1|Pl|_|Nom	9	subj	_	_
+9	können	können	V	VMFIN	1|Pl|Pres|_	7	cj	_	_
+10	bei	bei	PREP	APPR	Dat	15	pp	_	_
+11	dem	die	PRO	PRELS	_|Dat|Sg	10	pn	_	_
+12	in	in	PREP	APPR	Acc	15	objp	_	_
+13	die	die	ART	ART	Def|_|Acc|_	14	det	_	_
+14	schwimmen	schwimmen	N	NN	_|Acc|_	12	pn	_	_
+15	gehe	gehen	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+16	,	,	$,	$,	_	0	root	_	_
+17	und	und	KON	KON	_	15	kon	_	_
+18	wieviel	wieviel	PRO	PWS	_|Dat|_	19	objd	_	_
+19	uhr	uhr	V	VVPP	_	20	aux	_	_
+20	haben	haben	V	VAFIN	1|Pl|Pres|_	17	cj	_	_
+21	wir	wir	PRO	PPER	1|Pl|_|Nom	20	subj	_	_
+22	Treffen	Treffen	N	NN	Neut|Acc|_	19	obja	_	_
+23	?	?	$.	$.	_	0	root	_	_
+
+1	was	was	PRO	PWS	Neut|Nom|Sg	2	subj	_	_
+2	soll	sollen	V	VMFIN	3|Sg|Pres|Ind	4	objc	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	mitbringe	mitbringen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	bitt	bitt	ADV	ADJD	_	2	adv	_	_
+2	schriebst	schreiben	V	VVFIN	2|Sg|Past|Ind	0	root	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	mich	ich	PRO	PPER	1|Sg|_|Acc	3	pn	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Gruße	Gruß	N	NN	Masc|Dat|Sg	0	root	_	_
+2	Lieber	Lieber	N	NE	_|Dat|Sg	1	app	_	_
+3	Maria	Maria	N	NE	_|Dat|Sg	2	app	_	_
+

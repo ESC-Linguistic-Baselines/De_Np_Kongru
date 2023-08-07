@@ -1,0 +1,72 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Julia	Julia	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Stadt	Stadt	N	NN	Fem|_|Sg	2	app	_	_
+5	X	X	N	NE	Masc|Acc|Sg	4	app	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	den	die	ART	ART	Def|Masc|Acc|Sg	9	det	_	_
+8	1	1	CARD	CARD	_	9	attr	_	_
+9	Jan	Jan	N	NE	Masc|Acc|Sg	5	app	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	´	´	KON	KON	_	0	root	_	_
+2	12	12	CARD	CARD	_	1	cj	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+5	für	für	PREP	APPR	Acc	11	pp	_	_
+6	die	die	ART	ART	Def|Fem|Acc|Sg	8	det	_	_
+7	nächste	nah	ADJA	ADJA	_|Fem|Acc|Sg|_|	8	attr	_	_
+8	Woche	Woche	N	NN	Fem|Acc|Sg	5	pn	_	_
+9	eine	eine	ART	ART	Indef|Fem|Acc|Sg	10	det	_	_
+10	Wochenendausflugfahrkarte	Wochenendausflugfahrkarte	N	NN	Fem|Acc|Sg	11	obja	_	_
+11	gekauft	kaufen	V	VVPP	_	4	aux	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	aber	aber	KON	KON	_	4	kon	_	_
+14	leider	leider	ADV	ADV	_	15	adv	_	_
+15	kann	können	V	VMFIN	1|Sg|Pres|Ind	13	cj	_	_
+16	ich	ich	PRO	PPER	1|Sg|_|Nom	15	subj	_	_
+17	nicht	nicht	PTKNEG	PTKNEG	_	18	adv	_	_
+18	fahren	fahren	V	VVINF	_	15	aux	_	_
+19	,	,	$,	$,	_	0	root	_	_
+20	weil	weil	KOUS	KOUS	_	24	konj	_	_
+21	meine	meine	ART	PPOSAT	Fem|Nom|Sg	22	det	_	_
+22	Mutter	Mutter	N	NN	Fem|Nom|Sg	24	subj	_	_
+23	Geburtstag	Geburtstag	N	NN	_|Acc|Sg	24	obja	_	_
+24	hat	haben	V	VAFIN	3|Sg|Pres|Ind	15	neb	_	_
+25	.	.	$.	$.	_	0	root	_	_
+
+1	Möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	die	die	ART	ART	Def|Fem|Acc|Sg	4	det	_	_
+4	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	5	obja	_	_
+5	haben	haben	V	VAINF	_	1	aux	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Das	die	ART	ART	Def|Neut|Nom|Sg	2	det	_	_
+2	Verkehrsmittel	Verkehrsmittel	N	NN	Neut|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	den	die	ART	ART	Def|Masc|Acc|Sg	5	det	_	_
+5	Zug	Zug	N	NN	Masc|Acc|Sg	3	obja	_	_
+6	und	und	KON	KON	_	5	kon	_	_
+7	das	die	ART	ART	Def|Neut|Acc|Sg	8	det	_	_
+8	Rheinufer	Rheinufer	N	NN	Neut|Acc|Sg	6	cj	_	_
+9	wunderschön	wunderschön	ADV	ADJD	Pos|	3	pred	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Wenn	wenn	KOUS	KOUS	_	5	konj	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	5	subj	_	_
+3	die	die	PRO	PDS	_|Acc|_	4	obja	_	_
+4	haben	haben	V	VAINF	_	5	aux	_	_
+5	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	7	neb	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	ruf	ruf	V	VVFIN	_	0	root	_	_
+8	mich	ich	PRO	PPER	1|Sg|_|Acc	7	obja	_	_
+9	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+10	an	an	PTKVZ	PTKVZ	_	7	avz	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Michael	Michael	N	NE	Masc|_|Sg	2	app	_	_
+

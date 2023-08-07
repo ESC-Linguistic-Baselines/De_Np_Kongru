@@ -1,0 +1,64 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Daniela	Daniela	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Stefan	Stefan	N	NE	Fem|_|Sg	2	app	_	_
+5	Müller	Müller	N	NE	Fem|_|Sg	4	app	_	_
+6	Müllergasse	Müllergasse	N	NN	Fem|_|Sg	5	app	_	_
+7	11	11	CARD	CARD	_	6	app	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	Stadtteil	Stadtteil	N	NN	Fem|_|Sg	0	root	_	_
+10	Stadt	Stadt	N	NN	Fem|_|Sg	9	app	_	_
+11	X	X	N	NE	Fem|_|Sg	10	app	_	_
+12	ich	ich	PRO	PPER	1|Sg|_|Nom	13	subj	_	_
+13	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+14	mit	mit	PREP	APPR	Dat	18	pp	_	_
+15	dir	du	PRO	PPER	2|Sg|_|Dat	14	pn	_	_
+16	zum	zu	PREP	APPRART	Dat	18	objp	_	_
+17	Schwimmen	Schwimmen	N	NN	Neut|Dat|Sg	16	pn	_	_
+18	gehen	gehen	V	VVINF	_	13	aux	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+4	schreiben	schreiben	V	VVINF	_	1	aux	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	wo	wo	PWAV	PWAV	_	7	adv	_	_
+7	können	können	V	VMFIN	1|Pl|Pres|_	4	objc	_	_
+8	wir	wir	PRO	PPER	1|Pl|_|Nom	7	subj	_	_
+9	treffen	treffen	V	VVINF	_	7	aux	_	_
+10	?	?	$.	$.	_	0	root	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	kannst	können	V	VMFIN	2|Sg|Pres|Ind	1	cj	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+4	mir	ich	PRO	PPER	1|Sg|_|Dat	6	objd	_	_
+5	auch	auch	ADV	ADV	_	6	adv	_	_
+6	schreiben	schreiben	V	VVINF	_	2	aux	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	wann	wann	PWAV	PWAV	_	9	adv	_	_
+9	kannst	können	V	VMFIN	2|Sg|Pres|Ind	6	objc	_	_
+10	du	du	PRO	PPER	2|Sg|_|Nom	9	subj	_	_
+11	kommen	kommen	V	VVINF	_	9	aux	_	_
+12	?	?	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	sollst	sollen	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+3	mit	mit	PREP	APPR	Dat	12	pp	_	_
+4	dir	du	PRO	PPER	2|Sg|_|Dat	3	pn	_	_
+5	ein	eine	ART	ART	Indef|_|_|Sg	6	det	_	_
+6	Anzuge	Anzug	N	NN	Neut|Acc|Sg	12	obja	_	_
+7	Und	und	KON	KON	_	6	kon	_	_
+8	die	die	ART	ART	Def|Fem|Acc|Sg	9	det	_	_
+9	Brille	Brille	N	NN	Fem|Acc|Sg	7	cj	_	_
+10	für	für	PREP	APPR	Acc	12	pp	_	_
+11	Schwimmen	Schwimmen	N	NN	Neut|Acc|Sg	10	pn	_	_
+12	mitbringen	mitbringen	V	VVINF	_	2	aux	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Mit	mit	PREP	APPR	Dat	0	root	_	_
+2	freundlichen	freundlich	ADJA	ADJA	Pos|_|Dat|_|_|	3	attr	_	_
+3	Grüßen	Gruß	N	NN	_|Dat|_	1	pn	_	_
+4	Stefan	Stefan	N	NE	Masc|Dat|Sg	3	app	_	_
+

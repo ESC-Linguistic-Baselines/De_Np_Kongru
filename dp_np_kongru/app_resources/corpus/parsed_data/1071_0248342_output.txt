@@ -1,0 +1,56 @@
+1	Liebe	Liebe	N	NN	_|_|_	4	vok	_	_
+2	Daniela	Daniela	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+6	in	in	PREP	APPR	Dat	9	pp	_	_
+7	der	die	ART	ART	Def|Fem|Dat|Sg	8	det	_	_
+8	schwimmer	schwimmer	N	NN	Fem|Dat|Sg	6	pn	_	_
+9	gehen	gehen	V	VVINF	_	4	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Kommst	kommen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mit	mit	PTKVZ	PTKVZ	_	1	avz	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	gehen	gehen	V	VVFIN	1|Pl|Pres|_	0	root	_	_
+3	nach	nach	PREP	APPR	Dat	2	pp	_	_
+4	dem	die	ART	ART	Def|_|Dat|Sg	5	det	_	_
+5	Schule	Schule	N	NN	_|Dat|Sg	3	pn	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	in	in	PREP	APPR	_	2	pp	_	_
+8	Stadt	Stadt	N	NN	Fem|_|Sg	7	pn	_	_
+9	X.	X.	N	NE	Fem|_|Sg	8	app	_	_
+
+1	Da	da	ADV	ADV	_	2	adv	_	_
+2	gibst	geben	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+3	ein	eine	ART	ART	Indef|Neut|Acc|Sg	4	det	_	_
+4	schun	schun	FM	FM	Neut|Acc|Sg	2	obja	_	_
+5	schwimmer	schwimmer	FM	FM	Neut|Acc|Sg	4	app	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	bringst	bringen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Cola	Cola	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	und	und	KON	KON	_	0	root	_	_
+7	nicht	nicht	PTKNEG	PTKNEG	_	8	adv	_	_
+8	meher	meher	ADV	ADJD	_	6	cj	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	worum	worum	V	VVFIN	_	12	s	_	_
+11	da	da	ADV	ADV	_	10	adv	_	_
+12	gibt	geben	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+13	alles	alle	PRO	PIS	Neut|Nom|Sg	12	subj	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	mit	mit	PREP	APPR	Dat	0	root	_	_
+2	den	die	ART	ART	Def|Masc|Acc|Sg	3	det	_	_
+3	Gruß	Gruß	N	NN	Masc|Acc|Sg	1	pn	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	deine	deine	ART	PPOSAT	Fem|Acc|Sg	6	det	_	_
+6	Freundin	Freundin	N	NN	Fem|Acc|Sg	3	app	_	_
+7	Julia	Julia	N	NE	Fem|Acc|Sg	6	app	_	_
+

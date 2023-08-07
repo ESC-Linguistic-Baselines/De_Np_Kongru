@@ -1,0 +1,111 @@
+1	Liber	Liber	N	NE	Masc|_|Sg	5	vok	_	_
+2	Michael	Michael	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+5	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+6	dein	deine	ART	PPOSAT	Masc|Nom|Sg	7	det	_	_
+7	Brief	Brief	N	NN	Masc|Nom|Sg	0	root	_	_
+8	bekommen	bekommen	V	VVINF	_	0	root	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hatte	haben	V	VAFIN	1|Sg|Past|Ind	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	adv	_	_
+4	ein	eine	ART	ART	Indef|Neut|Acc|Sg	6	det	_	_
+5	schöne	schön	ADJA	ADJA	Pos|Neut|Acc|Sg|Wk|	6	attr	_	_
+6	Silvester	Silvester	N	NN	Neut|Acc|Sg	2	obja	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	war	sein	V	VAFIN	1|Sg|Past|Ind	0	root	_	_
+3	mit	mit	PREP	APPR	Dat	2	pp	_	_
+4	meine	meine	ART	PPOSAT	Fem|_|Sg	5	det	_	_
+5	Freundin	Freundin	N	NN	Fem|_|Sg	3	pn	_	_
+6	in	in	PREP	APPR	Acc	2	pp	_	_
+7	die	die	ART	ART	Def|Fem|Acc|Sg	8	det	_	_
+8	Stadt	Stadt	N	NN	Fem|Acc|Sg	6	pn	_	_
+9	Stat	Stat	N	NE	_|Nom|_	2	pred	_	_
+10	X	X	N	NE	_|Nom|_	9	app	_	_
+11	und	und	KON	KON	_	2	kon	_	_
+12	Es	es	PRO	PPER	3|Sg|Neut|Nom	13	subj	_	_
+13	war	sein	V	VAFIN	_|Sg|Past|Ind	11	cj	_	_
+14	sehr	sehr	ADV	ADV	_	15	adv	_	_
+15	schön	schön	ADV	ADJD	Pos|	13	pred	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	arbaite	arbaite	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	immernoch	immernoch	N	NE	_|_|_	2	obja	_	_
+4	in	in	PREP	APPR	Dat	2	pp	_	_
+5	einem	eine	ART	ART	Indef|Neut|Dat|Sg	6	det	_	_
+6	Italianische	Italianische	N	NN	Neut|Dat|Sg	4	pn	_	_
+7	Restaurant	Restaurant	N	NN	Neut|Dat|Sg	6	app	_	_
+8	als	als	KOKOM	KOKOM	_	2	kom	_	_
+9	Barman	Barman	N	NE	_	8	cj	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	und	und	KON	KON	_	0	root	_	_
+12	du	du	PRO	PPER	2|Sg|_|Nom	11	cj	_	_
+13	weiss	weiss	ADV	ADJD	Pos|	14	adv	_	_
+14	wenn	wenn	KOUS	KOUS	_	18	konj	_	_
+15	man	man	PRO	PIS	_|Nom|Sg	18	subj	_	_
+16	im	in	PREP	APPRART	Dat	18	pp	_	_
+17	Restaurant	Restaurant	N	NN	Neut|Dat|Sg	16	pn	_	_
+18	arbeitet	arbeiten	V	VVFIN	3|Sg|Pres|Ind	20	neb	_	_
+19	,	,	$,	$,	_	0	root	_	_
+20	Hat	haben	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+21	keine	keine	ART	PIAT	Fem|Nom|Sg	22	det	_	_
+22	Zeit	Zeit	N	NN	Fem|Nom|Sg	20	subj	_	_
+23	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	in	in	PREP	APPR	Acc	8	objp	_	_
+3	nächste	nah	ADJA	ADJA	_|_|Acc|_|_|	4	attr	_	_
+4	monat	monat	N	NN	_|Acc|_	2	pn	_	_
+5	können	können	V	VMFIN	1|Pl|Pres|_	1	cj	_	_
+6	wir	wir	PRO	PPER	1|Pl|_|Nom	5	subj	_	_
+7	uns	wir	PRO	PRF	1|Pl|Acc	8	obja	_	_
+8	treffen	treffen	V	VVINF	_	5	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	weil	weil	KOUS	KOUS	_	6	konj	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	woch	woch	N	NN	Fem|Acc|Sg	5	obja	_	_
+5	urlaub	urlaub	V	VVPP	_	6	aux	_	_
+6	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	in	in	PREP	APPR	_	3	pp	_	_
+2	Silvester	Silvester	N	NN	_|_|_	1	pn	_	_
+3	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+4	wir	wir	PRO	PPER	1|Pl|_|Nom	3	subj	_	_
+5	zuerst	zuerst	ADV	ADV	_	3	adv	_	_
+6	bis	bis	PREP	APPR	Acc	3	pp	_	_
+7	1	1	CARD	CARD	_	8	attr	_	_
+8	uhr	uhr	N	NN	_|Acc|Sg	6	pn	_	_
+9	in	in	PREP	APPR	Dat	3	pp	_	_
+10	der	die	ART	ART	Def|Fem|Dat|Sg	11	det	_	_
+11	nacht	nacht	FM	FM	Fem|Dat|Sg	9	pn	_	_
+12	gefaiert	gefaiert	FM	FM	Fem|Dat|Sg	11	app	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	waren	sein	V	VAFIN	1|Pl|Past|Ind	0	root	_	_
+3	kurz	kurz	ADV	ADJD	Pos|	2	pred	_	_
+4	in	in	PREP	APPR	Dat	2	pp	_	_
+5	einem	eine	ART	ART	Indef|_|Dat|Sg	6	det	_	_
+6	Disco	Disco	N	NN	_|Dat|Sg	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	_
+2	sind	sein	V	VAFIN	1|Pl|Pres|Ind	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+4	nach	nach	PREP	APPR	Dat	6	pp	_	_
+5	hause	hause	N	NN	_|Dat|_	4	pn	_	_
+6	gegangen	gehen	V	VVPP	_	2	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Grüss	Grüss	N	NN	_|_|_	0	root	_	_
+3	Michael	Michael	N	NE	Masc|_|Sg	2	app	_	_
+

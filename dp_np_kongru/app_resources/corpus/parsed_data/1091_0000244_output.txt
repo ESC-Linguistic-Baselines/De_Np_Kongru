@@ -1,0 +1,85 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Maria	Maria	N	NE	_|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	1	objc	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+7	dir	du	PRO	PPER	2|Sg|_|Dat	5	objd	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	gut	gut	ADV	ADJD	Pos|	2	pred	_	_
+5	aber	aber	ADV	ADV	_	4	adv	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	habe	haben	V	VAFIN	1|Sg|Pres|_	2	kon	_	_
+9	ein	eine	ART	ART	Indef|Neut|Acc|Sg	10	det	_	_
+10	Problem	Problem	N	NN	Neut|Acc|Sg	8	obja	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Morgen	morgen	ADV	ADV	_	2	adv	_	_
+2	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	nach	nach	PREP	APPR	Dat	6	pp	_	_
+5	Köln	Köln	N	NE	Neut|Dat|Sg	4	pn	_	_
+6	hinfahren	hinfahren	V	VVINF	_	2	aux	_	_
+7	und	und	KON	KON	_	2	kon	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	kann	können	V	VMFIN	1|Sg|Pres|Ind	7	cj	_	_
+10	nicht	nicht	PTKNEG	PTKNEG	_	13	adv	_	_
+11	mein	meine	ART	PPOSAT	Neut|Acc|Sg	12	det	_	_
+12	Haustier	Haustier	N	NN	Neut|Acc|Sg	13	obja	_	_
+13	mitnehmen	mitnehmen	V	VVINF	_	9	aux	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+4	helfen	helfen	V	VVINF	_	1	aux	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	ein	eine	ART	ART	Indef|Masc|Nom|Sg	4	det	_	_
+4	Hund	Hund	N	NN	Masc|Nom|Sg	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	morgen	morgen	ADV	ADV	_	1	adv	_	_
+4	um	um	PREP	APPR	_	1	pp	_	_
+5	07	07	CARD	CARD	_	4	pn	_	_
+6	:	\:	$.	$.	_	0	root	_	_
+7	00	00	CARD	CARD	_	8	attr	_	_
+8	Uhr	Uhr	N	NN	Fem|Acc|Sg	9	grad	_	_
+9	hier	hier	ADV	ADV	_	10	adv	_	_
+10	kommen	kommen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+11	?	?	$.	$.	_	0	root	_	_
+
+1	Es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+2	wird	werden	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	ganz	ganz	ADV	ADV	_	4	adv	_	_
+4	einfach	einfach	ADV	ADJD	Pos|	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	sollst	sollen	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+3	ihn	er	PRO	PPER	3|Sg|Masc|Acc	2	obja	_	_
+4	nur	nur	ADV	ADV	_	2	adv	_	_
+5	sein	seine	ART	PPOSAT	Neut|_|Sg	6	det	_	_
+6	Abendessen	Abendessen	N	NN	Neut|_|Sg	0	root	_	_
+7	geben	geben	V	VVINF	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	und	und	KON	KON	_	0	root	_	_
+4	bis	bis	PREP	APPR	Acc	3	cj	_	_
+5	bald	bald	ADV	ADV	_	4	adv	_	_
+6	!	!	$.	$.	_	0	root	_	_
+
+1	Friedrich	Friedrich	N	NE	_|_|Sg	0	root	_	_
+2	Meier	Meier	N	NE	_|_|Sg	1	app	_	_
+

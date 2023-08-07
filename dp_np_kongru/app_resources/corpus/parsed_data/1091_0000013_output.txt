@@ -1,0 +1,49 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Fem|_|Sg	1	app	_	_
+3	05	05	CARD	CARD	_	4	attr	_	_
+4	01	01	CARD	CARD	_	2	app	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	2012	2012	CARD	CARD	_	2	attr	_	_
+2	Liebe	Liebe	N	NN	_|_|Pl	6	vok	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	Ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+6	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+7	eine	eine	ART	ART	Indef|Fem|Acc|Sg	8	det	_	_
+8	Fohrkorte	Fohrkorte	N	NN	Fem|Acc|Sg	6	obja	_	_
+9	für	für	PREP	APPR	Acc	8	pp	_	_
+10	einen	eine	ART	ART	Indef|Masc|Acc|Sg	11	det	_	_
+11	Wochenen	Wochenen	N	NN	Masc|Acc|Sg	9	pn	_	_
+12	noch	noch	KON	KON	_	11	kon	_	_
+13	Luksemburg	Luksemburg	N	NE	_|Acc|Sg	12	cj	_	_
+14	gehen	gehen	V	VVINF	_	0	root	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Lieder	Lied	N	NN	Neut|_|Pl	0	root	_	_
+2	konnte	können	V	VMFIN	1|Sg|Past|Ind	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+5	gehen	gehen	V	VVINF	_	2	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	weill	weill	ADV	ADJD	_	3	adv	_	_
+2	meine	meine	ART	PPOSAT	Masc|Nom|Sg	3	det	_	_
+3	Mann	Mann	N	NN	Masc|Nom|Sg	4	subj	_	_
+4	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+5	Kronk	Kronk	N	NE	_|Dat|_	4	objd	_	_
+6	Wendu	Wendu	N	NE	_|Dat|_	5	app	_	_
+7	die	die	ART	ART	Def|_|Nom|_	8	det	_	_
+8	Fohrkorte	Fohrkorte	N	NN	_|Nom|_	4	pred	_	_
+9	hoben	heben	V	VVFIN	3|Pl|Past|Ind	0	root	_	_
+10	mochtet	mochtet	FM	FM	_|Nom|Pl	9	subj	_	_
+11	schneib	schneib	FM	FM	_|Nom|Pl	10	app	_	_
+12	nich	nich	FM	FM	_|Nom|Pl	11	app	_	_
+13	ein	eine	ART	ART	Indef|Neut|Acc|Sg	14	det	_	_
+14	E-Moil	E-Moil	N	NN	Neut|Acc|Sg	9	obja	_	_
+15	Vielen	viele	ART	PIDAT	Masc|_|Pl	16	det	_	_
+16	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+17	Deine	deine	ART	PPOSAT	_|_|Sg	18	det	_	_
+18	Maria	Maria	N	NE	_|_|Sg	0	root	_	_
+19	Meier	Meier	N	NE	_|_|Sg	18	app	_	_
+

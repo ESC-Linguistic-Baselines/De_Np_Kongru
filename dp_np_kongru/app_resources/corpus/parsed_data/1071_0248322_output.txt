@@ -1,0 +1,76 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	0	root	_	_
+5	giest	giest	N	NE	_	0	root	_	_
+6	dir	du	PRO	PPER	2|Sg|_|Dat	0	root	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	7	obja	_	_
+5	in	in	PREP	APPR	_	7	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	gefunden	finden	V	VVPP	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	in	in	PREP	APPR	_	2	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	im	in	PREP	APPRART	Dat	2	pp	_	_
+6	Juli	Juli	N	NN	Masc|Dat|Sg	5	pn	_	_
+7	weil	weil	KOUS	KOUS	_	9	konj	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	beginn	beginn	V	VVFIN	1|Sg|_|_	2	neb	_	_
+10	mein	meine	ART	PPOSAT	_|_|Sg	11	det	_	_
+11	Arbeit	Arbeit	N	NN	Neut|Acc|Sg	9	obja	_	_
+12	im	in	PREP	APPRART	Dat	9	pp	_	_
+13	beginn	beginn	ADJA	ADJA	_|Masc|Dat|Sg|_	14	attr	_	_
+14	Juli	Juli	N	NN	Masc|Dat|Sg	12	pn	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Der	die	ART	ART	Def|Fem|Dat|Sg	2	det	_	_
+2	Wohnung	Wohnung	N	NN	Fem|Dat|Sg	3	objd	_	_
+3	muss	müssen	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_
+4	habe	haben	V	VAFIN	_|Sg|Pres|_	0	root	_	_
+5	Zwei	zwei	CARD	CARD	_	6	attr	_	_
+6	Zimmer	Zimmer	N	NN	Neut|Acc|Pl	4	obja	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	eine	eine	ART	ART	Indef|Fem|_|Sg	2	det	_	_
+2	Schlafzimmer	Schlafzimmer	N	NN	Fem|_|Sg	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	eine	eine	ART	ART	Indef|Fem|_|Sg	3	det	_	_
+3	Wohnzimmer	Wohnzimmer	N	NN	Fem|Acc|Sg	4	obja	_	_
+4	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	1	cj	_	_
+5	du	du	PRO	PPER	2|Sg|_|Nom	4	subj	_	_
+6	hilfe	hilfe	N	NN	_|Dat|_	4	objd	_	_
+7	bei	bei	PREP	APPR	Dat	4	pp	_	_
+8	der	die	ART	ART	Def|Fem|Dat|Sg	9	det	_	_
+9	Wohnungssuche	Wohnungssuche	N	NN	Fem|Dat|Sg	7	pn	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	Ihre	ihre	ART	PPOSAT	Fem|Acc|Sg	5	det	_	_
+5	Mithilfe	Mithilfe	N	NN	Fem|Acc|Sg	3	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Michael	Michael	N	NE	_|_|Sg	2	app	_	_
+4	Müller	Müller	N	NE	_|_|Sg	3	app	_	_
+

@@ -1,0 +1,85 @@
+1	Lieber	Liebe	N	NN	_|_|_	0	root	_	_
+2	Jens	Jens	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	1	objc	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+7	Dir	du	PRO	PPER	2|Sg|_|Dat	5	objd	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Herzlische	Herzlische	N	NE	_|Dat|_	8	objd	_	_
+2	glückwünsche	glückwünsche	N	NE	_|Dat|_	1	app	_	_
+3	mein	meine	ART	PPOSAT	Masc|Nom|Sg	4	det	_	_
+4	Freund	Freund	N	NN	Masc|Nom|Sg	8	pred	_	_
+5	Jens	Jens	N	NE	Masc|Nom|Sg	4	app	_	_
+6	für	für	PREP	APPR	Acc	8	pp	_	_
+7	Vater	Vater	N	NN	Masc|Acc|Sg	6	pn	_	_
+8	worden	werden	V	VAPP	_	0	root	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Wer	wer	PRO	PWS	_|Nom|Sg	2	pred	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	Names	Names	N	NE	_|Dat|_	2	objd	_	_
+4	Dein	deine	ART	PPOSAT	Neut|Nom|Sg	5	det	_	_
+5	Baby	Baby	N	NN	Neut|Nom|Sg	2	subj	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	sind	sein	V	VAFIN	_|Pl|Pres|Ind	0	root	_	_
+3	Deine	deine	ART	PPOSAT	Fem|Nom|Sg	4	det	_	_
+4	Frau	Frau	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	und	und	KON	KON	_	4	kon	_	_
+6	Dein	deine	ART	PPOSAT	Neut|Nom|Sg	7	det	_	_
+7	Baby	Baby	N	NN	Neut|Nom|Sg	5	cj	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Sind	sein	V	VAFIN	3|Pl|Pres|Ind	0	root	_	_
+2	Sie	sie	PRO	PPER	3|Pl|_|Nom	1	subj	_	_
+3	gesund	gesund	ADV	ADJD	Pos|	1	pred	_	_
+4	oder	oder	KON	KON	_	3	kon	_	_
+5	krank	krank	ADV	ADJD	Pos|	4	cj	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	Dein	deine	ART	PPOSAT	Neut|Nom|Sg	4	det	_	_
+4	Baby	Baby	N	NN	Neut|Nom|Sg	2	subj	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+2	es	es	PRO	PPER	3|Sg|Neut|Nom	1	subj	_	_
+3	einen	eine	ART	ART	Indef|Masc|Acc|Sg	4	det	_	_
+4	Junge	Junge	N	NN	Masc|Acc|Sg	1	obja	_	_
+5	oder	oder	KON	KON	_	4	kon	_	_
+6	eine	eine	ART	ART	Indef|Fem|Acc|Sg	7	det	_	_
+7	Mädschen	Mädschen	N	NN	Fem|Acc|Sg	5	cj	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	findest	finden	V	VVFIN	2|Sg|Pres|_	0	root	_	_
+3	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+4	Dein	deine	ART	PPOSAT	Neut|Acc|Sg	5	det	_	_
+5	Baby	Baby	N	NN	Neut|Acc|Sg	2	obja	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Bitte	Bitte	N	NN	Fem|Dat|Sg	2	objd	_	_
+2	schreibt	schreiben	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	mich	ich	PRO	PPER	1|Sg|_|Acc	2	obja	_	_
+4	die	die	ART	ART	Def|Fem|Nom|Sg	5	det	_	_
+5	Antwortet	Antwortet	N	NN	Fem|Nom|Sg	2	subj	_	_
+6	und	und	KON	KON	_	0	root	_	_
+7	schinkt	schinkt	TRUNC	TRUNC	_	0	root	_	_
+8	mir	ich	PRO	PPER	1|Sg|_|Dat	0	root	_	_
+9	2	2	CARD	CARD	_	10	attr	_	_
+10	Bilder	Bild	N	NN	_|_|Pl	0	root	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Liebe	lieb	ADJA	ADJA	Pos|Masc|Nom|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|Nom|Pl	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Dein	deine	ART	PPOSAT	Masc|Nom|Sg	5	det	_	_
+5	Freund	Freund	N	NN	Masc|Nom|Sg	2	kon	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	Michael	Michael	N	NE	Masc|Nom|Sg	5	kon	_	_
+8	Müller	Müller	N	NE	_|Nom|Sg	7	app	_	_
+

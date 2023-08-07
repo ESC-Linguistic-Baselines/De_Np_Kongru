@@ -1,0 +1,104 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	den	die	ART	ART	Def|_|_|_	0	root	_	_
+5	28.2.2012	28.2.2012	CARD	CARD	_	0	root	_	_
+6	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	7	attr	_	_
+7	Silke	Silk	N	NN	Masc|Dat|Sg	0	root	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	ich	ich	PRO	PPER	1|Sg|_|Nom	10	subj	_	_
+10	freue	freuen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+11	mich	ich	PRO	PRF	1|Sg|Acc	10	obja	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	dass	dass	KOUS	KOUS	_	0	root	_	_
+14	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+15	ein	eine	ART	ART	Indef|Masc|Nom|Sg	16	det	_	_
+16	Brief	Brief	N	NN	Masc|Nom|Sg	0	root	_	_
+17	geschreiben	geschreiben	N	NE	Masc|Nom|Sg	16	app	_	_
+18	hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Uns	wir	PRO	PPER	1|Pl|_|Dat	2	objd	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	alles	alle	PRO	PIS	Neut|Nom|Sg	3	app	_	_
+5	gut	gut	ADV	ADJD	Pos|	2	pred	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Im	in	PREP	APPRART	Dat	3	pp	_	_
+2	Moment	Moment	N	NN	_|Dat|Sg	1	pn	_	_
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	8	s	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	etwas	etwas	ART	PIAT	Fem|Acc|Sg	6	det	_	_
+6	Zeit	Zeit	N	NN	Fem|Acc|Sg	3	obja	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	desalbe	desalbe	V	VVFIN	1|Sg|_|_	0	root	_	_
+9	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+10	jeden	jede	ART	PIDAT	Masc|Gen|Sg	11	det	_	_
+11	Tags	Tag	N	NN	Masc|Gen|Sg	0	root	_	_
+12	mit	mit	PREP	APPR	Dat	16	pp	_	_
+13	meiner	meine	ART	PPOSAT	Fem|Dat|Sg	14	det	_	_
+14	Mutter	Mutter	N	NN	Fem|Dat|Sg	12	pn	_	_
+15	spazieren	spazieren	V	VVINF	_	16	aux	_	_
+16	gehen	gehen	V	VVINF	_	0	root	_	_
+17	.	.	$.	$.	_	0	root	_	_
+
+1	Nächste	nah	ADJA	ADJA	_|Masc|Acc|Pl|St|	2	attr	_	_
+2	Monate	Monat	N	NN	Masc|Acc|Pl	3	zeit	_	_
+3	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	dich	du	PRO	PPER	2|Sg|_|Acc	6	obja	_	_
+6	besuchen	besuchen	V	VVINF	_	3	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	nächste	nah	ADJA	ADJA	_|_|Nom|_|_|	4	attr	_	_
+4	Montag	Montag	N	NN	_|Nom|_	2	pred	_	_
+5	sicher	sicher	ADV	ADJD	Pos|	6	adv	_	_
+6	Datum	Datum	N	NN	_|Nom|_	4	app	_	_
+7	Schreiben	Schreibe	N	NN	_|Nom|_	6	app	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_
+2	Katze	Katze	N	NN	Fem|Nom|Sg	5	subj	_	_
+3	von	von	PREP	APPR	_	2	pp	_	_
+4	Max	Max	N	NE	Masc|_|Sg	3	pn	_	_
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+6	Sehr	sehr	ADV	ADV	_	7	adv	_	_
+7	gut	gut	ADV	ADJD	Pos|	5	adv	_	_
+8	Idee	Idee	N	NN	Fem|Nom|Sg	5	pred	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	die	die	ART	ART	Def|Fem|Acc|Sg	4	det	_	_
+4	Katze	Katze	N	NN	Fem|Acc|Sg	5	obja	_	_
+5	sehen	sehen	V	VVINF	_	2	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	1	cj	_	_
+3	will	wollen	V	VMFIN	3|Sg|Pres|Ind	0	root	_	_
+4	ein	eine	ART	ART	Indef|Masc|Nom|Sg	5	det	_	_
+5	Rock	Rock	N	NN	Masc|Nom|Sg	3	subj	_	_
+6	kaufen	kaufen	V	VVINF	_	3	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	der	die	ART	ART	Def|_|_|_	0	root	_	_
+4	für	für	PREP	APPR	Acc	0	root	_	_
+5	meinen	meine	ART	PPOSAT	Masc|Acc|Sg	6	det	_	_
+6	Geburtstag	Geburtstag	N	NN	Masc|Acc|Sg	4	pn	_	_
+7	kaufen	kaufen	V	VVINF	_	0	root	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Im	in	PREP	APPRART	Dat	4	pp	_	_
+2	Voraur	Voraur	N	NN	_|Dat|_	1	pn	_	_
+3	Vielen	viele	ART	PIDAT	Masc|_|Sg	4	det	_	_
+4	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+5	Viele	viele	ART	PIDAT	Masc|_|Pl	6	det	_	_
+6	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+7	Maria	Maria	N	NE	_|_|Sg	6	app	_	_
+

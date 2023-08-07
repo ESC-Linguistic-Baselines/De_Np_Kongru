@@ -1,0 +1,95 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	22.02.2012	22.02.2012	CARD	CARD	_	5	attr	_	_
+5	Liebe	Liebe	N	NN	_|_|Pl	2	app	_	_
+6	(	(	$(	$(	_	0	root	_	_
+7	r	r	FM	FM	_	5	par	_	_
+8	)	)	$(	$(	_	0	root	_	_
+9	Michael	Michael	N	NE	Masc|Dat|Sg	5	app	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	Vielen	viele	ART	PIDAT	Masc|Dat|Sg	12	det	_	_
+12	Danke	Dank	N	NN	Masc|Dat|Sg	9	app	_	_
+13	für	für	PREP	APPR	Acc	12	pp	_	_
+14	deine	deine	ART	PPOSAT	_|Acc|_	15	det	_	_
+15	Glückwunschekarte	Glückwunschekarte	N	NN	_|Acc|_	13	pn	_	_
+16	zum	zu	PREP	APPRART	Dat	15	pp	_	_
+17	neuen	neu	ADJA	ADJA	Pos|Neut|Dat|Sg|Wk|	18	attr	_	_
+18	Jahr	Jahr	N	NN	Neut|Dat|Sg	16	pn	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	alles	alle	ART	PIDAT	Neut|Acc|Sg	5	det	_	_
+5	Gute	Gut	N	NN	Neut|Acc|Sg	2	obja	_	_
+6	für	für	PREP	APPR	Acc	5	pp	_	_
+7	das	die	ART	ART	Def|Neut|Acc|Sg	9	det	_	_
+8	neue	neu	ADJA	ADJA	Pos|Neut|Acc|Sg|Wk|	9	attr	_	_
+9	Jahr	Jahr	N	NN	Neut|Acc|Sg	6	pn	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	viele	viele	ART	PIDAT	Neut|Acc|Sg	12	det	_	_
+12	Glück	Glück	N	NN	Neut|Acc|Sg	9	kon	_	_
+13	und	und	KON	KON	_	12	kon	_	_
+14	Gesundheit	Gesundheit	N	NN	Fem|Acc|Sg	13	cj	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	_
+2	Erfolg	Erfolg	N	NN	Masc|_|Sg	0	root	_	_
+3	mit	mit	PREP	APPR	Dat	2	pp	_	_
+4	deinem	deine	ART	PPOSAT	_|Dat|Sg	5	det	_	_
+5	Ausbildung	Ausbildung	N	NN	_|Dat|Sg	3	pn	_	_
+6	als	als	KOKOM	KOKOM	_	5	kom	_	_
+7	Bäcker	Bäcker	N	NN	Masc|_|_	6	cj	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|_|Acc|Pl	2	det	_	_
+2	Silvester	Silvester	N	NN	_|Acc|Pl	8	obja	_	_
+3	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+4	wir	wir	PRO	PPER	1|Pl|_|Nom	3	subj	_	_
+5	mit	mit	PREP	APPR	Dat	8	pp	_	_
+6	meine	meine	ART	PPOSAT	Neut|_|Pl	7	det	_	_
+7	Kinder	Kind	N	NN	Neut|_|Pl	5	pn	_	_
+8	verbracht	verbringen	V	VVPP	_	3	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+3	verschiedenen	verschieden	ADJA	ADJA	Pos|Neut|Dat|Pl|_|	4	attr	_	_
+4	Gerichten	Gericht	N	NN	Neut|Dat|Pl	5	objd	_	_
+5	gekocht	kochen	V	VVPP	_	2	aux	_	_
+6	und	und	KON	KON	_	5	kon	_	_
+7	gegessen	essen	V	VVPP	_	6	cj	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Danach	Danach	PROAV	PROAV	_	2	pp	_	_
+2	sind	sein	V	VAFIN	1|Pl|Pres|Ind	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+4	auf	auf	PREP	APPR	Acc	7	objp	_	_
+5	die	die	ART	ART	Def|_|Acc|_	6	det	_	_
+6	Straße	Straß	N	NN	_|Acc|_	4	pn	_	_
+7	gegangen	gehen	V	VVPP	_	2	aux	_	_
+8	Feirwerk	Feirwerk	N	NN	_|Nom|_	9	subj	_	_
+9	gemacht	machen	V	VVPP	_	2	neb	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Michael	Michael	N	NE	Masc|Dat|Sg	3	objd	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+4	freu	freu	N	NE	_|Nom|_	3	pred	_	_
+5	mit	mit	PREP	APPR	Dat	4	pp	_	_
+6	deinem	deine	ART	PPOSAT	_|Dat|Sg	5	pn	_	_
+7	besuchen	besuchen	V	VVINF	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Wann	Wann	PWAV	PWAV	_	2	adv	_	_
+2	kommst	kommen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+4	bei	bei	PREP	APPR	Dat	2	pp	_	_
+5	uns	wir	PRO	PPER	1|Pl|_|Dat	4	pn	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Herzliche	herzlich	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Eva	Eva	N	NE	Fem|_|Sg	2	app	_	_
+

@@ -1,0 +1,30 @@
+1	MORGEN	MORGEN	N	NE	Fem|_|Sg	0	root	_	_
+2	MEIN	MEIN	N	NE	Fem|_|Sg	1	app	_	_
+3	LIEBE	LIEBE	N	NE	Fem|_|Sg	2	app	_	_
+4	DANIELA	DANIELA	N	NE	Fem|_|Sg	3	app	_	_
+5	VIELES	VIELES	N	NE	Fem|_|Sg	4	app	_	_
+6	DU	DU	N	NE	Fem|_|Sg	5	app	_	_
+7	NACH	NACH	N	NE	Fem|_|Sg	6	app	_	_
+8	MITTAGE	MITTAGE	N	NE	Fem|_|Sg	7	app	_	_
+9	EM	EM	N	NN	Fem|_|Sg	8	app	_	_
+10	SCHWIMMENBAD	SCHWIMMENBAD	N	NE	Fem|_|Sg	9	app	_	_
+11	MIT	MIT	N	NE	Fem|_|Sg	10	app	_	_
+12	UNS	UNS	N	NE	Fem|_|Sg	11	app	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	TREFEN	TREFEN	N	NE	_	0	root	_	_
+2	UN	UN	N	NE	_	1	app	_	_
+3	2	2	CARD	CARD	_	4	attr	_	_
+4	UHR	UHR	N	NN	_|Gen|Pl	2	gmod	_	_
+5	AN	AN	N	NE	_|Gen|Pl	4	app	_	_
+6	BAHNHOF	BAHNHOF	N	NE	_|Gen|Pl	5	app	_	_
+7	SCHUSS	SCHUSS	N	NE	_|Gen|Pl	6	app	_	_
+8	EIN	EIN	N	NE	_|Gen|Pl	7	app	_	_
+9	SCHON	SCHON	N	NE	_|Gen|Pl	8	app	_	_
+10	GRUß	GRUß	N	NE	_|Gen|Pl	9	app	_	_
+11	FON	FON	N	NE	_|Gen|Pl	10	app	_	_
+12	MIER	MIER	N	NE	_|Gen|Pl	11	app	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	STEFAN	STEFAN	N	NE	_	0	root	_	_
+

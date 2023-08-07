@@ -1,0 +1,109 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	_|_|_	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	den	die	ART	ART	Def|_|_|_	6	det	_	_
+5	13.3.12	13.3.12	CARD	CARD	_	6	attr	_	_
+6	Liebe	Liebe	N	NN	_|_|_	2	app	_	_
+7	Julia	Julia	N	NE	Fem|_|Sg	6	app	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	wie	wie	PWAV	PWAV	_	10	pred	_	_
+10	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	6	objc	_	_
+11	es	es	PRO	PPER	3|Sg|Neut|Nom	10	subj	_	_
+12	dir	du	PRO	PPER	2|Sg|_|Dat	10	objd	_	_
+13	?	?	$.	$.	_	0	root	_	_
+
+1	Mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	gut	gut	ADV	ADJD	Pos|	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	11	obja	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	einen	eine	ART	ART	Indef|Masc|Acc|Sg	7	det	_	_
+7	Wochenendausflug	Wochenendausflug	N	NN	Masc|Acc|Sg	5	pn	_	_
+8	nach	nach	PREP	APPR	Dat	11	pp	_	_
+9	Stadt	Stadt	N	NN	Fem|Dat|Sg	8	pn	_	_
+10	Y	Y	N	NE	Fem|Dat|Sg	9	app	_	_
+11	gekauft	kaufen	V	VVPP	_	2	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	kann	können	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+5	fahren	fahren	V	VVINF	_	3	aux	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	weil	weil	KOUS	KOUS	_	14	konj	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	14	subj	_	_
+9	beschäftlich	beschäftlich	ADV	ADJD	_	13	adv	_	_
+10	nach	nach	PREP	APPR	Dat	13	pp	_	_
+11	Stadt	Stadt	N	NN	Neut|Dat|_	10	pn	_	_
+12	Z	Z	N	NN	Neut|Dat|_	11	app	_	_
+13	fahren	fahren	V	VVINF	_	14	aux	_	_
+14	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	3	neb	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	die	die	ART	ART	Def|Fem|Acc|Sg	4	det	_	_
+4	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	8	obja	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	den	die	ART	ART	Def|Masc|Acc|Sg	7	det	_	_
+7	Zug	Zug	N	NN	Masc|Acc|Sg	5	pn	_	_
+8	gekauft	kaufen	V	VVPP	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_
+2	Reise	Reis	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	am	an	PREP	APPRART	Dat	3	pp	_	_
+5	Samstag	Samstag	N	NN	_|Dat|Sg	4	pn	_	_
+6	18.03.12	18.03.12	CARD	CARD	_	5	app	_	_
+7	um	um	PREP	APPR	_	3	pp	_	_
+8	8.00	8.00	CARD	CARD	_	9	attr	_	_
+9	Uhr	Uhr	N	NN	Fem|_|Sg	7	pn	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	wissen	wissen	V	VVINF	_	2	aux	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	ob	ob	KOUS	KOUS	_	0	root	_	_
+6	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+7	die	die	ART	ART	Def|Fem|Nom|Sg	8	det	_	_
+8	Fahrkarte	Fahrkarte	N	NN	Fem|Nom|Sg	10	subj	_	_
+9	haben	haben	V	VAINF	_	10	aux	_	_
+10	möchte	mögen	V	VMFIN	3|Sg|Past|Subj	0	root	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	3	det	_	_
+2	ganze	ganz	ADJA	ADJA	Pos|Fem|Nom|Sg|_|	3	attr	_	_
+3	Reise	Reis	N	NN	Fem|Nom|Sg	4	subj	_	_
+4	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+5	kostenlos	kostenlos	ADV	ADJD	Pos|	4	pred	_	_
+6	und	und	KON	KON	_	0	root	_	_
+7	du	du	PRO	PPER	2|Sg|_|Nom	6	cj	_	_
+8	kann	können	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_
+9	am	an	PREP	APPRART	Dat	11	pp	_	_
+10	Abend	Abend	N	NN	Masc|Dat|Sg	9	pn	_	_
+11	zurückkommen	zurückkommen	V	VVINF	_	8	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Schreib	Schreib	N	NE	_|Nom|Sg	2	subj	_	_
+2	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+3	bald	bald	ADV	ADV	_	2	adv	_	_
+4	order	order	ADV	ADJD	_	2	adv	_	_
+5	ruf	rufen	V	VVIMP	Sg	0	root	_	_
+6	mich	ich	PRO	PPER	1|Sg|_|Acc	5	obja	_	_
+7	an	an	PTKVZ	PTKVZ	_	5	avz	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Friedrich	Friedrich	N	NE	_|_|Sg	2	app	_	_
+

@@ -1,0 +1,64 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	26.04.12	26.04.12	CARD	CARD	_	0	root	_	_
+5	Lieber	lieb	ADJA	ADJA	Pos|Masc|Nom|Sg|St|	6	attr	_	_
+6	Freund	Freund	N	NN	Masc|Nom|Sg	0	root	_	_
+7	Jens	Jens	N	NE	Masc|Nom|Sg	6	app	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	es	es	PRO	PPER	3|Sg|Neut|Nom	10	subj	_	_
+10	freu	freu	V	VVFIN	3|Sg|_|_	0	root	_	_
+11	mich	ich	PRO	PPER	1|Sg|_|Acc	10	obja	_	_
+12	sehr	sehr	ADV	ADV	_	13	adv	_	_
+13	gut	gut	ADV	ADJD	Pos|	10	adv	_	_
+14	dass	dass	KOUS	KOUS	_	0	root	_	_
+15	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+16	,	,	$,	$,	_	0	root	_	_
+17	Vater	Vater	N	NN	Masc|Nom|Sg	18	pred	_	_
+18	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	wie	wie	PWAV	PWAV	_	3	pred	_	_
+3	heisst	heißen	V	VVFIN	3|Sg|Pres|Ind	1	cj	_	_
+4	das	die	ART	ART	Def|Neut|Nom|Sg	5	det	_	_
+5	Kind	Kind	N	NN	Neut|Nom|Sg	3	subj	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	wie	wie	KOKOM	KOKOM	_	0	root	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	´	´	N	NE	_|Nom|Sg	2	subj	_	_
+4	s	s	PRO	PPER	_|_|_|Dat	2	objd	_	_
+5	es	es	PRO	PPER	3|Sg|Neut|_	2	expl	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	wie	wie	KOKOM	KOKOM	_	0	root	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	deine	deine	ART	PPOSAT	Fem|Nom|Sg	4	det	_	_
+4	Frau	Frau	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	offe	offe	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	alles	alle	PRO	PIS	Neut|Nom|Sg	4	subj	_	_
+4	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+5	gut	gut	ADV	ADJD	Pos|	4	pred	_	_
+6	!	!	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Euch	ihr	PRO	PPER	2|Pl|_|Dat	2	objd	_	_
+4	ein	eine	ART	ART	Indef|_|_|Sg	11	det	_	_
+5	gut	gut	ADV	ADJD	Pos|	10	adv	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	und	und	KON	KON	_	5	kon	_	_
+8	viel	viel	ADV	ADV	_	9	adv	_	_
+9	glück	glück	ADV	ADJD	_	7	cj	_	_
+10	Liebe	lieb	ADJA	ADJA	Pos|Neut|Acc|Sg|Wk|	11	attr	_	_
+11	Grüße	Gruß	N	NN	Neut|Acc|Sg	2	obja	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Dein	deine	ART	PPOSAT	_|_|Sg	0	root	_	_
+2	-	-	$(	$(	_	0	root	_	_
+3	Michael	Michael	N	NE	Masc|_|Sg	0	root	_	_
+

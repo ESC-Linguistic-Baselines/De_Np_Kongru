@@ -1,0 +1,67 @@
+1	Katharina	Katharina	N	NE	Fem|_|Sg	0	root	_	_
+2	Schmidt	Schmidt	N	NE	Fem|_|Sg	1	app	_	_
+3	Winkelgasse	Winkelgasse	N	NE	Fem|_|Sg	2	app	_	_
+4	12	12	CARD	CARD	_	5	attr	_	_
+5	St.	St.	FM	FM	_|Gen|Pl	7	gmod	_	_
+6	X	X	CARD	CARD	_	5	app	_	_
+7	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+8	X	X	N	NE	Fem|_|Sg	7	app	_	_
+9	19.01.12	19.01.12	CARD	CARD	_	8	app	_	_
+10	An	an	PREP	APPR	Acc	9	pp	_	_
+11	das	die	ART	ART	Def|Neut|Acc|Sg	12	det	_	_
+12	Wohnungsamt	Wohnungsamt	N	NN	Neut|Acc|Sg	10	pn	_	_
+13	Sehr	sehr	ADV	ADV	_	14	adv	_	_
+14	geerte	geerte	ADJA	ADJA	_|Fem|Acc|Pl|_	15	attr	_	_
+15	Damen	Dame	N	NN	Fem|Acc|Pl	12	app	_	_
+16	und	und	KON	KON	_	15	kon	_	_
+17	Herren	Herr	N	NN	Masc|Acc|_	16	cj	_	_
+18	,	,	$,	$,	_	0	root	_	_
+19	Ich	ich	PRO	PPER	1|Sg|_|Nom	20	subj	_	_
+20	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+21	2	2	CARD	CARD	_	0	root	_	_
+22	1	1	CARD	CARD	_	25	attr	_	_
+23	/	/	$(	$(	_	0	root	_	_
+24	2	2	CARD	CARD	_	22	kon	_	_
+25	Zimmer	Zimmer	N	NN	Neut|_|Sg	0	root	_	_
+26	wohnung	wohnung	N	NE	Neut|_|Sg	25	app	_	_
+27	,	,	$,	$,	_	0	root	_	_
+28	mit	mit	PREP	APPR	Dat	25	pp	_	_
+29	Balkon	Balkon	N	NN	Masc|Dat|Sg	28	pn	_	_
+30	und	und	KON	KON	_	29	kon	_	_
+31	Garage	Garage	N	NN	Fem|Dat|Sg	30	cj	_	_
+32	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	_|Nom|Sg	2	det	_	_
+2	wohnung	wohnung	N	NN	_|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	teuer	teuer	ADV	ADJD	Pos|	3	pred	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	_|Nom|Sg	2	det	_	_
+2	Altere	Altere	N	NN	_|Nom|Sg	4	subj	_	_
+3	Tauchter	Tauchter	N	NE	_|Nom|Sg	2	app	_	_
+4	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+5	umgesogen	umsaugen	V	VVPP	_	4	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+4	kleine	klein	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	whonung	whonung	N	NN	Fem|Acc|Sg	2	obja	_	_
+6	ab	ab	PREP	APPR	Dat	2	pp	_	_
+7	500	500	CARD	CARD	_	8	attr	_	_
+8	€	€	N	NN	_|Dat|Pl	6	pn	_	_
+9	bis	bis	PREP	APPR	Acc	2	pp	_	_
+10	650	650	CARD	CARD	_	11	attr	_	_
+11	€	€	N	NN	_|Acc|Pl	9	pn	_	_
+12	warmmiete	warmmieten	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Mit	mit	PREP	APPR	Dat	0	root	_	_
+2	freundlichen	freundlich	ADJA	ADJA	Pos|_|Dat|_|_|	3	attr	_	_
+3	Grüß	Grüß	N	NN	_|Dat|_	1	pn	_	_
+4	Katharina	Katharina	N	NE	_|Dat|Sg	3	app	_	_
+5	Schmidt	Schmidt	N	NE	_|Dat|Sg	4	app	_	_
+

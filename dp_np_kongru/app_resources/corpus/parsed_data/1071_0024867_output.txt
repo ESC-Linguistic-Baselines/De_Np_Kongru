@@ -1,0 +1,84 @@
+1	Lieber	Liebe	N	NN	_|_|_	0	root	_	_
+2	Jens	Jens	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Stadt	Stadt	N	NN	Fem|_|Sg	2	app	_	_
+5	X	X	N	NE	Fem|_|Sg	4	app	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	08.03.2012	08.03.2012	CARD	CARD	_	0	root	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+10	sehr	sehr	ADV	ADV	_	9	adv	_	_
+11	Glück	Glück	N	NN	Neut|Nom|Sg	9	pred	_	_
+12	für	für	PREP	APPR	Acc	11	pp	_	_
+13	euch	ihr	PRO	PPER	2|Pl|_|Acc	12	pn	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	In	in	PREP	APPR	Dat	0	root	_	_
+2	diesem	diese	ART	PDAT	Masc|Dat|Sg	4	det	_	_
+3	toll	toll	ADV	ADJD	Pos|	4	adv	_	_
+4	Tag	Tag	N	NN	Masc|Dat|Sg	1	pn	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+8	dir	du	PRO	PPER	2|Sg|_|Dat	12	objd	_	_
+9	und	und	KON	KON	_	8	kon	_	_
+10	deiner	deine	ART	PPOSAT	Fem|Dat|Sg	11	det	_	_
+11	Frau	Frau	N	NN	Fem|Dat|Sg	9	cj	_	_
+12	gratulieren	gratulieren	V	VVINF	_	6	aux	_	_
+13	,	,	$,	$,	_	0	root	_	_
+14	Habe	haben	V	VAFIN	1|Sg|Pres|_	12	s	_	_
+15	ich	ich	PRO	PPER	1|Sg|_|Nom	14	subj	_	_
+16	richtig	richtig	ADV	ADJD	Pos|	17	adv	_	_
+17	verstanden	verstehen	V	VVPP	_	14	aux	_	_
+18	?	?	$.	$.	_	0	root	_	_
+
+1	Bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	auf	auf	PREP	APPR	_	0	root	_	_
+4	drei	drei	CARD	CARD	_	3	pn	_	_
+5	schönes	schön	ADJA	ADJA	Pos|Neut|_|Sg|St|	7	attr	_	_
+6	zwilingers	zwilingers	ADJA	ADJA	_|Masc|_|Sg|_	7	attr	_	_
+7	Vater	Vater	N	NN	Masc|_|Sg	0	root	_	_
+8	geworden	werden	V	VAPP	_	0	root	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+1	Toll	toll	ADV	ADJD	Pos|	0	root	_	_
+2	!	!	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	wie	wie	PWAV	PWAV	_	3	pred	_	_
+3	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	1	cj	_	_
+4	es	es	PRO	PPER	3|Sg|Neut|Nom	3	subj	_	_
+5	der	die	ART	ART	Def|Fem|Dat|Sg	6	det	_	_
+6	Mutter	Mutter	N	NN	Fem|Dat|Sg	3	objd	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Haben	haben	V	VAFIN	3|Pl|Pres|_	0	root	_	_
+2	sie	sie	PRO	PPER	3|Pl|_|Nom	1	subj	_	_
+3	jetzt	jetzt	ADV	ADV	_	6	adv	_	_
+4	die	die	ART	ART	Def|Neut|Acc|Pl	5	det	_	_
+5	Kinder	Kind	N	NN	Neut|Acc|Pl	6	obja	_	_
+6	genommen	nehmen	V	VVPP	_	1	aux	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Ruft	rufen	V	VVFIN	_|_|Pres|Ind	0	root	_	_
+2	mich	ich	PRO	PPER	1|Sg|_|Acc	1	obja	_	_
+3	an	an	PTKVZ	PTKVZ	_	1	avz	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	wenn	wenn	KOUS	KOUS	_	6	konj	_	_
+6	kann	können	V	VMFIN	1|Sg|Pres|Ind	1	neb	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+8	dir	du	PRO	PPER	2|Sg|_|Dat	6	objd	_	_
+9	helfen	helfen	V	VVINF	_	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Glückwünsche	Glückwunsch	N	NN	Masc|_|Pl	0	root	_	_
+2	noch	noch	ADV	ADV	_	3	adv	_	_
+3	mal	mal	ADV	ADV	_	1	adv	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	Liebe	lieb	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Michael	Michael	N	NE	Masc|_|Pl	2	app	_	_
+4	ddd	ddd	N	NE	Masc|_|Pl	3	app	_	_
+

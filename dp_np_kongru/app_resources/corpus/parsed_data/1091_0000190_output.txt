@@ -1,0 +1,65 @@
+1	07.02.12	07.02.12	CARD	CARD	_	2	attr	_	_
+2	Liebe	Liebe	N	NN	_|_|Pl	6	vok	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+6	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+7	eine	eine	ART	ART	Indef|Fem|Acc|Sg	8	det	_	_
+8	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	12	obja	_	_
+9	für	für	PREP	APPR	Acc	8	pp	_	_
+10	einen	eine	ART	ART	Indef|Masc|Acc|Sg	11	det	_	_
+11	Wochenendausflug	Wochenendausflug	N	NN	Masc|Acc|Sg	9	pn	_	_
+12	gekauft	kaufen	V	VVPP	_	6	aux	_	_
+13	und	und	KON	KON	_	6	kon	_	_
+14	möchte	mögen	V	VMFIN	_|Sg|Past|Subj	13	cj	_	_
+15	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+16	nach	nach	PREP	APPR	Dat	15	pp	_	_
+17	Stadt	Stadt	N	NN	Fem|Dat|Sg	16	pn	_	_
+18	X	X	N	NE	Fem|Dat|Sg	17	app	_	_
+19	fliegen	fliegen	V	VVINF	_	0	root	_	_
+20	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	leider	leider	ADV	ADV	_	3	adv	_	_
+3	am	an	PREP	APPRART	Dat	5	pp	_	_
+4	Wochenende	Wochenende	N	NN	Neut|Dat|Sg	3	pn	_	_
+5	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+6	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+7	viele	viele	ART	PIDAT	_|Acc|_	8	det	_	_
+8	Arbeiten	Arbeit	N	NN	_|Acc|_	5	obja	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	noch	noch	ADV	ADV	_	4	adv	_	_
+4	fahrkarte	fahrkarte	ADV	ADJD	_	9	adv	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	nächste	nah	ADJA	ADJA	_|Neut|Acc|Sg|Wk|	7	attr	_	_
+7	Wochenende	Wochenende	N	NN	Neut|Acc|Sg	5	pn	_	_
+8	aber	aber	ADV	ADV	_	4	adv	_	_
+9	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+10	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+11	mit	mit	PREP	APPR	Dat	14	pp	_	_
+12	den	die	ART	ART	Def|_|_|_	13	det	_	_
+13	Schiff	Schiff	N	NN	_|Dat|Pl	11	pn	_	_
+14	fahren	fahren	V	VVINF	_	9	aux	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	(	(	$(	$(	_	0	root	_	_
+2	22.02.2012	22.02.2012	CARD	CARD	_	0	root	_	_
+3	)	)	$(	$(	_	0	root	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+4	mir	ich	PRO	PPER	1|Sg|_|Dat	3	objd	_	_
+5	Antwort	Antwort	N	NN	Fem|Nom|Sg	3	subj	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Dein	deine	ART	PPOSAT	_|_|Sg	4	det	_	_
+4	freund	freund	N	NN	_|_|Sg	0	root	_	_
+5	Michael	Michael	N	NE	Masc|_|Sg	4	app	_	_
+

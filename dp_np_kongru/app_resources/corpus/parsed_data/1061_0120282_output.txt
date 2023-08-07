@@ -1,0 +1,40 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Dana	Dana	N	NE	Fem|_|Sg	1	app	_	_
+3	Stadt	Stadt	N	NN	Fem|_|Sg	2	app	_	_
+4	X	X	N	NE	Fem|_|Sg	3	app	_	_
+5	22.02.2012	22.02.2012	CARD	CARD	_	4	app	_	_
+6	im	in	PREP	APPRART	Dat	5	pp	_	_
+7	Sommer	Sommer	N	NN	Masc|Dat|Sg	6	pn	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+9	besucht	besuchen	V	VVFIN	_|_|Pres|Ind	0	root	_	_
+10	ihn	er	PRO	PPER	3|Sg|Masc|Acc	9	obja	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+3	einen	eine	ART	ART	Indef|Masc|Acc|Sg	6	det	_	_
+4	sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	gut	gut	ADV	ADJD	Pos|	6	adv	_	_
+6	Prüfung	Prüfung	N	NN	Masc|Acc|Sg	2	obja	_	_
+7	geschrib	geschrib	V	VVINF	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	in	in	PREP	APPR	_	3	pp	_	_
+2	istanbul	istanbul	N	NE	_|_|_	1	pn	_	_
+3	sie	sie	PRO	PPER	3|Sg|Fem|Nom	4	subj	_	_
+4	besucht	besuchen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	seinen	seine	ART	PPOSAT	Masc|Acc|_	6	det	_	_
+6	Onkel	Onkel	N	NN	Masc|Acc|_	4	obja	_	_
+7	und	und	KON	KON	_	6	kon	_	_
+8	seine	seine	ART	PPOSAT	_|Acc|_	9	det	_	_
+9	tante	tante	N	NN	_|Acc|_	7	cj	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	die	die	PRO	PRELS	_|_|_	0	root	_	_
+12	schon	schon	ADV	ADV	_	13	adv	_	_
+13	seit	seit	PREP	APPR	Dat	0	root	_	_
+14	10	10	CARD	CARD	_	15	attr	_	_
+15	Jahren	Jahr	N	NN	Neut|Dat|_	13	pn	_	_
+16	hier	hier	ADV	ADV	_	15	adv	_	_
+17	Leben	Leben	N	NN	Neut|Dat|_	15	app	_	_
+18	.	.	$.	$.	_	0	root	_	_
+

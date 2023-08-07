@@ -1,0 +1,53 @@
+1	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Silke	Silk	N	NN	Masc|Dat|Sg	0	root	_	_
+3	Viele	viele	ART	PIDAT	Masc|Nom|Sg	4	det	_	_
+4	Dank	Dank	N	NN	Masc|Nom|Sg	0	root	_	_
+5	von	von	PREP	APPR	_	4	pp	_	_
+6	deine	deine	ART	PPOSAT	_|_|_	7	det	_	_
+7	Briv	Briv	N	NN	_|_|_	5	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Mir	ich	PRO	PPER	1|Sg|_|Dat	0	root	_	_
+2	geit	geit	ADV	ADJD	_	3	pred	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	gut	gut	ADV	ADJD	Pos|	8	adv	_	_
+5	in	in	PREP	APPR	_	4	pp	_	_
+6	disem	disem	ADJA	ADJA	_	7	attr	_	_
+7	zeit	zeit	N	NN	_|_|_	5	pn	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+10	arbeit	arbeit	N	NN	_|_|_	9	obja	_	_
+11	von	von	PREP	APPR	Dat	10	pp	_	_
+12	meinem	meine	ART	PPOSAT	Masc|Dat|Sg	13	det	_	_
+13	Beruf	Beruf	N	NN	Masc|Dat|Sg	11	pn	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Deine	deine	ART	PPOSAT	Neut|_|Pl	2	det	_	_
+2	Kinder	Kind	N	NN	Neut|_|Pl	0	root	_	_
+3	schön	schön	ADV	ADJD	Pos|	4	adv	_	_
+4	groß	groß	ADV	ADJD	Pos|	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Für	für	PREP	APPR	Acc	6	pp	_	_
+2	Max	Max	N	NE	Masc|Acc|Sg	1	pn	_	_
+3	zu	zu	PREP	APPR	Dat	2	pp	_	_
+4	seine	seine	ART	PPOSAT	_|_|Sg	5	det	_	_
+5	Geburtstag	Geburtstag	N	NN	_|_|Sg	3	pn	_	_
+6	ich	ich	PRO	PPER	1|Sg|_|Nom	7	subj	_	_
+7	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+8	schön	schön	ADV	ADJD	Pos|	9	adv	_	_
+9	gekauft	kaufen	V	VVPP	_	7	aux	_	_
+10	eine	eine	ART	ART	Indef|Fem|_|Sg	11	det	_	_
+11	Katze	Katze	N	NN	Fem|_|Sg	0	root	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	Darum	Darum	PWAV	PWAV	_	0	root	_	_
+14	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+15	weis	weis	ADV	ADJD	_	16	adv	_	_
+16	genau	genau	ADV	ADJD	Pos|	18	adv	_	_
+17	sein	seine	ART	PPOSAT	_|_|Sg	18	det	_	_
+18	geburstag	geburstag	N	NN	_|_|Sg	0	root	_	_
+19	Viele	viele	ART	PIDAT	_|_|_	20	det	_	_
+20	Gruße	Gruß	N	NN	Masc|Dat|Sg	0	root	_	_
+21	S.	S.	N	NE	_|Dat|Sg	20	app	_	_
+22	Müller	Müller	N	NE	_|Dat|Sg	21	app	_	_
+

@@ -1,0 +1,69 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X.	X.	N	NE	Fem|_|Sg	1	app	_	_
+
+1	04.01.2010	04.01.2010	CARD	CARD	_	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+1	Sehr	sehr	ADV	ADV	_	2	adv	_	_
+2	geehrte	geehrt	ADJA	ADJA	Pos|Fem|_|Pl|St|	3	attr	_	_
+3	Damen	Dame	N	NN	Fem|_|Pl	8	vok	_	_
+4	und	und	KON	KON	_	3	kon	_	_
+5	Herren	Herr	N	NN	Masc|_|_	4	cj	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+9	ein	eine	ART	ART	Indef|_|_|Sg	11	det	_	_
+10	drei	drei	CARD	CARD	_	11	attr	_	_
+11	Zimmer	Zimmer	N	NN	Fem|Acc|Sg	8	obja	_	_
+12	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	11	app	_	_
+13	am	an	PREP	APPRART	Dat	8	pp	_	_
+14	Erdgeschoß	Erdgeschoß	N	NN	Neut|Dat|Sg	13	pn	_	_
+15	mit	mit	PREP	APPR	Dat	8	pp	_	_
+16	große	groß	ADJA	ADJA	Pos|Masc|Nom|Sg|Wk|	17	attr	_	_
+17	Balkon	Balkon	N	NN	Masc|Nom|Sg	15	pn	_	_
+18	oder	oder	KON	KON	_	17	kon	_	_
+19	Terrase	Terrase	N	NE	Fem|Nom|Sg	18	cj	_	_
+20	,	,	$,	$,	_	0	root	_	_
+21	Bad	Bad	N	NE	Fem|Nom|Sg	19	kon	_	_
+22	,	,	$,	$,	_	0	root	_	_
+23	Küche	Küche	N	NN	Fem|Nom|Sg	21	kon	_	_
+24	.	.	$.	$.	_	0	root	_	_
+
+1	In	in	PREP	APPR	_	3	pp	_	_
+2	haus	haus	ADV	ADV	_	1	adv	_	_
+3	soll	sollen	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_
+4	auch	auch	ADV	ADV	_	5	adv	_	_
+5	sein	sein	V	VAINF	_	3	aux	_	_
+6	ein	eine	ART	ART	Indef|_|_|Sg	7	det	_	_
+7	Kelerraum	Kelerraum	N	NN	_|_|Sg	0	root	_	_
+8	für	für	PREP	APPR	Acc	7	pp	_	_
+9	eigene	eigen	ADJA	ADJA	Pos|Masc|Nom|Sg|Wk|	10	attr	_	_
+10	Bedarf	Bedarf	N	NN	Masc|Nom|Sg	8	pn	_	_
+11	und	und	KON	KON	_	10	kon	_	_
+12	Waschraum	Waschraum	N	NN	Masc|Nom|Sg	11	cj	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	_
+2	hätten	haben	V	VAFIN	1|Pl|Past|Subj	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+4	gern	gern	ADV	ADV	_	2	adv	_	_
+5	ein	eine	ART	ART	Indef|Masc|Nom|Sg	6	det	_	_
+6	Parkplatz	Parkplatz	N	NN	Masc|Nom|Sg	0	root	_	_
+7	oder	oder	KON	KON	_	0	root	_	_
+8	2	2	CARD	CARD	_	7	cj	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	oder	oder	KON	KON	_	0	root	_	_
+11	Garage	Garage	N	NN	Fem|_|Sg	0	root	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	weil	weil	KOUS	KOUS	_	17	konj	_	_
+14	wir	wir	PRO	PPER	1|Pl|_|Nom	17	subj	_	_
+15	zwei	zwei	CARD	CARD	_	16	attr	_	_
+16	Autos	Auto	N	NN	Neut|Acc|Pl	17	obja	_	_
+17	besitzen	besitzen	V	VVFIN	1|Pl|Pres|_	0	root	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Mit	mit	PREP	APPR	Dat	0	root	_	_
+2	freundlinen	freundlinen	ADJA	ADJA	_|Fem|Dat|Sg|_	3	attr	_	_
+3	Grüßen	Gruß	N	NN	Fem|Dat|Sg	1	pn	_	_
+4	Familie	Familie	N	NN	Fem|Dat|Sg	3	app	_	_
+

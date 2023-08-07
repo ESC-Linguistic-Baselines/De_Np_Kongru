@@ -1,0 +1,47 @@
+1	GlückwünschezubabY	GlückwünschezubabY	N	NE	_|Nom|Pl	2	subj	_	_
+2	bekommen	bekommen	V	VVFIN	3|Pl|Pres|_	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	das	die	ART	ART	Def|Neut|_|Sg	2	det	_	_
+2	Name	Name	N	NN	Neut|_|Sg	0	root	_	_
+3	Baby	Baby	FM	FM	Neut|_|Sg	2	app	_	_
+4	ser	ser	FM	FM	Neut|_|Sg	3	app	_	_
+5	schun	schun	FM	FM	Neut|_|Sg	4	app	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+2	gefelt	gefelt	V	VVFIN	_|_|_|_	0	root	_	_
+3	die	die	ART	ART	Def|_|_|_	4	det	_	_
+4	Name	Name	N	NN	_|Nom|_	2	subj	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Name	Name	N	NN	Masc|Nom|Sg	0	root	_	_
+2	Meine	meine	ART	PPOSAT	_|Nom|Sg	3	det	_	_
+3	Tuchter	Tuchter	N	NN	_|Nom|Sg	5	subj	_	_
+4	auch	auch	ADV	ADV	_	3	adv	_	_
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+6	Eva	Eva	N	NE	Fem|Nom|Sg	5	pred	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	dies	dies	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	Meine	meinen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	oberal	oberal	N	NE	_|Nom|Sg	3	subj	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Wi	Wi	N	NE	Fem|_|Sg	0	root	_	_
+2	getes	getes	N	NE	Fem|_|Sg	1	app	_	_
+3	Eva	Eva	N	NE	Fem|_|Sg	2	app	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Glückwünsch	Glückwünsch	N	NE	_|_|_	3	obja	_	_
+2	zu	zu	PTKZU	PTKZU	_	3	part	_	_
+3	babY	babY	V	VVINF	_	0	root	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	Fuchomesch	Fuchomesch	N	NN	Neut|Acc|Sg	4	obja	_	_
+3	Baby	Baby	N	NN	Neut|Acc|Sg	2	app	_	_
+4	bekommen	bekommen	V	VVINF	_	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+

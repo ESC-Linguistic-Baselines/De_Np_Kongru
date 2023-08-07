@@ -1,0 +1,40 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	ingo	ingo	N	NE	_	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+5	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+6	eine	eine	ART	ART	Indef|Fem|Acc|Sg	7	det	_	_
+7	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	10	obja	_	_
+8	in	in	PREP	APPR	_	10	pp	_	_
+9	Neuburg	Neuburg	N	NN	Fem|_|Sg	8	pn	_	_
+10	gefunden	finden	V	VVPP	_	5	aux	_	_
+11	und	und	KON	KON	_	5	kon	_	_
+12	ich	ich	PRO	PPER	1|Sg|_|Nom	13	subj	_	_
+13	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	11	cj	_	_
+14	eine	eine	ART	ART	Indef|Fem|Acc|Sg	16	det	_	_
+15	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	16	attr	_	_
+16	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	13	obja	_	_
+17	in	in	PREP	APPR	_	16	pp	_	_
+18	Neuburg	Neuburg	N	NN	Fem|_|Sg	17	pn	_	_
+19	am	an	PREP	APPRART	Dat	13	pp	_	_
+20	Erste	erst	ADJA	ADJA	_|Fem|_|Sg|_|	21	attr	_	_
+21	Jule	Jule	N	NE	Fem|_|Sg	19	pn	_	_
+22	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	müss	müss	ADV	ADJD	_	3	adv	_	_
+3	ziew	ziew	ADJA	ADJA	_|Fem|_|Sg|_	4	attr	_	_
+4	Zimmer	Zimmer	N	NN	Fem|_|Sg	0	root	_	_
+5	Wohnungssuche	Wohnungssuche	N	NN	Fem|_|Sg	4	app	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	bitt	bitt	ADV	ADJD	_	1	adv	_	_
+4	hilfen	hilfen	V	VVFIN	_	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Eva	Eva	N	NE	Fem|_|Sg	2	app	_	_
+

@@ -1,0 +1,146 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	10	vok	_	_
+2	X	X	N	NE	_|_|_	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	den	die	ART	ART	Def|_|_|_	6	det	_	_
+5	5.03.12	5.03.12	CARD	CARD	_	6	attr	_	_
+6	Liebe	Liebe	N	NN	_|_|_	2	app	_	_
+7	Dana	Dana	N	NE	_|_|_	6	app	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	ich	ich	PRO	PPER	1|Sg|_|Nom	10	subj	_	_
+10	vermisse	vermissen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+11	dich	du	PRO	PPER	2|Sg|_|Acc	10	obja	_	_
+12	so	so	ADV	ADV	_	13	adv	_	_
+13	sehr	sehr	ADV	ADV	_	10	adv	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	mich	ich	PRO	PRF	1|Sg|Acc	8	obja	_	_
+4	über	über	PREP	APPR	_	8	pp	_	_
+5	deinen	deine	ART	PPOSAT	Masc|_|Sg	6	det	_	_
+6	Brief	Brief	N	NN	Masc|_|Sg	4	pn	_	_
+7	sehr	sehr	ADV	ADV	_	8	adv	_	_
+8	gefreut	freuen	V	VVPP	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Bestimmt	bestimmt	ADV	ADJD	Pos|	2	adv	_	_
+2	besuche	besuchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	dich	du	PRO	PPER	2|Sg|_|Acc	2	obja	_	_
+5	sofort	sofort	ADV	ADV	_	2	adv	_	_
+6	nach	nach	PREP	APPR	Dat	2	pp	_	_
+7	deiner	deine	ART	PPOSAT	Fem|Dat|Sg	8	det	_	_
+8	Rückkehr	Rückkehr	N	NN	Fem|Dat|Sg	6	pn	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Hertzlich	hertzlich	ADV	ADJD	Pos|	2	adv	_	_
+2	Glückwunsch	Glückwunsch	N	NN	Masc|_|Sg	0	root	_	_
+3	zur	zu	PREP	APPRART	Dat	2	pp	_	_
+4	bestandenen	bestanden	ADJA	ADJA	Pos|Fem|Dat|Sg|Wk|	5	attr	_	_
+5	Prüfung	Prüfung	N	NN	Fem|Dat|Sg	3	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	adv	_	_
+4	Toll	toll	ADV	ADJD	Pos|	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wusste	wissen	V	VVFIN	1|Sg|Past|Ind	0	root	_	_
+3	das	die	PRO	PDS	Neut|Acc|Sg	2	obja	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	weil	weil	KOUS	KOUS	_	12	konj	_	_
+6	du	du	PRO	PPER	2|Sg|_|Nom	12	subj	_	_
+7	eine	eine	ART	ART	Indef|Fem|Nom|Sg	8	det	_	_
+8	inteligente	inteligente	N	NN	Fem|Nom|Sg	12	pred	_	_
+9	und	und	KON	KON	_	8	kon	_	_
+10	aktive	aktiv	ADJA	ADJA	Pos|Fem|Nom|Sg|_|	11	attr	_	_
+11	Schülerin	Schülerin	N	NN	Fem|Nom|Sg	9	cj	_	_
+12	bist	sein	V	VAFIN	2|Sg|Pres|Ind	2	neb	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	auch	auch	ADV	ADV	_	7	adv	_	_
+4	viel	viel	PRO	PIS	_|Dat|_	7	objd	_	_
+5	über	über	PREP	APPR	_	7	pp	_	_
+6	Istanbul	Istanbul	N	NE	Neut|_|Sg	5	pn	_	_
+7	gehört	gehören	V	VVPP	_	2	aux	_	_
+8	Daswegen	Daswegen	N	NE	_	0	root	_	_
+9	will	wollen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+10	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+11	einmal	einmal	ADV	ADV	_	14	adv	_	_
+12	diese	diese	ART	PDAT	Fem|Acc|Sg	13	det	_	_
+13	Stadt	Stadt	N	NN	Fem|Acc|Sg	14	obja	_	_
+14	besuchen	besuchen	V	VVINF	_	9	aux	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Stefan	Stefan	N	NE	Masc|Nom|Sg	6	subj	_	_
+2	(	(	$(	$(	_	0	root	_	_
+3	unser	unsre	ART	PPOSAT	Masc|Nom|Sg	4	det	_	_
+4	Freund	Freund	N	NN	Masc|Nom|Sg	1	app	_	_
+5	)	)	$(	$(	_	0	root	_	_
+6	hat	haben	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+7	mir	ich	PRO	PPER	1|Sg|_|Dat	9	objd	_	_
+8	einmal	einmal	ADV	ADV	_	9	adv	_	_
+9	erzählt	erzählen	V	VVPP	_	6	aux	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	dass	dass	KOUS	KOUS	_	19	konj	_	_
+12	es	es	PRO	PPER	3|Sg|Neut|Acc	19	obja	_	_
+13	in	in	PREP	APPR	Dat	19	pp	_	_
+14	der	die	ART	ART	Def|Fem|Dat|Sg	15	det	_	_
+15	Türkei	Türkei	N	NE	Fem|Dat|Sg	13	pn	_	_
+16	sehr	sehr	ADV	ADV	_	17	adv	_	_
+17	gute	gut	ADJA	ADJA	Pos|Masc|Nom|Sg|Wk|	18	attr	_	_
+18	Tabak	Tabak	N	NN	Masc|Nom|Sg	19	subj	_	_
+19	gibt	geben	V	VVFIN	3|Sg|Pres|Ind	9	objc	_	_
+20	.	.	$.	$.	_	0	root	_	_
+
+1	Vielleich	Vielleich	N	NN	Fem|_|Sg	0	root	_	_
+2	könntest	können	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+5	kleine	klein	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	6	attr	_	_
+6	Packung	Packung	N	NN	Fem|Acc|Sg	9	obja	_	_
+7	mir	ich	PRO	PPER	1|Sg|_|Dat	9	objd	_	_
+8	mit	mit	ADV	ADV	_	9	adv	_	_
+9	bringen	bringen	V	VVINF	_	2	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+2	weiß	wissen	V	VVFIN	_|Sg|Pres|Ind	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	dass	dass	KOUS	KOUS	_	9	konj	_	_
+5	meine	meine	ART	PPOSAT	_|Nom|Pl	6	det	_	_
+6	Verwandten	Verwandte	N	NN	_|Nom|Pl	9	subj	_	_
+7	im	in	PREP	APPRART	Dat	9	pp	_	_
+8	Iran	Iran	N	NE	Neut|Dat|Sg	7	pn	_	_
+9	leben	leben	V	VVFIN	3|Pl|Pres|_	2	objc	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Wenn	wenn	KOUS	KOUS	_	7	konj	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	7	subj	_	_
+3	in	in	PREP	APPR	_	7	pp	_	_
+4	nächsten	nah	ADJA	ADJA	_|Masc|_|_|_|	5	attr	_	_
+5	Sommer	Sommer	N	NN	Masc|_|_	3	pn	_	_
+6	Zeit	Zeit	N	NN	Fem|Acc|Sg	7	obja	_	_
+7	habe	haben	V	VAFIN	1|Sg|Pres|_	9	neb	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	besuche	besuchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+10	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+11	sie	sie	PRO	PPER	3|_|_|Acc	9	obja	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünsch	wünsch	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	gute	gut	ADJA	ADJA	Pos|_|Acc|_|_|	6	attr	_	_
+6	Reise	Reis	N	NN	_|Acc|_	2	obja	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Michael	Michael	N	NE	Masc|_|Sg	2	app	_	_
+

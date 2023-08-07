@@ -1,0 +1,50 @@
+1	Hallo	Hallo	N	NN	Neut|_|Sg	0	root	_	_
+2	Jens	Jens	N	NE	Masc|_|Sg	1	app	_	_
+3	!	!	$.	$.	_	0	root	_	_
+
+1	Ihr	ihre	ART	PPOSAT	Neut|Nom|Sg	2	det	_	_
+2	Baby	Baby	N	NN	Neut|Nom|Sg	3	subj	_	_
+3	gewohnt	wohnen	V	VVPP	_	0	root	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+3	glücklich	glücklich	ADV	ADJD	Pos|	2	pred	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	viel	viel	ART	PIDAT	_|Acc|_	4	det	_	_
+4	Fragen	Frage	N	NN	_|Acc|_	2	obja	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	du	du	PRO	PPER	2|Sg|_|Nom	5	pn	_	_
+7	machen	machen	V	VVINF	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|_	2	expl	_	_
+4	seine	seine	ART	PPOSAT	Fem|Nom|Sg	5	det	_	_
+5	Frau	Frau	N	NN	Fem|Nom|Sg	2	subj	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Was	was	PRO	PWS	Neut|_|Sg	0	root	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	der	die	ART	ART	Def|Masc|Nom|Sg	4	det	_	_
+4	Name	Name	N	NN	Masc|Nom|Sg	2	subj	_	_
+5	sein	seine	ART	PPOSAT	_|_|Sg	6	det	_	_
+6	Babys	Baby	N	NN	_|Nom|Sg	2	pred	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	_|_|_	2	det	_	_
+2	Grussen	Grussen	N	NN	_|_|_	0	root	_	_
+3	Tschuss	Tschuss	N	NE	_|_|Sg	2	app	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	Maria	Maria	N	NE	_|_|Sg	3	app	_	_
+

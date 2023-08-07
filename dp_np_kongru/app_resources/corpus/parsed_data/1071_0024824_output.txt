@@ -1,0 +1,63 @@
+1	liebe	lieben	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+2	Daniela	Daniela	N	NE	Fem|Nom|Sg	1	subj	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	wie	wie	PWAV	PWAV	_	7	pred	_	_
+7	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+8	´	´	FM	FM	_|Nom|Sg	7	subj	_	_
+9	s	s	FM	FM	_|Nom|Sg	8	app	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+1	,	,	$,	$,	_	0	root	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+4	schwimmen	schwimmen	V	VVINF	_	3	aux	_	_
+5	gehen	gehen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+6	mit	mit	PREP	APPR	Dat	5	pp	_	_
+7	dir	du	PRO	PPER	2|Sg|_|Dat	6	pn	_	_
+8	am	an	PREP	APPRART	Dat	5	pp	_	_
+9	Freitag	Freitag	N	NN	Masc|Dat|Sg	8	pn	_	_
+10	um	um	PREP	APPR	_	5	objp	_	_
+11	14	14	CARD	CARD	_	10	pn	_	_
+12	:	\:	$.	$.	_	0	root	_	_
+13	00	00	CARD	CARD	_	14	attr	_	_
+14	uhr	uhr	N	NN	_|_|Pl	0	root	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	in	in	PREP	APPR	Acc	0	root	_	_
+2	die	die	ART	ART	Def|Fem|Acc|Sg	3	det	_	_
+3	Fitness	Fitness	N	NN	Fem|Acc|Sg	1	pn	_	_
+4	club	club	N	NE	Fem|Acc|Sg	3	app	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	bitte	bitten	V	VVFIN	_|Sg|Pres|_	1	cj	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	bring	bringen	V	VVIMP	Sg	0	root	_	_
+5	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+6	meinen	meine	ART	PPOSAT	Masc|Acc|Sg	7	det	_	_
+7	Rucksack	Rucksack	N	NN	Masc|Acc|Sg	4	obja	_	_
+8	mit	mit	PTKVZ	PTKVZ	_	4	avz	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	weil	weil	KON	KON	_	0	root	_	_
+11	vergisst	vergessen	V	VVFIN	3|Sg|Pres|Ind	10	cj	_	_
+12	es	es	PRO	PPER	3|Sg|Neut|Nom	11	subj	_	_
+13	in	in	PREP	APPR	Acc	11	pp	_	_
+14	dein	deine	ART	PPOSAT	Neut|Acc|Sg	15	det	_	_
+15	Haus	Haus	N	NN	Neut|Acc|Sg	13	pn	_	_
+16	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+17	ich	ich	PRO	PPER	1|Sg|_|Nom	16	subj	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	und	und	KON	KON	_	0	root	_	_
+2	bring	bring	V	VVFIN	_|Sg|_|_	1	cj	_	_
+3	deine	deine	ART	PPOSAT	Masc|Nom|Sg	4	det	_	_
+4	Bikini	Bikini	N	NN	Masc|Nom|Sg	2	subj	_	_
+5	mit	mit	PTKVZ	PTKVZ	_	2	avz	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	bis	bis	PREP	APPR	Acc	0	root	_	_
+2	Freitag	Freitag	N	NN	Neut|Acc|Sg	1	pn	_	_
+3	Aufwiedersehen	Aufwiedersehen	N	NN	Neut|Acc|Sg	2	app	_	_
+

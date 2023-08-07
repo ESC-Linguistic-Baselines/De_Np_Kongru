@@ -1,0 +1,62 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	06.01.2012	06.01.2012	CARD	CARD	_	5	attr	_	_
+5	Liebe	Liebe	N	NN	_|_|Pl	2	app	_	_
+6	Maria	Maria	N	NE	_|_|Sg	5	app	_	_
+7	am	an	PREP	APPRART	Dat	6	pp	_	_
+8	Samstag	Samstag	N	NN	_|Dat|Sg	7	pn	_	_
+9	um	um	PREP	APPR	_	8	pp	_	_
+10	14	14	CARD	CARD	_	11	attr	_	_
+11	Uhr	Uhr	N	NN	Fem|_|Sg	9	pn	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	nachmitag	nachmitag	ADV	ADJD	_	2	adv	_	_
+2	flige	flige	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	nach	nach	PREP	APPR	Dat	2	pp	_	_
+5	Polen	Polen	N	NE	Neut|Dat|Sg	4	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Können	können	V	VMFIN	3|Pl|Pres|_	0	root	_	_
+2	Sie	sie	PRO	PPER	3|Pl|_|Nom	1	subj	_	_
+3	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+4	meine	meine	ART	PPOSAT	Fem|Acc|Sg	5	det	_	_
+5	Katze	Katze	N	NN	Fem|Acc|Sg	6	obja	_	_
+6	füttern	füttern	V	VVINF	_	1	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werfe	werfen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Meinen	meine	ART	PPOSAT	Masc|Acc|_	4	det	_	_
+4	Schlüssel	Schlüssel	N	NN	Masc|Acc|_	2	obja	_	_
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+6	Ihren	ihre	ART	PPOSAT	_|_|_	7	det	_	_
+7	brifkasten	brifkasten	N	NN	_|_|_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Am	an	PREP	APPRART	Dat	3	pp	_	_
+2	Freitag	Freitag	N	NN	Masc|Dat|Sg	1	pn	_	_
+3	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	zurück	zurück	PTKVZ	PTKVZ	_	3	avz	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Monika	Monika	N	NE	Fem|Acc|Sg	5	obja	_	_
+2	bytte	bytte	FM	FM	Fem|Acc|Sg	1	app	_	_
+3	dier	dier	FM	FM	Fem|Acc|Sg	2	app	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+5	fergesen	fergesen	V	VVINF	_	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	_
+2	für	für	PREP	APPR	Acc	1	pp	_	_
+3	Ihre	ihre	ART	PPOSAT	Fem|Acc|Sg	4	det	_	_
+4	Hilfe	Hilfe	N	NN	Fem|Acc|Sg	2	pn	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Mit	mit	PREP	APPR	Dat	0	root	_	_
+2	freundlichen	freundlich	ADJA	ADJA	Pos|_|Dat|_|_|	3	attr	_	_
+3	Grüßen	Gruß	N	NN	_|Dat|_	1	pn	_	_
+4	.	.	$.	$.	_	0	root	_	_
+

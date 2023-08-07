@@ -1,0 +1,73 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Julia	Julia	N	NE	Fem|_|Sg	1	app	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	CARD	CARD	_	3	attr	_	_
+3	.05.01.2012	.05.01.2012	FM	FM	_|Gen|Pl	1	gmod	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+5	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+6	eine	eine	ART	ART	Indef|Fem|Acc|Sg	7	det	_	_
+7	FahrkarTe	FahrkarTe	N	NN	Fem|Acc|Sg	13	obja	_	_
+8	für	für	PREP	APPR	Acc	7	pp	_	_
+9	einen	eine	ART	ART	Indef|Masc|Acc|Sg	10	det	_	_
+10	Wochenendausflug	Wochenendausflug	N	NN	Masc|Acc|Sg	8	pn	_	_
+11	für	für	PREP	APPR	Acc	13	pp	_	_
+12	Paris	Paris	N	NE	_|Acc|Sg	11	pn	_	_
+13	gekauft	kaufen	V	VVPP	_	5	aux	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	leider	leider	ADV	ADV	_	3	adv	_	_
+3	kann	können	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	nichT	nichT	PTKNEG	PTKNEG	_	8	adv	_	_
+6	nach	nach	PREP	APPR	Dat	8	pp	_	_
+7	Paris	Paris	N	NE	_|Dat|Sg	6	pn	_	_
+8	fahren	fahren	V	VVINF	_	3	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	weil	weil	KOUS	KOUS	_	5	konj	_	_
+2	meine	meine	ART	PPOSAT	Fem|Nom|Sg	3	det	_	_
+3	Tochter	Tochter	N	NN	Fem|Nom|Sg	5	subj	_	_
+4	krank	krank	ADV	ADJD	Pos|	5	pred	_	_
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Der	die	ART	ART	Def|_|_|_	2	det	_	_
+2	FahrkarTeist	FahrkarTeist	N	NN	_|_|_	0	root	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	nächsTe	nächsTe	ADJA	ADJA	_	5	attr	_	_
+5	MonTag	MonTag	N	NN	_|Acc|_	3	pn	_	_
+6	am	an	PREP	APPRART	Dat	5	pp	_	_
+7	16.01.2012.	16.01.2012.	ADJA	ADJA	_|_|Dat|_|_|	6	pn	_	_
+8	um	um	PREP	APPR	_	0	root	_	_
+9	17	17	CARD	CARD	_	10	attr	_	_
+10	uhr	uhr	N	NN	_|_|Pl	8	pn	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wollTe	wollTe	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	Fragen	Frage	N	NN	_|Acc|_	2	obja	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	wenn	wenn	KOUS	KOUS	_	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+3	die	die	ART	ART	Def|_|Nom|Pl	4	det	_	_
+4	FahrkarTe	FahrkarTe	N	NN	_|Nom|Pl	5	subj	_	_
+5	haben	haben	V	VAFIN	3|Pl|Pres|_	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	möchTesT	möchTesT	ADV	ADJD	_	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+1	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+2	rufen	rufen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+3	mich	ich	PRO	PPER	1|Sg|_|Acc	2	obja	_	_
+4	an	an	PTKVZ	PTKVZ	_	2	avz	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Liebe	lieb	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+

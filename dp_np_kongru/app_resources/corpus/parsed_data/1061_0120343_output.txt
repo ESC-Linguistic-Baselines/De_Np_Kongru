@@ -1,0 +1,128 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	9	vok	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	12.3.2012	12.3.2012	CARD	CARD	_	5	attr	_	_
+5	Liebe	Liebe	N	NN	_|_|Pl	2	app	_	_
+6	Dana	Dana	N	NE	_|_|Pl	5	app	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+10	deinen	deine	ART	PPOSAT	Masc|Acc|Sg	11	det	_	_
+11	Brief	Brief	N	NN	Masc|Acc|Sg	19	obja	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	die	die	PRO	PRELS	_|Acc|Pl	16	obja	_	_
+14	du	du	PRO	PPER	2|Sg|_|Nom	17	subj	_	_
+15	mir	ich	PRO	PPER	1|Sg|_|Dat	16	objd	_	_
+16	geschrieben	schreiben	V	VVPP	_	17	aux	_	_
+17	hast	haben	V	VAFIN	2|Sg|Pres|Ind	6	rel	_	_
+18	,	,	$,	$,	_	0	root	_	_
+19	bekommen	bekommen	V	VVPP	_	9	aux	_	_
+20	und	und	KON	KON	_	9	kon	_	_
+21	es	es	PRO	PPER	3|Sg|Neut|Nom	22	subj	_	_
+22	hat	haben	V	VAFIN	3|Sg|Pres|Ind	20	cj	_	_
+23	mir	ich	PRO	PPER	1|Sg|_|Dat	25	objd	_	_
+24	gut	gut	ADV	ADJD	Pos|	25	adv	_	_
+25	gefallen	fallen	V	VVPP	_	22	aux	_	_
+26	,	,	$,	$,	_	0	root	_	_
+27	weil	weil	KOUS	KOUS	_	37	konj	_	_
+28	ich	ich	PRO	PPER	1|Sg|_|Nom	37	subj	_	_
+29	seit	seit	PREP	APPR	Dat	36	pp	_	_
+30	dem	die	ART	ART	Def|Masc|Dat|Sg	32	det	_	_
+31	prüfungen	prüfungen	ADJA	ADJA	_|Masc|Dat|Sg|_	32	attr	_	_
+32	Abschluss	Abschluss	N	NN	Masc|Dat|Sg	29	pn	_	_
+33	dich	du	PRO	PPER	2|Sg|_|Acc	36	obja	_	_
+34	nicht	nicht	PTKNEG	PTKNEG	_	36	adv	_	_
+35	mehr	mehr	ADV	ADV	_	34	adv	_	_
+36	gesehen	sehen	V	VVPP	_	37	aux	_	_
+37	habe	haben	V	VAFIN	1|Sg|Pres|_	22	neb	_	_
+38	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	gern	gern	ADV	ADV	_	9	adv	_	_
+4	dich	du	PRO	PPER	2|Sg|_|Acc	9	obja	_	_
+5	nach	nach	PREP	APPR	Dat	9	pp	_	_
+6	deiner	deine	ART	PPOSAT	Fem|Dat|Sg	7	det	_	_
+7	Rückkehr	Rückkehr	N	NN	Fem|Dat|Sg	5	pn	_	_
+8	mal	mal	ADV	ADV	_	9	adv	_	_
+9	besuchen	besuchen	V	VVINF	_	2	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	herzlichen	herzlich	ADJA	ADJA	Pos|Masc|_|Sg|_|	3	attr	_	_
+3	Glückwunsch	Glückwunsch	N	NN	Masc|_|Sg	1	cj	_	_
+4	zur	zu	PREP	APPRART	Dat	3	pp	_	_
+5	bestandenen	bestanden	ADJA	ADJA	Pos|Fem|Dat|Sg|Wk|	6	attr	_	_
+6	Prüfung	Prüfung	N	NN	Fem|Dat|Sg	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	freue	freuen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	mich	ich	PRO	PRF	1|Sg|Acc	2	obja	_	_
+4	sehr	sehr	ADV	ADV	_	2	adv	_	_
+5	dazu	dazu	PROAV	PROAV	_	2	pp	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Dana	Dana	N	NE	_	0	root	_	_
+2	!	!	$.	$.	_	0	root	_	_
+
+1	weißst	weißst	V	VVFIN	2|Sg|_|_	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	?	?	$.	$.	_	0	root	_	_
+
+1	wir	wir	PRO	PPER	1|Pl|_|Nom	0	root	_	_
+2	werde	werden	V	VAFIN	3|Sg|Pres|Subj	0	root	_	_
+3	das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+4	bei	bei	PREP	APPR	Dat	6	pp	_	_
+5	dir	du	PRO	PPER	2|Sg|_|Dat	4	pn	_	_
+6	feiern	feiern	V	VVINF	_	2	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Mein	meine	ART	PPOSAT	Masc|Nom|Sg	3	det	_	_
+2	grösster	groß	ADJA	ADJA	Sup|Masc|Nom|Sg|St|	3	attr	_	_
+3	Wunsch	Wunsch	N	NN	Masc|Nom|Sg	4	subj	_	_
+4	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+5	die	die	ART	ART	Def|Fem|Nom|Sg	7	det	_	_
+6	islanbulischen	islanbulischen	ADJA	ADJA	_|Fem|Nom|Sg|_	7	attr	_	_
+7	Kleidung	Kleidung	N	NN	Fem|Nom|Sg	4	pred	_	_
+8	;	;	$.	$.	_	0	root	_	_
+9	ein	eine	ART	ART	Indef|Neut|_|Sg	10	det	_	_
+10	Hemd	Hemd	N	NN	Neut|_|Sg	0	root	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	oder	oder	KON	KON	_	0	root	_	_
+13	ein	eine	ART	ART	Indef|Masc|Nom|Sg	14	det	_	_
+14	Rock	Rock	N	NN	Masc|Nom|Sg	12	cj	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	wäre	sein	V	VAFIN	3|Sg|Past|Subj	0	root	_	_
+3	Super	Super	N	NE	_|Nom|_	2	pred	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	adv	_	_
+4	bei	bei	PREP	APPR	Dat	2	pp	_	_
+5	mein	meine	ART	PPOSAT	_|_|Sg	6	det	_	_
+6	Verwandten	Verwandte	N	NN	_|_|Sg	4	pn	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	die	die	PRO	PRELS	_|Nom|Pl	11	subj	_	_
+9	in	in	PREP	APPR	_	11	pp	_	_
+10	Türkei	Türkei	N	NE	Fem|_|Sg	9	pn	_	_
+11	sind	sein	V	VAFIN	3|Pl|Pres|Ind	6	rel	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	besuchen	besuchen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	wird	werden	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	vier	vier	CARD	CARD	_	4	attr	_	_
+4	Wochen	Woche	N	NN	Fem|Acc|Pl	5	grad	_	_
+5	später	spät	ADV	ADJD	_|	2	pred	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Maria	Maria	N	NE	_|_|Sg	2	app	_	_
+

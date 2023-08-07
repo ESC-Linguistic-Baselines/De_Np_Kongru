@@ -1,0 +1,40 @@
+1	Liebe	lieb	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Jens	Jen	N	NN	Masc|_|Pl	0	root	_	_
+3	wie	wie	KOKOM	KOKOM	_	0	root	_	_
+4	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	es	es	PRO	PPER	3|Sg|Neut|_	4	expl	_	_
+6	Ihrene	Ihrene	N	NE	_|Nom|Sg	4	subj	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	mir	ich	PRO	PPER	1|Sg|_|Dat	0	root	_	_
+2	gut	gut	ADV	ADJD	Pos|	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	glückwünsche	glückwünsche	ADV	ADJD	_	0	root	_	_
+2	zu	zu	PREP	APPR	Dat	1	pp	_	_
+3	deine	deine	ART	PPOSAT	_|_|_	4	det	_	_
+4	baby	baby	FM	FM	_|_|_	2	pn	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Was	was	PRO	PWS	Neut|Acc|Sg	3	obja	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	bringe	bringen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+4	zu	zu	PREP	APPR	Dat	3	objp	_	_
+5	der	die	ART	ART	Def|Fem|Dat|Sg	6	det	_	_
+6	muttur	muttur	N	NN	Fem|Dat|Sg	4	pn	_	_
+7	und	und	KON	KON	_	6	kon	_	_
+8	der	die	ART	ART	Def|_|_|_	9	det	_	_
+9	Baby	Baby	N	NN	Fem|Dat|Sg	7	cj	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	adv	_	_
+2	heißen	heißen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+3	Ihre	ihre	ART	PPOSAT	Neut|Nom|Sg	4	det	_	_
+4	Baby	Baby	N	NN	Neut|Nom|Sg	2	pred	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	freundlich	freundlich	ADV	ADJD	Pos|	2	adv	_	_
+2	Grüsse	Gruss	N	NN	Masc|_|Pl	0	root	_	_
+3	Ihre	ihre	ART	PPOSAT	Fem|_|Sg	4	det	_	_
+4	Julia	Julia	N	NN	Fem|_|Sg	0	root	_	_
+

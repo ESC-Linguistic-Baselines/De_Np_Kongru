@@ -1,0 +1,114 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Masc|Acc|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	den	die	ART	ART	Def|Masc|Acc|Sg	6	det	_	_
+5	1.	1.	ADJA	ADJA	_|Masc|Acc|Sg|_|	6	attr	_	_
+6	April	April	N	NN	Masc|Acc|Sg	2	app	_	_
+7	2011	2011	CARD	CARD	_	8	attr	_	_
+8	Liebe	Liebe	N	NN	_|Acc|Pl	6	app	_	_
+9	Julia	Julia	N	NE	Fem|Acc|Sg	8	app	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	wie	wie	PWAV	PWAV	_	0	root	_	_
+12	gehts	gehts	N	NE	_	0	root	_	_
+13	dir	du	PRO	PPER	2|Sg|_|Dat	0	root	_	_
+14	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+4	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	es	es	PRO	PPER	3|Sg|Neut|Nom	4	subj	_	_
+6	gut	gut	ADV	ADJD	Pos|	4	pred	_	_
+7	!	!	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	gehört	gehören	V	VVPP	_	2	aux	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	dass	dass	KOUS	KOUS	_	0	root	_	_
+6	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+7	einen	eine	ART	ART	Indef|Masc|Acc|Sg	8	det	_	_
+8	Wochen	Woche	N	NN	Masc|Acc|Sg	11	obja	_	_
+9	endeausflug	endeausflug	FM	FM	Masc|Acc|Sg	8	app	_	_
+10	fahrkarten	fahrkarten	FM	FM	Masc|Acc|Sg	9	app	_	_
+11	haben	haben	V	VAINF	_	12	aux	_	_
+12	wollen	wollen	V	VMFIN	_|Pl|Pres|_	0	root	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	da	da	ADV	ADV	_	5	adv	_	_
+4	schon	schon	ADV	ADV	_	5	adv	_	_
+5	gekauft	kaufen	V	VVPP	_	2	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+4	kommen	kommen	V	VVINF	_	3	aux	_	_
+5	den	die	ART	ART	Def|Masc|Acc|Sg	6	det	_	_
+6	montag	montag	N	NN	Masc|Acc|Sg	9	obja	_	_
+7	eine	eine	ART	ART	Indef|Fem|Nom|Sg	8	det	_	_
+8	prüfung	prüfung	N	NN	Fem|Nom|Sg	9	pred	_	_
+9	machen	machen	V	VVINF	_	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Deswegen	Deswegen	PROAV	PROAV	_	2	pp	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	die	die	ART	ART	Def|_|Acc|_	5	det	_	_
+5	fahrkarte	fahrkarte	N	NN	_|Acc|_	8	obja	_	_
+6	zu	zu	PREP	APPR	Dat	8	objp	_	_
+7	dir	du	PRO	PPER	2|Sg|_|Dat	6	pn	_	_
+8	geben	geben	V	VVINF	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	wann	wann	PWAV	PWAV	_	2	adv	_	_
+2	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+4	die	die	ART	ART	Def|Fem|Acc|Sg	5	det	_	_
+5	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	2	obja	_	_
+6	mit	mit	PREP	APPR	Dat	0	root	_	_
+7	nehmen	nehmen	V	VVINF	_	0	root	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	frei	frei	ADV	ADJD	Pos|	2	adv	_	_
+4	am	an	PREP	APPRART	Dat	2	pp	_	_
+5	3.	3.	ADJA	ADJA	_|Masc|Dat|Sg|_|	6	attr	_	_
+6	April	April	N	NN	Masc|Dat|Sg	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Kommst	kommen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	?	?	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	wohin	wohin	PWAV	PWAV	_	3	pp	_	_
+3	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	1	cj	_	_
+4	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	_
+5	dieseam	dieseam	ADV	ADJD	_	3	adv	_	_
+6	wochenende	wochenende	ADJA	ADJA	_|Neut|Acc|Sg|_	7	attr	_	_
+7	Fahren	Fahren	N	NN	Neut|Acc|Sg	3	obja	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	eine	eine	ART	ART	Indef|Fem|_|Sg	5	det	_	_
+4	besonders	besonders	ADV	ADV	_	5	adv	_	_
+5	platz	platz	N	NN	Fem|_|Sg	0	root	_	_
+6	zu	zu	PTKZU	PTKZU	_	7	part	_	_
+7	hinfahren	hinfahren	V	VVINF	_	0	root	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	warte	warten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+3	deine	deine	ART	PPOSAT	_|Nom|Sg	4	det	_	_
+4	Antwort	Antwort	N	NN	_|Nom|Sg	2	subj	_	_
+5	Alles	Alles	N	NE	_|Nom|Sg	4	app	_	_
+6	Liebe	Liebe	N	NN	_|Nom|_	4	app	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	deine	deine	ART	PPOSAT	Fem|Nom|Sg	9	det	_	_
+9	Maria	Maria	N	NN	Fem|Nom|Sg	6	app	_	_
+

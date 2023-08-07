@@ -1,0 +1,62 @@
+1	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Silke	Silk	N	NN	Masc|Dat|Sg	0	root	_	_
+3	!	!	$.	$.	_	0	root	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	!	!	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	_|_|_	2	det	_	_
+2	Familie	Familie	N	NN	_|Nom|_	5	subj	_	_
+3	und	und	KON	KON	_	2	kon	_	_
+4	mir	ich	PRO	PPER	1|Sg|_|Dat	3	cj	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|_	5	expl	_	_
+7	ganz	ganz	ADV	ADV	_	8	adv	_	_
+8	gut	gut	ADV	ADJD	Pos|	5	pred	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|Nom|Sg	2	det	_	_
+2	Frau	Frau	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	arbeitet	arbeiten	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+4	sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	viel	viel	ADV	ADV	_	3	adv	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bekomme	bekommen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Schulung	Schulung	N	NN	Fem|Acc|Sg	2	obja	_	_
+4	von	von	PREP	APPR	_	3	pp	_	_
+5	Arbeitsam	Arbeitsam	N	NE	_|_|_	4	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	wil	wil	V	VVFIN	_|Sg|_|_	0	root	_	_
+3	unbeding	unbeding	N	NE	_|_|_	2	obja	_	_
+4	ein	eine	ART	ART	Indef|Masc|Nom|Sg	5	det	_	_
+5	Hund	Hund	N	NN	Masc|Nom|Sg	2	subj	_	_
+6	haben	haben	V	VAINF	_	0	root	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Wenn	wenn	KOUS	KOUS	_	4	konj	_	_
+2	Meine	meine	ART	PPOSAT	Fem|Nom|Sg	3	det	_	_
+3	Frau	Frau	N	NN	Fem|Nom|Sg	4	subj	_	_
+4	bleibt	bleiben	V	VVFIN	3|Sg|Pres|Ind	12	neb	_	_
+5	frei	frei	ADV	ADJD	Pos|	4	adv	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	vielleicht	vielleicht	ADV	ADV	_	8	adv	_	_
+8	necksten	necksten	ADJA	ADJA	_	5	kon	_	_
+9	Samstag	Samstag	N	NN	_|Nom|Sg	4	pred	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	dann	dann	ADV	ADV	_	12	adv	_	_
+12	kommen	kommen	V	VVFIN	1|Pl|Pres|_	0	root	_	_
+13	wir	wir	PRO	PPER	1|Pl|_|Nom	12	subj	_	_
+14	zu	zu	PREP	APPR	Dat	12	objp	_	_
+15	dir	du	PRO	PPER	2|Sg|_|Dat	14	pn	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	Hoffentlich	hoffentlich	ADV	ADV	_	2	adv	_	_
+2	bis	bis	PREP	APPR	Acc	0	root	_	_
+3	bald	bald	ADV	ADV	_	4	adv	_	_
+4	Schmidt	Schmidt	N	NE	_|Acc|_	2	pn	_	_
+5	M.	M.	N	NE	_|Acc|_	4	app	_	_
+

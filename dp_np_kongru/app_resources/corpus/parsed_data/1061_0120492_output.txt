@@ -1,0 +1,216 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	9	vok	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	13.01.2012	13.01.2012	CARD	CARD	_	5	attr	_	_
+5	Lieber	Liebe	N	NN	_|_|Pl	2	app	_	_
+6	Michael	Michael	N	NE	Masc|_|Sg	5	app	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+10	Dir	du	PRO	PPER	2|Sg|_|Dat	9	objd	_	_
+11	noch	noch	ADV	ADV	_	9	adv	_	_
+12	einmal	einmal	ADV	ADV	_	9	adv	_	_
+13	alles	alle	ART	PIDAT	Neut|Acc|Sg	14	det	_	_
+14	Gute	Gut	N	NN	Neut|Acc|Sg	9	obja	_	_
+15	im	in	PREP	APPRART	Dat	9	pp	_	_
+16	neuen	neu	ADJA	ADJA	Pos|Neut|Dat|Sg|Wk|	17	attr	_	_
+17	Jahr	Jahr	N	NN	Neut|Dat|Sg	15	pn	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	An	an	PREP	APPR	_	14	objp	_	_
+2	Silvester	Silvester	N	NN	_|_|_	1	pn	_	_
+3	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	mit	mit	PREP	APPR	Dat	14	pp	_	_
+6	meinem	meine	ART	PPOSAT	Masc|Dat|Sg	7	det	_	_
+7	Mann	Mann	N	NN	Masc|Dat|Sg	5	pn	_	_
+8	und	und	KON	KON	_	5	kon	_	_
+9	mit	mit	PREP	APPR	Dat	8	cj	_	_
+10	meinen	meine	ART	PPOSAT	Masc|Dat|Sg	11	det	_	_
+11	Freunde	Freund	N	NN	Masc|Dat|Sg	9	pn	_	_
+12	nach	nach	PREP	APPR	Dat	14	pp	_	_
+13	Party	Party	N	NN	Fem|Dat|Sg	12	pn	_	_
+14	gegangen	gehen	V	VVPP	_	3	aux	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+3	zusammen	zusammen	ADV	ADV	_	4	adv	_	_
+4	gefeiert	feiern	V	VVPP	_	2	aux	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+3	ganze	ganz	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	4	attr	_	_
+4	Nacht	Nacht	N	NN	Fem|Acc|Sg	5	obja	_	_
+5	gegessen	essen	V	VVPP	_	2	aux	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	getrunken	getrunken	ADV	ADJD	Pos|	0	root	_	_
+8	und	und	KON	KON	_	0	root	_	_
+9	getanzt	tanzen	V	VVPP	_	8	cj	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	hatten	haben	V	VAFIN	1|Pl|Past|Ind	0	root	_	_
+3	viel	viel	ART	PIDAT	Masc|Acc|Sg	4	det	_	_
+4	Spaß	Spaß	N	NN	Masc|Acc|Sg	2	obja	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Masc|Acc|Pl	2	det	_	_
+2	Wünsche	Wunsch	N	NN	Masc|Acc|Pl	12	obja	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	das	die	ART	ART	Def|Neut|Acc|Sg	6	det	_	_
+5	neue	neu	ADJA	ADJA	Pos|Neut|Acc|Sg|Wk|	6	attr	_	_
+6	Jahr	Jahr	N	NN	Neut|Acc|Sg	3	pn	_	_
+7	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+8	eine	eine	ART	ART	Indef|Fem|_|Sg	10	det	_	_
+9	neues	neu	ADJA	ADJA	Pos|Neut|_|Sg|St|	10	attr	_	_
+10	Haus	Haus	N	NN	Fem|Nom|Sg	7	subj	_	_
+11	zu	zu	PTKZU	PTKZU	_	12	part	_	_
+12	kaufen	kaufen	V	VVINF	_	7	aux	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+2	und	und	KON	KON	_	1	kon	_	_
+3	mein	meine	ART	PPOSAT	Masc|Nom|Sg	4	det	_	_
+4	Mann	Mann	N	NN	Masc|Nom|Sg	2	cj	_	_
+5	können	können	V	VMFIN	_|Pl|Pres|_	0	root	_	_
+6	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+7	langer	lang	ADJA	ADJA	Pos|_|_|_|St|	0	root	_	_
+8	in	in	PREP	APPR	Acc	0	root	_	_
+9	unsere	unsre	ART	PPOSAT	Fem|Acc|Sg	10	det	_	_
+10	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	8	pn	_	_
+11	wohnen	wohnen	V	VVINF	_	0	root	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Alles	alle	PRO	PIS	Neut|Nom|Sg	2	subj	_	_
+2	werde	werden	V	VAFIN	3|Sg|Pres|Subj	0	root	_	_
+3	kaputt	kaputt	ADV	ADJD	Pos|	2	pred	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	müssen	müssen	V	VMFIN	1|Pl|Pres|_	0	root	_	_
+3	schnell	schnell	ADV	ADJD	Pos|	4	adv	_	_
+4	umziehen	umziehen	V	VVINF	_	2	aux	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	dass	dass	KOUS	KOUS	_	9	konj	_	_
+5	wir	wir	PRO	PPER	1|Pl|_|Nom	9	subj	_	_
+6	ein	eine	ART	ART	Indef|Neut|Acc|Sg	8	det	_	_
+7	schönes	schön	ADJA	ADJA	Pos|Neut|Acc|Sg|St|	8	attr	_	_
+8	Haus	Haus	N	NN	Neut|Acc|Sg	9	obja	_	_
+9	finden	finden	V	VVFIN	1|Pl|Pres|_	2	objc	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	arbeite	arbeiten	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	weiter	weiter	ADV	ADV	_	2	adv	_	_
+4	als	als	KOKOM	KOKOM	_	2	kom	_	_
+5	Krankenschwester	Krankenschwester	N	NN	Fem|_|Sg	4	cj	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	macht	machen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+4	Spaß	Spaß	N	NN	Masc|Acc|Sg	2	obja	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	mit	mit	PREP	APPR	Dat	9	pp	_	_
+7	Leute	Leute	N	NN	_|_|Pl	6	pn	_	_
+8	zu	zu	PTKZU	PTKZU	_	9	part	_	_
+9	arbeiten	arbeiten	V	VVINF	_	2	obji	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	mag	mögen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	Leute	Leute	N	NN	_|_|Pl	0	root	_	_
+4	helfen	helfen	V	VVINF	_	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Unsere	unsre	ART	PPOSAT	Masc|Nom|Pl	2	det	_	_
+2	Patienten	Patient	N	NN	Masc|Nom|Pl	3	subj	_	_
+3	sind	sein	V	VAFIN	3|Pl|Pres|Ind	0	root	_	_
+4	sehr	sehr	ADV	ADV	_	5	adv	_	_
+5	nett	nett	ADV	ADJD	Pos|	3	pred	_	_
+6	und	und	KON	KON	_	5	kon	_	_
+7	freundliche	freundlich	ADJA	ADJA	Pos|_|_|_|_|	6	cj	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	wir	wir	PRO	PPER	1|Pl|_|Nom	3	subj	_	_
+3	haben	haben	V	VAFIN	1|Pl|Pres|_	1	cj	_	_
+4	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	Chefin	Chefin	N	NN	Fem|Acc|Sg	3	obja	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Sie	sie	PRO	PPER	3|Sg|Fem|Nom	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	sehr	sehr	ADV	ADV	_	4	adv	_	_
+4	nett	nett	ADV	ADJD	Pos|	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	können	können	V	VMFIN	1|Pl|Pres|_	0	root	_	_
+3	im	in	PREP	APPRART	Dat	5	pp	_	_
+4	Mai	Mai	N	NN	Masc|Dat|Sg	3	pn	_	_
+5	treffen	treffen	V	VVINF	_	2	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	sehr	sehr	ADV	ADV	_	4	adv	_	_
+4	schön	schön	ADV	ADJD	Pos|	2	adv	_	_
+5	Monat	Monat	N	NN	Masc|Nom|Sg	2	pred	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	Zeit	Zeit	N	NN	Fem|Acc|Sg	2	obja	_	_
+4	am	an	PREP	APPRART	Dat	2	pp	_	_
+5	jede	jede	ART	PIDAT	Neut|_|Sg	6	det	_	_
+6	Wochenende	Wochenende	N	NN	Neut|_|Sg	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	wäre	sein	V	VAFIN	3|Sg|Past|Subj	0	root	_	_
+3	super	super	ADV	ADJD	Pos|	2	pred	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	dich	du	PRO	PPER	2|Sg|_|Acc	7	obja	_	_
+6	zu	zu	PTKZU	PTKZU	_	7	part	_	_
+7	treffen	treffen	V	VVINF	_	2	obji	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	Wir	wir	PRO	PPER	1|Pl|_|Nom	10	subj	_	_
+10	werden	werden	V	VAFIN	1|Pl|Pres|_	2	kon	_	_
+11	viele	viele	ART	PIDAT	Fem|Acc|Sg	13	det	_	_
+12	interessante	interessant	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	13	attr	_	_
+13	Sache	Sache	N	NN	Fem|Acc|Sg	14	obja	_	_
+14	machen	machen	V	VVINF	_	10	aux	_	_
+15	,	,	$,	$,	_	0	root	_	_
+16	zum	zu	PREP	APPRART	Dat	14	pp	_	_
+17	Beispiel	Beispiel	N	NN	Neut|Dat|Sg	16	pn	_	_
+18	;	;	$.	$.	_	0	root	_	_
+19	schöne	schön	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	20	attr	_	_
+20	Stadt	Stadt	N	NN	Fem|Acc|Sg	21	obja	_	_
+21	besuchen	besuchen	V	VVFIN	_|Pl|Pres|_	0	root	_	_
+22	,	,	$,	$,	_	0	root	_	_
+23	ins	in	PREP	APPRART	Acc	25	objp	_	_
+24	Kino	Kino	N	NN	Neut|Acc|Sg	23	pn	_	_
+25	gehen	gehen	V	VVFIN	_|Pl|Pres|_	21	kon	_	_
+26	oder	oder	KON	KON	_	0	root	_	_
+27	im	in	PREP	APPRART	Dat	29	pp	_	_
+28	Restaurant	Restaurant	N	NN	Neut|Dat|Sg	27	pn	_	_
+29	essen	essen	V	VVINF	_	26	cj	_	_
+30	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	warte	warten	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	auf	auf	PREP	APPR	Acc	2	pp	_	_
+4	Deine	deine	ART	PPOSAT	Fem|Acc|Sg	5	det	_	_
+5	Antwort	Antwort	N	NN	Fem|Acc|Sg	3	pn	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	Liebe	lieb	ADJA	ADJA	Pos|Masc|Acc|Pl|St|	8	attr	_	_
+8	Grüße	Gruß	N	NN	Masc|Acc|Pl	5	app	_	_
+9	Katharina	Katharina	N	NE	Masc|Acc|Pl	8	app	_	_
+

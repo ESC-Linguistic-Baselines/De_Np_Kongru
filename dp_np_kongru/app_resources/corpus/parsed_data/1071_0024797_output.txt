@@ -1,0 +1,66 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	Maria	Maria	N	NE	_|_|Sg	0	root	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	wie	wie	PWAV	PWAV	_	6	pred	_	_
+6	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+7	´	´	FM	FM	_|Nom|Sg	6	subj	_	_
+8	s	s	FM	FM	_|Nom|Sg	7	app	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+1	Am	Am	PTKA	PTKA	_	2	adv	_	_
+2	wochenende	wochenende	ADV	ADJD	_	3	adv	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	war	sein	V	VAFIN	1|Sg|Past|Ind	0	root	_	_
+5	in	in	PREP	APPR	_	4	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	finde	finden	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+4	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	2	obja	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	in	in	PREP	APPR	_	2	pp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Können	können	V	VMFIN	3|Pl|Pres|_	0	root	_	_
+2	Sie	sie	PRO	PPER	3|Pl|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+4	helfen	helfen	V	VVINF	_	1	aux	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	gern	gern	ADV	ADV	_	0	root	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Morgen	morgen	ADV	ADV	_	2	adv	_	_
+2	kommt	kommen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Haben	haben	V	VAFIN	3|Pl|Pres|_	0	root	_	_
+2	Sie	sie	PRO	PPER	3|Pl|_|Nom	1	subj	_	_
+3	zeit	zeit	ADJA	ADJA	_|_|Acc|_|_	4	attr	_	_
+4	Suchen	Suche	N	NN	_|Acc|_	1	obja	_	_
+5	susamen	susamen	N	NE	_|Acc|_	4	app	_	_
+6	Viele	viele	ART	PIDAT	_|_|_	7	det	_	_
+7	Danke	Dank	N	NN	Masc|Dat|Sg	1	objd	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Maria	Maria	N	NE	_|_|Sg	0	root	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	komme	kommen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+4	Morgen	Morgen	N	NN	Neut|Acc|Sg	3	zeit	_	_
+5	Aufwiederhören	Aufwiederhören	N	NN	Neut|Acc|Sg	4	app	_	_
+6	Tschuch	Tschuch	N	NE	Neut|Acc|Sg	5	app	_	_
+7	.	.	$.	$.	_	0	root	_	_
+

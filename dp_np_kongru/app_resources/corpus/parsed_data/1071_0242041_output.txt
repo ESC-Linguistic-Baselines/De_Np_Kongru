@@ -1,0 +1,62 @@
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Wie	Wie	PWAV	PWAV	_	5	adv	_	_
+5	gehts	gehts	V	VMFIN	3|Sg|_|_	0	root	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+7	hinnen	hinnen	ADV	ADV	_	5	adv	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	größe	größe	ADJA	ADJA	_	4	attr	_	_
+4	problem	problem	N	NN	_|_|_	2	obja	_	_
+5	in	in	PREP	APPR	Acc	2	pp	_	_
+6	meine	meine	ART	PPOSAT	Fem|Acc|Sg	7	det	_	_
+7	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	5	pn	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	bitte	bitten	V	VVFIN	_|Sg|Pres|_	2	kon	_	_
+10	mir	ich	PRO	PPER	1|Sg|_|Dat	9	objd	_	_
+11	helf	helf	V	VVINF	_	0	root	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Kannts	Kannts	N	NE	_	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+3	die	die	ART	ART	Def|Fem|Acc|Pl	4	det	_	_
+4	Wohnungsanzeigen	Wohnungsanzeige	N	NN	Fem|Acc|Pl	5	obja	_	_
+5	lesen	lesen	V	VVINF	_	0	root	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+9	die	die	ART	ART	Def|Fem|Acc|Sg	10	det	_	_
+10	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	8	obja	_	_
+11	Kleine	klein	ADJA	ADJA	Pos|_|Acc|Pl|St|	13	attr	_	_
+12	50	50	CARD	CARD	_	13	attr	_	_
+13	m	m	N	NN	_|Acc|Pl	10	app	_	_
+14	²	²	FM	FM	_|Acc|Pl	13	app	_	_
+15	und	und	KON	KON	_	8	kon	_	_
+16	3	3	CARD	CARD	_	17	attr	_	_
+17	Zimmer	Zimmer	N	NN	Neut|Nom|Pl	19	subj	_	_
+18	aber	aber	ADV	ADV	_	17	adv	_	_
+19	sind	sein	V	VAFIN	3|Pl|Pres|Ind	15	cj	_	_
+20	nicht	nicht	PTKNEG	PTKNEG	_	19	adv	_	_
+21	teuer	teuer	ADV	ADJD	Pos|	19	pred	_	_
+22	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	die	die	ART	ART	Def|Fem|Acc|Sg	4	det	_	_
+4	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	zum	zu	PREP	APPRART	_|Dat	0	root	_	_
+6	15	15	CARD	CARD	_	0	root	_	_
+7	April	April	N	NN	Masc|_|Sg	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	_|_|_	2	det	_	_
+2	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Maria	Maria	N	NE	_|_|Sg	0	root	_	_
+

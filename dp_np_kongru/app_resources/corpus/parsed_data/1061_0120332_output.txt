@@ -1,0 +1,106 @@
+1	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Silke	Silk	N	NN	Fem|Dat|Sg	0	root	_	_
+3	Stadt	Stadt	N	NN	Fem|Dat|Sg	2	app	_	_
+4	X	X	N	NE	Fem|Dat|Sg	3	app	_	_
+5	den	die	ART	ART	Def|_|_|_	0	root	_	_
+6	13-2-2012	13-2-2012	TRUNC	TRUNC	_	0	root	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+8	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+9	deinen	deine	ART	PPOSAT	_|Acc|_	10	det	_	_
+10	Bieref	Bieref	N	NN	_|Acc|_	8	obja	_	_
+11	bekommen	bekommen	V	VVINF	_	0	root	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	komme	kommen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	morgen	morgen	ADV	ADV	_	2	adv	_	_
+4	zu	zu	PTKA	PTKA	_	5	adv	_	_
+5	besuch	besuch	ADV	ADJD	_	2	adv	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	_|Nom|Sg	2	det	_	_
+2	Famiele	Famiele	N	NN	_|Nom|Sg	3	subj	_	_
+3	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+4	es	es	PRO	PPER	3|Sg|Neut|_	3	expl	_	_
+5	gut	gut	ADV	ADJD	Pos|	3	pred	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	begrußen	begrußen	V	VVFIN	_	0	root	_	_
+2	dir	du	PRO	PPER	2|Sg|_|Dat	1	objd	_	_
+3	von	von	PREP	APPR	_	1	pp	_	_
+4	meine	meine	ART	PPOSAT	_|_|_	5	det	_	_
+5	Famiele	Famiele	N	NN	_|_|_	3	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	mag	mögen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	nich	nich	ADJA	ADJA	_|Neut|Acc|Pl|_	4	attr	_	_
+4	Tiere	Tier	N	NN	Neut|Acc|Pl	2	obja	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	weil	weil	KOUS	KOUS	_	10	konj	_	_
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	10	subj	_	_
+8	keine	keine	ART	PIAT	Fem|Acc|Sg	9	det	_	_
+9	Zeit	Zeit	N	NN	Fem|Acc|Sg	10	obja	_	_
+10	habe	haben	V	VAFIN	1|Sg|Pres|_	2	neb	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	gehe	gehen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	in	in	PREP	APPR	_	2	pp	_	_
+4	den	die	ART	ART	Def|_|_|_	5	det	_	_
+5	Deutsch	Deutsch	N	NN	_|_|_	3	pn	_	_
+6	kurs	kurs	N	NE	_|_|_	5	app	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	deshalb	deshalb	PROAV	PROAV	_	2	pp	_	_
+2	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	über	über	ADV	ADV	_	5	adv	_	_
+5	dienen	dienen	V	VVINF	_	2	aux	_	_
+6	Vorschlag	Vorschlag	N	NN	Masc|Acc|Sg	7	obja	_	_
+7	absagen	absagen	V	VVINF	_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	rate	raten	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	können	können	V	VMFIN	3|Pl|Pres|_	2	s	_	_
+6	sie	sie	PRO	PPER	3|Pl|_|Nom	5	subj	_	_
+7	einen	eine	ART	ART	Indef|Masc|Acc|Sg	8	det	_	_
+8	Tippich	Tippich	N	NN	Masc|Acc|Sg	11	obja	_	_
+9	zum	zu	PREP	APPRART	Dat	11	pp	_	_
+10	Geburstag	Geburstag	N	NN	_|Dat|Sg	9	pn	_	_
+11	mitbringen	mitbringen	V	VVINF	_	5	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	einen	eine	ART	ART	Indef|Masc|Acc|Sg	5	det	_	_
+4	anderen	anderen	ADJA	ADJA	_|Masc|Acc|Sg|_	5	attr	_	_
+5	Vorschlag	Vorschlag	N	NN	Masc|Acc|Sg	2	obja	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	wen	wer	PRO	PWS	_|Acc|Sg	0	root	_	_
+8	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+9	einverstanden	einverstanden	ADV	ADJD	Pos|	10	pred	_	_
+10	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+13	du	du	PRO	PPER	2|Sg|_|Nom	12	subj	_	_
+14	eine	eine	ART	ART	Indef|Fem|_|Sg	15	det	_	_
+15	Blumen	Blume	N	NN	Fem|Acc|Sg	17	obja	_	_
+16	mit	mit	ADV	ADV	_	17	adv	_	_
+17	bringen	bringen	V	VVINF	_	12	aux	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	_
+2	bis	bis	PREP	APPR	Acc	0	root	_	_
+3	morgen	morgen	ADV	ADV	_	2	adv	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Michael	Michael	N	NE	Masc|_|Sg	0	root	_	_
+

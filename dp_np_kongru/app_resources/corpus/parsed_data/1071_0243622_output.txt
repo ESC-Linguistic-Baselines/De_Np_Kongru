@@ -1,0 +1,54 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	Lieber	Liebe	N	NN	_|_|_	0	root	_	_
+3	Jens	Jens	N	NE	Masc|_|Sg	2	app	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	Herzliche	herzlich	ADJA	ADJA	Pos|Masc|_|Pl|St|	6	attr	_	_
+6	Glückwünsche	Glückwunsch	N	NN	Masc|_|Pl	0	root	_	_
+7	das	die	ART	ART	Def|Neut|_|Sg	8	det	_	_
+8	Babys	Baby	N	NN	Neut|_|Sg	0	root	_	_
+9	!	!	$.	$.	_	0	root	_	_
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+2	es	es	PRO	PPER	3|Sg|Neut|Nom	1	subj	_	_
+3	ein	eine	ART	ART	Indef|Neut|Acc|Sg	4	det	_	_
+4	Mätchen	Mätchen	N	NN	Neut|Acc|Sg	1	obja	_	_
+5	oder	oder	KON	KON	_	4	kon	_	_
+6	einen	eine	ART	ART	Indef|Masc|Acc|Sg	7	det	_	_
+7	Junge	Junge	N	NN	Masc|Acc|Sg	5	cj	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|_	2	expl	_	_
+4	das	die	ART	ART	Def|Neut|Nom|Sg	5	det	_	_
+5	Baby	Baby	N	NN	Neut|Nom|Sg	2	subj	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	heißt	heißen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|_	2	expl	_	_
+4	die	die	ART	ART	Def|Fem|Nom|Sg	5	det	_	_
+5	Mutter	Mutter	N	NN	Fem|Nom|Sg	2	subj	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+2	beide	beide	PRO	PIS	_|Nom|Pl	1	pred	_	_
+3	gesund	gesund	ADV	ADJD	Pos|	0	root	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+1	Ruf	rufen	V	VVIMP	Sg	0	root	_	_
+2	mir	ich	PRO	PPER	1|Sg|_|Dat	1	objd	_	_
+3	an	an	PTKVZ	PTKVZ	_	1	avz	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Deine	deine	ART	PPOSAT	Fem|_|Sg	4	det	_	_
+4	Cousine	Cousine	N	NN	Fem|_|Sg	0	root	_	_
+5	Maria	Maria	N	NE	_|_|Sg	4	app	_	_
+

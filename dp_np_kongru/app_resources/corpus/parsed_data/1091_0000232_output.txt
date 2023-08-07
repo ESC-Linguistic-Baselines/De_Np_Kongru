@@ -1,0 +1,87 @@
+1	11.	11.	ADJA	ADJA	_|_|_|_|_|	3	attr	_	_
+2	märz-2012	märz-2012	ADJA	ADJA	_|_|_|_|_	3	attr	_	_
+3	Lieber	Liebe	N	NN	_|_|_	0	root	_	_
+4	Maria	Maria	N	NE	_|_|Sg	3	app	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	dir	du	PRO	PPER	2|Sg|_|Dat	2	objd	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	4	subj	_	_
+4	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	dir	du	PRO	PPER	2|Sg|_|Dat	4	objd	_	_
+6	gut	gut	ADV	ADJD	Pos|	4	pred	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+4	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+5	eine	eine	ART	ART	Indef|Fem|Nom|Sg	6	det	_	_
+6	gefällen	gefällen	N	NN	Fem|Nom|Sg	4	subj	_	_
+7	tun	tun	V	VVINF	_	0	root	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	fahre	fahren	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	morgen	morgen	ADV	ADV	_	4	adv	_	_
+4	nach	nach	PREP	APPR	Dat	8	pp	_	_
+5	Stadt	Stadt	N	NN	Fem|Dat|Sg	4	pn	_	_
+6	X	X	CARD	CARD	_	5	app	_	_
+7	aber	aber	ADV	ADV	_	5	adv	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+10	ein	eine	ART	ART	Indef|Neut|Acc|Sg	11	det	_	_
+11	hund	hund	N	NN	Neut|Acc|Sg	9	obja	_	_
+12	und	und	KON	KON	_	9	kon	_	_
+13	meine	meine	ART	PPOSAT	_|Acc|_	14	det	_	_
+14	hund	hund	N	NN	_|Acc|_	18	obja	_	_
+15	kann	können	V	VMFIN	1|Sg|Pres|Ind	12	cj	_	_
+16	ich	ich	PRO	PPER	1|Sg|_|Nom	15	subj	_	_
+17	nicht	nicht	PTKNEG	PTKNEG	_	18	adv	_	_
+18	mitnehmen	mitnehmen	V	VVINF	_	15	aux	_	_
+19	weil	weil	KOUS	KOUS	_	23	konj	_	_
+20	das	die	PRO	PDS	Neut|Nom|Sg	23	subj	_	_
+21	nicht	nicht	PTKNEG	PTKNEG	_	22	adv	_	_
+22	erlaubt	erlauben	V	VVPP	_	23	aux	_	_
+23	ist	sein	V	VAFIN	3|Sg|Pres|Ind	15	neb	_	_
+24	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	denn	denn	ADV	ADV	_	4	adv	_	_
+4	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+5	meine	meine	ART	PPOSAT	_|Nom|Sg	6	det	_	_
+6	hund	hund	N	NN	_|Nom|Sg	4	subj	_	_
+7	aufpassen	aufpassen	V	VVINF	_	0	root	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+3	nur	nur	ADV	ADV	_	2	adv	_	_
+4	für	für	PREP	APPR	Acc	2	pp	_	_
+5	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+6	woche	woche	N	NN	Fem|Acc|Sg	4	pn	_	_
+7	weg	weg	PTKVZ	PTKVZ	_	2	avz	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wurde	werden	V	VAFIN	1|Sg|Past|Ind	0	root	_	_
+3	mich	ich	PRO	PRF	1|Sg|Acc	4	obja	_	_
+4	freuen	freuen	V	VVINF	_	2	aux	_	_
+5	wenn	wenn	KOUS	KOUS	_	9	konj	_	_
+6	du	du	PRO	PPER	2|Sg|_|Nom	9	subj	_	_
+7	es	es	PRO	PPER	3|Sg|Neut|Acc	8	obja	_	_
+8	tun	tun	V	VVINF	_	9	aux	_	_
+9	kannst	können	V	VMFIN	2|Sg|Pres|Ind	2	neb	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Lieber	lieb	ADJA	ADJA	Pos|Masc|Gen|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|Gen|Pl	0	root	_	_
+3	Friedrich	Friedrich	N	NE	_|_|Sg	2	app	_	_
+

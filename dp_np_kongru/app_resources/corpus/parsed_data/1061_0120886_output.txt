@@ -1,0 +1,120 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	de	de	N	NE	_|_|Pl	2	app	_	_
+4	26	26	CARD	CARD	_	5	attr	_	_
+5	Marz	Marz	N	NN	_|_|Pl	3	app	_	_
+6	2012	2012	CARD	CARD	_	7	attr	_	_
+7	Lieber	Liebe	N	NN	_|_|Pl	5	app	_	_
+8	Michael	Michael	N	NE	Masc|Nom|Sg	7	app	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	viele	viele	ART	PIDAT	Masc|Nom|Sg	11	det	_	_
+11	Dank	Dank	N	NN	Masc|Nom|Sg	8	app	_	_
+12	für	für	PREP	APPR	Acc	11	pp	_	_
+13	deine	deine	ART	PPOSAT	_|Acc|_	14	det	_	_
+14	Gluckwunschkarte	Gluckwunschkarte	N	NN	_|Acc|_	12	pn	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	mich	ich	PRO	PRF	1|Sg|Acc	2	obja	_	_
+4	gefreuecht	gefreuecht	N	NE	_	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünche	wünche	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	auch	auch	ADV	ADV	_	2	adv	_	_
+5	viel	viel	ART	PIDAT	Neut|Acc|Sg	6	det	_	_
+6	Glück	Glück	N	NN	Neut|Acc|Sg	2	obja	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	In	in	PREP	APPR	Acc	0	root	_	_
+2	dieses	diese	ART	PDAT	Neut|Acc|Sg	4	det	_	_
+3	neues	neu	ADJA	ADJA	Pos|Neut|Acc|Sg|St|	4	attr	_	_
+4	Jahr	Jahr	N	NN	Neut|Acc|Sg	1	pn	_	_
+5	gute	gut	ADJA	ADJA	Pos|_|Acc|_|_|	6	attr	_	_
+6	Rucht	Rucht	N	NN	_|Acc|_	4	app	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	gesundheit	gesundheit	ADV	ADJD	_	9	adv	_	_
+9	in	in	PREP	APPR	Acc	1	kon	_	_
+10	dein	deine	ART	PPOSAT	Neut|Acc|Sg	11	det	_	_
+11	Leben	Leben	N	NN	Neut|Acc|Sg	9	pn	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	war	sein	V	VAFIN	1|Sg|Past|Ind	0	root	_	_
+3	an	an	PREP	APPR	_	8	pp	_	_
+4	Silvester	Silvester	N	NN	_|_|_	3	pn	_	_
+5	mit	mit	PREP	APPR	Dat	8	pp	_	_
+6	andere	andere	ADJA	ADJA	_|Masc|Dat|Sg|_	7	attr	_	_
+7	Freunde	Freund	N	NN	Masc|Dat|Sg	5	pn	_	_
+8	verbracht	verbringen	V	VVPP	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+3	genug	genug	ART	PIAT	_|_|_	4	det	_	_
+4	gegesen	gegesen	N	NN	_|_|_	2	obja	_	_
+5	und	und	KON	KON	_	2	kon	_	_
+6	der	die	ART	ART	Def|Masc|Nom|Sg	7	det	_	_
+7	nacht	nacht	N	NN	Masc|Nom|Sg	8	subj	_	_
+8	war	sein	V	VAFIN	3|Sg|Past|Ind	5	cj	_	_
+9	herzlich	herzlich	ADV	ADJD	Pos|	8	pred	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Danach	Danach	PROAV	PROAV	_	0	root	_	_
+2	von	von	PREP	APPR	_	0	root	_	_
+3	deine	deine	ART	PPOSAT	Fem|_|Sg	4	det	_	_
+4	Ausbildung	Ausbildung	N	NN	Fem|_|Sg	2	pn	_	_
+5	als	als	KOKOM	KOKOM	_	4	kom	_	_
+6	Bäcker	Bäcker	N	NN	Masc|_|_	5	cj	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Können	können	V	VMFIN	1|Pl|Pres|_	0	root	_	_
+2	wir	wir	PRO	PPER	1|Pl|_|Nom	1	subj	_	_
+3	etwas	etwas	PRO	PIS	_|_|_	4	obja	_	_
+4	unternehmen	unternehmen	V	VVINF	_	1	aux	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Sollten	sollen	V	VMFIN	_|Pl|Past|_	0	root	_	_
+2	man	man	PRO	PIS	_|Nom|Sg	0	root	_	_
+3	viele	viele	ART	PIDAT	_|_|_	4	det	_	_
+4	wünche	wünche	N	NN	_|_|_	0	root	_	_
+5	erzahlen	erzahlen	V	VVINF	_	0	root	_	_
+6	fur	fur	N	NE	_	0	root	_	_
+7	dieses	diese	ART	PDAT	Neut|_|Sg	8	det	_	_
+8	Jahr	Jahr	N	NN	Neut|_|Sg	0	root	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|_|Sg	2	det	_	_
+2	Arbeit	Arbeit	N	NN	Fem|_|Sg	0	root	_	_
+3	mach	mach	ADV	ADV	_	2	adv	_	_
+4	viel	viel	ART	PIDAT	Masc|_|Sg	5	det	_	_
+5	Spaß	Spaß	N	NN	Masc|_|Sg	0	root	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	die	die	ART	ART	Def|_|Nom|Pl	8	det	_	_
+8	Collegen	Collegen	N	NN	_|Nom|Pl	9	subj	_	_
+9	sind	sein	V	VAFIN	3|Pl|Pres|Ind	0	root	_	_
+10	nett	nett	ADV	ADJD	Pos|	9	pred	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hatte	haben	V	VAFIN	1|Sg|Past|Ind	0	root	_	_
+3	an	an	PREP	APPR	_	7	pp	_	_
+4	anfang	anfang	N	NE	_|_|_	3	pn	_	_
+5	viel	viel	ADV	ADV	_	7	adv	_	_
+6	zu	zu	PTKZU	PTKZU	_	7	part	_	_
+7	Tun	tun	V	VVINF	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	genau	genau	ADV	ADJD	Pos|	0	root	_	_
+2	wie	wie	KOKOM	KOKOM	_	1	kom	_	_
+3	Jeder	jede	ART	PIDAT	_|_|Sg	4	det	_	_
+4	anfanger	anfanger	N	NN	_|_|Sg	2	cj	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Mit	mit	PREP	APPR	Dat	0	root	_	_
+2	viele	viele	ART	PIDAT	_|_|_	3	det	_	_
+3	Gruße	Gruß	N	NN	Masc|Dat|Sg	1	pn	_	_
+4	Julia	Julia	N	NE	Fem|Dat|Sg	3	app	_	_
+

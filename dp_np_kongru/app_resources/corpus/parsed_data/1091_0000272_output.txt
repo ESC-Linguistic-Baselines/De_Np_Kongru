@@ -1,0 +1,81 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Julia	Julia	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	12.03.2012	12.03.2012	CARD	CARD	_	0	root	_	_
+5	wie	wie	PWAV	PWAV	_	6	pred	_	_
+6	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+7	´	´	FM	FM	_|Nom|Sg	6	subj	_	_
+8	s	s	FM	FM	_|Nom|Sg	7	app	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+1	Mir	ich	PRO	PPER	1|Sg|_|Dat	2	objd	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	gut	gut	ADV	ADJD	Pos|	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	8	obja	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	einen	eine	ART	ART	Indef|Masc|Acc|Sg	7	det	_	_
+7	Wochenendausflug	Wochenendausflug	N	NN	Masc|Acc|Sg	5	pn	_	_
+8	gekauft	kaufen	V	VVPP	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	kann	können	V	VMFIN	1|Sg|Pres|Ind	1	cj	_	_
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_
+5	fahren	fahren	V	VVINF	_	3	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Neut|_|Sg	2	det	_	_
+2	Kind	Kind	N	NN	Neut|_|Sg	0	root	_	_
+3	krank	krank	ADV	ADJD	Pos|	0	root	_	_
+4	und	und	KON	KON	_	0	root	_	_
+5	es	es	PRO	PPER	3|Sg|Neut|_	4	cj	_	_
+6	bett	bett	ADV	ADJD	_	7	pred	_	_
+7	bleiben	bleiben	V	VVINF	_	8	aux	_	_
+8	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+9	Darum	Darum	PROAV	PROAV	_	7	pp	_	_
+10	Ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+11	kann	können	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_
+12	nicht	nicht	PTKNEG	PTKNEG	_	13	adv	_	_
+13	fahren	fahren	V	VVINF	_	11	aux	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_
+2	Fahrkarte	Fahrkarte	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	gekauft	kaufen	V	VVPP	_	0	root	_	_
+4	am	an	PREP	APPRART	_|Dat	0	root	_	_
+5	16	16	CARD	CARD	_	0	root	_	_
+6	März	März	N	NN	Masc|_|Sg	0	root	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	die	die	ART	ART	Def|Fem|Acc|Sg	4	det	_	_
+4	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	1	obja	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Rufst	rufen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	diene	dienen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+4	Antwort	Antwort	N	NN	Fem|Nom|Sg	3	subj	_	_
+5	an	an	PTKVZ	PTKVZ	_	3	avz	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Bis	bis	PREP	APPR	Acc	6	pp	_	_
+2	bald	bald	ADV	ADV	_	3	adv	_	_
+3	Alles	alle	ART	PIDAT	Neut|Acc|Sg	4	det	_	_
+4	Liebe	Liebe	N	NN	Neut|Acc|Sg	1	pn	_	_
+5	deine	deine	ART	PPOSAT	Fem|_|Sg	6	det	_	_
+6	Eva	Eva	N	NN	Fem|_|Sg	0	root	_	_
+

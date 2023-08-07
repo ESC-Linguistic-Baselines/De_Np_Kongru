@@ -1,0 +1,51 @@
+1	Liebe	lieb	ADJA	ADJA	Pos|_|_|_|_|	2	attr	_	_
+2	Daniela	Daniela	N	NN	_|_|_	0	root	_	_
+3	wie	wie	KOKOM	KOKOM	_	0	root	_	_
+4	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	es	es	PRO	PPER	3|Sg|Neut|Nom	4	subj	_	_
+6	Dir	du	PRO	PPER	2|Sg|_|Dat	4	objd	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	Schwimmen	Schwimmen	N	NN	Neut|Acc|Sg	2	obja	_	_
+4	gehen	gehen	V	VVINF	_	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Kommst	Kommst	N	NE	_|_|_	2	obja	_	_
+2	tu	tun	V	VVFIN	1|Sg|Pres|Ind	0	root	_	_
+3	mit	mit	PTKVZ	PTKVZ	_	2	avz	_	_
+4	gehen	gehen	V	VVINF	_	2	obji	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	gehe	gehen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Nahmittag	Nahmittag	N	NN	_|Dat|Sg	2	objd	_	_
+4	bis	bis	PREP	APPR	Acc	2	pp	_	_
+5	15	15	CARD	CARD	_	6	attr	_	_
+6	Uh	Uh	N	NN	_|Acc|Pl	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	sind	sein	V	VAFIN	1|Pl|Pres|Ind	0	root	_	_
+3	mitbringen	mitbringen	V	VVINF	_	4	aux	_	_
+4	wasser	wasser	V	VVPP	_	2	neb	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	coola	coola	ADJA	ADJA	_|Fem|_|Sg|_	7	attr	_	_
+7	Pizza	Pizza	N	NN	Fem|_|Sg	0	root	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	will	wollen	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_
+10	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+11	mitt	mitt	V	VVINF	_	0	root	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	0	root	_	_
+2	gehe	gehen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+3	Sport	Sport	N	NN	Masc|Nom|Sg	2	subj	_	_
+4	Sentrom	Sentrom	N	NE	Masc|Nom|Sg	3	app	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	_|_|_	2	det	_	_
+2	Gruß.d	Gruß.d	N	NN	_|_|_	0	root	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+

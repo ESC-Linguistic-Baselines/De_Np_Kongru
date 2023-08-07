@@ -1,0 +1,63 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	0	root	_	_
+2	X	X	N	NE	Fem|_|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	04.01.2012	04.01.2012	CARD	CARD	_	7	attr	_	_
+5	Sehr	sehr	ADV	ADV	_	6	adv	_	_
+6	geehrte	geehrt	ADJA	ADJA	Pos|Fem|_|Pl|St|	7	attr	_	_
+7	Damen	Dame	N	NN	Fem|_|Pl	2	kon	_	_
+8	Und	und	KON	KON	_	7	kon	_	_
+9	Herren	Herr	N	NN	Masc|_|_	8	cj	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	d	d	N	NN	_	0	root	_	_
+12	im	in	PREP	APPRART	Dat	15	pp	_	_
+13	zwei	zwei	CARD	CARD	_	14	attr	_	_
+14	monaten	monaten	N	NN	_|_|Pl	12	pn	_	_
+15	suche	suchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+16	ich	ich	PRO	PPER	1|Sg|_|Nom	15	subj	_	_
+17	Wonhaung	Wonhaung	N	NN	_|_|_	15	obja	_	_
+18	mit	mit	PREP	APPR	Dat	15	pp	_	_
+19	67	67	CARD	CARD	_	20	attr	_	_
+20	m	m	N	NN	_|Dat|Pl	18	pn	_	_
+21	Schlafe	Schlaf	N	NN	Masc|Dat|Sg	15	objd	_	_
+22	zimmer	zimmer	N	NE	Masc|Dat|Sg	21	app	_	_
+23	,	,	$,	$,	_	0	root	_	_
+24	ein	eine	ART	ART	Indef|_|_|Sg	25	det	_	_
+25	Kinder	Kind	N	NN	_|Nom|Sg	26	subj	_	_
+26	zimmer	zimmer	V	VVFIN	_|Sg|_|_	15	kon	_	_
+27	,	,	$,	$,	_	0	root	_	_
+28	Balkon	Balkon	N	NN	Masc|_|Sg	15	vok	_	_
+29	mit	mit	PREP	APPR	Dat	28	pp	_	_
+30	Keller	Keller	N	NN	Masc|Dat|Sg	29	pn	_	_
+31	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	mochte	mögen	V	VMFIN	1|Sg|Past|Ind	0	root	_	_
+3	für	für	PREP	APPR	Acc	2	pp	_	_
+4	auch	auch	ADV	ADV	_	8	adv	_	_
+5	ein	eine	ART	ART	Indef|Neut|Acc|Sg	8	det	_	_
+6	extra	extra	ADV	ADV	_	7	adv	_	_
+7	speilt	speilt	ADJA	ADJA	_	8	attr	_	_
+8	plaze	plaze	N	NN	Neut|Acc|Sg	3	pn	_	_
+9	für	für	PREP	APPR	Acc	8	pp	_	_
+10	Kinder	Kind	N	NN	Neut|Acc|Pl	9	pn	_	_
+11	.	.	$.	$.	_	0	root	_	_
+
+1	mochte	mögen	V	VMFIN	1|Sg|Past|Ind	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	_
+3	zwei	zwei	CARD	CARD	_	5	attr	_	_
+4	hundert	hundert	CARD	CARD	_	5	attr	_	_
+5	Euro	Euro	N	NN	_|Acc|Pl	1	obja	_	_
+6	im	in	PREP	APPRART	Dat	1	pp	_	_
+7	Monate	Monat	N	NN	Masc|Dat|Sg	6	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Warte	warten	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	_
+3	Für	für	PREP	APPR	Acc	1	pp	_	_
+4	Ihre	ihre	ART	PPOSAT	_|Acc|_	5	det	_	_
+5	awort	awort	N	NN	_|Acc|_	3	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+

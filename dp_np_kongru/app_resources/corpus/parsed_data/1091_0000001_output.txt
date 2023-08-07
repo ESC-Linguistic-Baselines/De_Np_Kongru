@@ -1,0 +1,57 @@
+1	Guten	gut	ADJA	ADJA	Pos|_|_|_|Wk|	2	attr	_	_
+2	Tag	Tag	N	NN	_|_|_	0	root	_	_
+3	Liebe	Liebe	N	NN	_|_|_	2	app	_	_
+4	Julia	Julia	N	NE	Fem|_|Sg	3	app	_	_
+5	Ich	ich	PRO	PPER	1|Sg|_|Nom	6	subj	_	_
+6	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+7	eine	eine	ART	ART	Indef|Fem|Acc|Sg	8	det	_	_
+8	Fahrkarte	Fahrkarte	N	NN	Fem|Acc|Sg	14	obja	_	_
+9	für	für	PREP	APPR	Acc	8	pp	_	_
+10	einen	eine	ART	ART	Indef|Masc|Acc|Sg	11	det	_	_
+11	Wochenendausflug	Wochenendausflug	N	NN	Masc|Acc|Sg	9	pn	_	_
+12	Fur	Fur	N	NE	_|Acc|Sg	11	app	_	_
+13	Berlin	Berlin	N	NE	_|Acc|Sg	12	app	_	_
+14	gekauft	kaufen	V	VVPP	_	6	aux	_	_
+15	Aber	aber	KON	KON	_	6	kon	_	_
+16	leider	leider	ADV	ADV	_	17	adv	_	_
+17	kann	können	V	VMFIN	1|Sg|Pres|Ind	15	cj	_	_
+18	ich	ich	PRO	PPER	1|Sg|_|Nom	17	subj	_	_
+19	nicht	nicht	PTKNEG	PTKNEG	_	22	adv	_	_
+20	nach	nach	PREP	APPR	Dat	22	pp	_	_
+21	Berlin	Berlin	N	NE	_|Dat|Sg	20	pn	_	_
+22	fahren	fahren	V	VVINF	_	17	aux	_	_
+23	.	.	$.	$.	_	0	root	_	_
+
+1	Weil	weil	KOUS	KOUS	_	5	konj	_	_
+2	mein	meine	ART	PPOSAT	Masc|Nom|Sg	3	det	_	_
+3	Mann	Mann	N	NN	Masc|Nom|Sg	5	subj	_	_
+4	krank	krank	ADV	ADJD	Pos|	5	pred	_	_
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Der	die	ART	ART	Def|Masc|Nom|Sg	2	det	_	_
+2	FarkarTe	FarkarTe	N	NN	Masc|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	fur	fur	ADV	ADJD	_	3	pred	_	_
+5	nechste	nechste	ADJA	ADJA	_|Fem|Acc|Sg|_	6	attr	_	_
+6	Woche	Woche	N	NN	Fem|Acc|Sg	3	zeit	_	_
+7	am	an	PREP	APPRART	Dat	3	pp	_	_
+8	15.02.2012.	15.02.2012.	ADJA	ADJA	_|_|Dat|_|_|	7	pn	_	_
+9	um	um	PREP	APPR	_	3	pp	_	_
+10	10.uhr.	10.uhr.	CARD	CARD	_	9	pn	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wolte	wolte	V	VVFIN	1|Sg|_|_	0	root	_	_
+3	die	die	ART	ART	Def|_|Acc|_	4	det	_	_
+4	Faren	Faren	FM	FM	_|Acc|_	2	obja	_	_
+5	wenn	wenn	KOUS	KOUS	_	0	root	_	_
+6	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+7	diese	diese	PRO	PDS	Fem|Nom|Sg	8	subj	_	_
+8	karte	karten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+9	wilst	wilst	N	NE	_|_|_	8	obja	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+

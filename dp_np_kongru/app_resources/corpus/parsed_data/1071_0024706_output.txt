@@ -1,0 +1,68 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+4	das	die	PRO	PDS	Neut|Nom|Sg	5	subj	_	_
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+6	Maria	Maria	N	NE	Masc|Acc|Sg	5	obja	_	_
+7	Ingo	Ingo	N	NE	Masc|Acc|Sg	6	app	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	zwei	zwei	CARD	CARD	_	10	attr	_	_
+10	Wohen	Wohen	N	NN	_|_|Pl	18	obja	_	_
+11	vor	vor	PTKVZ	PTKVZ	_	18	avz	_	_
+12	habe	haben	V	VAFIN	1|Sg|Pres|_	5	kon	_	_
+13	ich	ich	PRO	PPER	1|Sg|_|Nom	12	subj	_	_
+14	eine	eine	ART	ART	Indef|Fem|Nom|Sg	15	det	_	_
+15	Arbeit	Arbeit	N	NN	Fem|Nom|Sg	18	pred	_	_
+16	in	in	PREP	APPR	_	15	pp	_	_
+17	Neuburg	Neuburg	N	NN	Fem|_|Sg	16	pn	_	_
+18	gefunden	finden	V	VVPP	_	12	aux	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	1	cj	_	_
+4	keine	keine	ART	PIAT	Fem|Acc|Sg	5	det	_	_
+5	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	3	obja	_	_
+6	dort	dort	ADV	ADV	_	3	adv	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	muss	müssen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	in	in	PREP	APPR	_	2	pp	_	_
+4	Kurz	Kurz	N	NE	_|_|_	3	pn	_	_
+5	Zeit	Zeit	N	NN	Fem|Acc|Sg	2	obja	_	_
+6	eine	eine	ART	ART	Indef|Fem|Acc|Sg	8	det	_	_
+7	Kleine	klein	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	8	attr	_	_
+8	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	15	obja	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	veleicht	veleicht	FM	FM	Fem|Acc|Sg	8	app	_	_
+11	45-50m	45-50m	FM	FM	Fem|Acc|Sg	10	app	_	_
+12	²	²	FM	FM	Fem|Acc|Sg	11	app	_	_
+13	,	,	$,	$,	_	0	root	_	_
+14	zu	zu	PTKZU	PTKZU	_	15	part	_	_
+15	finden	finden	V	VVINF	_	2	obji	_	_
+16	.	.	$.	$.	_	0	root	_	_
+
+1	Wenn	wenn	KOUS	KOUS	_	0	root	_	_
+2	das	die	ART	ART	Def|Neut|_|Sg	0	root	_	_
+3	möglich	möglich	ADV	ADJD	Pos|	4	adv	_	_
+4	nähe	nähen	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+5	mit	mit	PREP	APPR	Dat	4	pp	_	_
+6	mein	meine	ART	PPOSAT	_|_|Sg	7	det	_	_
+7	Arbeit	Arbeit	N	NN	_|_|Sg	5	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	deine	deine	ART	PPOSAT	Fem|Acc|Sg	4	det	_	_
+4	Hilfe	Hilfe	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	Antworte	antworten	V	VVFIN	_|Sg|Pres|_	2	kon	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	bitte	bitte	ADV	ADJD	_	0	root	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Fem|_|Sg	2	det	_	_
+2	Größe	Größe	N	NN	Fem|_|Sg	0	root	_	_
+3	Maria	Maria	N	NE	_|_|Sg	2	app	_	_
+

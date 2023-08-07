@@ -1,0 +1,66 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+6	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+7	dir	du	PRO	PPER	2|Sg|_|Dat	5	objd	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+4	gut	gut	ADV	ADJD	Pos|	3	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	8	obja	_	_
+5	in	in	PREP	APPR	Acc	8	pp	_	_
+6	dein	deine	ART	PPOSAT	Neut|Acc|Sg	7	det	_	_
+7	stadt	stadt	N	NN	Neut|Acc|Sg	5	pn	_	_
+8	gefunden	finden	V	VVPP	_	2	aux	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	1	cj	_	_
+4	dein	deine	ART	PPOSAT	Neut|Acc|Sg	5	det	_	_
+5	hilfe	hilfe	N	NN	Neut|Acc|Sg	3	obja	_	_
+6	bei	bei	PREP	APPR	Dat	3	pp	_	_
+7	der	die	ART	ART	Def|Fem|Dat|Sg	8	det	_	_
+8	Wohnungssuche	Wohnungssuche	N	NN	Fem|Dat|Sg	6	pn	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	ein	eine	ART	ART	Indef|_|_|Sg	4	det	_	_
+4	Zimmer	Zimmer	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	Wohnung	Wohnung	N	NN	Fem|Acc|Sg	4	app	_	_
+6	mit	mit	PREP	APPR	Dat	2	pp	_	_
+7	die	die	ART	ART	Def|Fem|_|Sg	8	det	_	_
+8	Küche	Küche	N	NN	Fem|_|Sg	6	pn	_	_
+9	und	und	KON	KON	_	8	kon	_	_
+10	das	die	ART	ART	Def|Neut|_|Sg	11	det	_	_
+11	Bad	Bad	N	NE	Neut|_|Sg	9	cj	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	von	von	PREP	APPR	Dat	2	pp	_	_
+14	Mai	Mai	N	NN	Masc|Dat|Sg	13	pn	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+2	müsst	müssen	V	VMFIN	2|Pl|Pres|Ind	0	root	_	_
+3	mir	ich	PRO	PPER	1|Sg|_|Dat	4	objd	_	_
+4	hilfe	hilfe	V	VVINF	_	2	aux	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Danke	Danke	V	VVIMP	_	0	root	_	_
+2	sehr	sehr	ADV	ADV	_	1	adv	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Dein	Dein	N	NN	Masc|_|Pl	2	app	_	_
+4	Stefan	Stefan	N	NE	Masc|_|Sg	3	app	_	_
+

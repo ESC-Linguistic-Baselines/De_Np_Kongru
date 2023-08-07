@@ -1,0 +1,43 @@
+1	Stadt	Stadt	N	NN	Fem|_|Sg	9	vok	_	_
+2	X	X	N	NE	_|_|Pl	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	06.01.2012	06.01.2012	CARD	CARD	_	5	attr	_	_
+5	Liebe	Liebe	N	NN	_|_|Pl	2	app	_	_
+6	Julia	Julia	N	NE	Fem|_|Sg	5	app	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	ich	ich	PRO	PPER	1|Sg|_|Nom	9	subj	_	_
+9	fahre	fahren	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+10	für	für	PREP	APPR	Acc	9	pp	_	_
+11	ein	eine	ART	ART	Indef|_|_|Sg	13	det	_	_
+12	paar	paar	ART	PIDAT	Masc|Acc|Pl	13	attr	_	_
+13	Tage	Tag	N	NN	Masc|Acc|Pl	10	pn	_	_
+14	nach	nach	PREP	APPR	Dat	9	pp	_	_
+15	stadt	stadt	N	NE	_|Dat|_	14	pn	_	_
+16	X.	X.	N	NE	_|Dat|_	15	app	_	_
+17	kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+18	du	du	PRO	PPER	2|Sg|_|Nom	17	subj	_	_
+19	mein	meine	ART	PPOSAT	Masc|Nom|Sg	20	det	_	_
+20	Hund	Hund	N	NN	Masc|Nom|Sg	0	root	_	_
+21	aufpasen	aufpasen	N	NE	Masc|Nom|Sg	20	app	_	_
+22	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	gehe	gehen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	vondreitag	vondreitag	N	NE	_|Dat|_	2	objd	_	_
+4	besuch	besuch	N	NE	_|Dat|_	3	app	_	_
+5	Bruden	Bruden	N	NE	_|Dat|_	4	app	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Vielen	viele	ART	PIDAT	Masc|_|Sg	2	det	_	_
+2	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+3	voraus	voraus	ADV	ADV	_	2	adv	_	_
+4	für	für	PREP	APPR	Acc	2	pp	_	_
+5	Ihre	ihre	ART	PPOSAT	Fem|Acc|Sg	6	det	_	_
+6	Hilfe	Hilfe	N	NN	Fem|Acc|Sg	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Liebe	lieb	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Eva	Eva	N	NE	_|_|Sg	2	app	_	_
+4	Schmidt	Schmidt	N	NE	_|_|Sg	3	app	_	_
+

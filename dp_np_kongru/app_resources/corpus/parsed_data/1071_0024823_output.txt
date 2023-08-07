@@ -1,0 +1,51 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Daniela	Daniela	N	NE	Fem|_|Sg	1	app	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	morgen	morgen	ADV	ADV	_	2	adv	_	_
+4	einen	eine	ART	ART	Indef|Masc|Acc|Sg	5	det	_	_
+5	Freitag	Freitag	N	NN	Masc|Acc|Sg	2	obja	_	_
+6	und	und	KON	KON	_	2	kon	_	_
+7	chi	chi	N	NE	_|Nom|Sg	8	subj	_	_
+8	möchte	mögen	V	VMFIN	3|Sg|Past|Subj	6	cj	_	_
+9	mit	mit	PREP	APPR	Dat	0	root	_	_
+10	die	die	ART	ART	Def|_|_|_	0	root	_	_
+11	ins	in	PREP	APPRART	Acc	0	root	_	_
+12	Schwimbad	Schwimbad	N	NN	_|Acc|_	11	pn	_	_
+13	kommen	kommen	V	VVINF	_	0	root	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	morgen	morgen	ADV	ADV	_	11	adv	_	_
+4	dich	du	PRO	PPER	2|Sg|_|Acc	11	obja	_	_
+5	um	um	PREP	APPR	_	11	pp	_	_
+6	9-30	9-30	CARD	CARD	_	7	attr	_	_
+7	Uhr	Uhr	N	NN	Fem|_|Sg	5	pn	_	_
+8	in	in	PREP	APPR	Dat	11	pp	_	_
+9	der	die	ART	ART	Def|Fem|Dat|Sg	10	det	_	_
+10	Haltestele	Haltestele	N	NN	Fem|Dat|Sg	8	pn	_	_
+11	warten	warten	V	VVINF	_	2	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	nehme	nehmen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	Obst	Obst	N	NN	Neut|Acc|Sg	2	obja	_	_
+4	und	und	KON	KON	_	3	kon	_	_
+5	Gemüse	Gemüse	N	NN	Neut|Acc|_	4	cj	_	_
+6	Du	du	PRO	PPER	2|Sg|_|Nom	7	subj	_	_
+7	bringst	bringen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+8	nur	nur	ADV	ADV	_	7	adv	_	_
+9	2	2	CARD	CARD	_	10	attr	_	_
+10	Flasch	Flasch	N	NN	_|Dat|Pl	7	objd	_	_
+11	Wasser	Wasser	N	NN	Neut|Acc|_	7	obja	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Bis	bis	PREP	APPR	Acc	4	pp	_	_
+2	Morgen	Morgen	N	NN	_|Acc|_	1	pn	_	_
+3	Ville	Ville	N	NE	_|Acc|_	2	app	_	_
+4	grüße	grüßen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+5	Michael	Michael	N	NE	Masc|Nom|Sg	4	subj	_	_
+

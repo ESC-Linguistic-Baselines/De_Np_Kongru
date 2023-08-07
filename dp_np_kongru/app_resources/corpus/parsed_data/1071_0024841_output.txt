@@ -1,0 +1,59 @@
+1	jens	jens	ADV	ADJD	_	0	root	_	_
+2	und	und	KON	KON	_	0	root	_	_
+3	familie	familie	N	NE	_	2	cj	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+1	Glückwünsche	Glückwunsch	N	NN	Masc|_|Pl	0	root	_	_
+2	:	\:	$.	$.	_	0	root	_	_
+3	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+4	jens	jens	CARD	CARD	_	3	app	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	ich	ich	PRO	PPER	Neut|Nom|Sg	0	root	_	_
+7	Gratulieren	Gratulieren	N	NN	Neut|_|Sg	6	app	_	_
+8	ihnen	sie	PRO	PPER	3|Pl|_|Dat	0	root	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	das	die	ART	ART	Def|Neut|Acc|Sg	2	det	_	_
+2	new	new	FM	FM	Neut|Acc|Sg	4	obja	_	_
+3	baby	baby	FM	FM	Neut|Acc|Sg	2	app	_	_
+4	Bekommen	bekommen	V	VVPP	_	0	root	_	_
+5	und	und	KON	KON	_	0	root	_	_
+6	wir	wir	PRO	PPER	1|Pl|_|Nom	5	cj	_	_
+7	is	is	V	VVFIN	_|_|_|_	0	root	_	_
+8	ihre	ihre	ART	PPOSAT	_|Nom|_	9	det	_	_
+9	name	name	FM	FM	_|Nom|_	7	subj	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	wie	wie	PWAV	PWAV	_	12	pred	_	_
+12	gehst	gehen	V	VVFIN	2|Sg|Pres|Ind	7	objc	_	_
+13	:	\:	$.	$.	_	0	root	_	_
+14	sind	sein	V	VAFIN	3|Pl|Pres|Ind	0	root	_	_
+15	beide	beide	PRO	PIS	_|Nom|Pl	14	subj	_	_
+16	?	?	$.	$.	_	0	root	_	_
+
+1	Sag	Sag	N	NE	_|Nom|Sg	3	subj	_	_
+2	mia	mia	N	NE	_|Nom|Sg	1	app	_	_
+3	bitte	bitten	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+4	alles	alle	PRO	PIS	Neut|Acc|Sg	3	obja	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	Atwortes	Atwortes	N	NE	_	0	root	_	_
+7	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+8	meine	meine	ART	PPOSAT	_|_|_	0	root	_	_
+9	e-mal	e-mal	TRUNC	TRUNC	_	0	root	_	_
+10	oder	oder	KON	KON	_	0	root	_	_
+11	ruf	rufen	V	VVIMP	Sg	10	cj	_	_
+12	mich	ich	PRO	PPER	1|Sg|_|Acc	11	obja	_	_
+13	an	an	PTKVZ	PTKVZ	_	11	avz	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	dich	du	PRO	PRF	2|Sg|Acc	4	obja	_	_
+4	besuchen	besuchen	V	VVINF	_	2	aux	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	deine	deine	ART	PPOSAT	_|_|_	4	det	_	_
+4	freudin	freudin	N	NN	_|_|_	0	root	_	_
+5	Maria	Maria	N	NE	_|_|Sg	4	app	_	_
+

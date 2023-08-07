@@ -1,0 +1,76 @@
+1	10.03.2012	10.03.2012	CARD	CARD	_	0	root	_	_
+2	Das	die	ART	ART	Def|Neut|_|Sg	3	det	_	_
+3	Wohnungsamt	Wohnungsamt	N	NN	Fem|_|Sg	0	root	_	_
+4	Stadt	Stadt	N	NN	Fem|_|Sg	3	app	_	_
+5	X.	X.	N	NE	Fem|_|Sg	4	app	_	_
+6	Sr.	Sr.	N	NN	Fem|_|Sg	5	app	_	_
+
+1	Maria	Maria	N	NE	Fem|_|Sg	0	root	_	_
+2	Klausenhof	Klausenhof	N	NE	Fem|_|Sg	1	app	_	_
+3	Stadt	Stadt	N	NN	Fem|_|Sg	2	app	_	_
+4	X.	X.	N	NE	Fem|_|Sg	3	app	_	_
+
+1	Suchen	Suche	N	NN	_|_|_	13	vok	_	_
+2	für	für	PREP	APPR	Acc	1	pp	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	5	det	_	_
+4	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	5	attr	_	_
+5	wochnung	wochnung	N	NN	Fem|Acc|Sg	2	pn	_	_
+6	Sehr	sehr	ADV	ADV	_	7	adv	_	_
+7	Geehrte	geehrt	ADJA	ADJA	Pos|Fem|Acc|Pl|St|	8	attr	_	_
+8	Damen	Dame	N	NN	Fem|Acc|Pl	5	app	_	_
+9	und	und	KON	KON	_	8	kon	_	_
+10	Herren	Herr	N	NN	Masc|Acc|_	9	cj	_	_
+11	,	,	$,	$,	_	0	root	_	_
+12	Ich	ich	PRO	PPER	1|Sg|_|Nom	13	subj	_	_
+13	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+14	eine	eine	ART	ART	Indef|Fem|_|Sg	16	det	_	_
+15	neue	neu	ADJA	ADJA	Pos|Fem|_|Sg|_|	16	attr	_	_
+16	wohnung	wohnung	N	NN	Fem|_|Sg	0	root	_	_
+17	umziehen	umziehen	V	VVINF	_	0	root	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	wissen	wissen	V	VVINF	_	2	aux	_	_
+4	wie	wie	KOKOM	KOKOM	_	3	kom	_	_
+5	hoch	hoch	ADV	ADJD	Pos|	6	adv	_	_
+6	die	die	PRO	PDS	_|_|_	4	cj	_	_
+7	miete	mieten	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+8	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+3	verheirated	verheirated	N	NE	_|Nom|_	2	pred	_	_
+4	und	und	KON	KON	_	2	kon	_	_
+5	habe	haben	V	VAFIN	_|Sg|Pres|_	4	cj	_	_
+6	3	3	CARD	CARD	_	7	attr	_	_
+7	Kinder	Kind	N	NN	Neut|Acc|Pl	5	obja	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	3	3	CARD	CARD	_	4	attr	_	_
+4	zimmer	zimmer	FM	FM	Fem|Acc|Sg	2	obja	_	_
+5	wohnung	wohnung	FM	FM	Fem|Acc|Sg	4	app	_	_
+6	und	und	KON	KON	_	5	kon	_	_
+7	Küche	Küche	N	NN	Fem|Acc|Sg	6	cj	_	_
+8	und	und	KON	KON	_	7	kon	_	_
+9	eine	eine	ART	ART	Indef|Fem|_|Sg	11	det	_	_
+10	kleine	klein	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	11	attr	_	_
+11	Balkon	Balkon	N	NN	Fem|Acc|Sg	8	cj	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	hoffe	hoffen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Nom|Sg	5	det	_	_
+4	baldige	baldig	ADJA	ADJA	Pos|Fem|Nom|Sg|_|	5	attr	_	_
+5	Antwort	Antwort	N	NN	Fem|Nom|Sg	2	subj	_	_
+6	Mit	mit	PREP	APPR	Dat	2	pp	_	_
+7	Freundlichen	freundlich	ADJA	ADJA	Pos|_|Dat|_|_|	8	attr	_	_
+8	Grüßen	Gruß	N	NN	_|Dat|_	6	pn	_	_
+9	,	,	$,	$,	_	0	root	_	_
+10	Sr.	Sr.	N	NN	Fem|Dat|Sg	8	app	_	_
+
+1	Maria	Maria	N	NE	_|_|Sg	0	root	_	_
+

@@ -1,0 +1,96 @@
+1	Libe	Libe	N	NE	Fem|_|Sg	0	root	_	_
+2	Dana	Dana	N	NE	Fem|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	Stadt	Stadt	N	NN	Fem|_|Sg	2	app	_	_
+5	X	X	N	NE	Fem|_|Sg	4	app	_	_
+6	27.02.12	27.02.12	CARD	CARD	_	5	app	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	_
+2	für	für	PREP	APPR	Acc	5	pp	_	_
+3	Sie	sie	PRO	PPER	3|_|_|Acc	2	pn	_	_
+4	deine	deine	ART	PPOSAT	_|_|_	5	det	_	_
+5	Brif	Brif	N	NN	_|_|_	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	denke	denken	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	oft	oft	ADV	ADV	_	2	adv	_	_
+4	an	an	PREP	APPR	Acc	2	objp	_	_
+5	dich	du	PRO	PPER	2|Sg|_|Acc	4	pn	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Natürlich	natürlich	ADV	ADJD	Pos|	2	adv	_	_
+2	besuche	besuchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	dich	du	PRO	PPER	2|Sg|_|Acc	2	obja	_	_
+5	wann	wann	PWAV	PWAV	_	7	adv	_	_
+6	zürick	zürick	N	NE	_|Nom|Pl	7	subj	_	_
+7	kommen	kommen	V	VVFIN	3|Pl|Pres|_	0	root	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Aber	aber	KON	KON	_	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	mache	machen	V	VVFIN	1|Sg|Pres|_	1	cj	_	_
+4	Party	Party	N	NN	Fem|Acc|Sg	3	obja	_	_
+5	am	an	PREP	APPRART	Dat	3	pp	_	_
+6	Sontag	Sontag	N	NN	_|Dat|_	5	pn	_	_
+7	und	und	KON	KON	_	0	root	_	_
+8	lade	laden	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+9	ich	ich	PRO	PPER	1|Sg|_|Nom	8	subj	_	_
+10	dich	du	PRO	PPER	2|Sg|_|Acc	8	obja	_	_
+11	ein	ein	PTKVZ	PTKVZ	_	8	avz	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	Ich	ich	PRO	PPER	1|Sg|_|Nom	14	subj	_	_
+14	freue	freuen	V	VVFIN	1|Sg|Pres|_	8	kon	_	_
+15	mich	ich	PRO	PRF	1|Sg|Acc	14	obja	_	_
+16	für	für	PREP	APPR	Acc	14	pp	_	_
+17	usere	usere	ADJA	ADJA	_|Neut|Acc|Sg|_	18	attr	_	_
+18	Besuchen	Besuch	N	NN	Neut|Acc|Sg	16	pn	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+1	Hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	Prüfung	Prüfung	N	NN	Fem|Acc|Sg	1	obja	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	ja	ja	ADV	ADV	_	0	root	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	wünsche	wünschen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	dir	du	PRO	PRF	2|Sg|Dat	2	objd	_	_
+4	viel	viel	ART	PIDAT	Masc|Acc|Sg	5	det	_	_
+5	Erfolg	Erfolg	N	NN	Masc|Acc|Sg	2	obja	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hatte	haben	V	VAFIN	1|Sg|Past|Ind	0	root	_	_
+3	aus	aus	PREP	APPR	Dat	2	pp	_	_
+4	Istanbul	Istanbul	N	NE	Neut|Dat|Sg	3	pn	_	_
+5	schal	schal	ADV	ADJD	Pos|	2	adv	_	_
+6	oder	oder	KON	KON	_	2	kon	_	_
+7	schone	schonen	V	VVFIN	_|Sg|Pres|_	6	cj	_	_
+8	Ohre	Ohr	N	NN	Neut|Dat|Sg	7	objd	_	_
+9	.	.	$.	$.	_	0	root	_	_
+
+1	Im	in	PREP	APPRART	Dat	4	pp	_	_
+2	schöne	schön	ADJA	ADJA	Pos|Neut|_|Sg|Wk|	3	attr	_	_
+3	Land	Land	N	NN	Neut|_|Sg	1	pn	_	_
+4	leben	leben	V	VVFIN	3|Pl|Pres|_	0	root	_	_
+5	deine	deine	ART	PPOSAT	_|_|_	6	det	_	_
+6	Verwandtem	Verwandter	N	NN	_|Nom|Pl	4	subj	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	gern	gern	ADV	ADV	_	7	adv	_	_
+4	in	in	PREP	APPR	_	7	pp	_	_
+5	Istanbul	Istanbul	N	NE	Neut|_|Sg	4	pn	_	_
+6	urlob	urlob	ADV	ADJD	_	7	pred	_	_
+7	machen	machen	V	VVINF	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Bis	bis	PREP	APPR	Acc	0	root	_	_
+2	bald	bald	ADV	ADV	_	3	adv	_	_
+3	Maria	Maria	N	NE	_|Acc|Sg	1	pn	_	_
+

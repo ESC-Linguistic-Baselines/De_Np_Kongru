@@ -1,0 +1,42 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Daniela	Daniela	N	NE	Fem|_|Sg	1	app	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+5	mit	mit	PREP	APPR	Dat	7	pp	_	_
+6	die	die	PRO	PDS	_|_|_	5	pn	_	_
+7	gehen	gehen	V	VVINF	_	4	aux	_	_
+8	in	in	PREP	APPR	_	7	pp	_	_
+9	Sardinien	Sardinien	N	NN	_|_|_	8	pn	_	_
+10	für	für	PREP	APPR	Acc	9	pp	_	_
+11	eine	eine	ART	ART	Indef|Fem|Acc|Sg	12	det	_	_
+12	schwimme	schwimme	N	NN	Fem|Acc|Sg	10	pn	_	_
+13	im	in	PREP	APPRART	Dat	7	pp	_	_
+14	See	See	N	NN	_|Dat|Sg	13	pn	_	_
+15	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	glaube	glauben	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	4	subj	_	_
+4	können	können	V	VMFIN	1|Pl|Pres|_	0	root	_	_
+5	Tickets	Ticket	N	NN	Neut|Acc|Pl	6	obja	_	_
+6	kaufen	kaufen	V	VVINF	_	4	aux	_	_
+7	von	von	PREP	APPR	_	0	root	_	_
+8	20	20	CARD	CARD	_	7	pn	_	_
+9	März	März	N	NN	Masc|_|Sg	0	root	_	_
+10	bis	bis	PREP	APPR	Acc	9	pp	_	_
+11	30.	30.	ADJA	ADJA	_|_|Acc|_|_|	10	pn	_	_
+
+1	Wann	Wann	PWAV	PWAV	_	3	adv	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	_
+3	hast	haben	V	VAFIN	2|Sg|Pres|Ind	7	objc	_	_
+4	E-Mail	E-Mail	N	NN	_|Acc|Sg	5	obja	_	_
+5	gelesen	lesen	V	VVPP	_	3	aux	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	antwortet	antworten	V	VVFIN	_|_|Pres|_	0	root	_	_
+8	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+9	bitte	bitten	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ciao	Ciao	N	NE	_|_|Sg	0	root	_	_
+2	Maria	Maria	N	NE	_|_|Sg	1	app	_	_
+

@@ -1,0 +1,7 @@
+1	STADT	STADT	N	NE	_	0	root	_	_
+2	X	X	N	NE	_	1	app	_	_
+3	26.04.2012	26.04.2012	CARD	CARD	_	4	attr	_	_
+4	LIEBER	LIEBER	N	NE	_|Gen|Pl	2	gmod	_	_
+5	JENS	JENS	N	NE	_|Gen|Pl	4	app	_	_
+6	GLÜCKWÜNSCH	GLÜCKWÜNSCH	N	NE	_|Gen|Pl	5	app	_	_
+

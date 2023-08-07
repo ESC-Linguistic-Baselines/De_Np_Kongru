@@ -1,0 +1,55 @@
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	5	pred	_	_
+5	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+6	´	´	FM	FM	_|Nom|Sg	5	subj	_	_
+7	s	s	FM	FM	_|Nom|Sg	6	app	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	5	obja	_	_
+5	gefunden	finden	V	VVPP	_	2	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Nächte	Nacht	N	NN	Masc|Acc|Sg	3	zeit	_	_
+2	Monat	Monat	N	NN	Masc|Acc|Sg	1	app	_	_
+3	werde	werden	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	in	in	PREP	APPR	_	7	objp	_	_
+6	Neuburg	Neuburg	N	NN	Fem|_|Sg	5	pn	_	_
+7	wohnen	wohnen	V	VVINF	_	3	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	eine	eine	ART	ART	Indef|Fem|Acc|Sg	4	det	_	_
+4	Größe	Größe	N	NN	Fem|Acc|Sg	2	obja	_	_
+5	der	die	ART	ART	Def|Fem|Gen|Sg	6	det	_	_
+6	Wohnung	Wohnung	N	NN	Fem|Gen|Sg	4	gmod	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mit	mit	PREP	APPR	Dat	6	pp	_	_
+4	der	die	ART	ART	Def|Fem|Dat|Sg	5	det	_	_
+5	Wohnungssuche	Wohnungssuche	N	NN	Fem|Dat|Sg	3	pn	_	_
+6	helfen	helfen	V	VVINF	_	1	aux	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Wo	Wo	PWAV	PWAV	_	2	adv	_	_
+2	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+4	es	es	PRO	PPER	3|Sg|Neut|Acc	5	obja	_	_
+5	finden	finden	V	VVINF	_	2	aux	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Liebe	lieb	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	von	von	PREP	APPR	_	2	pp	_	_
+4	Stadt	Stadt	N	NN	Fem|_|Sg	3	pn	_	_
+5	X	X	N	NE	_|_|Sg	4	app	_	_
+6	Maria	Maria	N	NE	_|_|Sg	5	app	_	_
+

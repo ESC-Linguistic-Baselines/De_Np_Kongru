@@ -1,0 +1,41 @@
+1	Hello	Hello	N	NE	Fem|_|Sg	0	root	_	_
+2	Daniela	Daniela	N	NE	Fem|_|Sg	1	app	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+1	Wie	Wie	PWAV	PWAV	_	2	pred	_	_
+2	geht	gehen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+3	es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+4	dir	du	PRO	PPER	2|Sg|_|Dat	2	objd	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	mit	mit	PREP	APPR	Dat	7	pp	_	_
+4	mir	ich	PRO	PPER	1|Sg|_|Dat	3	pn	_	_
+5	zu	zu	PTKA	PTKA	_	6	adv	_	_
+6	schwimmbad	schwimmbad	ADV	ADJD	_	7	adv	_	_
+7	gehen	gehen	V	VVINF	_	1	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Am	an	PREP	APPRART	Dat	0	root	_	_
+2	Mittwoch	Mittwoch	N	NN	Masc|Dat|Sg	1	pn	_	_
+3	25.	25.	ADJA	ADJA	_|Masc|Dat|Sg|_|	4	attr	_	_
+4	März	März	N	NN	Masc|Dat|Sg	2	app	_	_
+5	?	?	$.	$.	_	0	root	_	_
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	must	must	V	VVFIN	2|Sg|_|_	0	root	_	_
+3	ein	eine	ART	ART	Indef|Neut|Acc|Sg	4	det	_	_
+4	bikini	bikini	N	NN	Neut|Acc|Sg	2	obja	_	_
+5	mitbringen	mitbringen	V	VVINF	_	0	root	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	_|_|_	2	det	_	_
+2	Grusses	Gruss	N	NN	Masc|Gen|Sg	0	root	_	_
+3	!	!	$.	$.	_	0	root	_	_
+4	!	!	$.	$.	_	0	root	_	_
+
+1	!	!	$.	$.	_	0	root	_	_
+
+1	Stefan	Stefan	N	NE	Masc|_|Sg	0	root	_	_
+

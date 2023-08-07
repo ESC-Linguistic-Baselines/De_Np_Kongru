@@ -1,0 +1,38 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Daniela	Daniela	N	NE	Fem|_|Sg	1	app	_	_
+3	Ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+5	mit	mit	PREP	APPR	Dat	9	pp	_	_
+6	dir	du	PRO	PPER	2|Sg|_|Dat	5	pn	_	_
+7	ins	in	PREP	APPRART	Acc	9	objp	_	_
+8	schwimmenbad	schwimmenbad	N	NN	_|Acc|_	7	pn	_	_
+9	gehen	gehen	V	VVINF	_	4	aux	_	_
+10	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	denke	denken	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	am	an	PREP	APPRART	Dat	5	pp	_	_
+4	Samstag	Samstag	N	NN	_|Dat|Sg	3	pn	_	_
+5	passt	passen	V	VVFIN	_|_|Pres|Ind	0	root	_	_
+6	uns	wir	PRO	PPER	1|Pl|_|Dat	5	objd	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Also	also	ADV	ADV	_	2	adv	_	_
+2	am	an	PREP	APPRART	Dat	0	root	_	_
+3	Samstg	Samstg	N	NN	_|Dat|_	2	pn	_	_
+4	um	um	PREP	APPR	_	3	pp	_	_
+5	10	10	CARD	CARD	_	6	attr	_	_
+6	30	30	CARD	CARD	_	4	pn	_	_
+7	Wenn	wenn	KOUS	KOUS	_	9	konj	_	_
+8	es	es	PRO	PPER	3|Sg|Neut|Nom	9	subj	_	_
+9	ist	sein	V	VAFIN	3|Sg|Pres|Ind	11	neb	_	_
+10	möglich	möglich	ADV	ADJD	Pos|	9	pred	_	_
+11	beringst	beringen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+12	du	du	PRO	PPER	2|Sg|_|Nom	11	subj	_	_
+13	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+14	zu	zu	PTKZU	PTKZU	_	15	part	_	_
+15	esse	esse	V	VVINF	_	11	obji	_	_
+16	und	und	KON	KON	_	0	root	_	_
+17	Trink	Trink	N	NE	_	16	cj	_	_
+18	mit	mit	PTKVZ	PTKVZ	_	0	root	_	_
+

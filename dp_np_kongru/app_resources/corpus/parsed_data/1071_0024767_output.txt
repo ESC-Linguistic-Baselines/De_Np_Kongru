@@ -1,0 +1,71 @@
+1	Lieber	lieb	ADV	ADJD	Comp|	2	adv	_	_
+2	Ingo	Ingo	N	NE	Masc|_|Sg	0	root	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	wie	wie	PWAV	PWAV	_	0	root	_	_
+5	gehts	gehts	N	NE	_	0	root	_	_
+6	Dir	Dir	N	NE	_	5	app	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	hoffe	hoffen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	gut	gut	ADV	ADJD	Pos|	2	adv	_	_
+4	!	!	$.	$.	_	0	root	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Ingo	Ingo	N	NE	Masc|_|Sg	4	vok	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_
+4	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+5	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+6	Arbeit	Arbeit	N	NN	Fem|Acc|Sg	9	obja	_	_
+7	in	in	PREP	APPR	_	9	pp	_	_
+8	Neuburg	Neuburg	N	NN	Fem|_|Sg	7	pn	_	_
+9	gefunden	finden	V	VVPP	_	4	aux	_	_
+10	,	,	$,	$,	_	0	root	_	_
+11	und	und	KON	KON	_	4	kon	_	_
+12	am	an	PREP	APPRART	Dat	14	pp	_	_
+13	31.07.	31.07.	ADJA	ADJA	_|_|Dat|_|_|	12	pn	_	_
+14	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	11	cj	_	_
+15	ich	ich	PRO	PPER	1|Sg|_|Nom	14	subj	_	_
+16	dort	dort	ADV	ADV	_	17	adv	_	_
+17	umziehen	umziehen	V	VVINF	_	14	aux	_	_
+18	.	.	$.	$.	_	0	root	_	_
+
+1	Köntest	Köntest	N	NE	_	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	0	root	_	_
+3	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+4	,	,	$,	$,	_	0	root	_	_
+5	mir	ich	PRO	PPER	Fem|Dat|Pl	0	root	_	_
+6	Hilfen	Hilfe	N	NN	Fem|_|Pl	5	app	_	_
+7	bei	bei	PREP	APPR	Dat	6	pp	_	_
+8	der	die	ART	ART	Def|Fem|Dat|Sg	9	det	_	_
+9	Wohnungssuche	Wohnungssuche	N	NN	Fem|Dat|Sg	7	pn	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	möchte	mögen	V	VMFIN	1|Sg|Past|Subj	0	root	_	_
+3	gerne	gerne	ADV	ADV	_	7	adv	_	_
+4	zwei	zwei	CARD	CARD	_	5	attr	_	_
+5	Zimmer	Zimmer	N	NN	Neut|Acc|Pl	7	obja	_	_
+6	Wochnung	Wochnung	N	NE	Neut|Acc|Pl	5	app	_	_
+7	haben	haben	V	VAINF	_	2	aux	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	am	am	PTKA	PTKA	_	10	adv	_	_
+10	besten	besten	ADV	ADJD	_	11	adv	_	_
+11	ins	in	PREP	APPRART	Acc	7	pp	_	_
+12	Zentrum	Zentrum	N	NN	_|Acc|Sg	11	pn	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bedanke	bedanken	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	mich	ich	PRO	PRF	1|Sg|Acc	2	obja	_	_
+4	für.raus	für.raus	N	NE	_|_|_	2	obja	_	_
+5	und	und	KON	KON	_	0	root	_	_
+6	bis	bis	PREP	APPR	Acc	5	cj	_	_
+7	bald	bald	ADV	ADV	_	6	adv	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Viele	viele	ART	PIDAT	Masc|_|Pl	2	det	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Julia	Julia	N	NE	Fem|_|Sg	2	app	_	_
+

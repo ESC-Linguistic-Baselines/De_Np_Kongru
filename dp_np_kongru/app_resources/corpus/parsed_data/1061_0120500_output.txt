@@ -1,0 +1,123 @@
+1	Liebe	Liebe	N	NN	_|_|_	0	root	_	_
+2	Michael	Michael	N	NE	Masc|_|Sg	1	app	_	_
+3	vielen	viele	ART	PIDAT	Masc|_|Sg	4	det	_	_
+4	Dank	Dank	N	NN	Masc|_|Sg	0	root	_	_
+5	für	für	PREP	APPR	Acc	4	pp	_	_
+6	deine	deine	ART	PPOSAT	Masc|Nom|Sg	7	det	_	_
+7	Brief	Brief	N	NN	Masc|Nom|Sg	5	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_
+2	Silvesternacht	Silvesternacht	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+4	Gut	Gut	N	NN	Neut|Nom|Sg	3	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+2	haben	haben	V	VAFIN	1|Pl|Pres|_	0	root	_	_
+3	nach	nach	PREP	APPR	Dat	5	pp	_	_
+4	Spanien	Spanien	N	NE	Neut|Dat|Sg	3	pn	_	_
+5	gereist	reisen	V	VVPP	_	2	aux	_	_
+6	und	und	KON	KON	_	2	kon	_	_
+7	wir	wir	PRO	PPER	1|Pl|_|Nom	8	subj	_	_
+8	waren	sein	V	VAFIN	1|Pl|Past|Ind	6	cj	_	_
+9	unserer	unsre	ART	PPOSAT	_|_|_	10	det	_	_
+10	Elter	Elter	N	NN	Fem|Dat|Sg	11	objd	_	_
+11	besucht	besuchen	V	VVPP	_	8	aux	_	_
+12	.	.	$.	$.	_	0	root	_	_
+
+1	Es	es	PRO	PPER	3|Sg|Neut|Nom	2	subj	_	_
+2	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+3	sehr	sehr	ADV	ADV	_	4	adv	_	_
+4	Lustig	lustig	ADV	ADJD	Pos|	2	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+1	Meine	meine	ART	PPOSAT	Fem|_|Sg	2	det	_	_
+2	Oma	Oma	N	NN	Fem|_|Sg	0	root	_	_
+3	hate	hate	N	NE	Fem|_|Sg	2	app	_	_
+4	ein	eine	ART	ART	Indef|Neut|Acc|Sg	6	det	_	_
+5	gemusse	gemusse	ADJA	ADJA	_	6	attr	_	_
+6	Kuche	Kuche	N	NN	Neut|Acc|Sg	7	obja	_	_
+7	gekocht	kochen	V	VVPP	_	0	root	_	_
+8	und	und	KON	KON	_	0	root	_	_
+9	wir	wir	PRO	PPER	1|Pl|_|Nom	10	subj	_	_
+10	haben	haben	V	VAFIN	1|Pl|Pres|_	8	cj	_	_
+11	alle	alle	ART	PIDAT	_|Acc|_	12	det	_	_
+12	Zussamen	Zussamen	N	NN	_|Acc|_	13	obja	_	_
+13	gegessen	essen	V	VVPP	_	10	aux	_	_
+14	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_
+2	hoffe	hoffen	V	VVFIN	3|Sg|Pres|Subj	0	root	_	_
+3	deine	deine	ART	PPOSAT	Fem|Nom|Sg	4	det	_	_
+4	Ausbildung	Ausbildung	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	als	als	KOKOM	KOKOM	_	2	kom	_	_
+6	Becker	Becker	N	NE	_	5	cj	_	_
+7	dich	du	PRO	PPER	2|Sg|_|Acc	2	obja	_	_
+8	gehelfen	gehelfen	ADV	ADV	_	2	adv	_	_
+9	am	an	PREP	APPRART	Dat	16	pp	_	_
+10	Arbeit	Arbeit	N	NN	Fem|_|Sg	9	pn	_	_
+11	in	in	PREP	APPR	Acc	16	pp	_	_
+12	das	die	ART	ART	Def|Neut|_|Sg	14	det	_	_
+13	neuen	neu	ADJA	ADJA	Pos|_|_|_|_|	14	attr	_	_
+14	Jahr	Jahr	N	NN	Neut|Acc|Sg	11	pn	_	_
+15	zu	zu	PTKZU	PTKZU	_	16	part	_	_
+16	suchen	suchen	V	VVINF	_	2	obji	_	_
+17	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+18	klar	klar	ADV	ADJD	Pos|	0	root	_	_
+19	,	,	$,	$,	_	0	root	_	_
+20	wir	wir	PRO	PPER	1|Pl|_|Nom	0	root	_	_
+21	mussen	mussen	ADJA	ADJA	_	22	attr	_	_
+22	Zussamen	Zussamen	N	NN	_|_|_	24	obja	_	_
+23	zu	zu	PTKZU	PTKZU	_	24	part	_	_
+24	treffen	treffen	V	VVINF	_	0	root	_	_
+25	,	,	$,	$,	_	0	root	_	_
+26	aber	aber	KON	KON	_	0	root	_	_
+27	jetz	jetz	V	VVFIN	_	26	cj	_	_
+28	ich	ich	PRO	PPER	1|Sg|_|Nom	29	subj	_	_
+29	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+30	viel	viel	PRO	PIS	_|_|_	32	obja	_	_
+31	zu	zu	PTKZU	PTKZU	_	32	part	_	_
+32	tun	tun	V	VVINF	_	29	aux	_	_
+33	.	.	$.	$.	_	0	root	_	_
+
+1	Habt	haben	V	VAFIN	2|Pl|Pres|Ind	0	root	_	_
+2	Ihr	ihre	ART	PPOSAT	_|_|Sg	3	det	_	_
+3	Zeit	Zeit	N	NN	Neut|Acc|Sg	1	obja	_	_
+4	nechte	nechte	ADJA	ADJA	_|Fem|Acc|Sg|_	5	attr	_	_
+5	Woche	Woche	N	NN	Fem|Acc|Sg	3	app	_	_
+6	?	?	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	bin	sein	V	VAFIN	1|Sg|Pres|Ind	0	root	_	_
+3	Zufrieden	zufrieden	ADV	ADJD	Pos|	2	pred	_	_
+4	in	in	PREP	APPR	_	2	pp	_	_
+5	meine	meine	ART	PPOSAT	Masc|Nom|Sg	6	det	_	_
+6	Beruf	Beruf	N	NN	Masc|Nom|Sg	4	pn	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+3	viel	viel	ART	PIDAT	_|_|_	4	det	_	_
+4	ArbeitReise	ArbeitReise	N	NN	_|_|_	2	obja	_	_
+5	gemach	gemach	ADV	ADV	_	2	adv	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+1	Doch	doch	KON	KON	_	0	root	_	_
+2	Ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+3	musse	musse	V	VVFIN	1|Sg|_|_	1	cj	_	_
+4	viel	viel	ART	PIDAT	_|_|_	5	det	_	_
+5	Konference	Konference	N	NN	_|_|_	3	obja	_	_
+6	zu	zu	PREP	APPR	Dat	3	pp	_	_
+7	gern	gern	ADV	ADV	_	10	adv	_	_
+8	und	und	KON	KON	_	7	kon	_	_
+9	interessant	interessant	ADV	ADJD	Pos|	8	cj	_	_
+10	Personen	Person	N	NN	Fem|Dat|Pl	6	pn	_	_
+11	zu	zu	PTKZU	PTKZU	_	12	part	_	_
+12	kemnen	kemnen	V	VVINF	_	3	obji	_	_
+13	.	.	$.	$.	_	0	root	_	_
+
+1	Herzliche	herzlich	ADJA	ADJA	Pos|Masc|_|Pl|St|	2	attr	_	_
+2	Grüße	Gruß	N	NN	Masc|_|Pl	0	root	_	_
+3	Stefan	Stefan	N	NE	Masc|_|Sg	2	app	_	_
+
