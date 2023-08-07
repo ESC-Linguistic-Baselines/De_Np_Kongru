@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <a href="https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen">
+    <a href="https://github.com/christopher-chandler/De_NP_Kongru">
      <img src="readme_img/logo.png" alt="Logo" width="250" height="80">
   </a>
 
@@ -25,9 +25,9 @@
     an der Ruhr-Universität Bochum in Deutschland entwickelt.
     <br />
     <br />
-    <a href="https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen/issues">Fehler melden</a>
+    <a href="https://github.com/christopher-chandler/De_NP_Kongru/issues">Fehler melden</a>
     ·
-    <a href="https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen/issues">Funktion anfragen</a>
+    <a href="https://github.com/christopher-chandler/De_NP_Kongru/issues">Funktion anfragen</a>
   </code>
 </div>
 
@@ -71,7 +71,7 @@ veranschaulichen zu können.
 ausstehend
 
 <div align="center">
-  <a href="https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen">
+  <a href="https://github.com/christopher-chandler/De_NP_Kongru">
   </a>
 </div>
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
@@ -135,7 +135,7 @@ options:
 - [ ] Schnittstelle zu Argpase aufbauen
     - [ ] Hauptschnittstelle einrichten
 
-Siehe die [offenen Probleme](https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen/issues) für eine vollständige Liste der vorgeschlagenen Funktionen (und bekannten Probleme).
+Siehe die [offenen Probleme](https://github.com/christopher-chandler/De_NP_Kongru/issues) für eine vollständige Liste der vorgeschlagenen Funktionen (und bekannten Probleme).
 
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
@@ -168,7 +168,7 @@ Vertrieben unter der MIT-Lizenz. Siehe `LIZENZ` für weitere Informationen.
 <!-- CONTACT -->
 # Kontakt
 Christopher Chandler - christopher.chandler at outlook.de
-* Project Link: [korpuslinguistische_analysen_der_nominalflexion_im_deutschen](https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen)
+* Project Link: [De_NP_Kongru](https://github.com/christopher-chandler/De_NP_Kongru)
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
@@ -182,16 +182,16 @@ Christopher Chandler - christopher.chandler at outlook.de
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen?color=green&logoColor=%20
-[contributors-url]: https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/christopher-chandler/De_NP_Kongru?color=green&logoColor=%20
+[contributors-url]: https://github.com/christopher-chandler/De_NP_Kongru/graphs/contributors
 
-[stars-shield]: https://img.shields.io/github/stars/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen?logoColor=yellow&style=social
-[stars-url]: https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen/stargazers
+[stars-shield]: https://img.shields.io/github/stars/christopher-chandler/De_NP_Kongru?logoColor=yellow&style=social
+[stars-url]: https://github.com/christopher-chandler/De_NP_Kongru/stargazers
 
-[license-shield]: https://img.shields.io/github/license/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen?color=yellow
-[license-url]: https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/christopher-chandler/De_NP_Kongru?color=yellow
+[license-url]: https://github.com/christopher-chandler/De_NP_Kongru/blob/master/LICENSE.txt
 
-[download-shield]: https://img.shields.io/github/downloads/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen/total
+[download-shield]: https://img.shields.io/github/downloads/christopher-chandler/De_NP_Kongru/total
 
 [windows-shield]:  https://img.shields.io/badge/Windows-Tested-purple 
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
