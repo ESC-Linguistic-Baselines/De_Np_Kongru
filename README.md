@@ -15,7 +15,6 @@
 
 ![Windows][windows-shield] ![Mac][Mac-shield]
 
-
 <h3 align="center">DeNP Kongru</h3>
 
   <p align="justify">
@@ -59,16 +58,16 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## Über das Projekt
+# Über das Projekt
 
-### Hintergrund
+## Hintergrund
 Im Rahmen dieses Projekts soll die Kongruenz in deutschen Nominalphrasen 
 bestimmt werden. Daraus resultierend werden die Ergebnisse aus verscheidenen
 Lernergruppen miteinander verglichen, um die Unterschiede zwischen
 den jeweiligen Sprechergruppen z.B. Spanisch, Französisch, Deutsch, etc
 veranschaulichen zu können.
 
-### Ergebnisse
+## Ergebnisse
 ausstehend
 
 <div align="center">
@@ -77,39 +76,36 @@ ausstehend
 </div>
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
-### Verwendete Ressourcen
+# Verwendete Ressourcen
 Eine Liste der Ressourcen, die bei der Entwicklung des Programms verwendet wurden.
 
-#### Libraries
+## Libraries
 
-#### Github
-* [German nouns](https://github.com/gambolputty/german-nouns)
-
-#### Pip
- 
+### Pip
 * [German Nouns](https://pypi.org/project/german-nouns/)
 
-#### Korpora 
+### Korpora 
 
 * [MERLIN Corpus](https://www.merlin-platform.eu/)
 * [Deutsche morphologische Wörterbücher](https://github.com/DuyguA/german-morph-dictionaries)
 
 ### Zusätzliche Tools
  Diese Tools wurden benutzen, um die Lernertexte zu taggen und zu parsen.
-Dieses Verfahren wurden in einem anderen, verwandten (Projekt)[] gemacht.
+Dieses Verfahren wurden in einem anderen, verwandten [Projekt](https://github.com/imgeyuez/automatic_np_extraction) gemacht.
 * [Parzu - deutscher Parser](https://github.com/rsennrich/ParZu)
 * [Conluu - CoNLL-U Parser](https://pypi.org/project/conllu/)
+  *  Wie genau diese Tools verwendet wurden, bitte [hier nachlesen](https://github.com/imgeyuez/automatic_np_extraction)
 
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
 <!-- GETTING STARTED -->
-## Erste Schritte
+# Erste Schritte
  
 
-### Voraussetzungen
+# Voraussetzungen
  
 
-### Installation
+# Installation
 Um die notwendige libraries installieren zu können, das folgendene Kommando
 in der Konsole ausgeben: `pip install -r requirements.txt` 
 
@@ -117,30 +113,24 @@ in der Konsole ausgeben: `pip install -r requirements.txt`
 
 <!-- USAGE EXAMPLES -->
 ## Anwendung 
-Um DeNP Flexy starten zu können, bitte `python main.py --help`
+Um DeNP Kongru starten zu können, bitte `python main.py --help`
 
 Danach erscheint folgende Ausgabe in der Konsole:
 
 ```
-Usage: main.py [OPTIONS] COMMAND [ARGS]...
+usage: main.py [-h] [--einfach]
 
-Options:
-  --help  Show this message and exit.
+DeNp Kongru
 
-Commands:
-  goodye
-  hello
+options:
+  -h, --help  show this help message and exit
+  --einfach   Eine einfache Analyse durchfuehren
 ```
-
-#### Funktion  hello
-
-#### Funktion  goodbye
-
 
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
 <!-- ROADMAP -->
-## Roadmap
+# Roadmap
 
 - [ ] Schnittstelle zu Argpase aufbauen
     - [ ] Hauptschnittstelle einrichten
@@ -150,7 +140,7 @@ Siehe die [offenen Probleme](https://github.com/christopher-chandler/korpuslingu
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Beitragen
+# Beitragen
 Beiträge sind es, die die Open-Source-Community zu einem erstaunlichen Ort zum 
 Lernen, Inspirieren und Erschaffen machen.
 Jegliche Beiträge, die Sie leisten, werden **sehr geschätzt**.
@@ -170,19 +160,19 @@ Vergessen Sie nicht, dem Projekt einen Stern zu geben! Vielen Dank nochmals!
 
 
 <!-- LICENSE -->
-## Lizenz
+# Lizenz
 Vertrieben unter der MIT-Lizenz. Siehe `LIZENZ` für weitere Informationen.
 
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
 <!-- CONTACT -->
-## Kontakt
+# Kontakt
 Christopher Chandler - christopher.chandler at outlook.de
 * Project Link: [korpuslinguistische_analysen_der_nominalflexion_im_deutschen](https://github.com/christopher-chandler/korpuslinguistische_analysen_der_nominalflexion_im_deutschen)
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## Danksagungen
+# Danksagungen
 
 * [Imge Yüzüncüoglu](https://github.com/imgeyuez)
 * [Georg Stin]()
