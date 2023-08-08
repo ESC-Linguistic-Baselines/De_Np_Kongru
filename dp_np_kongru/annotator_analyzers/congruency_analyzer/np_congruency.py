@@ -121,30 +121,5 @@ def determine_congruency(
     return congruency_results
 
 
-def run_congruency_check(np_file: str, morpho_dict_file: str):
-    """
-    Args:
-        np_file (str):
-            der Pfad der NP-Datei
-        morpho_dict_file (str):
-            der Pfad der Morpho-dict-datei
-
-    Returns:
-        type:
-            Description of the return value.
-    """
-
-    # Die einzulesenden Dateien
-    np_data = read_in_np_file(np_file)
-
-    morpho_dict_data = read_morpho_dict(morpho_dict_file, use_pickle_file=True)
-
-    # NP tokenisieren und Kongruenz bestimmen
-    tok_morph_np = find_np_morphology(morph_dict=morpho_dict_data, np_data=np_data)
-    np_congruency = determine_congruency(tok_morph_np)
-
-    return np_congruency
-
-
 if __name__ == "__main__":
     pass

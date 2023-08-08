@@ -114,6 +114,7 @@ def filter_np_morphology(np_morph: dict) -> dict:
     allowed_pos = ["ART", "ADJ", "DEMO", "POS", "NN", "NP", "NE"]
 
     np_morph_filtered = {}
+    print(np_morph_filtered, "filtered")
     for token, values_list in np_morph.items():
         unique_values = []
         for values in values_list:

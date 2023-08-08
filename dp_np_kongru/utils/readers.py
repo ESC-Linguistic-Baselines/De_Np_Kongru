@@ -27,7 +27,7 @@ def read_in_np_file(file_name: str) -> dict:
 
             key = f"{np_id}_{dict_key}"
             np_data[key] = dict_key, np_info
-    print(np_data)
+
     return np_data
 
 
@@ -119,7 +119,7 @@ def read_morpho_dict(filename, pickle_file=False, use_pickle_file=True):
 
     if pickle_file:
         with open(
-            "dp_np_kongru/app_resources/data/morph_dict_data/DE_morphy_dict_pickle.pkl",
+            "app_resources/data/morph_dict_data/DE_morphy_dict_pickle.pkl",
             mode="wb",
         ) as pk:
             pickle.dump(morph_dict, pk)
@@ -127,7 +127,7 @@ def read_morpho_dict(filename, pickle_file=False, use_pickle_file=True):
     if use_pickle_file:
         pickle.load(
             open(
-                "dp_np_kongru/app_resources/data/morph_dict_data/DE_morphy_dict_pickle.pkl",
+                "app_resources/data/morph_dict_data/DE_morphy_dict_pickle.pkl",
                 mode="rb",
             )
         )

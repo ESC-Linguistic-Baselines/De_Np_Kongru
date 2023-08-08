@@ -1,0 +1,2 @@
+class Merlin:
+    pass

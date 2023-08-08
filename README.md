@@ -6,7 +6,7 @@
 <br />
 <div align="center">
     <a href="https://github.com/christopher-chandler/De_NP_Kongru">
-     <img src="readme_img/logo.png" alt="Logo" width="250" height="80">
+     <img src="app_resources/readme_img/logo.png" alt="Logo" width="250" height="80">
   </a>
 
 ![Version][Version-shield]  [![MIT License][license-shield]][license-url] ![update][update-shield]
@@ -176,7 +176,7 @@ Christopher Chandler - christopher.chandler at outlook.de
 
 * [Imge Yüzüncüoglu](https://github.com/imgeyuez)
 * [Georg Stin]()
-* [Ikram]()
+* [Ikram Abdalla]()
 
 <p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->

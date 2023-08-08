@@ -5,7 +5,7 @@ import argparse
 # None
 
 # Custom
-from dp_np_kongru import quick_analysis
+from dp_np_kongru.annotator_analyzers.congruency_analyzer import quick_analysis
 
 parser = argparse.ArgumentParser(description="DeNp Kongru")
 
