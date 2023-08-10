@@ -1,4 +1,5 @@
 from dp_np_kongru.constants.error_messages.merlin_error import MerlinError
+from dp_np_kongru.constants.message_keys import MessageKeys as Mk
 
 
 class MerlinCorpus:
@@ -65,13 +66,13 @@ class MerlinCorpus:
             meta_data = self.__split_text_by_separator()[0].strip()
             print(meta_data)
         else:
-            print("Entweder 'text ' oder 'meta' angeben")
+            print(Mk.Merlin.INFO_TEXT_OR_META.value)
 
 
 text = "/Users/christopherchandler/repo/Python/computerlinguistik/NP -" \
        " Computerlinguistik/DE_np_Kongru/app_resources/corpus/" \
        "merlin-german-plain/german/1023_0001416.txt"
 
-
-Reader = MerlinCorpus(file_name=text).show_text("meta")
-print(Reader)
+if __name__ == "__main__":
+    Reader = MerlinCorpus(file_name=text).show_text("meta")
+    print(Reader)

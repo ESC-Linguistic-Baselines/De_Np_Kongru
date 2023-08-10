@@ -8,5 +8,13 @@ from enum import Enum
 # None
 
 
-class MessageKeys(Enum):
-    pass
+class MessageKeys:
+
+    class Merlin(Enum):
+
+        # Info
+        INFO_TEXT_OR_META = "Entweder 'text' oder 'meta' als Wert angeben"
+
+        # Fehler
+        ERR_MISSING_SEPARATOR = 'Das Standardtrennzeichen fehlt in der Datei.'
+

@@ -1,3 +1,13 @@
+# Standard
+from enum import Enum
+
+# Pip
+# None
+
+# Custom
+from dp_np_kongru.constants.message_keys import MessageKeys as Mk
+
+
 class MerlinError:
     class MissingSeparator(Exception):
         """
@@ -5,7 +15,7 @@ class MerlinError:
         kann die Datei nicht wie vorgesehen gepaarst werden.
         """
         def __init__(self):
-            message = "Das Standardtrennzeichen fehlt in der Datei."
+            message = Mk.Merlin.ERR_MISSING_SEPARATOR.value
             super().__init__(message)
 
 

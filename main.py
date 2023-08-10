@@ -20,3 +20,15 @@ if __name__ == "__main__":
 
     if args.einfach:
         quick_analysis.run_quick_analysis()
+
+
+    # meta data for a
+
+
+
+
+
+
+
+
+    
