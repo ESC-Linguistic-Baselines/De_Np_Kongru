@@ -1,34 +1,16 @@
 # Standard
-import argparse
+import logging
 
 # Pip
-# None
+import typer
 
 # Custom
-from dp_np_kongru.annotator_analyzers.congruency_analyzer import quick_analysis
+from kongru.api_nlp.analyzer.analyzer import analyzer_app
 
-parser = argparse.ArgumentParser(description="DeNp Kongru")
 
-# Add an optional argument for the name
-parser.add_argument(
-    "--einfach", action="store_true", help="Eine einfache Analyse durchfuehren"
-)
+app = typer.Typer(add_help_option=True, no_args_is_help=True, name="DE Np Kongru")
+app.add_typer(analyzer_app)
 
-args = parser.parse_args()
 
 if __name__ == "__main__":
-
-    if args.einfach:
-        quick_analysis.run_quick_analysis()
-
-
-    # meta data for a
-
-
-
-
-
-
-
-
-    
+    app()

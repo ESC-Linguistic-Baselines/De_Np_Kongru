@@ -1,6 +1,6 @@
 import unittest
 
-from dp_np_kongru.utils.readers import read_in_np_file
+from kongru.api_general.universal_functions import read_in_np_file
 
 
 class TestRaders(unittest.TestCase):

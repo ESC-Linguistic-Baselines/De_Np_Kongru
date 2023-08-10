@@ -1,5 +1,5 @@
 import unittest
-from dp_np_kongru.annotator_analyzers.congruency_analyzer import quick_analysis
+from kongru.api_nlp.analyzer_annotator import quick_analysis
 
 
 def Hello():

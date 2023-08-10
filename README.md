@@ -6,7 +6,7 @@
 <br />
 <div align="center">
     <a href="https://github.com/christopher-chandler/De_NP_Kongru">
-     <img src="app_resources/readme_img/logo.png" alt="Logo" width="250" height="80">
+     <img src="app_resources/readme/logo.png" alt="Logo" width="250" height="80">
   </a>
 
 ![Version][Version-shield]  [![MIT License][license-shield]][license-url] ![update][update-shield]
