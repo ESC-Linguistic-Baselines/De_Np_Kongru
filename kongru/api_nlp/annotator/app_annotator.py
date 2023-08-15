@@ -5,28 +5,20 @@
 import typer
 
 # Custom
-# None
+from kongru.api_nlp.annotator.auto_annotation import run_auto_annotation
 
-app = typer.Typer(no_args_is_help=True, name="app", add_completion=False)
-
-
-@app.command()
-def hello():
-    """
-    Hello
-    """
-    # Your code here
-    typer.echo("Hello, Typer!")
+app_typer_annotator = typer.Typer(no_args_is_help=True,
+                                  name="annotator",
+                                  help = "Die annotierten Information anzeigen lassen",
+                                  add_completion=False)
+myfile = "/Users/christopherchandler/repo/Python/computerlinguistik/NP - " \
+         "Computerlinguistik/DE_np_Kongru/user/incoming/ast/test_np_ast.txt"
 
 
-@app.command()
-def goodbye():
-    """
-    Goodbye
-    """
-    # Your code here
-    typer.echo("Hello, Typer!")
+@app_typer_annotator.command()
+def hello(file_name: str = myfile):
+    run_auto_annotation(file_name)
 
 
 if __name__ == "__main__":
-    app()
+    app_typer_annotator()

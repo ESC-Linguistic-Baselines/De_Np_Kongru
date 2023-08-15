@@ -218,10 +218,5 @@ def run_auto_annotation(filename):
     json_format = json.dumps(all_nps_infile)
 
 
-#########################
-# main
-#########################
 if __name__ == "__main__":
-
-    myfile = "/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru/dp_np_kongru/app_resources/corpus/data_nps_extracted/1023_0001416_output_exported_nps.txt"
-    run_auto_annotation(myfile)
+    pass

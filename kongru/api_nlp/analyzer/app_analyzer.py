@@ -10,16 +10,18 @@ from kongru.api_general.universal_functions.general_tools import find_np_morphol
 from kongru.api_nlp.analyzer.np_congruency import determine_congruency
 
 
-from kongru.api_general.universal_functions.readers import (
+from kongru.api_general.universal_functions.basic_readers import (
     read_in_np_file,
     read_morpho_dict,
 )
-from kongru.api_general.universal_functions.savers import save_congruency_results
+from kongru.api_general.universal_functions.basic_savers import save_congruency_results
 
-analyzer_app = typer.Typer(name="analyzer", add_help_option=True, no_args_is_help=True)
+app_typer_analyzer = typer.Typer(name="auswerter",
+                                 help = "Die NP-Eintraege auswerten",
+                                 add_help_option=False, no_args_is_help=True)
 
 
-@analyzer_app.command()
+@app_typer_analyzer.command()
 def run_quick_analysis(
     np_file: str = Gp.NP_FILE.value, morpho_dict_file: str = Gp.DEMORPHY_DICT.value
 ) -> None:
@@ -53,4 +55,4 @@ def run_quick_analysis(
 
 
 if __name__ == "__main__":
-    analyzer_app()
+    app_typer_analyzer()
