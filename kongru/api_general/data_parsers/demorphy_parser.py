@@ -1,5 +1,4 @@
 # Standard
-
 from kongru.api_general.universal_functions.readers import read_in_np_file
 
 # Pip
@@ -178,5 +177,4 @@ class Demorphy:
 
 
 if __name__ == "__main__":
-    np_file = r"/dp_np_kongru/app_resources/data/np_data/test_np_file.csv"
-    np_data = read_in_np_file(np_file)
+    pass

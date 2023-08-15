@@ -72,9 +72,7 @@ def np_congruency(morpho_results, np, np_article, article_codes):
         return np_data
 
 
-def determine_congruency(
-    morpho_results: dict[list, str]
-) :
+def determine_congruency(morpho_results: dict[list, str]):
     """
     Hier soll die einfache Kongruenz der jeweiligen NPs bestimmt werden.
 

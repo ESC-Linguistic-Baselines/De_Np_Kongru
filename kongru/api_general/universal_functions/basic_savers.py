@@ -6,7 +6,7 @@ import csv
 
 # Custom
 from kongru.api_general.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.constants.vars import TIMESTAMP
+from kongru.api_general.constants.general_vars import TIMESTAMP
 
 
 def save_congruency_results(congruency_results: dict) -> None:
@@ -75,7 +75,7 @@ def save_nps(nps_dict):  # [last update: 12.07.2023 - Georg]
                 else:
                     pass
 
-            # e.g.   der Hund (whole NP) + der ART, Hund N (tokens) + nom (required case)
+            # e.g.  der Hund (whole NP) + der ART, Hund N (tokens) + nom (required case)
             result = [" ".join(pure_NP)] + tokens + [case]
 
             csv_writer.writerow([", ".join(result)])

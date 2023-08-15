@@ -1,6 +1,7 @@
 # Standard
 from enum import Enum
 
+
 # Pip
 # None
 
@@ -9,10 +10,17 @@ from enum import Enum
 
 
 class MessageKeys:
-    class Merlin(Enum):
+    """
+    Hier werden die Nachrichten und Meldungen, die vom Programm ausgegeben,
+    zentral gespeichert.
+    """
 
-        # Info
-        INFO_TEXT_OR_META = "Entweder 'text' oder 'meta' als Wert angeben"
+    class Merlin(Enum):
 
         # Fehler
         ERR_MISSING_SEPARATOR = "Das Standardtrennzeichen fehlt in der Datei."
+
+    class General(Enum):
+
+        # Fehler
+        MISSING_HOME_DIR = "Das Hauptverzeichnis wurde nicht richtig angegeben."

@@ -8,6 +8,10 @@ from kongru.api_general.constants.message_keys import MessageKeys as Mk
 
 
 class MerlinError:
+    """
+    Hier werden Fehler angegeben, die beim Merlin Parser auftauchen koennten
+    """
+
     class MissingSeparator(Exception):
         """
         Wenn das Standard Leerzeichen in der Merlin-Datei fehlt,

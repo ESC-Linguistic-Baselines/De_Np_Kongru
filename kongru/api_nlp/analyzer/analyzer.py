@@ -6,7 +6,7 @@ import typer
 
 # Custom
 from kongru.api_general.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.data_parsers.general_tools import find_np_morphology
+from kongru.api_general.universal_functions.general_tools import find_np_morphology
 from kongru.api_nlp.analyzer.np_congruency import determine_congruency
 
 

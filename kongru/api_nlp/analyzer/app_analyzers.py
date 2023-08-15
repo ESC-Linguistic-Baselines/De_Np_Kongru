@@ -5,7 +5,7 @@
 import typer
 
 # Custom
-from quick_analysis import run_quick_analysis
+from kongru.api_nlp.analyzer.quick_analysis import run_quick_analysis
 
 """
 Main Body
