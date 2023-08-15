@@ -74,7 +74,7 @@ def np_congruency(morpho_results, np, np_article, article_codes):
 
 def determine_congruency(
     morpho_results: dict[list, str]
-) -> dict[list, tuple[str | Any, int] | tuple[str, int]]:
+) :
     """
     Hier soll die einfache Kongruenz der jeweiligen NPs bestimmt werden.
 

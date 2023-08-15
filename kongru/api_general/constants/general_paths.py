@@ -6,11 +6,9 @@ from enum import Enum
 # None
 
 # Standard
-# None
+from kongru.api_general.universal_functions.config_parser import get_config_data
 
-os.chdir(
-    "/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru"
-)
+os.chdir(get_config_data().get("HOME"))
 
 
 class GeneralPaths(Enum):
