@@ -32,3 +32,4 @@ class GeneralPaths(Enum):
     NP_FILE = "user/incoming/np/test_np_file.csv"
     DEMORPHY_DICT = "app_resources/data/morpho_dict/test_DE_morph_dict.txt"
     SAVE_DIRECTORY_NP = "user/outgoing/np_analysis_results"
+    MERLIN_DB = r"app_resources/data/corpus/merlin_corpus.db"

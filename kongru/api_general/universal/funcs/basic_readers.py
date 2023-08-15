@@ -31,7 +31,9 @@ def read_in_np_file(file_name: str) -> dict:
     return np_data
 
 
-def read_in_np_file_as_ast(file_name):  # [last update: 12.07.2023 - Georg]
+def read_in_np_file_as_ast(
+    incoming_data, file_entry=False
+):  # [last update: 12.07.2023 - Georg]
     """
     Reading of NPs extracted data files and saving the necessary information for future work.
 
@@ -41,9 +43,12 @@ def read_in_np_file_as_ast(file_name):  # [last update: 12.07.2023 - Georg]
     Returns:
         filtered_np_data(dict): all possible NPs in dictionary and their characterization (POS-tags and required case)
     """
-    file = open(file_name, mode="r", encoding="utf-8", errors="ignore").read()
+    if file_entry:
+        file = open(incoming_data, mode="r", encoding="utf-8", errors="ignore").read()
+        data = file
+    else:
+        data = incoming_data
 
-    data = file
     data = data.replace("\ufeff", "")
 
     new_data = ast.literal_eval(data)

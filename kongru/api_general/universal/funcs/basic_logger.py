@@ -24,8 +24,19 @@ def get_logger() -> logging.Logger:
     logging.basicConfig(
         filename=f"{path_file}/log_{SIMPLE_TIMESTAMP}.log",
         level=logging.ERROR,
-        format="Zeitpunkt: %(asctime)s\nModul: %(module)s\nLogLevel: %(levelname)s\nNachricht: %(message)s\nLinie: %(lineno)d\n\n",
+        format=(
+            "Zeitpunkt: %(asctime)s\n"
+            "Loggername: %(name)s\n"
+            "LogLevel: %(levelname)s\n"
+            "Benutzerdefiniert: %(custom_message)s\n"
+            "Nachricht: %(message)s\n"
+            "Modul: %(module)s\n"
+            "Funktion: %(funcName)s\n"
+            "Linie: %(lineno)d\n"
+            "Dateipfad: %(pathname)s\n"
+        ),
     )
+
     return logging.getLogger()
 
 

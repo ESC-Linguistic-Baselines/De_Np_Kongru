@@ -27,6 +27,9 @@ if __name__ == "__main__":
     try:
         main_typer_app()
     except Exception as e:
-        msg = "Irgendwas ist mit der Hauptapp schiefgelaufen"
+        msg = (
+            "Irgendwas ist mit der Hauptapp schiefgelaufen. "
+            "Bitte in der Log-Datei nachschauen"
+        )
         print(msg)
         print(e)

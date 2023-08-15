@@ -7,8 +7,11 @@ import yaml
 # Custom
 # None
 
+# Hier muss dann den Absolutenpfad festlegen
+yaml_path = "/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru/config.yaml"
 
-def get_config_data(yaml_file: str = "config.yaml") -> dict:
+
+def get_config_data(yaml_file: str = yaml_path) -> dict:
     """
     Liest Konfigurationsdaten aus einer YAML-Datei.
 
