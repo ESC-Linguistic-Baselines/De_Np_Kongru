@@ -5,20 +5,27 @@
 import typer
 
 # Custom
-from kongru.api_general.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.universal_functions.general_tools import find_np_morphology
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.funcs.general_tools import (
+    find_np_morphology,
+)
 from kongru.api_nlp.analyzer.np_congruency import determine_congruency
 
 
-from kongru.api_general.universal_functions.basic_readers import (
+from kongru.api_general.universal.funcs.basic_readers import (
     read_in_np_file,
     read_morpho_dict,
 )
-from kongru.api_general.universal_functions.basic_savers import save_congruency_results
+from kongru.api_general.universal.funcs.basic_savers import (
+    save_congruency_results,
+)
 
-app_typer_analyzer = typer.Typer(name="auswerter",
-                                 help = "Die NP-Eintraege auswerten",
-                                 add_help_option=False, no_args_is_help=True)
+app_typer_analyzer = typer.Typer(
+    name="auswerter",
+    help="Die NP-Eintraege auswerten",
+    add_help_option=False,
+    no_args_is_help=True,
+)
 
 
 @app_typer_analyzer.command()

@@ -1,10 +1,9 @@
 # Standard
-from kongru.api_general.universal_functions.readers import read_in_np_file
 
 # Pip
 
 # Custom
-from kongru.api_general.constants.general_paths import GeneralPaths
+from kongru.api_general.universal.constants.general_paths import GeneralPaths
 
 
 class Demorphy:

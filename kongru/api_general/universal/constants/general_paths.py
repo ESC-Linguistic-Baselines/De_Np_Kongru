@@ -1,15 +1,14 @@
 # Standard
 import os
 from enum import Enum
-import inspect
 
 # Pip
 # None
 
 # Standard
 from config_parser import get_config_data
-from kongru.api_general.universal_functions.basic_logger import get_logger
-from kongru.api_general.constants.message_keys import MessageKeys
+from kongru.api_general.universal.funcs.basic_logger import get_logger
+from kongru.api_general.universal.constants.message_keys import MessageKeys
 
 
 try:

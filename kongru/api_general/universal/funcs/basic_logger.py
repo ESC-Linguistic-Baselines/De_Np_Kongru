@@ -6,7 +6,7 @@ import logging
 
 # Custom
 from config_parser import get_config_data
-from kongru.api_general.constants.general_vars import SIMPLE_TIMESTAMP
+from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
 
 """
 Main Body

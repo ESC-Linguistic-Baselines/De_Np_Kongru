@@ -1,5 +1,4 @@
 # Standard
-import os
 import sqlite3
 import glob
 
@@ -7,8 +6,9 @@ import glob
 # None
 
 # Custom
-from kongru.api_general.constants.error_messages.merlin_error import MerlinError
-from kongru.api_general.constants.message_keys import MessageKeys as Mk
+from kongru.api_general.universal.constants.error_messages.merlin_error import (
+    MerlinError,
+)
 
 
 class MerlinCorpus:

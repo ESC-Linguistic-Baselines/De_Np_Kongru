@@ -5,8 +5,8 @@ import csv
 # None
 
 # Custom
-from kongru.api_general.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.constants.general_vars import TIMESTAMP
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.constants.general_vars import TIMESTAMP
 
 
 def save_congruency_results(congruency_results: dict) -> None:

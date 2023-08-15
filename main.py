@@ -9,10 +9,13 @@ from kongru.api_nlp.analyzer.app_analyzer import app_typer_analyzer
 from kongru.api_nlp.annotator.app_annotator import app_typer_annotator
 from kongru.api_general.data_parsers.app_data_parsers import app_typer_data_parser
 
-main_typer_app = typer.Typer(add_help_option=False,
-                             no_args_is_help=True,
-                             name="DE Np Kongru",
-                             add_completion=False)
+# Haupt-Typer App
+main_typer_app = typer.Typer(
+    add_help_option=False,
+    no_args_is_help=True,
+    name="DE Np Kongru",
+    add_completion=False,
+)
 
 # Die Sub-Typer apps, die hier zusammengefasst werden.
 main_typer_app.add_typer(app_typer_analyzer)

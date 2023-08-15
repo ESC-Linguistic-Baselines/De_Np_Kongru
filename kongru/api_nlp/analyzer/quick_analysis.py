@@ -5,13 +5,15 @@
 # None
 
 # Custom
-from kongru.api_general.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.universal_functions.general_tools import find_np_morphology
-from kongru.api_general.universal_functions.readers import (
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.funcs.general_tools import (
+    find_np_morphology,
+)
+from kongru.api_general.universal.funcs.basic_readers import (
     read_in_np_file,
     read_morpho_dict,
 )
-from kongru.api_general.universal_functions.savers import save_congruency_results
+from kongru.api_general.universal.funcs.basic_savers import save_congruency_results
 from kongru.api_nlp.analyzer.np_congruency import determine_congruency
 
 

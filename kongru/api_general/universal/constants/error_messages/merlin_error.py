@@ -4,7 +4,9 @@
 # None
 
 # Custom
-from kongru.api_general.constants.message_keys import MessageKeys as Mk
+from kongru.api_general.universal_functions.constants.message_keys import (
+    MessageKeys as Mk,
+)
 
 
 class MerlinError:

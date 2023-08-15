@@ -7,10 +7,12 @@ import typer
 # Custom
 # None
 
-app_typer_data_parser = typer.Typer(no_args_is_help=True,
-                                    name="daten_parser",
-                                    help = "Die Datenbaenke und verwalten und durchsuchen",
-                                    add_completion=False)
+app_typer_data_parser = typer.Typer(
+    no_args_is_help=True,
+    name="daten_parser",
+    help="Die Datenbaenke und verwalten und durchsuchen",
+    add_completion=False,
+)
 
 
 @app_typer_data_parser.command()
