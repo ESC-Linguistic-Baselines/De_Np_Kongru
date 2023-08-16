@@ -1,17 +1,14 @@
 # Standard
-# None
+import os
 
 # Pip
 import yaml
 
 # Custom
-# None
-
-# Hier muss dann den Absolutenpfad festlegen
-yaml_path = "/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru/config.yaml"
+from kongru.api_general.universal.funcs.basic_logger import get_logger
 
 
-def get_config_data(yaml_file: str = yaml_path) -> dict:
+def get_config_data(yaml_file: str = "config.yaml") -> dict:
     """
     Liest Konfigurationsdaten aus einer YAML-Datei.
 
@@ -35,6 +32,12 @@ def get_config_data(yaml_file: str = yaml_path) -> dict:
         {'home_directory': '/pfad/zum/home', 'api_key': 'mein_api_schluessel'}
         ```
     """
-    with open(yaml_file) as config_file:
-        yaml_config_file = yaml.safe_load(config_file)
-    return yaml_config_file
+    try:
+        with open(yaml_file) as config_file:
+            yaml_config_file = yaml.safe_load(config_file)
+            return yaml_config_file
+    except Exception as e:
+        logger = get_logger()
+        custom_message = "Es sind Probleme mit der Yaml-Datei aufgetreten."
+        logger.error(e, extra={"custom_message": custom_message})
+

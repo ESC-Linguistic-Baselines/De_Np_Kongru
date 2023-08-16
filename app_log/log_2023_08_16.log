@@ -1,0 +1,20 @@
+ Zeitpunkt: 2023-08-16 06:52:51,587
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Es sind Probleme mit der Yaml-Datei aufgetreten.
+Nachricht: [Errno 2] No such file or directory: '/Users/christopherchandler/repo/Python/computerlinguistik/rNP - Computerlinguistik/DE_np_Kongru/config.yaml'
+Modul: config_parser
+Funktion: get_config_data
+Linie: 46
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru/config_parser.py
+
+Zeitpunkt: 2023-08-16 06:53:40,119
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Es sind Probleme mit der Yaml-Datei aufgetreten.
+Nachricht: [Errno 2] No such file or directory: ' config.yaml'
+Modul: config_parser
+Funktion: get_config_data
+Linie: 45
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru/config_parser.py
+

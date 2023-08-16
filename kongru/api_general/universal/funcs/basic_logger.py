@@ -5,7 +5,6 @@ import logging
 # None
 
 # Custom
-from config_parser import get_config_data
 from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
 
 """
@@ -17,10 +16,15 @@ def get_logger() -> logging.Logger:
     """
     Gibt einen konfigurierten Logger zurück.
 
+    Beispiel:
+    logger = basic_funcs.get_logger()
+    custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
+    logger.error(e, extra={"custom_message": custom_message})
+
     Returns:
         logging.Logger: Ein konfigurierter Logger.
     """
-    path_file = get_config_data().get("LOG_PATH")
+    path_file = "app_log"
     logging.basicConfig(
         filename=f"{path_file}/log_{SIMPLE_TIMESTAMP}.log",
         level=logging.ERROR,
