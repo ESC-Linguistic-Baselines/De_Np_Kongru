@@ -1,5 +1,4 @@
 # Standard
-import logging
 import sqlite3
 import glob
 

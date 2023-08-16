@@ -27,9 +27,7 @@ def hello():
     typer.echo("Hello, Typer!")
 
 
-# Merlin
-
-
+# Merlin Parser
 @app_typer_data_parser.command(
     name="text_eintrag", help="nach einem bestimmten Text suchen"
 )
@@ -38,8 +36,8 @@ def look_up_data_entry(
         "1031_0003130", help="Die Text-Id des gewuenschten Textes angeben"
     )
 ):
-    merlin_corpus = MeCs(text_id=text_id).extract_entry_by_id()
 
+    merlin_corpus = MeCs(text_id=text_id).extract_entry_by_id()
     merlin_corpus.pop("conll")
     for entry in merlin_corpus:
         print(entry, merlin_corpus.get(entry))
