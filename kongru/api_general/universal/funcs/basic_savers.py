@@ -21,7 +21,7 @@ def save_congruency_results(congruency_results: dict) -> None:
         None
     """
     with open(
-        f"{Gp.DIR_SAVE_NP.value}/{TIMESTAMP}_quick_results.csv",
+        f"{Gp.RES_SAVE_NP.value}",
         mode="w",
         encoding="utf-8",
     ) as save:

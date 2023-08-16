@@ -50,7 +50,6 @@ def read_in_np_file_as_ast(
         data = incoming_data
 
     data = data.replace("\ufeff", "")
-
     new_data = ast.literal_eval(data)
 
     c = 0

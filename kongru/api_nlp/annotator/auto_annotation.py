@@ -219,4 +219,6 @@ def run_auto_annotation(filename):
 
 
 if __name__ == "__main__":
-    pass
+    run_auto_annotation(
+        filename="/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru/user/incoming/ast/1023_0001416.txt"
+    )

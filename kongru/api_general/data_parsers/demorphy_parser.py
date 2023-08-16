@@ -6,7 +6,7 @@
 from kongru.api_general.universal.constants.general_paths import GeneralPaths
 
 
-class Demorphy:
+class DemorphyParser:
     """ """
 
     def __init__(
@@ -33,26 +33,19 @@ class Demorphy:
                            'Hund' : 'Hund NN,masc,acc,sing ... Hund NNP,noGender,acc,sing'}
         """
 
-        morph_dict = {}
+        demorphy_dict_data = {}
 
-        with open(self.demorphy_dict, "r") as file:
-            lines = file.readlines()
-            key = ""
-            value = ""
-            for line in lines:
-                line = line.strip()
-                if line.isalpha():
-                    if key:
-                        morph_dict[key] = value.strip()
-                    key = line
-                    value = ""
+        with open(self.demorphy_dict, mode="r", encoding="utf-8") as out_going:
+            data = out_going.readlines()
+            for row in data:
+                row_data = row.strip().split(" ")
+                if len(row_data) == 1:
+                    key = row.strip()
+                    demorphy_dict_data[key] = []
                 else:
-                    value += line + "\n"
-            # Save the last key-value pair
-            if key:
-                morph_dict[key] = value.strip()
+                    demorphy_dict_data[key].append(row.strip())
 
-        return morph_dict
+        return demorphy_dict_data
 
     def find_raw_np_morphology(self) -> dict:
         """

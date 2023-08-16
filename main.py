@@ -5,7 +5,9 @@
 import typer
 
 # Custom
-from kongru.api_nlp.analyzer.app_analyzer import app_typer_analyzer
+from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
+    app_typer_congruential_analysis,
+)
 from kongru.api_nlp.annotator.app_annotator import app_typer_annotator
 from kongru.api_general.data_parsers.app_data_parsers import app_typer_data_parser
 
@@ -18,7 +20,7 @@ main_typer_app = typer.Typer(
 )
 
 # Die Sub-Typer apps, die hier zusammengefasst werden.
-main_typer_app.add_typer(app_typer_analyzer)
+main_typer_app.add_typer(app_typer_congruential_analysis)
 main_typer_app.add_typer(app_typer_annotator)
 main_typer_app.add_typer(app_typer_data_parser)
 
