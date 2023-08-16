@@ -11,7 +11,7 @@ class Demorphy:
 
     def __init__(
         self,
-        demorphy_dict: str = GeneralPaths.DEMORPHY_DICT.value,
+        demorphy_dict: str = GeneralPaths.DB_DEMORPHY_TXT.value,
         np_data: dict[str, tuple] = "",
     ):
         self.demorphy_dict = demorphy_dict

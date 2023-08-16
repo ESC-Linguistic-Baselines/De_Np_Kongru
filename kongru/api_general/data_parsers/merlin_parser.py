@@ -57,7 +57,7 @@ class MerlinCorpus:
         self,
         file_name: str = "",
         text_id: str = "1031_0003130",
-        merlin_corpus_db=Gp.MERLIN_DB.value,
+        merlin_corpus_db=Gp.DB_MERLIN_SQL_DB.value,
         extract_np_data_dir="",
         conll_dir="",
     ):

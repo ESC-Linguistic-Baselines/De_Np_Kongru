@@ -9,7 +9,6 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 from kongru.api_general.universal.funcs.general_tools import (
     find_np_morphology,
 )
-from kongru.api_nlp.analyzer.np_congruency import determine_congruency
 
 
 from kongru.api_general.universal.funcs.basic_readers import (
@@ -30,7 +29,8 @@ app_typer_analyzer = typer.Typer(
 
 @app_typer_analyzer.command()
 def run_quick_analysis(
-    np_file: str = Gp.NP_FILE.value, morpho_dict_file: str = Gp.DEMORPHY_DICT.value
+    np_file: str = Gp.TEST_NP_FILE.value,
+    morpho_dict_file: str = Gp.DB_DEMORPHY_TXT.value,
 ) -> None:
     """
 
