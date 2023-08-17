@@ -20,8 +20,7 @@ class GeneralPaths(Enum):
     # Verzeichnisse
     DIR_LOG = "app_log"
     DIR_MAIN = (
-        "/Users/christopherchandler/repo/Python/computerlinguistik/NP "
-        "- Computerlinguistik/DE_np_Kongru"
+        "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru"
     )
 
     # Testdateien
