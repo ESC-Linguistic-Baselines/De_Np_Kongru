@@ -13,7 +13,6 @@ class SuffixAnalyzer(object):
     endings.
     """
 
-
     VERB_END = OrderedDict(
         [
             ("test", ["V,2per,sing,past,ind", "V,2per,sing,past,subj"]),
@@ -89,8 +88,7 @@ class SuffixAnalyzer(object):
                     "ADJ,comp,<adv>",
                 ],
             ),
-            ("tes", ["ADJ,neut,sing,nom,pos,strong",
-                     "ADJ,neut,sing,acc,pos,strong"]),
+            ("tes", ["ADJ,neut,sing,nom,pos,strong", "ADJ,neut,sing,acc,pos,strong"]),
             (
                 "te",
                 [
@@ -152,10 +150,10 @@ class SuffixAnalyzer(object):
         ]
     )
 
-    def __int__(self, word: str):
+    def __init__(self, word: str):
         self.word = word
 
-    def guess_word_by_suffix(self) -> None or list:
+    def guess_word_by_suffix(self ) -> None or list:
         """
         Args:
         Returns:
@@ -167,6 +165,7 @@ class SuffixAnalyzer(object):
             ["ADJ,pos,<pred>", "ADJ,pos,<adv>", "V,ppres"]
         """
         word = self.word
+
         if word.startswith("ge"):
             for (suff, paradigm_list) in SuffixAnalyzer.VERB_GE.items():
                 if word.endswith(suff):

@@ -9,7 +9,11 @@ import re
 
 
 class TokenAnalyzer:
-    def tokenize(single_sentence):
+    def __init__(self, sentence, token):
+        self.sentence = sentence
+        self. token = token
+
+    def tokenize_sentence(self) -> list:
         """
         Split text from whitespaces not to ruin named entities, urls, e-mail adresses and abbreviations.
         Don't split from hypen or @ for above reason
@@ -28,10 +32,14 @@ class TokenAnalyzer:
                  tokenize(u"Ich ggf. möchte")
             [u'Ich', u'ggf.', u'möchte.']
         """
+        single_sentence = self.sentence
+        results = filter(
+            None, re.split(r"[?!,;\s]+", single_sentence, flags=re.UNICODE)
+        )
 
-        return filter(None, re.split(r"[?!,;\s]+", single_sentence, flags=re.UNICODE))
+        return list(results)
 
-    def is_punkt(token):
+    def has_period(self) -> bool:
         """
         Return if token consists of only punctuation and whitespace
         Args:
@@ -52,9 +60,10 @@ class TokenAnalyzer:
         """
         # punkt = string.punctuation
         punkt = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+        token = self.token
         return all(letter in punkt or letter.isspace() for letter in token)
 
-    def is_email(token):
+    def is_email(self) -> bool:
         """
         Return True for e-mails. Very rough, some other words for instance duygu@SonyCenter return True as well.
         However, most probably one doesn't want to process that token types anyway.
@@ -74,9 +83,9 @@ class TokenAnalyzer:
                  is_email("applepie")
             False
         """
-        return "@" in token
+        return "@" in self.token
 
-    def is_url(token):
+    def is_url(self) ->bool:
         """
         Return True for url strings.
         Args:
@@ -95,6 +104,7 @@ class TokenAnalyzer:
                  is_url("2.3.1987")
             False
         """
+        token = self.token
         regex_url = r"((www\d{0,3}[.]|https?://|redir\.aspx\?|[%a-z0-9.\-]+[.][a-z]{2,4}/)([^\s()<>\[\]]+))"
         if any(sw in token for sw in ["www.", "http", ".com", ".org", ".de"]):
             return True
@@ -102,11 +112,11 @@ class TokenAnalyzer:
             return True
         return False
 
-    def contains_num(token):
+    def has_numbers(self) -> bool:
         """
         Return True for
         - Dates: 21.01.2011
-        - Probably egzotic entities: B2B, sum41
+        - Probably exotic entities: B2B, sum41
         - Skype names: duygu621
         Args:
             token: single token
@@ -120,25 +130,12 @@ class TokenAnalyzer:
                  contains_num("2.2017")
             True
         """
+        token = self.token
         nums = "0123456789"
         return any(num in token for num in nums)
 
-    # Regex comes from "Dive into Python" book.
-    roman_num_regex = re.compile(
-        """
-        M{0,4}              # thousands - 0 to 4 M's
-        (CM|CD|D?C{0,3})    # hundreds - 900 (CM), 400 (CD), 0-300 (0 to 3 C's),
-                            #            or 500-800 (D, followed by 0 to 3 C's)
-        (XC|XL|L?X{0,3})    # tens - 90 (XC), 40 (XL), 0-30 (0 to 3 X's),
-                            #        or 50-80 (L, followed by 0 to 3 X's)
-        (IX|IV|V?I{0,3})    # ones - 9 (IX), 4 (IV), 0-3 (0 to 3 I's),
-                            #        or 5-8 (V, followed by 0 to 3 I's)
-        $                   # end of string
-    """,
-        re.VERBOSE | re.IGNORECASE,
-    )
 
-    def is_roman_number(token):
+    def is_roman_number(self)-> bool:
         """
         Return True if token is a Roman ordinal number
         Args:
@@ -159,17 +156,32 @@ class TokenAnalyzer:
                  is_roman_number('duygu')
             False
         """
+        # Regex comes from "Dive into Python" book.
+        roman_num_regex = re.compile(
+            """
+            M{0,4}              # thousands - 0 to 4 M's
+            (CM|CD|D?C{0,3})    # hundreds - 900 (CM), 400 (CD), 0-300 (0 to 3 C's),
+                                #            or 500-800 (D, followed by 0 to 3 C's)
+            (XC|XL|L?X{0,3})    # tens - 90 (XC), 40 (XL), 0-30 (0 to 3 X's),
+                                #        or 50-80 (L, followed by 0 to 3 X's)
+            (IX|IV|V?I{0,3})    # ones - 9 (IX), 4 (IV), 0-3 (0 to 3 I's),
+                                #        or 5-8 (V, followed by 0 to 3 I's)
+            $                   # end of string
+        """,
+            re.VERBOSE | re.IGNORECASE,
+        )
+        token = self.token
         if not token:
             return False
         return token.roman_num_regex.match(token) is not None
 
-    def is_egzotic_entity(token):
+    def is_unorthodox_spelling(self):
         """
         Return True if token looks like
         Skype id duygu.altin
         Twitter hashtag #direnduygu
         Initials:  W., D.A.
-        other egzotic tokens such v.2.1.
+        other exotic tokens such v.2.1.
         Dates such as 2.12.2015 go here as well
         Camel cases are usually not part of language's lexicon and usually an entity e.g. IoT, eGov
         Args:
@@ -179,6 +191,7 @@ class TokenAnalyzer:
         Raises:
             None
         """
+        token = self.token
         if any(t in token for t in [".", "!", "#", "&"]):
             return True
         # Camel case words
@@ -186,7 +199,7 @@ class TokenAnalyzer:
             return True
         return False
 
-    def is_abbrev(token):
+    def is_abbrev(self):
         """
         Return if given token is an abbreviation
         Tokens with . in them returns True
@@ -198,11 +211,12 @@ class TokenAnalyzer:
         Raises:
             None
         """
+        token = self.token
         if "." in token:
             return True
         return token.looks_like_abbrev(token)
 
-    def looks_like_abbrev(token):
+    def looks_like_abbrev(self):
         """
         Return if token looks like an abbrev
         Tokens that are longer than 3 characters returns False.
@@ -215,6 +229,7 @@ class TokenAnalyzer:
         Raises:
             None
         """
+        token = self.token
         vowels = "aeiouäöü"
         # too long to be abbrev
         if len(token) > 3:
@@ -224,7 +239,6 @@ class TokenAnalyzer:
         # all consonant words like lcd, ggf
         if not any(x for x in vowels if x in token):
             return True
-        # TODO check word's ending floows German trigrams or not, get perplexity from a char level LM
         return False
 
 
