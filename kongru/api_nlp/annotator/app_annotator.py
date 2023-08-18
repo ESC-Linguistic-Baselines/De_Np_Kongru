@@ -5,7 +5,7 @@
 import typer
 
 # Custom
-from kongru.api_nlp.annotator.auto_annotation import run_auto_annotation
+from kongru.api_nlp.annotator.auto_annotation_handler import AutoAnnotation
 
 app_typer_annotator = typer.Typer(
     no_args_is_help=True,
@@ -21,7 +21,7 @@ myfile = (
 
 @app_typer_annotator.command()
 def hello(file_name: str = myfile):
-    run_auto_annotation(file_name)
+    AutoAnnotation(file_name).run_auto_annotation()
 
 
 if __name__ == "__main__":
