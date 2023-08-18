@@ -52,9 +52,8 @@ class NpFileHandler:
                     c += 1
                     np_value = []
                     for token in raw[6]:
-                        print(token)
-                        if token[3] in allowed_pos:
 
+                        if token[3] in allowed_pos:
                             if token[3] == "PREP":
                                 token_data = (
                                     token[1],
@@ -63,7 +62,6 @@ class NpFileHandler:
                                 )  # case, 'PREP'-tag)
 
                                 np_value.append(token_data)
-
                                 np_data[c] = np_value
                             else:
                                 token_data = (
@@ -74,8 +72,11 @@ class NpFileHandler:
                                 )  # (word form, POS-tag)
 
                                 np_value.append(token_data)
+                                if isinstance(np_value, list):
+                                    d = [item[0] for item in np_value]
+                                    true_np = " ".join(d)
 
-                                np_data[c] = np_value,raw[3]
+                                np_data[c] = [true_np, np_value,raw[3]]
 
 
         return np_data
@@ -101,14 +102,14 @@ class NpFileHandler:
             csv_writer = csv.writer(save)
             result_set = list()
             for key, values in nps_dict.items():
-                if isinstance(values[0], list):
-                    res = [' '.join(tups) for tups in values[0]]
 
-                    if not (res in result_set):
-                        result_set.append(res)
-                        res.append(values[-1])
-                        print(res)
-                        csv_writer.writerow(res)
+                if isinstance(values[1], list):
+                    res = [' '.join(tups) for tups in values[1]]
+
+                    result_set.append(res)
+                    res.append(values[-1])
+                    res.insert(0,values[0])
+                    csv_writer.writerow(res)
 
         return None
 

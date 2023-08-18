@@ -69,24 +69,22 @@ class DemorphyParser:
         number = "Pl", "Sg"
         article = "Def", "Indef"
 
-
         with open(file_name, mode="r", encoding="utf-8") as file:
             csv_reader = csv.reader(file)
 
             for line in csv_reader:
 
-                line = line[:-1]
-
                 np_id_number += 1
                 np_info = line[0].split(",")
-
                 full_np = np_info[0]
 
                 # Die internen NPS durch numerieren und splitten
                 internal_np = dict ()
                 data_count = 0
-                for data in np_info[1:]:
+                np_info = line[1:-1]
 
+                for data in np_info:
+                    print(data)
                     data_count+=1
                     if data_count == len(np_info):
                         # Das letzte Element koennte eine Praeposition sein.
@@ -123,6 +121,3 @@ class DemorphyParser:
 
 if __name__ == "__main__":
     res = DemorphyParser().get_read_in_np_file()
-
-    for row in res:
-        print(row)
