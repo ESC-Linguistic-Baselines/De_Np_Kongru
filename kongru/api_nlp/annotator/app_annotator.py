@@ -5,7 +5,7 @@
 import typer
 
 # Custom
-from kongru.api_nlp.annotator.auto_annotation_handler import AutoAnnotation
+from kongru.api_nlp.annotator.handlers.auto_annotation_handler import AutoAnnotation
 
 app_typer_annotator = typer.Typer(
     no_args_is_help=True,
