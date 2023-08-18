@@ -4,6 +4,7 @@
 # Pip
 import typer
 
+from deprecate.basic_savers import save_congruency_results
 # Custom
 
 # api_general
@@ -12,25 +13,18 @@ import typer
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 # parsers
-from kongru.api_general.data_parsers.demorphy_parser import DemorphyParser
+# None
 
 # funcs
-from kongru.api_general.universal.funcs.general_tools import find_np_morphology
 
-from kongru.api_general.universal.funcs.basic_readers import (
-    read_in_np_file,
-    read_morpho_dict,
-)
-from kongru.api_general.universal.funcs.basic_savers import (
-    save_congruency_results,
-)
 from kongru.api_general.universal.funcs.basic_logger import get_logger
+from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
+    DemorphyAnalyzer,
+)
 
 # api_nlp
-from kongru.api_nlp.congruential_analysis.congruency.np_congru_runner import (
-    run_congruency_checker,
-)
 
+from kongru.api_nlp.congruential_analysis.congruency.np_congruency import NpCongruency
 
 app_typer_congruential_analysis = typer.Typer(
     name="kongruenzanalyse",
@@ -41,12 +35,8 @@ app_typer_congruential_analysis = typer.Typer(
 
 
 @app_typer_congruential_analysis.command()
-def run_simple_analysis(
-    np_file: str = Gp.TEST_NP_FILE.value,
-    morpho_dict_file: str = Gp.DB_DEMORPHY_TXT.value,
-) -> None:
+def run_simple_analysis() -> None:
     """
-
     :param
         np_file:
         morpho_dict_file:
@@ -54,16 +44,12 @@ def run_simple_analysis(
         None
     """
     try:
-        demorphy_parser = DemorphyParser()
+        demorphy = DemorphyAnalyzer(word="")
+
         # Die einzulesenden Dateien
-        np_data = read_in_np_file(np_file)
+        morpho_results = demorphy.find_raw_np_morphology()
+        np_congruency = NpCongruency(morpho_results=morpho_results).check_congruency()
 
-        morpho_dict_data = read_morpho_dict(morpho_dict_file, use_pickle_file=True)
-
-        # NP tokenisieren und Kongruenz bestimmen
-        tok_morph_np = find_np_morphology(morph_dict=morpho_dict_data, np_data=np_data)
-        np_congruency = run_congruency_checker(tok_morph_np)
-        print(np_congruency)
         # Ergebnisse speichern
         save_congruency_results(np_congruency)
         print("Ergebnisse wurden gespeichert.")
@@ -72,6 +58,8 @@ def run_simple_analysis(
         logger = get_logger()
         custom_message = "Die Analyse konnte nicht durchgefuehrt werden."
         logger.error(e, extra={"custom_message": custom_message})
+        typer.echo(custom_message)
+        typer.echo(e)
 
 
 if __name__ == "__main__":

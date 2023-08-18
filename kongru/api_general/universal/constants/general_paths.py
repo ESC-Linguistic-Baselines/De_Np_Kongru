@@ -25,7 +25,9 @@ class GeneralPaths(Enum):
     TEST_NP_FILE = "user/outgoing/np/test_np_file.csv"
 
     # Datenbank
-    DB_DEMORPHY_TXT = "app_resources/data/morpho_dict/demorpy_dict.txt"
+    DB_DEMORPHY_TXT = "app_resources/data/morpho_dict/demorphy_dict.txt"
+    DB_DEMORPHY_TXT_TEST = "app_resources/data/morpho_dict/test_demorphy_dict.txt"
+
     DB_MERLIN_SQL_DB = r"app_resources/data/corpus/merlin_corpus.db"
 
     # Ergebnissdateien

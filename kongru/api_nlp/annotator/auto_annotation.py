@@ -12,8 +12,10 @@ import ast
 Function to build basic frame for a new NP.
 Return:
 1. np_dict (dict) : basic dictionary frame
-
 """
+
+
+
 
 
 def build_np_dict():
@@ -220,5 +222,6 @@ def run_auto_annotation(filename):
 
 if __name__ == "__main__":
     run_auto_annotation(
-        filename="/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/DE_np_Kongru/user/incoming/ast/1023_0001416.txt"
+        filename="/Users/christopherchandler/repo/Python/computerlinguistik/NP - "
+                 "Computerlinguistik/DE_np_Kongru/user/incoming/ast/1023_0001416.txt"
     )

@@ -11,7 +11,7 @@ import re
 class TokenAnalyzer:
     def __init__(self, sentence, token):
         self.sentence = sentence
-        self. token = token
+        self.token = token
 
     def tokenize_sentence(self) -> list:
         """
@@ -85,7 +85,7 @@ class TokenAnalyzer:
         """
         return "@" in self.token
 
-    def is_url(self) ->bool:
+    def is_url(self) -> bool:
         """
         Return True for url strings.
         Args:
@@ -134,8 +134,7 @@ class TokenAnalyzer:
         nums = "0123456789"
         return any(num in token for num in nums)
 
-
-    def is_roman_number(self)-> bool:
+    def is_roman_number(self) -> bool:
         """
         Return True if token is a Roman ordinal number
         Args:

@@ -14,7 +14,7 @@ class NpFileHandler:
         self.file_name = file_name
         self.save_name = save_name
 
-    def __get_ast_data(self, file_entry=True):
+    def __get_ast_data(self, file_entry=True) -> list:
         if file_entry:
             file = open(
                 self.file_name, mode="r", encoding="utf-8", errors="ignore"
@@ -131,4 +131,5 @@ class NpFileHandler:
 
 
 if __name__ == "__main__":
-    pass
+    res = NpFileHandler("/Users/christopherchandler/repo/Python/"
+                        "De_NP_Kongru/user/incoming/ast/1023_0001416.txt").save_nps()
