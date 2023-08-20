@@ -7,7 +7,7 @@ import sqlite3
 
 # Custom
 from kongru.api_general.universal.constants.error_messages.merlin_error import (
-    MerlinError
+    MerlinError,
 )
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.funcs import basic_logger

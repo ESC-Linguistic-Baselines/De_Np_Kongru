@@ -3,13 +3,13 @@ import ast
 import json
 
 # Pip
-# None 
+# None
 
-# Custom 
+# Custom
+
 
 class AutoAnnotation:
-
-    def __init__(self, file_name:str ):
+    def __init__(self, file_name: str):
         self.file_name = file_name
 
     def __build_np_dict(self):
@@ -149,8 +149,8 @@ class AutoAnnotation:
                 # agreement check; possibly extend to tuple/list for
                 # multiple possible inflection options (ambiguous forms)
                 if (
-                        relx_dict["target_case"]["requires_case"]
-                        == relx_dict["target_case"]["found_case"]
+                    relx_dict["target_case"]["requires_case"]
+                    == relx_dict["target_case"]["found_case"]
                 ):
                     relx_dict["target_case"]["agrees?"] = 1
 
@@ -163,7 +163,7 @@ class AutoAnnotation:
 
         # read output file
         with open(
-                self.file_name, mode="r", encoding="utf-8-sig"
+            self.file_name, mode="r", encoding="utf-8-sig"
         ) as f:  # utf-8-sig to avoid BOM error
             text = ast.literal_eval(
                 f.read().strip()
@@ -209,6 +209,8 @@ class AutoAnnotation:
         json_format = json.dumps(all_nps_infile)
 
 
-if __name__ == '__main__':
-    file = AutoAnnotation(file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/incoming/ast/1023_0001416.txt")
+if __name__ == "__main__":
+    file = AutoAnnotation(
+        file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/incoming/ast/1023_0001416.txt"
+    )
     print(file.run_auto_annotation())

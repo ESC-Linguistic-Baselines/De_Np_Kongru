@@ -16,10 +16,14 @@ app_typer_annotator = typer.Typer(
 myfile = "user/incoming/ast/1023_0001416.txt"
 
 
-@app_typer_annotator.command(name="ast-datei-lesen",
-                             help="Eine bestimmte Ast-Datei inspezieren")
-def view_ast_file(file_name: str = typer.Argument(default=myfile,
-                                                  help="Der Name der Ast-Datei, die ausgelesen werden soll.")):
+@app_typer_annotator.command(
+    name="ast-datei-lesen", help="Eine bestimmte Ast-Datei inspezieren"
+)
+def view_ast_file(
+    file_name: str = typer.Argument(
+        default=myfile, help="Der Name der Ast-Datei, die ausgelesen werden soll."
+    )
+):
     AutoAnnotation(file_name).run_auto_annotation()
 
 

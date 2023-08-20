@@ -9,8 +9,7 @@
 
 
 class NpCongruency:
-
-    def  __init__(self, morpho_results):
+    def __init__(self, morpho_results):
         self.morpho_results = morpho_results
         self.np_article = {
             "masc": ["der", "den", "dem", "des"],
@@ -18,14 +17,13 @@ class NpCongruency:
             "neut": ["das", "das", "dem", "des"],
             "plural": ["die", "die", "den", "der"],
         }
-        self.article_codes  = {0: "nom", 1: "acc", 2: "dat", 3: "gen"}
-
+        self.article_codes = {0: "nom", 1: "acc", 2: "dat", 3: "gen"}
 
     def __simple_congruency(self, mo, np):
 
         try:
-            morpho_results=mo
-            article_codes=self.article_codes
+            morpho_results = mo
+            article_codes = self.article_codes
             np_article = self.np_article
 
             case = morpho_results.get("case").strip()
@@ -68,8 +66,11 @@ class NpCongruency:
             else:
                 check_adjective = True
 
-            checks = {"ADJ": check_adjective, "gender": check_gender,
-                      "case": check_case}
+            checks = {
+                "ADJ": check_adjective,
+                "gender": check_gender,
+                "case": check_case,
+            }
 
             correct_checks = 0
 
