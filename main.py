@@ -31,7 +31,7 @@ if __name__ == "__main__":
     except Exception as e:
         msg = (
             "Irgendwas ist mit der Hauptapp schiefgelaufen. "
-            "Bitte in der Log-Datei nachschauen"
+            "Bitte in der Log-Datei nachschauen."
         )
         print(msg)
         print(e)

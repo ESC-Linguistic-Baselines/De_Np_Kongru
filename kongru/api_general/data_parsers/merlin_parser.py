@@ -1,17 +1,16 @@
 # Standard
-import sqlite3
 import glob
+import sqlite3
 
 # Pip
 # None
 
 # Custom
 from kongru.api_general.universal.constants.error_messages.merlin_error import (
-    MerlinError,
+    MerlinError
 )
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
-
-import kongru.api_general.universal.funcs as basic_funcs
+from kongru.api_general.universal.funcs import basic_logger
 
 
 class MerlinCorpus:
@@ -300,7 +299,7 @@ class MerlinCorpus:
 
             return result
         except TypeError as e:
-            logger = basic_funcs.get_logger()
+            logger = basic_logger.get_logger()
             custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
             logger.error(e, extra={"custom_message": custom_message})
 

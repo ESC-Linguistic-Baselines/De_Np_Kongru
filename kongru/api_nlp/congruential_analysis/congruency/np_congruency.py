@@ -7,9 +7,7 @@
 # Custom
 # None
 
-"""
-Main Body
-"""
+
 class NpCongruency:
 
     def  __init__(self, morpho_results):
