@@ -4,8 +4,7 @@
 # Pip
 import typer
 
-from deprecate.basic_savers import save_congruency_results
-
+from kongru.api_general.data_parsers.demorphy_parser import DemorphyParser
 # Custom
 
 # api_general
@@ -23,6 +22,8 @@ from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
     DemorphyAnalyzer,
 )
 
+from deprecate.basic_savers import save_congruency_results
+
 # api_nlp
 
 from kongru.api_nlp.congruential_analysis.congruency.np_congruency import NpCongruency
@@ -36,24 +37,33 @@ app_typer_congruential_analysis = typer.Typer(
 
 
 @app_typer_congruential_analysis.command()
-def run_simple_analysis() -> None:
+def run_analysis(file_name: str = typer.Argument(default="/Users/christopherchandler/"
+                                                         "repo/Python/De_NP_Kongru/user/"
+                                                         "outgoing/np/test_np_file.csv"),
+        save_results: bool = typer.Argument(default=True,
+                                                     help="Ergebnisse speichern")
+                 ) -> None:
     """
-    :param
-        np_file:
-        morpho_dict_file:
-    :return
-        None
+
     """
     try:
-        demorphy = DemorphyAnalyzer(word="")
-
         # Die einzulesenden Dateien
+        demorphy = DemorphyAnalyzer()
+        demorphy.file_name = file_name
+
+        # Morphologische Ergebnisse
         morpho_results = demorphy.find_raw_np_morphology()
-        np_congruency = NpCongruency(morpho_results=morpho_results).check_congruency()
+
+        # Kongruenz bestimmen
+        np_congruency = NpCongruency(morpho_results=morpho_results)
+        check_congruency = np_congruency.check_congruency()
 
         # Ergebnisse speichern
-        save_congruency_results(np_congruency)
-        print("Ergebnisse wurden gespeichert.")
+        if save_results:
+            np_congruency.save_congruency_results(check_congruency)
+            typer.echo("Ergebnisse wurden gespeichert.")
+        else:
+            typer.echo(np_congruency)
 
     except Exception as e:
         logger = get_logger()

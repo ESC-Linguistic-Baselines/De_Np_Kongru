@@ -18,8 +18,9 @@ from kongru.api_nlp.universals.tagset import ParsedResult
 
 
 class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
-    def __init__(self, word):
-        super().__init__()
+    def __init__(self, word="", file_name = ""):
+        super().__init__(file_name=file_name)
+
         self.word = word
 
     def analyze_by_suffix(self):
@@ -38,7 +39,7 @@ class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
              {'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'neut'}]
         """
 
-        lemma, para_list = SuffixAnalyzer(word=self.word).guess_word_by_suffix()
+        lemma, para_list = SuffixAnalyzer(init_word=self.word).guess_word_by_suffix()
         return [
             ParsedResult(paradigm_str, lemma, guesser=True)
             for paradigm_str in para_list
@@ -169,5 +170,10 @@ class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
 
 
 if __name__ == "__main__":
-    res = DemorphyAnalyzer(word="gegangen")
-    print(res.filter_np_morphology())
+    file_name = "/Users/christopherchandler/repo/Python/De_NP_Kongru" \
+                "/user/outgoing/np/nps_2023_08_18.csv"
+    res = DemorphyAnalyzer(file_name=file_name)
+
+    res = res.get_read_in_np_file()
+    print(res)
+

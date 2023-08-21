@@ -150,8 +150,8 @@ class SuffixAnalyzer(object):
         ]
     )
 
-    def __init__(self, word: str):
-        self.word = word
+    def __init__(self, init_word: str):
+        super().__init__(word=init_word)
 
     def guess_word_by_suffix(self) -> None or list:
         """

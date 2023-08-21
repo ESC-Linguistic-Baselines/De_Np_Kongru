@@ -1,5 +1,5 @@
 # Standard
-# None
+import csv
 
 # Pip
 # None
@@ -128,6 +128,37 @@ class NpCongruency:
                 congruency_results[np] = result
 
         return congruency_results
+
+
+    @staticmethod
+    def save_congruency_results(congruency_results: dict) -> None:
+        """
+        Die Ergebnisse der Auswertung speichern.
+
+        Args:
+            congruency_results(dict)
+             Die Auswertung der Kongruenz der NPs
+
+        Returns:
+            None
+        """
+        with open(
+            f"{Gp.RES_SAVE_NP.value}",
+            mode="w",
+            encoding="utf-8",
+        ) as save:
+            csv_writer = csv.writer(save, delimiter=",")
+
+            for np in congruency_results:
+                case = congruency_results.get(np)[-2]
+                demorphy = congruency_results.get(np)[:-2]
+                congruency = congruency_results.get(np)[-1]
+
+                results = (np, case, demorphy, congruency)
+
+                csv_writer.writerow(results)
+
+        return None
 
 
 if __name__ == "__main__":

@@ -13,7 +13,8 @@ class DemorphyParser:
     def __init__(
         self,
         demorphy_dict: str = GeneralPaths.DB_DEMORPHY_TXT_TEST.value,
-        file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/outgoing/np/test_np_file.csv",
+        file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/"
+                  "outgoing/np/nps_2023_08_21.csv",
     ):
         self.demorphy_dict = demorphy_dict
         self.file_name = file_name
@@ -60,51 +61,68 @@ class DemorphyParser:
               extrahiert wurden
         """
         file_name = self.file_name
-        np_id = 0
+        np_id_number = 0
         np_data = {}
+
+        case = "Acc", "Dat", "Nom", "Gen"
+        gender = "Fem", "Neut", "Masc"
+        number = "Pl", "Sg"
+        article = "Def", "Indef"
+
+
         with open(file_name, mode="r", encoding="utf-8") as file:
-            for line in file:
-                np_id += 1
-                line = line.strip().split(",")
+            csv_reader = csv.reader(file)
 
-                dict_key = line[0]
-                np_info = line[1:]
+            for line in csv_reader:
 
-                key = f"{np_id}_{dict_key}"
-                np_data[key] = dict_key, np_info
+                line = line[:-1]
+
+                np_id_number += 1
+                np_info = line[0].split(",")
+
+                full_np = np_info[0]
+
+                # Die internen NPS durch numerieren und splitten
+                internal_np = dict ()
+                data_count = 0
+                for data in np_info[1:]:
+
+                    data_count+=1
+                    if data_count == len(np_info):
+                        # Das letzte Element koennte eine Praeposition sein.
+                        internal_np["PREP"] = data
+                    else:
+                        if data != " _":
+                            congruency_info = data.split(" ")[-2].split("|")
+                            congru = dict()
+                            congru["unk"] = []
+
+                            for info in congruency_info:
+
+                                if info in number:
+                                    congru["numerus"] = info
+                                elif info in gender:
+                                    congru["genus"]=info
+                                elif info  in case:
+                                    congru["kasus"] =info
+                                elif info in article:
+                                    congru["def"] =info
+                                else:
+                                    congru["unk"].append(info)
+
+                            internal_np[data_count] = {"noun":data.split(" ")[1],
+                                                       "noun_info":congru}
+
+                key = f"{np_id_number}_{full_np}"
+                # Die dicts zusaemmenfuehren, damit alle Informationen zusammen
+                # gespeichert werden.
+                np_data[key] = {"full_np":full_np}|internal_np
 
         return np_data
-
-    def save_congruency_results(congruency_results: dict) -> None:
-        """
-        Die Ergebnisse der Auswertung speichern.
-
-        Args:
-            congruency_results(dict)
-             Die Auswertung der Kongruenz der NPs
-
-        Returns:
-            None
-        """
-        with open(
-            f"{Gp.RES_SAVE_NP.value}",
-            mode="w",
-            encoding="utf-8",
-        ) as save:
-            csv_writer = csv.writer(save, delimiter=",")
-
-            for np in congruency_results:
-                case = congruency_results.get(np)[-2]
-                demorphy = congruency_results.get(np)[:-2]
-                congruency = congruency_results.get(np)[-1]
-
-                results = (np, case, demorphy, congruency)
-
-                csv_writer.writerow(results)
-
-        return None
 
 
 if __name__ == "__main__":
     res = DemorphyParser().get_read_in_np_file()
-    print(res)
+
+    for row in res:
+        print(row)

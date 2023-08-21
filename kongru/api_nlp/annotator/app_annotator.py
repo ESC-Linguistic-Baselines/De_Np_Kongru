@@ -15,7 +15,6 @@ app_typer_annotator = typer.Typer(
 )
 myfile = "user/incoming/ast/1023_0001416.txt"
 
-
 @app_typer_annotator.command(
     name="ast-datei-lesen", help="Eine bestimmte Ast-Datei inspezieren"
 )

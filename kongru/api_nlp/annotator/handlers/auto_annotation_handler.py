@@ -202,7 +202,7 @@ class AutoAnnotation:
                 all_nps_infile.append(sent_nps)
 
         #### example output for nps in sentence ##########
-        for x in all_nps_infile[5]:
+        for x in all_nps_infile:
             print(x, "\n")
 
         # json convert
