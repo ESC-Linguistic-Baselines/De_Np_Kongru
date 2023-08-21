@@ -73,48 +73,49 @@ class DemorphyParser:
             csv_reader = csv.reader(file)
 
             for line in csv_reader:
+                # Die internen NPS durch numerieren und splitten
+                internal_np = dict()
 
                 np_id_number += 1
-                np_info = line[0].split(",")
-                full_np = np_info[0]
-
-                # Die internen NPS durch numerieren und splitten
-                internal_np = dict ()
                 data_count = 0
-                np_info = line[1:-1]
 
-                for data in np_info:
-                    print(data)
-                    data_count+=1
-                    if data_count == len(np_info):
-                        # Das letzte Element koennte eine Praeposition sein.
-                        internal_np["PREP"] = data
-                    else:
-                        if data != " _":
-                            congruency_info = data.split(" ")[-2].split("|")
-                            congru = dict()
-                            congru["unk"] = []
+                basic_np = line[0]
+                np_morpho_info = line[1:-1]
+                sentence = line[-1]
 
-                            for info in congruency_info:
 
-                                if info in number:
-                                    congru["numerus"] = info
-                                elif info in gender:
-                                    congru["genus"]=info
-                                elif info  in case:
-                                    congru["kasus"] =info
-                                elif info in article:
-                                    congru["def"] =info
-                                else:
-                                    congru["unk"].append(info)
+                for entry in np_morpho_info:
+                    data_count += 1
 
-                            internal_np[data_count] = {"noun":data.split(" ")[1],
-                                                       "noun_info":congru}
+                    np_morpho_entry_data = entry.split()
+                    np, pos, morpho_info = np_morpho_entry_data
+                    congruency_info = morpho_info.split("|")
 
-                key = f"{np_id_number}_{full_np}"
+                    congru = dict()
+                    congru["unk"] = []
+
+                    for info in congruency_info:
+
+                        if info in number:
+                            congru["numerus"] = info
+                        elif info in gender:
+                            congru["genus"]=info
+                        elif info  in case:
+                            congru["kasus"] =info
+                        elif info in article:
+                            congru["def"] =info
+                        else:
+                            congru["unk"].append(info)
+
+                    internal_np[data_count] = {"noun":np,
+                                               "noun_info":congru
+                                                }
+
+                key = f"{np_id_number}_{basic_np}"
+
                 # Die dicts zusaemmenfuehren, damit alle Informationen zusammen
                 # gespeichert werden.
-                np_data[key] = {"full_np":full_np}|internal_np
+                np_data[key] = {"full_np":basic_np,"sentence":sentence}|internal_np
 
         return np_data
 
