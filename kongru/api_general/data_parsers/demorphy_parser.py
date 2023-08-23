@@ -1,25 +1,28 @@
 # Standard
 import csv
+import pickle
 
 # Pip
+# None
 
 # Custom
-from kongru.api_general.universal.constants.general_paths import GeneralPaths
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 
 class DemorphyParser:
-    """ """
+    """
+    """
 
     def __init__(
         self,
-        demorphy_dict: str = GeneralPaths.DB_DEMORPHY_TXT_TEST.value,
+        demorphy_dict: str = Gp.DB_DEMORPHY_TXT.value,
         file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/"
                   "outgoing/np/nps_2023_08_21.csv",
     ):
         self.demorphy_dict = demorphy_dict
         self.file_name = file_name
 
-    def get_read_in_demorphy_dict(self):
+    def get_read_in_demorphy_dict(self,read_in_pickle_dict: bool  = True):
         """
         Reading the morphological dictionary.
 
@@ -35,19 +38,26 @@ class DemorphyParser:
                            'Hund' : 'Hund NN,masc,acc,sing ... Hund NNP,noGender,acc,sing'}
         """
 
-        demorphy_dict_data = {}
+        if read_in_pickle_dict is False:
+            demorphy_dict_data = {}
 
-        with open(self.demorphy_dict, mode="r", encoding="utf-8") as out_going:
-            data = out_going.readlines()
-            for row in data:
-                row_data = row.strip().split(" ")
-                if len(row_data) == 1:
-                    key = row.strip()
-                    demorphy_dict_data[key] = []
-                else:
-                    demorphy_dict_data[key].append(row.strip())
+            with open(self.demorphy_dict, mode="r", encoding="utf-8") as out_going:
+                data = out_going.readlines()
+                for row in data:
+                    row_data = row.strip().split(" ")
+                    if len(row_data) == 1:
+                        key = row.strip()
+                        demorphy_dict_data[key] = []
+                    else:
+                        demorphy_dict_data[key].append(row.strip())
 
-        return demorphy_dict_data
+            return demorphy_dict_data
+
+        else:
+            with open(Gp.DB_DEMORTHY_PKL.value, "rb") as pickle_file:
+                data = pickle.load(pickle_file)
+                return data
+
 
     def get_read_in_np_file(self) -> dict:
         """
@@ -107,7 +117,9 @@ class DemorphyParser:
                         else:
                             congru["unk"].append(info)
 
+
                     internal_np[data_count] = {"noun":np,
+                                               "pos":pos,
                                                "noun_info":congru
                                                 }
 
@@ -118,7 +130,6 @@ class DemorphyParser:
                 np_data[key] = {"full_np":basic_np,"sentence":sentence}|internal_np
 
         return np_data
-
 
 if __name__ == "__main__":
     res = DemorphyParser().get_read_in_np_file()

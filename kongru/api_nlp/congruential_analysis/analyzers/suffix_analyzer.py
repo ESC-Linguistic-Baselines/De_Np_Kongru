@@ -3,12 +3,13 @@
 from __future__ import absolute_import, unicode_literals
 
 from collections import OrderedDict
+from kongru.api_nlp.universals.tagset import ParsedResult
 
 
 class SuffixAnalyzer(object):
     """
     Class for heuristically finding morphological paradigm of a given word,
-    provided it's "verb-looking"
+    provided it's "verb-looking".
     Includes common endings for verbs and methods for analyzing words by
     endings.
     """
@@ -150,10 +151,16 @@ class SuffixAnalyzer(object):
         ]
     )
 
-    def __init__(self, init_word: str):
-        super().__init__(word=init_word)
+    NOUN_NOM_END = OrderedDict( [
+        ("er", ["test", "e"])
+                                 ]
+    )
 
-    def guess_word_by_suffix(self) -> None or list:
+
+    def __init__(self):
+        pass
+
+    def guess_word_by_suffix(self, word) -> None or list:
         """
         Args:
         Returns:
@@ -164,7 +171,6 @@ class SuffixAnalyzer(object):
            SuffixAnalyzer.guess_word_by_suffix(u"grepend")
             ["ADJ,pos,<pred>", "ADJ,pos,<adv>", "V,ppres"]
         """
-        word = self.word
 
         if word.startswith("ge"):
             for (suff, paradigm_list) in SuffixAnalyzer.VERB_GE.items():
@@ -182,4 +188,38 @@ class SuffixAnalyzer(object):
                 lemma = word[: -len(suff)] + "en"
                 return lemma, paradigm_list
 
+        for (suff, paradigm_list) in SuffixAnalyzer.NOUN_NOM_END.items():
+            if word.endswith(suff):
+                lemma = word[: -len(suff)]
+                return lemma, paradigm_list
+
         return None, []
+
+
+    def __analyze_by_suffix(self, word):
+
+        """
+        Analyze word by its ending
+        Args:
+            surface_form: Surface form, just as in lexicon googliert
+        Returns:
+            list of ParsedResult objects
+        Raises:
+            None
+        Examples:
+             analyzer.analyze_by_suffix(u"googlendem")
+            [{'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'masc'},
+             {'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'neut'}]
+        """
+
+        lemma, para_list = self.guess_word_by_suffix(word)
+
+        return [
+            ParsedResult(paradigm_str, lemma, guesser=True)
+            for paradigm_str in para_list
+
+        ]
+
+
+if __name__ == "__main__":
+    pass

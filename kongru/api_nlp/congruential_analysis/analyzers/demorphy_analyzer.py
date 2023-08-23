@@ -23,28 +23,6 @@ class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
 
         self.word = word
 
-    def analyze_by_suffix(self):
-
-        """
-        Analyze word by its ending
-        Args:
-            surface_form: Surface form, just as in lexicon googliert
-        Returns:
-            list of ParsedResult objects
-        Raises:
-            None
-        Examples:
-             analyzer.analyze_by_suffix(u"googlendem")
-            [{'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'masc'},
-             {'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'neut'}]
-        """
-
-        lemma, para_list = SuffixAnalyzer(init_word=self.word).guess_word_by_suffix()
-        return [
-            ParsedResult(paradigm_str, lemma, guesser=True)
-            for paradigm_str in para_list
-        ]
-
     def find_raw_np_morphology(self) -> dict:
         """
         Find all tokens from NP in the dictionary.
@@ -73,107 +51,31 @@ class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
                            ['Hund NN', 'masc', 'nom', 'sing'],
                            ['Hund NNP', 'noGender', 'acc', 'sing']]}
         """
+        np_morph = dict()
 
-        np_morph = {}
-        values_list = []
         np_data = self.get_read_in_np_file()
         morph_dict = self.get_read_in_demorphy_dict()
-        c = 0
+
 
         for key in np_data:
+            full_np = np_data.get(key).get("full_np")
+            tokens = full_np.split(" ")
 
-            np, data = np_data.get(key)
-            np_info, case = data[:-1], data[-1]
-            np_morph[np] = dict()
-            np_split = np.split(" ")
+            np_morph[key] = list()
 
-            for tok in np_split:
-                c += 1
+            for t in tokens:
+                np_morph[key].append((t, morph_dict.get(t)))
 
-                if tok in morph_dict:
-                    np_morph[np][tok] = list()
-
-                    lines = morph_dict[tok]
-
-                    for line in lines:
-                        line = line.strip()
-                        if line:
-                            values_list.append(line.split(","))
-                        np_morph[np][tok] = values_list
-                    values_list = list()
-
-                np_morph[np]["case"] = case
-                np_morph[np]["np_data"] = data
-
-        return np_morph
-
-    def filter_np_morphology(self) -> dict:
-        """
-        Filter morphological information of each token.
-        The following information stays: [POS, gender, case, number].
-        The allowed POS are selected by the user.
-        Coincidences are also excluded from the final lists.
-
-        Args:
-            np_morph (dict): raw possible morphological characteristic of each token from NP
-
-        Returns:
-            np_morph_filtered (dict): POS, gender, case and number only (coincidences are also excluded):
-            e.g.
-            np_morph_filtered = {['kleine': [['noGender', 'nom', 'plu'],
-                                ['neut', 'acc', 'sing'],
-                                ['fem', 'nom', 'sing'],
-                                ['noGender', 'acc', 'plu'],
-                                ['neut', 'nom', 'sing'],
-                                ['fem', 'acc', 'sing'],
-                                ['masc', 'nom', 'sing']],
-                                ...,
-                                'Hund': [['masc', 'acc', 'sing'],
-                                ['noGender', 'dat', 'sing'],
-                                ['masc', 'dat', 'sing'],
-                                ['noGender', 'nom', 'sing'],
-                                ['masc', 'nom', 'sing'],
-                                ['noGender', 'acc', 'sing']]}
-        """
-
-        gender = ["masc", "fem", "neut"]  # +'noGender' - ?
-        case = ["nom", "acc", "dat", "gen"]
-        number = ["sing", "plu"]
-
-        allowed_pos = ["ART", "ADJ", "DEMO", "POS", "NN", "NP", "NE"]
-
-        np_morph = self.get_read_in_demorphy_dict()
-
-        np_morph_filtered = {}
-        for token, values_list in np_morph.items():
-
-            unique_values = []
-
-            for values in values_list:
-                # POS filter
-
-                if values[0].split(",")[1] in allowed_pos:
-                    pos = values[0].split(",")[1]
-                    # gender/case/number filter
-                    filtered_values = [pos] + [
-                        v for v in values if v in gender or v in case or v in number
-                    ]
-                    # "lower than 3 attributes" and uniqueness filters
-                    if (
-                        len(filtered_values) >= 4
-                        and filtered_values not in unique_values
-                    ):
-                        unique_values.append(filtered_values)
-            np_morph_filtered[token] = unique_values
-
-        return np_morph_filtered
+        return {"np_data":np_data,
+                "np_morph":np_morph}
 
 
 if __name__ == "__main__":
-    file_name = "/Users/christopherchandler/repo/Python/De_NP_Kongru" \
-                "/user/outgoing/np/nps_2023_08_18.csv"
+    file_name = "/Users/christopherchandler/repo/Python/De_NP_Kongru/user/outgoing/np/nps_2023_08_21.csv"
     res = DemorphyAnalyzer(file_name=file_name)
 
-    res = res.get_read_in_np_file()
-    print(res)
+
+
+
+
 

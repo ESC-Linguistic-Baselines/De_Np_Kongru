@@ -1,12 +1,15 @@
 # Standard
 import csv
 
+import typer
+
 # Pip
 # None
 
 # Custom
-# None
-
+from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import DemorphyAnalyzer
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.funcs.basic_logger import get_logger
 
 class NpCongruency:
     def __init__(self, morpho_results):
@@ -19,128 +22,117 @@ class NpCongruency:
         }
         self.article_codes = {0: "nom", 1: "acc", 2: "dat", 3: "gen"}
 
-    def __simple_congruency(self, mo, np):
+
+    def art_def_nominal_phrase(self, extracted_info, sentence, vocabulary, np_demorphy):
+
+        # Nominal
+        w = vocabulary[1]
+        res =  DemorphyAnalyzer().guess_word_by_suffix(w)
+
+        _, np_genus, np_kasus, np_numerus, = extracted_info
+
+        demorphy_check = 0
+
+        for demoprhy_enty in np_demorphy[1][1]:
+            demoprhy_enty = demoprhy_enty.replace(" ", ",")
+            entry = demoprhy_enty.split(",")
+
+            noun_demorph, pos_demorph, genus_demorph, kasus_demorph, numerus_demorph = entry
+            numerus_demorph = numerus_demorph.replace("plu", "pl")
+
+            np_morph = (np_genus,np_kasus, np_numerus)
+            np_demorph = (genus_demorph,kasus_demorph,numerus_demorph)
+
+            np_morph = [i.lower() for i in np_morph]
+            np_demorph = [i.lower() for i in np_demorph]
+            demorphy_check = np_morph==np_demorph
+            if demorphy_check:
+                break
+
+        print(vocabulary, extracted_info)
+
+        pass
+
+
+    def nominal_congruency_check(self, np_info: dict, np_demorphy:list ):
 
         try:
-            morpho_results = mo
-            article_codes = self.article_codes
-            np_article = self.np_article
+            full_np = np_info.get("full_np")
+            sentence = np_info.get("sentence")
+            vocabulary = full_np.split(" ")
 
-            case = morpho_results.get("case").strip()
-            np_data = morpho_results.get("np_data")
-            tagged_data = dict()
+            # Np info aufstellen
+            np_morphological_info = list(np_info.values())
+            complete_noun_info = []
+            np_type = []
 
-            for row in np_data:
-                # Leerzeilen nicht beachten
-                split_data = [data for data in row.split(" ") if data]
+            # Die noetigen NP-information extrahieren
+            for row in np_morphological_info:
 
-                if len(split_data) == 2:
-                    word, tag = split_data
-                    tagged_data[tag] = word
+                # Es gibt einzelne Strings, die ignoriert werden sollen.
+                if isinstance(row, dict):
+                    noun_info = row.get("noun_info")
+                    noun = row.get("noun")
+                    pos = row.get("pos")
 
-            # DET and ADJ
-            head = tagged_data.get("NN")
-            article = tagged_data.get("DET", "ART")
-            adj = tagged_data.get("ADJ")
-            gender = morpho_results.get(head)[0][1]
-            gender_code = np_article.get(gender).index(article)
-            check_gender = bool(np_article.get(gender)[gender_code])
+                    # Die Informationen, die sich in dem NP-Eintrag befinden koennen
+                    word_info = ['def','genus', 'kasus', 'numerus']
+                    extracted_info = [noun_info.get(morpo_info,"_") for morpo_info in word_info]
+                    combined_extracted_info = "|".join(extracted_info)
+                    complete_noun_info.append(" ".join([noun,pos, combined_extracted_info]))
 
-            # Genus und Kasus
-            # Nom und Akk sind gleich, deswegen wird der Zeiger verschoben
-            if gender == "fem" or "neut":
-                check_case = article_codes.get(gender_code)
-                if not check_case:
-                    move = 1
-                    check_case = article_codes.get(gender_code + move) == case
-            else:
-                check_case = article_codes.get(gender_code) == case
+                    # Unvollstaendige NPs werden nicht beruecksichtigt.
+                    if full_np in sentence:
+                        if pos == "ART":
+                            np_type.append("ART")
 
-            check_adjective = False
 
-            if adj:
-                for row in morpho_results.get(adj):
 
-                    if gender in row and case in row:
-                        check_adjective = True
-            else:
-                check_adjective = True
 
-            checks = {
-                "ADJ": check_adjective,
-                "gender": check_gender,
-                "case": check_case,
-            }
+            congruency = "UNK"
+            combined_complete_noun_info = ",".join(complete_noun_info)
+            extracted_np_info = [congruency, full_np, combined_complete_noun_info , sentence]
 
-            correct_checks = 0
+            congruency_type_check = {"ART":self.art_def_nominal_phrase}
 
-            for check in checks:
-                value = checks.get(check)
-                if value:
-                    correct_checks += 1
+            congruency_result = congruency_type_check.get("ART")(
+                extracted_info, sentence, vocabulary, np_demorphy)
+            print(congruency_result)
 
-            if correct_checks == len(checks):
-                np_data.append(1)
-                return np_data
-            else:
-                np_data.append(0)
-                return np_data
+
+            return extracted_np_info
 
         except Exception as e:
-            np_data.append(99)
-            return np_data
+            logger =  get_logger()
+            custom_message = "___"
+            logger.error(e, extra={"custom_message": custom_message})
+            typer.echo(e)
 
-    def check_congruency(self):
-        """
-        Hier soll die einfache Kongruenz der jeweiligen NPs bestimmt werden.
-
-        Args:
-            morpho_results (dict[str,dict]): Die Saetze mit deren zugehoerigen
-              morphologische Information.
-
-            z.B.
-            {'Der kleiner Hund': {'Der': 'ART,M,SING,NOM',
-            'kleiner': 'ADJ,M',
-            'Hund': 'NOUN,M,SING,NOM'},
-          'Das kleiner Hund': {'Das': 'ART,N,SING,NOM',
-            'kleiner': 'ADJ,M',
-            'Hund': 'NOUN,M,SING,NOM'}}
-
-        Returns:
-            congruency_reslts(dict[list, tuple[str | Any, int] | tuple[str, int]):
-        Die Auswertung der Kongruenz der NPs
+    def run_congruency_check(self):
         """
 
+        """
         morpho_results = self.morpho_results
+        np_data, np_morph = morpho_results.get("np_data"), \
+            morpho_results.get("np_morph")
 
         congruency_results = dict()
 
-        # nom, akk, dativ, gentiv
+        for np in np_data:
 
-        for np in morpho_results:
-
-            # Die NP wird nur analysiert, wenn die NP-Konstinuente in Demorphy
-            # vorkommen.
-            np_info = morpho_results.get(np)
+            np_info = np_data.get(np)
+            np_demorphy = np_morph.get(np)
 
             if np_info:
-                result = self.__simple_congruency(np_info, np)
-                congruency_results[np] = result
+                self.nominal_congruency_check(np_info=np_info,
+                                                      np_demorphy=np_demorphy)
 
-        return congruency_results
+        return {"":""}
 
 
-    @staticmethod
-    def save_congruency_results(congruency_results: dict) -> None:
+    def save_congruency_results(self) -> None:
         """
-        Die Ergebnisse der Auswertung speichern.
 
-        Args:
-            congruency_results(dict)
-             Die Auswertung der Kongruenz der NPs
-
-        Returns:
-            None
         """
         with open(
             f"{Gp.RES_SAVE_NP.value}",
@@ -149,14 +141,10 @@ class NpCongruency:
         ) as save:
             csv_writer = csv.writer(save, delimiter=",")
 
-            for np in congruency_results:
-                case = congruency_results.get(np)[-2]
-                demorphy = congruency_results.get(np)[:-2]
-                congruency = congruency_results.get(np)[-1]
-
-                results = (np, case, demorphy, congruency)
-
-                csv_writer.writerow(results)
+            congruency_results = self.run_congruency_check()
+            for row in congruency_results:
+                join = congruency_results.get(row)
+                csv_writer.writerow(join)
 
         return None
 
