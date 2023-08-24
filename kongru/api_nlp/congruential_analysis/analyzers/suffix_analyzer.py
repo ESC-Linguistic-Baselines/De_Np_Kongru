@@ -151,8 +151,15 @@ class SuffixAnalyzer(object):
         ]
     )
 
+    #
     NOUN_NOM_END = OrderedDict( [
-        ("er", ["test", "e"])
+        ("er", ["neut/masc, gen, sg/pl",
+                "neut/masc, acc, sg/pl",
+                "neut/masc, nom, sg/pl"],
+         ),
+        ("ern", ["neut/masc, gen, sg/pl"])
+
+
                                  ]
     )
 
@@ -160,7 +167,7 @@ class SuffixAnalyzer(object):
     def __init__(self):
         pass
 
-    def guess_word_by_suffix(self, word) -> None or list:
+    def guess_verb_by_suffix(self, word) -> None or list:
         """
         Args:
         Returns:
@@ -188,13 +195,18 @@ class SuffixAnalyzer(object):
                 lemma = word[: -len(suff)] + "en"
                 return lemma, paradigm_list
 
+        return None, []
+
+
+    def guess_noun_by_suffix(self, word ):
+
+        # nom
         for (suff, paradigm_list) in SuffixAnalyzer.NOUN_NOM_END.items():
             if word.endswith(suff):
                 lemma = word[: -len(suff)]
                 return lemma, paradigm_list
 
         return None, []
-
 
     def __analyze_by_suffix(self, word):
 
@@ -212,7 +224,7 @@ class SuffixAnalyzer(object):
              {'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'neut'}]
         """
 
-        lemma, para_list = self.guess_word_by_suffix(word)
+        lemma, para_list = self.guess_verb_by_suffix(word)
 
         return [
             ParsedResult(paradigm_str, lemma, guesser=True)

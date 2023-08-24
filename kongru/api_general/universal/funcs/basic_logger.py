@@ -1,38 +1,35 @@
-# Standard
+# Standardbibliothek
 import logging
+import traceback
 
-# Pip
-# None
+# Externe Bibliothek
+import typer
 
-# Custom
+# Eigene Module
 from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
-
-"""
-Main Body
-"""
-
 
 def get_logger() -> logging.Logger:
     """
     Gibt einen konfigurierten Logger zurück.
 
     Beispiel:
-    logger = basic_funcs.get_logger()
+    logger = get_logger()
     custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
     logger.error(e, extra={"custom_message": custom_message})
 
     Returns:
         logging.Logger: Ein konfigurierter Logger.
     """
-    path_file = "app_log"
+    log_datei = "app_log"
     logging.basicConfig(
-        filename=f"{path_file}/log_{SIMPLE_TIMESTAMP}.log",
+        filename=f"{log_datei}/log_{SIMPLE_TIMESTAMP}.log",
         level=logging.ERROR,
         format=(
             "Zeitpunkt: %(asctime)s\n"
             "Loggername: %(name)s\n"
             "LogLevel: %(levelname)s\n"
             "Benutzerdefiniert: %(custom_message)s\n"
+            "Traceback: %(traceback)s\n"
             "Nachricht: %(message)s\n"
             "Modul: %(module)s\n"
             "Funktion: %(funcName)s\n"
@@ -43,6 +40,25 @@ def get_logger() -> logging.Logger:
 
     return logging.getLogger()
 
+def set_up_logger(error: str, custom_message: str) -> None:
+    """
+    Einrichten des Loggers und protokollieren einer Fehlermeldung.
+
+    Args:
+        error (str): Die Fehlermeldung.
+        custom_message (str): Eine benutzerdefinierte Nachricht.
+
+    Returns:
+        None
+    """
+    logger = get_logger()
+    traceback_str = traceback.format_exc()
+    typer.echo(error)
+    typer.echo(custom_message)
+    typer.echo(traceback_str)
+
+    logger.error(error, extra={"custom_message": custom_message,
+                               "traceback": traceback_str})
 
 if __name__ == "__main__":
     pass

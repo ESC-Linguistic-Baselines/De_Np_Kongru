@@ -1,5 +1,7 @@
 # Standard
 import csv
+import types
+import traceback
 
 import typer
 
@@ -8,30 +10,28 @@ import typer
 
 # Custom
 from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import DemorphyAnalyzer
+from kongru.api_nlp.congruential_analysis.analyzers.common_entity_recognition import (
+    CommonEntityRecognition as Cer)
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.universal.funcs.basic_logger import get_logger
+from kongru.api_general.universal.funcs.basic_logger import get_logger, set_up_logger
+
 
 class NpCongruency:
-    def __init__(self, morpho_results):
+    def __init__(self, morpho_results, save_file_name = ""):
         self.morpho_results = morpho_results
-        self.np_article = {
-            "masc": ["der", "den", "dem", "des"],
-            "fem": ["die", "die", "der", "der"],
-            "neut": ["das", "das", "dem", "des"],
-            "plural": ["die", "die", "den", "der"],
-        }
-        self.article_codes = {0: "nom", 1: "acc", 2: "dat", 3: "gen"}
+        self.save_file_name = save_file_name
 
 
     def art_def_nominal_phrase(self, extracted_info, sentence, vocabulary, np_demorphy):
 
         # Nominal
-        w = vocabulary[1]
-        res =  DemorphyAnalyzer().guess_word_by_suffix(w)
+        head = vocabulary[-1]
+        res =  DemorphyAnalyzer().guess_noun_by_suffix(head)
 
         _, np_genus, np_kasus, np_numerus, = extracted_info
 
         demorphy_check = 0
+
 
         for demoprhy_enty in np_demorphy[1][1]:
             demoprhy_enty = demoprhy_enty.replace(" ", ",")
@@ -46,15 +46,23 @@ class NpCongruency:
             np_morph = [i.lower() for i in np_morph]
             np_demorph = [i.lower() for i in np_demorph]
             demorphy_check = np_morph==np_demorph
+
             if demorphy_check:
                 break
 
-        print(vocabulary, extracted_info)
+        # Exisitiert das Wort in dem Woerterbuch
+        demorphy_dict = DemorphyAnalyzer().get_read_in_demorphy_dict(True)
+        word = demorphy_dict.get(res[0])
+
+        if demorphy_check and bool(word):
+            return "1"
+        else:
+            return "0"
 
         pass
 
 
-    def nominal_congruency_check(self, np_info: dict, np_demorphy:list ):
+    def  nominal_congruency_check(self, np_info: dict, np_demorphy:list ):
 
         try:
             full_np = np_info.get("full_np")
@@ -63,8 +71,9 @@ class NpCongruency:
 
             # Np info aufstellen
             np_morphological_info = list(np_info.values())
+
             complete_noun_info = []
-            np_type = []
+            np_type = dict()
 
             # Die noetigen NP-information extrahieren
             for row in np_morphological_info:
@@ -81,32 +90,58 @@ class NpCongruency:
                     combined_extracted_info = "|".join(extracted_info)
                     complete_noun_info.append(" ".join([noun,pos, combined_extracted_info]))
 
-                    # Unvollstaendige NPs werden nicht beruecksichtigt.
+                    # Die Np-Analyse type bestimmen
                     if full_np in sentence:
-                        if pos == "ART":
-                            np_type.append("ART")
+                        # NPs die mit Artikeln anfangen
+                        if np_info.get(1).get("pos") == "ART":
+
+                            np_type["TYPE"] = {
+                                "ART":True
+                            }
+                            break
+                        else:
+
+                            np_type["TYPE"] = "99"
+                            break
+
+                    else:
+                        np_type["TYPE"] = "99"
 
 
-
-
-            congruency = "UNK"
             combined_complete_noun_info = ",".join(complete_noun_info)
-            extracted_np_info = [congruency, full_np, combined_complete_noun_info , sentence]
+            congurency_type = np_type.get("TYPE")
 
-            congruency_type_check = {"ART":self.art_def_nominal_phrase}
+            if congurency_type == "99":
+                extracted_np_info = [congurency_type, full_np,
+                                     # morphologische info nach Komma splliten
+                                     # dann entpacken, damit alles in einer Liste ist.
+                                     *combined_complete_noun_info.split(","),
+                                     sentence]
 
-            congruency_result = congruency_type_check.get("ART")(
-                extracted_info, sentence, vocabulary, np_demorphy)
-            print(congruency_result)
+                return extracted_np_info
 
+            if congurency_type.get("ART",False) is True:
+                congruency_result = self.art_def_nominal_phrase(
+                    extracted_info, sentence, vocabulary, np_demorphy)
 
-            return extracted_np_info
+                # Die NP-Kongruenz-Information, die in einem
+                extracted_np_info = [congruency_result, full_np,
+                                     # morphologische info nach Komma splliten
+                                     # dann entpacken, damit alles in einer Liste ist.
+                                     *combined_complete_noun_info.split(",") ,
+                                     sentence]
+
+                return extracted_np_info
+
 
         except Exception as e:
             logger =  get_logger()
             custom_message = "___"
+            traceback_str = traceback.format_exc()
             logger.error(e, extra={"custom_message": custom_message})
             typer.echo(e)
+            traceback.print_exc()
+
 
     def run_congruency_check(self):
         """
@@ -124,18 +159,24 @@ class NpCongruency:
             np_demorphy = np_morph.get(np)
 
             if np_info:
-                self.nominal_congruency_check(np_info=np_info,
+                result = self.nominal_congruency_check(np_info=np_info,
                                                       np_demorphy=np_demorphy)
 
-        return {"":""}
+                if result is None:
+                    result = "99"
+
+                congruency_results[np]=result
+
+        return congruency_results
 
 
     def save_congruency_results(self) -> None:
         """
 
         """
+
         with open(
-            f"{Gp.RES_SAVE_NP.value}",
+            f"{Gp.RES_SAVE_NP.value}_{self.save_file_name}",
             mode="w",
             encoding="utf-8",
         ) as save:
@@ -143,11 +184,15 @@ class NpCongruency:
 
             congruency_results = self.run_congruency_check()
             for row in congruency_results:
-                join = congruency_results.get(row)
-                csv_writer.writerow(join)
+                try:
+                    res = congruency_results.get(row)
+                    csv_writer.writerow(res)
+
+                except Exception as e:
+                    set_up_logger(error=e,
+                                  custom_message=f"{row} konnte nicht gespeichert werden")
 
         return None
-
 
 if __name__ == "__main__":
     pass

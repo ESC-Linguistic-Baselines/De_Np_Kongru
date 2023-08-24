@@ -34,7 +34,7 @@ class GeneralPaths(Enum):
     # Ergebnissdateien
     RES_AST_NP_FILE = f"user/outgoing/np/nps_{SIMPLE_TIMESTAMP}.csv"
     RES_SAVE_NP = (
-        f"user/outgoing/np_analysis_results/quick_results_{SIMPLE_TIMESTAMP}.csv"
+        f"user/outgoing/np_analysis_results/{SIMPLE_TIMESTAMP}"
     )
 
 

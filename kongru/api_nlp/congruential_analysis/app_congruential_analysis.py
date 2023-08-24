@@ -35,7 +35,7 @@ app_typer_congruential_analysis = typer.Typer(
 
 
 @app_typer_congruential_analysis.command()
-def run_analysis(file_name: str = typer.Argument(default="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/outgoing/np/test.csv"),
+def run_analysis(file_name: str = typer.Argument(default="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/outgoing/np/np_test_1023_0001416.csv"),
         save_results: bool = typer.Argument(default=True,
                                                      help="Ergebnisse speichern")
                  ) -> None:
@@ -51,7 +51,8 @@ def run_analysis(file_name: str = typer.Argument(default="/Users/christopherchan
     morpho_results = demorphy.find_raw_np_morphology()
 
     # Kongruenz bestimmen
-    np_congruency = NpCongruency(morpho_results=morpho_results)
+    np_congruency = NpCongruency(morpho_results=morpho_results,
+                                 save_file_name= "np_test_1023_0001416.csv")
 
     # Ergebnisse speichern
     if save_results:
