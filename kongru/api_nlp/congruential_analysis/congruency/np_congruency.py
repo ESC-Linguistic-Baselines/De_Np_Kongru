@@ -14,30 +14,35 @@ from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 # api_nlp
 from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
-    DemorphyAnalyzer)
+    DemorphyAnalyzer,
+)
 from kongru.api_nlp.congruential_analysis.analyzers.common_entity_recognition import (
-    CommonEntityRecognition as Cer)
+    CommonEntityRecognition as Cer,
+)
+
 
 class NominalPhraseCongruency:
-    """
+    """ """
 
-    """
-    def __init__(self, morpho_results, save_file_name = ""):
+    def __init__(self, morpho_results, save_file_name=""):
         self.morpho_results = morpho_results
         self.save_file_name = save_file_name
-
 
     def prepositional_nominal_phrase(self):
         pass
 
-    def art_def_nominal_phrase(self, extracted_info, sentence,
-                               vocabulary, np_demorphy):
+    def art_def_nominal_phrase(self, extracted_info, sentence, vocabulary, np_demorphy):
 
         # Nominal
         head = vocabulary[-1]
-        res =  DemorphyAnalyzer().guess_noun_by_suffix(head)
+        res = DemorphyAnalyzer().guess_noun_by_suffix(head)
 
-        _, np_genus, np_kasus, np_numerus, = extracted_info
+        (
+            _,
+            np_genus,
+            np_kasus,
+            np_numerus,
+        ) = extracted_info
 
         demorphy_check = 0
 
@@ -45,18 +50,23 @@ class NominalPhraseCongruency:
             demoprhy_enty = demoprhy_enty.replace(" ", ",")
             entry = demoprhy_enty.split(",")
 
-            noun_demorph, pos_demorph, genus_demorph, kasus_demorph, numerus_demorph = entry
+            (
+                noun_demorph,
+                pos_demorph,
+                genus_demorph,
+                kasus_demorph,
+                numerus_demorph,
+            ) = entry
             numerus_demorph = numerus_demorph.replace("plu", "pl")
-            numerus_demorph = numerus_demorph.replace("sing","sg")
+            numerus_demorph = numerus_demorph.replace("sing", "sg")
 
-            np_morph = (np_genus,np_kasus, np_numerus)
-            np_demorph = (genus_demorph,kasus_demorph,numerus_demorph)
+            np_morph = (np_genus, np_kasus, np_numerus)
+            np_demorph = (genus_demorph, kasus_demorph, numerus_demorph)
 
             np_morph = [i.lower() for i in np_morph]
             np_demorph = [i.lower() for i in np_demorph]
 
-
-            demorphy_check = np_morph==np_demorph
+            demorphy_check = np_morph == np_demorph
 
             if demorphy_check:
                 break
@@ -70,7 +80,7 @@ class NominalPhraseCongruency:
         else:
             return "0"
 
-    def nominal_phrase_spelling(self,vocabulary_np, demorphy_dict):
+    def nominal_phrase_spelling(self, vocabulary_np, demorphy_dict):
 
         all_words_spelled_correctly = []
         for word in vocabulary_np:
@@ -81,8 +91,9 @@ class NominalPhraseCongruency:
                 all_words_spelled_correctly.append(True)
         return all(all_words_spelled_correctly)
 
-    def  nominal_congruency_check(self, np_info: dict, np_demorphy:list,
-                                  demorphy_dict: dict):
+    def nominal_congruency_check(
+        self, np_info: dict, np_demorphy: list, demorphy_dict: dict
+    ):
 
         try:
             # Die Informationen aus den entsprechenden Dictionaries extrahieren
@@ -93,11 +104,11 @@ class NominalPhraseCongruency:
             # Die morphologischen Information der einzelnen Woertern extrahieren
             vocabulary_morphological_info = list(np_info.values())
 
-            '''            
+            """            
             Die morphologischen Informationen werden aus den jeweilien Nps extrahiert
             und hier gespeichert, damit sie nachher in der Ergebniss-Datei
             gespeichert werden koennen. 
-            '''
+            """
             complete_noun_info = []
 
             # Hier wird die Np-Analyse-Methoden festgelegt.
@@ -105,8 +116,9 @@ class NominalPhraseCongruency:
             extracted_info = []
 
             # Rechtschreibung ueberpruefen
-            all_words_spelled_correctly = self.nominal_phrase_spelling(vocabulary_np,
-                                                                       demorphy_dict)
+            all_words_spelled_correctly = self.nominal_phrase_spelling(
+                vocabulary_np, demorphy_dict
+            )
 
             detector = Cer(phrases_or_proper=vocabulary_np)
             np_is_proper_or_common = detector.check_common_phrase_or_proper(
@@ -129,29 +141,32 @@ class NominalPhraseCongruency:
                     pos = word_entry.get("pos")
 
                     # Die Informationen, die sich in dem NP-Eintrag befinden koennen.
-                    word_info = ['def','genus', 'kasus', 'numerus']
+                    word_info = ["def", "genus", "kasus", "numerus"]
                     # Wenn ein Eintrag nicht vorhanden ist, wird es mit "_" bestetzt.
-                    extracted_info = [noun_info.get(morpo_info,"_") for morpo_info in word_info]
+                    extracted_info = [
+                        noun_info.get(morpo_info, "_") for morpo_info in word_info
+                    ]
 
                     # Informationen zusammenfuehren und daraus einen String machen
                     combined_extracted_info = "|".join(extracted_info)
-                    complete_noun_info.append(" ".join([noun,pos, combined_extracted_info]))
+                    complete_noun_info.append(
+                        " ".join([noun, pos, combined_extracted_info])
+                    )
 
                     # Die Np-Analyse type bestimmen
 
-                    '''
+                    """
                     Wenn die NP nict in dem Satz vorkommt, wird sie nicht beruecksichtigt
                     und gilt automatisch als unbekannt. Eine NP kann z.B. in einem 
                     Satz nicht vorkommen, wenn die Datei nicht korrekt POS-gepaarst.
                     wurde. Es werden auch nicht Nps beruecksichtigt, die 
                     falsch geschrieben wurden. 
-                    '''
+                    """
                     if full_np in sentence_np and all_words_spelled_correctly is True:
                         first_word = np_info.get(1).get("pos")
                         # NPs, die mit Artikeln anfangen
                         if first_word == "ART":
-                            np_type["TYPE"] = {
-                                "ART":True}
+                            np_type["TYPE"] = {"ART": True}
                         else:
                             # 99 = NP-Status unbekannt
                             np_type["TYPE"] = "99"
@@ -172,34 +187,41 @@ class NominalPhraseCongruency:
             # NP-Typ extrahieren, um die richtige Methoden
             # automatisch bestimmen zu koennen
             congurency_type = np_type.get("TYPE")
-            unknown_congruency = ["99","2"]
-            '''
+            unknown_congruency = ["99", "2"]
+            """
             Es wird keine Analyse durchgefuehrt: 
                 Moegliche Gruende 
                 2 - Wort nicht erkannt auf grund der Rechtschreibung 
                 99 - NP ist nicht in dem Satz vorhanden. 
-            '''
+            """
 
             if congurency_type in unknown_congruency:
-                extracted_np_info = [congurency_type, full_np,
-                                     # morphologische info nach Komma splliten
-                                     # dann entpacken, damit alles in einer Liste ist.
-                                     *combined_complete_noun_info.split(","),
-                                     sentence_np]
+                extracted_np_info = [
+                    congurency_type,
+                    full_np,
+                    # morphologische info nach Komma splliten
+                    # dann entpacken, damit alles in einer Liste ist.
+                    *combined_complete_noun_info.split(","),
+                    sentence_np,
+                ]
 
                 return extracted_np_info
 
             # Wenn die NP mit einem Artikel anfaengt.
             if congurency_type.get("ART"):
                 congruency_result = self.art_def_nominal_phrase(
-                    extracted_info, sentence_np, vocabulary_np, np_demorphy)
+                    extracted_info, sentence_np, vocabulary_np, np_demorphy
+                )
 
                 # Die NP-Kongruenz-Information
-                extracted_np_info = [congruency_result, full_np,
-                                     # morphologische info nach Komma splliten
-                                     # dann entpacken, damit alles in einer Liste ist.
-                                     *combined_complete_noun_info.split(",") ,
-                                     sentence_np]
+                extracted_np_info = [
+                    congruency_result,
+                    full_np,
+                    # morphologische info nach Komma splliten
+                    # dann entpacken, damit alles in einer Liste ist.
+                    *combined_complete_noun_info.split(","),
+                    sentence_np,
+                ]
 
                 return extracted_np_info
 
@@ -209,41 +231,40 @@ class NominalPhraseCongruency:
             if congurency_type.get("COMMON"):
                 pass
 
-
         except Exception as e:
-            catch_and_log_error(
-                error=e,
-                custom_message="___"
-            )
-
+            catch_and_log_error(error=e, custom_message="___")
 
     def run_congruency_check(self):
-        """
-
-        """
+        """ """
         morpho_results = self.morpho_results
-        np_data, np_morph = morpho_results.get("np_data"), \
-            morpho_results.get("np_morph")
+        np_data, np_morph = morpho_results.get("np_data"), morpho_results.get(
+            "np_morph"
+        )
 
         congruency_results = dict()
         demorphy_dict = DemorphyAnalyzer().get_read_in_demorphy_dict(True)
 
-        for np_key, np_value in tqdm(np_data.items(), file=sys.stdout, disable=True,
-                         desc="NP-Analyse durchfuehren"):
+        for np_key, np_value in tqdm(
+            np_data.items(),
+            file=sys.stdout,
+            disable=True,
+            desc="NP-Analyse durchfuehren",
+        ):
 
             np_info = np_data.get(np_key)
             np_demorphy = np_morph.get(np_key)
 
             if np_info:
-                np_analysis = self.nominal_congruency_check(np_info=np_info,
-                                                      np_demorphy=np_demorphy,
-                                                      demorphy_dict= demorphy_dict)
-                congruency_results[np_key]=np_analysis
+                np_analysis = self.nominal_congruency_check(
+                    np_info=np_info,
+                    np_demorphy=np_demorphy,
+                    demorphy_dict=demorphy_dict,
+                )
+                congruency_results[np_key] = np_analysis
 
         typer.echo("Np-Analyse abgeschlossen")
 
         return congruency_results
-
 
     def save_congruency_results(self) -> None:
         """
@@ -270,8 +291,11 @@ class NominalPhraseCongruency:
                     csv_writer.writerow(result)
 
                 except Exception as e:
-                    catch_and_log_error(error=e,
-                   custom_message=f"{congruency_entry} konnte nicht gespeichert werden.")
+                    catch_and_log_error(
+                        error=e,
+                        custom_message=f"{congruency_entry} konnte nicht gespeichert werden.",
+                    )
+
 
 if __name__ == "__main__":
     pass

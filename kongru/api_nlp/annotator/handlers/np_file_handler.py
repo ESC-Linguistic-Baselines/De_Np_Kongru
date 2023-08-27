@@ -68,7 +68,6 @@ class NpFileHandler:
                                     token[1],
                                     token[3],
                                     token[5],
-
                                 )  # (word form, POS-tag)
 
                                 np_value.append(token_data)
@@ -76,8 +75,7 @@ class NpFileHandler:
                                     d = [item[0] for item in np_value]
                                     true_np = " ".join(d)
 
-                                np_data[c] = [true_np, np_value,raw[3]]
-
+                                np_data[c] = [true_np, np_value, raw[3]]
 
         return np_data
 
@@ -104,14 +102,15 @@ class NpFileHandler:
             for key, values in nps_dict.items():
 
                 if isinstance(values[1], list):
-                    res = [' '.join(tups) for tups in values[1]]
+                    res = [" ".join(tups) for tups in values[1]]
 
                     result_set.append(res)
                     res.append(values[-1])
-                    res.insert(0,values[0])
+                    res.insert(0, values[0])
                     csv_writer.writerow(res)
 
         return None
+
 
 if __name__ == "__main__":
     res = NpFileHandler(

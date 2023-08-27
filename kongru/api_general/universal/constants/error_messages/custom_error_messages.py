@@ -7,6 +7,7 @@
 # Custom
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 
+
 class CustomErrorMessages:
     """
     Hier werden Fehler angegeben, die bei gewissen Funktionen auftauchen koennten

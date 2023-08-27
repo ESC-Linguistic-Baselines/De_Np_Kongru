@@ -10,19 +10,18 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 
 
 class DemorphyParser:
-    """
-    """
+    """ """
 
     def __init__(
         self,
         demorphy_dict: str = Gp.DB_DEMORPHY_TXT.value,
         file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/"
-                  "outgoing/np/nps_2023_08_21.csv",
+        "outgoing/np/nps_2023_08_21.csv",
     ):
         self.demorphy_dict = demorphy_dict
         self.file_name = file_name
 
-    def get_read_in_demorphy_dict(self,read_in_pickle_dict: bool  = True):
+    def get_read_in_demorphy_dict(self, read_in_pickle_dict: bool = True):
         """
         Reading the morphological dictionary.
 
@@ -58,7 +57,6 @@ class DemorphyParser:
                 data = pickle.load(pickle_file)
                 return data
 
-
     def get_read_in_np_file(self) -> dict:
         """
         Die NP-Datei, die ausgewertet werden soll, wird hier eingelesen.
@@ -93,7 +91,6 @@ class DemorphyParser:
                 np_morpho_info = line[1:-1]
                 sentence = line[-1]
 
-
                 for entry in np_morpho_info:
                     data_count += 1
 
@@ -109,27 +106,28 @@ class DemorphyParser:
                         if info in number:
                             congru["numerus"] = info
                         elif info in gender:
-                            congru["genus"]=info
-                        elif info  in case:
-                            congru["kasus"] =info
+                            congru["genus"] = info
+                        elif info in case:
+                            congru["kasus"] = info
                         elif info in article:
-                            congru["def"] =info
+                            congru["def"] = info
                         else:
                             congru["unk"].append(info)
 
-
-                    internal_np[data_count] = {"noun":np,
-                                               "pos":pos,
-                                               "noun_info":congru
-                                                }
+                    internal_np[data_count] = {
+                        "noun": np,
+                        "pos": pos,
+                        "noun_info": congru,
+                    }
 
                 key = f"{np_id_number}_{basic_np}"
 
                 # Die dicts zusaemmenfuehren, damit alle Informationen zusammen
                 # gespeichert werden.
-                np_data[key] = {"full_np":basic_np,"sentence":sentence}|internal_np
+                np_data[key] = {"full_np": basic_np, "sentence": sentence} | internal_np
 
         return np_data
+
 
 if __name__ == "__main__":
     res = DemorphyParser().get_read_in_np_file()

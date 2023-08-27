@@ -152,17 +152,19 @@ class SuffixAnalyzer(object):
     )
 
     #
-    NOUN_NOM_END = OrderedDict( [
-        ("er", ["neut/masc, gen, sg/pl",
-                "neut/masc, acc, sg/pl",
-                "neut/masc, nom, sg/pl"],
-         ),
-        ("ern", ["neut/masc, gen, sg/pl"])
-
-
-                                 ]
+    NOUN_NOM_END = OrderedDict(
+        [
+            (
+                "er",
+                [
+                    "neut/masc, gen, sg/pl",
+                    "neut/masc, acc, sg/pl",
+                    "neut/masc, nom, sg/pl",
+                ],
+            ),
+            ("ern", ["neut/masc, gen, sg/pl"]),
+        ]
     )
-
 
     def __init__(self):
         pass
@@ -197,8 +199,7 @@ class SuffixAnalyzer(object):
 
         return None, []
 
-
-    def guess_noun_by_suffix(self, word ):
+    def guess_noun_by_suffix(self, word):
 
         # nom
         for (suff, paradigm_list) in SuffixAnalyzer.NOUN_NOM_END.items():
@@ -229,7 +230,6 @@ class SuffixAnalyzer(object):
         return [
             ParsedResult(paradigm_str, lemma, guesser=True)
             for paradigm_str in para_list
-
         ]
 
 

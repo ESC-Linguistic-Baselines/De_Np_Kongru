@@ -8,6 +8,7 @@ import typer
 # Eigene Module
 from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
 
+
 def get_logger() -> logging.Logger:
     """
     Gibt einen konfigurierten Logger zurück.
@@ -40,6 +41,7 @@ def get_logger() -> logging.Logger:
 
     return logging.getLogger()
 
+
 def catch_and_log_error(error: Exception, custom_message: str) -> None:
     """
     Einrichten des Loggers und protokollieren einer Fehlermeldung.
@@ -57,8 +59,10 @@ def catch_and_log_error(error: Exception, custom_message: str) -> None:
     typer.echo(custom_message)
     typer.echo(traceback_str)
 
-    logger.error(error, extra={"custom_message": custom_message,
-                               "traceback": traceback_str})
+    logger.error(
+        error, extra={"custom_message": custom_message, "traceback": traceback_str}
+    )
+
 
 if __name__ == "__main__":
     pass

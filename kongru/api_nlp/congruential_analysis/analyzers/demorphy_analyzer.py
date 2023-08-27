@@ -18,7 +18,7 @@ from kongru.api_nlp.universals.tagset import ParsedResult
 
 
 class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
-    def __init__(self, word="", file_name = ""):
+    def __init__(self, word="", file_name=""):
         super().__init__(file_name=file_name)
 
         self.word = word
@@ -56,7 +56,6 @@ class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
         np_data = self.get_read_in_np_file()
         morph_dict = self.get_read_in_demorphy_dict()
 
-
         for key in np_data:
             full_np = np_data.get(key).get("full_np")
             tokens = full_np.split(" ")
@@ -66,16 +65,9 @@ class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
             for t in tokens:
                 np_morph[key].append((t, morph_dict.get(t)))
 
-        return {"np_data":np_data,
-                "np_morph":np_morph}
+        return {"np_data": np_data, "np_morph": np_morph}
 
 
 if __name__ == "__main__":
     file_name = "/Users/christopherchandler/repo/Python/De_NP_Kongru/user/outgoing/np/nps_2023_08_21.csv"
     res = DemorphyAnalyzer(file_name=file_name)
-
-
-
-
-
-
