@@ -38,3 +38,153 @@ Funktion: set_up_logger
 Linie: 51
 Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
 
+Zeitpunkt: 2023-08-24 19:48:48,567
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 1_die Kinder konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:48:48,568
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 2_die Arbeit konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:48:48,568
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 3_das Leben konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:48:48,568
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 4_Wiviel konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:48:48,568
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 5_Reche Pflichen konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:49:39,405
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 1_die Kinder konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:49:39,406
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 2_die Arbeit konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:49:39,406
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 3_das Leben konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:49:39,406
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 4_Wiviel konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-24 19:49:39,406
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 5_Reche Pflichen konnte nicht gespeichert werden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 193, in save_congruency_results
+    4/0
+ZeroDivisionError: division by zero
+
+Nachricht: division by zero
+Modul: basic_logger
+Funktion: set_up_logger
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+

@@ -5,19 +5,21 @@
 import textdistance as td
 
 # Custom
-# None
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.constants.error_messages.custom_error_messages import(
+    CustomErrorMessages as CusEm)
 
 import os
 os.chdir("/Users/christopherchandler/repo/Python/De_NP_Kongru")
 
 class CommonEntityRecognition:
-    def __init__(self, common_phrases = "app_resources/data/NER/common_phrases.txt",
-                 common_proper ="app_resources/data/NER/common_names.txt",
-                 name_or_phrase="",
-                 common_threshold = 90):
+    def __init__(self, common_phrases = Gp.CER_PHRASES.value,
+                 common_proper = Gp.CER_COMMON_PROPER.value,
+                 phrases_or_proper:list =None,
+                 common_threshold = 80):
         self.common_phrases = common_phrases
         self.common_proper = common_proper
-        self.name_or_phrase = name_or_phrase.lower()
+        self.phrases_or_proper_common = phrases_or_proper
         self.common_threshold = common_threshold
 
     def __load_in_ner_data(self):
@@ -28,24 +30,31 @@ class CommonEntityRecognition:
 
         return results
 
-    def check_common_phrases(self):
-        common_phrases  =self.__load_in_ner_data().get("common_phrases")
+    def check_common_phrase_or_proper(self,check_phrase_or_proper_common="phrase"):
+        common_phrases = self.__load_in_ner_data().get("common_phrases")
+        common_proper = self.__load_in_ner_data().get("common_proper")
 
-        for row in common_phrases:
-            td_results = round(td.cosine(row, self.name_or_phrase)*100,2)
+        similarity_results = []
 
-            if td_results > self.common_threshold:
-                print(td_results)
+        if check_phrase_or_proper_common == "phrase":
+            checklist = common_phrases
+        elif check_phrase_or_proper_common == "proper_common":
+            checklist = common_proper
+        else:
+            raise CusEm.CerPhraseorProperArgument
 
-    def check_common_proper(self):
-        common_proper  =self.__load_in_ner_data().get("common_proper")
+        for entry in checklist:
+            for word in self.phrases_or_proper_common:
+                entry = entry.strip().lower()
+                word = word.strip().lower()
+                td_results = round(td.cosine(entry, word) * 100, 2)
+                if td_results > self.common_threshold:
+                    similarity_results.append([word,entry,td_results])
 
-        for row in common_proper:
-            td_results = round(td.cosine(row, self.name_or_phrase)*100,2)
-
-            if td_results > self.common_threshold:
-                print(td_results)
-
+        if similarity_results:
+            return similarity_results
+        else:
+            return []
 
 if __name__ == '__main__':
     pass

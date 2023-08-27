@@ -40,12 +40,12 @@ def get_logger() -> logging.Logger:
 
     return logging.getLogger()
 
-def set_up_logger(error: str, custom_message: str) -> None:
+def catch_and_log_error(error: Exception, custom_message: str) -> None:
     """
     Einrichten des Loggers und protokollieren einer Fehlermeldung.
 
     Args:
-        error (str): Die Fehlermeldung.
+        error (Exception): Die Fehlermeldung.
         custom_message (str): Eine benutzerdefinierte Nachricht.
 
     Returns:

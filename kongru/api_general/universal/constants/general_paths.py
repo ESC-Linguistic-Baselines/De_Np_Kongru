@@ -25,11 +25,18 @@ class GeneralPaths(Enum):
     TEST_NP_FILE = "user/outgoing/np/test_np_file.csv"
 
     # Datenbank
+
+    ## Demorphy
     DB_DEMORPHY_TXT = "app_resources/data/morpho_dict/demorphy_dict.txt"
     DB_DEMORTHY_PKL = "app_resources/data/morpho_dict/demorphy_dict.pkl"
     DB_DEMORPHY_TXT_TEST = "app_resources/data/morpho_dict/test_demorphy_dict.txt"
 
+    ## Merlin
     DB_MERLIN_SQL_DB = r"app_resources/data/corpus/merlin_corpus.db"
+
+    # CER
+    CER_PHRASES = "app_resources/data/CER/common_phrases.txt"
+    CER_COMMON_PROPER = "app_resources/data/CER/common_proper.txt"
 
     # Ergebnissdateien
     RES_AST_NP_FILE = f"user/outgoing/np/nps_{SIMPLE_TIMESTAMP}.csv"

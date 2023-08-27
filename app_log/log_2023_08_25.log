@@ -1,0 +1,120 @@
+Zeitpunkt: 2023-08-25 22:21:21,260
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: ___
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 181, in nominal_congruency_check
+    if congurency_type.get("ART"):
+AttributeError: 'str' object has no attribute 'get'
+
+Nachricht: 'str' object has no attribute 'get'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-25 22:21:21,260
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: ___
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 181, in nominal_congruency_check
+    if congurency_type.get("ART"):
+AttributeError: 'str' object has no attribute 'get'
+
+Nachricht: 'str' object has no attribute 'get'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-25 22:21:21,557
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 1_Wiviel konnte nicht gespeichert werden.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 252, in save_congruency_results
+    csv_writer.writerow(result)
+_csv.Error: iterable expected, not NoneType
+
+Nachricht: iterable expected, not NoneType
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-25 22:21:21,557
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 2_Reche Pflichen konnte nicht gespeichert werden.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 252, in save_congruency_results
+    csv_writer.writerow(result)
+_csv.Error: iterable expected, not NoneType
+
+Nachricht: iterable expected, not NoneType
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-25 22:22:55,199
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: ___
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 181, in nominal_congruency_check
+    if congurency_type.get("ART"):
+AttributeError: 'str' object has no attribute 'get'
+
+Nachricht: 'str' object has no attribute 'get'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-25 22:22:55,200
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: ___
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 181, in nominal_congruency_check
+    if congurency_type.get("ART"):
+AttributeError: 'str' object has no attribute 'get'
+
+Nachricht: 'str' object has no attribute 'get'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-25 22:22:55,498
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 1_Wiviel konnte nicht gespeichert werden.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 252, in save_congruency_results
+    csv_writer.writerow(result)
+_csv.Error: iterable expected, not NoneType
+
+Nachricht: iterable expected, not NoneType
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-25 22:22:55,498
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 2_Reche Pflichen konnte nicht gespeichert werden.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_nlp/congruential_analysis/congruency/np_congruency.py", line 252, in save_congruency_results
+    csv_writer.writerow(result)
+_csv.Error: iterable expected, not NoneType
+
+Nachricht: iterable expected, not NoneType
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 60
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+

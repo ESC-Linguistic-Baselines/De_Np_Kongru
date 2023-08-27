@@ -6,9 +6,8 @@ import sqlite3
 # None
 
 # Custom
-from kongru.api_general.universal.constants.error_messages.merlin_error import (
-    MerlinError,
-)
+from kongru.api_general.universal.constants.error_messages.custom_error_messages import CustomErrorMessages as Cusem
+
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.funcs import basic_logger
 
@@ -126,7 +125,7 @@ class MerlinCorpus:
         incoming_text = self.__read_in_text()
 
         if standard_sep not in incoming_text:
-            raise MerlinError.MissingSeparator()
+            raise Cusem.MerlinMissingSeparator()
         else:
             meta_data = self.__read_in_text().split("----------------")
 

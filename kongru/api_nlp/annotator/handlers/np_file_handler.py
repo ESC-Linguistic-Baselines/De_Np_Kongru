@@ -117,4 +117,5 @@ if __name__ == "__main__":
     res = NpFileHandler(
         "/Users/christopherchandler/repo/Python/"
         "De_NP_Kongru/user/incoming/ast/1023_0001416.txt"
-    ).save_nps()
+    ).get_ast_data_overview()
+    print(res)
