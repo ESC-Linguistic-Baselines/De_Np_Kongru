@@ -1,2 +1,4 @@
-typer~=0.4.2
-tqdm
+pytest==7.3.1
+PyYAML==6.0.1
+textdistance==4.5.0
+tqdm==4.64.1

@@ -1,15 +1,25 @@
 # Standard
 # None
+import os
 
 # Pip
 import typer
 
 # Custom
+
+# api_general
+from kongru.api_general.data_parsers.app_data_parsers import app_typer_data_parser
+
+# funcs
+from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
+
+
+# api_nlp
 from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
     app_typer_congruential_analysis,
 )
 from kongru.api_nlp.annotator.app_annotator import app_typer_annotator
-from kongru.api_general.data_parsers.app_data_parsers import app_typer_data_parser
+
 
 # Haupt-Typer App
 main_typer_app = typer.Typer(
@@ -30,8 +40,8 @@ if __name__ == "__main__":
         main_typer_app()
     except Exception as e:
         msg = (
-            "Irgendwas ist mit der Hauptapp schiefgelaufen. "
+            "Irgendwas ist in der Hauptapp schiefgelaufen. "
             "Bitte in der Log-Datei nachschauen."
         )
-        print(msg)
-        print(e)
+
+        catch_and_log_error(error=e, custom_message=msg)

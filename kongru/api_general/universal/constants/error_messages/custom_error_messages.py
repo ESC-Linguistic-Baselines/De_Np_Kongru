@@ -5,6 +5,8 @@
 # None
 
 # Custom
+
+# Message Keys
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 
 
@@ -25,5 +27,5 @@ class CustomErrorMessages:
 
     class CerPhraseorProperArgument(Exception):
         def __init__(self):
-            message = "Entweder 'phrases' oder 'proper_common' als Argument angeben."
+            message = Mk.CER.INCORRECT_ARGUMENT.value
             super().__init__(message)

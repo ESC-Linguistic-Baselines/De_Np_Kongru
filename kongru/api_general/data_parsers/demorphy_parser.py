@@ -15,8 +15,7 @@ class DemorphyParser:
     def __init__(
         self,
         demorphy_dict: str = Gp.DB_DEMORPHY_TXT.value,
-        file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/"
-        "outgoing/np/nps_2023_08_21.csv",
+        file_name=Gp.TEST_NP_FILE_CSV.value,
     ):
         self.demorphy_dict = demorphy_dict
         self.file_name = file_name

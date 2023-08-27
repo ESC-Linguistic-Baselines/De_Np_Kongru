@@ -37,7 +37,7 @@ app_typer_congruential_analysis = typer.Typer(
 @app_typer_congruential_analysis.command()
 def run_analysis(
     file_name: str = typer.Argument(
-        default="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/outgoing/np/np_test_1023_0001416.csv",
+        default=Gp.TEST_NP_FILE_CSV.value,
         help="",
     ),
     save_results: bool = typer.Argument(default=True, help="Ergebnisse speichern"),

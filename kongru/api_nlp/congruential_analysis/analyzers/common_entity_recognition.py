@@ -5,14 +5,14 @@
 import textdistance as td
 
 # Custom
+
+# constancs
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+
+# error messages
 from kongru.api_general.universal.constants.error_messages.custom_error_messages import (
     CustomErrorMessages as CusEm,
 )
-
-import os
-
-os.chdir("/Users/christopherchandler/repo/Python/De_NP_Kongru")
 
 
 class CommonEntityRecognition:
