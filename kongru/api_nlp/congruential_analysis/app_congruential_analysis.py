@@ -15,14 +15,17 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 from kongru.api_general.data_parsers.demorphy_parser import DemorphyParser
 
 # funcs
-from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
+from kongru.api_general.universal.funcs.basic_logger import (
+    catch_and_log_error,
+    log_info,
+)
 from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
     DemorphyAnalyzer,
 )
 
 # api_nlp
 
-from kongru.api_nlp.congruential_analysis.congruency.np_congruency import (
+from kongru.api_nlp.congruential_analysis.congruency.nominal_phrase_congruency import (
     NominalPhraseCongruency,
 )
 
@@ -49,7 +52,7 @@ def run_analysis(
         demorphy.file_name = file_name
 
         # Morphologische Ergebnisse
-        morpho_results = demorphy.find_raw_np_morphology()
+        morpho_results = demorphy.get_raw_np_morphology()
 
         # Kongruenz bestimmen
         np_congruency = NominalPhraseCongruency(
@@ -60,7 +63,7 @@ def run_analysis(
         if save_results:
             pass
             np_congruency.save_congruency_results()
-            # typer.echo("Ergebnisse wurden gespeichert.")
+            log_info(msg="Ergebnisse wurden gespeichert", echo_msg=True)
         else:
             typer.echo(np_congruency)
     except Exception as e:

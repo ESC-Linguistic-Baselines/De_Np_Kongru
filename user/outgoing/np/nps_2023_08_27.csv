@@ -1,0 +1,25 @@
+Maria,Maria N _|_|Sg,Hallo Maria !
+Eine Woche,Eine ART Indef|Fem|Nom|Sg,Woche N Fem|Nom|Sg,Eine Woche zuruck habe ich Reise nach Berlin gekauft .
+Reise,Reise N _|Acc|_,Eine Woche zuruck habe ich Reise nach Berlin gekauft .
+nach Berlin,nach PREP Dat,Berlin N _|Dat|Sg,Eine Woche zuruck habe ich Reise nach Berlin gekauft .
+Berlin,Berlin N _|_|Sg,Leider bin ich krank heute und kann ich nicht Berlin ansehen .
+Reisekarte,Reisekarte N Fem|Acc|Sg,Gebe ich Reisekarte dir um du nach Berlin fahren könnte und viel Sehenwürdigkeiten ansehen .
+nach Berlin,nach PREP Dat,Berlin N _|Dat|Sg,Gebe ich Reisekarte dir um du nach Berlin fahren könnte und viel Sehenwürdigkeiten ansehen .
+viel Sehenwürdigkeiten,viel ART Fem|Acc|Pl,Sehenwürdigkeiten N Fem|Acc|Pl,Gebe ich Reisekarte dir um du nach Berlin fahren könnte und viel Sehenwürdigkeiten ansehen .
+Berlin,Berlin N _|Nom|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+riesige Stadt,riesige ADJA Pos|Fem|Nom|Sg|_|,Stadt N Fem|Nom|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+Fluss Tiergarten,Fluss N Masc|_|Sg,Tiergarten N Masc|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+U-Bahn Museums Fluss,U-Bahn N Fem|Gen|Sg,Museums N Neut|Gen|Sg,Fluss N Masc|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+U-Bahn zahlreiche Museums,U-Bahn N Fem|Gen|Sg,zahlreiche ADJA Pos|_|_|_|_|,Museums N Neut|Gen|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+U-Bahn Fluss Spree Tiergarten,U-Bahn N Fem|Gen|Sg,Fluss N Masc|_|Sg,Spree N Fem|_|Sg,Tiergarten N Masc|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+Fluss Spree Bundestag,Fluss N Masc|_|Sg,Spree N Fem|_|Sg,Bundestag N _|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+Spree Bundestag Bundesrat,Spree N Fem|_|Sg,Bundestag N _|_|Sg,Bundesrat N Masc|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+Bundestag Bundesrat Stadion Bäümen,Bundestag N _|_|Sg,Bundesrat N Masc|_|Sg,Stadion N Neut|_|Sg,Bäümen N Masc|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+Bundesrat großes Stadion Denkmalen,Bundesrat N Masc|_|Sg,großes ADJA Pos|Neut|_|Sg|St|,Stadion N Neut|_|Sg,Denkmalen N Neut|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+Stadion Denkmalen Geschichte,Stadion N Neut|_|Sg,Denkmalen N Neut|_|Sg,Geschichte N _|Gen|_,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+Denkmalen der Deutsche Geschichte,Denkmalen N Neut|_|Sg,der ART Def|_|_|_,Deutsche ADJA Pos|_|_|_|_|,Geschichte N _|Gen|_,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+in verschiedenen Garten,in PREP _,verschiedenen ADJA Pos|Masc|_|Sg|_|,Garten N Masc|_|Sg,"Berlin ist riesige Stadt , hat zwei Tiergarten , U-Bahn , zahlreiche Museums , Fluss Spree , Bundestag , Bundesrat , großes Stadion , Denkmalen der Deutsche Geschichte , viel Bäümen in verschiedenen Garten ."
+viel Spaß,viel ART Masc|Acc|Sg,Spaß N Masc|Acc|Sg,Du wirst viel Spaß haben .
+angenehme Reise,angenehme ADJA Pos|_|_|_|_|,Reise N _|_|_,Wünsche ich Sie angenehme und glückliche Reise .
+Dein freund FRIEDRICH,Dein ART _|_|Sg,freund N _|_|Sg,FRIEDRICH N _|_|Sg,Dein freund FRIEDRICH
+freund FRIEDRICH,freund N _|_|Sg,FRIEDRICH N _|_|Sg,Dein freund FRIEDRICH

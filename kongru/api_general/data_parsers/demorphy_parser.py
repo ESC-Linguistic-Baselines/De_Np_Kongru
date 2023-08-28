@@ -14,10 +14,10 @@ class DemorphyParser:
 
     def __init__(
         self,
-        demorphy_dict: str = Gp.DB_DEMORPHY_TXT.value,
         file_name=Gp.TEST_NP_FILE_CSV.value,
     ):
-        self.demorphy_dict = demorphy_dict
+        self.demorphy_dict = Gp.DB_DEMORPHY_TXT.value
+        self.lemma_txt = Gp.DB_DEMORPHY_LEMMA_TXT.value
         self.file_name = file_name
 
     def get_read_in_demorphy_dict(self, read_in_pickle_dict: bool = True):
@@ -126,6 +126,11 @@ class DemorphyParser:
                 np_data[key] = {"full_np": basic_np, "sentence": sentence} | internal_np
 
         return np_data
+
+    def get_read_in_lemmas(self) -> list:
+        with open(self.lemma_txt, mode="r", encoding="utf-8") as file:
+            lemmas = [lemma.replace("\n", "") for lemma in file.readlines()]
+            return lemmas
 
 
 if __name__ == "__main__":

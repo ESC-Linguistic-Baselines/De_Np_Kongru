@@ -1,5 +1,6 @@
 # Standard
 # None
+from pyasn1_modules.rfc2985 import gender
 
 # Pip
 # None
@@ -8,22 +9,55 @@
 
 # general
 from kongru.api_general.data_parsers.demorphy_parser import DemorphyParser
+from kongru.api_nlp.congruential_analysis.analyzers.inflection_analyzer import (
+    InflectionAnalyzer,
+)
 
 # nlp
 from kongru.api_nlp.congruential_analysis.analyzers.suffix_analyzer import (
     SuffixAnalyzer,
 )
 from kongru.api_nlp.congruential_analysis.analyzers.token_analyzer import TokenAnalyzer
-from kongru.api_nlp.universals.tagset import ParsedResult
 
 
-class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
-    def __init__(self, word="", file_name=""):
-        super().__init__(file_name=file_name)
-
+class DemorphyAnalyzer(
+    DemorphyParser, SuffixAnalyzer, TokenAnalyzer, InflectionAnalyzer
+):
+    def __init__(
+        self,
+        article=None,
+        adjective=None,
+        word=None,
+        file_name=None,
+        sentence=None,
+        token=None,
+        preposition=None,
+        case=None,
+        number=None,
+        pos=None,
+        gender=None,
+    ):
+        self.article = article
+        self.adjective = adjective
         self.word = word
+        self.file_name = file_name
+        self.sentence = sentence
+        self.token = token
+        self.case = case
+        self.gender = gender
+        self.number = number
+        self.pos = pos
 
-    def find_raw_np_morphology(self) -> dict:
+        # die verschiedenen Konstruktoren aufrufen und die Parameter weitergeben
+        # damit nur diese Klasse aufgerufen werden muss.
+        DemorphyParser.__init__(self, file_name)
+        SuffixAnalyzer.__init__(self, word)
+        TokenAnalyzer.__init__(self, sentence, token)
+        InflectionAnalyzer.__init__(
+            self, article, adjective, word, preposition, case, gender, number, pos
+        )
+
+    def get_raw_np_morphology(self) -> dict:
         """
         Find all tokens from NP in the dictionary.
 
@@ -69,5 +103,8 @@ class DemorphyAnalyzer(DemorphyParser, SuffixAnalyzer, TokenAnalyzer):
 
 
 if __name__ == "__main__":
-    file_name = "/Users/christopherchandler/repo/Python/De_NP_Kongru/user/outgoing/np/nps_2023_08_21.csv"
-    res = DemorphyAnalyzer(file_name=file_name)
+    file_name = (
+        "/Users/christopherchandler/repo/Python/De_NP_Kongru"
+        "/user/outgoing/np/nps_2023_08_21.csv"
+    )
+    res = DemorphyAnalyzer(word="test")

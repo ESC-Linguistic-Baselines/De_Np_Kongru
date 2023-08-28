@@ -1,0 +1,2 @@
+Wenn die Hauptdateien fehlen und nicht in diesem Verzeichnis liegen,
+ kann das Programm nicht wie vorgesehen funktionierten.

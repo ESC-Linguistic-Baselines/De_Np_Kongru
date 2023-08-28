@@ -1,0 +1,22 @@
+in:
+  Pl:
+    acc: die
+    dat: den
+    gen: _
+    nom: _
+  Sg:
+    Fem:
+      acc: die
+      dat: der
+      gen: _
+      nom: _
+    masc:
+      acc: den
+      dat: dem
+      gen: _
+      nom: _
+    neu:
+      acc: das
+      dat: dem
+      gen: _
+      nom: _

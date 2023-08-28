@@ -1,0 +1,9 @@
+Zeitpunkt: 2023-08-28 20:41:01,058
+Loggername: root
+LogLevel: INFO
+Nachricht: die Dateien app_log/*.log wurden geloescht.
+Modul: basic_logger
+Funktion: log_info
+Linie: 95
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

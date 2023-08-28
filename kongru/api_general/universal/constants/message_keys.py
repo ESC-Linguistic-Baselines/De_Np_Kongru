@@ -14,6 +14,13 @@ class MessageKeys:
     zentral gespeichert.
     """
 
+    class Main(Enum):
+        # Fehler
+        ERR_MAIN_APP = (
+            "Ein Problem ist innerhalb der Hauptanwendung aufgetreten. "
+            "Bitte die Protokolldatei für weitere Informationen überprüfen. "
+        )
+
     class Merlin(Enum):
         # Fehler
         ERR_MISSING_SEPARATOR = "Das Standardtrennzeichen fehlt in der Datei."

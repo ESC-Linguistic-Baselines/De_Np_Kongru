@@ -151,7 +151,6 @@ class SuffixAnalyzer(object):
         ]
     )
 
-    #
     NOUN_NOM_END = OrderedDict(
         [
             (
@@ -166,8 +165,8 @@ class SuffixAnalyzer(object):
         ]
     )
 
-    def __init__(self):
-        pass
+    def __init__(self, word):
+        self.word = word
 
     def guess_verb_by_suffix(self, word) -> None or list:
         """
@@ -199,7 +198,8 @@ class SuffixAnalyzer(object):
 
         return None, []
 
-    def guess_noun_by_suffix(self, word):
+    @staticmethod
+    def guess_noun_by_suffix(word):
 
         # nom
         for (suff, paradigm_list) in SuffixAnalyzer.NOUN_NOM_END.items():

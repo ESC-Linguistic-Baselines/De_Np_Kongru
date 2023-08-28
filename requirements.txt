@@ -1,4 +1,6 @@
+pyasn1_modules==0.2.8
 pytest==7.3.1
+PyYAML==6.0
 PyYAML==6.0.1
 textdistance==4.5.0
 tqdm==4.64.1

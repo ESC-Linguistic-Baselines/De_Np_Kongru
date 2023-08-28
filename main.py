@@ -1,5 +1,5 @@
 # Standard
-# None
+import glob
 import os
 
 # Pip
@@ -10,16 +10,24 @@ import typer
 # api_general
 from kongru.api_general.data_parsers.app_data_parsers import app_typer_data_parser
 
-# funcs
-from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
+# universals
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
+# funcs
+from kongru.api_general.universal.funcs.basic_logger import (
+    catch_and_log_error,
+    log_info,
+)
 
 # api_nlp
+# analyse
 from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
     app_typer_congruential_analysis,
 )
-from kongru.api_nlp.annotator.app_annotator import app_typer_annotator
 
+# annotator
+from kongru.api_nlp.annotator.app_annotator import app_typer_annotator
 
 # Haupt-Typer App
 main_typer_app = typer.Typer(
@@ -35,13 +43,43 @@ main_typer_app.add_typer(app_typer_annotator)
 main_typer_app.add_typer(app_typer_data_parser)
 
 
+@main_typer_app.command(
+    help="Ein ausgewaehltes Verzeichnis leeren", name="verzeichnis_leeren"
+)
+def empty_chosen_directory(
+    trg_dir: str = typer.Option(
+        Gp.DIR_LOG.DIR_LOG.value,
+        "--trg_dir",
+        "--trg",
+        help="Das Verzeichnis, das geleert werden soll.",
+    ),
+    file_type: str = typer.Option(
+        "log",
+        "--datei_type",
+        "--datei",
+        help="Die Dateien, die geloescht werden sollen.",
+    ),
+) -> None:
+    files_to_be_deleted = f"{trg_dir}/*.{file_type}"
+    file_directory = glob.glob(files_to_be_deleted)
+
+    if file_directory:
+        for file in file_directory:
+            os.remove(file)
+
+        log_info(
+            msg=f"die Dateien {files_to_be_deleted} wurden geloescht.", echo_msg=True
+        )
+    else:
+        log_info(
+            msg=f"die Dateien {files_to_be_deleted} existieren nicht.", echo_msg=True
+        )
+
+
 if __name__ == "__main__":
     try:
         main_typer_app()
+        log_info(msg="Anwendung wurde gestartet.")
     except Exception as e:
-        msg = (
-            "Irgendwas ist in der Hauptapp schiefgelaufen. "
-            "Bitte in der Log-Datei nachschauen."
-        )
-
-        catch_and_log_error(error=e, custom_message=msg)
+        msg = Mk.Main.ERR_MAIN_APP.value
+        catch_and_log_error(error=e, custom_message=msg, kill_if_fatal_error=True)
