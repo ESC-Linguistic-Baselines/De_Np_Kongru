@@ -78,7 +78,7 @@ class GeneralPaths(Enum):
 
     # Testdateien
     TEST_NP_FILE_CSV = (
-        "user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv"
+        "user/outgoing/extracted_nominal_phrases/nps_1023_0001416.csv"
     )
     TEST_NP_AST_FILE = "user/incoming/ast/1023_0001416.ast"
 

@@ -48,7 +48,7 @@ class MerlinManager:
         "original_text"	TEXT,
         "target_hypothesis_1"	TEXT,
         "target_hypothesis_2"	TEXT,
-        "data_nps_extracted"	TEXT,
+        "ast_nps"	TEXT,
         "conll"	TEXT )
 
     # Zusatzinfo:
@@ -110,7 +110,7 @@ class MerlinManager:
         )
         nps_extracted = glob.glob(
             "/Users/christopherchandler/repo/Python/computerlinguistik/NP"
-            " - Computerlinguistik/corpus/data_nps_extracted/*.*"
+            " - Computerlinguistik/corpus/ast_nps/*.*"
         )
 
         np_data = dict()
@@ -245,7 +245,7 @@ class MerlinManager:
                     original_text,
                     target_hypothesis_1,
                     target_hypothesis_2,
-                    data_nps_extracted,
+                    ast_nps,
                     conll
                     ) 
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?,?, ?, ?, ?, ?, ?, ?,?,?,?,?,?)

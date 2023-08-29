@@ -4,6 +4,9 @@
 # Pip
 import typer
 
+from rich.console import  Console
+from rich.table import Table
+
 # Custom
 
 # api_general
@@ -14,7 +17,7 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import (
     catch_and_log_error,
-    log_info,
+    catch_and_log_info,
 )
 from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
     DemorphyAnalyzer,
@@ -33,21 +36,28 @@ app_typer_congruential_analysis = typer.Typer(
     no_args_is_help=True,
 )
 
+# Konsole zur Erstellung einer Tabelle
+console = Console()
+
 
 @app_typer_congruential_analysis.command(
-    name = "np_analyse",
-    help= "Die Kongruenz der Nps in einer datei bestimmen "
+    name="np_analyse", help="Die Kongruenz der Nps in einer datei bestimmen "
 )
 def nominal_phrase_agreement_analysis(
-    file_name: str = typer.Argument(
-        default=Gp.TEST_NP_FILE_CSV.value,
-        help="",
+    file_name: str = typer.Option(
+        Gp.TEST_NP_FILE_CSV.value,
+        "--datei_name",
+        "--d",
+        help="Die NP-datei, die ausgewertet werden soll ",
     ),
-    save_results: bool = typer.Argument(default=True, help="Ergebnisse speichern"),
+    save_results: bool = typer.Option(True,
+                                      "--speichern",
+                                      "--anzeigen",
+                                      help="Ergebnisse speichern"),
 ) -> None:
     """ """
     try:
-        # Die einzulesenden Dateien
+        # Demorphy aufstellen, um die Datei auswerten zu koennen
         demorphy = DemorphyAnalyzer()
         demorphy.file_name = file_name
 
@@ -61,14 +71,25 @@ def nominal_phrase_agreement_analysis(
 
         # Ergebnisse speichern
         if save_results:
-            pass
+            # Die Ergebnisse werden zwar gespeichert, aber nicht angezeigt.
             np_congruency.save_congruency_results()
-            log_info(msg="Ergebnisse wurden gespeichert", echo_msg=True)
+            catch_and_log_info(msg="Die Ergebnisse der Auswertung wurden gespeichert",
+                               echo_msg=True,
+                               )
         else:
-            typer.echo(np_congruency)
+            # Die Ergebnisse werden zwar angezeigt, aber nicht gespeichert
+            congruency_check = np_congruency.run_congruency_check()
+            table = Table("Status", "Nominal Phrase")
+            for entry in congruency_check:
+                data = congruency_check.get(entry)
+                status, nominal_phrase = data[:2]
+                table.add_row(status, nominal_phrase)
+            console.print(table)
+
     except Exception as e:
         catch_and_log_error(
-            error=e, custom_message="Bei der Analyse ist etwas schief gelaufen."
+            error=e,
+            custom_message="Bei der Analyse ist etwas schief gelaufen."
         )
 
 

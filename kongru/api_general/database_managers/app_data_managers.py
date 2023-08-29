@@ -4,6 +4,9 @@ import os
 # Pip
 import typer
 
+from rich.console import Console
+from rich.table import Table
+
 # Custom
 # api_general
 # managers
@@ -17,7 +20,7 @@ from kongru.api_general.database_managers.extractors.ast_nominal_phrase_extracto
 # Funcs
 from kongru.api_general.universal.funcs.basic_logger import (
     catch_and_log_error,
-    log_info,
+    catch_and_log_info,
 )
 from kongru.api_general.universal.funcs.natural_order_group import NaturalOrderGroup
 
@@ -32,58 +35,88 @@ app_typer_data_managers = typer.Typer(
     cls=NaturalOrderGroup,
 )
 
+console = Console()
+
 
 @app_typer_data_managers.command(name="text_ids", help="Ids der Textdateien auflisten")
-def list_text_ids() -> None:
-    sql = "SELECT general_author_id FROM learner_text_data"
-    text_ids = Merlin(sql_command=sql).read_database()
-    for row in text_ids:
-        typer.echo(*row)
+def show_text_ids() -> None:
+    sql_command = "SELECT general_author_id,general_mother_tongue,general_cefr," \
+          "txt_len_in_char FROM learner_text_data "
+    text_ids = Merlin(sql_command=sql_command).read_database()
+    table = Table("general_author_id", 'general_mother_tongue', "general_cefr",
+                  "txt_len_in_char")
+    for id_entry in sorted(text_ids):
+        table.add_row(*id_entry)
+    console.print(table)
 
 
-@app_typer_data_managers.command(name="text_lesen", help="einen bestimmten Text lesen")
-def look_up_text_by_id(
+@app_typer_data_managers.command(name="text_lesen",
+                                 help="einen bestimmten Text in der Datenbank lesen")
+def get_and_show_text_by_id(
     text_id: str = typer.Option(
         "1031_0003130",
         "--text_id",
         "--id",
         help="Die Text-Id des gewuenschten Textes angeben",
     )
-):
-    merlin_corpus = Merlin(text_id=text_id).extract_entry_by_id()
+) -> None:
+    entries_extracted_by_text_id = Merlin(text_id=text_id).extract_entry_by_id()
     custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
 
-    if merlin_corpus:
-        merlin_corpus.pop("conll")
-        try:
-            # Die CONLL-Info ist zu viel, daher wird sie entfernt.
-            for entry in merlin_corpus:
-                print(entry, merlin_corpus.get(entry))
-        except Exception as e:
+    # Nur wenn ein Eintrag vorhanden ist
+    if entries_extracted_by_text_id:
 
-            catch_and_log_error(error=e, custom_message=custom_message)
+        # Die CONLL-Info ist zu viel, daher wird sie entfernt.
+        entries_extracted_by_text_id.pop("conll")
+        try:
+            for entry in entries_extracted_by_text_id:
+                typer.echo(f"{entry} {entries_extracted_by_text_id.get(entry)}")
+        except Exception as e:
+            catch_and_log_error(error=e,
+                                custom_message=custom_message)
     else:
-        log_info(
+        catch_and_log_info(
             msg=custom_message,
             echo_msg=True,
-            log_error=False,
+            log_info_message=False,
             echo_color=typer.colors.RED,
         )
 
 
-@app_typer_data_managers.command(name="np_lesen")
-def read_np_file():
-    pass
+@app_typer_data_managers.command(name="nps_lesen",
+                                 help="Nps aus einer bestimmten Datei lesen")
+def read_np_file(
+        file_type: str = typer.Option(
+          "ast",
+            "--datei_typ",
+            "--typ"
+        ),
+        data_source: bool = typer.Option(
+            True,
+            "--datenbank",
+            "--eingangsdatei"
+        )
+) -> None :
+
+    if file_type == "ast":
+        pass
+    if file_type == "conll":
+        pass
+    if file_type == "full_json":
+        pass
+    if file_type == "pylist":
+        pass
+    if file_type == "raw":
+        pass
 
 
 @app_typer_data_managers.command(name="daten_extrahieren")
 def extract_data_from_merlin_database():
     with open(Gp.SQL_MERLIN.value, "r") as sql_file:
         sql_script = sql_file.read()
-
     text_ids = Merlin(sql_command=sql_script).read_database()
     for row in text_ids:
-        pass
+        print(row)
 
 
 @app_typer_data_managers.command(

@@ -1613,3 +1613,284 @@ Funktion: catch_and_log_error
 Linie: 86
 Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
 
+Zeitpunkt: 2023-08-29 16:46:56,206
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 54, in nominal_phrase_agreement_analysis
+    morpho_results = demorphy.get_raw_np_morphology()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/analyzers/demorphy_analyzer.py", line 92, in get_raw_np_morphology
+    np_data = self.get_read_in_np_file()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/demorphy_manager.py", line 83, in get_read_in_np_file
+    with open(file_name, mode="r", encoding="utf-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 16:47:51,377
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse wurden gespeichert
+Modul: basic_logger
+Funktion: log_info
+Linie: 101
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 16:48:11,711
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse wurden gespeichert
+Modul: basic_logger
+Funktion: log_info
+Linie: 101
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 16:50:30,344
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse wurden gespeichert
+Modul: basic_logger
+Funktion: log_info
+Linie: 101
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 16:51:42,363
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 69, in nominal_phrase_agreement_analysis
+    for row in np_congruency:
+TypeError: 'NominalPhraseCongruency' object is not iterable
+
+Nachricht: 'NominalPhraseCongruency' object is not iterable
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 16:54:07,331
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 71, in nominal_phrase_agreement_analysis
+    typer.echo(entry, congruency_check.get(entry))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/utils.py", line 299, in echo
+    file.write(out)  # type: ignore
+AttributeError: 'list' object has no attribute 'write'
+
+Nachricht: 'list' object has no attribute 'write'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 16:54:32,971
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse wurden gespeichert
+Modul: basic_logger
+Funktion: log_info
+Linie: 101
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 19:35:10,256
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 71, in nominal_phrase_agreement_analysis
+    typer.echo(entry, congruency_check.get(entry))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/utils.py", line 299, in echo
+    file.write(out)  # type: ignore
+AttributeError: 'list' object has no attribute 'write'
+
+Nachricht: 'list' object has no attribute 'write'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 19:42:25,042
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 71, in nominal_phrase_agreement_analysis
+    typer.echo(1,congruency_check.get(entry))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/utils.py", line 299, in echo
+    file.write(out)  # type: ignore
+AttributeError: 'list' object has no attribute 'write'
+
+Nachricht: 'list' object has no attribute 'write'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 19:49:22,018
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 77, in nominal_phrase_agreement_analysis
+    status, np = congruency_check[:1]
+TypeError: unhashable type: 'slice'
+
+Nachricht: unhashable type: 'slice'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 19:50:02,853
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 77, in nominal_phrase_agreement_analysis
+    status, np = congruency_check[0],congruency_check[1]
+KeyError: 0
+
+Nachricht: 0
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 19:55:43,143
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 101
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 19:58:15,667
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 47, in list_text_ids
+    table.add_row(row)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/rich/table.py", line 460, in add_row
+    raise errors.NotRenderableError(
+rich.errors.NotRenderableError: unable to render tuple; a string or other renderable object is required
+
+Nachricht: unable to render tuple; a string or other renderable object is required
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 20:00:54,788
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 324, in read_database
+    cur.execute(*self.sql_command)
+sqlite3.OperationalError: no such column: general_mother_language
+
+Nachricht: no such column: general_mother_language
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 20:02:27,751
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 324, in read_database
+    cur.execute(*self.sql_command)
+sqlite3.OperationalError: no such column: text_len_in_char
+
+Nachricht: no such column: text_len_in_char
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 20:19:21,707
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Die Text-ID, die eingegeben wurde, ist nicht gültig.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 72, in get_show_text_by_id
+    typer.echo(entry, entries_extracted_by_text_id.get(entry))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/utils.py", line 299, in echo
+    file.write(out)  # type: ignore
+AttributeError: 'str' object has no attribute 'write'
+
+Nachricht: 'str' object has no attribute 'write'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 20:26:19,203
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 232, in get_command
+    click_command = get_group(typer_instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 218, in get_group
+    group = get_group_from_info(TyperInfo(typer_instance))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 360, in get_group_from_info
+    sub_group = get_group_from_info(sub_group_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 356, in get_group_from_info
+    command = get_command_from_info(command_info=command_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 432, in get_command_from_info
+    ) = get_params_convertors_ctx_param_name_from_function(command_info.callback)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 413, in get_params_convertors_ctx_param_name_from_function
+    click_param, convertor = get_click_param(param)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 720, in get_click_param
+    TyperOption(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/core.py", line 268, in __init__
+    super().__init__(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2495, in __init__
+    super().__init__(param_decls, type=type, multiple=multiple, **attrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2072, in __init__
+    self.name, self.opts, self.secondary_opts = self._parse_decls(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2609, in _parse_decls
+    raise TypeError(f"Name '{name}' defined twice")
+TypeError: Name 'data_source' defined twice
+
+Nachricht: Name 'data_source' defined twice
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

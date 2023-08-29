@@ -19,7 +19,7 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import (
     catch_and_log_error,
-    log_info,
+    catch_and_log_info,
 )
 
 # api_nlp
@@ -65,11 +65,11 @@ def empty_chosen_directory(
         for file in file_directory:
             os.remove(file)
 
-        log_info(
+        catch_and_log_info(
             msg=f"die Dateien {files_to_be_deleted} wurden geloescht.", echo_msg=True
         )
     else:
-        log_info(
+        catch_and_log_info(
             msg=f"die Dateien {files_to_be_deleted} existieren nicht.", echo_msg=True
         )
 
@@ -77,7 +77,7 @@ def empty_chosen_directory(
 if __name__ == "__main__":
     try:
         main_typer_app()
-        log_info(msg="Anwendung wurde gestartet.")
+        catch_and_log_info(msg="Anwendung wurde gestartet.")
     except Exception as e:
         msg = Mk.Main.ERR_MAIN_APP.value
         catch_and_log_error(error=e, custom_message=msg, kill_if_fatal_error=True)
