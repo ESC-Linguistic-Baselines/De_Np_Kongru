@@ -1,7 +1,2 @@
 # Das Hauptverzeichnis des Projekts sollte hier festgelegt werden
 CONFIG_HOME_DIR: "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru"
-
-# Die Art von Texten, die aus dem Merlin-Korpus extrahiert werden sollen
-MERLIN_TEXT_TYPES:
-  - C1
-  - French

@@ -990,3 +990,626 @@ Funktion: catch_and_log_error
 Linie: 86
 Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
 
+Zeitpunkt: 2023-08-29 14:32:08,024
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 55, in nominal_phrase_agreement_analysis
+    morpho_results = demorphy.get_raw_np_morphology()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/analyzers/demorphy_analyzer.py", line 92, in get_raw_np_morphology
+    np_data = self.get_read_in_np_file()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/demorphy_manager.py", line 83, in get_read_in_np_file
+    with open(file_name, mode="r", encoding="utf-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 14:32:12,110
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 55, in nominal_phrase_agreement_analysis
+    morpho_results = demorphy.get_raw_np_morphology()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/analyzers/demorphy_analyzer.py", line 92, in get_raw_np_morphology
+    np_data = self.get_read_in_np_file()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/demorphy_manager.py", line 83, in get_read_in_np_file
+    with open(file_name, mode="r", encoding="utf-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:09:24,893
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 82, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:09:31,481
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 82, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:09:34,002
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 82, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:12:52,663
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 83, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:12:56,907
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 83, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:13:38,628
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 83, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:14:12,040
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 83, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command,)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:15:30,582
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 83, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 323, in read_database
+    cur.execute(self.sql_command)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:17:04,400
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 83, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 324, in read_database
+    cur.execute(self.sql_command,)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:17:24,334
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 84, in extract_data_from_merlin_database
+    for row in text_ids:
+TypeError: 'NoneType' object is not iterable
+
+Nachricht: 'NoneType' object is not iterable
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:17:42,258
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 325, in read_database
+    cur.execute(self.sql_command,)
+TypeError: execute() argument 1 must be str, not tuple
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 83, in extract_data_from_merlin_database
+    text_ids = Merlin(sql_command=sql).read_database()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 328, in read_database
+    catch_and_log_error(kill_if_fatal_error=True)
+TypeError: catch_and_log_error() missing 2 required positional arguments: 'error' and 'custom_message'
+
+Nachricht: catch_and_log_error() missing 2 required positional arguments: 'error' and 'custom_message'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:18:04,808
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 325, in read_database
+    cur.execute(self.sql_command,)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:18:07,710
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 325, in read_database
+    cur.execute(self.sql_command,)
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:18:57,801
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 325, in read_database
+    cur.execute(self.sql_command,'French')
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:19:17,184
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 325, in read_database
+    cur.execute(self.sql_command,('French'))
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:19:21,220
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 325, in read_database
+    cur.execute(self.sql_command,('French',))
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:19:46,240
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 327, in read_database
+    cur.execute(self.sql_command, ('French',))  # Example with a parameter
+sqlite3.OperationalError: near "%": syntax error
+
+Nachricht: near "%": syntax error
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:19:53,466
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 327, in read_database
+    cur.execute(self.sql_command, ('French',))  # Example with a parameter
+sqlite3.OperationalError: near "%": syntax error
+
+Nachricht: near "%": syntax error
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:20:19,818
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 327, in read_database
+    cur.execute(self.sql_command, ('French',))  # Example with a parameter
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:20:34,231
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 326, in read_database
+    cur.execute(self.sql_command, ('French',))  # Example with a parameter
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:21:31,390
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 326, in read_database
+    cur.execute(self.sql_command, ('French',))  # Example with a parameter
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:23:57,266
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 327, in read_database
+    cur.execute(self.sql_command)  # Example with a parameter
+TypeError: execute() argument 1 must be str, not tuple
+
+Nachricht: execute() argument 1 must be str, not tuple
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:25:30,918
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 326, in read_database
+    cur.execute(*sql_command)
+TypeError: execute expected at most 2 arguments, got 70
+
+Nachricht: execute expected at most 2 arguments, got 70
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 15:28:42,091
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 324, in read_database
+    cur.execute(*self.sql_command)
+sqlite3.OperationalError: near "general_mother_tongue": syntax error
+
+Nachricht: near "general_mother_tongue": syntax error
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

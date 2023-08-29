@@ -33,10 +33,15 @@ app_typer_data_managers = typer.Typer(
 )
 
 
-# Merlin Parser
-@app_typer_data_managers.command(
-    name="text_eintrag", help="einen bestimmten Text aufrufen"
-)
+@app_typer_data_managers.command(name="text_ids", help="Ids der Textdateien auflisten")
+def list_text_ids() -> None:
+    sql = "SELECT general_author_id FROM learner_text_data"
+    text_ids = Merlin(sql_command=sql).read_database()
+    for row in text_ids:
+        typer.echo(*row)
+
+
+@app_typer_data_managers.command(name="text_lesen", help="einen bestimmten Text lesen")
 def look_up_text_by_id(
     text_id: str = typer.Option(
         "1031_0003130",
@@ -47,6 +52,7 @@ def look_up_text_by_id(
 ):
     merlin_corpus = Merlin(text_id=text_id).extract_entry_by_id()
     custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
+
     if merlin_corpus:
         merlin_corpus.pop("conll")
         try:
@@ -65,22 +71,25 @@ def look_up_text_by_id(
         )
 
 
-@app_typer_data_managers.command(
-    name="ast_datei_lesen", help="Eine bestimmte Ast-Datei inspezieren"
-)
-def view_ast_file(
-    file_name: str = typer.Option(
-        default=Gp.TEST_NP_AST_FILE.value,
-        help="Der Name der Ast-Datei, die ausgelesen werden soll.",
-    )
-):
+@app_typer_data_managers.command(name="np_lesen")
+def read_np_file():
     pass
 
 
+@app_typer_data_managers.command(name="daten_extrahieren")
+def extract_data_from_merlin_database():
+    with open(Gp.SQL_MERLIN.value, "r") as sql_file:
+        sql_script = sql_file.read()
+
+    text_ids = Merlin(sql_command=sql_script).read_database()
+    for row in text_ids:
+        pass
+
+
 @app_typer_data_managers.command(
-    name="ast_datei_nps", help="Nps aus einer bestimmten Ast-Datei lesen"
+    name="nps_extrahieren", help="Nps aus einer bestimmen Datei lesen"
 )
-def extract_nps_from_ast_file(
+def extract_nps(
     file_name: str = typer.Option(
         default=Gp.TEST_NP_AST_FILE.value,
         help="Der Name der Ast-Datei, die ausgewertet werden soll.",
@@ -89,7 +98,6 @@ def extract_nps_from_ast_file(
     base_file_name = os.path.basename(file_name)
     file, extension = base_file_name.split(".")
 
-    print(f"{Gp.RES_AST_NP_FILE.value}_{file}.csv")
     np_file_handler = AstNominalPhraseExtractor(
         file_name=file_name, save_name=f"{Gp.RES_AST_NP_FILE.value}_{file}.csv"
     )
@@ -100,5 +108,20 @@ def extract_nps_from_ast_file(
     )
 
 
+@app_typer_data_managers.command(name="json_erstellen")
+def create_np_json_file():
+    pass
+
+
+@app_typer_data_managers.command(name="conll_erstellen")
+def create_conoll_file():
+    pass
+
+
+@app_typer_data_managers.command(name="np_zu_json")
+def add_np_results_to_np_json_file():
+    pass
+
+
 if __name__ == "__main__":
-    app_typer_data_managers()
+    extract_data_from_merlin_database()

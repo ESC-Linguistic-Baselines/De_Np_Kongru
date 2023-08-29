@@ -39,7 +39,11 @@ class GeneralPaths(Enum):
     """
 
     # Verzeichnisse
+    DIR_CONLL = None
     DIR_LOG = "app_log"
+
+    # SQL
+    SQL_FILE_TYPES = "scripts/file_types.sql"
 
     # Das muss lokal gesetzt werden.
     # Es haengt von dem jeweiligen Rechner ab.
@@ -55,6 +59,7 @@ class GeneralPaths(Enum):
 
     ## Merlin
     DB_MERLIN_SQL_DB = r"app_resources/data/merlin_corpus/merlin_corpus.db"
+    SQL_MERLIN = "scripts/merlin_commands.sql"
 
     # CER
     CER_PHRASES = "app_resources/data/cer/phrases.txt"

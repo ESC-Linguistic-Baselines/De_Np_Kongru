@@ -7,17 +7,15 @@ import sqlite3
 
 # Custom
 
-# universals
-
 # errors
 from kongru.api_general.universal.constants.custom_error_messages import (
     CustomErrorMessages as Cusem,
 )
 
+# constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 # funcs
-from kongru.api_general.universal.funcs import basic_logger
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 
@@ -66,13 +64,17 @@ class MerlinManager:
         text_id: str = "1031_0003130",
         merlin_corpus_db=Gp.DB_MERLIN_SQL_DB.value,
         extract_np_data_dir="",
-        conll_dir="",
+        conll_dir=Gp.DIR_CONLL.value,
+        sql_command="SELECT general_author_id FROM learner_text_data",
+        sql_script=Gp.SQL_FILE_TYPES.value,
     ):
         self.file_name = file_name
         self.text_id = text_id
         self.merlin_corpus_db = merlin_corpus_db
         self.conll_dir = conll_dir
         self.extract_np_data_dir = extract_np_data_dir
+        self.sql_command = (sql_command,)
+        self.sql_script = sql_script
 
     def __read_in_text(self) -> str:
         """
@@ -310,6 +312,20 @@ class MerlinManager:
         except Exception as e:
             custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
             catch_and_log_error(error=e, custom_message=custom_message)
+
+    def read_database(self) -> any:
+        """
+        Returns:
+        """
+        try:
+            # SQL
+            sql_db = self.__open_sql_db()
+            cur, con = sql_db.get("cur"), sql_db.get("con")
+            cur.execute(*self.sql_command)
+
+            return cur.fetchall()
+        except Exception as e:
+            catch_and_log_error(error=e, custom_message="", kill_if_fatal_error=True)
 
 
 if __name__ == "__main__":

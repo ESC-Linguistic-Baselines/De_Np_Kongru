@@ -34,8 +34,11 @@ app_typer_congruential_analysis = typer.Typer(
 )
 
 
-@app_typer_congruential_analysis.command()
-def run_analysis(
+@app_typer_congruential_analysis.command(
+    name = "np_analyse",
+    help= "Die Kongruenz der Nps in einer datei bestimmen "
+)
+def nominal_phrase_agreement_analysis(
     file_name: str = typer.Argument(
         default=Gp.TEST_NP_FILE_CSV.value,
         help="",

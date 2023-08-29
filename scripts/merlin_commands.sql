@@ -1,0 +1,1 @@
+SELECT general_author_id,conll FROM learner_text_data WHERE general_mother_tongue = 'French'
