@@ -91,11 +91,14 @@ def catch_and_log_error(
         raise SystemExit(custom_message)
 
 
-def log_info(msg: str = "log info", echo_msg=False, echo_color=typer.colors.GREEN):
+def log_info(msg: str = "log info", echo_msg=False,
+             log_error = True,
+             echo_color=typer.colors.GREEN):
     logger = get_logger(log_level=logging.INFO)
     if echo_msg:
         typer.secho(msg, fg=echo_color)
-    logger.info(msg)
+    if log_error:
+        logger.info(msg)
 
 
 if __name__ == "__main__":

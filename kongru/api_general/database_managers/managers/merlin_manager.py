@@ -18,6 +18,7 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 
 # funcs
 from kongru.api_general.universal.funcs import basic_logger
+from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 
 class MerlinManager:
@@ -301,14 +302,17 @@ class MerlinManager:
 
             result = dict()
 
-            for entry, col in zip(entry_row, entry_columns):
-                result[col] = entry
+            if entry_row:
+                for entry, col in zip(entry_row, entry_columns):
+                    result[col] = entry
 
             return result
-        except TypeError as e:
-            logger = basic_logger.get_logger()
+        except Exception as e:
             custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
-            logger.error(e, extra={"custom_message": custom_message})
+            catch_and_log_error(
+                error=e,
+                custom_message=custom_message
+            )
 
 
 if __name__ == "__main__":
