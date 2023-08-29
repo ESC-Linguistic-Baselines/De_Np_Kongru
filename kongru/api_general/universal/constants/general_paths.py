@@ -68,10 +68,8 @@ class GeneralPaths(Enum):
     INFLECTION_SUFFIXES_YAML = "app_resources/data/inflection/inflection_suffixes.yaml"
 
     # Ergebnissdateien
-    RES_AST_NP_FILE = (
-        f"user/outgoing/extracted_nominal_phrases/nps_{SIMPLE_TIMESTAMP}.csv"
-    )
-    RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_results/{SIMPLE_TIMESTAMP}"
+    RES_AST_NP_FILE = f"user/outgoing/extracted_nominal_phrases/nps"
+    RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_results/"
 
     # Testdateien
     TEST_NP_FILE_CSV = (

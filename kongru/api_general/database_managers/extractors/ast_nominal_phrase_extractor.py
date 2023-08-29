@@ -11,7 +11,7 @@ import csv
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 
-class NominalPhraseExtractor:
+class AstNominalPhraseExtractor:
     def __init__(self, file_name: str, save_name: str = Gp.RES_AST_NP_FILE.value):
         self.file_name = file_name
         self.save_name = save_name
@@ -98,6 +98,7 @@ class NominalPhraseExtractor:
         """
 
         nps_dict = self.get_ast_data_overview()
+
         with open(self.save_name, mode="w", encoding="utf-8", newline="") as save:
             csv_writer = csv.writer(save)
             result_set = list()

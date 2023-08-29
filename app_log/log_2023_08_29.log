@@ -277,3 +277,716 @@ Funktion: catch_and_log_error
 Linie: 86
 Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
 
+Zeitpunkt: 2023-08-29 10:26:41,080
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 90, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 21, in __get_ast_data
+    file = open(
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+Nachricht: [Errno 2] No such file or directory: ''
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:26:45,483
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 90, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 21, in __get_ast_data
+    file = open(
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+Nachricht: [Errno 2] No such file or directory: ''
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:27:09,725
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 91, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 21, in __get_ast_data
+    file = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'GeneralPaths.TEST_NP_AST_FILE'
+
+Nachricht: [Errno 2] No such file or directory: 'GeneralPaths.TEST_NP_AST_FILE'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:33:14,115
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 91, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 21, in __get_ast_data
+    file = open(
+OSError: [Errno 9] Bad file descriptor
+
+Nachricht: [Errno 9] Bad file descriptor
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:44:41,938
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 52, in run_analysis
+    morpho_results = demorphy.get_raw_np_morphology()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/analyzers/demorphy_analyzer.py", line 92, in get_raw_np_morphology
+    np_data = self.get_read_in_np_file()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/demorphy_manager.py", line 83, in get_read_in_np_file
+    with open(file_name, mode="r", encoding="utf-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:45:02,358
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 95, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 104, in save_extracted_ast_nps
+    with open(save_file, mode="w", encoding="utf-8", newline="") as save:
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/nps_user/outgoing/extracted_nominal_phrases/nps.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/nps_user/outgoing/extracted_nominal_phrases/nps.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:45:39,750
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 95, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 104, in save_extracted_ast_nps
+    with open(save_file, mode="w", encoding="utf-8", newline="") as save:
+FileNotFoundError: [Errno 2] No such file or directory: ' user/outgoing/extracted_nominal_phrases/nps.csv'
+
+Nachricht: [Errno 2] No such file or directory: ' user/outgoing/extracted_nominal_phrases/nps.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:46:31,506
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 95, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 104, in save_extracted_ast_nps
+    with open(save_file, mode="w", encoding="utf-8", newline="") as save:
+FileNotFoundError: [Errno 2] No such file or directory: ' user/outgoing/extracted_nominal_phrases/nps.csv'
+
+Nachricht: [Errno 2] No such file or directory: ' user/outgoing/extracted_nominal_phrases/nps.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:53:36,699
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 52, in run_analysis
+    morpho_results = demorphy.get_raw_np_morphology()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/analyzers/demorphy_analyzer.py", line 92, in get_raw_np_morphology
+    np_data = self.get_read_in_np_file()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/demorphy_manager.py", line 83, in get_read_in_np_file
+    with open(file_name, mode="r", encoding="utf-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:58:22,305
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 97, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:58:25,265
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 97, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:58:28,247
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 97, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 10:58:39,982
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 97, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 11:00:51,740
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 96, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 11:00:59,952
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 96, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 11:01:30,802
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 96, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 11:02:59,415
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 97, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 100, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 49, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 29, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 11:03:44,663
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 79, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 532, in wrapper
+    return callback(**use_params)  # type: ignore
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/app_data_managers.py", line 97, in extract_nps_from_ast_file
+    np_file_handler.save_extracted_ast_nps()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 102, in save_extracted_ast_nps
+    nps_dict = self.get_ast_data_overview()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 51, in get_ast_data_overview
+    new_data = self.__get_ast_data()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 31, in __get_ast_data
+    new_data = ast.literal_eval(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+             ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Nachricht: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

@@ -309,10 +309,7 @@ class MerlinManager:
             return result
         except Exception as e:
             custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
-            catch_and_log_error(
-                error=e,
-                custom_message=custom_message
-            )
+            catch_and_log_error(error=e, custom_message=custom_message)
 
 
 if __name__ == "__main__":
