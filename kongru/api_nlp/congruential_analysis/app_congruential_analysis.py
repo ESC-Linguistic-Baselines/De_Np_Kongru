@@ -55,7 +55,8 @@ def nominal_phrase_agreement_analysis(
                                       "--anzeigen",
                                       help="Ergebnisse speichern"),
 ) -> None:
-    """ """
+    """
+    """
     try:
         # Demorphy aufstellen, um die Datei auswerten zu koennen
         demorphy = DemorphyAnalyzer()

@@ -73,7 +73,7 @@ class MerlinManager:
         self.merlin_corpus_db = merlin_corpus_db
         self.conll_dir = conll_dir
         self.extract_np_data_dir = extract_np_data_dir
-        self.sql_command = (sql_command,)
+        self.sql_command = sql_command
         self.sql_script = sql_script
 
     def __read_in_text(self) -> str:
@@ -321,7 +321,7 @@ class MerlinManager:
             # SQL
             sql_db = self.__open_sql_db()
             cur, con = sql_db.get("cur"), sql_db.get("con")
-            cur.execute(*self.sql_command)
+            cur.execute(self.sql_command)
 
             return cur.fetchall()
         except Exception as e:

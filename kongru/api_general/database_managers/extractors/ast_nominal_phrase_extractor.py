@@ -2,6 +2,8 @@
 import ast
 import csv
 
+from io import StringIO
+
 # Pip
 # None
 
@@ -12,23 +14,30 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 
 
 class AstNominalPhraseExtractor:
-    def __init__(self, file_name: str, save_name: str = Gp.RES_AST_NP_FILE.value):
+    def __init__(self, file_name: str = Gp.TEST_NP_AST_FILE.value,
+                 save_name: str = Gp.RES_AST_NP_FILE.value,
+                 incoming_data=None):
         self.file_name = file_name
         self.save_name = save_name
+        self.incoming_data = incoming_data
 
-    def __get_ast_data(self, file_entry=True) -> list:
-        if file_entry:
+    def get_ast_data(self) -> list:
+
+        if self.incoming_data:
+            virtual_incoming_file = StringIO(str(self.incoming_data)).read()
+            data = virtual_incoming_file.replace(r"\ufeff", "")
+            ast_data = ast.literal_eval(data)
+            ast_data = ast.literal_eval(ast_data[0][0])
+            return ast_data
+        else:
             file = open(
                 self.file_name, mode="r", encoding="utf-8", errors="ignore"
             ).read()
-            data = file
-        else:
-            data = self.file_name
 
-        data = data.replace("\ufeff", "")
-        new_data = ast.literal_eval(data)
+            data = file.replace("\ufeff", "")
+            ast_data = ast.literal_eval(data)
 
-        return new_data
+            return ast_data
 
     def get_ast_data_overview(self) -> dict:
         """
@@ -44,10 +53,11 @@ class AstNominalPhraseExtractor:
         c = 0
         np_data = {}
         allowed_pos = ["N", "PREP", "ART", "ADJA"]  # not allowed: 'CARD', 'V', 'KON'
-        raw_sentence = dict()
 
-        new_data = self.__get_ast_data()
+        new_data = self.get_ast_data()
+
         for sentence in new_data:
+
             for raw in sentence:
                 if len(raw) == 7:
 
@@ -116,4 +126,4 @@ class AstNominalPhraseExtractor:
 
 
 if __name__ == "__main__":
-    pass
+    AstNominalPhraseExtractor().save_extracted_ast_nps()

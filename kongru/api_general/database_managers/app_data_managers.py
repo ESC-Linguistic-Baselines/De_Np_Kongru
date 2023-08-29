@@ -1,4 +1,5 @@
 # Standard
+import ast
 import os
 
 # Pip
@@ -41,7 +42,7 @@ console = Console()
 @app_typer_data_managers.command(name="text_ids", help="Ids der Textdateien auflisten")
 def show_text_ids() -> None:
     sql_command = "SELECT general_author_id,general_mother_tongue,general_cefr," \
-          "txt_len_in_char FROM learner_text_data "
+                  "txt_len_in_char FROM learner_text_data "
     text_ids = Merlin(sql_command=sql_command).read_database()
     table = Table("general_author_id", 'general_mother_tongue', "general_cefr",
                   "txt_len_in_char")
@@ -53,12 +54,12 @@ def show_text_ids() -> None:
 @app_typer_data_managers.command(name="text_lesen",
                                  help="einen bestimmten Text in der Datenbank lesen")
 def get_and_show_text_by_id(
-    text_id: str = typer.Option(
-        "1031_0003130",
-        "--text_id",
-        "--id",
-        help="Die Text-Id des gewuenschten Textes angeben",
-    )
+        text_id: str = typer.Option(
+            "1031_0003130",
+            "--text_id",
+            "--id",
+            help="Die Text-Id des gewuenschten Textes angeben",
+        )
 ) -> None:
     entries_extracted_by_text_id = Merlin(text_id=text_id).extract_entry_by_id()
     custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
@@ -87,27 +88,44 @@ def get_and_show_text_by_id(
                                  help="Nps aus einer bestimmten Datei lesen")
 def read_np_file(
         file_type: str = typer.Option(
-          "ast",
+            "ast_nps",
             "--datei_typ",
             "--typ"
         ),
-        data_source: bool = typer.Option(
+        merlin_coprus_data: bool = typer.Option(
             True,
             "--datenbank",
             "--eingangsdatei"
+        ),
+        text_id: str = typer.Option(
+            "1023_0001416",
+            "--text_id",
+            "--id",
+            help="Die Text-Id des gewuenschten Textes angeben",
         )
-) -> None :
+) -> None:
+    corpus = Merlin()
+    corpus.sql_command = (f"SELECT {file_type} FROM learner_text_data where "
+                          f"general_author_id = '{text_id}' ")
+    database_results = corpus.read_database()
 
-    if file_type == "ast":
+    if merlin_coprus_data:
         pass
-    if file_type == "conll":
-        pass
-    if file_type == "full_json":
-        pass
-    if file_type == "pylist":
-        pass
-    if file_type == "raw":
-        pass
+    else:
+        if file_type == "conll":
+            for entry in database_results:
+                typer.echo(*entry)
+
+        if file_type == "ast_nps":
+            ast_np = AstNominalPhraseExtractor(incoming_data=database_results)
+            ast_results = ast_np.get_ast_data_overview()
+
+            table = Table("Nominale Phrase", "Morphologische Information ")
+            for entry in ast_results:
+                data = ast_results.get(entry)
+                status, nominal_phrase = data[:2]
+                table.add_row(str(status), str(nominal_phrase))
+            console.print(table)
 
 
 @app_typer_data_managers.command(name="daten_extrahieren")
@@ -123,10 +141,10 @@ def extract_data_from_merlin_database():
     name="nps_extrahieren", help="Nps aus einer bestimmen Datei lesen"
 )
 def extract_nps(
-    file_name: str = typer.Option(
-        default=Gp.TEST_NP_AST_FILE.value,
-        help="Der Name der Ast-Datei, die ausgewertet werden soll.",
-    ),
+        file_name: str = typer.Option(
+            default=Gp.TEST_NP_AST_FILE.value,
+            help="Der Name der Ast-Datei, die ausgewertet werden soll.",
+        ),
 ):
     base_file_name = os.path.basename(file_name)
     file, extension = base_file_name.split(".")
@@ -157,4 +175,10 @@ def add_np_results_to_np_json_file():
 
 
 if __name__ == "__main__":
-    extract_data_from_merlin_database()
+    read_np_file(
+        file_type="ast_nps",
+        merlin_coprus_data=False,
+        text_id="1023_0001416"
+
+
+    )
