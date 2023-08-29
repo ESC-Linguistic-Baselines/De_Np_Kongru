@@ -11,20 +11,31 @@ from enum import Enum
 # Main
 from main_config_manager import get_config_data as config
 
-## api_general
+# api_general
 
-### funcs
-from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
-
-### constants
+# constants
 from kongru.api_general.universal.constants.message_keys import MessageKeys
 from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
+
+# funcs
+from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 
 class GeneralPaths(Enum):
     """
-    Hier werden alle Pfade als Enum-Werte festgelegt, damit das Programm
-    nachher darauf zugreifen kann.
+    Hier werden alle Pfade als Enum-Werte festgelegt, damit das Programm nachher
+    darauf zugreifen kann. Solange das Hauptverzeichnis stimmt,
+    kann das Programm auf die unten angegebenen Pfade zugreifen
+
+    Attribute:
+        /
+
+    Methoden:
+        /
+
+    Beispiel:
+         GeneralPaths.DIR_MAIN.value
+         # value gibt den String-Wert wieder
     """
 
     # Verzeichnisse
@@ -34,23 +45,20 @@ class GeneralPaths(Enum):
     # Es haengt von dem jeweiligen Rechner ab.
     DIR_MAIN = config().get("CONFIG_HOME_DIR")
 
-    # Testdateien
-    TEST_NP_FILE_CSV = "user/outgoing/np/np_test_1023_0001416.csv"
-
     # Datenbank
 
     ## Demorphy
-    DB_DEMORPHY_TXT = "app_resources/data/morpho_dict/demorpy_dict.txt"
-    DB_DEMORTHY_PKL = "app_resources/data/morpho_dict/demoprhy_dict.pkl"
-    DB_DEMORPHY_TXT_TEST = "app_resources/data/morpho_dict/test_demorphy_dict.txt"
-    DB_DEMORPHY_LEMMA_TXT = "app_resources/data/morpho_dict/lemmas.txt"
+    DB_DEMORPHY_TXT = "app_resources/data/demorphy/demorpy_dict.txt"
+    DB_DEMORTHY_PKL = "app_resources/data/demorphy/demoprhy_dict.pkl"
+    DB_DEMORPHY_TXT_TEST = "app_resources/data/demorphy/test_demorphy_dict.txt"
+    DB_DEMORPHY_LEMMA_TXT = "app_resources/data/demorphy/lemmas.txt"
 
     ## Merlin
-    DB_MERLIN_SQL_DB = r"app_resources/data/corpus/merlin_corpus.db"
+    DB_MERLIN_SQL_DB = r"app_resources/data/merlin_corpus/merlin_corpus.db"
 
     # CER
-    CER_PHRASES = "app_resources/data/CER/phrases.txt"
-    CER_COMMON_PROPER = "app_resources/data/CER/common_proper.txt"
+    CER_PHRASES = "app_resources/data/cer/phrases.txt"
+    CER_COMMON_PROPER = "app_resources/data/cer/common_proper.txt"
 
     # Inflections
     INFLECTION_DEFINITE_YAML = "app_resources/data/inflection/inflection_definite.yaml"
@@ -60,17 +68,30 @@ class GeneralPaths(Enum):
     INFLECTION_SUFFIXES_YAML = "app_resources/data/inflection/inflection_suffixes.yaml"
 
     # Ergebnissdateien
-    RES_AST_NP_FILE = f"user/outgoing/np/nps_{SIMPLE_TIMESTAMP}.csv"
-    RES_SAVE_NP = f"user/outgoing/np_analysis_results/{SIMPLE_TIMESTAMP}"
+    RES_AST_NP_FILE = (
+        f"user/outgoing/extracted_nominal_phrases/nps_{SIMPLE_TIMESTAMP}.csv"
+    )
+    RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_results/{SIMPLE_TIMESTAMP}"
+
+    # Testdateien
+    TEST_NP_FILE_CSV = (
+        "user/outgoing/extracted_nominal_phrases/np_test_1023_0001416.csv"
+    )
+    TEST_NP_AST_FILE = "user/incoming/ast/1023_0001416.ast"
 
 
 try:
     """
-    Das Hauptverzeichnis soll hier festgelegt werden, damit die folgenden Pfade
-    auch nachher stimmen.
+    Das Hauptverzeichnis soll hier festgelegt werden,
+    damit die folgenden Pfade auch nachher stimmen.
     """
     os.chdir(GeneralPaths.DIR_MAIN.value)
 except Exception as e:
     catch_and_log_error(
-        error=e, custom_message=MessageKeys.General.MISSING_HOME_DIR.value
+        error=e,
+        custom_message=MessageKeys.General.MISSING_HOME_DIR.value,
+        kill_if_fatal_error=True,
     )
+
+if __name__ == "__main__":
+    pass

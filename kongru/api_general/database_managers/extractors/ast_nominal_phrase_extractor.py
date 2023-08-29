@@ -6,10 +6,12 @@ import csv
 # None
 
 # Custom
+
+# universals
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 
-class NpFileHandler:
+class NominalPhraseExtractor:
     def __init__(self, file_name: str, save_name: str = Gp.RES_AST_NP_FILE.value):
         self.file_name = file_name
         self.save_name = save_name
@@ -79,7 +81,7 @@ class NpFileHandler:
 
         return np_data
 
-    def save_nps(self):  # [last update: 12.07.2023 - Georg]
+    def save_extracted_ast_nps(self):  # [last update: 12.07.2023 - Georg]
         """
         Saving all NPs to a csv file.
         Each NP per line in the format:
@@ -113,8 +115,4 @@ class NpFileHandler:
 
 
 if __name__ == "__main__":
-    res = NpFileHandler(
-        "/Users/christopherchandler/repo/Python/"
-        "De_NP_Kongru/user/incoming/ast/1023_0001416.txt"
-    ).get_ast_data_overview()
-    print(res)
+    pass

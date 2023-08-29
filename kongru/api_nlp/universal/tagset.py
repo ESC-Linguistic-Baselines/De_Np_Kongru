@@ -1,7 +1,12 @@
-# -*- coding: utf-8 -*-
-
+# Standard
 from __future__ import absolute_import, unicode_literals
 from collections import OrderedDict
+
+# Pip
+# None
+
+# Custom
+# None
 
 
 class ParsedResult(object):

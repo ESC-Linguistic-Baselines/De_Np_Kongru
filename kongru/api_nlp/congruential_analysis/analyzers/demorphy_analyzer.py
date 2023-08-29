@@ -1,6 +1,6 @@
 # Standard
 # None
-from pyasn1_modules.rfc2985 import gender
+
 
 # Pip
 # None
@@ -8,7 +8,9 @@ from pyasn1_modules.rfc2985 import gender
 # Custom
 
 # general
-from kongru.api_general.data_parsers.demorphy_parser import DemorphyParser
+from kongru.api_general.database_managers.managers.demorphy_manager import (
+    DemorphyManager,
+)
 from kongru.api_nlp.congruential_analysis.analyzers.inflection_analyzer import (
     InflectionAnalyzer,
 )
@@ -21,7 +23,7 @@ from kongru.api_nlp.congruential_analysis.analyzers.token_analyzer import TokenA
 
 
 class DemorphyAnalyzer(
-    DemorphyParser, SuffixAnalyzer, TokenAnalyzer, InflectionAnalyzer
+    DemorphyManager, SuffixAnalyzer, TokenAnalyzer, InflectionAnalyzer
 ):
     def __init__(
         self,
@@ -50,7 +52,7 @@ class DemorphyAnalyzer(
 
         # die verschiedenen Konstruktoren aufrufen und die Parameter weitergeben
         # damit nur diese Klasse aufgerufen werden muss.
-        DemorphyParser.__init__(self, file_name)
+        DemorphyManager.__init__(self, file_name)
         SuffixAnalyzer.__init__(self, word)
         TokenAnalyzer.__init__(self, sentence, token)
         InflectionAnalyzer.__init__(

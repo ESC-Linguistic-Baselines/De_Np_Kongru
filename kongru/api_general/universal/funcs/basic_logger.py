@@ -1,11 +1,13 @@
-# Standardbibliothek
+# Standard
 import logging
 import traceback
 
-# Externe Bibliothek
+# Pip
 import typer
 
-# Eigene Module
+# Custom
+
+# constans
 from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
 
 
@@ -66,6 +68,7 @@ def catch_and_log_error(
     Einrichten des Loggers und protokollieren einer Fehlermeldung.
 
     Args:
+        echo_color:
         error (Exception): Die Fehlermeldung.
         custom_message (str): Eine benutzerdefinierte Nachricht.
         kill_if_fatal_error (bool): Wenn eine Fehlermeldung kritisch ist, soll das Programm

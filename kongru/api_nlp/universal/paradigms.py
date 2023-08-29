@@ -1,6 +1,11 @@
-# -*- coding: utf-8 -*-
-
+# Standard
 from __future__ import absolute_import, unicode_literals
+
+# Pip
+# None
+
+# Custom
+# None
 
 """
 List of paradigms

@@ -8,9 +8,11 @@ import typer
 # Custom
 
 # api_general
-from kongru.api_general.data_parsers.app_data_parsers import app_typer_data_parser
+from kongru.api_general.database_managers.app_data_managers import (
+    app_typer_data_managers,
+)
 
-# universals
+# constants
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
@@ -26,9 +28,6 @@ from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
     app_typer_congruential_analysis,
 )
 
-# annotator
-from kongru.api_nlp.annotator.app_annotator import app_typer_annotator
-
 # Haupt-Typer App
 main_typer_app = typer.Typer(
     add_help_option=False,
@@ -39,8 +38,7 @@ main_typer_app = typer.Typer(
 
 # Die Sub-Typer apps, die hier zusammengefasst werden.
 main_typer_app.add_typer(app_typer_congruential_analysis)
-main_typer_app.add_typer(app_typer_annotator)
-main_typer_app.add_typer(app_typer_data_parser)
+main_typer_app.add_typer(app_typer_data_managers)
 
 
 @main_typer_app.command(

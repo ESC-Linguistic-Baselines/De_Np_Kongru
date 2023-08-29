@@ -1,5 +1,17 @@
+# Standard
 import datetime
+
+
+# Pip
+# None
+
+# Custom
+# None
 
 current_datetime = datetime.datetime.now()
 TIMESTAMP = current_datetime.strftime("%Y_%m_%d_%H_%M_%S")
 SIMPLE_TIMESTAMP = current_datetime.strftime("%Y_%m_%d")
+
+
+if __name__ == "__main__":
+    pass

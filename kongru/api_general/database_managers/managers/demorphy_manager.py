@@ -6,10 +6,14 @@ import pickle
 # None
 
 # Custom
+
+# api_general
+
+# constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 
-class DemorphyParser:
+class DemorphyManager:
     """ """
 
     def __init__(
@@ -134,4 +138,4 @@ class DemorphyParser:
 
 
 if __name__ == "__main__":
-    res = DemorphyParser().get_read_in_np_file()
+    res = DemorphyManager().get_read_in_np_file()

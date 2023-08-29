@@ -6,6 +6,7 @@ import json
 # None
 
 # Custom
+# None
 
 
 class AutoAnnotation:
@@ -210,7 +211,4 @@ class AutoAnnotation:
 
 
 if __name__ == "__main__":
-    file = AutoAnnotation(
-        file_name="/Users/christopherchandler/repo/Python/De_NP_Kongru/user/incoming/ast/1023_0001416.txt"
-    )
-    print(file.run_auto_annotation())
+    pass

@@ -6,11 +6,11 @@ import textdistance as td
 
 # Custom
 
-# constancs
+# constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 # error messages
-from kongru.api_general.universal.constants.error_messages.custom_error_messages import (
+from kongru.api_general.universal.constants.custom_error_messages import (
     CustomErrorMessages as CusEm,
 )
 

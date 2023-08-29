@@ -7,12 +7,8 @@
 # Custom
 # None
 
-"""
-Main Body
-"""
 
-
-def remove_bom(text):
+def remove_bom(text) -> str:
 
     # Check if the first character is the BOM and remove it
     if text and ord(text[0]) == 0xFEFF:

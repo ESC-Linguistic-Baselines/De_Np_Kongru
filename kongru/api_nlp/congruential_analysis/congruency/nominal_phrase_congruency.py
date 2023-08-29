@@ -10,14 +10,17 @@ from tqdm import tqdm
 # Custom
 
 # api_general
+
+# universals
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 # api_nlp
+# analysis
 from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
     DemorphyAnalyzer,
 )
-from kongru.api_nlp.congruential_analysis.analyzers.common_entity_recognizer import (
+from kongru.api_nlp.congruential_analysis.recognizers.common_entity_recognizer import (
     CommonEntityRecognizer as Cer,
 )
 

@@ -11,9 +11,6 @@ import typer
 # const
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
-# parsers
-from kongru.api_general.data_parsers.demorphy_parser import DemorphyParser
-
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import (
     catch_and_log_error,
@@ -30,7 +27,7 @@ from kongru.api_nlp.congruential_analysis.congruency.nominal_phrase_congruency i
 )
 
 app_typer_congruential_analysis = typer.Typer(
-    name="kongruenzanalyse",
+    name="kongruenz",
     help="Die NP-Eintraege auswerten",
     add_help_option=False,
     no_args_is_help=True,

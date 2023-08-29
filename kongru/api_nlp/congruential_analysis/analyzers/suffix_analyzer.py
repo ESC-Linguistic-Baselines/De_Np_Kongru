@@ -1,9 +1,14 @@
-# -*- coding: utf-8 -*-
-
+# Standard
 from __future__ import absolute_import, unicode_literals
-
 from collections import OrderedDict
-from kongru.api_nlp.universals.tagset import ParsedResult
+
+# Pip
+# None
+
+# Custom
+
+# universals
+from kongru.api_nlp.universal.tagset import ParsedResult
 
 
 class SuffixAnalyzer(object):

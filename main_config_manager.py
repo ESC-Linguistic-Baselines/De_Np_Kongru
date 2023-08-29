@@ -26,7 +26,7 @@ def get_config_data(file: str = None) -> dict:
         script_verzeichnis = os.path.dirname(os.path.abspath(__file__))
 
         # der Pfad zur YAML-Konfigurationsdatei relativ zum Verzeichnis des Skripts
-        file = os.path.join(script_verzeichnis, "config.yaml")
+        file = os.path.join(script_verzeichnis, "main_config.yaml")
 
     # Lade die YAML-Konfigurationsdatei
     with open(file, "r") as config_file:

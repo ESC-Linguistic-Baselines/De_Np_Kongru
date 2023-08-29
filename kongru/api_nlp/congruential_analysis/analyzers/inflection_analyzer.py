@@ -6,7 +6,11 @@ import yaml
 # None
 
 # Custom
-from kongru.api_nlp.universals.inflections import Inflections
+
+# universals
+from kongru.api_nlp.universal.inflections import Inflections
+
+# constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 

@@ -1,0 +1,69 @@
+Zeitpunkt: 2023-08-29 06:41:27,089
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 62, in run_analysis
+    np_congruency.save_congruency_results()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/congruency/nominal_phrase_congruency.py", line 496, in save_congruency_results
+    with open(
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/np_analysis_results/2023_08_29_np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/np_analysis_results/2023_08_29_np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 06:42:03,211
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 62, in run_analysis
+    np_congruency.save_congruency_results()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/congruency/nominal_phrase_congruency.py", line 496, in save_congruency_results
+    with open(
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/np_analysis_results/2023_08_29_np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/np_analysis_results/2023_08_29_np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 06:42:25,306
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 62, in run_analysis
+    np_congruency.save_congruency_results()
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/congruency/nominal_phrase_congruency.py", line 496, in save_congruency_results
+    with open(
+FileNotFoundError: [Errno 2] No such file or directory: 'user/outgoing/np_analysis_results/2023_08_29_np_test_1023_0001416.csv'
+
+Nachricht: [Errno 2] No such file or directory: 'user/outgoing/np_analysis_results/2023_08_29_np_test_1023_0001416.csv'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 86
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 06:44:15,886
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse wurden gespeichert
+Modul: basic_logger
+Funktion: log_info
+Linie: 98
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-08-29 06:51:13,924
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse wurden gespeichert
+Modul: basic_logger
+Funktion: log_info
+Linie: 98
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
