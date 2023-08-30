@@ -1,6 +1,6 @@
 # Standard
-import ast
 import os
+import time
 
 # Pip
 import typer
@@ -10,6 +10,11 @@ from rich.table import Table
 
 # Custom
 # api_general
+
+# extractors
+from kongru.api_general.database_managers.extractors.extract_conoll_to_pylist import \
+    run_script
+
 # managers
 from kongru.api_general.database_managers.managers.merlin_manager import (
     MerlinManager as Merlin,
@@ -84,18 +89,13 @@ def get_and_show_text_by_id(
         )
 
 
-@app_typer_data_managers.command(name="nps_lesen",
-                                 help="Nps aus einer bestimmten Datei lesen")
-def read_np_file(
+@app_typer_data_managers.command(name="nps_datenbank",
+                                 help="Nps aus einem bestimmen Datenbankeintrag extrahieren")
+def extract_nps_from_database(
         file_type: str = typer.Option(
             "ast_nps",
             "--datei_typ",
             "--typ"
-        ),
-        merlin_coprus_data: bool = typer.Option(
-            True,
-            "--datenbank",
-            "--eingangsdatei"
         ),
         text_id: str = typer.Option(
             "1023_0001416",
@@ -109,15 +109,33 @@ def read_np_file(
                           f"general_author_id = '{text_id}' ")
     database_results = corpus.read_database()
 
-    if merlin_coprus_data:
-        pass
-    else:
-        if file_type == "conll":
-            for entry in database_results:
-                typer.echo(*entry)
+    if database_results:
 
+        if file_type == "conll":
+            incoming = f"user/incoming/conll/{text_id}.conll"
+            outgoing = f"user/incoming/pylist/{text_id}.pylist"
+
+            incoming_file = open(incoming,mode="w",encoding="utf-8")
+
+            for row in database_results:
+                incoming_file.write(*row)
+
+            incoming_file.close()
+
+            time.sleep(1)
+
+            run_script(
+                infile=incoming,
+                outfile=outgoing
+            )
+            os.remove(incoming)
+
+
+
+        # np daten anzeigen
         if file_type == "ast_nps":
-            ast_np = AstNominalPhraseExtractor(incoming_data=database_results)
+            ast_np = AstNominalPhraseExtractor(incoming_data=database_results,
+               save_name=f"{Gp.RES_AST_NP_FILE.value}_{text_id}.csv")
             ast_results = ast_np.get_ast_data_overview()
 
             table = Table("Nominale Phrase", "Morphologische Information ")
@@ -125,7 +143,49 @@ def read_np_file(
                 data = ast_results.get(entry)
                 status, nominal_phrase = data[:2]
                 table.add_row(str(status), str(nominal_phrase))
+
             console.print(table)
+            ast_np.save_extracted_ast_nps()
+
+            typer.secho(
+                message="Ast-Datei wurde ausgelesen und gespeichert.",
+                fg=typer.colors.GREEN
+            )
+
+    elif not database_results:
+        catch_and_log_info(msg="Die Eingabe war falsch.",
+                           echo_msg=True)
+
+
+@app_typer_data_managers.command(
+    name="nps_datei", help="Nps aus einer bestimmen Datei extrahieren"
+)
+def extract_nps_from_local_file(
+        file_name: str = typer.Option(
+            Gp.TEST_NP_AST_FILE.value,
+            "--datei_name",
+            "--name",
+            help="Der Name der Ast-Datei, die ausgewertet werden soll.",
+        ),
+        file_type: str = typer.Option(
+            "ast_nps",
+            "--datei_typ",
+            "--typ"
+        ),
+):
+    base_file_name = os.path.basename(file_name)
+    file, extension = base_file_name.split(".")
+
+    if file_type == "ast_nps":
+        np_file_handler = AstNominalPhraseExtractor(
+            file_name=file_name, save_name=f"{Gp.RES_AST_NP_FILE.value}_{file}.csv"
+        )
+        np_file_handler.save_extracted_ast_nps()
+
+        typer.secho(
+            message="Ast-Datei wurde ausgelesen und gespeichert.",
+            fg=typer.colors.GREEN
+        )
 
 
 @app_typer_data_managers.command(name="daten_extrahieren")
@@ -137,48 +197,13 @@ def extract_data_from_merlin_database():
         print(row)
 
 
-@app_typer_data_managers.command(
-    name="nps_extrahieren", help="Nps aus einer bestimmen Datei lesen"
-)
-def extract_nps(
-        file_name: str = typer.Option(
-            default=Gp.TEST_NP_AST_FILE.value,
-            help="Der Name der Ast-Datei, die ausgewertet werden soll.",
-        ),
-):
-    base_file_name = os.path.basename(file_name)
-    file, extension = base_file_name.split(".")
-
-    np_file_handler = AstNominalPhraseExtractor(
-        file_name=file_name, save_name=f"{Gp.RES_AST_NP_FILE.value}_{file}.csv"
-    )
-    np_file_handler.save_extracted_ast_nps()
-
-    typer.secho(
-        message="Ast-Datei wurde ausgelesen und gespeichert.", fg=typer.colors.GREEN
-    )
-
-
-@app_typer_data_managers.command(name="json_erstellen")
-def create_np_json_file():
-    pass
-
-
-@app_typer_data_managers.command(name="conll_erstellen")
-def create_conoll_file():
-    pass
-
-
 @app_typer_data_managers.command(name="np_zu_json")
 def add_np_results_to_np_json_file():
     pass
 
 
 if __name__ == "__main__":
-    read_np_file(
-        file_type="ast_nps",
-        merlin_coprus_data=False,
-        text_id="1023_0001416"
+    extract_nps_from_database(
+        file_type="conll",
 
-
-    )
+        text_id="1091_0000269")

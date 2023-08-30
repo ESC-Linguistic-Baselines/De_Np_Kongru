@@ -92,7 +92,8 @@ def catch_and_log_error(
 
 
 def catch_and_log_info(
-    msg: str = "log info", echo_msg=False, log_info_message=True, echo_color=typer.colors.GREEN
+    msg: str = "log info", echo_msg=False, log_info_message=True,
+        echo_color=typer.colors.GREEN
 ):
     logger = get_logger(log_level=logging.INFO)
     if echo_msg:

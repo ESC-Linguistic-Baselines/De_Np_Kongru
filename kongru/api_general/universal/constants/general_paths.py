@@ -80,7 +80,10 @@ class GeneralPaths(Enum):
     TEST_NP_FILE_CSV = (
         "user/outgoing/extracted_nominal_phrases/nps_1023_0001416.csv"
     )
-    TEST_NP_AST_FILE = "user/incoming/ast/1023_0001416.ast"
+    TEST_NP_AST_FILE = "1023_0001416.ast"
+
+    # AST DIR
+    AST_DIR = "user/incoming/ast"
 
 
 try:

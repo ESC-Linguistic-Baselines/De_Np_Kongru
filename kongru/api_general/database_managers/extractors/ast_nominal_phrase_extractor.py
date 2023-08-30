@@ -14,9 +14,14 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 
 
 class AstNominalPhraseExtractor:
-    def __init__(self, file_name: str = Gp.TEST_NP_AST_FILE.value,
+    """
+
+    """
+    def __init__(self,
+                 file_name: str = Gp.TEST_NP_AST_FILE.value,
                  save_name: str = Gp.RES_AST_NP_FILE.value,
                  incoming_data=None):
+
         self.file_name = file_name
         self.save_name = save_name
         self.incoming_data = incoming_data
@@ -31,7 +36,8 @@ class AstNominalPhraseExtractor:
             return ast_data
         else:
             file = open(
-                self.file_name, mode="r", encoding="utf-8", errors="ignore"
+                f"{Gp.AST_DIR.AST_DIR.value}/{self.file_name}.ast",
+                mode="r", encoding="utf-8", errors="ignore"
             ).read()
 
             data = file.replace("\ufeff", "")
@@ -41,14 +47,7 @@ class AstNominalPhraseExtractor:
 
     def get_ast_data_overview(self) -> dict:
         """
-        Die NP-Datei, die ausgewertet werden soll, wird hier eingelesen.
 
-        Args:
-            file_name (str): die NP-datei, die eingelesen werden soll.
-
-        Returns:
-            np_file (list): eine Liste der NPs, die aus der eingelesenen Datei
-              extrahiert wurden
         """
         c = 0
         np_data = {}

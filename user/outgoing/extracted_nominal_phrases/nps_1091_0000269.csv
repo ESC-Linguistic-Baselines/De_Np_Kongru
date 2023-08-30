@@ -1,0 +1,24 @@
+Katharina,Katharina N Fem|_|Sg,Katharina .
+Zentralplatz,Zentralplatz N Masc|_|Sg,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+Julia Meier,Julia N Fem|_|Sg,Meier N Fem|_|Sg,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+Julia Meier Bahnhofsstraße,Julia N Fem|_|Sg,Meier N Fem|_|Sg,Bahnhofsstraße N Fem|_|Sg,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+Meier Bahnhofsstraße,Meier N Fem|_|Sg,Bahnhofsstraße N Fem|_|Sg,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+Stadt Y,Stadt N Fem|_|Sg,Y N _|_|Pl,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+Stadt Y Liebe,Stadt N Fem|_|Sg,Y N _|_|Pl,Liebe N _|_|Pl,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+Y Liebe Julia,Y N _|_|Pl,Liebe N _|_|Pl,Julia N Fem|_|Sg,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+Liebe Julia,Liebe N _|_|Pl,Julia N Fem|_|Sg,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+in Ordnung,in PREP _,Ordnung N Fem|_|Sg,"M Zentralplatz 1 12345 Julia Meier Bahnhofsstraße 2 54321 Stadt Y 13.02.2012 Liebe Julia , Ich hoffe alles ist in Ordnung bei Dir ."
+für einen Wochenendausflug,für PREP Acc,einen ART Indef|Masc|Acc|Sg,Wochenendausflug N Masc|Acc|Sg,"Ich habe eine Fahrkarte für einen Wochenendausflug gekauft , aber leider ich kann nicht in Stadt Z fahren , weil ich arbeit muss ."
+in Stadt Z,in PREP _,Stadt N Neut|_|_,Z N Neut|_|_,"Ich habe eine Fahrkarte für einen Wochenendausflug gekauft , aber leider ich kann nicht in Stadt Z fahren , weil ich arbeit muss ."
+Stadt Z,Stadt N Neut|_|_,Z N Neut|_|_,"Ich habe eine Fahrkarte für einen Wochenendausflug gekauft , aber leider ich kann nicht in Stadt Z fahren , weil ich arbeit muss ."
+arbeit,arbeit N _|_|_,"Ich habe eine Fahrkarte für einen Wochenendausflug gekauft , aber leider ich kann nicht in Stadt Z fahren , weil ich arbeit muss ."
+Zeit,Zeit N Fem|Nom|Sg,Hast du Zeit un lust am diesen Wochenende nach Stadt Z fahren ?
+lust,lust N _|_|_,Hast du Zeit un lust am diesen Wochenende nach Stadt Z fahren ?
+Z Wochenende,Z N Neut|Dat|_,Wochenende N Neut|Dat|_,Hast du Zeit un lust am diesen Wochenende nach Stadt Z fahren ?
+meine Fahrkarte,meine ART Fem|Acc|Sg,Fahrkarte N Fem|Acc|Sg,Ich gebe Dir meine Fahrkarte .
+kanst,kanst N _|Nom|Pl,Ich denke du kanst verreisen am diesen Wochenende 17 : Februar .
+am diesen Wochenende,am PREP Dat,diesen ART _|_|_,Wochenende N _|_|_,Ich denke du kanst verreisen am diesen Wochenende 17 : Februar .
+Februar,Februar N Masc|_|Sg,Ich denke du kanst verreisen am diesen Wochenende 17 : Februar .
+auf Deine anntworht Alles Liebe,auf PREP Acc,Deine ART _|Acc|_,anntworht ADJA _|_|Acc|_|_,Alles N _|Acc|_,Liebe N _|Acc|_,Ich hoffe auf Deine bald anntworht Alles Liebe Deine Katharina .
+Alles Liebe,Alles N _|Acc|_,Liebe N _|Acc|_,Ich hoffe auf Deine bald anntworht Alles Liebe Deine Katharina .
+Katharina Deine,Katharina N Fem|Nom|Sg,Deine ART Fem|Nom|Sg,Ich hoffe auf Deine bald anntworht Alles Liebe Deine Katharina .
