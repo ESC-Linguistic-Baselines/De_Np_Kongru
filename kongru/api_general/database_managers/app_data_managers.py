@@ -12,8 +12,9 @@ from rich.table import Table
 # api_general
 
 # extractors
-from kongru.api_general.database_managers.extractors.extract_conoll_to_pylist import \
-    run_script
+from kongru.api_general.database_managers.extractors.extract_conll_to_pylist import (
+    main_conll_to_pylist,
+)
 
 # managers
 from kongru.api_general.database_managers.managers.merlin_manager import (
@@ -44,27 +45,33 @@ app_typer_data_managers = typer.Typer(
 console = Console()
 
 
-@app_typer_data_managers.command(name="text_ids", help="Ids der Textdateien auflisten")
+@app_typer_data_managers.command(
+    name="text_ids", help="Ids der Textdateien auflisten", no_args_is_help=True
+)
 def show_text_ids() -> None:
-    sql_command = "SELECT general_author_id,general_mother_tongue,general_cefr," \
-                  "txt_len_in_char FROM learner_text_data "
+    sql_command = (
+        "SELECT general_author_id,general_mother_tongue,general_cefr,"
+        "txt_len_in_char FROM learner_text_data "
+    )
     text_ids = Merlin(sql_command=sql_command).read_database()
-    table = Table("general_author_id", 'general_mother_tongue', "general_cefr",
-                  "txt_len_in_char")
+    table = Table(
+        "general_author_id", "general_mother_tongue", "general_cefr", "txt_len_in_char"
+    )
     for id_entry in sorted(text_ids):
         table.add_row(*id_entry)
     console.print(table)
 
 
-@app_typer_data_managers.command(name="text_lesen",
-                                 help="einen bestimmten Text in der Datenbank lesen")
+@app_typer_data_managers.command(
+    name="text_lesen", help="einen bestimmten Text in der Datenbank lesen"
+)
 def get_and_show_text_by_id(
-        text_id: str = typer.Option(
-            "1031_0003130",
-            "--text_id",
-            "--id",
-            help="Die Text-Id des gewuenschten Textes angeben",
-        )
+    text_id: str = typer.Option(
+        "1031_0003130",
+        "--text_id",
+        "--id",
+        help="Die Text-Id des gewuenschten Textes angeben",
+    )
 ) -> None:
     entries_extracted_by_text_id = Merlin(text_id=text_id).extract_entry_by_id()
     custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
@@ -78,8 +85,7 @@ def get_and_show_text_by_id(
             for entry in entries_extracted_by_text_id:
                 typer.echo(f"{entry} {entries_extracted_by_text_id.get(entry)}")
         except Exception as e:
-            catch_and_log_error(error=e,
-                                custom_message=custom_message)
+            catch_and_log_error(error=e, custom_message=custom_message)
     else:
         catch_and_log_info(
             msg=custom_message,
@@ -89,33 +95,36 @@ def get_and_show_text_by_id(
         )
 
 
-@app_typer_data_managers.command(name="nps_datenbank",
-                                 help="Nps aus einem bestimmen Datenbankeintrag extrahieren")
+@app_typer_data_managers.command(
+    name="nps_datenbank",
+    help="Nps aus einem bestimmen Datenbankeintrag extrahieren",
+    no_args_is_help=True,
+)
 def extract_nps_from_database(
-        file_type: str = typer.Option(
-            "ast_nps",
-            "--datei_typ",
-            "--typ"
-        ),
-        text_id: str = typer.Option(
-            "1023_0001416",
-            "--text_id",
-            "--id",
-            help="Die Text-Id des gewuenschten Textes angeben",
-        )
+    data_type: str = typer.Option(
+        "ast_nps", "--datei_typ", "--typ" "'ast_nps' oder 'conll' als argument angeben"
+    ),
+    text_id: str = typer.Option(
+        "1023_0001416",
+        "--text_id",
+        "--id",
+        help="Die Text-Id des gewuenschten Textes angeben",
+    ),
 ) -> None:
     corpus = Merlin()
-    corpus.sql_command = (f"SELECT {file_type} FROM learner_text_data where "
-                          f"general_author_id = '{text_id}' ")
+    corpus.sql_command = (
+        f"SELECT {data_type} FROM learner_text_data where "
+        f"general_author_id = '{text_id}' "
+    )
     database_results = corpus.read_database()
 
     if database_results:
 
-        if file_type == "conll":
+        if data_type == "conll":
             incoming = f"user/incoming/conll/{text_id}.conll"
             outgoing = f"user/incoming/pylist/{text_id}.pylist"
 
-            incoming_file = open(incoming,mode="w",encoding="utf-8")
+            incoming_file = open(incoming, mode="w", encoding="utf-8")
 
             for row in database_results:
                 incoming_file.write(*row)
@@ -124,18 +133,15 @@ def extract_nps_from_database(
 
             time.sleep(1)
 
-            run_script(
-                infile=incoming,
-                outfile=outgoing
-            )
+            main_conll_to_pylist(infile=incoming, outfile=outgoing)
             os.remove(incoming)
 
-
-
         # np daten anzeigen
-        if file_type == "ast_nps":
-            ast_np = AstNominalPhraseExtractor(incoming_data=database_results,
-               save_name=f"{Gp.RES_AST_NP_FILE.value}_{text_id}.csv")
+        if data_type == "ast_nps":
+            ast_np = AstNominalPhraseExtractor(
+                incoming_data=database_results,
+                save_name=f"{Gp.RES_AST_NP_FILE.value}_{text_id}.csv",
+            )
             ast_results = ast_np.get_ast_data_overview()
 
             table = Table("Nominale Phrase", "Morphologische Information ")
@@ -149,61 +155,104 @@ def extract_nps_from_database(
 
             typer.secho(
                 message="Ast-Datei wurde ausgelesen und gespeichert.",
-                fg=typer.colors.GREEN
+                fg=typer.colors.GREEN,
             )
 
     elif not database_results:
-        catch_and_log_info(msg="Die Eingabe war falsch.",
-                           echo_msg=True)
+        catch_and_log_info(msg="Die Eingabe war falsch.", echo_msg=True)
 
 
 @app_typer_data_managers.command(
-    name="nps_datei", help="Nps aus einer bestimmen Datei extrahieren"
+    name="nps_datei",
+    help="Nps aus einer bestimmen Datei extrahieren",
+    no_args_is_help=True,
 )
 def extract_nps_from_local_file(
-        file_name: str = typer.Option(
-            Gp.TEST_NP_AST_FILE.value,
-            "--datei_name",
-            "--name",
-            help="Der Name der Ast-Datei, die ausgewertet werden soll.",
-        ),
-        file_type: str = typer.Option(
-            "ast_nps",
-            "--datei_typ",
-            "--typ"
-        ),
+    file_name: str = typer.Option(
+        Gp.TEST_NP_AST_FILE.value,
+        "--datei_name",
+        "--name",
+        help="Der Name der Datei, die ausgewertet werden soll.",
+    ),
+    file_type: str = typer.Option(
+        "ast_nps", "--datei_typ", "--typ", help="Dateitypen ast_nps, pylist, conll"
+    ),
 ):
-    base_file_name = os.path.basename(file_name)
-    file, extension = base_file_name.split(".")
+    try:
+        if file_type == "ast_nps":
+            np_file_handler = AstNominalPhraseExtractor(
+                ast_file_id=file_name,
+                save_name=f"user/outgoing/extracted_nominal_phrases/nps_{file_name}.csv",
+            )
+            np_file_handler.save_extracted_ast_nps()
 
-    if file_type == "ast_nps":
-        np_file_handler = AstNominalPhraseExtractor(
-            file_name=file_name, save_name=f"{Gp.RES_AST_NP_FILE.value}_{file}.csv"
+            typer.secho(
+                message="Ast-Datei wurde ausgelesen und gespeichert.",
+                fg=typer.colors.GREEN,
+            )
+
+        if file_type == "pylist":
+            np_file_handler = AstNominalPhraseExtractor(
+                pylist_name=file_name,
+                save_name=f"user/outgoing/extracted_nominal_phrases/nps_{file_name}.csv",
+            )
+            np_file_handler.save_extracted_ast_nps()
+
+            typer.secho(
+                message="Ast-Datei wurde ausgelesen und gespeichert.",
+                fg=typer.colors.GREEN,
+            )
+
+        if file_type == "conll":
+            incoming = f"user/incoming/conll/{file_name}.conll"
+            outgoing = f"user/incoming/pylist/{file_name}.pylist"
+
+            main_conll_to_pylist(infile=incoming, outfile=outgoing)
+
+    except Exception as e:
+        catch_and_log_error(error=e, custom_message="Ein Fehler ist aufgetreten.")
+
+
+@app_typer_data_managers.command(
+    name="daten_extrahieren", help="Die Befehle ausfuehren aus der SQL-Datei"
+)
+def extract_data_from_merlin_database(
+    sql_script: str = typer.Option(
+        Gp.SQL_MERLIN.value, "--sql_script", "--sql", help="Name der SQL datei"
+    ),
+    save_directory=typer.Option(
+        Gp.AST_DIR.value,
+        "--speichern-verzeichnis",
+        "--speichern",
+        help="Verzeichnis, worin die Ergebnisse gespeichert werden",
+    ),
+    file_extension=typer.Option(
+        "ast", "--datei_endung", "--endung", help="Die Endung der Datei"
+    ),
+):
+
+    with open(sql_script, "r") as sql_file:
+        script = sql_file.read()
+    merlin_corpus = Merlin(sql_command=script)
+    data = merlin_corpus.read_database()
+    for id in data:
+        merlin_corpus.text_id = id[0]
+        result = merlin_corpus.extract_entry_by_id()
+        extracted_element = result.get("ast_nps")
+
+        r = open(
+            f"{save_directory}/{merlin_corpus.text_id}.{file_extension}",
+            mode="w",
+            encoding="utf-8-sig",
         )
-        np_file_handler.save_extracted_ast_nps()
-
-        typer.secho(
-            message="Ast-Datei wurde ausgelesen und gespeichert.",
-            fg=typer.colors.GREEN
-        )
+        r.write(extracted_element)
 
 
-@app_typer_data_managers.command(name="daten_extrahieren")
-def extract_data_from_merlin_database():
-    with open(Gp.SQL_MERLIN.value, "r") as sql_file:
-        sql_script = sql_file.read()
-    text_ids = Merlin(sql_command=sql_script).read_database()
-    for row in text_ids:
-        print(row)
-
-
-@app_typer_data_managers.command(name="np_zu_json")
+@app_typer_data_managers.command(name="np_zu_json",
+                                 help="Funktion fehlt noch")
 def add_np_results_to_np_json_file():
     pass
 
 
 if __name__ == "__main__":
-    extract_nps_from_database(
-        file_type="conll",
-
-        text_id="1091_0000269")
+    extract_data_from_merlin_database()

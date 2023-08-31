@@ -1,17 +1,16 @@
 """
-Script started by Imge Yüzüncüoglu, Raha Musavi in summer semester 2023 in the course "Korpuslinguistische Analyse der Nominalflextion im Deutschen"
+Script started by Imge Yüzüncüoglu, Raha Musavi in summer semester 2023 in the course
+"Korpuslinguistische Analyse der Nominalflextion im Deutschen"
 edited by Ronja Laarmann-Quante
 
 last modified: 2023_08_10 by RLQ
 """
 # modules to import
-import re
 import pandas as pd
-from pathlib import Path
 import pprint
 
 
-def run_script(infile, outfile):
+def main_conll_to_pylist(infile, outfile):
 
     # list to store ALL nps of ONE FILE in
     nps_of_file = list()
@@ -21,15 +20,13 @@ def run_script(infile, outfile):
 
     # open the file in read-mode
     try:
-        with open(infile, 'r', encoding="utf-8") as file:
+        with open(infile, "r", encoding="utf-8") as file:
             # read in the lines of token
             file_input = file.readlines()
     except UnicodeDecodeError:
-            with open(infile, 'r', encoding="utf-8-sig") as file:
-                # read in the lines of token
-                file_input = file.readlines()
-
-
+        with open(infile, "r", encoding="utf-8-sig") as file:
+            # read in the lines of token
+            file_input = file.readlines()
 
     # list to generate a single sentences out of the file
     single_sentence = list()
@@ -38,11 +35,11 @@ def run_script(infile, outfile):
     for lineindex, line in enumerate(file_input):
         # if it is not an empty line/"sentence", add it to the
         # list of a single sentence
-        if line not in ['\n', '\r\n']:
+        if line not in ["\n", "\r\n"]:
             single_sentence.append(line)
 
         # empty line/"sentence" indicates the end of a sentence
-        if line in ['\n', '\r\n'] or lineindex == len(file_input)-1:
+        if line in ["\n", "\r\n"] or lineindex == len(file_input) - 1:
             # split each element of the sentence into the single token-information
             sentence_as_elements = list()
             for row in single_sentence:
@@ -50,10 +47,24 @@ def run_script(infile, outfile):
                 sentence_as_elements.append(elements)
 
             # create dataframe with column names
-            df = pd.DataFrame(sentence_as_elements, columns = ["ID", "token", "lemma", "wordtype", "POSTag", "features", "head", "deprel", "dunno1", "dunno2"])
+            df = pd.DataFrame(
+                sentence_as_elements,
+                columns=[
+                    "ID",
+                    "token",
+                    "lemma",
+                    "wordtype",
+                    "POSTag",
+                    "features",
+                    "head",
+                    "deprel",
+                    "dunno1",
+                    "dunno2",
+                ],
+            )
 
             # delete columns we do not need
-            df = df.drop(["dunno1", "dunno2"], axis = 1)
+            df = df.drop(["dunno1", "dunno2"], axis=1)
 
             # extract the whole token-column to get the whole sentence as tokens
             sentence_list = df["token"].values.tolist()
@@ -103,9 +114,7 @@ def run_script(infile, outfile):
                         if row2["head"] in head_ids and row2["wordtype"] == "PTKVZ":
                             head_ids.append(row2["ID"])
 
-
-
-                   # get head of the head as well
+                    # get head of the head as well
                     super_head_ids = []
 
                     if int(head_of_noun_ID) > 0:
@@ -114,9 +123,11 @@ def run_script(infile, outfile):
 
                         # also store verb particle
                         for index2, row2 in df.iterrows():
-                            if row2["head"] in super_head_ids and row2["wordtype"] == "PTKVZ":
+                            if (
+                                row2["head"] in super_head_ids
+                                and row2["wordtype"] == "PTKVZ"
+                            ):
                                 super_head_ids.append(row2["ID"])
-
 
                     # append the nouns ID to the list
                     current_np_ids.append(id_of_noun)
@@ -131,35 +142,46 @@ def run_script(infile, outfile):
 
                             candidate_id = token_id_list[ind][1]
 
-
                             # append the ID of the token of the sentence
                             # --> get a list with IDs, can sort them and
-                            # then create a second list with the filled in token (information)
+                            # then create a second list with the filled in token
+                            # (information)
 
                             current_np_ids.append(candidate_id)
 
-                            # if there is an adjective: append what belongs to the adjective as well
+                            # if there is an adjective: append what belongs to the
+                            # adjective as well
                             # (adverbs or coordinated adjectives)
                             # and everything that is dependent of that...
-                            # so go through dataframe once top to bottom and once bottom to top
+                            # so go through dataframe once top to bottom
+                            # and once bottom to top
                             if df.loc[int(candidate_id) - 1, "wordtype"] == "ADJA":
                                 adj_ids = [candidate_id]
                                 for index2, row2 in df.iterrows():
-                                    if row2["head"] in adj_ids and not row2["ID"] in current_np_ids:
+                                    if (
+                                        row2["head"] in adj_ids
+                                        and not row2["ID"] in current_np_ids
+                                    ):
                                         current_np_ids.append(row2["ID"])
                                         adj_ids.append(row2["ID"])
 
                                 for index2, row2 in df[::-1].iterrows():
-                                    if row2["head"] in adj_ids and not row2["ID"] in current_np_ids:
+                                    if (
+                                        row2["head"] in adj_ids
+                                        and not row2["ID"] in current_np_ids
+                                    ):
                                         current_np_ids.append(row2["ID"])
                                         adj_ids.append(row2["ID"])
 
-
-                            # if there is a verb (postnominal modifier e.g. object clause or relative clause)
+                            # if there is a verb (postnominal modifier e.g.
+                            # object clause or relative clause)
                             # append verb particle as well
                             if df.loc[int(candidate_id) - 1, "wordtype"] == "V":
                                 for index2, row2 in df.iterrows():
-                                    if row2["head"] == candidate_id and row2["wordtype"] == "PTKVZ":
+                                    if (
+                                        row2["head"] == candidate_id
+                                        and row2["wordtype"] == "PTKVZ"
+                                    ):
                                         current_np_ids.append(row2["ID"])
 
                     current_np_ids.sort(key=int)
@@ -171,27 +193,35 @@ def run_script(infile, outfile):
                     for token_id in current_np_ids:
                         index_in_df = int(token_id) - 1
                         if int(index_in_df) < 0:
-                            token_info = tuple(df.loc[int(token_id), :].values.flatten().tolist())
+                            token_info = tuple(
+                                df.loc[int(token_id), :].values.flatten().tolist()
+                            )
                         else:
-                            token_info = tuple(df.loc[int(index_in_df), :].values.flatten().tolist())
+                            token_info = tuple(
+                                df.loc[int(index_in_df), :].values.flatten().tolist()
+                            )
 
                         current_np.append(token_info)
-
 
                     # extract info of the head of the noun including verb particle
                     head_info = []
 
                     for head_id in sorted(head_ids, key=int):
                         if int(head_of_noun_ID) > 0:
-                         info = df.loc[int(head_id) - 1, :].values.flatten().tolist()
-                         head_info.append(info)
+                            info = df.loc[int(head_id) - 1, :].values.flatten().tolist()
+                            head_info.append(info)
 
-                    # if present, extract info of the super head, e.g. head of preposition ("liegt unter"...)
+                    # if present, extract info of the super head, e.g. head of
+                    # preposition ("liegt unter"...)
                     # including verb particles
                     super_head_info = []
                     for super_head_id in sorted(super_head_ids, key=int):
                         if int(super_head_id) > 0:
-                            info = df.loc[int(super_head_id) - 1, :].values.flatten().tolist()
+                            info = (
+                                df.loc[int(super_head_id) - 1, :]
+                                .values.flatten()
+                                .tolist()
+                            )
                             super_head_info.append(info)
 
                     """
@@ -202,14 +232,23 @@ def run_script(infile, outfile):
                         [head info] {list},
                         [super head info] {list},
                         number-of-tokens-in-NP {int},
-                        [NP] {list}, e.g..: [(token1, POS-tag, grammatical_info,...),... (token-n, POS-tag, grammatical_info,...)],
+                        [NP] {list}, e.g..: [(token1, POS-tag, grammatical_info,...),
+                        ... (token-n, POS-tag, grammatical_info,...)],
                     ]
                     """
 
                     sentence_np_id = str(sentence_counter) + "_" + str(np_counter)
                     infilename = infile
 
-                    final_form_of_np = [sentence_np_id, infilename, sentence_as_string, super_head_info, head_info, number_of_tokens_of_np, current_np]
+                    final_form_of_np = [
+                        sentence_np_id,
+                        infilename,
+                        sentence_as_string,
+                        super_head_info,
+                        head_info,
+                        number_of_tokens_of_np,
+                        current_np,
+                    ]
 
                     np_counter += 1
 
@@ -220,28 +259,19 @@ def run_script(infile, outfile):
 
             sentence_counter += 1
 
-            if len(all_nps_of_sentence) > 0: #ignore empty lines
+            if len(all_nps_of_sentence) > 0:  # ignore empty lines
                 nps_of_file.append(all_nps_of_sentence)
 
-
-    # print the final list into a file that can be read in as a literal Python list for the other groups to
-    # process further 
+    # print the final list into a file that can be read in as a literal Python list
+    # for the other groups to process further
     with open(outfile, "w", encoding="UTF-8-sig") as f:
-        #pprint.pprint(nps_of_file)
+        # pprint.pprint(nps_of_file)
         pprint.pprint(nps_of_file, f)
+
 
 #########################
 # main
 #########################
 
 if __name__ == "__main__":
-
-    ### EXAMPLE
-    infile = "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/incoming/conll/1023_0001416.conll"
-    #infile = "data/example/conll/mini_example.conll"
-    outfile ="test"
-
-    run_script(infile, outfile)
-
-#####################################
-
+    pass

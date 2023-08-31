@@ -4,7 +4,7 @@
 # Pip
 import typer
 
-from rich.console import  Console
+from rich.console import Console
 from rich.table import Table
 
 # Custom
@@ -50,13 +50,11 @@ def nominal_phrase_agreement_analysis(
         "--d",
         help="Die NP-datei, die ausgewertet werden soll ",
     ),
-    save_results: bool = typer.Option(True,
-                                      "--speichern",
-                                      "--anzeigen",
-                                      help="Ergebnisse speichern"),
+    save_results: bool = typer.Option(
+        True, "--speichern", "--anzeigen", help="Ergebnisse speichern"
+    ),
 ) -> None:
-    """
-    """
+    """ """
     try:
         # Demorphy aufstellen, um die Datei auswerten zu koennen
         demorphy = DemorphyAnalyzer()
@@ -74,9 +72,10 @@ def nominal_phrase_agreement_analysis(
         if save_results:
             # Die Ergebnisse werden zwar gespeichert, aber nicht angezeigt.
             np_congruency.save_congruency_results()
-            catch_and_log_info(msg="Die Ergebnisse der Auswertung wurden gespeichert",
-                               echo_msg=True,
-                               )
+            catch_and_log_info(
+                msg="Die Ergebnisse der Auswertung wurden gespeichert",
+                echo_msg=True,
+            )
         else:
             # Die Ergebnisse werden zwar angezeigt, aber nicht gespeichert
             congruency_check = np_congruency.run_congruency_check()
@@ -89,8 +88,7 @@ def nominal_phrase_agreement_analysis(
 
     except Exception as e:
         catch_and_log_error(
-            error=e,
-            custom_message="Bei der Analyse ist etwas schief gelaufen."
+            error=e, custom_message="Bei der Analyse ist etwas schief gelaufen."
         )
 
 

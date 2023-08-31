@@ -11,20 +11,23 @@ from io import StringIO
 
 # universals
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 
 class AstNominalPhraseExtractor:
-    """
+    """ """
 
-    """
-    def __init__(self,
-                 file_name: str = Gp.TEST_NP_AST_FILE.value,
-                 save_name: str = Gp.RES_AST_NP_FILE.value,
-                 incoming_data=None):
-
-        self.file_name = file_name
+    def __init__(
+        self,
+        ast_file_id: str = Gp.TEST_NP_AST_FILE.value,
+        save_name: str = Gp.RES_AST_NP_FILE.value,
+        incoming_data=None,
+        pylist_name=None,
+    ):
+        self.pylist_name = pylist_name
         self.save_name = save_name
         self.incoming_data = incoming_data
+        self.file_id = ast_file_id
 
     def get_ast_data(self) -> list:
 
@@ -34,10 +37,33 @@ class AstNominalPhraseExtractor:
             ast_data = ast.literal_eval(data)
             ast_data = ast.literal_eval(ast_data[0][0])
             return ast_data
-        else:
+
+        if self.file_id and not self.pylist_name:
+            try:
+                file = open(
+                    f"{Gp.AST_DIR.AST_DIR.value}/{self.file_id}.ast",
+                    mode="r",
+                    encoding="utf-8",
+                    errors="ignore",
+                ).read()
+
+                data = file.replace("\ufeff", "")
+                ast_data = ast.literal_eval(data)
+
+                return ast_data
+            except Exception as e:
+                catch_and_log_error(
+                    error=e,
+                    custom_message="Datei ist nicht vorhanden",
+                    kill_if_fatal_error=True,
+                )
+
+        if self.pylist_name:
             file = open(
-                f"{Gp.AST_DIR.AST_DIR.value}/{self.file_name}.ast",
-                mode="r", encoding="utf-8", errors="ignore"
+                f"user/incoming/pylist/{self.pylist_name}.pylist",
+                mode="r",
+                encoding="utf-8",
+                errors="ignore",
             ).read()
 
             data = file.replace("\ufeff", "")
@@ -46,9 +72,7 @@ class AstNominalPhraseExtractor:
             return ast_data
 
     def get_ast_data_overview(self) -> dict:
-        """
-
-        """
+        """ """
         c = 0
         np_data = {}
         allowed_pos = ["N", "PREP", "ART", "ADJA"]  # not allowed: 'CARD', 'V', 'KON'
@@ -59,7 +83,7 @@ class AstNominalPhraseExtractor:
 
             for raw in sentence:
                 if len(raw) == 7:
-
+                    true_np = ""
                     c += 1
                     np_value = []
                     for token in raw[6]:
@@ -86,7 +110,12 @@ class AstNominalPhraseExtractor:
                                     d = [item[0] for item in np_value]
                                     true_np = " ".join(d)
 
-                                np_data[c] = [true_np, np_value, raw[3]]
+                                if isinstance(raw[2], str):
+                                    sentence = raw[2]
+                                else:
+                                    sentence = raw[3]
+
+                                np_data[c] = [true_np, np_value, sentence]
 
         return np_data
 
