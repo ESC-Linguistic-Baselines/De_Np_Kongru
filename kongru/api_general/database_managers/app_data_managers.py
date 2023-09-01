@@ -187,7 +187,7 @@ def extract_nps_from_local_file(
             np_file_handler.save_extracted_ast_nps()
 
             typer.secho(
-                message="Ast-Datei wurde ausgelesen und gespeichert.",
+                message=f"Die Ast-Datei {file_name} wurde ausgelesen und gespeichert.",
                 fg=typer.colors.GREEN,
             )
 
@@ -248,8 +248,7 @@ def extract_data_from_merlin_database(
         r.write(extracted_element)
 
 
-@app_typer_data_managers.command(name="np_zu_json",
-                                 help="Funktion fehlt noch")
+@app_typer_data_managers.command(name="np_zu_json", help="Funktion fehlt noch")
 def add_np_results_to_np_json_file():
     pass
 

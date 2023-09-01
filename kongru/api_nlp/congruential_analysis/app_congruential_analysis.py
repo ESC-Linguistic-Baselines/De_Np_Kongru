@@ -53,6 +53,12 @@ def nominal_phrase_agreement_analysis(
     save_results: bool = typer.Option(
         True, "--speichern", "--anzeigen", help="Ergebnisse speichern"
     ),
+    save_file: str = typer.Option(
+        "np.csv",
+        "--speichern-ergebnisse",
+        "--speichern",
+        help="Der Name des Ergebnisse ",
+    ),
 ) -> None:
     """ """
     try:
@@ -65,7 +71,7 @@ def nominal_phrase_agreement_analysis(
 
         # Kongruenz bestimmen
         np_congruency = NominalPhraseCongruency(
-            morpho_results=morpho_results, save_file_name="np_test_1023_0001416.csv"
+            file_name=file_name, morpho_results=morpho_results, save_file_name=save_file
         )
 
         # Ergebnisse speichern

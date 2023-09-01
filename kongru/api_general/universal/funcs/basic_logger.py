@@ -61,6 +61,7 @@ def get_logger(log_level=logging.ERROR) -> logging.Logger:
 def catch_and_log_error(
     error: Exception,
     custom_message: str,
+    echo_error=True,
     kill_if_fatal_error=False,
     echo_color=typer.colors.RED,
 ) -> None:
@@ -79,9 +80,10 @@ def catch_and_log_error(
     """
     logger = get_logger()
     traceback_str = traceback.format_exc()
-    typer.secho(error, fg=echo_color)
-    typer.secho(custom_message, fg=echo_color)
-    typer.echo(traceback_str)
+
+    if echo_error:
+        typer.secho(custom_message, fg=echo_color)
+        typer.echo(traceback_str)
 
     logger.error(
         error, extra={"custom_message": custom_message, "traceback": traceback_str}

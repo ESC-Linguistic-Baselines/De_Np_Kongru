@@ -13,7 +13,10 @@ from tqdm import tqdm
 
 # universals
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
+from kongru.api_general.universal.funcs.basic_logger import (
+    catch_and_log_error,
+    catch_and_log_info,
+)
 
 # api_nlp
 # analysis
@@ -28,9 +31,10 @@ from kongru.api_nlp.congruential_analysis.recognizers.common_entity_recognizer i
 class NominalPhraseCongruency:
     """ """
 
-    def __init__(self, morpho_results, save_file_name=""):
+    def __init__(self, morpho_results, save_file_name, file_name):
         self.morpho_results = morpho_results
         self.save_file_name = save_file_name
+        self.file_name = file_name.split("/")[-1]  # tatsaechliche Datei
 
     @staticmethod
     def prepositional_nominal_phrase(
@@ -133,50 +137,62 @@ class NominalPhraseCongruency:
     def art_def_nominal_phrase(extracted_info, sentence, vocabulary, np_demorphy):
 
         # Nominal
-        head = vocabulary[-1]
-        res = DemorphyAnalyzer().guess_noun_by_suffix(head)
-
-        (
-            _,
-            np_genus,
-            np_kasus,
-            np_numerus,
-        ) = extracted_info
-
-        demorphy_check = 0
-
-        for demoprhy_enty in np_demorphy[1][1]:
-            demoprhy_enty = demoprhy_enty.replace(" ", ",")
-            entry = demoprhy_enty.split(",")
+        try:
+            head = vocabulary[-1]
+            res = DemorphyAnalyzer().guess_noun_by_suffix(head)
 
             (
-                noun_demorph,
-                pos_demorph,
-                genus_demorph,
-                kasus_demorph,
-                numerus_demorph,
-            ) = entry
-            numerus_demorph = numerus_demorph.replace("plu", "pl")
-            numerus_demorph = numerus_demorph.replace("sing", "sg")
+                _,
+                np_genus,
+                np_kasus,
+                np_numerus,
+            ) = extracted_info
 
-            np_morph = (np_genus, np_kasus, np_numerus)
-            np_demorph = (genus_demorph, kasus_demorph, numerus_demorph)
+            demorphy_check = 0
 
-            np_morph = [i.lower() for i in np_morph]
-            np_demorph = [i.lower() for i in np_demorph]
+            for demoprhy_enty in np_demorphy[1][1]:
+                demoprhy_enty = demoprhy_enty.replace(" ", ",")
+                entry = demoprhy_enty.split(",")
 
-            demorphy_check = np_morph == np_demorph
+                (
+                    noun_demorph,
+                    pos_demorph,
+                    genus_demorph,
+                    kasus_demorph,
+                    numerus_demorph,
+                ) = entry
+                numerus_demorph = numerus_demorph.replace("plu", "pl")
+                numerus_demorph = numerus_demorph.replace("sing", "sg")
 
-            if demorphy_check:
-                break
+                np_morph = (np_genus, np_kasus, np_numerus)
+                np_demorph = (genus_demorph, kasus_demorph, numerus_demorph)
 
-        # Exisitiert das Wort in dem Woerterbuch
-        demorphy_dict = DemorphyAnalyzer().get_read_in_demorphy_dict(True)
-        word = demorphy_dict.get(res[0])
+                np_morph = [i.lower() for i in np_morph]
+                np_demorph = [i.lower() for i in np_demorph]
 
-        if demorphy_check and bool(word) or demorphy_dict and demorphy_dict.get(head):
-            return "1"
-        else:
+                demorphy_check = np_morph == np_demorph
+
+                if demorphy_check:
+                    break
+
+            # Exisitiert das Wort in dem Woerterbuch
+            demorphy_dict = DemorphyAnalyzer().get_read_in_demorphy_dict(True)
+            word = demorphy_dict.get(res[0])
+            if (
+                demorphy_check
+                and bool(word)
+                or demorphy_dict
+                and demorphy_dict.get(head)
+            ):
+                return "1"
+            else:
+                return "0"
+        except Exception as e:
+            catch_and_log_error(
+                error=e,
+                custom_message="Np konnte als Art nicht verarbeitet werden. ",
+                echo_error=False,
+            )
             return "0"
 
     @staticmethod
@@ -393,9 +409,17 @@ class NominalPhraseCongruency:
 
                 # Wenn die NP mit einem Artikel anfaengt.
                 if congurency_type == "ART":
-                    congruency_result = self.art_def_nominal_phrase(
-                        extracted_info, sentence_np, vocabulary_np, np_demorphy
-                    )
+                    try:
+                        congruency_result = self.art_def_nominal_phrase(
+                            extracted_info, sentence_np, vocabulary_np, np_demorphy
+                        )
+                    except Exception as e:
+                        catch_and_log_error(
+                            error=e,
+                            custom_message="NP konnte als ART nicht verarbeitet werden.",
+                            echo_error=False,
+                        )
+                        congruency_result = "99"
 
                     # Die NP-Kongruenz-Information
                     extracted_np_info = [
@@ -464,7 +488,7 @@ class NominalPhraseCongruency:
             np_data.items(),
             file=sys.stdout,
             disable=False,
-            desc="NP-Analyse durchfuehren",
+            desc=f"Die NP-Analyse fuer {self.file_name} durchfuehren...",
         ):
 
             np_info = np_data.get(np_key)
@@ -478,7 +502,10 @@ class NominalPhraseCongruency:
                 )
                 congruency_results[np_key] = np_analysis
 
-        typer.echo("Np-Analyse abgeschlossen")
+        catch_and_log_info(
+            msg=f"Die NP-Analyse fuer {self.file_name} wurde abgeschlossen...",
+            echo_msg=True,
+        )
 
         return congruency_results
 
