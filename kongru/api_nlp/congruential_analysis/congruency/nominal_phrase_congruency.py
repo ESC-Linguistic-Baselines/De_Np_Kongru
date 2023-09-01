@@ -4,7 +4,6 @@ import csv
 import sys
 
 # Pip
-import typer
 from tqdm import tqdm
 
 # Custom
@@ -29,28 +28,97 @@ from kongru.api_nlp.congruential_analysis.recognizers.common_entity_recognizer i
 
 
 class NominalPhraseCongruency:
-    """ """
+    """
+    NominalPhraseCongruency soll die Kongruenz in einer deutschen Nominal Phrase
+    bestimmen koennen. Dafuer braucht es Ergebnisse aus der Eingangsauswertung
+    von DemorphyAnalyzer().
 
-    def __init__(self, morpho_results, save_file_name, file_name):
+    Es werden hier verschiende Kongruenzcodes aufgelistet, um festzustellen,
+    um welche Art von Kongruenz es sich handelt.
+
+    # Kongruenz
+    Gruende, weswegen die Nominalphrase kongruiert
+    0 -  ART NP
+    1
+    2
+    3
+    4
+    5 - PREP NP
+    ...
+
+    # Nicht Kongruenz
+     Gruende, weswegen die Nominalphrase nicht kongruiert
+    11 - ART NP
+    12
+    13
+    14
+    15 - PREP NP
+    ...
+
+    # Rechtschreibung, Redewendung, etc-
+    20 - richtiges Wort
+    21 - Redewendung bzw. gaengiger Satz
+    22 - richtiger Satz
+    23 - Rechtschreibfehler
+
+    # Unbekannt
+    99 - Aus unbekannten Gruenden konnte die Kongruenz nicht bestimmt werden.
+    Es ist vermutlich irgendwo ein Fehler aufgetreten. Es kann auch sein,
+    dass die Kongruenz einfach nicht ermittelt werden konnte.
+    """
+
+    def __init__(self, morpho_results: dict, save_file_name: str, file_name: str):
+        """
+
+        Args:
+            morpho_results (str): Die morphologischen Ergebnisse von Demorphy.
+            save_file_name (str): Der Name der Datei, die gespeichert werden soll.
+            file_name (str): Der Name, der Datei, die analysiert wurde.
+                Das ist nur fuer die Benennung der Ergebnissdatei wichtig
+        """
         self.morpho_results = morpho_results
         self.save_file_name = save_file_name
-        self.file_name = file_name.split("/")[-1]  # tatsaechliche Datei
+        self.file_name = file_name.split("/")[-1]  # tatsaechliche Dateiendung
 
     @staticmethod
     def prepositional_nominal_phrase(
-        extracted_info, sentence_np, vocabulary_np, np_demorphy, vocabulary_np_data
+        extracted_info: list,
+        sentence_np: str,
+        vocabulary_np: list,
+        np_demorphy: list,
+        vocabulary_np_data: dict,
     ):
+        """
+        bestimmt eine praepositionale Nominalphrase (PNP) auf Deutsch.
 
-        # Nominal
+        Args:
+            extracted_info (list): Ein Dictionary mit extrahierten Informationen zur PNP.
+            sentence_np (str): Die Nominalphrase im Satz, zu der die PNP hinzugefuegt wird.
+            vocabulary_np (list): Eine Liste von Woertern,
+            die mit der Nominalphrase in Verbindung stehen.
+            np_demorphy (list): Die Morphologische Informationen ueber diese NP
+                aus demorphy
+            vocabulary_np_data (dict): Ein Dictionary mit zusätzlichen
+            Informationen zur Nominalphrase.
+
+        Returns:
+            5 -> Erfolgreich
+            15 ->  Nicht Erfolgreich
+            99 -> Unbekannt
+        """
+        # Nominale Phrase
         head = vocabulary_np[-1]
         demorphy_analyzer = DemorphyAnalyzer()
         inflection_analyzer = demorphy_analyzer
 
+        # Wenn die Adjektive Fehlen, kann man davon ausgehen,
+        # dass die nominale Phrase automatisch kongruiert
         inflected_word_classes_exist = {"ADJA": False, "ART": False}
 
         # nach ADJ oder DEF suchen
         for row in extracted_info:
             row = row.split(",")
+
             if "ART" in row:
                 inflected_word_classes_exist["ART"] = True
             if "ADJA" in row:
@@ -60,20 +128,37 @@ class NominalPhraseCongruency:
         lema_exists = head in lemma_finder
 
         # Wenn es keine unbestimmen/bestimmten Artikel gibt
-        # und der Kopf ist ein Lemma
-        # kann man davon ausgehen, dass die NP kongruiert.
+        # und der Kopf ist ein Lemma kann man davon ausgehen, dass die NP kongruiert.
         if (
             inflected_word_classes_exist.get("ADJA") is False
             and inflected_word_classes_exist.get("ART") is False
             and lema_exists
         ):
-            return "5"
+
+            return 5
 
         else:
+            # NP
+
             try:
 
-                def token_data(token_key=1):
+                def token_data(token_key=1) -> dict:
+                    """
+                    Die morphologischen Daten aus einem bestimmten Token extrahieren,
+                    die sich in einem Dictionary befinden.
 
+                    Args:
+                        token_key (1):
+                            Der Token-Key
+                    Returns:
+                            token_results (dict) = {
+                            "main_token": main_token,
+                            "article": article,
+                            "number": number,
+                            "gender": gender,
+                            "case": case,
+                        }
+                    """
                     try:
                         main_token = vocabulary_np_data.get(token_key).get("noun", "")
                         article = vocabulary_np_data.get(token_key).get("noun", "")
@@ -93,18 +178,21 @@ class NominalPhraseCongruency:
                             .get("kasus", "")
                         )
 
-                        return {
+                        token_results = {
                             "main_token": main_token,
                             "article": article,
                             "number": number,
                             "gender": gender,
                             "case": case,
                         }
+                        return token_results
                     except Exception as e:
                         catch_and_log_error(
                             error=e,
-                            custom_message="Key in dem token_data ist nicht vorhanden",
+                            custom_message="Key in dem 'token_data' ist nicht vorhanden",
                         )
+
+                ########################################################
 
                 prep = token_data()
                 head_noun = token_data(2)
@@ -122,25 +210,51 @@ class NominalPhraseCongruency:
                 )
 
                 if inflection_result:
-                    return "5"
+                    return 5
                 else:
-                    return "99"
+                    return 15
 
             except Exception as e:
                 catch_and_log_error(
                     error=e,
-                    custom_message="Die Bestimmung über Praeposition konnte nicht "
+                    custom_message="Die Bestimmung ueberber Praeposition konnte nicht "
                     "durchgefuehrt werden",
                 )
+                return 99
 
     @staticmethod
-    def art_def_nominal_phrase(extracted_info, sentence, vocabulary, np_demorphy):
+    def art_def_nominal_phrase(
+        extracted_info: list,
+        sentence_np: str,
+        vocabulary_np: list,
+        np_demorphy: list,
+        vocabulary_np_data: dict,
+    ):
+        """
+        bestimmt eine enifache Nominalphrase (NP) auf Deutsch.
+
+        Args:
+            extracted_info (list): Ein Dictionary mit extrahierten Informationen zur PNP.
+            sentence_np (str): Die Nominalphrase im Satz, zu der die PNP hinzugefuegt wird.
+            vocabulary_np (list): Eine Liste von Woertern,
+            die mit der Nominalphrase in Verbindung stehen.
+            np_demorphy (list): Die Morphologische Informationen ueber diese NP
+                aus demorphy
+            vocabulary_np_data (dict): Ein Dictionary mit zusätzlichen
+            Informationen zur Nominalphrase.
+
+        Returns:
+            1 -> Erfolgreich
+            11 ->  Nicht erfolgreich
+            99 -> Unbekannt
+        """
 
         # Nominal
         try:
-            head = vocabulary[-1]
+            head = vocabulary_np[-1]
             res = DemorphyAnalyzer().guess_noun_by_suffix(head)
 
+            # TODO Das Programm kann nicht mit NPS umgehen, die keinen Artikel haben
             (
                 _,
                 np_genus,
@@ -184,19 +298,35 @@ class NominalPhraseCongruency:
                 or demorphy_dict
                 and demorphy_dict.get(head)
             ):
-                return "1"
+                return 1
             else:
-                return "0"
+                return 11
+
         except Exception as e:
             catch_and_log_error(
                 error=e,
-                custom_message="Np konnte als Art nicht verarbeitet werden. ",
+                custom_message="Np konnte als ART nicht verarbeitet werden.",
                 echo_error=False,
             )
-            return "0"
+            return 99
 
     @staticmethod
-    def nominal_phrasing_spelling(vocabulary_np, demorphy_dict):
+    def nominal_phrasing_spelling(vocabulary_np: list, demorphy_dict: dict) -> int:
+        """
+        bestimmt die Rechtschreibung in den nominalen Phrasen.
+        Es wird auch festgestllt, ob die Nominalphrase eine gaengige Redwendung ist.
+        Wenn es eine gaenige Redewendung ist wie z.B. 'Mit freundlichen Grueßen'
+        oder "Liebe XYZ", kann man fast davon ausegehen, dass diese NPs entweder
+        richtig sind oder hoechstens uninteressant.
+
+        Args:
+            vocabulary_np (list): Eine Liste von Woertern, die mit der Nominalphrase
+             in Verbindung stehen.
+            demorphy_dict (dict): Die Morphologische Informationen ueber diese NP
+                    aus demorphy.
+        Returns:
+                code (int) Der Typ vom Satz.
+        """
 
         phrasing_and_spelling = {
             "demorphy_word": list(),
@@ -210,6 +340,7 @@ class NominalPhraseCongruency:
         detecor = Cer(phrases_or_proper=[vocabulary_phrase])
         phrase = detecor.check_common_phrase_or_proper(entity_check="phrase")
 
+        # Bestimmen, ob der Satz ein gaengiger Satz ist
         for word in vocabulary_np:
             detecor = Cer(phrases_or_proper=[word])
             demorphy_entry = demorphy_dict.get(word)
@@ -223,15 +354,20 @@ class NominalPhraseCongruency:
             demorphy_entry_exists = bool(demorphy_entry is not None)
 
             # Kategorien aufstellen
+
+            # Rechtschreibfehler
             misspelling = (
                 not demorphy_entry_exists
                 and not proper_common_exists
                 and not phrase_exists
             )
 
+            # Das Wort kommt in dem Demorphy Dictionary vor
             demorphy_words = (
                 demorphy_entry_exists and not proper_common_exists and not phrase_exists
             )
+
+            # Gaengier Satz
             proper_common = demorphy_entry_exists or proper_common_exists
 
             # Eintraege sortieren
@@ -245,8 +381,8 @@ class NominalPhraseCongruency:
                 phrasing_and_spelling["phrase"].append(vocabulary_phrase)
                 break
 
-        # Eintragart bestimmen
-
+        # Eintragart bestimmen, in verschiedene Eigeneschaften
+        # miteinander kombiniert werden
         correct_word = (
             phrasing_and_spelling.get("demorphy_word")
             and not phrasing_and_spelling.get("misspelling")
@@ -263,21 +399,34 @@ class NominalPhraseCongruency:
         ) and not phrasing_and_spelling.get("misspelling")
         misspelling_only = phrasing_and_spelling.get("misspelling")
 
+        # Welche Schreibweise bzw. welcher Typ ist vorhanden ?
         if correct_word:
-            return "1"
+            return 20
 
         elif proper_common_correct:
-            return "2"
+            return 21
 
         elif phrase_correct:
-            return "3"
+            return 22
 
         elif misspelling_only:
-            return "4"
+            return 23
 
     def nominal_congruency_check(
         self, np_info: dict, np_demorphy: list, demorphy_dict: dict
     ):
+        """
+
+        Args:
+            np_info (dict): Die morphologischen Information ueber diese NP
+            np_demorphy (list): Die Morphologische Informationen ueber diese NP
+                aus demorphy
+            demorphy_dict (dict): Die Morphologische Informationen ueber diese NP
+                    aus demorphy.
+
+        Returns:
+
+        """
 
         try:
             ##########################################
@@ -323,17 +472,17 @@ class NominalPhraseCongruency:
 
             if full_np in sentence_np:
                 # Eigennamen
-                if phrasing_and_spelling == "2":
+                if phrasing_and_spelling == 21:
                     if np_type_exists is False:
                         np_type["TYPE"] = phrasing_and_spelling
 
                 # Phrase z.B. typische Redewendungen, Straßennamen, etc.
-                elif phrasing_and_spelling == "3":
+                elif phrasing_and_spelling == 22:
                     if np_type_exists is False:
                         np_type["TYPE"] = phrasing_and_spelling
 
                 # Rechtschreibfehler in dem Satz
-                elif phrasing_and_spelling == "4":
+                elif phrasing_and_spelling == 23:
                     if np_type_exists is False:
                         np_type["TYPE"] = phrasing_and_spelling
 
@@ -371,7 +520,7 @@ class NominalPhraseCongruency:
                 falsch geschrieben wurden. 
                 """
 
-                if full_np in sentence_np and phrasing_and_spelling == "1":
+                if full_np in sentence_np and phrasing_and_spelling == 20:
 
                     # Die Analyse haengt vom ersten Wort ab
                     initial_word = np_info.get(1).get("pos")
@@ -474,16 +623,36 @@ class NominalPhraseCongruency:
                 "durchgefuehrt werden.",
             )
 
-    def run_congruency_check(self):
-        """ """
+    def run_congruency_check(self) -> list:
+        """
+        Fuehrt eine Kongruenzpruefung für die aktuellen NP urch.
+
+        Diese Methode startet den Prozess zur Pruefung der Kongruenz der aktuellen Daten.
+        Sie analysiert die vorhandenen Informationen und gibt das Ergebnis der Kongruenzpruefung
+        zurueck.
+
+        Args:
+            None
+
+        Returns:
+            congruency_results (dict): Die Ergebnisse der Auswertung
+                Beispiel
+                3,Mit freundlichen Grüßen,"Mit,PREP,_|_|Dat|_",
+                "freundlichen,ADJA,_|_|Dat|_","Grüßen,N,_|_|Dat|_",
+                Mit freundlichen Grüßen
+        """
+        # Die Daten aus Demorphy und die NP-Dateien
         morpho_results = self.morpho_results
-        np_data, np_morph = morpho_results.get("np_data"), morpho_results.get(
-            "np_morph"
-        )
+        np_data = morpho_results.get("np_data")
+        np_morph = morpho_results.get("np_morph")
 
         congruency_results = dict()
-        demorphy_dict = DemorphyAnalyzer().get_read_in_demorphy_dict(True)
+        demorphy_analyzer = DemorphyAnalyzer()
+        demorphy_dict = demorphy_analyzer.get_read_in_demorphy_dict(
+            read_in_pickle_dict=True
+        )
 
+        # Es werden alle NPs aus der Dateien Iterativ analysiert.
         for np_key, np_value in tqdm(
             np_data.items(),
             file=sys.stdout,
@@ -494,6 +663,8 @@ class NominalPhraseCongruency:
             np_info = np_data.get(np_key)
             np_demorphy = np_morph.get(np_key)
 
+            # wenn die NP leer sein soll bzw. es ist kein Eintrag vorhanden
+            # dann wird sie auch nicht analysiert.
             if np_info:
                 np_analysis = self.nominal_congruency_check(
                     np_info=np_info,
@@ -511,15 +682,18 @@ class NominalPhraseCongruency:
 
     def save_congruency_results(self) -> None:
         """
-         Die Ergebnisse aus der NP-Analyse speichern.
+        Speichert die Ergebnisse der NP-Analyse als CSV Datei.
+
+        Diese Methode wird verwendet, um die Ergebnisse der Nominalphrasen-Analyse
+        zu speichern. Die gespeicherten Ergebnisse koennen dann für
+        spaetere Analysen oder Berichterstattung verwendet werden.
 
         Args:
-            /
+            None
 
         Returns:
-            /
+            None
         """
-
         with open(
             f"{Gp.RES_SAVE_NP.value}_{self.save_file_name}",
             mode="w",

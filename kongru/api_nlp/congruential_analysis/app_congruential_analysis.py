@@ -48,7 +48,7 @@ def nominal_phrase_agreement_analysis(
         Gp.TEST_NP_FILE_CSV.value,
         "--datei_name",
         "--d",
-        help="Die NP-datei, die ausgewertet werden soll ",
+        help="Die NP-datei, die ausgewertet werden soll.",
     ),
     save_results: bool = typer.Option(
         True, "--speichern", "--anzeigen", help="Ergebnisse speichern"

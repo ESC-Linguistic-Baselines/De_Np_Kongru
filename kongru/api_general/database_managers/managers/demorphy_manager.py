@@ -29,6 +29,7 @@ class DemorphyManager:
         Reading the morphological dictionary.
 
         Args:
+            read_in_pickle_dict:
             filename (str): the morphological dict to be read.
 
         Returns:
