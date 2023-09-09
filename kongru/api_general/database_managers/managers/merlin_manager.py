@@ -117,7 +117,7 @@ class MerlinManager:
 
         return sql_con_cur
 
-    def unzip_merlin_raw_corpus(self) -> None:
+    def __unzip_merlin_raw_corpus(self) -> None:
         """
         Entpackt das Merlin-Rohkorpus aus einer ZIP-Datei in das Zielverzeichnis.
 
@@ -131,8 +131,9 @@ class MerlinManager:
             None
         """
 
-    with ZipFile(Gp.MERLIN_ZIP_CORPUS.value, "r") as zip_object:
-        zip_object.extractall(Gp.MERLIN_ZIP_CORPUS.value)
+        with ZipFile(Gp.MERLIN_ZIP_CORPUS.value, "r") as zip_object:
+
+            zip_object.extractall(Gp.MERLIN_EXTRACT_DIR.value)
 
     @staticmethod
     def get_raw_merlin_corpus_data() -> dict[str, list]:
@@ -435,7 +436,7 @@ class MerlinManager:
         merin_raw_corpus = os.path.isfile(Gp.MERLIN_ZIP_CORPUS)
 
         if merin_raw_corpus:
-            self.unzip_merlin_raw_corpus()
+            self.__unzip_merlin_raw_corpus()
 
             # Auf das Entpacken der Dateien warten
             time.sleep(3)
@@ -473,7 +474,8 @@ class MerlinManager:
 
         else:
             catch_and_log_info(
-                msg="Der Merlin-Korpus fehlt. Ohne das Zip-Verchnis kann keine Datenbank erstellt werden.",
+                msg="Der Merlin-Korpus fehlt. Ohne das Zip-Verchnis kann keine "
+                    "Datenbank erstellt werden.",
                 echo_msg=True,
                 echo_color=typer.colors.RED,
             )
@@ -482,4 +484,4 @@ class MerlinManager:
 
 
 if __name__ == "__main__":
-    res = MerlinManager(sql_command="delete").read_merli_corpus_database()
+    pass

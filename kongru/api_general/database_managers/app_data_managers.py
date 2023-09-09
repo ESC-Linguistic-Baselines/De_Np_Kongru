@@ -256,4 +256,4 @@ def add_np_results_to_np_json_file():
 
 
 if __name__ == "__main__":
-    extract_data_from_merlin_database()
+    pass
