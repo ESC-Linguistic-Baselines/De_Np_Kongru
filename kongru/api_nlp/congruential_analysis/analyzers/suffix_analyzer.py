@@ -226,8 +226,12 @@ class SuffixAnalyzer(object):
             None
         Examples:
              analyzer.analyze_by_suffix(u"googlendem")
-            [{'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'masc'},
-             {'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat', 'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG': 'ADJA', 'NUMERUS': 'sing', 'GENDER': 'neut'}]
+            [{'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat',
+            'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG':
+            'ADJA', 'NUMERUS': 'sing', 'GENDER': 'masc'},
+             {'PTB_TAG': 'JJ', 'GUESSER': True, 'CATEGORY': 'ADJ', 'CASE': 'dat',
+             'LEMMA': 'googlend', 'STARKE': 'strong', 'DEGREE': 'pos', 'STTS_TAG':
+             'ADJA', 'NUMERUS': 'sing', 'GENDER': 'neut'}]
         """
 
         lemma, para_list = self.guess_verb_by_suffix(word)

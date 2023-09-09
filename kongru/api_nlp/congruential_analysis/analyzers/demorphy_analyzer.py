@@ -25,6 +25,25 @@ from kongru.api_nlp.congruential_analysis.analyzers.token_analyzer import TokenA
 class DemorphyAnalyzer(
     DemorphyManager, SuffixAnalyzer, TokenAnalyzer, InflectionAnalyzer
 ):
+    """
+    Eine Klasse zur Analyse und Verarbeitung von Textdaten mithilfe von Demorphy und
+    verschiedenen Analysatoren.
+    Diese Klasse erbt von mehreren anderen Klassen, um eine Vielzahl von Analysefunktionen
+    bereitzustellen.
+    Sie kombiniert alle Klassen zusammen, damit nur diese Klasse aufgerufen werden muss.
+    Die Argumente werden auch weiter gegeben
+
+    Args:
+        DemorphyManager (class): Eine Managerklasse für Demorphy-Daten und Ressourcen.
+            - Demorphy Dateien einlesen
+        SuffixAnalyzer (class): Ein Analysator fuer Suffixe in Textdaten.
+            - Suffixe von Tokens bestimmen
+        TokenAnalyzer (class): Ein Analysator für Token   in Textdaten.
+            - Tokenart bestimmen
+        InflectionAnalyzer (class): Ein Analysator für Flexionen in Textdaten.
+            - Die Inflektion in Tokens bestimmen
+    """
+
     def __init__(
         self,
         article=None,
@@ -61,52 +80,60 @@ class DemorphyAnalyzer(
 
     def get_raw_np_morphology(self) -> dict:
         """
-        Find all tokens from NP in the dictionary.
+        Diese Methode extrahiert die Rohmorphologie von Nominalphrasen (NPs)
+        aus den gelesenen Daten.
 
-        Args:
-            morph_dict (dict): the morphological dictionary
-            np_data (dict[str,tuple]): the dict of tokens in NP
+        Sie verwendet die zuvor geladenen NP-Daten und Demorphy-Lexikoneinträge,
+        um die Morphologie
+        für jede NP im Dictionary zu erfassen.
 
         Returns:
-            np_morph (dict): infomation about the possible morphological
-            characteristics of each token from NP:
-            e.g.
-            morph_dict = {['kleine': [['klein ADJ', 'noGender', 'nom', 'plu', 'pos',
-                         'strong'],
-                          ['klein ADJ', 'neut', 'acc', 'sing', 'pos', 'weak'],
-                          ['klein ADJ', 'fem', 'nom', 'sing', 'pos'],
-                          ['klein ADJ', 'noGender', 'acc', 'plu', 'pos', 'strong'],
-                          ['klein ADJ', 'neut', 'nom', 'sing', 'pos', 'weak'],
-                          ['klein ADJ', 'fem', 'acc', 'sing', 'pos'],
-                          ['klein ADJ', 'masc', 'nom', 'sing', 'pos', 'weak']],
-                            ...,
-                           'Hund': [['Hund NN', 'masc', 'acc', 'sing'],
-                           ['Hund NNP', 'noGender', 'dat', 'sing'],
-                           ['Hund NN', 'masc', 'dat', 'sing'],
-                           ['Hund NNP', 'noGender', 'nom', 'sing'],
-                           ['Hund NN', 'masc', 'nom', 'sing'],
-                           ['Hund NNP', 'noGender', 'acc', 'sing']]}
+            np_morh_results(dict): Ein dict, das die extrahierte Morphologie der NPs
+            und die ursprünglichen NP-Daten enthaelt.
+
+        Beispiel:
+            Die Ausgabe kann wie folgt aussehen:
+
+            {
+                "np_data": {
+                    '1_Katharina': {'full_np': 'Katharina', 'sentence':
+                    'Katharina .', 1: {...}},
+                    # Weitere NP-Daten für andere NPs...
+                },
+                "np_morph": {
+                    '1_Katharina': [
+                        ('Katharina', ['Katharina NN,fem,dat,sing',
+                        'Katharina NN,fem,nom,sing', ...]),
+                        # Weitere Morphologiedaten für andere NPs...
+                    ],
+                    # Weitere NP-Morphologie für andere NPs...
+                }
+            }
         """
-        np_morph = dict()
+        np_morph = dict()  # Ein leeres Dictionary zur Speicherung der NP-Morphologie
+        np_data = self.get_read_in_np_file()  # Holen der geladenen NP-Daten
+        morph_dict = self.get_read_in_demorphy_dict()  # Holen der Demorphy-
+        # Lexikoneintraege
 
-        np_data = self.get_read_in_np_file()
-        morph_dict = self.get_read_in_demorphy_dict()
-
+        # Schleife durch die NP-Daten
         for key in np_data:
             full_np = np_data.get(key).get("full_np")
-            tokens = full_np.split(" ")
+            tokens = full_np.split(" ")  # Aufteilen der NP in einzelne Tokens
 
-            np_morph[key] = list()
+            np_morph[key] = list()  # Ein leeres Listenelement für die aktuelle NP
 
+            # Schleife durch die Tokens in der NP
             for t in tokens:
+                # Hinzufügen des Token und der zugehörigen Demorphy-Morphologiedaten
+                # zur Liste
                 np_morph[key].append((t, morph_dict.get(t)))
 
-        return {"np_data": np_data, "np_morph": np_morph}
+        # Zusammenführen der NP-Daten und der extrahierten NP-Morphologie
+        # in einem Ergebnis-Dictionary
+        np_morh_results = {"np_data": np_data, "np_morph": np_morph}
+
+        return np_morh_results
 
 
 if __name__ == "__main__":
-    file_name = (
-        "/Users/christopherchandler/repo/Python/De_NP_Kongru"
-        "/user/outgoing/np/nps_2023_08_21.csv"
-    )
-    res = DemorphyAnalyzer(word="test")
+    pass

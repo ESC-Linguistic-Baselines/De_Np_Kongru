@@ -26,35 +26,71 @@ class InflectionAnalyzer:
         number=None,
         pos=None,
     ):
+        """
+        Initialisiert einen InflectionAnalyzer mit verschiedenen Optionen zur Analyse von Flexionen.
+
+        Args:
+            article (str, optional): Der Artikel der Flexion. Standardwert ist None.
+            adjective (str, optional): Das Adjektiv der Flexion. Standardwert ist None.
+            word (str, optional): Das zu analysierende Wort. Standardwert ist None.
+            preposition (str, optional): Die Präposition der Flexion. Standardwert ist None.
+            case (str, optional): Der Kasus der Flexion. Standardwert ist None.
+            gender (str, optional): Das Genus (Geschlecht) der Flexion. Standardwert ist None.
+            number (str, optional): Die Numerus (Zahl) der Flexion. Standardwert ist None.
+            pos (str, optional): Die Wortart (POS) der Flexion. Standardwert ist None.
+
+        """
+        # Pfad zur YAML-Datei mit bestimmten Flexionen
         self.inflections_definite = Gp.INFLECTION_DEFINITE_YAML.value
+
+        # Zuweisung der Argumente zu den entsprechenden Attributen
         self.article = article
         self.adjective = adjective
         self.word = word
-        self.prepositon = preposition
+        self.preposition = preposition
         self.case = case
         self.gender = gender
         self.number = number
         self.pos = pos
 
     def get_read_in_inflection_files(self):
-        with open(self.inflections_definite, "r") as file:
-            file = yaml.safe_load(file)
-            return file
+        """
+        Liest die YAML-Datei mit bestimmten Flexionen und gibt ihren Inhalt als
+        Python-Datenstruktur zurueck.
 
-    def analyze_indefinite_inflections(self, demorphy_dict):
+        Returns:
+            inflection_data(dict): Ein Dictionary, das die Flexionen aus der
+            YAML-Datei enthaelt.
+        """
+        with open(self.inflections_definite, "r") as file:
+            inflection_data = yaml.safe_load(file)
+            return inflection_data
+
+    def analyze_indefinite_inflections(self, demorphy_dict: dict) -> bool:
+        """
+        Analysiert die Flexionen für unbestimmte Artikel.
+
+        Args:
+            demorphy_dict (dict): Ein Dictionary mit Demorphy-Lexikoneintraegen.
+
+        Returns:
+            bool: True, wenn die Flexionen erfolgreich analysiert wurden,
+            andernfalls False.
+        """
+
         indefinite_file = self.get_read_in_inflection_files()
 
         try:
-            entry = indefinite_file.get(self.prepositon)
+            # Versuchen, die Flexionen aus dem YAML-Dictionary abzurufen
+            entry = indefinite_file.get(self.preposition)
             number = entry.get(self.number)
             gender = number.get(self.gender)
             case = gender.get(self.case)
 
-            return True
+            return True  # Analyse erfolgreich
         except:
-            return False
+            return False  # Analyse fehlgeschlagen
 
 
 if __name__ == "__main__":
-    article = InflectionAnalyzer(preposition="in", article="der")
-    print(article.analyze_indefinite_inflections)
+    pass

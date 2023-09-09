@@ -252,8 +252,8 @@ class MerlinManager:
 
     def add_raw_text_file_to_merlin_corpus_database(self) -> None:
         """
-        Fügt eine Raw-Textdatei dem Merlin-Korpus-Datenbank hinzu.
-        Diese Methode liest eine Roh-Textdatei ein und fügt ihren Inhalt der
+        Fuegt eine Raw-Textdatei dem Merlin-Korpus-Datenbank hinzu.
+        Diese Methode liest eine Roh-Textdatei ein und fuegt ihren Inhalt der
         Merlin-Korpus-Datenbank hinzu.
 
         Jeder Eintrag bekommt die folgenden Daten:
@@ -466,7 +466,7 @@ class MerlinManager:
                 # Aktualisieren des Fortschrittsbalkens fuer jede verarbeitete ID
                 progress_bar.update(1)
 
-            # Schließen des Fortschrittsbalkens
+            # Schliessen des Fortschrittsbalkens
             progress_bar.close()
 
             # Das entpackte Verzeichnis loeschen
@@ -475,7 +475,7 @@ class MerlinManager:
         else:
             catch_and_log_info(
                 msg="Der Merlin-Korpus fehlt. Ohne das Zip-Verchnis kann keine "
-                    "Datenbank erstellt werden.",
+                "Datenbank erstellt werden.",
                 echo_msg=True,
                 echo_color=typer.colors.RED,
             )

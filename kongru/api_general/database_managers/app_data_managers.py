@@ -45,9 +45,7 @@ app_typer_data_managers = typer.Typer(
 console = Console()
 
 
-@app_typer_data_managers.command(
-    name="text_ids", help="Ids der Textdateien auflisten"
-)
+@app_typer_data_managers.command(name="text_ids", help="Ids der Textdateien auflisten")
 def show_text_ids() -> None:
     sql_command = (
         "SELECT general_author_id,general_mother_tongue,general_cefr,"

@@ -15,17 +15,21 @@ class TokenAnalyzer:
 
     def tokenize_sentence(self) -> list:
         """
-        Split text from whitespaces not to ruin named entities, urls, e-mail adresses and abbreviations.
+        Split text from whitespaces not to ruin named entities, urls, e-mail
+        adresses and abbreviations.
         Don't split from hypen or @ for above reason
         Split from only unambigious punctuation marks , ; ... ?
-        Not disambiguating . is sentence boundary or abbreviation component, not processing "."s
+        Not disambiguating . is sentence boundary or abbreviation component,
+        not processing "."s
         Feel free to extend with more symbols like $, euro or other currency marks.
 
         Args:
             single_sentence: unicode string
         Returns:
-            List of tokens of the sentence. Note that punctuation marks that are possibly part of a token is not splitted. Hence,
-            sentence boundary period/abbreviation period disambiguation is developer's responsibility.
+            List of tokens of the sentence. Note that punctuation marks
+            that are possibly part of a token is not splitted. Hence,
+            sentence boundary period/abbreviation period disambiguation
+            is developer's responsibility.
         Raises:
             None
         Examples:
@@ -65,7 +69,8 @@ class TokenAnalyzer:
 
     def is_email(self) -> bool:
         """
-        Return True for e-mails. Very rough, some other words for instance duygu@SonyCenter return True as well.
+        Return True for e-mails. Very rough, some other words for instance duygu@
+        SonyCenter return True as well.
         However, most probably one doesn't want to process that token types anyway.
         Args:
             token: single token
@@ -182,7 +187,8 @@ class TokenAnalyzer:
         Initials:  W., D.A.
         other exotic tokens such v.2.1.
         Dates such as 2.12.2015 go here as well
-        Camel cases are usually not part of language's lexicon and usually an entity e.g. IoT, eGov
+        Camel cases are usually not part of language's lexicon and usually
+         an entity e.g. IoT, eGov
         Args:
             token: single token
         Returns:
