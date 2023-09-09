@@ -1,7 +1,6 @@
 # Standard
 import glob
 
-
 # Pip
 # None
 
@@ -25,7 +24,6 @@ np_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
 c = 0
 
 for file in np_files:
-
     nominal_phrase_agreement_analysis(file_name=file, save_file=f"{c}.csv")
 
 

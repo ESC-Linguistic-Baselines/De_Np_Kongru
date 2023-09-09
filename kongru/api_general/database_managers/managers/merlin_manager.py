@@ -117,7 +117,8 @@ class MerlinManager:
 
         return sql_con_cur
 
-    def __unzip_merlin_raw_corpus(self) -> None:
+    @staticmethod
+    def __unzip_merlin_raw_corpus() -> None:
         """
         Entpackt das Merlin-Rohkorpus aus einer ZIP-Datei in das Zielverzeichnis.
 
@@ -132,7 +133,6 @@ class MerlinManager:
         """
 
         with ZipFile(Gp.MERLIN_ZIP_CORPUS.value, "r") as zip_object:
-
             zip_object.extractall(Gp.MERLIN_EXTRACT_DIR.value)
 
     @staticmethod

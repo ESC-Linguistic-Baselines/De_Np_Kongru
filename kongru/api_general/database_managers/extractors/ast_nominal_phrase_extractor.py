@@ -15,14 +15,18 @@ from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 
 class AstNominalPhraseExtractor:
-    """ """
+    """
+    dient zur Extraktion von nominalen Phrasen aus abstrakten Syntaxbaeumen (AST).
+    Sie bietet Methoden zum Extrahieren von AST-Daten und zum Speichern dieser Daten
+     in einer CSV-Datei.
+    """
 
     def __init__(
         self,
         ast_file_id: str = Gp.TEST_NP_AST_FILE.value,
         save_name: str = Gp.RES_AST_NP_FILE.value,
-        incoming_data=None,
-        pylist_name=None,
+        incoming_data: str = None,
+        pylist_name: str = None,
     ):
         self.pylist_name = pylist_name
         self.save_name = save_name
@@ -30,6 +34,17 @@ class AstNominalPhraseExtractor:
         self.file_id = ast_file_id
 
     def get_ast_data(self) -> list:
+        """
+        Diese Funktion gibt die abstrakten Syntaxbaeume (AST) der eingehenden Daten zurueck.
+
+        Beispiel:
+        [[['1_1', '1023_0001416_output.txt', 1,
+        'M. Meier Müllergasse 1 12345 Stadt X Internationale
+        Au-pair Vermittlung Bahnhofstr .',....]]]
+
+        Returns:
+            list: Eine Liste der AST-Daten.
+        """
 
         if self.incoming_data:
             virtual_incoming_file = StringIO(str(self.incoming_data)).read()
@@ -41,7 +56,7 @@ class AstNominalPhraseExtractor:
         if self.file_id and not self.pylist_name:
             try:
                 file = open(
-                    f"{Gp.AST_DIR.AST_DIR.value}/{self.file_id}.ast",
+                    f"{Gp.AST_DIR.AST_DIR.value}/{self.file_id}",
                     mode="r",
                     encoding="utf-8",
                     errors="ignore",
@@ -72,7 +87,17 @@ class AstNominalPhraseExtractor:
             return ast_data
 
     def get_ast_data_overview(self) -> dict:
-        """ """
+        """
+        Diese Funktion zeigt die abstrakten syntaxbaeume (AST) der eingehenden Daten an.
+
+        Beispiel:
+            {1: ['M. Meier', [('M.', 'N', 'Fem|_|Sg'), ('Meier', 'N', 'Fem|_|Sg')],
+            .... }
+
+        Returns:
+            list: Eine Liste der AST-Daten.
+        """
+
         c = 0
         np_data = {}
         allowed_pos = ["N", "PREP", "ART", "ADJA"]  # not allowed: 'CARD', 'V', 'KON'
@@ -119,20 +144,17 @@ class AstNominalPhraseExtractor:
 
         return np_data
 
-    def save_extracted_ast_nps(self):  # [last update: 12.07.2023 - Georg]
+    def save_extracted_ast_nps(self) -> None:
         """
-        Saving all NPs to a csv file.
-        Each NP per line in the format:
-        whole pure NP, Token-1 POS-tag-1, ..., Token-x POS-tag-x, required case
-        e.g.
-        der Hund, der ART, Hund N, nom
-        eine kleine Katze, eine ART, kleine ADJA, Katze N, _
+        Diese Methode speichert die extrahierten AST-Daten in einer CSV-Datei.
 
-        Arg:
-            nps_dict(dict): The dict from read_in_np_file_as_ast
+        Die Methode ruft 'get_ast_data_overview()' auf, um die AST-Daten abzurufen,
+        und speichert sie in einer CSV-Datei
+        mit dem in 'self.save_name' angegebenen Namen.
+        Die CSV-Datei enthält Informationen ueber die AST-Struktur.
 
         Returns:
-            None
+        None:
         """
 
         nps_dict = self.get_ast_data_overview()
@@ -154,4 +176,4 @@ class AstNominalPhraseExtractor:
 
 
 if __name__ == "__main__":
-    AstNominalPhraseExtractor().save_extracted_ast_nps()
+    pass

@@ -46,7 +46,7 @@ console = Console()
 
 
 @app_typer_data_managers.command(
-    name="text_ids", help="Ids der Textdateien auflisten", no_args_is_help=True
+    name="text_ids", help="Ids der Textdateien auflisten"
 )
 def show_text_ids() -> None:
     sql_command = (

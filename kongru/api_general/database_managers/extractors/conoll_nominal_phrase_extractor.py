@@ -10,33 +10,79 @@ import json
 
 
 class AutoAnnotation:
+    """
+    Die Klasse `AutoAnnotation` dient zur automatisierten Annotation von
+     syntaktischen Informationen in Textdaten.
+    """
+
     def __init__(self, file_name: str):
         self.file_name = file_name
 
-    def __build_np_dict(self):
+    @staticmethod
+    def build_np_dict() -> dict:
+        """
+        Diese Methode erstellt ein leeres dict zur Darstellung von Informationen
+        ueber eine nominale Phrase (NP).
+
+        Beispiel:
+            {
+            "author": {"learner_id": "", "lvl": ""},
+            "NP_info": {
+                "file_ID": "",         # Dateinummer zur Identifikation der Datei
+                "sent_NP_ID": "",      # Nummer zur Identifikation der NP und des Satzes
+                "target_syntax": "",   # Ist die Zielsyntax erkennbar?
+                "lexicalised": "",     # Ist der Ausdruck festgelegt (z.B., Begrüßung)?
+                "len_np": "",          # Länge der NP (ggf. Anzahl der Tokens)
+                "comment_NP": ""       # Kommentar zur NP
+            },
+            "TOK_info": {},            # Informationen über Tokens in der NP (leeres dict)
+            "syntax_info": {}          # Informationen zur Syntax (leeres dict)
+            }
+
+        Returns:
+            np_dict (dict) Ein leeres dict mit vordefinierten Schlüsseln und
+             Platzhaltern fuer Informationen über die NP.
+
+        """
+
         np_dict = {
             "author": {"learner_id": "", "lvl": ""},
             "NP_info": {
-                "file_ID": "",  # nr to id og file
-                "sent_NP_ID": "",  # nr to id og NP and sentence
-                "target_syntax": "",  # is target syntax recognizable?
-                "lexicalised": "",  # is expression fixed (ie greeting)
-                "len_np": "",  # ggf
-                "comment_NP": "",
+                "file_ID": "",  # Dateinummer zur Identifikation der Datei
+                "sent_NP_ID": "",  # Nummer zur Identifikation der NP und des Satzes
+                "target_syntax": "",  # Ist die Zielsyntax erkennbar?
+                "lexicalised": "",  # Ist der Ausdruck festgelegt (z.B., Begrüßung)?
+                "len_np": "",  # Länge der NP (ggf. Anzahl der Tokens)
+                "comment_NP": "",  # Kommentar zur NP
             },
-            "TOK_info": {},
-            "syntax_info": {},
+            "TOK_info": {},  # Informationen ueber Tokens in der NP (leeres dict)
+            "syntax_info": {},  # Informationen zur Syntax (leeres dict)
         }
 
         return np_dict
 
-    def __build_TOK_dict(self):
+    @staticmethod
+    def build_TOK_dict() -> dict:
         """
-        Function to build basic dictionary frame for a single TOK in an NP
-        Return:
-        1. tok_dict (dict): dictionary for token info
-        """
+        Diese Methode erstellt das grundlegende dict-Framework fuer
+        ein einzelnes Token innerhalb einer NP.
 
+        Beispiel:
+            tok_dict = {
+                "word_form": "",
+                "lexeme": "",
+                "orth_target": "",
+                "gr_target": "",
+                "status": "",
+                "POS_tag": "",  # ie ADP/NN
+                #   "role_tag": "",         # subj/obj oä tag
+                "inflection": "",  # tuple list [("nom","masc", "sg", "def/indef"), ]
+                "comment": "",
+            }
+
+        Returns:
+            tok_dict(dict): Ein dict, das Informationen über ein Token enthaelt.
+        """
         # add TOK-X info dict to np dict
         tok_dict = {
             "word_form": "",
@@ -52,12 +98,22 @@ class AutoAnnotation:
 
         return tok_dict
 
-    def __build_rel_dict(self):
-        """Function to build a syntactic relationship dictionary frame
-        for two tokens from an NP
-        Return:
-        1. rel_dict (dict): dictionary for syntax info
+    @staticmethod
+    def build_rel_dict():
+        """
+        Diese Methode erstellt das grundlegende dict-Framework fuer
+        eine syntaktische Beziehung zwischen zwei Tokens innerhalb einer NP.
 
+        Beispiel:
+        rel_dict = {
+        "rel_type": "",
+        "source_TOK": "",
+        "target_TOK": "",
+        "target_case": {"requires_case": "", "found_case": "", "agrees?": ""},
+        }
+
+        Returns:
+        rel_dict: (dict), das Informationen ueber eine syntaktische Beziehung enthaelt.
         """
 
         rel_dict = {
@@ -69,20 +125,25 @@ class AutoAnnotation:
 
         return rel_dict
 
-    def __get_tok_info(self, np_dict, np, i):
-        """Function to supply np and token info provided by input file
-        as well as starting to infer syntactic information to add to np_dict.
-        Input:
-        1. np_dict (dict): dict of a single NP
-        2. np (list): list representation from input file of a single NP
-        3. i (int): index position of relevant token in NP
-        Return:
-        1. np_dict (dict): dict of a single NP with token info from input file
+    def __get_tok_info(self, np_dict: dict, np: list, i: int) -> dict:
+        """
+        Diese Methode liefert Informationen über eine nominale Phrase (NP) und Token,
+        die von einer Eingabedatei bereitgestellt werden, und beginnt damit,
+        syntaktische Informationen für 'np_dict' hinzuzufügen.
+
+        Args:
+            np_dict (dict): Ein dict, das eine einzelne NP repräsentiert.
+            np (list): Eine Listenrepräsentation einer einzelnen NP aus der Eingabedatei.
+            i (int): Indexposition des relevanten Tokens in der NP.
+
+        Returns:
+            np_dict (dict) Ein aktualisiertes dict, das die NP mit den Tokeninformationen
+             aus der Eingabedatei enthält.
         """
 
         # get tok id name & build token dict
         tok_id = "TOK" + str(i + 1)
-        np_dict["TOK_info"][tok_id] = self.__build_TOK_dict()
+        np_dict["TOK_info"][tok_id] = self.build_TOK_dict()
 
         # get word form, lexeme, POS tag, inflection info
         np_dict["TOK_info"][tok_id]["word_form"] = np[6][i][1]
@@ -94,25 +155,26 @@ class AutoAnnotation:
         rel_id = "rel_" + str(len(np_dict["syntax_info"]) + 1)
 
         # if token is dominated by a regens (!=0) with within the same np,
-        # built syntax relationship dictionary and infer type
+        # built syntax relationship dict and infer type
         for token in np[6]:
             if token[0] == np[6][i][6] and np[6][i][6] != "0":
-                np_dict["syntax_info"][rel_id] = self.__get_syntax_info(np[6][i], np)
-
-        ### function tag?, np[6][i][7]
+                np_dict["syntax_info"][rel_id] = self.get_syntax_info(np[6][i], np)
 
         return np_dict
 
-    def __get_syntax_info(self, tok, np):
-        """Function to infer syntax info based on data from input file
-        Input:
-        1. tok (tuple): token (dependens) info from input
-        2. np (list): np info from input representation
+    def get_syntax_info(self, tok, np) -> dict:
+        """
+        Funktion zur Ableitung von Syntaxinformationen basierend auf Daten aus einer
+        Eingabedatei
+        Arg:
+            tok (Tuple): Token (Abhaengigkeits-) Informationen aus der Eingabe
+            np (Liste): NP-Informationen aus der Eingabedarstellung
         Return:
-        1.relx_dict (dict): dict with infered syntax info between two tokens
+            relx_dict (dict): dict mit abgeleiteten Syntaxinformationen zwischen
+            zwei Tokens
         """
         # initiate empty syntax relationship dict
-        relx_dict = self.__build_rel_dict()
+        relx_dict = self.build_rel_dict()
 
         # match regens id given in dependens representation (tok[6])
         # to a token's id (token[0]) in np
@@ -182,7 +244,7 @@ class AutoAnnotation:
                 for np in sent:
 
                     # initiate NP dict
-                    single_np_dict = self.__build_np_dict()
+                    single_np_dict = self.build_np_dict()
 
                     # get file & setence ID
                     single_np_dict["NP_info"]["file_ID"] = np[1]
@@ -191,7 +253,7 @@ class AutoAnnotation:
                     ### get len of NP/number of tokens in NP?
                     single_np_dict["NP_info"]["len_np"] = len(np[-1])
 
-                    # for tok in NP: build TOK-X dictionary
+                    # for tok in NP: build TOK-X dict
                     # and infer syntactic relations
                     for i, tok in enumerate(np[6]):
                         np_dict_TOK = self.__get_tok_info(single_np_dict, np, i)
@@ -205,9 +267,6 @@ class AutoAnnotation:
         #### example output for nps in sentence ##########
         for x in all_nps_infile:
             print(x, "\n")
-
-        # json convert
-        json_format = json.dumps(all_nps_infile)
 
 
 if __name__ == "__main__":

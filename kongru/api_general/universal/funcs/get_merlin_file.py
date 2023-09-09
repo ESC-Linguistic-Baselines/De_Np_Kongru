@@ -35,7 +35,8 @@ def open_merlin_file(
         except Exception as e:
             catch_and_log_error(
                 error=e,
-                custom_message=f"Die Datei {file_raw_data} konnte nicht eingelesen werden.",
+                custom_message=f"Die Datei {file_raw_data} konnte nicht eingelesen "
+                               f"werden.",
                 echo_error=False,
             )
             return ""

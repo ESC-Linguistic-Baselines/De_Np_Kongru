@@ -14,7 +14,8 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 
 
 class DemorphyManager:
-    """ """
+    """
+    """
 
     def __init__(
         self,
@@ -24,21 +25,10 @@ class DemorphyManager:
         self.lemma_txt = Gp.DB_DEMORPHY_LEMMA_TXT.value
         self.file_name = file_name
 
-    def get_read_in_demorphy_dict(self, read_in_pickle_dict: bool = True):
+    def get_read_in_demorphy_dict(self,
+                                  read_in_pickle_dict: bool = True):
         """
-        Reading the morphological dictionary.
 
-        Args:
-            read_in_pickle_dict:
-            filename (str): the morphological dict to be read.
-
-        Returns:
-            morpho_dict (dict): the morphological dictionary, which has been read:
-            e.g.
-            morpho_dict = {'der' : 'die ART,noGender,gen,plu,<def>,strong ... die ART,masc,nom,sing,<def>,strong',
-                           'kleiner' : 'klein ADJ,fem,gen,sing,pos,strong ... klein ADJ,fem,dat,sing,pos,strong'
-                            ...,
-                           'Hund' : 'Hund NN,masc,acc,sing ... Hund NNP,noGender,acc,sing'}
         """
 
         if read_in_pickle_dict is False:
@@ -139,4 +129,4 @@ class DemorphyManager:
 
 
 if __name__ == "__main__":
-    res = DemorphyManager().get_read_in_np_file()
+    pass

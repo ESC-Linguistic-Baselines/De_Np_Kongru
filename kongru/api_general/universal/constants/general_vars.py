@@ -15,8 +15,6 @@ Hier sind Konstanten, die zum Teil von anderen Funktionen eingesetzt werden.
 current_datetime = datetime.datetime.now()
 TIMESTAMP = current_datetime.strftime("%Y_%m_%d_%H_%M_%S")
 SIMPLE_TIMESTAMP = current_datetime.strftime("%Y_%m_%d")
-
-
 MERLIN_TABLE_ENTRY_FORMAT = """(
     general_author_id,
     general_test_language,
