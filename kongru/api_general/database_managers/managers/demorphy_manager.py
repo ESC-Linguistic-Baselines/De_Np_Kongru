@@ -15,6 +15,8 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 
 class DemorphyManager:
     """
+    Ein Manager für Demorphy-Daten, der verschiedene Ressourcen und Dateien verwaltet.
+    Hier wird die Demoprhy-Dict-Datei und die Lemmata eingelesen
     """
 
     def __init__(
@@ -25,19 +27,38 @@ class DemorphyManager:
         self.lemma_txt = Gp.DB_DEMORPHY_LEMMA_TXT.value
         self.file_name = file_name
 
-    def get_read_in_demorphy_dict(self,
-                                  read_in_pickle_dict: bool = True):
+    def get_read_in_demorphy_dict(self, read_in_pickle_dict: bool = True):
+        """
+        Diese Methode liest Demorphy-Daten aus einer Datei oder einem Pickle-Objekt
+        und gibt sie zurueck.
+
+        Args:
+            read_in_pickle_dict (bool, optional): Wenn True, wird das Pickle-Objekt
+            verwendet, andernfalls die Datei.
+                Standardmäßig True.
+
+        Returns:
+            demorphy_dict_data(dict): Ein Dictionary, das die Demorphy-Daten enthält.
         """
 
-        """
+        # Wenn 'read_in_pickle_dict' True ist, wird das Pickle-Objekt verwendet
+        if read_in_pickle_dict:
+            with open(Gp.DB_DEMORTHY_PKL.value, "rb") as pickle_file:
+                data = pickle.load(pickle_file)
+                return data
 
-        if read_in_pickle_dict is False:
+        # Andernfalls wird die Demorphy-Datei gelesen
+        else:
             demorphy_dict_data = {}
 
             with open(self.demorphy_dict, mode="r", encoding="utf-8") as out_going:
                 data = out_going.readlines()
+
+                # Schleife durch die Daten und erstelle das Dictionary
                 for row in data:
                     row_data = row.strip().split(" ")
+
+                    # Wenn eine Zeile nur einen Eintrag enthält, wird ein leerer Wert erstellt
                     if len(row_data) == 1:
                         key = row.strip()
                         demorphy_dict_data[key] = []
@@ -46,57 +67,59 @@ class DemorphyManager:
 
             return demorphy_dict_data
 
-        else:
-            with open(Gp.DB_DEMORTHY_PKL.value, "rb") as pickle_file:
-                data = pickle.load(pickle_file)
-                return data
-
     def get_read_in_np_file(self) -> dict:
         """
-        Die NP-Datei, die ausgewertet werden soll, wird hier eingelesen.
-
-        Args:
-            file_name (str): die NP-datei, die eingelesen werden soll.
+        Diese Methode liest Informationen aus einer CSV-Datei ein und
+        strukturiert sie in einem Python-Dictionary.
+        Das Dictionary enthält eine Übersicht über Nominalphrasen (NPs)
+        in Form von Schluessel-Wert-Paaren.
 
         Returns:
-            np_file (list): eine Liste der NPs, die aus der eingelesenen Datei
-              extrahiert wurden
+            np_data(dict): Ein dict,
+            das die eingelesenen Daten enthaelt, strukturiert nach bestimmten Kriterien.
         """
-        file_name = self.file_name
-        np_id_number = 0
-        np_data = {}
+        # Initialisierung von Variablen und Listen zur Kategorisierung von Merkmalen
+        file_name = self.file_name  # Der Dateiname der CSV-Datei
+        np_id_number = 0  # Eine eindeutige Nummer für jede NP
+        np_data = {}  # Ein Dictionary zur Speicherung der eingelesenen Daten
 
+        # Listen zur Kategorisierung von morphologischen Merkmalen
         case = "Acc", "Dat", "Nom", "Gen"
         gender = "Fem", "Neut", "Masc"
         number = "Pl", "Sg"
         article = "Def", "Indef"
 
+        # Öffnen der CSV-Datei und Lesen ihrer Inhalte
         with open(file_name, mode="r", encoding="utf-8") as file:
             csv_reader = csv.reader(file)
 
+            # Schleife durch jede Zeile der CSV-Datei
             for line in csv_reader:
-                # Die internen NPS durch numerieren und splitten
+                # Initialisierung eines internen NPs und Zählers
                 internal_np = dict()
-
                 np_id_number += 1
                 data_count = 0
 
+                # Extrahieren von Informationen aus der aktuellen Zeile
                 basic_np = line[0]
                 np_morpho_info = line[1:-1]
                 sentence = line[-1]
 
+                # Schleife durch die morphologischen Informationen für die NP
                 for entry in np_morpho_info:
                     data_count += 1
 
+                    # Aufspalten der Informationen in Nomen, Wortart (POS) und morphologische Merkmale
                     np_morpho_entry_data = entry.split()
                     np, pos, morpho_info = np_morpho_entry_data
                     congruency_info = morpho_info.split("|")
 
+                    # Initialisierung eines Dictionaries für die Kongruenzinformationen
                     congru = dict()
-                    congru["unk"] = []
+                    congru["unk"] = []  # Unbekannte Merkmale
 
+                    # Kategorisierung der Kongruenzinformationen
                     for info in congruency_info:
-
                         if info in number:
                             congru["numerus"] = info
                         elif info in gender:
@@ -108,21 +131,29 @@ class DemorphyManager:
                         else:
                             congru["unk"].append(info)
 
+                    # Hinzufügen der internen NP-Daten zum internen NP-Dictionary
                     internal_np[data_count] = {
                         "noun": np,
                         "pos": pos,
                         "noun_info": congru,
                     }
 
+                # Erstellen eines eindeutigen Schlüssels für die NP
                 key = f"{np_id_number}_{basic_np}"
 
-                # Die dicts zusaemmenfuehren, damit alle Informationen zusammen
-                # gespeichert werden.
+                # Zusammenführen der internen NP-Daten und Speichern im Haupt-NP-Dictionary
                 np_data[key] = {"full_np": basic_np, "sentence": sentence} | internal_np
 
+        # Rückgabe des gesammelten NP-Dictionaries
         return np_data
 
     def get_read_in_lemmas(self) -> list:
+        """
+        Diese Methode liest Lemmata aus einer Datei und gibt sie als Liste zurück.
+
+        Returns:
+            lemmas (list): Eine Liste von Lemmata, ohne Zeilenumbrüche.
+        """
         with open(self.lemma_txt, mode="r", encoding="utf-8") as file:
             lemmas = [lemma.replace("\n", "") for lemma in file.readlines()]
             return lemmas
