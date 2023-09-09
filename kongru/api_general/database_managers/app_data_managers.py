@@ -53,7 +53,7 @@ def show_text_ids() -> None:
         "SELECT general_author_id,general_mother_tongue,general_cefr,"
         "txt_len_in_char FROM learner_text_data "
     )
-    text_ids = Merlin(sql_command=sql_command).read_database()
+    text_ids = Merlin(sql_command=sql_command).read_merli_corpus_database()
     table = Table(
         "general_author_id", "general_mother_tongue", "general_cefr", "txt_len_in_char"
     )
@@ -73,7 +73,9 @@ def get_and_show_text_by_id(
         help="Die Text-Id des gewuenschten Textes angeben",
     )
 ) -> None:
-    entries_extracted_by_text_id = Merlin(text_id=text_id).extract_entry_by_id()
+    entries_extracted_by_text_id = Merlin(
+        merlin_txt_id=text_id
+    ).extract_merlin_corpus_entry_by_id()
     custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
 
     # Nur wenn ein Eintrag vorhanden ist
@@ -116,7 +118,7 @@ def extract_nps_from_database(
         f"SELECT {data_type} FROM learner_text_data where "
         f"general_author_id = '{text_id}' "
     )
-    database_results = corpus.read_database()
+    database_results = corpus.read_merli_corpus_database()
 
     if database_results:
 
@@ -234,10 +236,10 @@ def extract_data_from_merlin_database(
     with open(sql_script, "r") as sql_file:
         script = sql_file.read()
     merlin_corpus = Merlin(sql_command=script)
-    data = merlin_corpus.read_database()
+    data = merlin_corpus.read_merli_corpus_database()
     for id in data:
         merlin_corpus.text_id = id[0]
-        result = merlin_corpus.extract_entry_by_id()
+        result = merlin_corpus.extract_merlin_corpus_entry_by_id()
         extracted_element = result.get("ast_nps")
 
         r = open(

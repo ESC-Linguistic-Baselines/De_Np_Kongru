@@ -11,6 +11,9 @@ import typer
 from kongru.api_general.database_managers.app_data_managers import (
     app_typer_data_managers,
 )
+from kongru.api_general.statistics.app_statistics import (
+    app_typer_statics,
+)
 
 # constants
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
@@ -39,6 +42,7 @@ main_typer_app = typer.Typer(
 # Die Sub-Typer apps, die hier zusammengefasst werden.
 main_typer_app.add_typer(app_typer_congruential_analysis)
 main_typer_app.add_typer(app_typer_data_managers)
+main_typer_app.add_typer(app_typer_statics)
 
 
 @main_typer_app.command(

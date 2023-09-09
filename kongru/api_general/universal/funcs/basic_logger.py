@@ -15,10 +15,13 @@ def get_logger(log_level=logging.ERROR) -> logging.Logger:
     """
     Gibt einen konfigurierten Logger zurück.
 
-    Beispiel:
-    logger = get_logger()
-    custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
-    logger.error(e, extra={"custom_message": custom_message})
+    Dies ist eine Hilfsfunktion zum Erstellen eines konfigurierten Loggers,
+    der verwendet werden kann, um Fehler und Informationen
+    in eine Protokolldatei zu schreiben.
+
+    Args:
+        log_level (int, optional): Das gewünschte Log-Level.
+        Standardmäßig ist es logging.ERROR.
 
     Returns:
         logging.Logger: Ein konfigurierter Logger.
@@ -66,14 +69,23 @@ def catch_and_log_error(
     echo_color=typer.colors.RED,
 ) -> None:
     """
-    Einrichten des Loggers und protokollieren einer Fehlermeldung.
+    Einrichten des Loggers und Protokollieren einer Fehlermeldung.
+
+    Diese Funktion erstellt einen Logger und protokolliert eine Fehlermeldung
+    zusammen mit einer benutzerdefinierten Nachricht und einem
+    optionalen Traceback.
 
     Args:
-        echo_color:
-        error (Exception): Die Fehlermeldung.
-        custom_message (str): Eine benutzerdefinierte Nachricht.
-        kill_if_fatal_error (bool): Wenn eine Fehlermeldung kritisch ist, soll das Programm
-            beendet werden.
+        error (Exception): Die aufgetretene Ausnahme.
+        custom_message (str): Eine benutzerdefinierte Nachricht, die in der
+        Protokolldatei angezeigt wird.
+        echo_error (bool, optional): Ob die Fehlermeldung auf der Konsole ausgegeben
+         werden soll. Standardmäßig True.
+        kill_if_fatal_error (bool, optional): Wenn True, wird das Programm beendet,
+         wenn der Fehler als kritisch eingestuft wird.
+            Standardmäßig False.
+        echo_color (typer.colors, optional): Die Farbe für die Ausgabe auf der Konsole.
+         Standardmäßig typer.colors.RED.
 
     Returns:
         None
@@ -99,6 +111,25 @@ def catch_and_log_info(
     log_info_message=True,
     echo_color=typer.colors.GREEN,
 ):
+    """
+    Einrichten des Loggers und Protokollieren einer Informationsmeldung.
+
+    Diese Funktion erstellt einen Logger und protokolliert eine Informationsmeldung.
+
+    Args:
+        msg (str, optional): Die Informationsmeldung, die protokolliert werden soll.
+        Standardmäßig "log info".
+        echo_msg (bool, optional): Ob die Informationsmeldung auf der Konsole ausgegeben
+        werden soll. Standardmäßig False.
+        log_info_message (bool, optional): Ob die Informationsmeldung in der
+        Protokolldatei gespeichert werden soll.
+            Standardmäßig True.
+        echo_color (typer.colors, optional): Die Farbe für die Ausgabe auf der Konsole.
+        Standardmäßig typer.colors.GREEN.
+
+    Returns:
+        None
+    """
     logger = get_logger(log_level=logging.INFO)
     if echo_msg:
         typer.secho(msg, fg=echo_color)

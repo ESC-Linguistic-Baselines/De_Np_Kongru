@@ -29,3 +29,8 @@ class CustomErrorMessages:
         def __init__(self):
             message = Mk.CER.INCORRECT_ARGUMENT.value
             super().__init__(message)
+
+    class MerlinDeleteSQL(Exception):
+        def __init__(self):
+            message = "'DELETE' darf nicht im SQL-Befehl sein."
+            super().__init__(message)
