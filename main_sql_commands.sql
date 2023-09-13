@@ -1,1 +1,1 @@
-SELECT general_author_id  FROM learner_text_data WHERE general_mother_tongue = 'French'
+SELECT general_author_id  FROM learner_text_data WHERE general_author_id = '1023_0001416'

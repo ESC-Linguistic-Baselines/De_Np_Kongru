@@ -76,7 +76,7 @@ class GeneralPaths(Enum):
     MERLIN_ZIP_CORPUS = "app_resources/data/merlin_corpus/merlin_raw_corpus.zip"
     MERLIN_EXTRACT_DIR = "app_resources/data/merlin_corpus/"
 
-    SQL_MERLIN = "scripts/merlin_commands.sql"
+    SQL_MERLIN = "main_sql_commands.sql"
 
     # Incoming
     RAW_MERLIN_TXT = "user/incoming/raw/1023_0001416.txt"

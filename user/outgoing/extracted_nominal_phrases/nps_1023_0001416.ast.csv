@@ -1,0 +1,42 @@
+M. Meier,M. N Fem|_|Sg,Meier N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+M. Meier Müllergasse,M. N Fem|_|Sg,Meier N Fem|_|Sg,Müllergasse N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+Meier Müllergasse,Meier N Fem|_|Sg,Müllergasse N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+Vermittlung Bahnhofstr,Vermittlung N Fem|_|Sg,Bahnhofstr N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+Vermittlung Bahnhofstr,Vermittlung N Fem|_|Sg,Bahnhofstr N Fem|_|Sg,M. Meier Müllergasse 1 12345 Stadt X Internationale Au-pair Vermittlung Bahnhofstr .
+Wiesbaden Stadt,Wiesbaden N Fem|_|Sg,Stadt N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 14.05.11 ."
+Wiesbaden Stadt X,Wiesbaden N Fem|_|Sg,Stadt N Fem|_|Sg,X N _|_|_,"101 65185 Wiesbaden Stadt X , den 14.05.11 ."
+Stadt X,Stadt N Fem|_|Sg,X N _|_|_,"101 65185 Wiesbaden Stadt X , den 14.05.11 ."
+geehrte Damen,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,"Sehr geehrte Damen und Herren , ihre Anzeige in der Zeitung hat mich sehr erfreut , so was habe ich schon lange gesucht ."
+Herren,Herren N Masc|_|_,"Sehr geehrte Damen und Herren , ihre Anzeige in der Zeitung hat mich sehr erfreut , so was habe ich schon lange gesucht ."
+die Arbeit,die ART Def|Fem|Nom|Sg,Arbeit N Fem|Nom|Sg,"Da mir die Arbeit mit anderen Menschen sehr großen Spas bereitet , habe ich mich entschlossen , mich zu bewerben ."
+mit anderen Menschen,mit PREP Dat,anderen ADJA _|Masc|Dat|_|_,Menschen N Masc|Dat|_,"Da mir die Arbeit mit anderen Menschen sehr großen Spas bereitet , habe ich mich entschlossen , mich zu bewerben ."
+Spas großen,Spas N _|Acc|_,großen ADJA Pos|_|Acc|_|_|,"Da mir die Arbeit mit anderen Menschen sehr großen Spas bereitet , habe ich mich entschlossen , mich zu bewerben ."
+für neuen Aufgaben,für PREP Acc,neuen ADJA Pos|Fem|Acc|Pl|Wk|,Aufgaben N Fem|Acc|Pl,Ich bin flexibel und für neuen Aufgaben ofen .
+Takt Geduld,Takt N Masc|Acc|Sg,Geduld N Fem|Acc|Sg,"Takt , Geduld , warmherzigkeit und Zuverlässigkeit bringe ich mit , sowie Erfahrung im Umgang mit Kindern und der Haushaltsführung ."
+Takt Geduld warmherzigkeit,Takt N Masc|Acc|Sg,Geduld N Fem|Acc|Sg,warmherzigkeit N Fem|Acc|Sg,"Takt , Geduld , warmherzigkeit und Zuverlässigkeit bringe ich mit , sowie Erfahrung im Umgang mit Kindern und der Haushaltsführung ."
+Geduld warmherzigkeit,Geduld N Fem|Acc|Sg,warmherzigkeit N Fem|Acc|Sg,"Takt , Geduld , warmherzigkeit und Zuverlässigkeit bringe ich mit , sowie Erfahrung im Umgang mit Kindern und der Haushaltsführung ."
+Zuverlässigkeit,Zuverlässigkeit N Fem|Acc|Sg,"Takt , Geduld , warmherzigkeit und Zuverlässigkeit bringe ich mit , sowie Erfahrung im Umgang mit Kindern und der Haushaltsführung ."
+mit Kindern,mit PREP Dat,Kindern N _|Dat|_,"Takt , Geduld , warmherzigkeit und Zuverlässigkeit bringe ich mit , sowie Erfahrung im Umgang mit Kindern und der Haushaltsführung ."
+der Haushaltsführung,der ART Def|Fem|Dat|Sg,Haushaltsführung N Fem|Dat|Sg,"Takt , Geduld , warmherzigkeit und Zuverlässigkeit bringe ich mit , sowie Erfahrung im Umgang mit Kindern und der Haushaltsführung ."
+Russisch Englisch,Russisch N _|Acc|Sg,Englisch N Neut|Acc|Sg,"Ich spreche Russisch , Englisch , Kasachisch , habe Grundkenntnisse in Deutsch ."
+Russisch Englisch Kasachisch,Russisch N _|Acc|Sg,Englisch N Neut|Acc|Sg,Kasachisch N Neut|Acc|Sg,"Ich spreche Russisch , Englisch , Kasachisch , habe Grundkenntnisse in Deutsch ."
+Englisch Kasachisch,Englisch N Neut|Acc|Sg,Kasachisch N Neut|Acc|Sg,"Ich spreche Russisch , Englisch , Kasachisch , habe Grundkenntnisse in Deutsch ."
+Grundkenntnisse,Grundkenntnisse N Fem|Acc|Pl,"Ich spreche Russisch , Englisch , Kasachisch , habe Grundkenntnisse in Deutsch ."
+in Deutsch,in PREP _,Deutsch N Neut|_|Sg,"Ich spreche Russisch , Englisch , Kasachisch , habe Grundkenntnisse in Deutsch ."
+Computerkenntnisse,Computerkenntnisse N Fem|Acc|Pl,Zusätzlich habe ich Computerkenntnisse .
+Deutsche Sprache,Deutsche ADJA Pos|Fem|Acc|Sg|_|,Sprache N Fem|Acc|Sg,Naturlich würde ich gern Deutsche Sprache und das Leben in Deutschland kennenlernen .
+das Leben,das ART Def|Neut|Acc|Sg,Leben N Neut|Acc|Sg,Naturlich würde ich gern Deutsche Sprache und das Leben in Deutschland kennenlernen .
+in Deutschland,in PREP _,Deutschland N Neut|_|Sg,Naturlich würde ich gern Deutsche Sprache und das Leben in Deutschland kennenlernen .
+über Reche Pflichen,über PREP _,Reche N Fem|_|Pl,Pflichen N Fem|_|Pl,"Ich wäre Ihnen sehr dankbar , wenn Sie mir weitere Informationen über Reche , Pflichen und Aufenthaltsformalitäten zuschicken könnten ."
+Reche Pflichen,Reche N Fem|_|Pl,Pflichen N Fem|_|Pl,"Ich wäre Ihnen sehr dankbar , wenn Sie mir weitere Informationen über Reche , Pflichen und Aufenthaltsformalitäten zuschicken könnten ."
+Aufenthaltsformalitäten,Aufenthaltsformalitäten N Fem|_|Pl,"Ich wäre Ihnen sehr dankbar , wenn Sie mir weitere Informationen über Reche , Pflichen und Aufenthaltsformalitäten zuschicken könnten ."
+Welche Freizeitaktivitäten,Welche ART Fem|Nom|Pl,Freizeitaktivitäten N Fem|Nom|Pl,Welche Freizeitaktivitäten finden statt ?
+Wiviel,Wiviel N _,Wiviel Stunden in der Woche müssen die Kinder betreut werden ?
+in der Woche,in PREP Dat,der ART Def|Fem|Dat|Sg,Woche N Fem|Dat|Sg,Wiviel Stunden in der Woche müssen die Kinder betreut werden ?
+die Kinder,die ART Def|Neut|Nom|Pl,Kinder N Neut|Nom|Pl,Wiviel Stunden in der Woche müssen die Kinder betreut werden ?
+Über eine baldige Antwort,Über PREP Acc,eine ART Indef|Fem|Acc|Sg,baldige ADJA Pos|Fem|Acc|Sg|_|,Antwort N Fem|Acc|Sg,Über eine baldige Antwort würde ich mich sehr freuen Mit freundlichen Grüssen Maria Meier
+Mit freundlichen Grüssen Maria,Mit PREP Dat,freundlichen ADJA Pos|_|Dat|_|_|,Grüssen N _|Dat|_,Maria N _|Dat|Sg,Über eine baldige Antwort würde ich mich sehr freuen Mit freundlichen Grüssen Maria Meier
+Grüssen Maria Meier,Grüssen N _|Dat|_,Maria N _|Dat|Sg,Meier N _|Dat|Sg,Über eine baldige Antwort würde ich mich sehr freuen Mit freundlichen Grüssen Maria Meier
+Maria Meier,Maria N _|Dat|Sg,Meier N _|Dat|Sg,Über eine baldige Antwort würde ich mich sehr freuen Mit freundlichen Grüssen Maria Meier

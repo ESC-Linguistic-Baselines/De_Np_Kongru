@@ -165,7 +165,7 @@ def extract_nps_from_database(
 @app_typer_data_managers.command(
     name="nps_datei",
     help="Nps aus einer bestimmen Datei extrahieren",
-    no_args_is_help=True,
+
 )
 def extract_nps_from_local_file(
     file_name: str = typer.Option(
@@ -179,6 +179,7 @@ def extract_nps_from_local_file(
     ),
 ):
     try:
+
         if file_type == "ast_nps":
             np_file_handler = AstNominalPhraseExtractor(
                 ast_file_id=file_name,
@@ -187,7 +188,7 @@ def extract_nps_from_local_file(
             np_file_handler.save_extracted_ast_nps()
 
             typer.secho(
-                message=f"Die Ast-Datei {file_name} wurde ausgelesen und gespeichert.",
+                message=f"Die Ast-Datei {file_name} wurde ausgelesen und die NPs wurden gespeichert.",
                 fg=typer.colors.GREEN,
             )
 
