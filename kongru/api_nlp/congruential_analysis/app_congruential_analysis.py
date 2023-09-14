@@ -79,7 +79,7 @@ def nominal_phrase_agreement_analysis(
             # Die Ergebnisse werden zwar gespeichert, aber nicht angezeigt.
             np_congruency.save_congruency_results()
             catch_and_log_info(
-                msg="Die Ergebnisse der Auswertung wurden gespeichert",
+                msg="Die Ergebnisse der Auswertung wurden gespeichert.",
                 echo_msg=True,
             )
         else:

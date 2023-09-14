@@ -67,7 +67,7 @@ def main_conll_to_pylist(infile, outfile):
             df = df.drop(["dunno1", "dunno2"], axis=1)
 
             # extract the whole token-column to get the whole sentence as tokens
-            sentence_list = df["token"].values.tolist()
+            sentence_list = df["token"].txt_id_dta.tolist()
             sentence_as_string = " ".join(sentence_list)
             number_of_tokens_of_sentence = len(sentence_list)
 
@@ -99,7 +99,7 @@ def main_conll_to_pylist(infile, outfile):
                     current_np_ids = list()
 
                     # get all the info of the noun
-                    info_of_noun = df.loc[index, :].values.flatten().tolist()
+                    info_of_noun = df.loc[index, :].txt_id_dta.flatten().tolist()
 
                     id_of_noun = info_of_noun[0]
                     head_of_noun_ID = info_of_noun[6]
@@ -194,11 +194,13 @@ def main_conll_to_pylist(infile, outfile):
                         index_in_df = int(token_id) - 1
                         if int(index_in_df) < 0:
                             token_info = tuple(
-                                df.loc[int(token_id), :].values.flatten().tolist()
+                                df.loc[int(token_id), :].txt_id_dta.flatten().tolist()
                             )
                         else:
                             token_info = tuple(
-                                df.loc[int(index_in_df), :].values.flatten().tolist()
+                                df.loc[int(index_in_df), :]
+                                .txt_id_dta.flatten()
+                                .tolist()
                             )
 
                         current_np.append(token_info)
@@ -208,7 +210,11 @@ def main_conll_to_pylist(infile, outfile):
 
                     for head_id in sorted(head_ids, key=int):
                         if int(head_of_noun_ID) > 0:
-                            info = df.loc[int(head_id) - 1, :].values.flatten().tolist()
+                            info = (
+                                df.loc[int(head_id) - 1, :]
+                                .txt_id_dta.flatten()
+                                .tolist()
+                            )
                             head_info.append(info)
 
                     # if present, extract info of the super head, e.g. head of
@@ -219,7 +225,7 @@ def main_conll_to_pylist(infile, outfile):
                         if int(super_head_id) > 0:
                             info = (
                                 df.loc[int(super_head_id) - 1, :]
-                                .values.flatten()
+                                .txt_id_dta.flatten()
                                 .tolist()
                             )
                             super_head_info.append(info)

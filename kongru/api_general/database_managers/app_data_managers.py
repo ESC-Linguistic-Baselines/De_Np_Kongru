@@ -3,6 +3,7 @@ import os
 import time
 
 # Pip
+from tqdm import tqdm
 import typer
 
 from rich.console import Console
@@ -165,11 +166,10 @@ def extract_nps_from_database(
 @app_typer_data_managers.command(
     name="nps_datei",
     help="Nps aus einer bestimmen Datei extrahieren",
-
 )
 def extract_nps_from_local_file(
-    file_name: str = typer.Option(
-        Gp.TEST_NP_AST_FILE.value,
+    ast_file_id: str = typer.Option(
+        2,
         "--datei_name",
         "--name",
         help="Der Name der Datei, die ausgewertet werden soll.",
@@ -179,23 +179,25 @@ def extract_nps_from_local_file(
     ),
 ):
     try:
-
+        id = os.path.basename(ast_file_id)
         if file_type == "ast_nps":
+
             np_file_handler = AstNominalPhraseExtractor(
-                ast_file_id=file_name,
-                save_name=f"user/outgoing/extracted_nominal_phrases/nps_{file_name}.csv",
+                ast_file_id=ast_file_id,
+                save_name=f"user/outgoing/extracted_nominal_phrases/{id}",
             )
             np_file_handler.save_extracted_ast_nps()
 
             typer.secho(
-                message=f"Die Ast-Datei {file_name} wurde ausgelesen und die NPs wurden gespeichert.",
+                message=f"Die Ast-Datei {ast_file_id} wurde ausgelesen und die NPs "
+                f"wurden gespeichert.",
                 fg=typer.colors.GREEN,
             )
 
         if file_type == "pylist":
             np_file_handler = AstNominalPhraseExtractor(
-                pylist_name=file_name,
-                save_name=f"user/outgoing/extracted_nominal_phrases/nps_{file_name}.csv",
+                pylist_name=ast_file_id,
+                save_name=f"user/outgoing/extracted_nominal_phrases/nps_{ast_file_id}.csv",
             )
             np_file_handler.save_extracted_ast_nps()
 
@@ -205,8 +207,8 @@ def extract_nps_from_local_file(
             )
 
         if file_type == "conll":
-            incoming = f"user/incoming/conll/{file_name}.conll"
-            outgoing = f"user/incoming/pylist/{file_name}.pylist"
+            incoming = f"user/incoming/conll/{ast_file_id}.conll"
+            outgoing = f"user/incoming/pylist/{ast_file_id}.pylist"
 
             main_conll_to_pylist(infile=incoming, outfile=outgoing)
 
@@ -236,17 +238,17 @@ def extract_data_from_merlin_database(
         script = sql_file.read()
     merlin_corpus = Merlin(sql_command=script)
     data = merlin_corpus.read_merli_corpus_database()
-    for id in data:
+    for id in tqdm(data, desc="Processing"):  # Add a progress bar with description
         merlin_corpus.text_id = id[0]
         result = merlin_corpus.extract_merlin_corpus_entry_by_id()
         extracted_element = result.get("ast_nps")
 
-        r = open(
+        with open(
             f"{save_directory}/{merlin_corpus.text_id}.{file_extension}",
             mode="w",
             encoding="utf-8-sig",
-        )
-        r.write(extracted_element)
+        ) as r:
+            r.write(extracted_element)
 
 
 @app_typer_data_managers.command(name="np_zu_json", help="Funktion fehlt noch")

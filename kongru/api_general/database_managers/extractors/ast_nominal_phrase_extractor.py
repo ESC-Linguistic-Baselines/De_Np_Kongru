@@ -23,15 +23,15 @@ class AstNominalPhraseExtractor:
 
     def __init__(
         self,
-        ast_file_id: str = Gp.TEST_NP_AST_FILE.value,
-        save_name: str = Gp.RES_AST_NP_FILE.value,
+        ast_file_id: str = None,
+        save_name: str = None,
         incoming_data: str = None,
         pylist_name: str = None,
     ):
         self.pylist_name = pylist_name
-        self.save_name = save_name
+        self.save_name = save_name.replace("ast", "csv")
         self.incoming_data = incoming_data
-        self.file_id = ast_file_id
+        self.ast_file_id = ast_file_id
 
     def get_ast_data(self) -> list:
         """
@@ -53,10 +53,10 @@ class AstNominalPhraseExtractor:
             ast_data = ast.literal_eval(ast_data[0][0])
             return ast_data
 
-        if self.file_id and not self.pylist_name:
+        if self.ast_file_id and not self.pylist_name:
             try:
                 file = open(
-                    f"{Gp.AST_DIR.AST_DIR.value}/{self.file_id}",
+                    self.ast_file_id,
                     mode="r",
                     encoding="utf-8",
                     errors="ignore",
