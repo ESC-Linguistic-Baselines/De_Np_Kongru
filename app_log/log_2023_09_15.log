@@ -12064,3 +12064,234 @@ Funktion: catch_and_log_info
 Linie: 137
 Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
 
+Zeitpunkt: 2023-09-15 20:59:25,685
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Das Hauptverzeichnis wurde nicht richtig angegeben.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/constants/general_paths.py", line 112, in <module>
+    os.chdir(GeneralPaths.DIR_MAIN.value)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru'
+
+Nachricht: [Errno 2] No such file or directory: '/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:21:40,194
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:21:40,207
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:21:40,207
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:21:40,213
+Loggername: root
+LogLevel: ERROR
+Nachricht: no such table: learner_text_data
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:22:24,657
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:22:24,670
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:22:24,671
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:22:24,675
+Loggername: root
+LogLevel: ERROR
+Nachricht: no such column: rating_orthography
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:23:32,700
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:23:32,711
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:23:32,712
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:23:32,716
+Loggername: root
+LogLevel: ERROR
+Nachricht: no such column: rating_orthography
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:25:21,221
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:25:21,231
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:25:21,231
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:25:21,235
+Loggername: root
+LogLevel: ERROR
+Nachricht: no such column: rating_orthography
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:26:40,068
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:26:40,078
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:26:40,078
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:26:40,082
+Loggername: root
+LogLevel: ERROR
+Nachricht: no such column: rating_orthography
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:27:09,357
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:27:09,367
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:27:09,367
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 21:27:09,447
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisdatei erfolgreich generiert!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/De_NP_Kongru/kongru/api_general/universal/funcs/basic_logger.py
+
