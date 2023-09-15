@@ -1,0 +1,29 @@
+Stadt X,Stadt N Fem|_|Sg,X N _|_|Pl,"Stadt X 22.02.2012 Lieber Michael , ich wünsche desese neuen Jahr guten gesund und neuen Hause mit meine famile ."
+Stadt X Lieber,Stadt N Fem|_|Sg,X N _|_|Pl,Lieber N _|_|Pl,"Stadt X 22.02.2012 Lieber Michael , ich wünsche desese neuen Jahr guten gesund und neuen Hause mit meine famile ."
+X Lieber Michael,X N _|_|Pl,Lieber N _|_|Pl,Michael N Masc|_|Sg,"Stadt X 22.02.2012 Lieber Michael , ich wünsche desese neuen Jahr guten gesund und neuen Hause mit meine famile ."
+Lieber Michael,Lieber N _|_|Pl,Michael N Masc|_|Sg,"Stadt X 22.02.2012 Lieber Michael , ich wünsche desese neuen Jahr guten gesund und neuen Hause mit meine famile ."
+neuen Jahr,neuen ADJA Pos|Neut|Dat|Sg|Wk|,Jahr N Neut|Dat|Sg,"Stadt X 22.02.2012 Lieber Michael , ich wünsche desese neuen Jahr guten gesund und neuen Hause mit meine famile ."
+mit meine famile,mit PREP Dat,meine ART _|_|_,famile N _|_|_,"Stadt X 22.02.2012 Lieber Michael , ich wünsche desese neuen Jahr guten gesund und neuen Hause mit meine famile ."
+neuen Jahr,neuen ADJA Pos|Neut|Dat|Sg|Wk|,Jahr N Neut|Dat|Sg,"aber desese neuen Jahr hoffe ich eine guten auto kaufen , weil ich zu arbeit Fahre ."
+eine guten auto,eine ART Indef|Fem|_|Sg,guten ADJA Pos|_|_|_|_|,auto N Fem|Acc|Sg,"aber desese neuen Jahr hoffe ich eine guten auto kaufen , weil ich zu arbeit Fahre ."
+zu arbeit Fahre,zu PREP Dat,arbeit ADJA _,Fahre N _|Dat|_,"aber desese neuen Jahr hoffe ich eine guten auto kaufen , weil ich zu arbeit Fahre ."
+um Uhr,um PREP _,Uhr N Fem|_|Sg,"Konnte ich am sontag um 15 Uhr treffen , Bitte ruf mich an ."
+Bitte,Bitte N Fem|Nom|Sg,"Konnte ich am sontag um 15 Uhr treffen , Bitte ruf mich an ."
+im Silvester,im PREP Dat,Silvester N _|Dat|Sg,im Silvester mache ich eine Silvester in meinen Haus am 20.03.2012 .
+eine Silvester,eine ART Indef|Fem|_|Sg,Silvester N Fem|Acc|Sg,im Silvester mache ich eine Silvester in meinen Haus am 20.03.2012 .
+in meinen Haus,in PREP Dat,meinen ART Neut|Dat|Sg,Haus N Neut|Dat|Sg,im Silvester mache ich eine Silvester in meinen Haus am 20.03.2012 .
+am 20.03.2012,am PREP Dat,20.03.2012 N _|Dat|_,im Silvester mache ich eine Silvester in meinen Haus am 20.03.2012 .
+auf meine Silvester,auf PREP Acc,meine ART _|Acc|_,Silvester N _|Acc|_,Hast du lust auf meine Silvester mit deiner Famile .
+mit deiner Famile,mit PREP Dat,deiner ART Fem|Dat|Sg,Famile N Fem|Dat|Sg,Hast du lust auf meine Silvester mit deiner Famile .
+mit deiner Familie,mit PREP Dat,deiner ART Fem|Dat|Sg,Familie N Fem|Dat|Sg,Deshalb möchte ich dich mit deiner Familie einladen .
+Kartoffel Suppe,Kartoffel N Fem|Acc|Sg,Suppe N Fem|Acc|Sg,"ich mache Kartoffel Suppe , Salat und tomate Suppe koche , ich Freue mich auf Dich ."
+Kartoffel Suppe,Kartoffel N Fem|Acc|Sg,Suppe N Fem|Acc|Sg,"ich mache Kartoffel Suppe , Salat und tomate Suppe koche , ich Freue mich auf Dich ."
+Salat,Salat N Masc|Nom|Sg,"ich mache Kartoffel Suppe , Salat und tomate Suppe koche , ich Freue mich auf Dich ."
+tomate Suppe,tomate ADJA _|Fem|Nom|Sg|_,Suppe N Fem|Nom|Sg,"ich mache Kartoffel Suppe , Salat und tomate Suppe koche , ich Freue mich auf Dich ."
+auf Dich,auf PREP _,Dich N _|_|_,"ich mache Kartoffel Suppe , Salat und tomate Suppe koche , ich Freue mich auf Dich ."
+Herzliche Grüße,Herzliche ADJA Pos|Masc|_|Pl|St|,Grüße N Masc|_|Pl,( Herzliche Grüße ) Michael Herzliche Grüße Stefan Winkelmann
+Michael Herzliche,Michael N Masc|_|Pl,Herzliche N Masc|_|Pl,( Herzliche Grüße ) Michael Herzliche Grüße Stefan Winkelmann
+Michael Herzliche Grüße,Michael N Masc|_|Pl,Herzliche N Masc|_|Pl,Grüße N Masc|_|Pl,( Herzliche Grüße ) Michael Herzliche Grüße Stefan Winkelmann
+Herzliche Grüße Stefan,Herzliche N Masc|_|Pl,Grüße N Masc|_|Pl,Stefan N _|_|Sg,( Herzliche Grüße ) Michael Herzliche Grüße Stefan Winkelmann
+Grüße Stefan Winkelmann,Grüße N Masc|_|Pl,Stefan N _|_|Sg,Winkelmann N _|_|Sg,( Herzliche Grüße ) Michael Herzliche Grüße Stefan Winkelmann
+Stefan Winkelmann,Stefan N _|_|Sg,Winkelmann N _|_|Sg,( Herzliche Grüße ) Michael Herzliche Grüße Stefan Winkelmann

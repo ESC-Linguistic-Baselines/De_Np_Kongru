@@ -1,0 +1,45 @@
+99,Maria Müller,"Maria,N,_|Masc|_|Sg","Müller,N,_|Masc|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+23,Maria Müller Winkelsweg,"Maria,N,_|Masc|_|Sg","Müller,N,_|Masc|_|Sg","Winkelsweg,N,_|Masc|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+23,Müller Winkelsweg,"Müller,N,_|Masc|_|Sg","Winkelsweg,N,_|Masc|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+23,Stadt X,"Stadt,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+23,Stadt X Schweiz,"Stadt,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","Schweiz,N,_|Fem|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+99,AB X Schweiz,"AB,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","Schweiz,N,_|Fem|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+99,AB AUPAIRSGLOBAL Schweiz,"AB,N,_|Fem|_|Sg","AUPAIRSGLOBAL,N,_|Fem|_|Sg","Schweiz,N,_|Fem|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+23,AB AUPAIRSGLOBAL Bahnhofstrasse,"AB,N,_|Fem|_|Sg","AUPAIRSGLOBAL,N,_|Fem|_|Sg","Bahnhofstrasse,N,_|Fem|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+23,AUPAIRSGLOBAL Bahnhofstrasse,"AUPAIRSGLOBAL,N,_|Fem|_|Sg","Bahnhofstrasse,N,_|Fem|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+21,Wiesbaden Stadt,"Wiesbaden,N,_|Fem|Acc|Sg","Stadt,N,_|Fem|Acc|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+99,Wiesbaden Stadt Y Oktober,"Wiesbaden,N,_|Fem|Acc|Sg","Stadt,N,_|Fem|Acc|Sg","Y,N,_|Fem|Acc|Sg","Oktober,N,_|Masc|Acc|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+23,Stadt Y,"Stadt,N,_|Fem|Acc|Sg","Y,N,_|Fem|Acc|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+99,Stadt den 21. Oktober,"Stadt,N,_|Fem|Acc|Sg","den,ART,Def|Masc|Acc|Sg","21.,ADJA,_|Masc|Acc|Sg","Oktober,N,_|Masc|Acc|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+5,in Deutschland,"in,PREP,_|_|_|_","Deutschland,N,_|Neut|_|Sg","Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+21,geehrte Damen,"geehrte,ADJA,_|Fem|_|Pl","Damen,N,_|Fem|_|Pl","Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+99,Herren,"Herren,N,_|Masc|_|_","Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+99,Anzeige Ihre,"Anzeige,N,_|Fem|Acc|Sg","Ihre,ART,_|Fem|Acc|Sg","Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+23,über Au-pair-Stelle,"über,PREP,_|_|_|_","Au-pair-Stelle,N,_|Fem|_|Sg","Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+23,interesse,"interesse,N,_|_|_|_","Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+5,in Deutschland,"in,PREP,_|_|_|_","Deutschland,N,_|Neut|_|Sg","Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+99,einige Fragen,"einige,ART,_|_|Acc|_","Fragen,N,_|_|Acc|_",Aber ich habe noch einige Fragen dazu .
+15,mit den Kindern,"mit,PREP,_|_|Dat|_","den,ART,Def|_|Dat|Pl","Kindern,N,_|_|Dat|Pl","Ich möchte wissen , ob ich mit den Kindern auf Deutsch sprechen muss ."
+5,auf Deutsch,"auf,PREP,_|_|_|_","Deutsch,N,_|Neut|_|Sg","Ich möchte wissen , ob ich mit den Kindern auf Deutsch sprechen muss ."
+99,die Kinder,"die,ART,Def|Neut|Nom|Pl","Kinder,N,_|Neut|Nom|Pl","Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+99,eine andere Sprache,"eine,ART,Indef|Fem|Acc|Sg","andere,ADJA,_|Fem|Acc|Sg","Sprache,N,_|Fem|Acc|Sg","Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+99,Französisch Englisch,"Französisch,N,_|Neut|Acc|Sg","Englisch,N,_|Neut|Acc|Sg","Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+99,Französisch Englisch,"Französisch,N,_|Neut|Acc|Sg","Englisch,N,_|Neut|Acc|Sg","Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+99,Deutsch,"Deutsch,N,_|Neut|Acc|Sg","Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+15,um die Kinder,"um,PREP,_|_|Acc|_","die,ART,Def|Neut|Acc|Pl","Kinder,N,_|Neut|Acc|Pl","Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+99,den Haushalt,"den,ART,Def|Masc|Acc|Sg","Haushalt,N,_|Masc|Acc|Sg","Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+99,das Badezimmer Wohnzimmer,"das,ART,Def|Neut|Acc|Sg","Badezimmer,N,_|Neut|Acc|Sg","Wohnzimmer,N,_|Neut|Acc|Sg","Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+99,Badezimmer das Wohnzimmer,"Badezimmer,N,_|Neut|Acc|Sg","das,ART,Def|Neut|Acc|Sg","Wohnzimmer,N,_|Neut|Acc|Sg","Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+99,die Zimmer,"die,ART,Def|Neut|Acc|Pl","Zimmer,N,_|Neut|Acc|Pl","Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+99,die Wäsche,"die,ART,Def|Fem|Acc|Sg","Wäsche,N,_|Fem|Acc|Sg",und die Wäsche waschen .
+5,am Abend,"am,PREP,_|_|Dat|_","Abend,N,_|Masc|Dat|Sg",Kann ich am Abend raus gehen oder muss ich zu Hause bleiben ?
+15,zu Hause,"zu,PREP,_|_|Dat|_","Hause,N,_|Neut|Dat|Sg",Kann ich am Abend raus gehen oder muss ich zu Hause bleiben ?
+99,ein bisschen Freizeit,"ein,ART,Indef|_|_|Sg","bisschen,ART,_|Fem|Acc|Sg","Freizeit,N,_|Fem|Acc|Sg",Habe ich ein bisschen Freizeit oder muss ich immer mit der Familie zusammen bleiben ?
+15,mit der Familie,"mit,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Familie,N,_|Fem|Dat|Sg",Habe ich ein bisschen Freizeit oder muss ich immer mit der Familie zusammen bleiben ?
+99,einige Aktivitäten,"einige,ART,_|Fem|Acc|Pl","Aktivitäten,N,_|Fem|Acc|Pl","Ich möchte einige Aktivitäten unternehmen , aber ich weiss nicht , ob ich ein Tag frei in den Woche habe ."
+99,ein Tag,"ein,ART,Indef|Masc|Nom|Sg","Tag,N,_|Masc|Nom|Sg","Ich möchte einige Aktivitäten unternehmen , aber ich weiss nicht , ob ich ein Tag frei in den Woche habe ."
+15,in den Woche,"in,PREP,_|_|_|_","den,ART,Def|_|_|_","Woche,N,_|_|_|_","Ich möchte einige Aktivitäten unternehmen , aber ich weiss nicht , ob ich ein Tag frei in den Woche habe ."
+23,auf Ihre Antwort,"auf,PREP,_|_|Acc|_","Ihre,ART,_|Fem|Acc|Sg","Antwort,N,_|Fem|Acc|Sg",Ich warte auf Ihre Antwort .
+22,Mit freundlichen Grüssen,"Mit,PREP,_|_|Dat|_","freundlichen,ADJA,_|_|Dat|_","Grüssen,N,_|_|Dat|_",Mit freundlichen Grüssen .
+99,Maria Müller,"Maria,N,_|_|_|Sg","Müller,N,_|_|_|Sg",Maria Müller
+99,Maria Müller,"Maria,N,_|_|_|Sg","Müller,N,_|_|_|Sg",Maria Müller

@@ -1,0 +1,51 @@
+Liebe zukünftigen Kollegen,Liebe ADJA Pos|Masc|Acc|Pl|St|,zukünftigen ADJA Pos|Masc|Acc|Pl|Wk|,Kollegen N Masc|Acc|Pl,"Liebe zukünftigen Kollegen Wie Sie alle wissen , bald werden Sie vielleicht in unsere schöne Stadt Stadt X umziehen ."
+in unsere schöne Stadt Stadt,in PREP Acc,unsere ART Fem|Acc|Sg,schöne ADJA Pos|Fem|Acc|Sg|_|,Stadt N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,"Liebe zukünftigen Kollegen Wie Sie alle wissen , bald werden Sie vielleicht in unsere schöne Stadt Stadt X umziehen ."
+Stadt Stadt X,Stadt N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"Liebe zukünftigen Kollegen Wie Sie alle wissen , bald werden Sie vielleicht in unsere schöne Stadt Stadt X umziehen ."
+Stadt X,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"Liebe zukünftigen Kollegen Wie Sie alle wissen , bald werden Sie vielleicht in unsere schöne Stadt Stadt X umziehen ."
+ein paar Wörter,ein ART Indef|_|_|Sg,paar ART Neut|Acc|Pl,Wörter N Neut|Acc|Pl,Deswegen möchte ich hier ein paar Wörter über den Wohnungsmarkt in Stadt X mitteilen .
+Wohnungsmarkt über den,Wohnungsmarkt N Masc|Acc|Sg,über PREP Acc,den ART Def|Masc|Acc|Sg,Deswegen möchte ich hier ein paar Wörter über den Wohnungsmarkt in Stadt X mitteilen .
+in Stadt X,in PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,Deswegen möchte ich hier ein paar Wörter über den Wohnungsmarkt in Stadt X mitteilen .
+Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,Deswegen möchte ich hier ein paar Wörter über den Wohnungsmarkt in Stadt X mitteilen .
+Stadt X,Stadt N Fem|Nom|Sg,X N Fem|Nom|Sg,Stadt X ist eine grosse Stadt und nämlich die grösste Stadt der Schweiz .
+Stadt X,Stadt N Fem|Nom|Sg,X N Fem|Nom|Sg,Stadt X ist eine grosse Stadt und nämlich die grösste Stadt der Schweiz .
+eine grosse Stadt,eine ART Indef|Fem|Nom|Sg,grosse ADJA Pos|Fem|Nom|Sg|_|,Stadt N Fem|Nom|Sg,Stadt X ist eine grosse Stadt und nämlich die grösste Stadt der Schweiz .
+grösste Stadt Schweiz die,grösste ADJA Sup|Fem|Nom|Sg|_|,Stadt N Fem|Nom|Sg,Schweiz N Fem|Gen|Sg,die ART Def|Fem|Nom|Sg,Stadt X ist eine grosse Stadt und nämlich die grösste Stadt der Schweiz .
+Stadt der Schweiz,Stadt N Fem|Nom|Sg,der ART Def|Fem|Gen|Sg,Schweiz N Fem|Gen|Sg,Stadt X ist eine grosse Stadt und nämlich die grösste Stadt der Schweiz .
+Lebensqualität viel Arbeitsmöglichektien,Lebensqualität N Fem|Acc|Sg,viel ART Fem|Acc|Sg,Arbeitsmöglichektien N Fem|Acc|Sg,"Es gibt hier viel Arbeitsmöglichektien , eine sehr hohe Lebensqualität , und auch Schule und Universitäten von ersten Qualität für unsere Nachwuchs ."
+Lebensqualität Arbeitsmöglichektien eine hohe,Lebensqualität N Fem|Acc|Sg,Arbeitsmöglichektien N Fem|Acc|Sg,eine ART Indef|Fem|Acc|Sg,hohe ADJA Pos|Fem|Acc|Sg|_|,"Es gibt hier viel Arbeitsmöglichektien , eine sehr hohe Lebensqualität , und auch Schule und Universitäten von ersten Qualität für unsere Nachwuchs ."
+Schule,Schule N Fem|Acc|Sg,"Es gibt hier viel Arbeitsmöglichektien , eine sehr hohe Lebensqualität , und auch Schule und Universitäten von ersten Qualität für unsere Nachwuchs ."
+von ersten Qualität,von PREP _,ersten ADJA _|Fem|_|Sg|Wk|,Qualität N Fem|_|Sg,"Es gibt hier viel Arbeitsmöglichektien , eine sehr hohe Lebensqualität , und auch Schule und Universitäten von ersten Qualität für unsere Nachwuchs ."
+für unsere Nachwuchs,für PREP Acc,unsere ART Masc|Nom|Sg,Nachwuchs N Masc|Nom|Sg,"Es gibt hier viel Arbeitsmöglichektien , eine sehr hohe Lebensqualität , und auch Schule und Universitäten von ersten Qualität für unsere Nachwuchs ."
+der Grund,der ART Def|Masc|Nom|Sg,Grund N Masc|Nom|Sg,Das ist der Grund warum so viele Leute möchten nach Stadt X kommen und ach warum es so schwirie eine Wohnung oder ein Haus zu finden ist .
+viele Leute,viele ART _|Nom|Pl,Leute N _|Nom|Pl,Das ist der Grund warum so viele Leute möchten nach Stadt X kommen und ach warum es so schwirie eine Wohnung oder ein Haus zu finden ist .
+nach Stadt X,nach PREP Dat,Stadt N Fem|Dat|Sg,X N Fem|Dat|Sg,Das ist der Grund warum so viele Leute möchten nach Stadt X kommen und ach warum es so schwirie eine Wohnung oder ein Haus zu finden ist .
+Stadt X,Stadt N Fem|Dat|Sg,X N Fem|Dat|Sg,Das ist der Grund warum so viele Leute möchten nach Stadt X kommen und ach warum es so schwirie eine Wohnung oder ein Haus zu finden ist .
+eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Das ist der Grund warum so viele Leute möchten nach Stadt X kommen und ach warum es so schwirie eine Wohnung oder ein Haus zu finden ist .
+ein Haus,ein ART Indef|Neut|Acc|Sg,Haus N Neut|Acc|Sg,Das ist der Grund warum so viele Leute möchten nach Stadt X kommen und ach warum es so schwirie eine Wohnung oder ein Haus zu finden ist .
+Der markt,Der ART Def|Masc|Nom|Sg,markt N Masc|Nom|Sg,Der markt ist völlig gesperrt und hier etwas zu finden ist fast Glücksache .
+Glücksache,Glücksache N Fem|Nom|Sg,Der markt ist völlig gesperrt und hier etwas zu finden ist fast Glücksache .
+die Chancen,die ART Def|Fem|Nom|Pl,Chancen N Fem|Nom|Pl,Aber die Chancen sind trotzdem da .
+in den Zentrum,in PREP Acc,den ART Def|Masc|Acc|Sg,Zentrum N Masc|Acc|Sg,"Man muss einfach nicht ganz in den Zentrum suchen , weil ersten die Miete sehr teuer sind und auch weil man sehr viel Zeit braucht um etwas genau und günstig zu finden ."
+Miete,Miete N Fem|Dat|Sg,"Man muss einfach nicht ganz in den Zentrum suchen , weil ersten die Miete sehr teuer sind und auch weil man sehr viel Zeit braucht um etwas genau und günstig zu finden ."
+viel Zeit,viel ART Fem|Acc|Sg,Zeit N Fem|Acc|Sg,"Man muss einfach nicht ganz in den Zentrum suchen , weil ersten die Miete sehr teuer sind und auch weil man sehr viel Zeit braucht um etwas genau und günstig zu finden ."
+auf dem Land,auf PREP Dat,dem ART Def|Neut|Dat|Sg,Land N Neut|Dat|Sg,Man muss breit sein etwas mehr auf dem Land oder in den Vorstädten zu wohnen .
+in den Vorstädten,in PREP Dat,den ART Def|Fem|Dat|Pl,Vorstädten N Fem|Dat|Pl,Man muss breit sein etwas mehr auf dem Land oder in den Vorstädten zu wohnen .
+die Miete,die ART Def|Fem|Nom|Sg,Miete N Fem|Nom|Sg,"Dort wird die Miete noch vernünftig und auch , dank der Öffenverkehrsmitteln , nicht zu weit von dem Stadtzentrum , wo unsere Unternehmen liegt ."
+dank der Öffenverkehrsmitteln,dank PREP _,der ART Def|_|_|_,Öffenverkehrsmitteln N _|_|_,"Dort wird die Miete noch vernünftig und auch , dank der Öffenverkehrsmitteln , nicht zu weit von dem Stadtzentrum , wo unsere Unternehmen liegt ."
+von dem Stadtzentrum,von PREP Dat,dem ART Def|_|Dat|Sg,Stadtzentrum N _|Dat|Sg,"Dort wird die Miete noch vernünftig und auch , dank der Öffenverkehrsmitteln , nicht zu weit von dem Stadtzentrum , wo unsere Unternehmen liegt ."
+unsere Unternehmen,unsere ART Neut|Nom|Sg,Unternehmen N Neut|Nom|Sg,"Dort wird die Miete noch vernünftig und auch , dank der Öffenverkehrsmitteln , nicht zu weit von dem Stadtzentrum , wo unsere Unternehmen liegt ."
+Viele Famile,Viele ART _|Nom|_,Famile N _|Nom|_,Viele Famile wohenn bis nach 20 odre 50 km weit von der Stadt aber das ist wirklich kein Problem für den Alltag .
+km,km N _|Gen|Pl,Viele Famile wohenn bis nach 20 odre 50 km weit von der Stadt aber das ist wirklich kein Problem für den Alltag .
+von der Stadt,von PREP _,der ART Def|Fem|_|Sg,Stadt N Fem|_|Sg,Viele Famile wohenn bis nach 20 odre 50 km weit von der Stadt aber das ist wirklich kein Problem für den Alltag .
+kein Problem,kein ART Neut|Nom|Sg,Problem N Neut|Nom|Sg,Viele Famile wohenn bis nach 20 odre 50 km weit von der Stadt aber das ist wirklich kein Problem für den Alltag .
+für den Alltag,für PREP Acc,den ART Def|Masc|Acc|Sg,Alltag N Masc|Acc|Sg,Viele Famile wohenn bis nach 20 odre 50 km weit von der Stadt aber das ist wirklich kein Problem für den Alltag .
+für die Leute,für PREP Acc,die ART Def|_|Acc|Pl,Leute N _|Acc|Pl,"Noch ein paar Wörter für die Leute , die ein Haus oder eine Wohnung kaufen wollen ."
+ein Haus,ein ART Indef|Neut|Acc|Sg,Haus N Neut|Acc|Sg,"Noch ein paar Wörter für die Leute , die ein Haus oder eine Wohnung kaufen wollen ."
+eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,"Noch ein paar Wörter für die Leute , die ein Haus oder eine Wohnung kaufen wollen ."
+die Gegend,die ART Def|Fem|Acc|Sg,Gegend N Fem|Acc|Sg,Es ist einfach wichtig die Gegend und auch den Markt gut zu kennen .
+Markt den,Markt N Masc|Acc|Sg,den ART Def|Masc|Acc|Sg,Es ist einfach wichtig die Gegend und auch den Markt gut zu kennen .
+Schnäpchen,Schnäpchen N _|_|_,"Wenn man wartet und gut sucht und ermittelt , es ist noch möglich Schnäpchen zu finden und gute Geschäften zu machen ."
+gute Geschäften,gute ADJA Pos|_|_|_|_|,Geschäften N Neut|Dat|Pl,"Wenn man wartet und gut sucht und ermittelt , es ist noch möglich Schnäpchen zu finden und gute Geschäften zu machen ."
+mein Ratschlag,mein ART Masc|Nom|Sg,Ratschlag N Masc|Nom|Sg,"Also mein Ratschlag wäre , seine alle gedultig und vor allem , ich wünsche Sie einen guten Umzug , für die die sich entscheiden zu uns zu kommen ."
+seine alle gedultig,seine ART _|_|_,alle ART _|_|_,gedultig N _|_|_,"Also mein Ratschlag wäre , seine alle gedultig und vor allem , ich wünsche Sie einen guten Umzug , für die die sich entscheiden zu uns zu kommen ."
+einen guten Umzug,einen ART Indef|Masc|Acc|Sg,guten ADJA Pos|Masc|Acc|Sg|_|,Umzug N Masc|Acc|Sg,"Also mein Ratschlag wäre , seine alle gedultig und vor allem , ich wünsche Sie einen guten Umzug , für die die sich entscheiden zu uns zu kommen ."

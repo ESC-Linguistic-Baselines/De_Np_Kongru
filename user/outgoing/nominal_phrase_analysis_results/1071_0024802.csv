@@ -1,0 +1,17 @@
+99,Hallo Ingo,"Hallo,N,_|Neut|_|Sg","Ingo,N,_|Masc|_|Sg",16.03.2012 Hallo Ingo !
+99,Hallo Ingo,"Hallo,N,_|Neut|_|Sg","Ingo,N,_|Masc|_|Sg",16.03.2012 Hallo Ingo !
+99,deine Schule,"deine,ART,_|Fem|Nom|Sg","Schule,N,_|Fem|Nom|Sg",Wie war deine Schule Jahr ?
+99,Jahr,"Jahr,N,_|Neut|Nom|Sg",Wie war deine Schule Jahr ?
+99,eine neue Arbeit,"eine,ART,Indef|Fem|Acc|Sg","neue,ADJA,_|Fem|Acc|Sg","Arbeit,N,_|Fem|Acc|Sg",Ich habe eine neue Arbeit in Neuburg gefunden !
+5,in Neuburg,"in,PREP,_|_|_|_","Neuburg,N,_|Fem|_|Sg",Ich habe eine neue Arbeit in Neuburg gefunden !
+99,eine Wohnung,"eine,ART,Indef|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg",Jetzt muss ich eine Wohnung in Neuburg finden .
+5,in Neuburg,"in,PREP,_|_|_|_","Neuburg,N,_|Fem|_|Sg",Jetzt muss ich eine Wohnung in Neuburg finden .
+99,ein Wohnung,"ein,ART,Indef|_|_|Sg","Wohnung,N,_|Neut|Acc|Sg","Ich brauche nur ein klein Wohnung mit ein Schlafzimmer , ein Bädzimmer und eine Küche ."
+99,Bädzimmer mit ein Schlafzimmer,"Bädzimmer,N,_|_|_|Sg","mit,PREP,_|_|Dat|_","ein,ART,Indef|Neut|_|Sg","Schlafzimmer,N,_|Neut|_|Sg","Ich brauche nur ein klein Wohnung mit ein Schlafzimmer , ein Bädzimmer und eine Küche ."
+99,ein Bädzimmer Schlafzimmer,"ein,ART,Indef|_|_|Sg","Bädzimmer,N,_|_|_|Sg","Schlafzimmer,N,_|Neut|_|Sg","Ich brauche nur ein klein Wohnung mit ein Schlafzimmer , ein Bädzimmer und eine Küche ."
+99,eine Küche,"eine,ART,Indef|Fem|_|Sg","Küche,N,_|Fem|_|Sg","Ich brauche nur ein klein Wohnung mit ein Schlafzimmer , ein Bädzimmer und eine Küche ."
+99,Am April,"Am,PREP,_|_|Dat|_","April,N,_|Masc|Dat|Sg",Am 1 April komme ich nach Neuburg .
+5,nach Neuburg,"nach,PREP,_|_|Dat|_","Neuburg,N,_|Fem|Dat|Sg",Am 1 April komme ich nach Neuburg .
+15,für deine Zeit,"für,PREP,_|_|Acc|_","deine,ART,_|Fem|Acc|Sg","Zeit,N,_|Fem|Acc|Sg",Vielen dank für deine Zeit !
+99,Mit Grußen Maria,"Mit,PREP,_|_|Dat|_","Grußen,N,_|_|Dat|Sg","Maria,N,_|_|Dat|Sg","Mit freundlich Grußen , Maria"
+99,Grußen Maria,"Grußen,N,_|_|Dat|Sg","Maria,N,_|_|Dat|Sg","Mit freundlich Grußen , Maria"

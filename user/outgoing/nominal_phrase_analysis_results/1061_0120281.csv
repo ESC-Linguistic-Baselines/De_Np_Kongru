@@ -1,0 +1,13 @@
+23,Stadt X,"Stadt,N,_|Fem|_|Sg","X,N,_|_|_|Pl","Stadt X 28.02.2012 Liebe Dana , Ich gratulierte dir für diene Prüfung bestanden ."
+99,Stadt X Liebe,"Stadt,N,_|Fem|_|Sg","X,N,_|_|_|Pl","Liebe,N,_|_|_|Pl","Stadt X 28.02.2012 Liebe Dana , Ich gratulierte dir für diene Prüfung bestanden ."
+99,X Liebe Dana,"X,N,_|_|_|Pl","Liebe,N,_|_|_|Pl","Dana,N,_|_|_|Pl","Stadt X 28.02.2012 Liebe Dana , Ich gratulierte dir für diene Prüfung bestanden ."
+23,Liebe Dana,"Liebe,N,_|_|_|Pl","Dana,N,_|_|_|Pl","Stadt X 28.02.2012 Liebe Dana , Ich gratulierte dir für diene Prüfung bestanden ."
+15,für diene Prüfung,"für,PREP,_|_|Acc|_","diene,ADJA,_|Fem|Acc|Sg","Prüfung,N,_|Fem|Acc|Sg","Stadt X 28.02.2012 Liebe Dana , Ich gratulierte dir für diene Prüfung bestanden ."
+99,meine Prüfung,"meine,ART,_|Fem|Acc|Sg","Prüfung,N,_|Fem|Acc|Sg",Heute habe ich meine Prüfung in Schule gemacht .
+5,in Schule,"in,PREP,_|_|_|_","Schule,N,_|Fem|_|Sg",Heute habe ich meine Prüfung in Schule gemacht .
+23,Im Sommer,"Im,PREP,_|_|Dat|_","Sommer,N,_|Masc|Dat|Sg",Im Sommer besuchte ich meine Tante in Frankreich und ich worde viele dinge bracten mit .
+99,meine Tante,"meine,ART,_|Fem|Acc|Sg","Tante,N,_|Fem|Acc|Sg",Im Sommer besuchte ich meine Tante in Frankreich und ich worde viele dinge bracten mit .
+5,in Frankreich,"in,PREP,_|_|_|_","Frankreich,N,_|Neut|_|Sg",Im Sommer besuchte ich meine Tante in Frankreich und ich worde viele dinge bracten mit .
+23,Meine Tante,"Meine,ART,_|Fem|Nom|Sg","Tante,N,_|Fem|Nom|Sg",Meine Tante hat gesagt es ist ein shönen Land .
+23,ein shönen Land,"ein,ART,Indef|Neut|Nom|Sg","shönen,ADJA,_|Neut|Nom|Sg","Land,N,_|Neut|Nom|Sg",Meine Tante hat gesagt es ist ein shönen Land .
+99,viel Spaß,"viel,ART,_|Masc|_|Sg","Spaß,N,_|Masc|_|Sg",Ich wunsche dir alle gute und viel Spaß

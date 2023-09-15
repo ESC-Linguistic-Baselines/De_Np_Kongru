@@ -1,0 +1,23 @@
+99,Stadt X Liebe,"Stadt,N,_|Fem|Dat|Sg","X,N,_|Fem|Dat|Sg","Liebe,N,_|_|Dat|Pl","Stadt X , den 12.3.2012 Liebe Dana , Es ist schön , zu auf dich hören ."
+23,Stadt X,"Stadt,N,_|Fem|Dat|Sg","X,N,_|Fem|Dat|Sg","Stadt X , den 12.3.2012 Liebe Dana , Es ist schön , zu auf dich hören ."
+99,Stadt den Liebe Dana,"Stadt,N,_|Fem|Dat|Sg","den,ART,Def|_|_|_","Liebe,N,_|_|Dat|Pl","Dana,N,_|_|Dat|Pl","Stadt X , den 12.3.2012 Liebe Dana , Es ist schön , zu auf dich hören ."
+23,Liebe Dana,"Liebe,N,_|_|Dat|Pl","Dana,N,_|_|Dat|Pl","Stadt X , den 12.3.2012 Liebe Dana , Es ist schön , zu auf dich hören ."
+15,für deine bestandenen Prüfung,"für,PREP,_|_|Acc|_","deine,ART,_|_|_|_","bestandenen,ADJA,_|_|Acc|Pl","Prüfung,N,_|_|Acc|_",Herzlich Gluckwunsch für deine bestandenen Prüfung !
+23,Auf jeden Fall,"Auf,PREP,_|_|_|_","jeden,ART,_|Masc|_|Sg","Fall,N,_|Masc|_|Sg","Auf jeden Fall , man braucht ein Urlaub nach viel lernen !"
+99,ein Urlaub,"ein,ART,Indef|Neut|Acc|Sg","Urlaub,N,_|Neut|Acc|Sg","Auf jeden Fall , man braucht ein Urlaub nach viel lernen !"
+5,über Verwandte,"über,PREP,_|_|Acc|_","Verwandte,N,_|_|Acc|_",Ich verstehe was du meinst über Verwandte im Ausland leben .
+5,im Ausland,"im,PREP,_|_|Dat|_","Ausland,N,_|Neut|Dat|Sg",Ich verstehe was du meinst über Verwandte im Ausland leben .
+15,zu meine Großeltern,"zu,PREP,_|_|Dat|_","meine,ART,_|_|_|Pl","Großeltern,N,_|_|_|Pl",Es ist auch schön zu meine Großeltern in Irland besuchen .
+5,in Irland,"in,PREP,_|_|_|_","Irland,N,_|Neut|_|Sg",Es ist auch schön zu meine Großeltern in Irland besuchen .
+99,Istanbul,"Istanbul,N,_|Neut|Nom|Sg",Istanbul Klingt wie eine sehr interessante Stadt .
+99,eine interessante Stadt,"eine,ART,Indef|Fem|_|Sg","interessante,ADJA,_|Fem|_|Sg","Stadt,N,_|Fem|_|Sg",Istanbul Klingt wie eine sehr interessante Stadt .
+23,Veilleicht,"Veilleicht,N,_|_|Dat|_",Veilleicht Kannst du für mir Donerbröt aus Istanbul mitbringen ?
+23,Donerbröt,"Donerbröt,N,_|_|_|_",Veilleicht Kannst du für mir Donerbröt aus Istanbul mitbringen ?
+5,aus Istanbul,"aus,PREP,_|_|Dat|_","Istanbul,N,_|Neut|Dat|Sg",Veilleicht Kannst du für mir Donerbröt aus Istanbul mitbringen ?
+21,in Stadt,"in,PREP,_|_|_|_","Stadt,N,_|Fem|_|Sg",Das ist echt schwer in Stadt X zu finden .
+23,dein Onken,"dein,ART,_|_|Nom|Sg","Onken,N,_|_|Nom|Sg",Wo genau wohnt dein Onken und deine Tante ?
+99,deine Tante,"deine,ART,_|Fem|Nom|Sg","Tante,N,_|Fem|Nom|Sg",Wo genau wohnt dein Onken und deine Tante ?
+23,lust,"lust,N,_|_|Nom|_","Ich auch wäre lust habe , auf dich Rückkehr besuchen ."
+99,Rückkehr,"Rückkehr,N,_|Fem|Acc|Sg","Ich auch wäre lust habe , auf dich Rückkehr besuchen ."
+23,Viele Grüße Michael,"Viele,ART,_|Masc|_|Pl","Grüße,N,_|Masc|_|Pl","Michael,N,_|Masc|_|Sg",Viele Grüße Michael
+99,Grüße Michael,"Grüße,N,_|Masc|_|Pl","Michael,N,_|Masc|_|Sg",Viele Grüße Michael

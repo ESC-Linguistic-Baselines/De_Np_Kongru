@@ -1,0 +1,41 @@
+Stefan Schmidt,Stefan N Fem|_|Sg,Schmidt N Fem|_|Sg,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Stefan Schmidt Müllergasse,Stefan N Fem|_|Sg,Schmidt N Fem|_|Sg,Müllergasse N Fem|_|Sg,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Schmidt Müllergasse,Schmidt N Fem|_|Sg,Müllergasse N Fem|_|Sg,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Stadt,Stadt N Fem|_|Sg,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Au-pair-Agentur Schultz,Au-pair-Agentur N Fem|_|Sg,Schultz N Masc|_|_,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Au-pair-Agentur Schultz,Au-pair-Agentur N Fem|_|Sg,Schultz N Masc|_|_,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Partner Regenstr,Partner N Masc|_|_,Regenstr N Masc|_|_,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Partner Regenstr,Partner N Masc|_|_,Regenstr N Masc|_|_,Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Nürnberg Stadt,Nürnberg N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Nürnberg Stadt X August,Nürnberg N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,August N Masc|Acc|Sg,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Stadt X,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Stadt den 18. August,Stadt N Fem|Acc|Sg,den ART Def|Masc|Acc|Sg,18. ADJA _|Masc|Acc|Sg|_|,August N Masc|Acc|Sg,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Forderung Entschädigung,Forderung N Fem|_|Sg,Entschädigung N Fem|Gen|Sg,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Forderung einer Entschädigung Damen,Forderung N Fem|_|Sg,einer ART Indef|Fem|_|Sg,Entschädigung N Fem|Gen|Sg,Damen N Fem|_|Pl,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Entschädigung geehrte Damen,Entschädigung N Fem|Gen|Sg,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Herren,Herren N Masc|_|_,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+Ihre Anzeige,Ihre ART Fem|Acc|Sg,Anzeige N Fem|Acc|Sg,"101 90451 Nürnberg Stadt X , den 18. August 2011 Forderung einer Entschädigung Sehr geehrte Damen und Herren , als ich Ihre Anzeige gelesen habe , war ich sofort begeistert ."
+an einer Erfahrung,an PREP Dat,einer ART Indef|Fem|Dat|Sg,Erfahrung N Fem|Dat|Sg,da ich schon immer an einer Erfahrung als Au-pair teilnehmen wollte .
+Au-pair,Au-pair N _,da ich schon immer an einer Erfahrung als Au-pair teilnehmen wollte .
+bei Ihrer Au-pair Agentur,bei PREP Dat,Ihrer ART Fem|Dat|Sg,Au-pair N Fem|Dat|Sg,Agentur N Fem|Dat|Sg,Deshalb habe ich mich sofort bei Ihrer Au-pair Agentur angemeldet .
+Au-pair Agentur,Au-pair N Fem|Dat|Sg,Agentur N Fem|Dat|Sg,Deshalb habe ich mich sofort bei Ihrer Au-pair Agentur angemeldet .
+in Ihrer Anzeige,in PREP Dat,Ihrer ART Fem|Dat|Sg,Anzeige N Fem|Dat|Sg,"Aber was Sie in Ihrer Anzeige versprochen haben , entsprach leider nicht der Realität ."
+der Realität,der ART Def|Fem|Dat|Sg,Realität N Fem|Dat|Sg,"Aber was Sie in Ihrer Anzeige versprochen haben , entsprach leider nicht der Realität ."
+einer Woche,einer ART Indef|Fem|Dat|Sg,Woche N Fem|Dat|Sg,"Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
+in meiner Gastfamilie,in PREP Dat,meiner ART Fem|Dat|Sg,Gastfamilie N Fem|Dat|Sg,"Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
+keine Kinder,keine ART Neut|Nom|Pl,Kinder N Neut|Nom|Pl,"Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
+mit Ihrem Vater,mit PREP Dat,Ihrem ART Masc|Dat|Sg,Vater N Masc|Dat|Sg,"Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
+in Urlaub,in PREP _,Urlaub N _|_|Sg,"Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
+jeden Tag,jeden ART Masc|Acc|Sg,Tag N Masc|Acc|Sg,"Weiterhin war ich verärgert , weil ich jeden Tag selbst kochen musste ."
+Aus diesem Grund,Aus PREP Dat,diesem ART Masc|Dat|Sg,Grund N Masc|Dat|Sg,Aus diesem Grund habe ich keine Zeit um mich zu erholen .
+keine Zeit,keine ART Fem|Acc|Sg,Zeit N Fem|Acc|Sg,Aus diesem Grund habe ich keine Zeit um mich zu erholen .
+in Ihrer Anzeige,in PREP Dat,Ihrer ART Fem|Dat|Sg,Anzeige N Fem|Dat|Sg,"Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
+super-guten Service einen,super-guten ADJA Pos|Masc|Acc|Sg|_|,Service N Masc|Acc|Sg,einen ART Indef|Masc|Acc|Sg,"Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
+diesen Service,diesen ART Masc|Acc|Sg,Service N Masc|Acc|Sg,"Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
+an Ihrer Agentur,an PREP Dat,Ihrer ART Fem|Dat|Sg,Agentur N Fem|Dat|Sg,"Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
+Aus den genannten Gründen,Aus PREP Dat,den ART Def|Masc|Dat|Pl,genannten ADJA Pos|Masc|Dat|Pl|_|,Gründen N Masc|Dat|Pl,"Aus den oben genannten Gründen möchte ich Sie bitte , mir eine Entschädigung von mindestens 100 € zukommen zu lasen , weil ich diese Situation nicht akzeptieren kann ."
+von €,von PREP _,€ N _|_|Pl,"Aus den oben genannten Gründen möchte ich Sie bitte , mir eine Entschädigung von mindestens 100 € zukommen zu lasen , weil ich diese Situation nicht akzeptieren kann ."
+diese Situation,diese ART Fem|Acc|Sg,Situation N Fem|Acc|Sg,"Aus den oben genannten Gründen möchte ich Sie bitte , mir eine Entschädigung von mindestens 100 € zukommen zu lasen , weil ich diese Situation nicht akzeptieren kann ."
+Mit freundlichen Grüßen Stefan,Mit PREP Dat,freundlichen ADJA Pos|_|Dat|_|_|,Grüßen N _|Dat|_,Stefan N _|Dat|Sg,Mit freundlichen Grüßen Stefan Schmidt
+Grüßen Stefan Schmidt,Grüßen N _|Dat|_,Stefan N _|Dat|Sg,Schmidt N _|Dat|Sg,Mit freundlichen Grüßen Stefan Schmidt
+Stefan Schmidt,Stefan N _|Dat|Sg,Schmidt N _|Dat|Sg,Mit freundlichen Grüßen Stefan Schmidt

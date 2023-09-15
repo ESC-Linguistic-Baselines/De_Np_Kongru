@@ -1,0 +1,18 @@
+99,Hallo Ingo,"Hallo,N,_|Neut|_|Sg","Ingo,N,_|Masc|_|Sg",Hallo Ingo .
+99,Hallo Ingo,"Hallo,N,_|Neut|_|Sg","Ingo,N,_|Masc|_|Sg",Hallo Ingo .
+99,eine Arbeit,"eine,ART,Indef|Fem|Acc|Sg","Arbeit,N,_|Fem|Acc|Sg","Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+23,in Neuburg gefundet,"in,PREP,_|_|_|_","Neuburg,N,_|_|_|_","gefundet,N,_|_|_|_","Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+23,Neuburg gefundet,"Neuburg,N,_|_|_|_","gefundet,N,_|_|_|_","Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+23,1st Juli,"1st,N,_|Masc|Nom|Sg","Juli,N,_|Masc|Nom|Sg","Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+23,1st Juli,"1st,N,_|Masc|Nom|Sg","Juli,N,_|Masc|Nom|Sg","Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+99,eine Wohnung,"eine,ART,Indef|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg",Ich brauche eine Wohnung in Neuburg .
+5,in Neuburg,"in,PREP,_|_|_|_","Neuburg,N,_|Fem|_|Sg",Ich brauche eine Wohnung in Neuburg .
+99,ihr Hilfe,"ihr,ART,_|_|_|Sg","Hilfe,N,_|_|Nom|Sg",Kann ihr Hilfe mich bei der Wohnungssuche .
+15,bei der Wohnungssuche,"bei,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Wohnungssuche,N,_|Fem|Dat|Sg",Kann ihr Hilfe mich bei der Wohnungssuche .
+5,an Idee,"an,PREP,_|_|_|_","Idee,N,_|Fem|_|Sg",Ich habe an Idee Große der Wohnung .
+99,Große Wohnung,"Große,N,_|_|Acc|_","Wohnung,N,_|Fem|Gen|Sg",Ich habe an Idee Große der Wohnung .
+99,Große der Wohnung,"Große,N,_|_|Acc|_","der,ART,Def|Fem|Gen|Sg","Wohnung,N,_|Fem|Gen|Sg",Ich habe an Idee Große der Wohnung .
+99,der Zeit,"der,ART,Def|Fem|Dat|Sg","Zeit,N,_|Fem|Dat|Sg",Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
+22,Mit Große Freundlich,"Mit,PREP,_|_|Dat|_","Große,ADJA,_|_|_|_","Freundlich,N,_|_|_|_",Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
+23,Vielen Vielen,"Vielen,ART,_|_|Acc|_","Vielen,N,_|_|Acc|_",Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
+99,Danke,"Danke,N,_|Masc|Dat|Sg",Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
