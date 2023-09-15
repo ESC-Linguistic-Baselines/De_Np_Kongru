@@ -25,7 +25,7 @@ MERLIN_TABLE_ENTRY_FORMAT = """(
     general_gender,
     rating_overall_cefr_rating,
     rating_grammatical_accuracy,
-    rating_orthography_b2,
+    rating_orthography,
     rating_vocabulary_range,
     rating_vocabulary_control,
     rating_coherence_cohesion,
