@@ -108,7 +108,7 @@ def count_np_results() -> dict:
         np_results = np_statistics.get_data_as_string()
 
         statistics_results[txt_id] = np_results
-    catch_and_log_info("Ergebnisse erfolgreich gezählt!", echo_msg=True)
+    catch_and_log_info("Ergebnisse erfolgreich gezaehlt!", echo_msg=True)
 
     return statistics_results
 
