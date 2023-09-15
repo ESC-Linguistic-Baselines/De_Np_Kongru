@@ -54,7 +54,7 @@ class MerlinManager:
         "general_gender"	TEXT,
         "rating_overall_cefr_rating"	TEXT,
         "rating_grammatical_accuracy"	TEXT,
-        "rating_orthography_b2"	TEXT,
+        "rating_orthography"	TEXT,
         "rating_vocabulary_range"	TEXT,
         "rating_vocabulary_control"	TEXT,
         "rating_coherence_cohesion"	TEXT,
@@ -266,7 +266,7 @@ class MerlinManager:
             "general_gender"	TEXT,
             "rating_overall_cefr_rating"	TEXT,
             "rating_grammatical_accuracy"	TEXT,
-            "rating_orthography_b2"	TEXT,
+            "rating_orthography"	TEXT,
             "rating_vocabulary_range"	TEXT,
             "rating_vocabulary_control"	TEXT,
             "rating_coherence_cohesion"	TEXT,
@@ -344,6 +344,7 @@ class MerlinManager:
             # Wenn der Eintrag nicht in der Daten schon vorhanden ist,
             # wird dieser dann eingetragen
             sql_insert_query = f"INSERT INTO {table_name} {MERLIN_TABLE_ENTRY_FORMAT}"
+
             merlin_corpus_data = (
                 general_points
                 + rating_points
@@ -433,7 +434,7 @@ class MerlinManager:
             None
         """
         merlin_manager = MerlinManager()
-        merin_raw_corpus = os.path.isfile(Gp.MERLIN_ZIP_CORPUS)
+        merin_raw_corpus = os.path.isfile(Gp.MERLIN_ZIP_CORPUS.value)
 
         if merin_raw_corpus:
             self.__unzip_merlin_raw_corpus()
@@ -484,4 +485,4 @@ class MerlinManager:
 
 
 if __name__ == "__main__":
-    pass
+    MerlinManager().generate_merlin_database()
