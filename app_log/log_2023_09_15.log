@@ -11908,3 +11908,159 @@ Funktion: catch_and_log_error
 Linie: 100
 Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
 
+Zeitpunkt: 2023-09-15 20:32:54,487
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merli_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: near "(": syntax error
+
+Nachricht: near "(": syntax error
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:33:14,080
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merlin_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: near "(": syntax error
+
+Nachricht: near "(": syntax error
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:33:29,771
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merlin_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: near "(": syntax error
+
+Nachricht: near "(": syntax error
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:34:19,630
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merlin_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: near "(": syntax error
+
+Nachricht: near "(": syntax error
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:34:55,406
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merlin_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: unrecognized token: "1031_0002079"
+
+Nachricht: unrecognized token: "1031_0002079"
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:35:20,590
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merlin_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: unrecognized token: "1031_0002079"
+
+Nachricht: unrecognized token: "1031_0002079"
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:35:39,054
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merlin_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: unrecognized token: "1031_0002079"
+
+Nachricht: unrecognized token: "1031_0002079"
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:36:00,244
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/managers/merlin_manager.py", line 419, in read_merlin_corpus_database
+    cursor.execute(self.sql_command)
+sqlite3.OperationalError: unrecognized token: "1031_0002079"
+
+Nachricht: unrecognized token: "1031_0002079"
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:44:10,405
+Loggername: root
+LogLevel: INFO
+Nachricht: Zähle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:44:10,413
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezählt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:44:10,413
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-15 20:44:10,450
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisdatei erfolgreich generiert!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

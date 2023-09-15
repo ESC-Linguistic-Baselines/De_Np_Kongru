@@ -52,7 +52,7 @@ def show_text_ids() -> None:
         "SELECT general_author_id,general_mother_tongue,general_cefr,"
         "txt_len_in_char FROM learner_text_data "
     )
-    text_ids = Merlin(sql_command=sql_command).read_merli_corpus_database()
+    text_ids = Merlin(sql_command=sql_command).read_merlin_corpus_database()
     table = Table(
         "general_author_id", "general_mother_tongue", "general_cefr", "txt_len_in_char"
     )
@@ -117,7 +117,7 @@ def extract_nps_from_database(
         f"SELECT {data_type} FROM learner_text_data where "
         f"general_author_id = '{text_id}' "
     )
-    database_results = corpus.read_merli_corpus_database()
+    database_results = corpus.read_merlin_corpus_database()
 
     if database_results:
 
@@ -237,7 +237,7 @@ def extract_data_from_merlin_database(
     with open(sql_script, "r") as sql_file:
         script = sql_file.read()
     merlin_corpus = Merlin(sql_command=script)
-    data = merlin_corpus.read_merli_corpus_database()
+    data = merlin_corpus.read_merlin_corpus_database()
     for id in tqdm(data, desc="Processing"):  # Add a progress bar with description
         merlin_corpus.text_id = id[0]
         result = merlin_corpus.extract_merlin_corpus_entry_by_id()

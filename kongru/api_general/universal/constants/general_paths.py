@@ -98,6 +98,11 @@ class GeneralPaths(Enum):
     TEST_NP_FILE_CSV = "user/outgoing/extracted_nominal_phrases/nps_1091_0000269.csv"
     TEST_NP_AST_FILE = "1023_0101841.ast"
 
+    NP_HEADER_FILE = "dokumentation/project_layout/header_file.csv"
+    NP_MAIN_SAVE_FILE = "batch_evaluation_np.csv"
+
+    NP_TRAINING_IDS = "dokumentation/results/test_ids.txt"
+
 
 try:
     """

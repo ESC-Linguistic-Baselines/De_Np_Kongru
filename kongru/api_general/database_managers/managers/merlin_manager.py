@@ -82,7 +82,7 @@ class MerlinManager:
         merlin_txt_id: str = "1031_0003130",
         merlin_corpus_db: str = Gp.DB_MERLIN_SQL_DB.value,
         sql_command: str = "SELECT general_author_id FROM learner_text_data",
-    ):
+    ) -> object:
         self.file_name = file_name
         self.text_id = merlin_txt_id
         self.merlin_corpus_db = merlin_corpus_db
@@ -401,7 +401,7 @@ class MerlinManager:
                 custom_message="Die Text-ID, die eingegeben wurde, ist nicht gueltig.",
             )
 
-    def read_merli_corpus_database(self) -> tuple:
+    def read_merlin_corpus_database(self) -> tuple:
         """
         Man kann die merlin_sql_db durchsuchen, indem man sql-anfragen eingibt.
 

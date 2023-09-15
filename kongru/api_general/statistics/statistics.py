@@ -27,6 +27,8 @@ class Statistics:
             "EIGENNAMEN": {"5": 0, "15": 0},
             "REDEWENDUNGEN": {"5": 0, "15": 0},
             "UNBEKANNT": 0,
+            "WAHR": 0,
+            "FALSCH": 0,
         }
 
         for row in np_result_data:
@@ -34,8 +36,10 @@ class Statistics:
             # ART NPS
             if code == 5:
                 data_set["PREP"]["5"] = data_set["PREP"]["5"] + 1
+                data_set["WAHR"] = data_set["WAHR"] + 1
             if code == 15:
                 data_set["PREP"]["15"] = data_set["PREP"]["15"] + 1
+                data_set["WAHR"] = data_set["WAHR"] + 1
 
         return data_set
 
@@ -53,6 +57,9 @@ class Statistics:
             "EIGENNAMEN_NICHT": 0,
             "REDEWENDUNGEN": 0,
             "REDEWENDUNGEN_NICHT": 0,
+            "UNBEKANNT": 0,
+            "WAHR": 0,
+            "FALSCH": 0,
         }
 
         codes = self.count_congruency_codes()
@@ -82,6 +89,16 @@ class Statistics:
                 congru, not_congru = codes.get(row).values()
                 code_data["REDEWENDUNGEN"] = congru
                 code_data["REDEWENDUNGEN_NICHT"] = not_congru
+
+            elif row == "UNBEKANNT":
+                congru = codes.get(row)
+                code_data["UNBEKANNT"] = congru
+            elif row == "WAHR":
+                congru = codes.get(row)
+                code_data["WAHR"] = congru
+            elif row == "FALSCH":
+                congru = codes.get(row)
+                code_data["FALSCH"] = congru
 
         return code_data
 

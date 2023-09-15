@@ -1,7 +1,7 @@
 # Das lokale Verzeichnis festlegen
 setwd("/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/dokumentation/results")
 en_fr_data <- read.csv(
-  file = "batch_evaluation_np.csv"
+  file = "../../batch_evaluation_np.csv"
 )
 
 #View(en_fr_data)
