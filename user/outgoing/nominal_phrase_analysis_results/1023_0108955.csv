@@ -1,6 +1,6 @@
 1,Stefan Schmidt,"Stefan,N,_|Fem|_|Sg","Schmidt,N,_|Fem|_|Sg",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
-3,Stefan Schmidt Müllergasse,"Stefan,N,_|Fem|_|Sg","Schmidt,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
-3,Schmidt Müllergasse,"Schmidt,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+10,Stefan Schmidt Müllergasse,"Stefan,N,_|Fem|_|Sg","Schmidt,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+10,Schmidt Müllergasse,"Schmidt,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
 3,Stadt,"Stadt,N,_|Fem|_|Sg",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
 10,Au-pair-Agentur Schultz,"Au-pair-Agentur,N,_|Fem|_|Sg","Schultz,N,_|Masc|_|_",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
 10,Partner Regenstr,"Partner,N,_|Masc|_|_","Regenstr,N,_|Masc|_|_",Stefan Schmidt Müllergasse 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
@@ -20,7 +20,7 @@
 10,in Ihrer Anzeige,"in,PREP,_|_|Dat|_","Ihrer,ART,_|Fem|Dat|Sg","Anzeige,N,_|Fem|Dat|Sg","Aber was Sie in Ihrer Anzeige versprochen haben , entsprach leider nicht der Realität ."
 1,der Realität,"der,ART,Def|Fem|Dat|Sg","Realität,N,_|Fem|Dat|Sg","Aber was Sie in Ihrer Anzeige versprochen haben , entsprach leider nicht der Realität ."
 1,einer Woche,"einer,ART,Indef|Fem|Dat|Sg","Woche,N,_|Fem|Dat|Sg","Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
-3,in meiner Gastfamilie,"in,PREP,_|_|Dat|_","meiner,ART,_|Fem|Dat|Sg","Gastfamilie,N,_|Fem|Dat|Sg","Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
+1,in meiner Gastfamilie,"in,PREP,_|_|Dat|_","meiner,ART,_|Fem|Dat|Sg","Gastfamilie,N,_|Fem|Dat|Sg","Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
 1,keine Kinder,"keine,ART,_|Neut|Nom|Pl","Kinder,N,_|Neut|Nom|Pl","Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
 10,mit Ihrem Vater,"mit,PREP,_|_|Dat|_","Ihrem,ART,_|Masc|Dat|Sg","Vater,N,_|Masc|Dat|Sg","Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
 1,in Urlaub,"in,PREP,_|_|_|_","Urlaub,N,_|_|_|Sg","Erstens war ich sehr enttäuscht , dass es währen einer Woche in meiner Gastfamilie keine Kinder gab , weil Sie mit Ihrem Vater in Urlaub waren ."
@@ -28,7 +28,7 @@
 10,Aus diesem Grund,"Aus,PREP,_|_|Dat|_","diesem,ART,_|Masc|Dat|Sg","Grund,N,_|Masc|Dat|Sg",Aus diesem Grund habe ich keine Zeit um mich zu erholen .
 1,keine Zeit,"keine,ART,_|Fem|Acc|Sg","Zeit,N,_|Fem|Acc|Sg",Aus diesem Grund habe ich keine Zeit um mich zu erholen .
 99,super-guten Service einen,"super-guten,ADJA,_|Masc|Acc|Sg","Service,N,_|Masc|Acc|Sg","einen,ART,Indef|Masc|Acc|Sg","Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
-3,diesen Service,"diesen,ART,_|Masc|Acc|Sg","Service,N,_|Masc|Acc|Sg","Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
+1,diesen Service,"diesen,ART,_|Masc|Acc|Sg","Service,N,_|Masc|Acc|Sg","Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
 10,an Ihrer Agentur,"an,PREP,_|_|Dat|_","Ihrer,ART,_|Fem|Dat|Sg","Agentur,N,_|Fem|Dat|Sg","Obwohl in Ihrer Anzeige stand , dass Sie einen super-guten Service haben , finde ich diesen Service sehr schlecht , da ich dreimal an Ihrer Agentur geruft habe und niemand war da ."
 99,Aus den genannten Gründen,"Aus,PREP,_|_|Dat|_","den,ART,Def|Masc|Dat|Pl","genannten,ADJA,_|Masc|Dat|Pl","Gründen,N,_|Masc|Dat|Pl","Aus den oben genannten Gründen möchte ich Sie bitte , mir eine Entschädigung von mindestens 100 € zukommen zu lasen , weil ich diese Situation nicht akzeptieren kann ."
 99,von €,"von,PREP,_|_|_|_","€,N,_|_|_|Pl","Aus den oben genannten Gründen möchte ich Sie bitte , mir eine Entschädigung von mindestens 100 € zukommen zu lasen , weil ich diese Situation nicht akzeptieren kann ."

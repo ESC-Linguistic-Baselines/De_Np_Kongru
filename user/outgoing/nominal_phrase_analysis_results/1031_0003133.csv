@@ -1,11 +1,11 @@
-1,einem Haus,"einem,ART,Indef|Neut|Dat|Sg","Haus,N,_|Neut|Dat|Sg","Wenn man umziehen muss , dann muss man nach einer Wohnung oder einem Haus suchen ."
+3,einem Haus,"einem,ART,Indef|Neut|Dat|Sg","Haus,N,_|Neut|Dat|Sg","Wenn man umziehen muss , dann muss man nach einer Wohnung oder einem Haus suchen ."
 3,in Stadt,"in,PREP,_|_|_|_","Stadt,N,_|Fem|_|Sg","Bei uns in Stadt X ist es üblich zusammen mit der Familie zu wohnen , wenn man noch ledig ."
 1,mit der Familie,"mit,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Familie,N,_|Fem|Dat|Sg","Bei uns in Stadt X ist es üblich zusammen mit der Familie zu wohnen , wenn man noch ledig ."
 1,eine eigene Wohnung,"eine,ART,Indef|Fem|Acc|Sg","eigene,ADJA,_|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg","Erst nach dem man verheiratet ist , hat man eine eigene Wohnung ."
 10,Ein Haus,"Ein,ART,Indef|Neut|Acc|Sg","Haus,N,_|Neut|Acc|Sg","Ein Haus zu mieten oder kaufen , kommt selten in Frage , weil bei uns wenig Platz gibt ."
 1,in Frage,"in,PREP,_|_|_|_","Frage,N,_|Fem|_|Sg","Ein Haus zu mieten oder kaufen , kommt selten in Frage , weil bei uns wenig Platz gibt ."
 1,wenig Platz,"wenig,ART,_|Masc|Nom|Sg","Platz,N,_|Masc|Nom|Sg","Ein Haus zu mieten oder kaufen , kommt selten in Frage , weil bei uns wenig Platz gibt ."
-1,für die Ausländer,"für,PREP,_|_|Acc|_","die,ART,Def|_|Acc|Pl","Ausländer,N,_|_|Acc|Pl","Das heißt , für die Ausländer , die eine Wohnung oder Haus suchen , kann es schwerig sein ."
+3,für die Ausländer,"für,PREP,_|_|Acc|_","die,ART,Def|_|Acc|Pl","Ausländer,N,_|_|Acc|Pl","Das heißt , für die Ausländer , die eine Wohnung oder Haus suchen , kann es schwerig sein ."
 99,Wohnung eine,"Wohnung,N,_|Fem|Acc|Sg","eine,ART,Indef|Fem|Acc|Sg","Das heißt , für die Ausländer , die eine Wohnung oder Haus suchen , kann es schwerig sein ."
 1,Haus,"Haus,N,_|Neut|Acc|Sg","Das heißt , für die Ausländer , die eine Wohnung oder Haus suchen , kann es schwerig sein ."
 1,unsere Wohnung,"unsere,ART,_|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg","Als wir damals unsere Wohnung vermietet haben , hatten wir viele Bewerber ."
@@ -20,7 +20,7 @@
 1,zum Beispiel,"zum,PREP,_|_|Dat|_","Beispiel,N,_|Neut|Dat|Sg","Man kann zum Beispiel per Internet nachschauen , was auf dem Immobilienmarkt gerade frei ist , oder zu einem Makler gehen , um Hilfe zu bitten ."
 1,per Internet,"per,PREP,_|_|Dat|_","Internet,N,_|Neut|Dat|Sg","Man kann zum Beispiel per Internet nachschauen , was auf dem Immobilienmarkt gerade frei ist , oder zu einem Makler gehen , um Hilfe zu bitten ."
 1,auf dem Immobilienmarkt,"auf,PREP,_|_|Dat|_","dem,ART,Def|Masc|Dat|Sg","Immobilienmarkt,N,_|Masc|Dat|Sg","Man kann zum Beispiel per Internet nachschauen , was auf dem Immobilienmarkt gerade frei ist , oder zu einem Makler gehen , um Hilfe zu bitten ."
-1,zu einem Makler,"zu,PREP,_|_|Dat|_","einem,ART,Indef|Masc|Dat|Sg","Makler,N,_|Masc|Dat|Sg","Man kann zum Beispiel per Internet nachschauen , was auf dem Immobilienmarkt gerade frei ist , oder zu einem Makler gehen , um Hilfe zu bitten ."
+3,zu einem Makler,"zu,PREP,_|_|Dat|_","einem,ART,Indef|Masc|Dat|Sg","Makler,N,_|Masc|Dat|Sg","Man kann zum Beispiel per Internet nachschauen , was auf dem Immobilienmarkt gerade frei ist , oder zu einem Makler gehen , um Hilfe zu bitten ."
 1,Hilfe,"Hilfe,N,_|Fem|Acc|Sg","Man kann zum Beispiel per Internet nachschauen , was auf dem Immobilienmarkt gerade frei ist , oder zu einem Makler gehen , um Hilfe zu bitten ."
 10,Eine andere Option,"Eine,ART,Indef|Fem|Nom|Sg","andere,ADJA,_|Fem|Nom|Sg","Option,N,_|Fem|Nom|Sg",Eine andere Option wäre durch Vitamin B.
 1,durch Vitamin,"durch,PREP,_|_|Acc|_","Vitamin,N,_|Neut|Acc|Sg",Eine andere Option wäre durch Vitamin B.

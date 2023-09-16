@@ -3,7 +3,7 @@
 99,X Liebe Michael,"X,N,_|_|_|Pl","Liebe,N,_|_|_|Pl","Michael,N,_|Masc|Acc|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
 99,Liebe Michael Dank,"Liebe,N,_|_|_|Pl","Michael,N,_|Masc|Acc|Sg","Dank,N,_|Masc|Acc|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
 99,für Michael vielen Dank,"für,PREP,_|_|Acc|_","Michael,N,_|Masc|Acc|Sg","vielen,ART,_|Masc|Acc|Sg","Dank,N,_|Masc|Acc|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
-1,für dein Brief,"für,PREP,_|_|Acc|_","dein,ART,_|Masc|Nom|Sg","Brief,N,_|Masc|Nom|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
+3,für dein Brief,"für,PREP,_|_|Acc|_","dein,ART,_|Masc|Nom|Sg","Brief,N,_|Masc|Nom|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
 10,über dein Silversternacht,"über,PREP,_|_|Acc|_","dein,ART,_|Neut|Acc|Sg","Silversternacht,N,_|Neut|Acc|Sg","Es war sehr schön , mir über dein Silversternacht zu hören ."
 1,mit deiner Ausbildung,"mit,PREP,_|_|Dat|_","deiner,ART,_|Fem|Dat|Sg","Ausbildung,N,_|Fem|Dat|Sg",Ich wünche dir alles Gut mit deiner Ausbildung .
 1,Schokolade Croissant,"Schokolade,N,_|Neut|Acc|Sg","Croissant,N,_|Neut|Acc|Sg",Kannst du bitte mir drei oder vier Schokolade Croissant schicken ?
@@ -13,7 +13,7 @@
 99,arbeit der,"arbeit,N,_|Fem|Dat|Sg","der,ART,Def|Fem|Dat|Sg","Meistens sind sehr nett , und ich mag der arbeit ."
 99,Urlaub ein,"Urlaub,N,_|Neut|Acc|Sg","ein,ART,Indef|Neut|Acc|Sg","Trotzdem , ich würde lieber mit dir ein Kurz Urlaub machen ."
 1,im Sommer,"im,PREP,_|_|Dat|_","Sommer,N,_|Masc|Dat|Sg",Kannst du im Sommer anreise ?
-1,ein Paar,"ein,ART,Indef|Neut|Acc|Sg","Paar,N,_|Neut|Acc|Sg","Ich weiß , dass du hast ein Paar Tage Luxembourg geträumt ."
+3,ein Paar,"ein,ART,Indef|Neut|Acc|Sg","Paar,N,_|Neut|Acc|Sg","Ich weiß , dass du hast ein Paar Tage Luxembourg geträumt ."
 99,Luxembourg Tage,"Luxembourg,N,_|Masc|Nom|Pl","Tage,N,_|Masc|Nom|Pl","Ich weiß , dass du hast ein Paar Tage Luxembourg geträumt ."
 10,nach Stadt Y,"nach,PREP,_|_|Dat|_","Stadt,N,_|Fem|Dat|Sg","Y,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
 10,Stadt Y,"Stadt,N,_|Fem|Dat|Sg","Y,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .

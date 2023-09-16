@@ -27,7 +27,7 @@ class CommonEntityRecognizer:
         phrases_or_proper: list = None,
         common_threshold=80,
     ):
-        self.common_phrases: str = Gp.CER_PHRASES.value
+        self.common_phrases: str = Gp.CER_COMMON_PHRASES.value
         self.common_proper: str = Gp.CER_COMMON_PROPER.value
         self.phrases_or_proper_common: list = phrases_or_proper
         self.common_threshold: int = common_threshold

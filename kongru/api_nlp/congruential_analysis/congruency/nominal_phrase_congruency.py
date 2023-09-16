@@ -334,7 +334,7 @@ class NominalPhraseCongruency:
             demorphy_dict (dict): Die Morphologische Informationen ueber diese NP
                     aus demorphy.
         Returns:
-                code (int) Der Typ vom Satz.
+            code (int) Der Typ vom Satz.
 
             0 -> Erfolgreich
             10 ->  Nicht Erfolgreich

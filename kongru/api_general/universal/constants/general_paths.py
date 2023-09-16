@@ -59,7 +59,7 @@ class GeneralPaths(Enum):
     DB_DEMORPHY_LEMMA_TXT = "app_resources/data/demorphy/lemmas.txt"
 
     # CER
-    CER_PHRASES = "app_resources/data/cer/phrases.txt"
+    CER_COMMON_PHRASES = "app_resources/data/cer/common_phrases.txt"
     CER_COMMON_PROPER = "app_resources/data/cer/common_proper.txt"
 
     # Inflections

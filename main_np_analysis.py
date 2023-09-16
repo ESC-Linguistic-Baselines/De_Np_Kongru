@@ -3,13 +3,8 @@ import csv
 import glob
 import os
 
-import typer
-
-from kongru.api_general.universal.funcs.basic_logger import catch_and_log_info
-
 # Pip
 from tqdm import tqdm
-
 
 # Custom
 from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
@@ -23,6 +18,7 @@ from kongru.api_general.database_managers.app_data_managers import (
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.constants import general_vars as gv
 from kongru.api_general.statistics.statistics import Statistics
+from kongru.api_general.universal.funcs.basic_logger import catch_and_log_info
 
 
 def get_ast_data() -> None:
@@ -110,7 +106,6 @@ def run_congruency(np_files: list, id_numbers: list, text_limit=1) -> None:
                 print(prog_res)
 
 
-
 def count_np_results() -> dict:
     """
     Die Ergebnisse aus der NP-Datei werden zusammengetragen und
@@ -120,12 +115,10 @@ def count_np_results() -> dict:
         statistics_results (dict): Die Ergebnisse der Auszaehlung
     """
     catch_and_log_info("Zaehle die Ergebnisse aus der NP-Datei...", echo_msg=True)
-
-    np_statistics = Statistics()
     statistics_results = dict()
 
     for np_res in np_res_files:
-        np_statistics.np_results_file = np_res
+        np_statistics = Statistics(np_results_file=np_res)
 
         # Text-Id aufstellen
         file_name = os.path.basename(np_res)
@@ -135,6 +128,7 @@ def count_np_results() -> dict:
         np_results = np_statistics.get_data_as_string()
 
         statistics_results[txt_id] = np_results
+
     catch_and_log_info("Ergebnisse erfolgreich gezaehlt!", echo_msg=True)
 
     return statistics_results
@@ -154,18 +148,8 @@ def generate_results_file(collective_results) -> None:
     catch_and_log_info("Generiere Ergebnisdatei...", echo_msg=True)
 
     # Header-Datei aufstellen
-    header_file = open(
-        Gp.NP_HEADER_FILE.value,
-        mode="r",
-        encoding="utf-8",
-    )
-
-    csv_header = list(csv.reader(header_file))[0]
-
-    # Ergebniss-Datei aufstellen
-    save_data = Gp.NP_MAIN_SAVE_FILE.value
-    csv_writer = csv.writer(open(save_data, mode="w+"))
-    csv_writer.writerow(csv_header)
+    statistics = Statistics()
+    csv_data = statistics.create_csv_results_file()
 
     for txt_id in collective_results:
         command = gv.MERLIN_META_DATA_QUERY.replace("(?)", f"'{txt_id}'")
@@ -176,13 +160,13 @@ def generate_results_file(collective_results) -> None:
         new_data = merlin_sql_result + txt_id_dta
 
         # Ergebnisse speichern
-        csv_writer.writerow(new_data)
+        csv_data.writerow(new_data)
 
     catch_and_log_info("Ergebnisdatei erfolgreich generiert!", echo_msg=True)
 
 
 if __name__ == "__main__":
-    # Dateien
+    # Dateien aufstellen
     ids = open(Gp.NP_TRAINING_IDS.value, mode="r", encoding="utf-8").readlines()
     training_ids = [i.strip() for i in ids]
     np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
@@ -190,6 +174,6 @@ if __name__ == "__main__":
 
     #get_ast_data()
     #get_np_data()
-    run_congruency(np_extracted_files, training_ids, text_limit=5)
-    #count_results = count_np_results()
-    #generate_results_file(count_results)
+    #run_congruency(np_extracted_files, training_ids, text_limit=1)
+    count_results = count_np_results()
+    generate_results_file(count_results)
