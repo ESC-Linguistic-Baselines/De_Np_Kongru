@@ -55,7 +55,7 @@ class CommonEntityRecognizer:
 
         return common_results
 
-    def check_common_phrase_or_proper(self, entity_check="phrase"):
+    def check_common_phrase_or_proper(self, entity_check="common_phrases"):
         """
         ueberprueft die aehnlichkeit zwischen den eingegebenen Phrasen oder Eigennamen
         und den geladenen Daten
@@ -82,7 +82,7 @@ class CommonEntityRecognizer:
 
         similarity_results = {}
 
-        if entity_check == "phrase":
+        if entity_check == "common_phrases":
             checklist = common_phrases
         elif entity_check == "proper_common":
             checklist = common_proper

@@ -175,24 +175,26 @@ def extract_nps_from_local_file(
         help="Der Name der Datei, die ausgewertet werden soll.",
     ),
     file_type: str = typer.Option(
-        "ast_nps", "--datei_typ", "--typ", help="Dateitypen ast_nps, pylist, conll"
-    ),
+        "ast_nps", "--datei_typ", "--typ", help="Dateitypen ast_nps, pylist, conll"),
+
+    echo_msg: bool = typer.Option(
+        "echo", "--echo", "--e",
+        help="Die Fortschittsdaten in der Konsole anzeigen")
+
 ):
     try:
-        id = os.path.basename(ast_file_id)
+        file_id = os.path.basename(ast_file_id)
         if file_type == "ast_nps":
 
             np_file_handler = AstNominalPhraseExtractor(
                 ast_file_id=ast_file_id,
-                save_name=f"user/outgoing/extracted_nominal_phrases/{id}",
+                save_name=f"user/outgoing/extracted_nominal_phrases/{file_id}",
             )
             np_file_handler.save_extracted_ast_nps()
 
-            typer.secho(
-                message=f"Die Ast-Datei {ast_file_id} wurde ausgelesen und die NPs "
-                f"wurden gespeichert.",
-                fg=typer.colors.GREEN,
-            )
+            catch_and_log_info(f"Die Ast-Datei {ast_file_id} wurde ausgelesen und die NPs "
+                               , echo_msg=echo_msg)
+
 
         if file_type == "pylist":
             np_file_handler = AstNominalPhraseExtractor(
@@ -238,8 +240,8 @@ def extract_data_from_merlin_database(
         script = sql_file.read()
     merlin_corpus = Merlin(sql_command=script)
     data = merlin_corpus.read_merlin_corpus_database()
-    for id in tqdm(data, desc="Processing"):  # Add a progress bar with description
-        merlin_corpus.text_id = id[0]
+    for text_id in tqdm(data, desc="Ast-Dateien extrahieren"):
+        merlin_corpus.text_id = text_id[0]
         result = merlin_corpus.extract_merlin_corpus_entry_by_id()
         extracted_element = result.get("ast_nps")
 

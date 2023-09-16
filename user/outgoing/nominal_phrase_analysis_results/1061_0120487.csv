@@ -1,29 +1,27 @@
-23,Stadt X,"Stadt,N,_|Fem|_|Sg","X,N,_|_|_|Pl","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
+10,Stadt X,"Stadt,N,_|Fem|_|Sg","X,N,_|_|_|Pl","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
 99,Stadt X Liebe,"Stadt,N,_|Fem|_|Sg","X,N,_|_|_|Pl","Liebe,N,_|_|_|Pl","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
 99,X Liebe Michael,"X,N,_|_|_|Pl","Liebe,N,_|_|_|Pl","Michael,N,_|Masc|Acc|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
 99,Liebe Michael Dank,"Liebe,N,_|_|_|Pl","Michael,N,_|Masc|Acc|Sg","Dank,N,_|Masc|Acc|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
 99,für Michael vielen Dank,"für,PREP,_|_|Acc|_","Michael,N,_|Masc|Acc|Sg","vielen,ART,_|Masc|Acc|Sg","Dank,N,_|Masc|Acc|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
-15,für dein Brief,"für,PREP,_|_|Acc|_","dein,ART,_|Masc|Nom|Sg","Brief,N,_|Masc|Nom|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
-23,über dein Silversternacht,"über,PREP,_|_|Acc|_","dein,ART,_|Neut|Acc|Sg","Silversternacht,N,_|Neut|Acc|Sg","Es war sehr schön , mir über dein Silversternacht zu hören ."
-15,mit deiner Ausbildung,"mit,PREP,_|_|Dat|_","deiner,ART,_|Fem|Dat|Sg","Ausbildung,N,_|Fem|Dat|Sg",Ich wünche dir alles Gut mit deiner Ausbildung .
-99,Schokolade Croissant,"Schokolade,N,_|Neut|Acc|Sg","Croissant,N,_|Neut|Acc|Sg",Kannst du bitte mir drei oder vier Schokolade Croissant schicken ?
-99,Schokolade Croissant,"Schokolade,N,_|Neut|Acc|Sg","Croissant,N,_|Neut|Acc|Sg",Kannst du bitte mir drei oder vier Schokolade Croissant schicken ?
-23,Mein Arbeit,"Mein,ART,_|_|_|Sg","Arbeit,N,_|_|Nom|Sg",Mein Arbeit ist sehr gut .
-5,von Morgen,"von,PREP,_|_|_|_","Morgen,N,_|_|_|_",Ich habe Kunden von Morgen bis Nacht .
-5,bis Nacht,"bis,PREP,_|_|Acc|_","Nacht,N,_|Fem|Acc|Sg",Ich habe Kunden von Morgen bis Nacht .
+1,für dein Brief,"für,PREP,_|_|Acc|_","dein,ART,_|Masc|Nom|Sg","Brief,N,_|Masc|Nom|Sg","Stadt X , 8.3.2012 Liebe Michael , vielen Dank für dein Brief ."
+10,über dein Silversternacht,"über,PREP,_|_|Acc|_","dein,ART,_|Neut|Acc|Sg","Silversternacht,N,_|Neut|Acc|Sg","Es war sehr schön , mir über dein Silversternacht zu hören ."
+1,mit deiner Ausbildung,"mit,PREP,_|_|Dat|_","deiner,ART,_|Fem|Dat|Sg","Ausbildung,N,_|Fem|Dat|Sg",Ich wünche dir alles Gut mit deiner Ausbildung .
+1,Schokolade Croissant,"Schokolade,N,_|Neut|Acc|Sg","Croissant,N,_|Neut|Acc|Sg",Kannst du bitte mir drei oder vier Schokolade Croissant schicken ?
+10,Mein Arbeit,"Mein,ART,_|_|_|Sg","Arbeit,N,_|_|Nom|Sg",Mein Arbeit ist sehr gut .
+1,von Morgen,"von,PREP,_|_|_|_","Morgen,N,_|_|_|_",Ich habe Kunden von Morgen bis Nacht .
+1,bis Nacht,"bis,PREP,_|_|Acc|_","Nacht,N,_|Fem|Acc|Sg",Ich habe Kunden von Morgen bis Nacht .
 99,arbeit der,"arbeit,N,_|Fem|Dat|Sg","der,ART,Def|Fem|Dat|Sg","Meistens sind sehr nett , und ich mag der arbeit ."
 99,Urlaub ein,"Urlaub,N,_|Neut|Acc|Sg","ein,ART,Indef|Neut|Acc|Sg","Trotzdem , ich würde lieber mit dir ein Kurz Urlaub machen ."
-5,im Sommer,"im,PREP,_|_|Dat|_","Sommer,N,_|Masc|Dat|Sg",Kannst du im Sommer anreise ?
-99,ein Paar,"ein,ART,Indef|Neut|Acc|Sg","Paar,N,_|Neut|Acc|Sg","Ich weiß , dass du hast ein Paar Tage Luxembourg geträumt ."
+1,im Sommer,"im,PREP,_|_|Dat|_","Sommer,N,_|Masc|Dat|Sg",Kannst du im Sommer anreise ?
+1,ein Paar,"ein,ART,Indef|Neut|Acc|Sg","Paar,N,_|Neut|Acc|Sg","Ich weiß , dass du hast ein Paar Tage Luxembourg geträumt ."
 99,Luxembourg Tage,"Luxembourg,N,_|Masc|Nom|Pl","Tage,N,_|Masc|Nom|Pl","Ich weiß , dass du hast ein Paar Tage Luxembourg geträumt ."
-99,Luxembourg Tage,"Luxembourg,N,_|Masc|Nom|Pl","Tage,N,_|Masc|Nom|Pl","Ich weiß , dass du hast ein Paar Tage Luxembourg geträumt ."
-23,nach Stadt Y,"nach,PREP,_|_|Dat|_","Stadt,N,_|Fem|Dat|Sg","Y,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
-23,Stadt Y,"Stadt,N,_|Fem|Dat|Sg","Y,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
-21,Stadt,"Stadt,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
-23,Z,"Z,N,_|Neut|Nom|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
-99,mein Silvester,"mein,ART,_|_|Nom|Sg","Silvester,N,_|_|Nom|Sg","Ah , und mein Silvester war nicht so schön ."
-99,Tag,"Tag,N,_|Masc|Acc|Sg",Ich war krank und hat immer Tag ins Bett gebleibt .
+10,nach Stadt Y,"nach,PREP,_|_|Dat|_","Stadt,N,_|Fem|Dat|Sg","Y,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
+10,Stadt Y,"Stadt,N,_|Fem|Dat|Sg","Y,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
+3,Stadt,"Stadt,N,_|Fem|Dat|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
+10,Z,"Z,N,_|Neut|Nom|Sg",Wir kann dann nach Stadt Y und Stadt Z gehen .
+1,mein Silvester,"mein,ART,_|_|Nom|Sg","Silvester,N,_|_|Nom|Sg","Ah , und mein Silvester war nicht so schön ."
+1,Tag,"Tag,N,_|Masc|Acc|Sg",Ich war krank und hat immer Tag ins Bett gebleibt .
 99,gebleibt ins Bett,"gebleibt,N,_|Neut|Acc|Sg","ins,PREP,_|_|Acc|_","Bett,N,_|Neut|Acc|Sg",Ich war krank und hat immer Tag ins Bett gebleibt .
 99,gebleibt Bett,"gebleibt,N,_|Neut|Acc|Sg","Bett,N,_|Neut|Acc|Sg",Ich war krank und hat immer Tag ins Bett gebleibt .
-99,Liebe Grüße Julia,"Liebe,ADJA,_|Masc|_|Pl","Grüße,N,_|Masc|_|Pl","Julia,N,_|Fem|_|Sg",Liebe Grüße Julia
-99,Grüße Julia,"Grüße,N,_|Masc|_|Pl","Julia,N,_|Fem|_|Sg",Liebe Grüße Julia
+1,Liebe Grüße Julia,"Liebe,ADJA,_|Masc|_|Pl","Grüße,N,_|Masc|_|Pl","Julia,N,_|Fem|_|Sg",Liebe Grüße Julia
+1,Grüße Julia,"Grüße,N,_|Masc|_|Pl","Julia,N,_|Fem|_|Sg",Liebe Grüße Julia

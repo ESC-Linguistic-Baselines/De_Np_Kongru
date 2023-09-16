@@ -32,5 +32,5 @@ class MessageKeys:
     class CER(Enum):
         # Fehler
         INCORRECT_ARGUMENT = (
-            "Entweder 'phrases' oder 'proper_common' als Argument angeben."
+            "Entweder 'common_phrases' oder 'proper_common' als Argument angeben."
         )

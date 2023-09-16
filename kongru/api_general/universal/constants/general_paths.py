@@ -95,7 +95,7 @@ class GeneralPaths(Enum):
     RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_results/"
 
     # Testdateien
-    TEST_NP_FILE_CSV = "user/outgoing/extracted_nominal_phrases/nps_1091_0000269.csv"
+    TEST_NP_FILE_CSV = "user/outgoing/extracted_nominal_phrases/1023_0101841.csv"
     TEST_NP_AST_FILE = "1023_0101841.ast"
 
     NP_HEADER_FILE = "dokumentation/project_layout/header_file.csv"

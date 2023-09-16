@@ -21,10 +21,11 @@ class Statistics:
 
         np_result_data = self.__open_file()
         data_set = {
-            "ART": {0: 0, "11": 0},
-            "PREP": {"5": 0, "15": 0},
-            "RECHTSCHREIBUNG": {"5": 0, "15": 0},
-            "EIGENNAMEN": {"5": 0, "15": 0},
+            "EINFACH": {"0": 0, "1": 0},
+            "ART": {"1": 0, "11": 0},
+            "PREP": {"2": 0, "12": 0},
+            "RECHTSCHREIBUNG": {"3": 0, "13": 0},
+            "EIGENNAMEN": {"4": 0, "14": 0},
             "REDEWENDUNGEN": {"5": 0, "15": 0},
             "UNBEKANNT": 0,
             "WAHR": 0,
@@ -33,13 +34,43 @@ class Statistics:
 
         for row in np_result_data:
             code = int(row[0])
-            # ART NPS
-            if code == 5:
-                data_set["PREP"]["5"] = data_set["PREP"]["5"] + 1
+            if code == 0:
+                data_set["EINFACH"]["0"] = data_set["EINFACH"]["0"] + 1
                 data_set["WAHR"] = data_set["WAHR"] + 1
-            if code == 15:
-                data_set["PREP"]["15"] = data_set["PREP"]["15"] + 1
+            elif code == 1:
+                data_set["ART"]["1"] = data_set["ART"]["1"] + 1
                 data_set["WAHR"] = data_set["WAHR"] + 1
+            elif code == 2:
+                data_set["PREP"]["2"] = data_set["PREP"]["2"] + 1
+                data_set["WAHR"] = data_set["WAHR"] + 1
+            elif code == 3:
+                data_set["RECHTSCHREIBUNG"]["3"] = data_set["RECHTSCHREIBUNG"]["3"] + 1
+                data_set["WAHR"] = data_set["WAHR"] + 1
+            elif code == 4:
+                data_set["EIGENNAMEN"]["4"] = data_set["EIGENNAMEN"]["4"] + 1
+                data_set["WAHR"] = data_set["WAHR"] + 1
+            elif code == 5:
+                data_set["REDEWENDUNGEN"]["5"] = data_set["REDEWENDUNGEN"]["5"] + 1
+                data_set["WAHR"] = data_set["WAHR"] + 1
+            elif code == 11:
+                data_set["ART"]["11"] = data_set["ART"]["11"] + 1
+                data_set["FALSCH"] = data_set["FALSCH"] + 1
+            elif code == 12:
+                data_set["PREP"]["12"] = data_set["PREP"]["12"] + 1
+                data_set["FALSCH"] = data_set["FALSCH"] + 1
+            elif code == 13:
+                data_set["RECHTSCHREIBUNG"]["13"] = data_set["RECHTSCHREIBUNG"]["13"] + 1
+                data_set["FALSCH"] = data_set["FALSCH"] + 1
+            elif code == 14:
+                data_set["EIGENNAMEN"]["14"] = data_set["EIGENNAMEN"]["14"] + 1
+                data_set["FALSCH"] = data_set["FALSCH"] + 1
+            elif code == 15:
+                data_set["REDEWENDUNGEN"]["15"] = data_set["REDEWENDUNGEN"]["15"] + 1
+                data_set["FALSCH"] = data_set["FALSCH"] + 1
+            elif code == "UNBEKANNT":
+                data_set["UNBEKANNT"] = data_set["UNBEKANNT"] + 1
+            else:
+                 pass
 
         return data_set
 
@@ -89,7 +120,6 @@ class Statistics:
                 congru, not_congru = codes.get(row).values()
                 code_data["REDEWENDUNGEN"] = congru
                 code_data["REDEWENDUNGEN_NICHT"] = not_congru
-
             elif row == "UNBEKANNT":
                 congru = codes.get(row)
                 code_data["UNBEKANNT"] = congru

@@ -3,10 +3,13 @@ import csv
 import glob
 import os
 
+import typer
+
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_info
 
 # Pip
-# None
+from tqdm import tqdm
+
 
 # Custom
 from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
@@ -44,44 +47,68 @@ def get_np_data() -> None:
         None
     """
     catch_and_log_info("Extrahiere Nominalphrasen aus AST-Dateien...", echo_msg=True)
+
     # Nominalphrasen aus dem Ast verzeichnis extrahieren
     ast_id_number = glob.glob("user/incoming/ast/*.*")
-    for id_num in ast_id_number:
-        extract_nps_from_local_file(ast_file_id=id_num, file_type="ast_nps")
+    for id_num in tqdm(ast_id_number, desc="Ast-Dateien verarbeiten", unit=" Ast-Datei"):
+        extract_nps_from_local_file(ast_file_id=id_num,
+                                    file_type="ast_nps",
+                                    echo_msg=False)
 
     catch_and_log_info("Nominalphrasen erfolgreich extrahiert!", echo_msg=True)
 
 
-def run_congruency(np_files: list, id_numbers: list, count=0) -> None:
+def run_congruency(np_files: list, id_numbers: list, text_limit=1) -> None:
     """
     Hier wird die Hauptanalyse ausgefuehrt.
 
     Args:
         np_files(list): Die Dateien, die analysiert werden sollen.
         id_numbers(list): Die  Text-Id-Nummer der Texte, die anaylsiert werden sollen.
-        count (int):  Die Anzahl der Dateien, die analysiert werdne sollen.
+        text_limit (int):  Die Anzahl der Dateien, die analysiert werdne sollen.
 
     Returns:
 
 
     """
     # Np Kongruenz bestimmen und die Ergebnisse speichern
+    count = 0
     for np_ext_file in np_files:
 
         # Text-Id aufstellen
-        catch_and_log_info("Führe Hauptanalyse durch...", echo_msg=True)
+
         file_name = os.path.basename(np_ext_file)
         txt_id = file_name.replace(".csv", "")
 
         if txt_id in id_numbers:
+            catch_and_log_info(f"Text-Id {txt_id}: "
+                               f"Führe Hauptanalyse durch...", echo_msg=True)
             nominal_phrase_agreement_analysis(
                 file_name=np_ext_file, save_file=file_name
             )
             count += 1
-            if count == 5:
+
+            if count > text_limit:
                 break
 
-        catch_and_log_info("Hauptanalyse abgeschlossen!", echo_msg=True)
+            catch_and_log_info(f"Text-Id {txt_id}: "
+                               f"Hauptanalyse abgeschlossen \n", echo_msg=True)
+
+            progress = count / text_limit
+            blocks = round(progress%1*10)
+            count_down = 10 - blocks
+            remaining_prog = count_down * "#"
+            current_prog = "#" * blocks
+            prog_res = f"Fortschritt: {current_prog}/{remaining_prog}, " \
+                       f"Aktuell: {count}, Gesamt: {text_limit}"
+
+            if blocks == 0:
+                full_bar = "#"*10
+                prog_res = f"Fortschritt:  {full_bar} Aktuell: {count}, Gesamt: {text_limit}"
+                print(prog_res)
+            else:
+                print(prog_res)
+
 
 
 def count_np_results() -> dict:
@@ -161,8 +188,8 @@ if __name__ == "__main__":
     np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
     np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
 
-    # get_ast_data()
-    # get_np_data()
-    # run_congruency(np_extracted_files, training_ids)
-    count_results = count_np_results()
-    generate_results_file(count_results)
+    #get_ast_data()
+    #get_np_data()
+    run_congruency(np_extracted_files, training_ids, text_limit=5)
+    #count_results = count_np_results()
+    #generate_results_file(count_results)
