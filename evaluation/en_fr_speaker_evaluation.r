@@ -49,94 +49,60 @@ library("writexl")
 
 # Das lokale Verzeichnis festlegen, worin die Hauptergebnis-Datei gespeichert ist.
 setwd("/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/outgoing/batch_results")
- 
-# Datensatz laden 
+ #/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/de_np_kongru/user/outgoing/batch_results
+
+# zusaetliche Funktionen
+source("/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/evaluation/data_process.r")  # Replace with the actual file path
+
+# Datensatz laden
 en_fr_data <- read.csv( file = "batch_evaluation_np.csv")
-#View(en_fr_data)
 
-
+# Excel-Workbook aufstellen
+wb <- createWorkbook()
+table_type <- "Training"
+# Anfaenger
 # DataFrames pro Niveaustufe aufstellen
 beginner <- en_fr_data[
   en_fr_data$general_cefr=="A1" |
     en_fr_data$general_cefr=="A2",
 ]
+beginner_data <- collect_language_data(beginner, "Anfänger", table_type)
 
+
+# Intermediaer bzw. Kompetent
 intermediate <- en_fr_data[
-
   en_fr_data$general_cefr=="B1" |
     en_fr_data$general_cefr=="B2",
 ]
+intermediate_data <- collect_language_data(intermediate, "Intermediär", table_type)
 
+# Fortgeschritten
 advanced <- en_fr_data[
   en_fr_data$general_cefr=="C1",
-
 ]
+advanced_data <- collect_language_data(advanced, "Fortgeschritten", table_type)
 
-beginner_sorted <- beginner[order(beginner$general_cefr,
-                                  beginner$general_mother_tongue), ]
-new_data <- data.frame(
-  general_author_id = beginner_sorted$general_author_id,
-  general_mother_tongue = beginner$general_mother_tongue,
-  general_cefr=beginner$general_cefr,
-  ART = beginner_sorted$ART,
-  txt_len_in_char = beginner_sorted$txt_len_in_char,
-  EINFACH = beginner_sorted$EINFACH,
-  PREP = beginner_sorted$PREP,
-  EIGENNAMEN = beginner_sorted$EIGENNAMEN,
-  REDEWENDUNGEN = beginner_sorted$REDEWENDUNGEN,
-  EINFACH_NICHT = beginner_sorted$EINFACH_NICHT,
-  ART_NICHT = beginner_sorted$ART_NICHT,
-  PREP_NICHT = beginner_sorted$PREP_NICHT,
-  GESAMT_UNBEKANNT = beginner_sorted$GESAMT_UNBEKANNT,
-  GESAMT_WAHR = beginner_sorted$GESAMT_WAHR,
-  GESAMT_FALSCH = beginner_sorted$GESAMT_FALSCH
-)
+# Die verschiedene Gruppen miteinander vergleichen
+general_cefr_data_results <- general_cefr_data(en_fr_data)
 
-new_data_order <- new_data[order(new_data$general_mother_tongue),]
+# Anfaenger
+a1_en <- general_cefr_data_results$A1_EN_GESAMT_WAHR
+a1_fr <- general_cefr_data_results$A1_FR_GESAMT_WAHR
+a2_en <- general_cefr_data_results$A2_EN_GESAMT_WAHR
+a2_fr <- general_cefr_data_results$A2_FR_GESAMT_WAHR
 
+# Intermediaer
+b1_en <- general_cefr_data_results$B1_EN_GESAMT_WAHR
+b1_fr <- general_cefr_data_results$B1_FR_GESAMT_WAHR
+b2_en <- general_cefr_data_results$B2_EN_GESAMT_WAHR
+b2_fr <- general_cefr_data_results$B2_FR_GESAMT_WAHR
 
-evaluate_data <-function(dataset) {
-
-  dataset_sorted <- beginner[order(dataset$general_cefr,
-                                  dataset$general_mother_tongue), ]
-
-  evaluated_data <- data.frame(
-    general_author_id = dataset_sorted$general_author_id,
-    general_mother_tongue = dataset_sorted$general_mother_tongue,
-    general_cefr=dataset_sorted$general_cefr,
-    ART = dataset_sorted$ART,
-    txt_len_in_char = dataset_sorted$txt_len_in_char,
-    EINFACH = dataset_sorted$EINFACH,
-    PREP = dataset_sorted$PREP,
-    EIGENNAMEN = dataset_sorted$EIGENNAMEN,
-    REDEWENDUNGEN = dataset_sorted$REDEWENDUNGEN,
-    EINFACH_NICHT = dataset_sorted$EINFACH_NICHT,
-    ART_NICHT = dataset_sorted$ART_NICHT,
-    PREP_NICHT = dataset_sorted$PREP_NICHT,
-    GESAMT_UNBEKANNT = dataset_sorted$GESAMT_UNBEKANNT,
-    GESAMT_WAHR = dataset_sorted$GESAMT_WAHR,
-    GESAMT_FALSCH = dataset_sorted$GESAMT_FALSCH
-  )
-
-  return(
-    evaluated_data
-  )
-
-}
+# Fortgeschritten
+c1_en <- general_cefr_data_results$C1_EN_GESAMT_WAHR
+c1_fr <- general_cefr_data_results$C1_FR_GESAMT_WAHR
 
 # Ergebnisse speichern
 
-# Excel-Workbook aufstellen
-wb <- createWorkbook()
+t.test(c1_en, c1_fr)
 
-# Worksheet aufstellen
-beginner_data <- evaluate_data(beginner)
-addWorksheet(wb, "beginner")
-writeData(wb, sheet = "beginner", x = beginner_data, startRow = 1, startCol = 1)
-writeData(wb, sheet = "beginner", x = beginner_data, startRow = length(new_data) , startCol = 1)
-
-# Ergebnisse speichern
-saveWorkbook(wb, file = "nominal_phrase_results.xlsx")
-
-# Workbook zumachen
-close(wb)
+saveWorkbook(wb, file = "nominal_phrase_results.xlsx",overwrite = TRUE)

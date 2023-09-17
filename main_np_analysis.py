@@ -3,6 +3,7 @@ import glob
 import os
 
 import typer
+
 # Pip
 from tqdm import tqdm
 
@@ -139,7 +140,7 @@ def count_np_results() -> dict:
 
         # Die Ergebnisse der Zaehlung
         np_results = np_statistics.get_data_as_string()
-        print(np_results)
+
         statistics_results[txt_id] = np_results
 
     catch_and_log_info("Ergebnisse erfolgreich gezaehlt!", echo_msg=True)
@@ -185,8 +186,8 @@ if __name__ == "__main__":
     np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
     np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
 
-    # get_ast_data()
-    # get_np_data()
-    #run_congruency(np_extracted_files, training_ids,all_texts=True)
+    #get_ast_data()
+    #get_np_data()
+    run_congruency(np_extracted_files, training_ids,text_limit=4)
     count_results = count_np_results()
     generate_results_file(count_results)
