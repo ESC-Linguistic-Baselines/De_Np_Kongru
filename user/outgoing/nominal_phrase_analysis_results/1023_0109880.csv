@@ -1,41 +1,41 @@
 99,Stadt X Oktober,"Stadt,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","Oktober,N,_|Masc|_|_","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-23,Stadt X,"Stadt,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+10,Stadt X,"Stadt,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
 99,Stadt 28. Oktober,"Stadt,N,_|Fem|_|Sg","28.,ADJA,_|Masc|_|_","Oktober,N,_|Masc|_|_","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-21,Julia Meier,"Julia,N,_|Fem|_|Sg","Meier,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-21,Julia Meier Müllergasse,"Julia,N,_|Fem|_|Sg","Meier,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-21,Meier Müllergasse,"Meier,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-23,Stadt Y,"Stadt,N,_|Fem|_|Sg","Y,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-23,Stadt Y Aupairsglobal,"Stadt,N,_|Fem|_|Sg","Y,N,_|Fem|_|Sg","Aupairsglobal,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-23,Y Aupairsglobal Bahnhofstr,"Y,N,_|Fem|_|Sg","Aupairsglobal,N,_|Fem|_|Sg","Bahnhofstr,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-23,Aupairsglobal Bahnhofstr,"Aupairsglobal,N,_|Fem|_|Sg","Bahnhofstr,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
-21,Wiesbaden Interesse,"Wiesbaden,N,_|Neut|_|Sg","Interesse,N,_|Neut|_|Sg",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
+1,Julia Meier,"Julia,N,_|Fem|_|Sg","Meier,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+10,Julia Meier Müllergasse,"Julia,N,_|Fem|_|Sg","Meier,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+10,Meier Müllergasse,"Meier,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+10,Stadt Y,"Stadt,N,_|Fem|_|Sg","Y,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+10,Stadt Y Aupairsglobal,"Stadt,N,_|Fem|_|Sg","Y,N,_|Fem|_|Sg","Aupairsglobal,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+10,Y Aupairsglobal Bahnhofstr,"Y,N,_|Fem|_|Sg","Aupairsglobal,N,_|Fem|_|Sg","Bahnhofstr,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+10,Aupairsglobal Bahnhofstr,"Aupairsglobal,N,_|Fem|_|Sg","Bahnhofstr,N,_|Fem|_|Sg","Stadt X , 28. Oktober 2011 Julia Meier Müllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr ."
+1,Wiesbaden Interesse,"Wiesbaden,N,_|Neut|_|Sg","Interesse,N,_|Neut|_|Sg",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
 99,Wiesbaden Interesse an Programm,"Wiesbaden,N,_|Neut|_|Sg","Interesse,N,_|Neut|_|Sg","an,PREP,_|_|Dat|_","Programm,N,_|Neut|_|Sg",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
-23,an Ihrem Au-pair,"an,PREP,_|_|Dat|_","Ihrem,ART,_|_|Dat|Sg","Au-pair,N,_|_|Dat|Sg",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
+10,an Ihrem Au-pair,"an,PREP,_|_|Dat|_","Ihrem,ART,_|_|Dat|Sg","Au-pair,N,_|_|Dat|Sg",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
 99,Damen Interesse Programm,"Damen,N,_|Fem|_|Pl","Interesse,N,_|Neut|_|Sg","Programm,N,_|Neut|_|Sg",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
 99,geehrte Damen Programm,"geehrte,ADJA,_|Fem|_|Pl","Damen,N,_|Fem|_|Pl","Programm,N,_|Neut|_|Sg",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
-99,Herren,"Herren,N,_|Masc|_|_",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
-23,Ihre Anzeige,"Ihre,ART,_|Fem|Acc|Sg","Anzeige,N,_|Fem|Acc|Sg","als ich Ihre Anzeige gelesen habe , war ich sehr begeistert ."
-23,Seit meiner Kindheit,"Seit,PREP,_|_|Dat|_","meiner,ART,_|Fem|Dat|Sg","Kindheit,N,_|Fem|Dat|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
-99,das Traum,"das,ART,Def|Neut|_|Sg","Traum,N,_|Neut|Acc|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
-23,Au-pair Programm,"Au-pair,N,_|Neut|Dat|Sg","Programm,N,_|Neut|Dat|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
-5,in Deutschland,"in,PREP,_|_|_|_","Deutschland,N,_|Neut|_|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
-5,für Tag Geld,"für,PREP,_|_|Acc|_","Tag,N,_|Neut|Acc|Sg","Geld,N,_|Neut|Acc|Sg",Dafür habe ich Tag für Tag Geld gesparen .
-99,Tag Geld,"Tag,N,_|Neut|Acc|Sg","Geld,N,_|Neut|Acc|Sg",Dafür habe ich Tag für Tag Geld gesparen .
-23,Ihr Angebot,"Ihr,ART,_|Neut|Nom|Sg","Angebot,N,_|Neut|Nom|Sg","Ihr Angebot scheint sehr gut zu sein , aber ich möchte Ihnen noch einige Fragen stellen ."
-99,einige Fragen,"einige,ART,_|_|Acc|_","Fragen,N,_|_|Acc|_","Ihr Angebot scheint sehr gut zu sein , aber ich möchte Ihnen noch einige Fragen stellen ."
-99,ein schweizerischen Pass,"ein,ART,Indef|_|_|Sg","schweizerischen,ADJA,_|_|_|_","Pass,N,_|Neut|Acc|Sg",1 ) Ich habe ein schweizerischen Pass .
-23,die Aufenthaltsformalitäten,"die,ART,Def|Fem|Nom|Pl","Aufenthaltsformalitäten,N,_|Fem|Nom|Pl",Was sind die Aufenthaltsformalitäten ?
-15,um diese Formalitäten,"um,PREP,_|_|Acc|_","diese,ART,_|Fem|Acc|Pl","Formalitäten,N,_|Fem|Acc|Pl",Werden Sie um diese Formalitäten kümmern oder soll ich es allein machen ?
-15,für mehrere Jahre Deutsch,"für,PREP,_|_|Acc|_","mehrere,ART,_|Neut|Acc|Sg","Jahre,N,_|Neut|Acc|Sg","Deutsch,N,_|Neut|Acc|Sg",2 ) ich habe für mehrere Jahre Deutsch in der Schule gelernt .
-99,Jahre Deutsch,"Jahre,N,_|Neut|Acc|Sg","Deutsch,N,_|Neut|Acc|Sg",2 ) ich habe für mehrere Jahre Deutsch in der Schule gelernt .
-99,meine Sprachkenntnisse,"meine,ART,_|Fem|Acc|Pl","Sprachkenntnisse,N,_|Fem|Acc|Pl","Nun möchte ich meine Sprachkenntnisse verbessern , um die Deutsche Literatur zu studieren ."
+1,Herren,"Herren,N,_|Masc|_|_",101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .
+10,Ihre Anzeige,"Ihre,ART,_|Fem|Acc|Sg","Anzeige,N,_|Fem|Acc|Sg","als ich Ihre Anzeige gelesen habe , war ich sehr begeistert ."
+10,Seit meiner Kindheit,"Seit,PREP,_|_|Dat|_","meiner,ART,_|Fem|Dat|Sg","Kindheit,N,_|Fem|Dat|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
+3,das Traum,"das,ART,Def|Neut|_|Sg","Traum,N,_|Neut|Acc|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
+10,Au-pair Programm,"Au-pair,N,_|Neut|Dat|Sg","Programm,N,_|Neut|Dat|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
+1,in Deutschland,"in,PREP,_|_|_|_","Deutschland,N,_|Neut|_|Sg","Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen ."
+3,für Tag Geld,"für,PREP,_|_|Acc|_","Tag,N,_|Neut|Acc|Sg","Geld,N,_|Neut|Acc|Sg",Dafür habe ich Tag für Tag Geld gesparen .
+1,Tag Geld,"Tag,N,_|Neut|Acc|Sg","Geld,N,_|Neut|Acc|Sg",Dafür habe ich Tag für Tag Geld gesparen .
+10,Ihr Angebot,"Ihr,ART,_|Neut|Nom|Sg","Angebot,N,_|Neut|Nom|Sg","Ihr Angebot scheint sehr gut zu sein , aber ich möchte Ihnen noch einige Fragen stellen ."
+1,einige Fragen,"einige,ART,_|_|Acc|_","Fragen,N,_|_|Acc|_","Ihr Angebot scheint sehr gut zu sein , aber ich möchte Ihnen noch einige Fragen stellen ."
+3,ein schweizerischen Pass,"ein,ART,Indef|_|_|Sg","schweizerischen,ADJA,_|_|_|_","Pass,N,_|Neut|Acc|Sg",1 ) Ich habe ein schweizerischen Pass .
+10,die Aufenthaltsformalitäten,"die,ART,Def|Fem|Nom|Pl","Aufenthaltsformalitäten,N,_|Fem|Nom|Pl",Was sind die Aufenthaltsformalitäten ?
+1,um diese Formalitäten,"um,PREP,_|_|Acc|_","diese,ART,_|Fem|Acc|Pl","Formalitäten,N,_|Fem|Acc|Pl",Werden Sie um diese Formalitäten kümmern oder soll ich es allein machen ?
+3,für mehrere Jahre Deutsch,"für,PREP,_|_|Acc|_","mehrere,ART,_|Neut|Acc|Sg","Jahre,N,_|Neut|Acc|Sg","Deutsch,N,_|Neut|Acc|Sg",2 ) ich habe für mehrere Jahre Deutsch in der Schule gelernt .
+1,Jahre Deutsch,"Jahre,N,_|Neut|Acc|Sg","Deutsch,N,_|Neut|Acc|Sg",2 ) ich habe für mehrere Jahre Deutsch in der Schule gelernt .
+3,meine Sprachkenntnisse,"meine,ART,_|Fem|Acc|Pl","Sprachkenntnisse,N,_|Fem|Acc|Pl","Nun möchte ich meine Sprachkenntnisse verbessern , um die Deutsche Literatur zu studieren ."
 99,Deutsche Literatur die,"Deutsche,ADJA,_|Fem|Acc|Sg","Literatur,N,_|Fem|Acc|Sg","die,ART,Def|Fem|Acc|Sg","Nun möchte ich meine Sprachkenntnisse verbessern , um die Deutsche Literatur zu studieren ."
-15,mit Universitätsprofessoren,"mit,PREP,_|_|Dat|_","Universitätsprofessoren,N,_|_|Dat|Pl",Ist es möglich mit Universitätsprofessoren zu bleiben ?
-23,Meine letzten Frage,"Meine,ART,_|_|_|_","letzten,ADJA,_|_|_|_","Frage,N,_|_|Nom|Sg","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
-15,über die Rechte,"über,PREP,_|_|Acc|_","die,ART,Def|_|Acc|_","Rechte,N,_|_|Acc|_","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
-23,Pflichte,"Pflichte,N,_|_|Acc|_","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
-99,die Gastfamilie,"die,ART,Def|Fem|Nom|Sg","Gastfamilie,N,_|Fem|Nom|Sg","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
-99,alle dieselbe Erwartungen,"alle,ART,_|Fem|Acc|Sg","dieselbe,ART,_|Fem|_|Sg","Erwartungen,N,_|Fem|Acc|Sg","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
-23,auf Ihre baldige Antwort,"auf,PREP,_|_|Acc|_","Ihre,ART,_|Fem|Acc|Sg","baldige,ADJA,_|Fem|Acc|Sg","Antwort,N,_|Fem|Acc|Sg",Ich freue mich auf Ihre baldige Antwort .
-22,Mit freundlichen Grüßen Julia,"Mit,PREP,_|_|Dat|_","freundlichen,ADJA,_|_|Dat|_","Grüßen,N,_|_|Dat|_","Julia,N,_|Fem|Dat|Sg",Mit freundlichen Grüßen Julia
-99,Grüßen Julia,"Grüßen,N,_|_|Dat|_","Julia,N,_|Fem|Dat|Sg",Mit freundlichen Grüßen Julia
+1,mit Universitätsprofessoren,"mit,PREP,_|_|Dat|_","Universitätsprofessoren,N,_|_|Dat|Pl",Ist es möglich mit Universitätsprofessoren zu bleiben ?
+3,Meine letzten Frage,"Meine,ART,_|_|_|_","letzten,ADJA,_|_|_|_","Frage,N,_|_|Nom|Sg","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
+1,über die Rechte,"über,PREP,_|_|Acc|_","die,ART,Def|_|Acc|_","Rechte,N,_|_|Acc|_","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
+10,Pflichte,"Pflichte,N,_|_|Acc|_","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
+1,die Gastfamilie,"die,ART,Def|Fem|Nom|Sg","Gastfamilie,N,_|Fem|Nom|Sg","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
+1,alle dieselbe Erwartungen,"alle,ART,_|Fem|Acc|Sg","dieselbe,ART,_|Fem|_|Sg","Erwartungen,N,_|Fem|Acc|Sg","3 ) Meine letzten Frage ist über die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben ."
+10,auf Ihre baldige Antwort,"auf,PREP,_|_|Acc|_","Ihre,ART,_|Fem|Acc|Sg","baldige,ADJA,_|Fem|Acc|Sg","Antwort,N,_|Fem|Acc|Sg",Ich freue mich auf Ihre baldige Antwort .
+4,Mit freundlichen Grüßen Julia,"Mit,PREP,_|_|Dat|_","freundlichen,ADJA,_|_|Dat|_","Grüßen,N,_|_|Dat|_","Julia,N,_|Fem|Dat|Sg",Mit freundlichen Grüßen Julia
+1,Grüßen Julia,"Grüßen,N,_|_|Dat|_","Julia,N,_|Fem|Dat|Sg",Mit freundlichen Grüßen Julia

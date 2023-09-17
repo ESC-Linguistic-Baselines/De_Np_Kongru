@@ -1,8 +1,8 @@
 # Standard
-import csv
 import glob
 import os
 
+import typer
 # Pip
 from tqdm import tqdm
 
@@ -46,19 +46,24 @@ def get_np_data() -> None:
 
     # Nominalphrasen aus dem Ast verzeichnis extrahieren
     ast_id_number = glob.glob("user/incoming/ast/*.*")
-    for id_num in tqdm(ast_id_number, desc="Ast-Dateien verarbeiten", unit=" Ast-Datei"):
-        extract_nps_from_local_file(ast_file_id=id_num,
-                                    file_type="ast_nps",
-                                    echo_msg=False)
+    for id_num in tqdm(
+        ast_id_number, desc="Ast-Dateien verarbeiten", unit=" Ast-Datei"
+    ):
+        extract_nps_from_local_file(
+            ast_file_id=id_num, file_type="ast_nps", echo_msg=False
+        )
 
     catch_and_log_info("Nominalphrasen erfolgreich extrahiert!", echo_msg=True)
 
 
-def run_congruency(np_files: list, id_numbers: list, text_limit=1) -> None:
+def run_congruency(
+    np_files: list, id_numbers: list, text_limit: int = 0, all_texts: bool = False
+) -> None:
     """
     Hier wird die Hauptanalyse ausgefuehrt.
 
     Args:
+        all_texts(bool): Alle Texte sollen analysiert werden.
         np_files(list): Die Dateien, die analysiert werden sollen.
         id_numbers(list): Die  Text-Id-Nummer der Texte, die anaylsiert werden sollen.
         text_limit (int):  Die Anzahl der Dateien, die analysiert werdne sollen.
@@ -77,33 +82,41 @@ def run_congruency(np_files: list, id_numbers: list, text_limit=1) -> None:
         txt_id = file_name.replace(".csv", "")
 
         if txt_id in id_numbers:
-            catch_and_log_info(f"Text-Id {txt_id}: "
-                               f"Führe Hauptanalyse durch...", echo_msg=True)
+            catch_and_log_info(
+                f"Text-Id {txt_id}: " f"Führe Hauptanalyse durch...", echo_msg=True
+            )
             nominal_phrase_agreement_analysis(
                 file_name=np_ext_file, save_file=file_name
             )
             count += 1
 
-            if count > text_limit:
+            if all_texts and text_limit == 0:
+                text_limit = len(id_numbers)
+            elif count > text_limit:
                 break
 
-            catch_and_log_info(f"Text-Id {txt_id}: "
-                               f"Hauptanalyse abgeschlossen \n", echo_msg=True)
+            catch_and_log_info(
+                f"Text-Id {txt_id}: " f"Hauptanalyse abgeschlossen \n", echo_msg=True
+            )
 
             progress = count / text_limit
-            blocks = round(progress%1*10)
+            blocks = round(progress % 1 * 10)
             count_down = 10 - blocks
             remaining_prog = count_down * "#"
             current_prog = "#" * blocks
-            prog_res = f"Fortschritt: {current_prog}/{remaining_prog}, " \
-                       f"Aktuell: {count}, Gesamt: {text_limit}"
+            prog_res = (
+                f"Fortschritt: {current_prog}/{remaining_prog}, "
+                f"Aktuell: {count}, Gesamt: {text_limit}"
+            )
 
             if blocks == 0:
-                full_bar = "#"*10
-                prog_res = f"Fortschritt:  {full_bar} Aktuell: {count}, Gesamt: {text_limit}"
-                print(prog_res)
+                full_bar = "#" * 10
+                prog_res = (
+                    f"Fortschritt:  {full_bar} Aktuell: {count}, Gesamt: {text_limit}"
+                )
+                typer.echo(prog_res)
             else:
-                print(prog_res)
+                typer.echo(prog_res)
 
 
 def count_np_results() -> dict:
@@ -126,7 +139,7 @@ def count_np_results() -> dict:
 
         # Die Ergebnisse der Zaehlung
         np_results = np_statistics.get_data_as_string()
-
+        print(np_results)
         statistics_results[txt_id] = np_results
 
     catch_and_log_info("Ergebnisse erfolgreich gezaehlt!", echo_msg=True)
@@ -156,8 +169,8 @@ def generate_results_file(collective_results) -> None:
         meta_data_text = MerlinManager(sql_command=command)
 
         merlin_sql_result = list(meta_data_text.read_merlin_corpus_database()[0])
-        txt_id_dta = list(collective_results.get(txt_id).values())
-        new_data = merlin_sql_result + txt_id_dta
+        txt_id_data = list(collective_results.get(txt_id).values())
+        new_data = merlin_sql_result + txt_id_data
 
         # Ergebnisse speichern
         csv_data.writerow(new_data)
@@ -172,8 +185,8 @@ if __name__ == "__main__":
     np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
     np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
 
-    #get_ast_data()
-    #get_np_data()
-    #run_congruency(np_extracted_files, training_ids, text_limit=1)
+    # get_ast_data()
+    # get_np_data()
+    #run_congruency(np_extracted_files, training_ids,all_texts=True)
     count_results = count_np_results()
     generate_results_file(count_results)

@@ -30,6 +30,5 @@ def aggregate_nominal_phrase_results():
     typer.echo("Hello, Typer!")
 
 
-
 if __name__ == "__main__":
     app_typer_statics()

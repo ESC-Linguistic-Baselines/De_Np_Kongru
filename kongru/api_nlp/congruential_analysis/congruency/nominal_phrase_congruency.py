@@ -92,11 +92,11 @@ class NominalPhraseCongruency:
 
     @staticmethod
     def article_definiteness_nominal_phrase(
-            extracted_info: list,
-            sentence_np: str,
-            vocabulary_np: list,
-            np_demorphy: list,
-            vocabulary_np_data: dict,
+        extracted_info: list,
+        sentence_np: str,
+        vocabulary_np: list,
+        np_demorphy: list,
+        vocabulary_np_data: dict,
     ):
         """
         bestimmt eine enifache Nominalphrase (NP) auf Deutsch.
@@ -161,10 +161,10 @@ class NominalPhraseCongruency:
             demorphy_dict = DemorphyAnalyzer().get_read_in_demorphy_dict(True)
             word = demorphy_dict.get(res[0])
             if (
-                    demorphy_check
-                    and bool(word)
-                    or demorphy_dict
-                    and demorphy_dict.get(head)
+                demorphy_check
+                and bool(word)
+                or demorphy_dict
+                and demorphy_dict.get(head)
             ):
                 return 1
             else:
@@ -352,7 +352,9 @@ class NominalPhraseCongruency:
         # Phrasen kontrollieren
         vocabulary_phrase = " ".join(vocabulary_np)
         detecor = Cer(phrases_or_proper=[vocabulary_phrase])
-        common_phrases = detecor.check_common_phrase_or_proper(entity_check="common_phrases")
+        common_phrases = detecor.check_common_phrase_or_proper(
+            entity_check="common_phrases"
+        )
 
         # Bestimmen, ob der Satz ein gaengiger Satz ist
         for word in vocabulary_np:
@@ -513,8 +515,6 @@ class NominalPhraseCongruency:
                 elif phrasing_and_spelling == 4:
                     if np_type_exists is False:
                         np_type["TYPE"] = phrasing_and_spelling
-
-
 
             ##############################################
             # Bestimmung der Analyse auf der Wortebene   #
@@ -750,7 +750,6 @@ class NominalPhraseCongruency:
                             custom_message=f"{congruency_entry} konnte nicht "
                             f"gespeichert werden.",
                         )
-
 
 
 if __name__ == "__main__":

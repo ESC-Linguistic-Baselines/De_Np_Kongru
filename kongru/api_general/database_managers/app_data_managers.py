@@ -175,12 +175,11 @@ def extract_nps_from_local_file(
         help="Der Name der Datei, die ausgewertet werden soll.",
     ),
     file_type: str = typer.Option(
-        "ast_nps", "--datei_typ", "--typ", help="Dateitypen ast_nps, pylist, conll"),
-
+        "ast_nps", "--datei_typ", "--typ", help="Dateitypen ast_nps, pylist, conll"
+    ),
     echo_msg: bool = typer.Option(
-        "echo", "--echo", "--e",
-        help="Die Fortschittsdaten in der Konsole anzeigen")
-
+        "echo", "--echo", "--e", help="Die Fortschittsdaten in der Konsole anzeigen"
+    ),
 ):
     try:
         file_id = os.path.basename(ast_file_id)
@@ -192,9 +191,10 @@ def extract_nps_from_local_file(
             )
             np_file_handler.save_extracted_ast_nps()
 
-            catch_and_log_info(f"Die Ast-Datei {ast_file_id} wurde ausgelesen und die NPs "
-                               , echo_msg=echo_msg)
-
+            catch_and_log_info(
+                f"Die Ast-Datei {ast_file_id} wurde ausgelesen und die NPs ",
+                echo_msg=echo_msg,
+            )
 
         if file_type == "pylist":
             np_file_handler = AstNominalPhraseExtractor(

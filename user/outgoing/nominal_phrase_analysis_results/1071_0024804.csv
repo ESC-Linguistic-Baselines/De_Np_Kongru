@@ -1,10 +1,9 @@
-99,Liebe Ingo,"Liebe,N,_|_|_|Pl","Ingo,N,_|Masc|_|Sg","16.03.2012 Liebe Ingo , Wie gehts dir ?"
-99,Liebe Ingo,"Liebe,N,_|_|_|Pl","Ingo,N,_|Masc|_|Sg","16.03.2012 Liebe Ingo , Wie gehts dir ?"
-23,gehts,"gehts,N,_|_|_|_","16.03.2012 Liebe Ingo , Wie gehts dir ?"
-99,eine Arbeit,"eine,ART,Indef|Fem|Acc|Sg","Arbeit,N,_|Fem|Acc|Sg",Ich habe eine Arbeit für dir gefunden .
-15,in Neue Wohnung,"in,PREP,_|_|Acc|_","Neue,ADJA,_|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg",Wann bist du in Neue Wohnung ?
-99,der Wohnung,"der,ART,Def|Fem|Dat|Sg","Wohnung,N,_|Fem|Dat|Sg",Wie große ist der Wohnung ?
-23,bei der Wohnungssuche hilfe,"bei,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Wohnungssuche,N,_|Fem|Dat|Sg","hilfe,N,_|Fem|Dat|Sg",Ich kaufe bei der Wohnungssuche hilfe .
-23,Wohnungssuche hilfe,"Wohnungssuche,N,_|Fem|Dat|Sg","hilfe,N,_|Fem|Dat|Sg",Ich kaufe bei der Wohnungssuche hilfe .
-99,ein Antwort,"ein,ART,Indef|_|_|Sg","Antwort,N,_|Neut|Acc|Sg",Schreibst mir ein Antwort bitte !
-5,von Julia,"von,PREP,_|_|_|_","Julia,N,_|Fem|_|Sg",Gruße von Julia
+1,Liebe Ingo,"Liebe,N,_|_|_|Pl","Ingo,N,_|Masc|_|Sg","16.03.2012 Liebe Ingo , Wie gehts dir ?"
+10,gehts,"gehts,N,_|_|_|_","16.03.2012 Liebe Ingo , Wie gehts dir ?"
+1,eine Arbeit,"eine,ART,Indef|Fem|Acc|Sg","Arbeit,N,_|Fem|Acc|Sg",Ich habe eine Arbeit für dir gefunden .
+1,in Neue Wohnung,"in,PREP,_|_|Acc|_","Neue,ADJA,_|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg",Wann bist du in Neue Wohnung ?
+1,der Wohnung,"der,ART,Def|Fem|Dat|Sg","Wohnung,N,_|Fem|Dat|Sg",Wie große ist der Wohnung ?
+10,bei der Wohnungssuche hilfe,"bei,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Wohnungssuche,N,_|Fem|Dat|Sg","hilfe,N,_|Fem|Dat|Sg",Ich kaufe bei der Wohnungssuche hilfe .
+10,Wohnungssuche hilfe,"Wohnungssuche,N,_|Fem|Dat|Sg","hilfe,N,_|Fem|Dat|Sg",Ich kaufe bei der Wohnungssuche hilfe .
+1,ein Antwort,"ein,ART,Indef|_|_|Sg","Antwort,N,_|Neut|Acc|Sg",Schreibst mir ein Antwort bitte !
+1,von Julia,"von,PREP,_|_|_|_","Julia,N,_|Fem|_|Sg",Gruße von Julia
