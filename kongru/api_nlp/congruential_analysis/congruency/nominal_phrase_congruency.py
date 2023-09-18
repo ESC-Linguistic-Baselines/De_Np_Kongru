@@ -26,6 +26,9 @@ from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
 from kongru.api_nlp.congruential_analysis.recognizers.common_entity_recognizer import (
     CommonEntityRecognizer as Cer,
 )
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
+nominal_keys = Mk.NominalPhraseCongruency
 
 
 class NominalPhraseCongruency:

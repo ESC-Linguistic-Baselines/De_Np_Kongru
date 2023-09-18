@@ -12,6 +12,9 @@ from io import StringIO
 # universals
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
+main = Mk.General
 
 
 class AstNominalPhraseExtractor:
@@ -69,7 +72,7 @@ class AstNominalPhraseExtractor:
             except Exception as e:
                 catch_and_log_error(
                     error=e,
-                    custom_message="Datei ist nicht vorhanden",
+                    custom_message=main.FILE_MISSING.value,
                     kill_if_fatal_error=True,
                 )
 

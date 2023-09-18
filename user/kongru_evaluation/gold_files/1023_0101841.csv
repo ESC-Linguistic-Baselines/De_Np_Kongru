@@ -1,0 +1,57 @@
+1,Maria Schmidt,"Maria,N,_|Masc|_|Sg","Schmidt,N,_|Masc|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+10,Maria Schmidt Addresse,"Maria,N,_|Masc|_|Sg","Schmidt,N,_|Masc|_|Sg","Addresse,N,_|Masc|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+10,Schmidt Addresse Computer,"Schmidt,N,_|Masc|_|Sg","Addresse,N,_|Masc|_|Sg","Computer,N,_|Masc|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+10,Addresse Computer Spezialist,"Addresse,N,_|Masc|_|Sg","Computer,N,_|Masc|_|Sg","Spezialist,N,_|Masc|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+10,Computer Spezialist Odenwaldstraße,"Computer,N,_|Masc|_|Sg","Spezialist,N,_|Masc|_|Sg","Odenwaldstraße,N,_|Fem|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+10,Spezialist Odenwaldstraße,"Spezialist,N,_|Masc|_|Sg","Odenwaldstraße,N,_|Fem|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+3,Bonn Stadt,"Bonn,N,_|Fem|_|Sg","Stadt,N,_|Fem|_|Sg","53119 Bonn Stadt X , 22.03.2010 Betr ."
+10,Bonn Stadt X,"Bonn,N,_|Fem|_|Sg","Stadt,N,_|Fem|_|Sg","X,N,_|_|_|Pl","53119 Bonn Stadt X , 22.03.2010 Betr ."
+99,Stadt X Betr,"Stadt,N,_|Fem|_|Sg","X,N,_|_|_|Pl","Betr,N,_|_|_|Pl","53119 Bonn Stadt X , 22.03.2010 Betr ."
+99,X Betr,"X,N,_|_|_|Pl","Betr,N,_|_|_|Pl","53119 Bonn Stadt X , 22.03.2010 Betr ."
+1,um ein Praktikum,"um,PREP,_|_|Acc|_","ein,ART,Indef|Neut|Acc|Sg","Praktikum,N,_|Neut|Acc|Sg",: Bewerbung um ein Praktikum als IT-System Kauffrau .
+10,IT-System Kauffrau,"IT-System,N,_|Fem|_|Sg","Kauffrau,N,_|Fem|Acc|Sg",: Bewerbung um ein Praktikum als IT-System Kauffrau .
+3,geehrte Damen,"geehrte,ADJA,_|Fem|_|Pl","Damen,N,_|Fem|_|Pl","Sehr geehrte Damen und Herren , im Montag ´ s Morgen Post , habe ich Ihre Anziege für Vertriebspraktikant gelesen ."
+1,im Montag,"im,PREP,_|_|Dat|_","Montag,N,_|_|Dat|Sg","Sehr geehrte Damen und Herren , im Montag ´ s Morgen Post , habe ich Ihre Anziege für Vertriebspraktikant gelesen ."
+1,Morgen Post,"Morgen,N,_|_|Dat|Sg","Post,N,_|_|Dat|Sg","Sehr geehrte Damen und Herren , im Montag ´ s Morgen Post , habe ich Ihre Anziege für Vertriebspraktikant gelesen ."
+10,für Vertriebspraktikant,"für,PREP,_|_|Acc|_","Vertriebspraktikant,N,_|Masc|Acc|Sg","Sehr geehrte Damen und Herren , im Montag ´ s Morgen Post , habe ich Ihre Anziege für Vertriebspraktikant gelesen ."
+10,zum einen praktikumsplatz,"zum,PREP,_|_|Dat|_","einen,ADJA,_|_|Dat|_","praktikumsplatz,N,_|_|Dat|_","Ich bewerbe mich dafür zum einen praktikumsplatz bei Ihren Firma , als IT-Systemkauffrau ."
+99,Firma bei Ihren,"Firma,N,_|Fem|Dat|Sg","bei,PREP,_|_|Dat|_","Ihren,ART,_|Fem|Dat|Sg","Ich bewerbe mich dafür zum einen praktikumsplatz bei Ihren Firma , als IT-Systemkauffrau ."
+10,IT-Systemkauffrau,"IT-Systemkauffrau,N,_|Fem|_|Sg","Ich bewerbe mich dafür zum einen praktikumsplatz bei Ihren Firma , als IT-Systemkauffrau ."
+10,Nach die Schule,"Nach,PREP,_|_|Dat|_","die,ART,Def|Fem|_|Sg","Schule,N,_|Fem|_|Sg","Nach die Schule , habe ich Kommunikationswissenschaft am der Deutsche Universität studiert ."
+1,Kommunikationswissenschaft,"Kommunikationswissenschaft,N,_|_|Acc|Sg","Nach die Schule , habe ich Kommunikationswissenschaft am der Deutsche Universität studiert ."
+99,Deutsche Universität am der,"Deutsche,ADJA,_|Masc|Nom|Sg","Universität,N,_|_|_|_","am,PREP,_|_|Dat|_","der,ART,Def|_|_|_","Nach die Schule , habe ich Kommunikationswissenschaft am der Deutsche Universität studiert ."
+1,Informatik,"Informatik,N,_|Fem|Acc|Sg",Ich habe auch Informatik studiert als mein Nebenfach .
+1,mein Nebenfach,"mein,ART,_|Neut|_|Sg","Nebenfach,N,_|Neut|_|Sg",Ich habe auch Informatik studiert als mein Nebenfach .
+1,Englisch,"Englisch,N,_|Neut|Acc|Sg",Englisch und Spanisch beherrsche ich in Wort und Schrift .
+1,Spanisch,"Spanisch,N,_|_|Acc|Sg",Englisch und Spanisch beherrsche ich in Wort und Schrift .
+1,in Wort,"in,PREP,_|_|_|_","Wort,N,_|Neut|_|Sg",Englisch und Spanisch beherrsche ich in Wort und Schrift .
+1,Schrift,"Schrift,N,_|Fem|_|Sg",Englisch und Spanisch beherrsche ich in Wort und Schrift .
+10,Kenntniss,"Kenntniss,N,_|_|_|_",Ich habe auch gut Kenntniss im Deutsch und Franzözich .
+1,im Deutsch,"im,PREP,_|_|Dat|_","Deutsch,N,_|Neut|Dat|Sg",Ich habe auch gut Kenntniss im Deutsch und Franzözich .
+10,Franzözich,"Franzözich,N,_|Neut|Dat|Sg",Ich habe auch gut Kenntniss im Deutsch und Franzözich .
+1,mit verschiedene Sprache,"mit,PREP,_|_|Dat|_","verschiedene,ADJA,_|Fem|_|Sg","Sprache,N,_|Fem|_|Sg",Meine Kompetenz mit verschiedene Sprache kön ich gut benutzen mit Ihren international Kunden .
+1,Kunden,"Kunden,N,_|_|Nom|Pl",Meine Kompetenz mit verschiedene Sprache kön ich gut benutzen mit Ihren international Kunden .
+1,in Team,"in,PREP,_|_|_|_","Team,N,_|Neut|_|Sg","Ich arbeite gern in Team , weil die Zusammenarbeit macht mir viel spaß ."
+1,die Zusammenarbeit,"die,ART,Def|Fem|Nom|Sg","Zusammenarbeit,N,_|Fem|Nom|Sg","Ich arbeite gern in Team , weil die Zusammenarbeit macht mir viel spaß ."
+10,Bei der Uni,"Bei,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Uni,N,_|Fem|Dat|Sg","Bei der Uni war ich Präsident der Informatik-Club , und habt viele Projecte gefuhrt ."
+1,Präsident,"Präsident,N,_|Masc|Dat|Sg","Bei der Uni war ich Präsident der Informatik-Club , und habt viele Projecte gefuhrt ."
+10,der Informatik-Club,"der,ART,Def|Masc|Nom|Sg","Informatik-Club,N,_|Masc|Nom|Sg","Bei der Uni war ich Präsident der Informatik-Club , und habt viele Projecte gefuhrt ."
+10,viele Projecte gefuhrt,"viele,ART,_|_|Acc|_","Projecte,N,_|_|Acc|_","gefuhrt,N,_|_|Acc|_","Bei der Uni war ich Präsident der Informatik-Club , und habt viele Projecte gefuhrt ."
+10,Projecte gefuhrt,"Projecte,N,_|_|Acc|_","gefuhrt,N,_|_|Acc|_","Bei der Uni war ich Präsident der Informatik-Club , und habt viele Projecte gefuhrt ."
+1,viel Websites,"viel,ART,_|Fem|Acc|Pl","Websites,N,_|Fem|Acc|Pl","Ich kann auch gut selb-standig arbeiten , und habe viel Websites selbst-aufgebaut ."
+99,berühmte deutsche Firma in einer,"berühmte,ADJA,_|_|_|_","deutsche,ADJA,_|_|_|_","Firma,N,_|Fem|Dat|Sg","in,PREP,_|_|Dat|_","einer,ART,Indef|Fem|_|Sg",Es war schön immer meine großer Wunsche in einer berühmte deutsche Firma als Prakikantin tätig zu sein .
+10,Prakikantin,"Prakikantin,N,_|_|_|_",Es war schön immer meine großer Wunsche in einer berühmte deutsche Firma als Prakikantin tätig zu sein .
+10,prakticher Erpharung,"prakticher,N,_|_|_|_","Erpharung,N,_|_|_|_",Ich wollte auch mein deutsch verbessern und prakticher Erpharung mit die deutsche Culture sammeln .
+10,mit die deutsche Culture,"mit,PREP,_|_|Dat|_","die,ART,Def|_|_|_","deutsche,ADJA,_|_|_|_","Culture,N,_|_|_|_",Ich wollte auch mein deutsch verbessern und prakticher Erpharung mit die deutsche Culture sammeln .
+10,am anfang,"am,PREP,_|_|Dat|_","anfang,N,_|_|Dat|_",Ich kann am anfang Juli einer Praktikum antretten .
+99,Juli Praktikum,"Juli,N,_|Masc|Acc|Sg","Praktikum,N,_|Fem|Gen|Sg",Ich kann am anfang Juli einer Praktikum antretten .
+10,Juli einer Praktikum antretten,"Juli,N,_|Masc|Acc|Sg","einer,ART,Indef|Fem|_|Sg","Praktikum,N,_|Fem|Gen|Sg","antretten,N,_|Fem|Gen|Sg",Ich kann am anfang Juli einer Praktikum antretten .
+10,Praktikum antretten,"Praktikum,N,_|Fem|Gen|Sg","antretten,N,_|Fem|Gen|Sg",Ich kann am anfang Juli einer Praktikum antretten .
+99,für um Ihrer Angebot,"für,PREP,_|_|Acc|_","um,PREP,_|_|Gen|_","Ihrer,ART,_|_|_|_","Angebot,N,_|_|Gen|_",Ich freue mich um Ihrer Angebot und die Moglichkeit für ein Vorstellungsgespräch .
+10,die Moglichkeit,"die,ART,Def|_|_|_","Moglichkeit,N,_|_|_|_",Ich freue mich um Ihrer Angebot und die Moglichkeit für ein Vorstellungsgespräch .
+3,für ein Vorstellungsgespräch,"für,PREP,_|_|Acc|_","ein,ART,Indef|Neut|Acc|Sg","Vorstellungsgespräch,N,_|Neut|Acc|Sg",Ich freue mich um Ihrer Angebot und die Moglichkeit für ein Vorstellungsgespräch .
+4,Mit freundlichen Grußen Maria,"Mit,PREP,_|_|Dat|_","freundlichen,ADJA,_|_|Dat|_","Grußen,N,_|_|Dat|_","Maria,N,_|Fem|Dat|Sg",Mit freundlichen Grußen Maria Schmidt Anlage : Lebenslauf Zeugnisse
+10,Grußen Maria Schmidt,"Grußen,N,_|_|Dat|_","Maria,N,_|Fem|Dat|Sg","Schmidt,N,_|Fem|Dat|Sg",Mit freundlichen Grußen Maria Schmidt Anlage : Lebenslauf Zeugnisse
+1,Maria Schmidt Anlage,"Maria,N,_|Fem|Dat|Sg","Schmidt,N,_|Fem|Dat|Sg","Anlage,N,_|Fem|Dat|Sg",Mit freundlichen Grußen Maria Schmidt Anlage : Lebenslauf Zeugnisse
+1,Schmidt Anlage,"Schmidt,N,_|Fem|Dat|Sg","Anlage,N,_|Fem|Dat|Sg",Mit freundlichen Grußen Maria Schmidt Anlage : Lebenslauf Zeugnisse
+1,Lebenslauf Zeugnisse,"Lebenslauf,N,_|_|_|_","Zeugnisse,N,_|_|_|_",Mit freundlichen Grußen Maria Schmidt Anlage : Lebenslauf Zeugnisse

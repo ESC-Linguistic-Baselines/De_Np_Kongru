@@ -5,29 +5,20 @@
 import typer
 
 # Custom
-# None
+from kongru.api_general.statistics.kongru_evaluation import get_report
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 
-app_typer_statics = typer.Typer(
-    no_args_is_help=True, name="statistik", add_completion=False
+statistics = Mk.Statistics
+
+app_typer_statics = typer.Typer(name=statistics.APP_NAME.value, add_completion=False)
+
+
+@app_typer_statics.command(
+    name=statistics.DEKONGRU_ACCURACY_NAME.name,
+    help=statistics.DEKONGRU_ACCURACY_NAME_HELP.value,
 )
-
-
-@app_typer_statics.command()
 def dekongru_accuracy():
-    """
-    Hello
-    """
-    # Your code here
-    typer.echo("Hello, Typer!")
-
-
-@app_typer_statics.command()
-def aggregate_nominal_phrase_results():
-    """
-    Hello
-    """
-    # Your code here
-    typer.echo("Hello, Typer!")
+    get_report()
 
 
 if __name__ == "__main__":

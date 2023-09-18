@@ -34,11 +34,16 @@ from kongru.api_general.universal.funcs.natural_order_group import NaturalOrderG
 
 # constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
+# Strings als Enums
+manager_keys = Mk.AppDataManager
+
 
 app_typer_data_managers = typer.Typer(
     no_args_is_help=True,
-    name="datenbank",
-    help="Die Datenbankcorpora verwalten und durchsuchen",
+    name=manager_keys.APP_NAME.value,
+    help=manager_keys.APP_NAME_HELP.value,
     add_completion=False,
     cls=NaturalOrderGroup,
 )
@@ -46,30 +51,29 @@ app_typer_data_managers = typer.Typer(
 console = Console()
 
 
-@app_typer_data_managers.command(name="text_ids", help="Ids der Textdateien auflisten")
+@app_typer_data_managers.command(
+    name=manager_keys.SHOW_TEXT_IDS_COMMAND_NAME.value,
+    help=manager_keys.SHOW_TEXT_IDS_COMMAND_HELP.value,
+)
 def show_text_ids() -> None:
-    sql_command = (
-        "SELECT general_author_id,general_mother_tongue,general_cefr,"
-        "txt_len_in_char FROM learner_text_data "
-    )
+    sql_command = manager_keys.SHOW_TEXT_IDS_SQL_COMMAND.value
     text_ids = Merlin(sql_command=sql_command).read_merlin_corpus_database()
-    table = Table(
-        "general_author_id", "general_mother_tongue", "general_cefr", "txt_len_in_char"
-    )
+    table = Table(manager_keys.SHOW_TEXT_IDS_COMMAND_NAME.value)
     for id_entry in sorted(text_ids):
         table.add_row(*id_entry)
     console.print(table)
 
 
 @app_typer_data_managers.command(
-    name="text_lesen", help="einen bestimmten Text in der Datenbank lesen"
+    name=manager_keys.GET_AND_SHOW_TEXT_BY_ID_COMMAND_NAME.value,
+    help=manager_keys.GET_AND_SHOW_TEXT_BY_ID_COMMAND_HELP.value,
 )
 def get_and_show_text_by_id(
     text_id: str = typer.Option(
-        "1031_0003130",
-        "--text_id",
-        "--id",
-        help="Die Text-Id des gewuenschten Textes angeben",
+        manager_keys.GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_DEFAULT.value,
+        manager_keys.GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_LONG.value,
+        manager_keys.GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_SHORT.value,
+        help=manager_keys.GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_HELP.value,
     )
 ) -> None:
     entries_extracted_by_text_id = Merlin(
@@ -169,7 +173,7 @@ def extract_nps_from_database(
 )
 def extract_nps_from_local_file(
     ast_file_id: str = typer.Option(
-        2,
+        "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/incoming/ast/1023_0101841.ast",
         "--datei_name",
         "--name",
         help="Der Name der Datei, die ausgewertet werden soll.",
@@ -178,13 +182,12 @@ def extract_nps_from_local_file(
         "ast_nps", "--datei_typ", "--typ", help="Dateitypen ast_nps, pylist, conll"
     ),
     echo_msg: bool = typer.Option(
-        "echo", "--echo", "--e", help="Die Fortschittsdaten in der Konsole anzeigen"
+        False, "--echo", "--e", help="Die Fortschittsdaten in der Konsole anzeigen"
     ),
 ):
     try:
         file_id = os.path.basename(ast_file_id)
         if file_type == "ast_nps":
-
             np_file_handler = AstNominalPhraseExtractor(
                 ast_file_id=ast_file_id,
                 save_name=f"user/outgoing/extracted_nominal_phrases/{file_id}",
@@ -235,7 +238,6 @@ def extract_data_from_merlin_database(
         "ast", "--datei_endung", "--endung", help="Die Endung der Datei"
     ),
 ):
-
     with open(sql_script, "r") as sql_file:
         script = sql_file.read()
     merlin_corpus = Merlin(sql_command=script)

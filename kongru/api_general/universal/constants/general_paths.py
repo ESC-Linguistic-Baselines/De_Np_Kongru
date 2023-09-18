@@ -1,4 +1,5 @@
 # Standard
+import glob
 import os
 
 from enum import Enum
@@ -103,6 +104,9 @@ class GeneralPaths(Enum):
 
     NP_TRAINING_IDS = "user/text_ids/test_ids.txt"
     NP_TEST_IDS = "user/text_ids/test_ids.txt"
+
+    GOLD_FILES = "user/kongru_evaluation/gold_files/*.csv"
+    RAW_FILES = "user/kongru_evaluation/raw_files/*.*"
 
 
 try:

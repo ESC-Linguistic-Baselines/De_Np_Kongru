@@ -21,8 +21,9 @@ from kongru.api_general.universal.constants.custom_error_messages import (
 # constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.constants.general_vars import (
-    MERLIN_TABLE_ENTRY_FORMAT,
+    SQL_MERLIN_TABLE_ENTRY_FORMAT,
 )
+from kongru.api_general.universal.constants.message_keys import MessageKeys as mk
 
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import (
@@ -32,6 +33,8 @@ from kongru.api_general.universal.funcs.basic_logger import (
 from kongru.api_general.universal.funcs.sql_checker import check_sql_command
 from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
 from kongru.api_general.universal.funcs.get_merlin_file import open_merlin_file
+
+merlin_keys = mk.Merlin
 
 
 class MerlinManager:
@@ -343,7 +346,9 @@ class MerlinManager:
 
             # Wenn der Eintrag nicht in der Daten schon vorhanden ist,
             # wird dieser dann eingetragen
-            sql_insert_query = f"INSERT INTO {table_name} {MERLIN_TABLE_ENTRY_FORMAT}"
+            sql_insert_query = (
+                f"INSERT INTO {table_name} {SQL_MERLIN_TABLE_ENTRY_FORMAT}"
+            )
 
             merlin_corpus_data = (
                 general_points
@@ -399,7 +404,7 @@ class MerlinManager:
         except Exception as e:
             catch_and_log_error(
                 error=e,
-                custom_message="Die Text-ID, die eingegeben wurde, ist nicht gueltig.",
+                custom_message=merlin_keys.INVALID_TEXT_ID.value,
             )
 
     def read_merlin_corpus_database(self) -> tuple:
@@ -423,7 +428,11 @@ class MerlinManager:
             return sql_results
 
         except Exception as e:
-            catch_and_log_error(error=e, custom_message="", kill_if_fatal_error=True)
+            catch_and_log_error(
+                error=e,
+                custom_message=merlin_keys.MERLIN_DATABASE_READ_ERR.value,
+                kill_if_fatal_error=True,
+            )
 
     def generate_merlin_database(self) -> None:
         """
@@ -447,7 +456,9 @@ class MerlinManager:
             total_ids = len(get_ids)
 
             # Erstellen einer tqdm-Instanz mit der Gesamtanzahl der IDs
-            progress_bar = tqdm(total=total_ids, desc="Text Ids verarbeiten")
+            progress_bar = tqdm(
+                total=total_ids, desc=merlin_keys.TEXT_IDS_PROCESS.value
+            )
 
             for text_id in get_ids:
 
@@ -475,8 +486,7 @@ class MerlinManager:
 
         else:
             catch_and_log_info(
-                msg="Der Merlin-Korpus fehlt. Ohne das Zip-Verchnis kann keine "
-                "Datenbank erstellt werden.",
+                msg=merlin_keys.MERLIN_DATABASE_UNZIP_DATA.value,
                 echo_msg=True,
                 echo_color=typer.colors.RED,
             )

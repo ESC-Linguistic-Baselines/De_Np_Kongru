@@ -61,3 +61,253 @@ Funktion: catch_and_log_info
 Linie: 137
 Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
 
+Zeitpunkt: 2023-09-18 21:07:38,613
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Datei ist nicht vorhanden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 58, in get_ast_data
+    file = open(
+FileNotFoundError: [Errno 2] No such file or directory: '2'
+
+Nachricht: [Errno 2] No such file or directory: '2'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:13:15,855
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Datei ist nicht vorhanden
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/database_managers/extractors/ast_nominal_phrase_extractor.py", line 58, in get_ast_data
+    file = open(
+FileNotFoundError: [Errno 2] No such file or directory: '2'
+
+Nachricht: [Errno 2] No such file or directory: '2'
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:16:00,232
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/incoming/ast/1023_0101841.ast wurde ausgelesen und die NPs 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:49,471
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003170: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:53,778
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1031_0003170.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:53,986
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:53,986
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003170: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:53,987
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003133: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:58,167
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1031_0003133.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:58,293
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:58,293
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003133: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:31:58,294
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024802: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:02,416
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1071_0024802.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:02,540
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:02,541
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024802: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:02,541
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024816: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:06,587
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1071_0024816.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:06,710
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:06,710
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024816: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:06,710
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1023_0101851: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:10,842
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0101851.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:10,965
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:10,966
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:10,972
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:10,972
+Loggername: root
+LogLevel: INFO
+Nachricht: Generiere Ergebnisdatei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 21:32:10,990
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisdatei erfolgreich generiert!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

@@ -166,7 +166,7 @@ def generate_results_file(collective_results) -> None:
     csv_data = statistics.create_csv_results_file()
 
     for txt_id in collective_results:
-        command = gv.MERLIN_META_DATA_QUERY.replace("(?)", f"'{txt_id}'")
+        command = gv.SQL_MERLIN_META_DATA_QUERY.replace("(?)", f"'{txt_id}'")
         meta_data_text = MerlinManager(sql_command=command)
 
         merlin_sql_result = list(meta_data_text.read_merlin_corpus_database()[0])
@@ -186,8 +186,8 @@ if __name__ == "__main__":
     np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
     np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
 
-    #get_ast_data()
-    #get_np_data()
-    run_congruency(np_extracted_files, training_ids,text_limit=4)
+    # get_ast_data()
+    # get_np_data()
+    run_congruency(np_extracted_files, training_ids, text_limit=4)
     count_results = count_np_results()
     generate_results_file(count_results)

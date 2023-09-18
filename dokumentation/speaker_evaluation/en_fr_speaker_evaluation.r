@@ -48,14 +48,14 @@ library("readxl")
 library("writexl")
 
 # Das lokale Verzeichnis festlegen, worin die Hauptergebnis-Datei gespeichert ist.
-setwd("/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/outgoing/batch_results")
+setwd("/user/outgoing/batch_results")
  #/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/de_np_kongru/user/outgoing/batch_results
 
 # zusaetliche Funktionen
-source("/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/evaluation/data_process.r")  # Replace with the actual file path
+source("/dokumentation/evaluation/data_process.r")  # Replace with the actual file path
 
 # Datensatz laden
-en_fr_data <- read.csv( file = "batch_evaluation_np.csv")
+en_fr_data <- read.csv( file = "../../user/outgoing/batch_results/batch_evaluation_np.csv")
 
 # Excel-Workbook aufstellen
 wb <- createWorkbook()
@@ -170,5 +170,5 @@ true_averages <- list(
 )
 
 
-saveWorkbook(wb, file = "nominal_phrase_results.xlsx",overwrite = TRUE)
-excel_data <- read_excel("nominal_phrase_results.xlsx", sheet=5)
+saveWorkbook(wb, file = "../../user/outgoing/batch_results/nominal_phrase_results.xlsx", overwrite = TRUE)
+excel_data <- read_excel("../../user/outgoing/batch_results/nominal_phrase_results.xlsx", sheet=5)
