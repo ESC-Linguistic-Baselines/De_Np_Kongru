@@ -1,0 +1,27 @@
+Zeitpunkt: 2023-09-18 14:49:55,184
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003170: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 14:55:44,943
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003170: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-18 15:00:35,486
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003170: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

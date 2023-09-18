@@ -168,6 +168,5 @@ fr_C1 <- en_fr_data[
 
 collect_data_scores <- function (table_data, level, table_type){
   addWorksheet(wb, level)
-  generate_tables(table_data,level, table_type)
-
+  generate_tables(table_data, level,  table_type)
 }

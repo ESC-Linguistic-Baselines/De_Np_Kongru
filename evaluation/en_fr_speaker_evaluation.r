@@ -101,8 +101,7 @@ b2_fr <- general_cefr_data_results$B2_FR_GESAMT_WAHR
 c1_en <- general_cefr_data_results$C1_EN_GESAMT_WAHR
 c1_fr <- general_cefr_data_results$C1_FR_GESAMT_WAHR
 
-# Ergebnisse speichern
 
-t.test(c1_en, c1_fr)
+
 
 saveWorkbook(wb, file = "nominal_phrase_results.xlsx",overwrite = TRUE)
