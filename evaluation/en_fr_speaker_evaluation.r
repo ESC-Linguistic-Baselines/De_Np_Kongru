@@ -40,7 +40,7 @@
 # Pakete installiert, wenn notwendig. 
 #install.packages("readxl")
 #install.packages("writexl")
-# install.packages("openxlsk")
+#install.packages("openxlsk")
 
 # Libraries bzw. R-Pakete
 library("openxlsx")
@@ -101,7 +101,74 @@ b2_fr <- general_cefr_data_results$B2_FR_GESAMT_WAHR
 c1_en <- general_cefr_data_results$C1_EN_GESAMT_WAHR
 c1_fr <- general_cefr_data_results$C1_FR_GESAMT_WAHR
 
+a1_data <-generate_t_test_data(a1_en, a1_fr, group="A1")
+a2_data <-generate_t_test_data(a2_en, a2_fr, group="A2")
+b1_data <-generate_t_test_data(b1_en, b1_fr, group="B1")
+b2_data <-generate_t_test_data(b2_en, b2_fr, group="B2")
+c1_data <-generate_t_test_data(c1_en, c1_fr, group="C1")
 
+data <- list(
+ a1_data$one,
+ a1_data$two,
+
+ a2_data$one,
+ a2_data$two,
+
+ b1_data$one,
+ b1_data$two,
+
+ b2_data$one,
+ b2_data$two,
+
+ c1_data$one,
+ c1_data$two
+)
+
+collect_data_scores(
+  data,
+  "statistical_data ",
+  "training"
+)
+
+
+true_averages <- list(
+  data.frame(
+    "A1_EN_AVG_WAHR" = mean(general_cefr_data_results$A1_EN_GESAMT_WAHR),
+    "A1_EN_AVG_FALSCH" = mean(general_cefr_data_results$A1_EN_GESAMT_FALSCH),
+    "A1_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$A1_FR_GESAMT_UNBEKANNT)
+  ),
+
+  data.frame(
+    "A2_EN_AVG_WAHR" = mean(general_cefr_data_results$A2_EN_GESAMT_WAHR),
+    "A2_EN_AVG_FALSCH" = mean(general_cefr_data_results$A2_EN_GESAMT_FALSCH),
+    "A2_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$A2_FR_GESAMT_UNBEKANNT)
+  ),
+
+  data.frame(
+    "B1_EN_AVG_WAHR" = mean(general_cefr_data_results$B1_EN_GESAMT_WAHR),
+    "B1_EN_AVG_FALSCH" = mean(general_cefr_data_results$B1_EN_GESAMT_FALSCH),
+    "B1_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$B1_FR_GESAMT_UNBEKANNT)
+  ),
+
+  data.frame(
+    "B2_EN_AVG_WAHR" = mean(general_cefr_data_results$B2_EN_GESAMT_WAHR),
+    "B2_EN_AVG_FALSCH" = mean(general_cefr_data_results$B2_EN_GESAMT_FALSCH),
+    "B2_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$B2_FR_GESAMT_UNBEKANNT)
+  ),
+
+  data.frame(
+    "C1_EN_AVG_WAHR" = mean(general_cefr_data_results$C1_EN_GESAMT_WAHR),
+    "C1_EN_AVG_FALSCH" = mean(general_cefr_data_results$C1_EN_GESAMT_FALSCH),
+    "C1_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$C1_FR_GESAMT_UNBEKANNT)
+  )
+)
+
+ collect_data_scores(
+  true_averages,
+  "averages",
+  "training"
+)
 
 
 saveWorkbook(wb, file = "nominal_phrase_results.xlsx",overwrite = TRUE)
+excel_data <- read_excel("nominal_phrase_results.xlsx", sheet=5)

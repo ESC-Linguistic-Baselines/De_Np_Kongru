@@ -3,7 +3,7 @@ get_mode <- function (data){
    uniqv[which.max(tabulate(match(data, uniqv)))]
 }
 
-collect_language_data <-function(dataset, level, table_type) {
+collect_language_data <-function(dataset, sheet_level_name, table_type) {
   dataset_sorted <- dataset[order(dataset$general_cefr,
                                   dataset$general_mother_tongue), ]
   general_data <- data.frame (
@@ -50,7 +50,8 @@ collect_language_data <-function(dataset, level, table_type) {
     AVG_UNBEKANNT_MODE = get_mode(dataset_sorted$GESAMT_UNBEKANNT)
   )
 
-    addWorksheet(wb, level)
+  addWorksheet(wb, sheet_level_name)
+
   # Tabellen Daten aufstellen
   table_data <- list(
     general_data,
@@ -62,30 +63,33 @@ collect_language_data <-function(dataset, level, table_type) {
     unknown
   )
 
-   generate_tables(table_data, level, table_type)
+   generate_tables(table_data, sheet_level_name, table_type)
 }
-
-generate_tables <-function (table_data,level, table_type){
-   cumulative_rows <- 1
+generate_tables <- function(table_data, sheet_level_name, table_type) {
+  cumulative_rows <- 1
 
   for (i in seq_along(table_data)) {
-    # Tabelle label
-    table_info <- list(
-      "Tabelle",
-      table_type,
-      level,
-      as.character(i)
-    )
+    # Check the type of table_data[[i]]
+    if (is.data.frame(table_data[[i]])) {
+      # Tabelle label
+      table_info <- list(
+        "Tabelle",
+        table_type,
+        sheet_level_name,
+        as.character(i)
+      )
 
-    # Die Excel-Tabelle aufstellen
-    writeData(wb, sheet = level, x = table_data[[i]],
-              startRow = cumulative_rows, startCol = 1)
-    writeData(wb, sheet = level, x = table_info,
-              startRow = cumulative_rows + nrow(table_data[[i]]) + 2, startCol = 1)
+      # Die Excel-Tabelle aufstellen
+      writeData(wb, sheet = sheet_level_name, x = table_data[[i]],
+                startRow = cumulative_rows, startCol = 1)
+      writeData(wb, sheet = sheet_level_name, x = table_info,
+                startRow = cumulative_rows + nrow(table_data[[i]]) + 1, startCol = 1)
 
-    cumulative_rows <- cumulative_rows + nrow(table_data[[i]]) + 5
-
+      cumulative_rows <- cumulative_rows + nrow(table_data[[i]]) + 4
+    } else {
+      # Handle other types of data, if necessary
     }
+  }
 }
 
 
@@ -130,7 +134,7 @@ fr_C1 <- en_fr_data[
   en_fr_data$general_cefr == "C1" & en_fr_data$general_mother_tongue == "French",
 ]
 
-  level_averages <- list(
+  sheet_level_name_averages <- list(
   "A1_EN_GESAMT_WAHR" =  en_a1$GESAMT_WAHR,
   "A1_EN_GESAMT_FALSCH" = en_a1$GESAMT_FALSCH,
   "A1_EN_GESAMT_UNBEKANNT" = en_a1$GESAMT_UNBEKANNT,
@@ -163,10 +167,59 @@ fr_C1 <- en_fr_data[
   "C1_FR_GESAMT_UNBEKANNT" = fr_C1$GESAMT_UNBEKANNT
 )
 
-  return(level_averages)
+  return(sheet_level_name_averages)
 }
 
-collect_data_scores <- function (table_data, level, table_type){
-  addWorksheet(wb, level)
-  generate_tables(table_data, level,  table_type)
+collect_data_scores <- function ( data, sheet_level_name, table_type){
+  addWorksheet(wb, sheet_level_name)
+  generate_tables(data, sheet_level_name,  table_type)
+}
+
+generate_t_test_data <- function(x, y, group_name) {
+  if (length(x) >= 2 && length(y) >= 2) {
+    t_test_result <- t.test(x, y)
+
+    t_test_data_one <- data.frame(
+      "GRUPPEN_NAMEN" = group_name,
+      "P_VALUE" = t_test_result$p.value,
+      "ALTERNATIVE" = t_test_result$alternative,
+      "DF" = t_test_result$parameter,
+      row.names = NULL
+    )
+
+    t_test_data_two <- data.frame(
+      "GRUPPEN_NAMEN" = group_name,
+      "ESTIMATE" = t_test_result$estimate,
+      "CONF_INT_LOWER" = t_test_result$conf.int[1],
+      "CONF_INT_UPPER" = t_test_result$conf.int[2],
+      "STATISTIC" = t_test_result$statistic,
+      "METHOD" = t_test_result$method,
+      row.names = NULL
+    )
+
+    result <- list("one" = t_test_data_one, "two" = t_test_data_two)
+    return(result)
+  } else {
+    t_test_data_unk_one <- data.frame(
+      "GRUPPEN_NAMEN" = group_name,
+      "P_VALUE" = "UNK",
+      "ALTERNATIVE" = "UNK",
+      "DF" = "UNK"
+    )
+
+    t_test_data_unk_two <- data.frame(
+      "GRUPPEN_NAMEN" = group_name,
+      "ESTIMATE" = "UNK",
+      "CONF_INT_LOWER" = "UNK",
+      "CONF_INT_UPPER" = "UNK",
+      "STATISTIC" = "UNK",
+      "METHOD" = "UNK"
+    )
+
+    unk <- list("one" = t_test_data_unk_one, "two" = t_test_data_unk_two)
+    return(unk)
+  }
+
+
+
 }
