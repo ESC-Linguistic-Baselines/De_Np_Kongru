@@ -7,6 +7,8 @@ from collections import OrderedDict
 # None
 
 # Custom
+
+# generals
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 

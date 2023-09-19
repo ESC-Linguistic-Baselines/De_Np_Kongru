@@ -32,5 +32,5 @@ class CustomErrorMessages:
 
     class MerlinDeleteSQL(Exception):
         def __init__(self):
-            message = "'DELETE' darf nicht im SQL-Befehl sein."
+            message = Mk.Merlin.MERLIN_DELETE_SQL_INVALID.value
             super().__init__(message)

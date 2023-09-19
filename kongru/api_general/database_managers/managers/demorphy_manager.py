@@ -5,11 +5,10 @@ import pickle
 # Pip
 # None
 
-# Custom
-
-# api_general
+# universals
 
 # constants
+# Paths
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 

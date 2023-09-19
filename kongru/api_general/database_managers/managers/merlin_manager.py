@@ -13,17 +13,22 @@ from tqdm import tqdm
 
 # Custom
 
+# constants
+
+# generals
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.constants.general_vars import (
+    SQL_MERLIN_TABLE_ENTRY_FORMAT,
+)
+
 # errors
 from kongru.api_general.universal.constants.custom_error_messages import (
     CustomErrorMessages as Cusem,
 )
 
-# constants
-from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.universal.constants.general_vars import (
-    SQL_MERLIN_TABLE_ENTRY_FORMAT,
-)
-from kongru.api_general.universal.constants.message_keys import MessageKeys as mk
+# Message keys
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
 
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import (
@@ -34,7 +39,9 @@ from kongru.api_general.universal.funcs.sql_checker import check_sql_command
 from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
 from kongru.api_general.universal.funcs.get_merlin_file import open_merlin_file
 
-merlin_keys = mk.Merlin
+
+# Message Keys
+merlin_keys = Mk.Merlin
 
 
 class MerlinManager:
@@ -83,7 +90,7 @@ class MerlinManager:
         self,
         file_name: str = "",
         merlin_txt_id: str = "1031_0003130",
-        merlin_corpus_db: str = Gp.DB_MERLIN_SQL_DB.value,
+        merlin_corpus_db: str = Gp.MERLIN_SQL_DB.value,
         sql_command: str = "SELECT general_author_id FROM learner_text_data",
     ) -> object:
         self.file_name = file_name
@@ -452,7 +459,7 @@ class MerlinManager:
             time.sleep(3)
 
             # Angenommen, get_ids ist eine Liste von IDs, die verarbeitet werden sollen
-            get_ids = glob.glob(Gp.RAW_TEXT_IDS.value)
+            get_ids = glob.glob(Gp.MERLIN_RAW_TEXT_IDS.value)
             total_ids = len(get_ids)
 
             # Erstellen einer tqdm-Instanz mit der Gesamtanzahl der IDs
@@ -482,7 +489,7 @@ class MerlinManager:
             progress_bar.close()
 
             # Das entpackte Verzeichnis loeschen
-            shutil.rmtree(Gp.RAW_MERLIN_CORPUS.value)
+            shutil.rmtree(Gp.MERLIN_RAW_CORPUS.value)
 
         else:
             catch_and_log_info(

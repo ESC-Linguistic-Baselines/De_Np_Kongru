@@ -1,5 +1,4 @@
 # Standard
-import glob
 import os
 
 from enum import Enum
@@ -47,8 +46,14 @@ class GeneralPaths(Enum):
     DIR_LOG = "app_log"
     AST_DIR = "user/incoming/ast"
 
-    # SQL
-    SQL_FILE_TYPES = "main_sql_commands.sql"
+    MERLIN_AST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/ast"
+    MERLIN_CONLL_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/conll"
+    MERLIN_FULL_JSON_DIR = (
+        "app_resources/data/merlin_corpus/merlin_raw_corpus/full_json"
+    )
+    MERLIN_PYLIST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/pylist"
+    MERLIN_RAW_TEXT_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/raw_text"
+    MERLIN_EXTRACT_DIR = "app_resources/data/merlin_corpus/"
 
     #############
     #  Datenbank  #
@@ -71,42 +76,33 @@ class GeneralPaths(Enum):
     INFLECTION_SUFFIXES_YAML = "app_resources/data/inflection/inflection_suffixes.yaml"
 
     ## Merlin
-    DB_MERLIN_SQL_DB = r"app_resources/data/merlin_corpus/merlin_corpus.db"
-    RAW_MERLIN_CORPUS = "app_resources/data/merlin_corpus/merlin_raw_corpus"
-    RAW_TEXT_IDS = "app_resources/data/merlin_corpus/merlin_raw_corpus/raw_text/*.txt"
-    MERLIN_ZIP_CORPUS = "app_resources/data/merlin_corpus/merlin_raw_corpus.zip"
-    MERLIN_EXTRACT_DIR = "app_resources/data/merlin_corpus/"
-
     SQL_MERLIN = "main_sql_commands.sql"
-
-    # Incoming
-    RAW_MERLIN_TXT = "user/incoming/raw/1023_0001416.txt"
-
-    # RAW Merlin-Verzeichnisse
-    MERLIN_AST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/ast"
-    MERLIN_CONLL_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/conll"
-    MERLIN_FULL_JSON_DIR = (
-        "app_resources/data/merlin_corpus/merlin_raw_corpus/full_json"
+    MERLIN_SQL_DB = r"app_resources/data/merlin_corpus/merlin_corpus.db"
+    MERLIN_RAW_CORPUS = "app_resources/data/merlin_corpus/merlin_raw_corpus"
+    MERLIN_ZIP_CORPUS = "app_resources/data/merlin_corpus/merlin_raw_corpus.zip"
+    MERLIN_RAW_TEXT_IDS = (
+        "app_resources/data/merlin_corpus/merlin_raw_corpus/raw_text/*.txt"
     )
-    MERLIN_PYLIST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/pylist"
-    MERLIN_RAW_TEXT_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/raw_text"
 
     # Ergebnissdateien
     RES_AST_NP_FILE = f"user/outgoing/extracted_nominal_phrases/nps"
     RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_results/"
 
-    # Testdateien
-    TEST_NP_FILE_CSV = "user/outgoing/extracted_nominal_phrases/1023_0101841.csv"
-    TEST_NP_AST_FILE = "1023_0101841.ast"
-
     NP_HEADER_FILE = "dokumentation/project_layout/results_header_file.txt"
     NP_MAIN_SAVE_FILE = "user/outgoing/batch_results/batch_evaluation_np.csv"
 
+    # Testdateien
+    TEST_NP_FILE_CSV = "user/outgoing/extracted_nominal_phrases/1023_0101841.csv"
+    TEST_NP_AST_FILE = "user/incoming/ast/1023_0101841.ast"
+
+    # Text-Sorten
     NP_TRAINING_IDS = "user/text_ids/test_ids.txt"
     NP_TEST_IDS = "user/text_ids/test_ids.txt"
 
     GOLD_FILES = "user/kongru_evaluation/gold_files/*.csv"
     RAW_FILES = "user/kongru_evaluation/raw_files/*.*"
+
+    RAW_MERLIN_TXT = "user/incoming/raw/1023_0001416.txt"
 
 
 try:

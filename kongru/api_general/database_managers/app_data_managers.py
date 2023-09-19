@@ -10,7 +10,6 @@ from rich.console import Console
 from rich.table import Table
 
 # Custom
-# api_general
 
 # extractors
 from kongru.api_general.database_managers.extractors.extract_conll_to_pylist import (
@@ -25,7 +24,7 @@ from kongru.api_general.database_managers.extractors.ast_nominal_phrase_extracto
     AstNominalPhraseExtractor,
 )
 
-# Funcs
+# funcs
 from kongru.api_general.universal.funcs.basic_logger import (
     catch_and_log_error,
     catch_and_log_info,
@@ -35,6 +34,7 @@ from kongru.api_general.universal.funcs.natural_order_group import NaturalOrderG
 # constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
 
 # Strings als Enums
 manager_keys = Mk.AppDataManager
@@ -58,7 +58,17 @@ console = Console()
     help=manager_keys.SHOW_TEXT_IDS_COMMAND_HELP.value,
 )
 def show_text_ids() -> None:
+    """
+    Zeigt die Text-IDs an.
+
+    Diese Funktion ruft die Text-IDs aus der Merlin-Korpus-Datenbank ab
+    und zeigt sie in einer Tabelle an.
+
+    Returns:
+        None
+    """
     sql_command = manager_keys.SHOW_TEXT_IDS_SQL_COMMAND.value
+
     text_ids = Merlin(sql_command=sql_command).read_merlin_corpus_database()
     table = Table(manager_keys.SHOW_TEXT_IDS_COMMAND_NAME.value)
     for id_entry in sorted(text_ids):
@@ -67,8 +77,8 @@ def show_text_ids() -> None:
 
 
 @app_typer_data_managers.command(
-    name=manager_keys.GET_AND_SHOW_TEXT_BY_ID_COMMAND_NAME.value,
-    help=manager_keys.GET_AND_SHOW_TEXT_BY_ID_COMMAND_HELP.value,
+    name=manager_keys.GET_AND_SHOW_TEXT_BY_ID_NAME.value,
+    help=manager_keys.GET_AND_SHOW_TEXT_BY_ID_HELP.value,
 )
 def get_and_show_text_by_id(
     text_id: str = typer.Option(
@@ -78,6 +88,17 @@ def get_and_show_text_by_id(
         help=manager_keys.GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_HELP.value,
     )
 ) -> None:
+    """
+    Zeigt den Text anhand seiner ID an.
+
+    Diese Funktion zeigt den Text an, der mit der angegebenen Text-ID in Verbindung steht.
+
+    Args:
+        text_id (str): Die ID des anzuzeigenden Texts.
+
+    Returns:
+        None
+    """
     entries_extracted_by_text_id = Merlin(
         merlin_txt_id=text_id
     ).extract_merlin_corpus_entry_by_id()
@@ -122,6 +143,19 @@ def extract_nps_from_database(
         help=manager_keys.EXTRACT_NPS_FROM_DATABASE_TEXT_HELP.value,
     ),
 ) -> None:
+    """
+    Extrahiert Nominalphrasen (NPs) aus der Datenbank.
+
+    Diese Funktion extrahiert Nominalphrasen (NPs) aus der Datenbank basierend
+    auf den angegebenen Parametern.
+
+    Args:
+        data_type (str): Der Datentyp, aus dem NPs extrahiert werden sollen.
+        text_id (str): Die Text-ID, aus der NPs extrahiert werden sollen.
+
+    Returns:
+        None
+    """
     corpus = Merlin()
     corpus.sql_command = (
         f"SELECT {data_type} FROM learner_text_data where "
@@ -179,7 +213,7 @@ def extract_nps_from_database(
 )
 def extract_nps_from_local_file(
     ast_file_id: str = typer.Option(
-        "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/incoming/ast/1023_0101841.ast",
+        Gp.TEST_NP_AST_FILE.value,
         general_keys.FILE_NAME_LONG.value,
         general_keys.FILE_NAME_SHORT.value,
         help=general_keys.FILE_NAME_HELP.value,
@@ -192,11 +226,25 @@ def extract_nps_from_local_file(
     ),
     echo_msg: bool = typer.Option(
         manager_keys.EXTRACT_NPS_LOCAL_ECHO_DEFAULT.value,
-        manager_keys.EXTRACT_NPS_LOCAL_ECHO_LONG.value,
-        manager_keys.EXTRACT_NPS_LOCAL_ECHO_SHORT.value,
+        manager_keys.EXTRACT_NPS_LOCAL_ECHO.value,
+        manager_keys.EXTRACT_NPS_LOCAL_MUTE.value,
         help=manager_keys.EXTRACT_NPS_LOCAL_ECHO_HELP.value,
     ),
 ):
+    """
+    Extrahiert Nominalphrasen (NPs) aus einer lokalen Datei.
+
+    Diese Funktion extrahiert Nominalphrasen (NPs) aus einer lokalen Datei basierend
+    auf den angegebenen Parametern.
+
+    Args:
+        ast_file_id (str): Der Pfad zur AST-Datei, aus der NPs extrahiert werden sollen.
+        file_type (str): Der Dateityp der AST-Datei.
+        echo_msg (bool): Wenn True, gibt die Funktion Fortschrittsnachrichten aus.
+
+    Returns:
+        None
+    """
     try:
         file_id = os.path.basename(ast_file_id)
         if file_type == "ast_nps":
@@ -207,7 +255,7 @@ def extract_nps_from_local_file(
             np_file_handler.save_extracted_ast_nps()
 
             catch_and_log_info(
-                f"Die Ast-Datei {ast_file_id} wurde ausgelesen und die NPs ",
+                f"Die Ast-Datei {ast_file_id} wurde ausgelesen und die NPs gespeichert ",
                 echo_msg=echo_msg,
             )
 
@@ -218,9 +266,8 @@ def extract_nps_from_local_file(
             )
             np_file_handler.save_extracted_ast_nps()
 
-            typer.secho(
-                message=manager_keys.EXTRACT_NPS_LOCAL_ECHO_SAVE.value,
-                fg=typer.colors.GREEN,
+            catch_and_log_info(
+                msg=manager_keys.EXTRACT_NPS_LOCAL_ECHO_SAVE.value, echo_msg=echo_msg
             )
 
         if file_type == "conll":
@@ -257,6 +304,19 @@ def extract_data_from_merlin_database(
         help=manager_keys.EXTRACT_DATA_FROM_MERLIN_EXT_HELP.value,
     ),
 ):
+    """
+    Extrahiert Daten aus der Merlin-Datenbank.
+
+    Diese Funktion extrahiert Daten aus der Merlin-Datenbank basierend auf den angegebenen Parametern.
+
+    Args:
+        sql_script (str): Das SQL-Skript, um Daten abzurufen.
+        save_directory (str): Das Verzeichnis, in dem die extrahierten Daten gespeichert werden sollen.
+        file_extension (str): Die Dateierweiterung für die gespeicherten Dateien.
+
+    Returns:
+        None
+    """
     with open(sql_script, "r") as sql_file:
         script = sql_file.read()
     merlin_corpus = Merlin(sql_command=script)

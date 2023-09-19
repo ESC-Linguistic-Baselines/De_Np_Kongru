@@ -16,6 +16,5 @@ def test_show_text_ids():
     print(result.stdout)
 
 
-
 if __name__ == "__main__":
     pass

@@ -8,6 +8,8 @@ import typer
 from sklearn.metrics import classification_report
 
 # Custom
+
+# generals
 from kongru.api_general.universal.constants.general_vars import CODE_NAMES
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 

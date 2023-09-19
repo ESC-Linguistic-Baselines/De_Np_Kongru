@@ -10,11 +10,17 @@ from io import StringIO
 # Custom
 
 # universals
+
+# paths
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+
+# funcs
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
+
+# constants
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 
-main = Mk.General
+general_keys = Mk.General
 
 
 class AstNominalPhraseExtractor:
@@ -72,7 +78,7 @@ class AstNominalPhraseExtractor:
             except Exception as e:
                 catch_and_log_error(
                     error=e,
-                    custom_message=main.FILE_MISSING.value,
+                    custom_message=general_keys.FILE_MISSING.value,
                     kill_if_fatal_error=True,
                 )
 
