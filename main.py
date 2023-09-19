@@ -32,15 +32,15 @@ from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
 )
 
 # Message Keys als Enum
-main = Mk.MainApp
-general = Mk.General
+main_keys = Mk.MainApp
+general_keys = Mk.General
 
 # Haupt-Typer App
 main_typer_app = typer.Typer(
     add_help_option=False,
     no_args_is_help=True,
-    name=main.APP_NAME.value,
-    help=main.APP_NAME_HELP.value,
+    name=main_keys.APP_NAME.value,
+    help=main_keys.APP_NAME_HELP.value,
     add_completion=False,
 )
 
@@ -51,20 +51,20 @@ main_typer_app.add_typer(app_typer_statics)
 
 
 @main_typer_app.command(
-    help=main.EMPTY_DIRECTORY.value, name=main.EMPTY_DIRECTORY_HELP.value
+    help=main_keys.EMPTY_DIRECTORY.value, name=main_keys.EMPTY_DIRECTORY_HELP.value
 )
 def empty_chosen_directory(
     trg_dir: str = typer.Option(
         Gp.DIR_LOG.DIR_LOG.value,
-        main.EMPTY_DIRECTORY_TRG_LONG.value,
-        main.EMPTY_DIRECTORY_TRG_SHORT.value,
-        help=main.EMPTY_DIRECTORY_TRG_HELP.value,
+        main_keys.EMPTY_DIRECTORY_TRG_LONG.value,
+        main_keys.EMPTY_DIRECTORY_TRG_SHORT.value,
+        help=main_keys.EMPTY_DIRECTORY_TRG_HELP.value,
     ),
     file_type: str = typer.Option(
-        "log",
-        general.FILE_TYPE_LONG.value,
-        general.FILE_TYPE_SHORT.value,
-        help=main.FILE_TYPE_HELP.value,
+        general_keys.FILE_TYPE_LOG.value,
+        general_keys.FILE_TYPE_LONG.value,
+        general_keys.FILE_TYPE_SHORT.value,
+        help=main_keys.FILE_TYPE_HELP.value,
     ),
 ) -> None:
     files_to_be_deleted = f"{trg_dir}/*.{file_type}"
@@ -86,7 +86,7 @@ def empty_chosen_directory(
 if __name__ == "__main__":
     try:
         main_typer_app()
-        catch_and_log_info(msg=main.MAIN_APP_START.value)
+        catch_and_log_info(msg=main_keys.MAIN_APP_START.value)
     except Exception as e:
         msg = Mk.MainApp.MAIN_APP_FATAL_ERROR.value
         catch_and_log_error(error=e, custom_message=msg, kill_if_fatal_error=True)

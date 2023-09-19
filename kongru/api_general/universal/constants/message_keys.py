@@ -1,7 +1,6 @@
 # Standard
 from enum import Enum
 
-
 # Pip
 # None
 
@@ -16,42 +15,47 @@ class MessageKeys:
     """
 
     class General(Enum):
-        # Fehler
-        MISSING_HOME_DIR = "Das Hauptverzeichnis wurde nicht richtig angegeben."
+
+        FILE_TYPE_LOG = "log"
         FILE_NAME_LONG = "--datei_name"
         FILE_NAME_SHORT = "--name"
         FILE_NAME_HELP = "Der Name der Datei, die ausgewertet werden soll."
+
         FILE_TYPE_LONG = "--datei_typ"
         FILE_TYPE_SHORT = "--typ"
-        FILE_MISSING = "Die Datei ist nicht vorhanden."
+
         SAVE_DIR_LONG = "--speichern-verzeichnis"
 
+        SAVE_DEFAULT_CSV = "np.csv"
         SAVE_RESULTS_LONG = "--speichern-ergebnisse"
         SAVE_DIR_SHORT = "--speichern"
-        SAVE_DEFAULT_CSV = "np.csv"
-        SAVE_FILE_HELP = "Der Name des Ergebnisdatei"
+        SAVE_RESULTS_HELP = "Der Name des Ergebnisdatei"
+
         SAVE_DIR_HELP = "Das Verzeichnis, worin die Ergebnisse gespeichert werden."
+
+        # Fehler
+        MISSING_HOME_DIR = "Das Hauptverzeichnis wurde nicht richtig angegeben."
         GENERAL_ERROR = "Ein Fehler ist aufgetreten."
+        FILE_MISSING = "Die Datei ist nicht vorhanden."
 
     class MainApp(Enum):
-        APP_NAME_HELP = "Die Hauptapp von DeNpKongru"
-        EMPTY_DIRECTORY_HELP = "verzeichnis_leeren"
-        EMPTY_DIRECTORY = "Ein ausgewaehltes Verzeichnis leeren"
         APP_NAME = "de_np_kongru"
+        APP_NAME_HELP = "Die Hauptapp von DeNpKongru"
+
+        EMPTY_DIRECTORY = "Ein ausgewaehltes Verzeichnis leeren"
+        EMPTY_DIRECTORY_HELP = "verzeichnis_leeren"
 
         EMPTY_DIRECTORY_TRG_LONG = "--trg_dir"
         EMPTY_DIRECTORY_TRG_SHORT = "--trg"
         EMPTY_DIRECTORY_TRG_HELP = "Das Verzeichnis, das geleert werden soll."
 
-        FILE_TYPE_DEFAULT = "log"
         FILE_TYPE_HELP = "Die Dateien, die geloescht werden sollen."
 
-        help = ("Die Dateien, die geloescht werden sollen.",)
+        MAIN_APP_START = "Die Hauptanwendung wurde gestartet."
         MAIN_APP_FATAL_ERROR = (
             "Ein Problem ist innerhalb der Hauptanwendung aufgetreten. "
-            "Bitte die Protokolldatei für weitere Informationen überprüfen. "
+            "Bitte die Protokolldatei überprüfen. "
         )
-        MAIN_APP_START = "Die Hauptanwendung wurde gestartet."
 
     class Merlin(Enum):
         # Fehler
@@ -60,13 +64,17 @@ class MessageKeys:
         TEXT_IDS_PROCESS = "Die Text-Ids verarbeiten"
 
         MERLIN_DATABASE_READ_ERR = (
-            "Beim auslesen der Datenbank ist ein Fehler " "aufgetreten. "
+            "Beim auslesen der Datenbank ist ein Fehler aufgetreten. "
         )
-        MERLIN_DATABASE_UNZIP_DATA = "Der Merlin-Korpus fehlt. Ohne das Zip-Verchnis kann keine Datenbank erstellt werden."
+        MERLIN_DATABASE_UNZIP_DATA = (
+            "Der Merlin-Korpus fehlt. Ohne das Zip-Verchnis "
+            "kann keine Datenbank erstellt werden."
+        )
 
     class AppDataManager(Enum):
         APP_NAME = "datenbank"
         APP_NAME_HELP = "Die Datenbankcorpora verwalten und durchsuchen"
+
         SHOW_TEXT_IDS_COMMAND_NAME = "text_ids"
         SHOW_TEXT_IDS_COMMAND_HELP = "Ids der Textdateien auflisten"
 
@@ -82,10 +90,8 @@ class MessageKeys:
             "txt_len_in_char",
         )
 
-        GET_AND_SHOW_TEXT_BY_ID_COMMAND_NAME = "text_lesen"
-        GET_AND_SHOW_TEXT_BY_ID_COMMAND_HELP = (
-            "einen bestimmten Text in der Datenbank lesen"
-        )
+        GET_AND_SHOW_TEXT_BY_ID_NAME = "text_lesen"
+        GET_AND_SHOW_TEXT_BY_ID_HELP = "einen bestimmten Text in der Datenbank lesen"
         GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_DEFAULT = "1031_0003130"
         GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_LONG = "--text_id"
         GET_AND_SHOW_TEXT_BY_ID_TEXT_ID_SHORT = "--id"
@@ -124,24 +130,26 @@ class MessageKeys:
         EXTRACT_NPS_LOCAL_ECHO_SHORT = "--e"
         EXTRACT_NPS_LOCAL_ECHO_HELP = "Die Fortschittsdaten in der Konsole anzeigen"
 
-        EXTRACT_NPS_LOCAL_ECHO_SAVE = "Ast-Datei wurde ausgelesen und gespeichert."
+        EXTRACT_NPS_LOCAL_ECHO_SAVE = "Die Ast-Datei wurde ausgelesen und gespeichert."
 
         EXTRACT_DATA_FROM_MERLIN_NAME = "daten_extrahieren"
         EXTRACT_DATA_FROM_MERLIN_HELP = "Die Befehle ausfuehren aus der SQL-Datei"
 
         EXTRACT_DATA_FROM_MERLIN_SQL_LONG = "--sql_script"
         EXTRACT_DATA_FROM_MERLIN_SQL_SHORT = "--sql"
-        EXTRACT_DATA_FROM_MERLIN_SQL_HELP = "Name der SQL-Datei"
+        EXTRACT_DATA_FROM_MERLIN_SQL_HELP = "Der Name der SQL-Datei"
 
         EXTRACT_DATA_FROM_MERLIN_EXT_DEFAULT = "ast"
         EXTRACT_DATA_FROM_MERLIN_EXT_LONG = "--datei_endung"
         EXTRACT_DATA_FROM_MERLIN_EXT_SHORT = "--endung"
-        EXTRACT_DATA_FROM_MERLIN_EXT_HELP = "Die Endung der Datei"
+        EXTRACT_DATA_FROM_MERLIN_EXT_HELP = "Die Dateiendung festlegen"
 
         EXTRACT_AST_DATA_DSC = "Ast-Dateien extrahieren"
 
     class Statistics(Enum):
         APP_NAME = "statistik"
+        APP_NAME_HELP = "Eine einfache Analyse ueber DeNpKongru ausfuehren"
+
         DEKONGRU_ACCURACY_NAME = "Performanz"
         DEKONGRU_ACCURACY_NAME_HELP = "Die Performanz des Programms anzeigen"
 

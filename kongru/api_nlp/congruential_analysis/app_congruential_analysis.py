@@ -38,7 +38,7 @@ app_typer_congruential_analysis = typer.Typer(
     name=congruential_keys.APP_NAME.value,
     help=congruential_keys.APP_NAME_HELP.value,
     add_help_option=True,
-    no_args_is_help=True
+    no_args_is_help=True,
 )
 
 # Konsole zur Erstellung einer Tabelle
@@ -66,8 +66,8 @@ def nominal_phrase_agreement_analysis(
         general_keys.SAVE_DEFAULT_CSV.value,
         general_keys.SAVE_RESULTS_LONG.value,
         general_keys.SAVE_DIR_SHORT.value,
-        help=general_keys.SAVE_FILE_HELP.value,
-    )
+        help=general_keys.SAVE_RESULTS_HELP.value,
+    ),
 ) -> None:
     """
     Analysiere die Kongruenz in nominalen Phrasen in einer gegebenen CSV-Datei.
