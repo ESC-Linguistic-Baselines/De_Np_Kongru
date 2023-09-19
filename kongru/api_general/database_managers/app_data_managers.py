@@ -38,6 +38,8 @@ from kongru.api_general.universal.constants.message_keys import MessageKeys as M
 
 # Strings als Enums
 manager_keys = Mk.AppDataManager
+general_keys = Mk.General
+merlin_keys = Mk.Merlin
 
 
 app_typer_data_managers = typer.Typer(
@@ -79,7 +81,6 @@ def get_and_show_text_by_id(
     entries_extracted_by_text_id = Merlin(
         merlin_txt_id=text_id
     ).extract_merlin_corpus_entry_by_id()
-    custom_message = "Die Text-ID, die eingegeben wurde, ist nicht gültig."
 
     # Nur wenn ein Eintrag vorhanden ist
     if entries_extracted_by_text_id:
@@ -90,10 +91,12 @@ def get_and_show_text_by_id(
             for entry in entries_extracted_by_text_id:
                 typer.echo(f"{entry} {entries_extracted_by_text_id.get(entry)}")
         except Exception as e:
-            catch_and_log_error(error=e, custom_message=custom_message)
+            catch_and_log_error(
+                error=e, custom_message=merlin_keys.INVALID_TEXT_ID.value
+            )
     else:
         catch_and_log_info(
-            msg=custom_message,
+            msg=merlin_keys.INVALID_TEXT_ID.value,
             echo_msg=True,
             log_info_message=False,
             echo_color=typer.colors.RED,
@@ -101,19 +104,22 @@ def get_and_show_text_by_id(
 
 
 @app_typer_data_managers.command(
-    name="nps_datenbank",
-    help="Nps aus einem bestimmen Datenbankeintrag extrahieren",
+    name=manager_keys.EXTRACT_NPS_FROM_DATABASE_NAME.value,
+    help=manager_keys.EXTRACT_NPS_FROM_DATABASE_HELP.value,
     no_args_is_help=True,
 )
 def extract_nps_from_database(
     data_type: str = typer.Option(
-        "ast_nps", "--datei_typ", "--typ" "'ast_nps' oder 'conll' als argument angeben"
+        manager_keys.EXTRACT_NPS_FROM_DATABASE_DATA_DEFAULT.value,
+        general_keys.FILE_NAME_LONG.value,
+        general_keys.FILE_NAME_SHORT.value,
+        help=manager_keys.EXTRACT_NPS_FROM_DATABASE_DATA_HELP.value,
     ),
     text_id: str = typer.Option(
-        "1023_0001416",
-        "--text_id",
-        "--id",
-        help="Die Text-Id des gewuenschten Textes angeben",
+        manager_keys.EXTRACT_NPS_FROM_DATABASE_TEXT_DEFAULT.value,
+        manager_keys.EXTRACT_NPS_FROM_DATABASE_TEXT_LONG.value,
+        manager_keys.EXTRACT_NPS_FROM_DATABASE_TEXT_SHORT.value,
+        help=manager_keys.EXTRACT_NPS_FROM_DATABASE_TEXT_HELP.value,
     ),
 ) -> None:
     corpus = Merlin()
@@ -149,7 +155,7 @@ def extract_nps_from_database(
             )
             ast_results = ast_np.get_ast_data_overview()
 
-            table = Table("Nominale Phrase", "Morphologische Information ")
+            table = Table("Nominale Phrase", "Morphologische Information")
             for entry in ast_results:
                 data = ast_results.get(entry)
                 status, nominal_phrase = data[:2]
@@ -159,30 +165,36 @@ def extract_nps_from_database(
             ast_np.save_extracted_ast_nps()
 
             typer.secho(
-                message="Ast-Datei wurde ausgelesen und gespeichert.",
+                message=manager_keys.EXTRACT_SAVE_NPS.value,
                 fg=typer.colors.GREEN,
             )
 
     elif not database_results:
-        catch_and_log_info(msg="Die Eingabe war falsch.", echo_msg=True)
+        catch_and_log_info(msg=merlin_keys.INVALID_TEXT_ID.value, echo_msg=True)
 
 
 @app_typer_data_managers.command(
-    name="nps_datei",
-    help="Nps aus einer bestimmen Datei extrahieren",
+    name=manager_keys.EXTRACT_NPS_LOCAL_NAME.value,
+    help=manager_keys.EXTRACT_NPS_LOCAL_HELP.value,
 )
 def extract_nps_from_local_file(
     ast_file_id: str = typer.Option(
         "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/incoming/ast/1023_0101841.ast",
-        "--datei_name",
-        "--name",
-        help="Der Name der Datei, die ausgewertet werden soll.",
+        general_keys.FILE_NAME_LONG.value,
+        general_keys.FILE_NAME_SHORT.value,
+        help=general_keys.FILE_NAME_HELP.value,
     ),
     file_type: str = typer.Option(
-        "ast_nps", "--datei_typ", "--typ", help="Dateitypen ast_nps, pylist, conll"
+        manager_keys.EXTRACT_NPS_LOCAL_FILE_DEFAULT.value,
+        general_keys.FILE_TYPE_LONG.value,
+        general_keys.FILE_NAME_SHORT.value,
+        help=manager_keys.EXTRACT_NPS_LOCAL_HELP.value,
     ),
     echo_msg: bool = typer.Option(
-        False, "--echo", "--e", help="Die Fortschittsdaten in der Konsole anzeigen"
+        manager_keys.EXTRACT_NPS_LOCAL_ECHO_DEFAULT.value,
+        manager_keys.EXTRACT_NPS_LOCAL_ECHO_LONG.value,
+        manager_keys.EXTRACT_NPS_LOCAL_ECHO_SHORT.value,
+        help=manager_keys.EXTRACT_NPS_LOCAL_ECHO_HELP.value,
     ),
 ):
     try:
@@ -207,7 +219,7 @@ def extract_nps_from_local_file(
             np_file_handler.save_extracted_ast_nps()
 
             typer.secho(
-                message="Ast-Datei wurde ausgelesen und gespeichert.",
+                message=manager_keys.EXTRACT_NPS_LOCAL_ECHO_SAVE.value,
                 fg=typer.colors.GREEN,
             )
 
@@ -222,20 +234,27 @@ def extract_nps_from_local_file(
 
 
 @app_typer_data_managers.command(
-    name="daten_extrahieren", help="Die Befehle ausfuehren aus der SQL-Datei"
+    name=manager_keys.EXTRACT_DATA_FROM_MERLIN_NAME.value,
+    help=manager_keys.EXTRACT_DATA_FROM_MERLIN_HELP.value,
 )
 def extract_data_from_merlin_database(
     sql_script: str = typer.Option(
-        Gp.SQL_MERLIN.value, "--sql_script", "--sql", help="Name der SQL datei"
+        Gp.SQL_MERLIN.value,
+        manager_keys.EXTRACT_DATA_FROM_MERLIN_SQL_LONG.value,
+        manager_keys.EXTRACT_DATA_FROM_MERLIN_SQL_SHORT.value,
+        help=manager_keys.EXTRACT_DATA_FROM_MERLIN_SQL_HELP.value,
     ),
     save_directory=typer.Option(
         Gp.AST_DIR.value,
-        "--speichern-verzeichnis",
-        "--speichern",
-        help="Verzeichnis, worin die Ergebnisse gespeichert werden",
+        general_keys.SAVE_DIR_LONG.value,
+        general_keys.SAVE_DIR_SHORT.value,
+        help=general_keys.SAVE_DIR_HELP.value,
     ),
     file_extension=typer.Option(
-        "ast", "--datei_endung", "--endung", help="Die Endung der Datei"
+        manager_keys.EXTRACT_DATA_FROM_MERLIN_EXT_DEFAULT.value,
+        manager_keys.EXTRACT_DATA_FROM_MERLIN_EXT_LONG.value,
+        manager_keys.EXTRACT_DATA_FROM_MERLIN_EXT_SHORT.value,
+        help=manager_keys.EXTRACT_DATA_FROM_MERLIN_EXT_HELP.value,
     ),
 ):
     with open(sql_script, "r") as sql_file:

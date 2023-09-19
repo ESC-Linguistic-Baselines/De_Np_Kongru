@@ -176,7 +176,7 @@ class NominalPhraseCongruency:
         except Exception as e:
             catch_and_log_error(
                 error=e,
-                custom_message="Np konnte als ART nicht verarbeitet werden.",
+                custom_message=nominal_keys.NP_ART_ERR.value,
                 echo_error=False,
             )
             return 99
@@ -289,7 +289,7 @@ class NominalPhraseCongruency:
                     except Exception as e:
                         catch_and_log_error(
                             error=e,
-                            custom_message="Key in dem 'token_data' ist nicht vorhanden",
+                            custom_message=nominal_keys.MISSING_KEY.value,
                         )
 
                 ########################################################
@@ -315,11 +315,7 @@ class NominalPhraseCongruency:
                     return 12
 
             except Exception as e:
-                catch_and_log_error(
-                    error=e,
-                    custom_message="Die Bestimmung ueberber Praeposition konnte nicht "
-                    "durchgefuehrt werden.",
-                )
+                catch_and_log_error(error=e, custom_message=nominal_keys.PREP_ERR.value)
                 return 99
 
     @staticmethod
@@ -598,7 +594,7 @@ class NominalPhraseCongruency:
                     except Exception as e:
                         catch_and_log_error(
                             error=e,
-                            custom_message="NP konnte als ART nicht verarbeitet werden.",
+                            custom_message=nominal_keys.NP_ART_ERR.value,
                             echo_error=False,
                         )
                         congruency_result = "99"
@@ -652,8 +648,7 @@ class NominalPhraseCongruency:
         except Exception as e:
             catch_and_log_error(
                 error=e,
-                custom_message="Die Analyse konnte nicht erfolgreich"
-                "durchgefuehrt werden.",
+                custom_message=nominal_keys.ANALYSIS_FAILED.value,
             )
 
     def run_congruency_check(self) -> list:
@@ -750,8 +745,7 @@ class NominalPhraseCongruency:
                     except Exception as e:
                         catch_and_log_error(
                             error=e,
-                            custom_message=f"{congruency_entry} konnte nicht "
-                            f"gespeichert werden.",
+                            custom_message=f"{congruency_entry} konnte nicht  gespeichert werden.",
                         )
 
 
