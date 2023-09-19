@@ -25,14 +25,19 @@ class MessageKeys:
         FILE_TYPE_SHORT = "--typ"
         FILE_MISSING = "Die Datei ist nicht vorhanden."
         SAVE_DIR_LONG = "--speichern-verzeichnis"
+
+        SAVE_RESULTS_LONG = "--speichern-ergebnisse"
         SAVE_DIR_SHORT = "--speichern"
+        SAVE_DEFAULT_CSV = "np.csv"
+        SAVE_FILE_HELP = "Der Name des Ergebnisdatei"
         SAVE_DIR_HELP = "Das Verzeichnis, worin die Ergebnisse gespeichert werden."
+        GENERAL_ERROR = "Ein Fehler ist aufgetreten."
 
     class MainApp(Enum):
-        APP_NAME_HELP = "Die HauptApp "
+        APP_NAME_HELP = "Die Hauptapp von DeNpKongru"
         EMPTY_DIRECTORY_HELP = "verzeichnis_leeren"
         EMPTY_DIRECTORY = "Ein ausgewaehltes Verzeichnis leeren"
-        APP_NAME = "DE_Np_Kongru"
+        APP_NAME = "de_np_kongru"
 
         EMPTY_DIRECTORY_TRG_LONG = "--trg_dir"
         EMPTY_DIRECTORY_TRG_SHORT = "--trg"
@@ -133,10 +138,27 @@ class MessageKeys:
         EXTRACT_DATA_FROM_MERLIN_EXT_SHORT = "--endung"
         EXTRACT_DATA_FROM_MERLIN_EXT_HELP = "Die Endung der Datei"
 
+        EXTRACT_AST_DATA_DSC = "Ast-Dateien extrahieren"
+
     class Statistics(Enum):
         APP_NAME = "statistik"
         DEKONGRU_ACCURACY_NAME = "Performanz"
         DEKONGRU_ACCURACY_NAME_HELP = "Die Performanz des Programms anzeigen"
+
+    class AppCongruentialAnalysis(Enum):
+        APP_NAME = "kongruenz"
+        APP_NAME_HELP = "Die Np-Eintraege auswerten"
+
+        NP_AGREEMENT_SAVE = "Die Ergebnisse der Auswertung wurden gespeichert."
+        NP_AGREEMENT_ERR = "Bei der Analyse ist etwas schief gelaufen."
+
+        NP_AGREEMENT_NAME = "np_analyse"
+        NP_AGREEMENT_HELP = "Die Kongruenz der Nps in einer datei bestimmen"
+
+        NP_AGEREMENT_SAVE_DEFAULT = True
+        NP_AGREEMENT_SAVE_TRUE = "--speichern"
+        NP_AGREEMENT_SAVE_FALSE = "--anzeigen"
+        NP_AGREEMENT_SAVE_HELP = "Ergebnisse speichern oder anzeigen"
 
     class NominalPhraseCongruency(Enum):
         NP_ART_ERR = "Np konnte als ART nicht verarbeitet werden."

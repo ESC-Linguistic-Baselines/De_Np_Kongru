@@ -29,11 +29,16 @@ from kongru.api_nlp.congruential_analysis.congruency.nominal_phrase_congruency i
     NominalPhraseCongruency,
 )
 
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
+congruential_keys = Mk.AppCongruentialAnalysis
+general_keys = Mk.General
+
 app_typer_congruential_analysis = typer.Typer(
-    name="kongruenz",
-    help="Die NP-Eintraege auswerten",
-    add_help_option=False,
-    no_args_is_help=True,
+    name=congruential_keys.APP_NAME.value,
+    help=congruential_keys.APP_NAME_HELP.value,
+    add_help_option=True,
+    no_args_is_help=True
 )
 
 # Konsole zur Erstellung einer Tabelle
@@ -41,26 +46,41 @@ console = Console()
 
 
 @app_typer_congruential_analysis.command(
-    name="np_analyse", help="Die Kongruenz der Nps in einer datei bestimmen "
+    name=congruential_keys.NP_AGREEMENT_NAME.value,
+    help=congruential_keys.NP_AGREEMENT_HELP.value,
 )
 def nominal_phrase_agreement_analysis(
     file_name: str = typer.Option(
         Gp.TEST_NP_FILE_CSV.value,
-        "--datei_name",
-        "--d",
-        help="Die NP-datei, die ausgewertet werden soll.",
+        general_keys.FILE_NAME_LONG.value,
+        general_keys.FILE_NAME_SHORT.value,
+        help=general_keys.FILE_NAME_HELP.value,
     ),
     save_results: bool = typer.Option(
-        True, "--speichern", "--anzeigen", help="Ergebnisse speichern"
+        congruential_keys.NP_AGEREMENT_SAVE_DEFAULT.value,
+        congruential_keys.NP_AGREEMENT_SAVE_TRUE.value,
+        congruential_keys.NP_AGREEMENT_SAVE_FALSE.value,
+        help=congruential_keys.NP_AGREEMENT_SAVE_HELP.value,
     ),
     save_file: str = typer.Option(
-        "np.csv",
-        "--speichern-ergebnisse",
-        "--speichern",
-        help="Der Name des Ergebnisse ",
-    ),
+        general_keys.SAVE_DEFAULT_CSV.value,
+        general_keys.SAVE_RESULTS_LONG.value,
+        general_keys.SAVE_DIR_SHORT.value,
+        help=general_keys.SAVE_FILE_HELP.value,
+    )
 ) -> None:
-    """ """
+    """
+    Analysiere die Kongruenz in nominalen Phrasen in einer gegebenen CSV-Datei.
+
+    Args:
+        file_name (str): Der Name der CSV-Datei mit den Daten zur Analyse.
+        save_results (bool): Ob die Analyseergebnisse in einer CSV-Datei gespeichert werden sollen.
+        save_file (str): Der Name der CSV-Datei, in die die Ergebnisse gespeichert werden sollen.
+
+    Returns:
+        None
+    """
+
     try:
         # Demorphy aufstellen, um die Datei auswerten zu koennen
         demorphy = DemorphyAnalyzer()
@@ -79,7 +99,7 @@ def nominal_phrase_agreement_analysis(
             # Die Ergebnisse werden zwar gespeichert, aber nicht angezeigt.
             np_congruency.save_congruency_results()
             catch_and_log_info(
-                msg="Die Ergebnisse der Auswertung wurden gespeichert.",
+                msg=congruential_keys.NP_AGREEMENT_SAVE.value,
                 echo_msg=True,
             )
         else:
@@ -94,7 +114,7 @@ def nominal_phrase_agreement_analysis(
 
     except Exception as e:
         catch_and_log_error(
-            error=e, custom_message="Bei der Analyse ist etwas schief gelaufen."
+            error=e, custom_message=congruential_keys.NP_AGREEMENT_ERR.value
         )
 
 

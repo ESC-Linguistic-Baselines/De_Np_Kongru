@@ -69,9 +69,8 @@ class CommonEntityRecognizer:
 
         Returns:
             dict or list: Ein dict mit uebereinstimmenden Eintraegen und ihren
-            aehnlichkeitspunkten,
-                wenn uebereinstimmungen gefunden wurden. Andernfalls wird eine leere
-                Liste zurueckgegeben.
+            aehnlichkeitspunkten, wenn uebereinstimmungen gefunden wurden.
+            Andernfalls wird eine leere Liste zurueckgegeben.
         Raises:
             CusEm.CerPhraseorProperArgument: Wenn `entity_check` einen ungueltigen
             Wert hat.

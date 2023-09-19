@@ -1,0 +1,282 @@
+Zeitpunkt: 2023-09-19 19:28:57,344
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 88, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 232, in get_command
+    click_command = get_group(typer_instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 218, in get_group
+    group = get_group_from_info(TyperInfo(typer_instance))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 360, in get_group_from_info
+    sub_group = get_group_from_info(sub_group_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 356, in get_group_from_info
+    command = get_command_from_info(command_info=command_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 432, in get_command_from_info
+    ) = get_params_convertors_ctx_param_name_from_function(command_info.callback)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 413, in get_params_convertors_ctx_param_name_from_function
+    click_param, convertor = get_click_param(param)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 720, in get_click_param
+    TyperOption(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/core.py", line 268, in __init__
+    super().__init__(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2495, in __init__
+    super().__init__(param_decls, type=type, multiple=multiple, **attrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2072, in __init__
+    self.name, self.opts, self.secondary_opts = self._parse_decls(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2609, in _parse_decls
+    raise TypeError(f"Name '{name}' defined twice")
+TypeError: Name 'save_results' defined twice
+
+Nachricht: Name 'save_results' defined twice
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:29:03,157
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 88, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 232, in get_command
+    click_command = get_group(typer_instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 218, in get_group
+    group = get_group_from_info(TyperInfo(typer_instance))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 360, in get_group_from_info
+    sub_group = get_group_from_info(sub_group_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 356, in get_group_from_info
+    command = get_command_from_info(command_info=command_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 432, in get_command_from_info
+    ) = get_params_convertors_ctx_param_name_from_function(command_info.callback)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 413, in get_params_convertors_ctx_param_name_from_function
+    click_param, convertor = get_click_param(param)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 720, in get_click_param
+    TyperOption(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/core.py", line 268, in __init__
+    super().__init__(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2495, in __init__
+    super().__init__(param_decls, type=type, multiple=multiple, **attrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2072, in __init__
+    self.name, self.opts, self.secondary_opts = self._parse_decls(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2609, in _parse_decls
+    raise TypeError(f"Name '{name}' defined twice")
+TypeError: Name 'save_results' defined twice
+
+Nachricht: Name 'save_results' defined twice
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:30:17,376
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 88, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 232, in get_command
+    click_command = get_group(typer_instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 218, in get_group
+    group = get_group_from_info(TyperInfo(typer_instance))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 360, in get_group_from_info
+    sub_group = get_group_from_info(sub_group_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 356, in get_group_from_info
+    command = get_command_from_info(command_info=command_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 432, in get_command_from_info
+    ) = get_params_convertors_ctx_param_name_from_function(command_info.callback)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 413, in get_params_convertors_ctx_param_name_from_function
+    click_param, convertor = get_click_param(param)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 720, in get_click_param
+    TyperOption(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/core.py", line 268, in __init__
+    super().__init__(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2495, in __init__
+    super().__init__(param_decls, type=type, multiple=multiple, **attrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2072, in __init__
+    self.name, self.opts, self.secondary_opts = self._parse_decls(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2609, in _parse_decls
+    raise TypeError(f"Name '{name}' defined twice")
+TypeError: Name 'save_results' defined twice
+
+Nachricht: Name 'save_results' defined twice
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:36:04,298
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0101841.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:36:04,510
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:36:28,594
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 88, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 232, in get_command
+    click_command = get_group(typer_instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 218, in get_group
+    group = get_group_from_info(TyperInfo(typer_instance))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 360, in get_group_from_info
+    sub_group = get_group_from_info(sub_group_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 356, in get_group_from_info
+    command = get_command_from_info(command_info=command_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 432, in get_command_from_info
+    ) = get_params_convertors_ctx_param_name_from_function(command_info.callback)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 413, in get_params_convertors_ctx_param_name_from_function
+    click_param, convertor = get_click_param(param)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 720, in get_click_param
+    TyperOption(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/core.py", line 268, in __init__
+    super().__init__(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2495, in __init__
+    super().__init__(param_decls, type=type, multiple=multiple, **attrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2072, in __init__
+    self.name, self.opts, self.secondary_opts = self._parse_decls(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2609, in _parse_decls
+    raise TypeError(f"Name '{name}' defined twice")
+TypeError: Name 'save_results' defined twice
+
+Nachricht: Name 'save_results' defined twice
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:44:06,719
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Ein Problem ist innerhalb der Hauptanwendung aufgetreten. Bitte die Protokolldatei für weitere Informationen überprüfen. 
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/main.py", line 88, in <module>
+    main_typer_app()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 214, in __call__
+    return get_command(self)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 232, in get_command
+    click_command = get_group(typer_instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 218, in get_group
+    group = get_group_from_info(TyperInfo(typer_instance))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 360, in get_group_from_info
+    sub_group = get_group_from_info(sub_group_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 356, in get_group_from_info
+    command = get_command_from_info(command_info=command_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 432, in get_command_from_info
+    ) = get_params_convertors_ctx_param_name_from_function(command_info.callback)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 413, in get_params_convertors_ctx_param_name_from_function
+    click_param, convertor = get_click_param(param)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/main.py", line 720, in get_click_param
+    TyperOption(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/typer/core.py", line 268, in __init__
+    super().__init__(**kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2495, in __init__
+    super().__init__(param_decls, type=type, multiple=multiple, **attrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2072, in __init__
+    self.name, self.opts, self.secondary_opts = self._parse_decls(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/core.py", line 2609, in _parse_decls
+    raise TypeError(f"Name '{name}' defined twice")
+TypeError: Name 'save_results' defined twice
+
+Nachricht: Name 'save_results' defined twice
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:46:27,568
+Loggername: root
+LogLevel: ERROR
+Benutzerdefiniert: Bei der Analyse ist etwas schief gelaufen.
+Traceback: Traceback (most recent call last):
+  File "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_nlp/congruential_analysis/app_congruential_analysis.py", line 93, in nominal_phrase_agreement_analysis
+    if save_results:
+NameError: name 'save_results' is not defined
+
+Nachricht: name 'save_results' is not defined
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:47:09,115
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0101841.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:47:09,324
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:47:48,951
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0101841.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:47:49,158
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:52:35,073
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0101841.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-19 19:52:35,275
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

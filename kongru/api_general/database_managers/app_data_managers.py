@@ -230,7 +230,7 @@ def extract_nps_from_local_file(
             main_conll_to_pylist(infile=incoming, outfile=outgoing)
 
     except Exception as e:
-        catch_and_log_error(error=e, custom_message="Ein Fehler ist aufgetreten.")
+        catch_and_log_error(error=e, custom_message=general_keys.GENERAL_ERROR.value)
 
 
 @app_typer_data_managers.command(
@@ -261,7 +261,7 @@ def extract_data_from_merlin_database(
         script = sql_file.read()
     merlin_corpus = Merlin(sql_command=script)
     data = merlin_corpus.read_merlin_corpus_database()
-    for text_id in tqdm(data, desc="Ast-Dateien extrahieren"):
+    for text_id in tqdm(data, desc=manager_keys.EXTRACT_AST_DATA_DSC.value):
         merlin_corpus.text_id = text_id[0]
         result = merlin_corpus.extract_merlin_corpus_entry_by_id()
         extracted_element = result.get("ast_nps")
@@ -280,4 +280,4 @@ def add_np_results_to_np_json_file():
 
 
 if __name__ == "__main__":
-    pass
+    app_typer_data_managers()
