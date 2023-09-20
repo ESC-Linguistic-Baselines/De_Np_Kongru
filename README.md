@@ -29,30 +29,42 @@
     <a href="https://github.com/christopher-chandler/De_NP_Kongru/issues">Funktion anfragen</a>
   </code>
 </div>
-
+ 
 <!-- TABLE OF CONTENTS -->
 <details>
     <summary>Inhaltsverzeichnis</summary>
     <ol>
         <li><a href="#über-das-projekt">Über das Projekt</a></li>
-         <ul>
+        <ul>
             <li><a href="#hintergrund">Hintergrund</a></li>
-             <li><a href="#ergebnisse">Ergebnisse</a></li>
-         </ul>ul
-            <a href="#erste-schritte">Erste Schritte</a>
-            <ul>
-                <li><a href="#voraussetzungen">Voraussetzungen</a></li>
-                <li><a href="#installation">Installation</a></li>
-            </ul>
-        </li>
-        <li><a href="#verwendung">Verwendung</a></li>
+            <li><a href="#ergebnisse">Ergebnisse</a></li>
+        </ul>
+        <li><a href="#verwendete-ressourcen">Verwendete Ressourcen</a></li>
+        <ul>
+            <li><a href="#libraries">Libraries</a></li>
+            <li><a href="#korpora">Korpora</a></li>
+            <li><a href="#zusätzliche-tools">Zusätzliche Tools</a></li>
+        </ul>
+        <li><a href="#erste-schritte">Erste Schritte</a></li>
+        <ul>
+            <li><a href="#korpora-entpacken">Korpora entpacken</a></li>
+            <li><a href="#hauptverzeichnis-festlegen">Hauptverzeichnis festlegen</a></li>
+            <li><a href="#voraussetzungen">Voraussetzungen</a></li>
+            <li><a href="#installation">Installation</a></li>
+        </ul>
+        <li><a href="#anwendung">Anwendung</a></li>
+        <ul>
+            <li><a href="#api">API</a></li>
+            <li><a href="#cli">CLI</a></li>
+            <li><a href="#ordnerstruktur">Ordnerstruktur</a></li>
+            <li><a href="#eine-analyse-durchführen">Eine Analyse durchführen</a></li>
+        </ul>
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#beitragen">Beitragen</a></li>
         <li><a href="#lizenz">Lizenz</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
         <li><a href="#danksagungen">Danksagungen</a></li>
     </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 # Über das Projekt
