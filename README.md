@@ -35,6 +35,7 @@
     <summary>Inhaltsverzeichnis</summary>
     <ol>
         <li><a href="#über-das-projekt">Über das Projekt</a></li>
+        <li><a href="#hintergrund">Hintergrund</a></li>
         <li>
             <a href="#erste-schritte">Erste Schritte</a>
             <ul>
@@ -205,27 +206,23 @@ Options:
 Um genauer zu wissen, wie diese Schnittstelle funktioniert oder Fehlermeldung besser zu
 verstehen, bitte die Dokumentation von [Typer](https://typer.tiangolo.com/) durchlesen.
 
-
-
 ### Ordnerstruktur
-[user](user)
-[incoming](user%2Fincoming)
-[ast](user%2Fincoming%2Fast)
-[conll](user%2Fincoming%2Fconll)
-[full_json](user%2Fincoming%2Ffull_json)
-[pylist](user%2Fincoming%2Fpylist)
-[raw](user%2Fincoming%2Fraw)
-[kongru_evaluation](user%2Fkongru_evaluation)
-[gold_files](user%2Fkongru_evaluation%2Fgold_files)
-[raw_files](user%2Fkongru_evaluation%2Fraw_files)
-[outgoing](user%2Foutgoing)
-[batch_results](user%2Foutgoing%2Fbatch_results)
-[extracted_nominal_phrases](user%2Foutgoing%2Fextracted_nominal_phrases)
-[nominal_phrase_analysis_results](user%2Foutgoing%2Fnominal_phrase_analysis_results)
-[nominal_phrase_json](user%2Foutgoing%2Fnominal_phrase_json)
-[text_ids](user%2Ftext_ids)
-
-
+- [user](user)
+  - [incoming](user%2Fincoming)
+    - [ast](user%2Fincoming%2Fast)
+    - [conll](user%2Fincoming%2Fconll)
+    - [full_json](user%2Fincoming%2Ffull_json)
+    - [pylist](user%2Fincoming%2Fpylist)
+    - [raw](user%2Fincoming%2Fraw)
+  - [kongru_evaluation](user%2Fkongru_evaluation)
+    - [gold_files](user%2Fkongru_evaluation%2Fgold_files)
+    - [raw_files](user%2Fkongru_evaluation%2Fraw_files)
+  - [outgoing](user%2Foutgoing)
+    - [batch_results](user%2Foutgoing%2Fbatch_results)
+    - [extracted_nominal_phrases](user%2Foutgoing%2Fextracted_nominal_phrases)
+    - [nominal_phrase_analysis_results](user%2Foutgoing%2Fnominal_phrase_analysis_results)
+    - [nominal_phrase_json](user%2Foutgoing%2Fnominal_phrase_json)
+  - [text_ids](user%2Ftext_ids)
 
 
 ### eine Analyse durchfuehren
