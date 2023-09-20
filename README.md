@@ -65,6 +65,7 @@
         <li><a href="#kontakt">Kontakt</a></li>
         <li><a href="#danksagungen">Danksagungen</a></li>
     </ol>
+</details>
 
 <!-- ABOUT THE PROJECT -->
 # Über das Projekt
