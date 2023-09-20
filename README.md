@@ -35,8 +35,10 @@
     <summary>Inhaltsverzeichnis</summary>
     <ol>
         <li><a href="#über-das-projekt">Über das Projekt</a></li>
-        <li><a href="#hintergrund">Hintergrund</a></li>
-        <li>
+         <ul>
+            <li><a href="#hintergrund">Hintergrund</a></li>
+             <li><a href="#ergebnisse">Ergebnisse</a></li>
+         </ul>ul
             <a href="#erste-schritte">Erste Schritte</a>
             <ul>
                 <li><a href="#voraussetzungen">Voraussetzungen</a></li>
