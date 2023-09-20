@@ -57,7 +57,13 @@
             <li><a href="#api">API</a></li>
             <li><a href="#cli">CLI</a></li>
             <li><a href="#ordnerstruktur">Ordnerstruktur</a></li>
-            <li><a href="#eine-analyse-durchführen">Eine Analyse durchführen</a></li>
+            <li><a href="#analyse-durchfuehren">Analyse durchfuehren</a></li>
+            <ul>
+              <li><a href="#ergebnisdatei">Ergebnisdatei</a></li>          
+<li><a href="#ergebniscodes">Ergebniscodes</a></li>    
+<li><a href="#nicht-kongruenz">Kongruenz</a></li>    
+<li><a href="#kongruenz">NichtKongruenz</a></li>    
+          </ul>
         </ul>
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#beitragen">Beitragen</a></li>
@@ -84,7 +90,7 @@ ausstehend
   <a href="https://github.com/christopher-chandler/De_NP_Kongru">
   </a>
 </div>
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 # Verwendete Ressourcen
 Eine Liste der Ressourcen, die bei der Entwicklung des Programms verwendet wurden.
@@ -114,7 +120,7 @@ Dieses Verfahren wurden in einem anderen, verwandten [Projekt](https://github.co
 * [Conluu - CoNLL-U Parser](https://pypi.org/project/conllu/)
   *  Wie genau diese Tools verwendet wurden, bitte [hier nachlesen](https://github.com/imgeyuez/automatic_np_extraction)
 
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- GETTING STARTED -->
 # Erste Schritte
@@ -151,6 +157,7 @@ Merlin
 
 Andere Korpora und Dateien sind zwar enthalten, aber diese muessen nicht 
 entpackt werden. 
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ### Hauptverzeichnis festlegen
 Als nächstes muss das Hauptverzeichnes des Projekts festgelegt werden. 
@@ -158,17 +165,17 @@ Dies tut man in der `main_config.yaml` Datei.
 z.B. 
 - `/Users/christopherchandler/de_np_kongru`
 
-
 # Voraussetzungen
  Das Programm wurde mit [Python 3.10](https://www.python.org/downloads/release/python-3100/) konzepiert und entwicklet. 
  Es besteht die Möglichkeit  eine altere Python-Version zu benutzen, aber dann kann es
 sein, dass das Programm nicht stabil ist. 
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 # Installation
 Um die notwendige libraries installieren zu können, das folgendene Kommando
 in der Konsole ausgeben: `pip install -r requirements.txt` 
 
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Anwendung 
@@ -181,6 +188,8 @@ kann man das auch ueber den ganz normalen Weg machen.
 from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
  nominal_phrase_agreement_analysis ) 
 ```
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
+
 ### CLI
 
 Um DeNP Kongru als CLI starten zu können,  den `python main.py` im Hauptverzeichnis
@@ -220,44 +229,138 @@ Options:
 
 Um genauer zu wissen, wie diese Schnittstelle funktioniert oder Fehlermeldung besser zu
 verstehen, bitte die Dokumentation von [Typer](https://typer.tiangolo.com/) durchlesen.
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ### Ordnerstruktur
+Die Dateien, die DeNpKongru braucht, um eine Analyse durchzufuehren. 
+Die Order sind zwar leer, aber werden befuellt, je nachdem welche Kommandos 
+man ausfuehlt. Man kann auch die Dateien manuell in dem entsprechenden Ordner 
+ablegen.
+
 - [user](user)
-  - [incoming](user%2Fincoming)
-    - [ast](user%2Fincoming%2Fast)
-    - [conll](user%2Fincoming%2Fconll)
-    - [full_json](user%2Fincoming%2Ffull_json)
-    - [pylist](user%2Fincoming%2Fpylist)
-    - [raw](user%2Fincoming%2Fraw)
-  - [kongru_evaluation](user%2Fkongru_evaluation)
-    - [gold_files](user%2Fkongru_evaluation%2Fgold_files)
-    - [raw_files](user%2Fkongru_evaluation%2Fraw_files)
-  - [outgoing](user%2Foutgoing)
-    - [batch_results](user%2Foutgoing%2Fbatch_results)
+  - Die dateien, die vom Benutzer abgelegt, generiert oder benutzt wird. 
+    - [incoming](user%2Fincoming)
+      - [ast](user%2Fincoming%2Fast)
+        - Die Conll-Datei als Python Listen 
+      - [conll](user%2Fincoming%2Fconll)
+        - Die Conll-Dateien
+      - [full_json](user%2Fincoming%2Ffull_json)
+        - Die Merlin-Texte als Json-Dateien
+      - [pylist](user%2Fincoming%2Fpylist)
+        - Das Gleiche wie die AST-Dateien, aber die interne Struktur ist eine andere. 
+      - [raw](user%2Fincoming%2Fraw)
+        - Die einfachen Merlin-Texte
+    - [kongru_evaluation](user%2Fkongru_evaluation)
+      - Die Dateien, um das Programm auszuwerten, werden hier gespeichert 
+        - [gold_files](user%2Fkongru_evaluation%2Fgold_files)
+          - alle korrigierter NP-Dateien muessen in diesem Verzeichnis liegen
+        - [raw_files](user%2Fkongru_evaluation%2Fraw_files)
+          - die entsprechenden unkorrigierten Dateien muessen auch in diesem Verzeichnis liegen.
+            Sie werden miteinander verglichen, um *precision*, *recall* und *f1-score* zu generieren.
+  - [outgoing](user%2Foutgoing) <br>
+      Hier werden die Ergebnisse gespeichert. 
+<br>
+    - [batch_results](user%2Foutgoing%2Fbatch_results)  
+      - wenn man [main_np_analysis.py](main_np_analysis.py) ausfuehrt, 
+      werden die Ergebnisse hier als .csv-Datei gespeichert. 
     - [extracted_nominal_phrases](user%2Foutgoing%2Fextracted_nominal_phrases)
+      - Die unverarbeiteten Nominalphrasen, die aus den AST oder Pylist-dateien 
+        extrahiert wurden, werden hier gespeichert.
+      
     - [nominal_phrase_analysis_results](user%2Foutgoing%2Fnominal_phrase_analysis_results)
+      - Die Auswertung der Nominalphrasen werden hier gespeichert. 
     - [nominal_phrase_json](user%2Foutgoing%2Fnominal_phrase_json)
-  - [text_ids](user%2Ftext_ids)
+      - Die Nominalphrasen und deren Ergebnisse werden in der entsprechenden JSON-Datei
+        gespeichert. 
+    - [text_ids](user%2Ftext_ids)
+      - Dieser Ordner enthaelt die Dateien `test_ids.txt` und `training_ids.txt`. 
+      Die sind wichtig fuer [main_np_analysis.py](main_np_analysis.py). Alle Ids,
+      sofern sie in der SQL-DB existieren, werden eingelesen und ausgewertet. 
+      - 
+ <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 
-### eine Analyse durchfuehren
+### Analyse durchfuehren
 Die Analyse kann man entweder ueber die API oder die CLI durchfuehren. 
 Ein vorgefertiges Skript - [main_np_analysis.py](main_np_analysis.py) - um dies zu tun
 findet man im Hauptverzeichnis. Daran kann man sich orientieren, wenn man neue 
-Skript anlegen möchte. 
-
-Wenn die Pfade korrekt eingerichtet wurden, sollte dieses Skript problemlos funktioniern.
+Skript anlegen moechte.
+Wenn die Pfade korrekt eingerichtet wurden, 
+sollte dieses Skript problemlos funktioniern.
 Man muss also nur das Skript starten. 
 
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+#### Ergebnisdatei
+Das Programm erwartet die folgende Struktur:
+
+``` 
+CSV
+Nominalphrase,Morphologische Information, Satz  
+
+Maria Schmidt,Maria N Masc|_|Sg,Schmidt N Masc|_|Sg,Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+```
+
+Alle Ergebnisse Dateien haben die folgene Struktur: 
+
+```
+CSV
+Ergebniscode, Nominalphrase, Morphologische Information, Satz
+1,Maria Schmidt,"Maria,N,_|Masc|_|Sg","Schmidt,N,_|Masc|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+```
+
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
+
+### Ergebniscodes 
+Es werden hier verschiedene Kongruenzcodes aufgelistet, um festzustellen,
+um welche Art von Kongruenz es sich handelt.
+
+| Arten            | Beispiel                            |
+|------------------|-------------------------------------|
+| EINFACH          | Stadt                               |
+| ART              | Das Leben                           |
+| PREP             | Mit Kindern                         |
+| Rechtschreibfehler | Reche Pfliche*,Wiviel*            |
+| Eigennamen       | Katharina, Maria Meier              |
+| Redewendungen    | Liebe Julia, Mit freundlichen Grüßen |
+
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
+
+##### Kongruenz
+Gründe, weswegen die Nominalphrase kongruiert
+
+| Code | Meaning                              |
+|------|--------------------------------------|
+| 0    | EINFACH                              |
+| 1    | ART                                  |
+| 2    | PREP                                 |
+| 3    | Eigennamen                           |
+| 4    | Redewendung bzw. gängiger Satz       |
+
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
+
+##### Nicht Kongruenz
+Gründe, weswegen die Nominalphrase nicht kongruiert
+
+| Code | Meaning     |
+|------|-------------|
+| 10   | EINFACH     |
+| 11   | ART         |
+| 12   | PREP        |
+| 99   | Unbekannt   |
+
+99 - Aus unbekannten Gründen konnte die Kongruenz nicht bestimmt werden.
+Es ist vermutlich irgendwo ein Fehler aufgetreten. Es kann auch sein,
+dass die Kongruenz einfach nicht ermittelt werden konnte.
+
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- ROADMAP -->
 # Roadmap
 
 Siehe die [offenen Probleme](https://github.com/christopher-chandler/De_NP_Kongru/issues) für eine vollständige Liste der vorgeschlagenen Funktionen (und bekannten Probleme).
 
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- CONTRIBUTING -->
 # Beitragen
@@ -276,20 +379,20 @@ Vergessen Sie nicht, dem Projekt einen Stern zu geben! Vielen Dank nochmals!
 4. Pushen Sie den Branch (`git push origin feature/ErstaunlicheFunktion`).
 5. Eröffnen Sie einen Pull Request.
 
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 
 <!-- LICENSE -->
 # Lizenz
 Vertrieben unter der MIT-Lizenz. Siehe `LIZENZ` für weitere Informationen.
 
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- CONTACT -->
 # Kontakt
 Christopher Chandler - christopher.chandler at outlook.de
 * Project Link: [De_NP_Kongru](https://github.com/christopher-chandler/De_NP_Kongru)
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 # Danksagungen
@@ -298,7 +401,7 @@ Christopher Chandler - christopher.chandler at outlook.de
 * [Georg Stin]()
 * [Ikram Abdalla]()
 
-<p align="right">(<a href="#top">Zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
