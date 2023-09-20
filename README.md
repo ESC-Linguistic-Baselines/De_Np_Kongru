@@ -62,7 +62,7 @@
               <li><a href="#ergebnisdatei">Ergebnisdatei</a></li>          
 <li><a href="#ergebniscodes">Ergebniscodes</a></li>    
 <li><a href="#nicht-kongruenz">Kongruenz</a></li>    
-<li><a href="#kongruenz">NichtKongruenz</a></li>    
+<li><a href="#kongruenz">Nicht Kongruenz</a></li>    
           </ul>
         </ul>
         <li><a href="#roadmap">Roadmap</a></li>
@@ -329,27 +329,27 @@ um welche Art von Kongruenz es sich handelt.
 ##### Kongruenz
 Gründe, weswegen die Nominalphrase kongruiert
 
-| Code | Meaning                              |
-|------|--------------------------------------|
-| 0    | EINFACH                              |
-| 1    | ART                                  |
-| 2    | PREP                                 |
-| 3    | Eigennamen                           |
-| 4    | Redewendung bzw. gängiger Satz       |
+| Code | Bedeutung                      |
+|------|--------------------------------|
+| 0    | EINFACH                        |
+| 1    | ART                            |
+| 2    | PREP                           |
+| 3    | Eigennamen                     |
+| 4    | Redewendung bzw. gängiger Satz |
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ##### Nicht Kongruenz
 Gründe, weswegen die Nominalphrase nicht kongruiert
 
-| Code | Meaning     |
+| Code | Bedeutung     |
 |------|-------------|
 | 10   | EINFACH     |
 | 11   | ART         |
 | 12   | PREP        |
 | 99   | Unbekannt   |
 
-99 - Aus unbekannten Gründen konnte die Kongruenz nicht bestimmt werden.
+- 99 - Aus unbekannten Gründen konnte die Kongruenz nicht bestimmt werden.
 Es ist vermutlich irgendwo ein Fehler aufgetreten. Es kann auch sein,
 dass die Kongruenz einfach nicht ermittelt werden konnte.
 
