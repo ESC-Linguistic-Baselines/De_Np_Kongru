@@ -15,7 +15,7 @@
 
 ![Windows][windows-shield] ![Mac][Mac-shield]
 
-<h3 align="center">DeNP Kongru</h3>
+<h3 align="center">DeNp Kongru</h3>
   <p align="justify">
     Ein NLP-Projekt zur Bestimmung von Kongruenz in deutschen Nominalphrasen 
     in Lernertexten aus dem Lernerkorporus <a href="https://www.merlin-platform.eu/" target="_blank">Merlin</a>. 
