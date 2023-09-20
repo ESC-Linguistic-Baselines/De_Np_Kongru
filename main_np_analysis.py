@@ -186,8 +186,8 @@ if __name__ == "__main__":
     np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
     np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
 
-    # get_ast_data()
-    # get_np_data()
+    get_ast_data()
+    get_np_data()
     run_congruency(np_extracted_files, training_ids, text_limit=4)
     count_results = count_np_results()
     generate_results_file(count_results)
