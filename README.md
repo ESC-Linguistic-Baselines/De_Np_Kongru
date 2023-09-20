@@ -21,7 +21,7 @@
     in Lernertexten aus dem Lernerkorporus <a href="https://www.merlin-platform.eu/" target="_blank">Merlin</a>. 
     Dieses Projekt wurde im Rahmen des computerlinguistischen Kurses
     <code>Korpuslinguistische Analysen der Nominalflexion im Deutschen (050041-SoSe23)</code>
-    an der Ruhr-Universität Bochum in Deutschland entwickelt.
+    an der Ruhr-Universitaet Bochum in Deutschland entwickelt.
     <br />
     <br />
     <a href="https://github.com/christopher-chandler/De_NP_Kongru/issues">Fehler melden</a>
@@ -34,7 +34,7 @@
 <details>
     <summary>Inhaltsverzeichnis</summary>
     <ol>
-        <li><a href="#über-das-projekt">Über das Projekt</a></li>
+        <li><a href="#ueber-das-projekt">ueber das Projekt</a></li>
         <ul>
             <li><a href="#hintergrund">Hintergrund</a></li>
             <li><a href="#ergebnisse">Ergebnisse</a></li>
@@ -43,7 +43,7 @@
         <ul>
             <li><a href="#libraries">Libraries</a></li>
             <li><a href="#korpora">Korpora</a></li>
-            <li><a href="#zusätzliche-tools">Zusätzliche Tools</a></li>
+            <li><a href="#zusaetzliche-tools">Zusaetzliche Tools</a></li>
         </ul>
         <li><a href="#erste-schritte">Erste Schritte</a></li>
         <ul>
@@ -60,9 +60,9 @@
             <li><a href="#analyse-durchfuehren">Analyse durchfuehren</a></li>
             <ul>
               <li><a href="#ergebnisdatei">Ergebnisdatei</a></li>          
-<li><a href="#ergebniscodes">Ergebniscodes</a></li>    
-<li><a href="#nicht-kongruenz">Kongruenz</a></li>    
-<li><a href="#kongruenz">Nicht Kongruenz</a></li>    
+                <li><a href="#ergebniscodes">Ergebniscodes</a></li>    
+                <li><a href="#nicht-kongruenz">Kongruenz</a></li>    
+                <li><a href="#kongruenz">Nicht Kongruenz</a></li>    
           </ul>
         </ul>
         <li><a href="#roadmap">Roadmap</a></li>
@@ -74,14 +74,14 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-# Über das Projekt
+# ueber das Projekt
 
 ## Hintergrund
 Im Rahmen dieses Projekts soll die Kongruenz in deutschen Nominalphrasen 
 bestimmt werden. Daraus resultierend werden die Ergebnisse aus verscheidenen
 Lernergruppen miteinander verglichen, um die Unterschiede zwischen
-den jeweiligen Sprechergruppen z.B. Spanisch, Französisch, Deutsch, etc
-veranschaulichen zu können.
+den jeweiligen Sprechergruppen z.B. Spanisch, Franzoesisch, Deutsch, etc
+veranschaulichen zu koennen.
 
 ## Ergebnisse
 ausstehend
@@ -107,15 +107,14 @@ Eine Liste der Ressourcen, die bei der Entwicklung des Programms verwendet wurde
 - [tqdm==4.64.1](https://pypi.org/project/tqdm/4.64.1/)
 - [typer~=0.4.2](https://pypi.org/project/typer/0.4.2/)
 
-
 ### Korpora 
 
 * [MERLIN Corpus](https://www.merlin-platform.eu/)
-* [Deutsche morphologische Wörterbücher](https://github.com/DuyguA/german-morph-dictionaries)
+* [Deutsche morphologische Woerterbuecher](https://github.com/DuyguA/german-morph-dictionaries)
 
-### Zusätzliche Tools
- Diese Tools wurden benutzen, um die Lernertexte zu taggen und zu parsen.
-Dieses Verfahren wurden in einem anderen, verwandten [Projekt](https://github.com/imgeyuez/automatic_np_extraction) gemacht.
+### Zusaetzliche Tools
+ Diese Tools wurden benutzt, um die Lernertexte zu taggen und zu parsen.
+Dieses Verfahren wurde in einem anderen, verwandten [Projekt](https://github.com/imgeyuez/automatic_np_extraction) gemacht.
 * [Parzu - deutscher Parser](https://github.com/rsennrich/ParZu)
 * [Conluu - CoNLL-U Parser](https://pypi.org/project/conllu/)
   *  Wie genau diese Tools verwendet wurden, bitte [hier nachlesen](https://github.com/imgeyuez/automatic_np_extraction)
@@ -129,7 +128,7 @@ Dieses Verfahren wurden in einem anderen, verwandten [Projekt](https://github.co
  Das Projekt bezieht sich auf einige Korpora und Datenbanken. Ohne diese kann das 
 Projekt nicht gestartet werden. 
 
-Alle korpora müssen erstmal entpackt werden: 
+Alle korpora muessen erstmal entpackt werden: 
 
 app_resources/data/demorphy
 - [demorphy_de_kongru.zip](app_resources%2Fdata%2Fdemorphy%2Fdemorphy_de_kongru.zip)
@@ -160,19 +159,19 @@ entpackt werden.
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ### Hauptverzeichnis festlegen
-Als nächstes muss das Hauptverzeichnes des Projekts festgelegt werden. 
+Als naechstes muss das Hauptverzeichnes des Projekts festgelegt werden. 
 Dies tut man in der `main_config.yaml` Datei.
 z.B. 
 - `/Users/christopherchandler/de_np_kongru`
 
 # Voraussetzungen
  Das Programm wurde mit [Python 3.10](https://www.python.org/downloads/release/python-3100/) konzepiert und entwicklet. 
- Es besteht die Möglichkeit  eine altere Python-Version zu benutzen, aber dann kann es
+ Es besteht die Moeglichkeit  eine altere Python-Version zu benutzen, aber dann kann es
 sein, dass das Programm nicht stabil ist. 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 # Installation
-Um die notwendige libraries installieren zu können, das folgendene Kommando
+Um die notwendige libraries installieren zu koennen, das folgendene Kommando
 in der Konsole ausgeben: `pip install -r requirements.txt` 
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
@@ -192,7 +191,7 @@ from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
 
 ### CLI
 
-Um DeNP Kongru als CLI starten zu können,  den `python main.py` im Hauptverzeichnis
+Um DeNP Kongru als CLI starten zu koennen,  den `python main.py` im Hauptverzeichnis
 ausfuehren. Wenn alles korrekt eingerichtet wurden, soll Folgendes in der Konsole 
 erscheinen
 
@@ -315,19 +314,19 @@ Ergebniscode, Nominalphrase, Morphologische Information, Satz
 Es werden hier verschiedene Kongruenzcodes aufgelistet, um festzustellen,
 um welche Art von Kongruenz es sich handelt.
 
-| Arten            | Beispiel                            |
-|------------------|-------------------------------------|
-| EINFACH          | Stadt                               |
-| ART              | Das Leben                           |
-| PREP             | Mit Kindern                         |
-| Rechtschreibfehler | Reche Pfliche*,Wiviel*            |
-| Eigennamen       | Katharina, Maria Meier              |
+| Arten            | Beispiel                             |
+|------------------|--------------------------------------|
+| EINFACH          | Stadt                                |
+| ART              | Das Leben                            |
+| PREP             | Mit Kindern                          |
+| Rechtschreibfehler | Reche Pfliche*,Wiviel*               |
+| Eigennamen       | Katharina, Maria Meier               |
 | Redewendungen    | Liebe Julia, Mit freundlichen Grüßen |
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ##### Kongruenz
-Gründe, weswegen die Nominalphrase kongruiert
+Gruende, weswegen die Nominalphrase kongruiert
 
 | Code | Bedeutung                      |
 |------|--------------------------------|
@@ -335,12 +334,12 @@ Gründe, weswegen die Nominalphrase kongruiert
 | 1    | ART                            |
 | 2    | PREP                           |
 | 3    | Eigennamen                     |
-| 4    | Redewendung bzw. gängiger Satz |
+| 4    | Redewendung bzw. gaengiger Satz |
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ##### Nicht Kongruenz
-Gründe, weswegen die Nominalphrase nicht kongruiert
+Gruende, weswegen die Nominalphrase nicht kongruiert
 
 | Code | Bedeutung     |
 |------|-------------|
@@ -349,7 +348,7 @@ Gründe, weswegen die Nominalphrase nicht kongruiert
 | 12   | PREP        |
 | 99   | Unbekannt   |
 
-- 99 - Aus unbekannten Gründen konnte die Kongruenz nicht bestimmt werden.
+- 99 - Aus unbekannten Gruenden konnte die Kongruenz nicht bestimmt werden.
 Es ist vermutlich irgendwo ein Fehler aufgetreten. Es kann auch sein,
 dass die Kongruenz einfach nicht ermittelt werden konnte.
 
@@ -358,33 +357,33 @@ dass die Kongruenz einfach nicht ermittelt werden konnte.
 <!-- ROADMAP -->
 # Roadmap
 
-Siehe die [offenen Probleme](https://github.com/christopher-chandler/De_NP_Kongru/issues) für eine vollständige Liste der vorgeschlagenen Funktionen (und bekannten Probleme).
+Siehe die [offenen Probleme](https://github.com/christopher-chandler/De_NP_Kongru/issues) fuer eine vollstaendige Liste der vorgeschlagenen Funktionen (und bekannten Probleme).
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- CONTRIBUTING -->
 # Beitragen
-Beiträge sind es, die die Open-Source-Community zu einem erstaunlichen Ort zum 
+Beitraege sind es, die die Open-Source-Community zu einem erstaunlichen Ort zum 
 Lernen, Inspirieren und Erschaffen machen.
-Jegliche Beiträge, die Sie leisten, werden **sehr geschätzt**.
+Jegliche Beitraege, die Sie leisten, werden **sehr geschaetzt**.
 
-Wenn Sie eine Idee haben, die dieses Projekt verbessern würde, bitte machen 
+Wenn Sie eine Idee haben, die dieses Projekt verbessern wuerde, bitte machen 
 Sie einen Fork des Repositories und erstellen Sie einen Pull Request.
-Sie können auch einfach ein Problem mit dem Tag "Verbesserung" eröffnen.
+Sie koennen auch einfach ein Problem mit dem Tag "Verbesserung" eroeffnen.
 Vergessen Sie nicht, dem Projekt einen Stern zu geben! Vielen Dank nochmals!
 
 1. Forken Sie das Projekt.
 2. Erstellen Sie Ihren Feature-Branch (`git checkout -b feature/ErstaunlicheFunktion`).
-3. Machen Sie Ihre Änderungen (`git commit -m 'Füge einige erstaunliche Funktionen hinzu'`).
+3. Machen Sie Ihre aenderungen (`git commit -m 'Fuege einige erstaunliche Funktionen hinzu'`).
 4. Pushen Sie den Branch (`git push origin feature/ErstaunlicheFunktion`).
-5. Eröffnen Sie einen Pull Request.
+5. Eroeffnen Sie einen Pull Request.
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 
 <!-- LICENSE -->
 # Lizenz
-Vertrieben unter der MIT-Lizenz. Siehe `LIZENZ` für weitere Informationen.
+Vertrieben unter der MIT-Lizenz. Siehe `LIZENZ` fuer weitere Informationen.
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
@@ -397,7 +396,7 @@ Christopher Chandler - christopher.chandler at outlook.de
 <!-- ACKNOWLEDGMENTS -->
 # Danksagungen
 
-* [Imge Yüzüncüoglu](https://github.com/imgeyuez)
+* [Imge Yuezuencueoglu](https://github.com/imgeyuez)
 * [Georg Stin]()
 * [Ikram Abdalla]()
 
