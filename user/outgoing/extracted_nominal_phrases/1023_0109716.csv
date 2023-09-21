@@ -1,0 +1,45 @@
+Maria Müller,Maria N Masc|_|Sg,Müller N Masc|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Maria Müller Winkelsweg,Maria N Masc|_|Sg,Müller N Masc|_|Sg,Winkelsweg N Masc|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Müller Winkelsweg,Müller N Masc|_|Sg,Winkelsweg N Masc|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Stadt X Schweiz,Stadt N Fem|_|Sg,X N Fem|_|Sg,Schweiz N Fem|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+AB X Schweiz,AB N Fem|_|Sg,X N Fem|_|Sg,Schweiz N Fem|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+AB AUPAIRSGLOBAL Schweiz,AB N Fem|_|Sg,AUPAIRSGLOBAL N Fem|_|Sg,Schweiz N Fem|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+AB AUPAIRSGLOBAL Bahnhofstrasse,AB N Fem|_|Sg,AUPAIRSGLOBAL N Fem|_|Sg,Bahnhofstrasse N Fem|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+AUPAIRSGLOBAL Bahnhofstrasse,AUPAIRSGLOBAL N Fem|_|Sg,Bahnhofstrasse N Fem|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Wiesbaden Stadt,Wiesbaden N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Wiesbaden Stadt Y Oktober,Wiesbaden N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,Y N Fem|Acc|Sg,Oktober N Masc|Acc|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Stadt Y,Stadt N Fem|Acc|Sg,Y N Fem|Acc|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+Stadt den 21. Oktober,Stadt N Fem|Acc|Sg,den ART Def|Masc|Acc|Sg,21. ADJA _|Masc|Acc|Sg|_|,Oktober N Masc|Acc|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Maria Müller Winkelsweg 11 1234 Stadt X Schweiz / AB AUPAIRSGLOBAL Bahnhofstrasse 101 65185 Wiesbaden Stadt Y , den 21. Oktober 2011 Au-pair-Stelle in Deutschland ."
+geehrte Damen,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,"Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+Herren,Herren N Masc|_|_,"Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+Anzeige Ihre,Anzeige N Fem|Acc|Sg,Ihre ART Fem|Acc|Sg,"Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+über Au-pair-Stelle,über PREP _,Au-pair-Stelle N Fem|_|Sg,"Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+interesse,interesse N _,"Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Sehr geehrte Damen und Herren , ich habe Ihre Anzeige über Au-pair-Stelle gelesen und interesse mich für eine Stelle in Deutschland ."
+einige Fragen,einige ART _|Acc|_,Fragen N _|Acc|_,Aber ich habe noch einige Fragen dazu .
+mit den Kindern,mit PREP Dat,den ART Def|_|Dat|Pl,Kindern N _|Dat|Pl,"Ich möchte wissen , ob ich mit den Kindern auf Deutsch sprechen muss ."
+auf Deutsch,auf PREP _,Deutsch N Neut|_|Sg,"Ich möchte wissen , ob ich mit den Kindern auf Deutsch sprechen muss ."
+die Kinder,die ART Def|Neut|Nom|Pl,Kinder N Neut|Nom|Pl,"Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+eine andere Sprache,eine ART Indef|Fem|Acc|Sg,andere ADJA _|Fem|Acc|Sg|_,Sprache N Fem|Acc|Sg,"Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+Französisch Englisch,Französisch N Neut|Acc|Sg,Englisch N Neut|Acc|Sg,"Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+Französisch Englisch,Französisch N Neut|Acc|Sg,Englisch N Neut|Acc|Sg,"Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+Deutsch,Deutsch N Neut|Acc|Sg,"Manchmal wollen die Kinder eine andere Sprache lernen , und ich kann Französisch , Englisch und Deutsch sprechen ."
+um die Kinder,um PREP Acc,die ART Def|Neut|Acc|Pl,Kinder N Neut|Acc|Pl,"Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+den Haushalt,den ART Def|Masc|Acc|Sg,Haushalt N Masc|Acc|Sg,"Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+das Badezimmer Wohnzimmer,das ART Def|Neut|Acc|Sg,Badezimmer N Neut|Acc|Sg,Wohnzimmer N Neut|Acc|Sg,"Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+Badezimmer das Wohnzimmer,Badezimmer N Neut|Acc|Sg,das ART Def|Neut|Acc|Sg,Wohnzimmer N Neut|Acc|Sg,"Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+die Zimmer,die ART Def|Neut|Acc|Pl,Zimmer N Neut|Acc|Pl,"Ich wollte auch wissen , ob ich mich nur um die Kinder kümmern muss oder ich muss auch den Haushalt machen , wie kochen oder das Badezimmer , das Wohnzimmer und die Zimmer putzen ."
+die Wäsche,die ART Def|Fem|Acc|Sg,Wäsche N Fem|Acc|Sg,und die Wäsche waschen .
+am Abend,am PREP Dat,Abend N Masc|Dat|Sg,Kann ich am Abend raus gehen oder muss ich zu Hause bleiben ?
+zu Hause,zu PREP Dat,Hause N Neut|Dat|Sg,Kann ich am Abend raus gehen oder muss ich zu Hause bleiben ?
+ein bisschen Freizeit,ein ART Indef|_|_|Sg,bisschen ART Fem|Acc|Sg,Freizeit N Fem|Acc|Sg,Habe ich ein bisschen Freizeit oder muss ich immer mit der Familie zusammen bleiben ?
+mit der Familie,mit PREP Dat,der ART Def|Fem|Dat|Sg,Familie N Fem|Dat|Sg,Habe ich ein bisschen Freizeit oder muss ich immer mit der Familie zusammen bleiben ?
+einige Aktivitäten,einige ART Fem|Acc|Pl,Aktivitäten N Fem|Acc|Pl,"Ich möchte einige Aktivitäten unternehmen , aber ich weiss nicht , ob ich ein Tag frei in den Woche habe ."
+ein Tag,ein ART Indef|Masc|Nom|Sg,Tag N Masc|Nom|Sg,"Ich möchte einige Aktivitäten unternehmen , aber ich weiss nicht , ob ich ein Tag frei in den Woche habe ."
+in den Woche,in PREP _,den ART Def|_|_|_,Woche N _|_|_,"Ich möchte einige Aktivitäten unternehmen , aber ich weiss nicht , ob ich ein Tag frei in den Woche habe ."
+auf Ihre Antwort,auf PREP Acc,Ihre ART Fem|Acc|Sg,Antwort N Fem|Acc|Sg,Ich warte auf Ihre Antwort .
+Mit freundlichen Grüssen,Mit PREP Dat,freundlichen ADJA Pos|_|Dat|_|_|,Grüssen N _|Dat|_,Mit freundlichen Grüssen .
+Maria Müller,Maria N _|_|Sg,Müller N _|_|Sg,Maria Müller
+Maria Müller,Maria N _|_|Sg,Müller N _|_|Sg,Maria Müller

@@ -1,0 +1,47 @@
+Katharina Schmidt,Katharina N Fem|_|Sg,Schmidt N Fem|_|Sg,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Katharina Schmidt Müllergasse,Katharina N Fem|_|Sg,Schmidt N Fem|_|Sg,Müllergasse N Fem|_|Sg,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Schmidt Müllergasse,Schmidt N Fem|_|Sg,Müllergasse N Fem|_|Sg,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Stadt X.,Stadt N Fem|_|Sg,X. N Fem|_|Sg,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Stadt X. Au-pair-Agentur,Stadt N Fem|_|Sg,X. N Fem|_|Sg,Au-pair-Agentur N Fem|_|Sg,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Schultz X. Au-pair-Agentur,Schultz N Masc|_|_,X. N Fem|_|Sg,Au-pair-Agentur N Fem|_|Sg,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Schultz Au-pair-Agentur,Schultz N Masc|_|_,Au-pair-Agentur N Fem|_|Sg,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Partner Regenstr,Partner N Masc|_|_,Regenstr N Masc|_|_,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Partner Regenstr,Partner N Masc|_|_,Regenstr N Masc|_|_,"Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+Nürnberg Stadt,Nürnberg N Fem|_|Sg,Stadt N Fem|_|Sg,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+Nürnberg Stadt X,Nürnberg N Fem|_|Sg,Stadt N Fem|_|Sg,X N Fem|_|Sg,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+Damen Beschwerdebrief,Damen N Fem|_|Pl,Beschwerdebrief N Masc|_|Sg,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+geehrte Damen Beschwerdebrief,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,Beschwerdebrief N Masc|_|Sg,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+Herren,Herren N Masc|_|_,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+mit grossem Interesse,mit PREP Dat,grossem ADJA Pos|Neut|Dat|Sg|St|,Interesse N Neut|Dat|Sg,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+Ihre Anzeige,Ihre ART Fem|Acc|Sg,Anzeige N Fem|Acc|Sg,"101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+Au-pair,Au-pair N _,Dann habe ich mich als Au-pair beworben .
+im Juni,im PREP Dat,Juni N Masc|Dat|Sg,"und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+nach Deutschland,nach PREP Dat,Deutschland N Neut|Dat|Sg,"und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+mein Entäuschung,mein ART _|Nom|Sg,Entäuschung N _|Nom|Sg,"und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+am Bahnhof,am PREP Dat,Bahnhof N Masc|Dat|Sg,"und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+ein Taxi,ein ART Indef|Neut|Acc|Sg,Taxi N Neut|Acc|Sg,Nahm ich ein Taxi zu meine Gastfamilie .
+zu meine Gastfamilie,zu PREP Dat,meine ART Fem|_|Sg,Gastfamilie N Fem|_|Sg,Nahm ich ein Taxi zu meine Gastfamilie .
+mein zweite Entäuschung,mein ART _|Nom|Sg,zweite ADJA _|_|Nom|Sg|Wk|,Entäuschung N _|Nom|Sg,Dort kam mein zweite Entäuschung .
+kein eigene Zimmer,kein ART Neut|Acc|Sg,eigene ADJA Pos|Neut|Acc|Sg|Wk|,Zimmer N Neut|Acc|Sg,Ich hatte kein eigene Zimmer .
+mit dem Kindern Schlafen,mit PREP Dat,dem ART Def|Neut|Dat|Sg,Kindern N Neut|Dat|Sg,Schlafen N Neut|Dat|Sg,Ich müsste mit dem Kindern Schlafen .
+Kindern Schlafen,Kindern N Neut|Dat|Sg,Schlafen N Neut|Dat|Sg,Ich müsste mit dem Kindern Schlafen .
+Die Eltern,Die ART Def|_|_|Pl,Eltern N _|_|Pl,Die Eltern war nett aber die Kindern was böse .
+die Kindern,die ART Def|Masc|Nom|Pl,Kindern N Masc|Nom|Pl,Die Eltern war nett aber die Kindern was böse .
+neben mein Job,neben PREP _,mein ART Masc|Nom|Sg,Job N Masc|Nom|Sg,"Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+Au-pair,Au-pair N _,"Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+mein Deutsch kenntnisse,mein ART Neut|Acc|Sg,Deutsch N Neut|Acc|Sg,kenntnisse N Neut|Acc|Sg,"Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+Deutsch kenntnisse,Deutsch N Neut|Acc|Sg,kenntnisse N Neut|Acc|Sg,"Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+Englisch die Familie,Englisch N Neut|_|Sg,die ART Def|_|_|_,Familie N Neut|_|Sg,"ich konnte es nicht machen weil die Familie nur Englisch sprechte , könnte ich nicht auch die Deutschschule besuchen ."
+Englisch Familie,Englisch N Neut|_|Sg,Familie N Neut|_|Sg,"ich konnte es nicht machen weil die Familie nur Englisch sprechte , könnte ich nicht auch die Deutschschule besuchen ."
+die Deutschschule,die ART Def|Fem|Acc|Sg,Deutschschule N Fem|Acc|Sg,"ich konnte es nicht machen weil die Familie nur Englisch sprechte , könnte ich nicht auch die Deutschschule besuchen ."
+Ihre Anzeige,Ihre ART Fem|Nom|Sg,Anzeige N Fem|Nom|Sg,"Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung ."
+Vermittlung,Vermittlung N Fem|Nom|Sg,"Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung ."
+Betreuung,Betreuung N Fem|Nom|Sg,"Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung ."
+von Ihre Geschäft,von PREP _,Ihre ART Neut|_|Sg,Geschäft N Neut|_|Sg,Nie mal von Ihre Geschäft mir gefragt wurde ob ich zufrieden bin .
+Aufgrund den obengenannten Mängel,Aufgrund PREP Dat,den ART Def|_|_|_,obengenannten ADJA Pos|_|Dat|Pl|_|,Mängel N _|Dat|Pl,Aufgrund den obengenannten Mängel erwart ich ein Entsädigung in die höhe von 500 € .
+Ansonst,Ansonst N _|_|_,"Ansonst fühle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu übergeben ."
+die Anlegenheit,die ART Def|_|Acc|_,Anlegenheit N _|Acc|_,"Ansonst fühle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu übergeben ."
+zum meinen Anwalt,zum PREP Dat,meinen ART Masc|Dat|Sg,Anwalt N Masc|Dat|Sg,"Ansonst fühle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu übergeben ."
+Mit Freundlichen Grüssen,Mit PREP Dat,Freundlichen ADJA Pos|_|Dat|_|_|,Grüssen N _|Dat|_,Mit Freundlichen Grüssen .
+Katharina,Katharina N Fem|_|Sg,Katharina

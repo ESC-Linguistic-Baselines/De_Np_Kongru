@@ -54,7 +54,7 @@ class MessageKeys:
         MAIN_APP_START = "Die Hauptanwendung wurde gestartet."
         MAIN_APP_FATAL_ERROR = (
             "Ein Problem ist innerhalb der Hauptanwendung aufgetreten. "
-            "Bitte die Protokolldatei überprüfen. "
+            "Bitte die Log-Datei überprüfen. "
         )
 
     class Merlin(Enum):
@@ -152,8 +152,16 @@ class MessageKeys:
         APP_NAME = "statistik"
         APP_NAME_HELP = "Eine einfache Analyse ueber DeNpKongru ausfuehren"
 
-        DEKONGRU_ACCURACY_NAME = "Performanz"
+        DEKONGRU_ACCURACY_NAME = "performanz"
         DEKONGRU_ACCURACY_NAME_HELP = "Die Performanz des Programms anzeigen"
+
+        GOLD_AND_RAW_FILES_INCORRECT = (
+            "Die Auswertung des Programms konnte nicht "
+            "erfolgreich durchgefuehrt werden.\nVermutlich "
+            "stimmen die Anzahl der Gold- und Rohdateien "
+            "nicht miteinander ueberein.\nDie Anzahl der "
+            "Dateien muss ggf. korrigiert werden. "
+        )
 
     class AppCongruentialAnalysis(Enum):
         APP_NAME = "kongruenz"
@@ -162,8 +170,19 @@ class MessageKeys:
         NP_AGREEMENT_SAVE = "Die Ergebnisse der Auswertung wurden gespeichert."
         NP_AGREEMENT_ERR = "Bei der Analyse ist etwas schief gelaufen."
 
-        NP_AGREEMENT_NAME = "np_analyse"
-        NP_AGREEMENT_HELP = "Die Kongruenz der Nps in einer datei bestimmen"
+        NP_AGREEMENT_SINGULAR_NAME = "singular"
+        NP_AGREEMENT_SINGULAR_HELP = "Die Kongruenz der Nps in einer Datei bestimmen"
+
+        NP_AGREEMENT_MULTI_NAME = "multi"
+        NP_AGREEMENT_MULTI_HELP = "Die Kongruenz der Nps in mehreren Dateien bestimmen"
+
+        MULTI_AGREEMENT_AMOUNT_DEFAULT = 5
+
+        MULTI_AGREEMENT_AMOUNT_LONG = "--text_anzahl"
+        MULTI_AGREEMENT_AMOUNT_SHORT = "--anzahl"
+        MULTI_AGREEMENT_AMOUNT_HELP = (
+            "bestimmt wie viele Texte verarbeitet werden sollen"
+        )
 
         NP_AGEREMENT_SAVE_DEFAULT = True
         NP_AGREEMENT_SAVE_TRUE = "--speichern"

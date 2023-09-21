@@ -2,9 +2,12 @@
 import csv
 import glob
 
-import typer
+import warnings
 
 # Pip
+import sklearn.exceptions
+import typer
+
 from sklearn.metrics import classification_report
 
 # Custom
@@ -12,6 +15,10 @@ from sklearn.metrics import classification_report
 # generals
 from kongru.api_general.universal.constants.general_vars import CODE_NAMES
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
+
+statistics_keys = Mk.Statistics
 
 
 def get_files(dataset: list[str]) -> list:
@@ -51,13 +58,28 @@ def get_report() -> None:
         None
     """
 
-    # Dateien aufstellen
-    gold_files = [CODE_NAMES[code] for code in get_files(Gp.GOLD_FILES.value)]
-    raw_files = [CODE_NAMES[code] for code in get_files(Gp.RAW_FILES.value)]
+    try:
+        # Dateien aufstellen
+        gold_files = [CODE_NAMES[code] for code in get_files(Gp.GOLD_FILES.value)]
+        raw_files = [CODE_NAMES[code] for code in get_files(Gp.RAW_FILES.value)]
 
-    # Ergebnisse
-    classification_rep = classification_report(gold_files, raw_files)
-    typer.echo(classification_rep)
+        # Ergebnisse
+        with warnings.catch_warnings():
+            # Wenn eine Klasse nicht berechnet werden kann, werden Divisionsfehler
+            # von SKlearn ausgegeben. Diese werden hiermit unterdrueckt.
+            warnings.filterwarnings(
+                "ignore", category=sklearn.exceptions.UndefinedMetricWarning
+            )
+            classification_rep = classification_report(
+                gold_files, raw_files, zero_division="warn"
+            )
+            typer.echo(classification_rep)
+    except Exception as e:
+        catch_and_log_error(
+            echo_error=True,
+            error=e,
+            custom_message=statistics_keys.GOLD_AND_RAW_FILES_INCORRECT.value,
+        )
 
 
 if __name__ == "__main__":

@@ -20,7 +20,10 @@ class Statistics:
     def __open_file(self):
         with open(self.np_results_file, mode="r", encoding="utf-8") as file:
             csv_reader = csv.reader(file)
-            return list(csv_reader)
+
+            results = [i for i in csv_reader if len(i) > 0]
+
+            return results
 
     def get_file_header(self):
         header_file = open(self.header_file, mode="r", encoding="utf-8")
@@ -28,6 +31,7 @@ class Statistics:
         header_results, merlin_meta_data = OrderedDict(), list()
 
         for row in csv_header:
+            row = row.replace("\n", "")
             if row.strip().isupper():
                 header_results[row.strip()] = 0
             else:
@@ -46,7 +50,7 @@ class Statistics:
 
         # Ergebniss-Datei aufstellen
         save_data = Gp.NP_MAIN_SAVE_FILE.value
-        csv_writer = csv.writer(open(save_data, mode="w+"))
+        csv_writer = csv.writer(open(save_data, mode="w+", newline=""))
 
         csv_writer.writerow(meta_data + csv_header)
 
@@ -68,6 +72,7 @@ class Statistics:
         )
 
         for row in np_result_data:
+
             code = int(row[0])
 
             if code == 0:

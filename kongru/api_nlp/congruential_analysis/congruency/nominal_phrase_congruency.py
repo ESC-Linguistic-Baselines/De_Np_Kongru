@@ -574,6 +574,7 @@ class NominalPhraseCongruency:
             unknown_congruency = ["2", "99", "4", "3", "1"]
 
             if congurency_type in unknown_congruency:
+
                 extracted_np_info = [
                     congurency_type,
                     full_np,
@@ -738,8 +739,22 @@ class NominalPhraseCongruency:
                 if entry not in duplicate_keys:
 
                     try:
+
                         result = congruency_results.get(congruency_entry)
-                        csv_writer.writerow(result)
+                        final_result = [
+                            i.replace("\n", "") for i in result if isinstance(i, str)
+                        ]
+
+                        # Den Code wieder einfuehren
+                        # 99 kommt kann im String doppelt vorkommen
+                        # dies wird dann entfernt
+                        if final_result[0] == "99":
+                            csv_writer.writerow(final_result)
+                        else:
+                            code = result[0]
+                            final_result.insert(0, code)
+                            csv_writer.writerow(final_result)
+
                         duplicate_keys.append(entry)
 
                     except Exception as e:

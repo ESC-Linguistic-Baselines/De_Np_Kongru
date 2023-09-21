@@ -16,10 +16,10 @@ TIMESTAMP = current_datetime.strftime("%Y_%m_%d_%H_%M_%S")
 SIMPLE_TIMESTAMP = current_datetime.strftime("%Y_%m_%d")
 CODE_NAMES = {
     "0": "0 -EINFACH",
-    "1": "1 - ART",
-    "2": "2 - PREP",
-    "3": "3 - Eigennamen",
-    "4": "4 - Redewendung bzw. gaengiger Satz",
+    "1": "01 - ART",
+    "2": "02 - PREP",
+    "3": "03 - Eigennamen",
+    "4": "04 - Redewendung bzw. gaengiger Satz",
     "10": "10 - EINFACH (Nicht Kongruenz)",
     "11": "11 -ART (Nicht Kongruenz)",
     "12": "12 - PREP (Nicht Kongruenz)",

@@ -1,5 +1,7 @@
 # Standard
 # None
+import glob
+import time
 
 # Pip
 import typer
@@ -15,21 +17,31 @@ from rich.table import Table
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 # funcs
-from kongru.api_general.universal.funcs.basic_logger import (
-    catch_and_log_error,
-    catch_and_log_info,
+from kongru.api_general.universal.funcs import (
+    basic_logger,
+    get_ast_data,
+    get_np_data,
+    get_np_results,
 )
+
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+from kongru.api_general.universal.funcs.natural_order_group import NaturalOrderGroup
+
+# api_nlp
 from kongru.api_nlp.congruential_analysis.analyzers.demorphy_analyzer import (
     DemorphyAnalyzer,
 )
 
-# api_nlp
-
 from kongru.api_nlp.congruential_analysis.congruency.nominal_phrase_congruency import (
     NominalPhraseCongruency,
 )
+from kongru.api_nlp.congruential_analysis.congruency.multi_np_analysis import (
+    generate_results_file,
+)
 
-from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+from kongru.api_nlp.congruential_analysis.congruency.run_congruency_algorithm import (
+    run_batch_congruency,
+)
 
 congruential_keys = Mk.AppCongruentialAnalysis
 general_keys = Mk.General
@@ -39,6 +51,7 @@ app_typer_congruential_analysis = typer.Typer(
     help=congruential_keys.APP_NAME_HELP.value,
     add_help_option=True,
     no_args_is_help=True,
+    cls=NaturalOrderGroup,
 )
 
 # Konsole zur Erstellung einer Tabelle
@@ -46,10 +59,10 @@ console = Console()
 
 
 @app_typer_congruential_analysis.command(
-    name=congruential_keys.NP_AGREEMENT_NAME.value,
-    help=congruential_keys.NP_AGREEMENT_HELP.value,
+    name=congruential_keys.NP_AGREEMENT_SINGULAR_NAME.value,
+    help=congruential_keys.NP_AGREEMENT_SINGULAR_HELP.value,
 )
-def nominal_phrase_agreement_analysis(
+def singular_nominal_phrase_agreement_analysis(
     file_name: str = typer.Option(
         Gp.TEST_NP_FILE_CSV.value,
         general_keys.FILE_NAME_LONG.value,
@@ -72,10 +85,10 @@ def nominal_phrase_agreement_analysis(
     """
     Analysiere die Kongruenz in nominalen Phrasen in einer gegebenen CSV-Datei.
 
-    Args:
-        file_name (str): Der Name der CSV-Datei mit den Daten zur Analyse.
-        save_results (bool): Ob die Analyseergebnisse in einer CSV-Datei gespeichert werden sollen.
-        save_file (str): Der Name der CSV-Datei, in die die Ergebnisse gespeichert werden sollen.
+    Args: file_name (str): Der Name der CSV-Datei mit den Daten zur Analyse.
+    save_results (bool): Ob die Analyseergebnisse in einer CSV-Datei gespeichert
+    werden sollen. save_file (str): Der Name der CSV-Datei, in die die Ergebnisse
+    gespeichert werden sollen.
 
     Returns:
         None
@@ -98,7 +111,8 @@ def nominal_phrase_agreement_analysis(
         if save_results:
             # Die Ergebnisse werden zwar gespeichert, aber nicht angezeigt.
             np_congruency.save_congruency_results()
-            catch_and_log_info(
+
+            basic_logger.catch_and_log_info(
                 msg=congruential_keys.NP_AGREEMENT_SAVE.value,
                 echo_msg=True,
             )
@@ -113,9 +127,47 @@ def nominal_phrase_agreement_analysis(
             console.print(table)
 
     except Exception as e:
-        catch_and_log_error(
+        basic_logger.catch_and_log_error(
             error=e, custom_message=congruential_keys.NP_AGREEMENT_ERR.value
         )
+
+
+@app_typer_congruential_analysis.command(
+    name=congruential_keys.NP_AGREEMENT_MULTI_NAME.value,
+    help=congruential_keys.NP_AGREEMENT_MULTI_HELP.value,
+)
+def multi_nominal_phrase_agreement_analysis(
+    text_amount: str = typer.Option(
+        congruential_keys.MULTI_AGREEMENT_AMOUNT_DEFAULT.value,
+        congruential_keys.MULTI_AGREEMENT_AMOUNT_HELP.value,
+        congruential_keys.MULTI_AGREEMENT_AMOUNT_SHORT.value,
+        help=congruential_keys.MULTI_AGREEMENT_AMOUNT_HELP.value,
+    ),
+):
+    # Dateien aufstellen
+    ids = open(Gp.NP_TRAINING_IDS.value, mode="r", encoding="utf-8").readlines()
+    training_ids = [i.strip() for i in ids]
+    np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
+    np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
+
+    # Skript ausfuehren
+    # Time, damit die Dateien zeitlich erfasst werden.
+    get_ast_data.ast_data()
+    time.sleep(1)
+    get_np_data.np_data()
+
+    # Kongruenz fuer mehrere Dateien durchfuehren
+    run_batch_congruency(
+        congruency_algo=singular_nominal_phrase_agreement_analysis,
+        np_files=np_extracted_files,
+        text_id_numbers=training_ids,
+        text_limit=text_amount,
+    )
+
+    time.sleep(1)
+    count_results = get_np_results.count_np_results(np_res_files)
+    time.sleep(1)
+    generate_results_file(count_results)
 
 
 if __name__ == "__main__":

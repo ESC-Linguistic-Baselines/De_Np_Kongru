@@ -226,8 +226,9 @@ Options:
   --help                Show this message and exit.
 ```
 
-Um genauer zu wissen, wie diese Schnittstelle funktioniert oder Fehlermeldung besser zu
-verstehen, bitte die Dokumentation von [Typer](https://typer.tiangolo.com/) durchlesen.
+Um genauer zu wissen, wie diese Schnittstelle funktioniert oder Fehlermeldung besser 
+verstehen zu koennen, bitte die Dokumentation von
+[Typer](https://typer.tiangolo.com/) durchlesen.
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ### Ordnerstruktur
@@ -260,12 +261,11 @@ ablegen.
       Hier werden die Ergebnisse gespeichert. 
 <br>
     - [batch_results](user%2Foutgoing%2Fbatch_results)  
-      - wenn man [main_np_analysis.py](main_np_analysis.py) ausfuehrt, 
+      - wenn man [multi_np_analysis.py](kongru%2Fapi_nlp%2Fcongruential_analysis%2Fmulti_np_analysis.py) ausfuehrt, 
       werden die Ergebnisse hier als .csv-Datei gespeichert. 
     - [extracted_nominal_phrases](user%2Foutgoing%2Fextracted_nominal_phrases)
       - Die unverarbeiteten Nominalphrasen, die aus den AST oder Pylist-dateien 
         extrahiert wurden, werden hier gespeichert.
-      
     - [nominal_phrase_analysis_results](user%2Foutgoing%2Fnominal_phrase_analysis_results)
       - Die Auswertung der Nominalphrasen werden hier gespeichert. 
     - [nominal_phrase_json](user%2Foutgoing%2Fnominal_phrase_json)
@@ -273,20 +273,18 @@ ablegen.
         gespeichert. 
     - [text_ids](user%2Ftext_ids)
       - Dieser Ordner enthaelt die Dateien `test_ids.txt` und `training_ids.txt`. 
-      Die sind wichtig fuer [main_np_analysis.py](main_np_analysis.py). Alle Ids,
-      sofern sie in der SQL-DB existieren, werden eingelesen und ausgewertet. 
-      - 
+      Die sind wichtig fuer [multi_np_analysis.py](kongru%2Fapi_nlp%2Fcongruential_analysis%2Fmulti_np_analysis.py)
+. Alle Ids,
+      sofern sie in der SQL-DB existieren, werden eingelesen und ausgewertet.
  <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
-
-### Analyse durchfuehren
+ ### Analyse durchfuehren
 Die Analyse kann man entweder ueber die API oder die CLI durchfuehren. 
-Ein vorgefertiges Skript - [main_np_analysis.py](main_np_analysis.py) - um dies zu tun
-findet man im Hauptverzeichnis. Daran kann man sich orientieren, wenn man neue 
-Skript anlegen moechte.
-Wenn die Pfade korrekt eingerichtet wurden, 
-sollte dieses Skript problemlos funktioniern.
-Man muss also nur das Skript starten. 
+an [multi_np_analysis.py](kongru%2Fapi_nlp%2Fcongruential_analysis%2Fmulti_np_analysis.py) 
+kann man sich orientieren, wenn man neue  Skript anlegen moechte.
+
+Wenn die Pfade korrekt eingerichtet wurden, sollte dieses Skript problemlos funktioniern.
+Man muss also nur das Skript starten oder es durch die CLI aufrufen. 
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 

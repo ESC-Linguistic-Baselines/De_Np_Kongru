@@ -1,6 +1,7 @@
 # Standard
 import glob
 import os
+import time
 
 import typer
 
@@ -9,7 +10,7 @@ from tqdm import tqdm
 
 # Custom
 from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
-    nominal_phrase_agreement_analysis,
+    singular_nominal_phrase_agreement_analysis,
 )
 from kongru.api_general.database_managers.managers.merlin_manager import MerlinManager
 from kongru.api_general.database_managers.app_data_managers import (
@@ -34,7 +35,7 @@ def get_ast_data() -> None:
         file_extension="ast",
     )
 
-    catch_and_log_info("AST-Dateien erfolgreich extrahiert!", echo_msg=True)
+    catch_and_log_info("AST-Dateien erfolgreich extrahiert!", echo_msg=False)
 
 
 def get_np_data() -> None:
@@ -43,18 +44,16 @@ def get_np_data() -> None:
     Returns:
         None
     """
-    catch_and_log_info("Extrahiere Nominalphrasen aus AST-Dateien...", echo_msg=True)
+    catch_and_log_info("Extrahiere Nominalphrasen aus AST-Dateien...", echo_msg=False)
 
     # Nominalphrasen aus dem Ast verzeichnis extrahieren
     ast_id_number = glob.glob("user/incoming/ast/*.*")
-    for id_num in tqdm(
-        ast_id_number, desc="Ast-Dateien verarbeiten", unit=" Ast-Datei"
-    ):
+    for id_num in tqdm(ast_id_number, desc="NPs extrahieren", unit=" Ast-Datei"):
         extract_nps_from_local_file(
             ast_file_id=id_num, file_type="ast_nps", echo_msg=False
         )
 
-    catch_and_log_info("Nominalphrasen erfolgreich extrahiert!", echo_msg=True)
+    catch_and_log_info("Nominalphrasen erfolgreich extrahiert!", echo_msg=False)
 
 
 def run_congruency(
@@ -66,40 +65,27 @@ def run_congruency(
     Args:
         all_texts(bool): Alle Texte sollen analysiert werden.
         np_files(list): Die Dateien, die analysiert werden sollen.
-        id_numbers(list): Die  Text-Id-Nummer der Texte, die anaylsiert werden sollen.
-        text_limit (int):  Die Anzahl der Dateien, die analysiert werdne sollen.
+        id_numbers(list): Die Text-Id-Nummer der Texte, die anaylsiert werden sollen.
+        text_limit (int): Die Anzahl der Dateien, die analysiert werdne sollen.
 
     Returns:
-
-
+            None
     """
     # Np Kongruenz bestimmen und die Ergebnisse speichern
     count = 0
     for np_ext_file in np_files:
 
         # Text-Id aufstellen
-
         file_name = os.path.basename(np_ext_file)
         txt_id = file_name.replace(".csv", "")
 
         if txt_id in id_numbers:
-            catch_and_log_info(
-                f"Text-Id {txt_id}: " f"Führe Hauptanalyse durch...", echo_msg=True
-            )
-            nominal_phrase_agreement_analysis(
-                file_name=np_ext_file, save_file=file_name
-            )
-            count += 1
-
             if all_texts and text_limit == 0:
                 text_limit = len(id_numbers)
-            elif count > text_limit:
+            elif count >= text_limit:
                 break
 
-            catch_and_log_info(
-                f"Text-Id {txt_id}: " f"Hauptanalyse abgeschlossen \n", echo_msg=True
-            )
-
+            count += 1
             progress = count / text_limit
             blocks = round(progress % 1 * 10)
             count_down = 10 - blocks
@@ -118,6 +104,23 @@ def run_congruency(
                 typer.echo(prog_res)
             else:
                 typer.echo(prog_res)
+
+            catch_and_log_info(
+                f"Text-Id {txt_id}: " f"Führe Hauptanalyse durch...", echo_msg=True
+            )
+
+            singular_nominal_phrase_agreement_analysis(
+                file_name=np_ext_file, save_file=file_name
+            )
+
+            catch_and_log_info(
+                f"Text-Id {txt_id}: " f"Hauptanalyse abgeschlossen \n", echo_msg=True
+            )
+
+            if count == text_limit:
+                catch_and_log_info(
+                    f"Alle Texte wurden erfolgreich analysiert.", echo_msg=True
+                )
 
 
 def count_np_results() -> dict:
@@ -140,7 +143,6 @@ def count_np_results() -> dict:
 
         # Die Ergebnisse der Zaehlung
         np_results = np_statistics.get_data_as_string()
-
         statistics_results[txt_id] = np_results
 
     catch_and_log_info("Ergebnisse erfolgreich gezaehlt!", echo_msg=True)
@@ -172,7 +174,6 @@ def generate_results_file(collective_results) -> None:
         merlin_sql_result = list(meta_data_text.read_merlin_corpus_database()[0])
         txt_id_data = list(collective_results.get(txt_id).values())
         new_data = merlin_sql_result + txt_id_data
-
         # Ergebnisse speichern
         csv_data.writerow(new_data)
 
@@ -186,8 +187,13 @@ if __name__ == "__main__":
     np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
     np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
 
-    get_ast_data()
-    get_np_data()
-    run_congruency(np_extracted_files, training_ids, text_limit=4)
+    # Skript ausfuehren
+    # Time, damit die Dateien zeitlich erfasst werden.
+    # get_ast_data()
+    # time.sleep(1)
+    # get_np_data()
+    run_congruency(np_extracted_files, training_ids, text_limit=5)
+    time.sleep(1)
     count_results = count_np_results()
+    time.sleep(1)
     generate_results_file(count_results)

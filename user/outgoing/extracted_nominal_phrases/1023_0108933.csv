@@ -1,0 +1,42 @@
+Julia Müller,Julia N Fem|_|Sg,Müller N Fem|_|Sg,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Julia Müller Bahnhofsstraße,Julia N Fem|_|Sg,Müller N Fem|_|Sg,Bahnhofsstraße N Fem|_|Sg,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Müller Bahnhofsstraße,Müller N Fem|_|Sg,Bahnhofsstraße N Fem|_|Sg,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Stadt,Stadt N Fem|_|Sg,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Au-pair-Agentur Schultz,Au-pair-Agentur N Fem|_|Sg,Schultz N Masc|_|_,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Au-pair-Agentur Schultz,Au-pair-Agentur N Fem|_|Sg,Schultz N Masc|_|_,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Partner Regenstr,Partner N Masc|_|_,Regenstr N Masc|_|_,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Partner Regenstr,Partner N Masc|_|_,Regenstr N Masc|_|_,Julia Müller Bahnhofsstraße 1 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr .
+Nürnberg Stadt,Nürnberg N Fem|_|Sg,Stadt N Fem|_|Sg,"101 90451 Nürnberg Stadt Y , den 12. August 2011 ."
+Nürnberg Stadt Y,Nürnberg N Fem|_|Sg,Stadt N Fem|_|Sg,Y N Masc|Acc|Sg,"101 90451 Nürnberg Stadt Y , den 12. August 2011 ."
+Stadt Y August,Stadt N Fem|_|Sg,Y N Masc|Acc|Sg,August N Masc|Acc|Sg,"101 90451 Nürnberg Stadt Y , den 12. August 2011 ."
+Y den 12. August,Y N Masc|Acc|Sg,den ART Def|Masc|Acc|Sg,12. ADJA _|Masc|Acc|Sg|_|,August N Masc|Acc|Sg,"101 90451 Nürnberg Stadt Y , den 12. August 2011 ."
+in Deutschland,in PREP _,Deutschland N Neut|_|Sg,Beschwerde über eine Au-pair-Stelle in Deutschland .
+geehrte Damen,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,"Sehr geehrte Damen und Herren , ich war ein Vierteljahr bei einer Gastfamilie in Deutschland ."
+Herren,Herren N Masc|_|_,"Sehr geehrte Damen und Herren , ich war ein Vierteljahr bei einer Gastfamilie in Deutschland ."
+Vierteljahr bei ein,Vierteljahr N Neut|Nom|Sg,bei PREP Dat,ein ART Indef|Neut|Nom|Sg,"Sehr geehrte Damen und Herren , ich war ein Vierteljahr bei einer Gastfamilie in Deutschland ."
+in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Sehr geehrte Damen und Herren , ich war ein Vierteljahr bei einer Gastfamilie in Deutschland ."
+Ihre Agentur,Ihre ART Fem|Acc|Sg,Agentur N Fem|Acc|Sg,"Ich habe Ihre Agentur genommen um meine Reise zu organisieren , Sie haben mir erzählen , dass ich in eine Familie in Stadt Z wäre ."
+um meine Reise,um PREP Acc,meine ART _|Acc|_,Reise N _|Acc|_,"Ich habe Ihre Agentur genommen um meine Reise zu organisieren , Sie haben mir erzählen , dass ich in eine Familie in Stadt Z wäre ."
+in eine Familie,in PREP Acc,eine ART Indef|Fem|Acc|Sg,Familie N Fem|Acc|Sg,"Ich habe Ihre Agentur genommen um meine Reise zu organisieren , Sie haben mir erzählen , dass ich in eine Familie in Stadt Z wäre ."
+in Stadt,in PREP _,Stadt N Fem|_|Sg,"Ich habe Ihre Agentur genommen um meine Reise zu organisieren , Sie haben mir erzählen , dass ich in eine Familie in Stadt Z wäre ."
+Z,Z N Neut|Nom|_,"Ich habe Ihre Agentur genommen um meine Reise zu organisieren , Sie haben mir erzählen , dass ich in eine Familie in Stadt Z wäre ."
+ein bischen Angst,ein ART Indef|_|_|Sg,bischen ADJA _|Neut|Acc|Sg|_,Angst N Neut|Acc|Sg,"Ich hätte ein bischen Angst , aber Sie haben mir gesagt , dass sie sehr nett sind ."
+um eine Familie,um PREP Acc,eine ART Indef|Fem|Acc|Sg,Familie N Fem|Acc|Sg,"Ich habe um eine Familie mit Kinder von 5 bis 10 Jahre alt , um eine Zimmer zu schlafen und um einen Abend frei gebittet ."
+mit Kinder,mit PREP Dat,Kinder N Neut|_|Pl,"Ich habe um eine Familie mit Kinder von 5 bis 10 Jahre alt , um eine Zimmer zu schlafen und um einen Abend frei gebittet ."
+eine Zimmer,eine ART Indef|Fem|_|Sg,Zimmer N Fem|Acc|Sg,"Ich habe um eine Familie mit Kinder von 5 bis 10 Jahre alt , um eine Zimmer zu schlafen und um einen Abend frei gebittet ."
+um einen Abend,um PREP Acc,einen ART Indef|Masc|Acc|Sg,Abend N Masc|Acc|Sg,"Ich habe um eine Familie mit Kinder von 5 bis 10 Jahre alt , um eine Zimmer zu schlafen und um einen Abend frei gebittet ."
+in die Familie,in PREP Acc,die ART Def|Fem|Acc|Sg,Familie N Fem|Acc|Sg,"Wenn ich in die Familie angekommen bin , erzählen die Eltern , dass ich im Sofa schlafen wäre , weil die Zimmer jetzt ein Büro war ."
+die Eltern,die ART Def|_|Nom|Pl,Eltern N _|Nom|Pl,"Wenn ich in die Familie angekommen bin , erzählen die Eltern , dass ich im Sofa schlafen wäre , weil die Zimmer jetzt ein Büro war ."
+im Sofa,im PREP Dat,Sofa N Neut|Dat|Sg,"Wenn ich in die Familie angekommen bin , erzählen die Eltern , dass ich im Sofa schlafen wäre , weil die Zimmer jetzt ein Büro war ."
+Zimmer,Zimmer N Neut|Nom|Sg,"Wenn ich in die Familie angekommen bin , erzählen die Eltern , dass ich im Sofa schlafen wäre , weil die Zimmer jetzt ein Büro war ."
+ein Büro,ein ART Indef|Neut|Nom|Sg,Büro N Neut|Nom|Sg,"Wenn ich in die Familie angekommen bin , erzählen die Eltern , dass ich im Sofa schlafen wäre , weil die Zimmer jetzt ein Büro war ."
+die Kinder,die ART Def|Neut|Nom|Pl,Kinder N Neut|Nom|Pl,Und die Kinder waren kleiner als 5 Jahre alt .
+Jahre,Jahre N Neut|_|Pl,Und die Kinder waren kleiner als 5 Jahre alt .
+in alle Familie,in PREP Acc,alle ART Fem|Acc|Sg,Familie N Fem|Acc|Sg,"Ich denke , dass Sie in alle Familie besuchen sollten ."
+die Situation,die ART Def|Fem|Acc|Sg,Situation N Fem|Acc|Sg,Sie könnten die Situation sehen und nehmen die beste Familie .
+Familie die beste,Familie N Fem|Acc|Sg,die ART Def|Fem|Acc|Sg,beste ADJA Sup|Fem|Acc|Sg|_|,Sie könnten die Situation sehen und nehmen die beste Familie .
+diese Probleme,diese ART Neut|Acc|Pl,Probleme N Neut|Acc|Pl,"Ich hoffe , dass Sie diese Probleme lösen werden ."
+Danke,Danke N Masc|Dat|Sg,Danke .
+Mit freundliche Grüßen Julia,Mit PREP Dat,freundliche ADJA Pos|Neut|_|Sg|Wk|,Grüßen N Neut|_|Sg,Julia N _|_|Sg,Mit freundliche Grüßen Julia Müller
+Grüßen Julia Müller,Grüßen N Neut|_|Sg,Julia N _|_|Sg,Müller N _|_|Sg,Mit freundliche Grüßen Julia Müller
+Julia Müller,Julia N _|_|Sg,Müller N _|_|Sg,Mit freundliche Grüßen Julia Müller
