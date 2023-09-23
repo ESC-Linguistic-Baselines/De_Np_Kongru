@@ -79,7 +79,7 @@ class DemorphyManager:
         """
         # Initialisierung von Variablen und Listen zur Kategorisierung von Merkmalen
         file_name = self.file_name  # Der Dateiname der CSV-Datei
-        np_id_number = 0  # Eine eindeutige Nummer für jede NP
+
         np_data = {}  # Ein Dictionary zur Speicherung der eingelesenen Daten
 
         # Listen zur Kategorisierung von morphologischen Merkmalen
@@ -94,14 +94,15 @@ class DemorphyManager:
 
             # Schleife durch jede Zeile der CSV-Datei
             for line in csv_reader:
+
                 # Initialisierung eines internen NPs und Zählers
                 internal_np = dict()
-                np_id_number += 1
+                np_id_number = line[0]
                 data_count = 0
 
                 # Extrahieren von Informationen aus der aktuellen Zeile
-                basic_np = line[0]
-                np_morpho_info = line[1:-1]
+                basic_np = line[1]
+                np_morpho_info = line[2:-1]
                 sentence = line[-1]
 
                 # Schleife durch die morphologischen Informationen für die NP
@@ -110,6 +111,7 @@ class DemorphyManager:
 
                     # Aufspalten der Informationen in Nomen, Wortart (POS) und morphologische Merkmale
                     np_morpho_entry_data = entry.split()
+
                     np, pos, morpho_info = np_morpho_entry_data
                     congruency_info = morpho_info.split("|")
 
@@ -137,11 +139,13 @@ class DemorphyManager:
                         "noun_info": congru,
                     }
 
-                # Erstellen eines eindeutigen Schlüssels für die NP
-                key = f"{np_id_number}_{basic_np}"
+                # Zusammenführen der internen NP-Daten und Speichern im
+                # Haupt-NP-Dictionary
 
-                # Zusammenführen der internen NP-Daten und Speichern im Haupt-NP-Dictionary
-                np_data[key] = {"full_np": basic_np, "sentence": sentence} | internal_np
+                np_data[np_id_number] = {
+                    "full_np": basic_np,
+                    "sentence": sentence,
+                } | internal_np
 
         # Rückgabe des gesammelten NP-Dictionaries
         return np_data

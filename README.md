@@ -266,7 +266,7 @@ ablegen.
     - [extracted_nominal_phrases](user%2Foutgoing%2Fextracted_nominal_phrases)
       - Die unverarbeiteten Nominalphrasen, die aus den AST oder Pylist-dateien 
         extrahiert wurden, werden hier gespeichert.
-    - [nominal_phrase_analysis_results](user%2Foutgoing%2Fnominal_phrase_analysis_results)
+      - [nominal_phrase_analysis_csv_results](user%2Foutgoing%2Fnominal_phrase_analysis_csv_results)
       - Die Auswertung der Nominalphrasen werden hier gespeichert. 
     - [nominal_phrase_json](user%2Foutgoing%2Fnominal_phrase_json)
       - Die Nominalphrasen und deren Ergebnisse werden in der entsprechenden JSON-Datei

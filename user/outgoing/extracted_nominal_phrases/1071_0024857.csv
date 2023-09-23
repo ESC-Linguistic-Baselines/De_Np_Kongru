@@ -1,15 +1,15 @@
-Herr Jens,Herr N Masc|_|Sg,Jens N Masc|_|Sg,"Herr Jens , Hallo !"
-Herr Jens,Herr N Masc|_|Sg,Jens N Masc|_|Sg,"Herr Jens , Hallo !"
-gehts,gehts N _,"Wie gehts dir , Ich wünsche das seine Frau hat des Baby gekommen , und jetz bis du vater ."
-seine Frau,seine ART Fem|Nom|Sg,Frau N Fem|Nom|Sg,"Wie gehts dir , Ich wünsche das seine Frau hat des Baby gekommen , und jetz bis du vater ."
-des Baby,des ART Def|_|Gen|Sg,Baby N _|Gen|Sg,"Wie gehts dir , Ich wünsche das seine Frau hat des Baby gekommen , und jetz bis du vater ."
-heist,heist N _,wie heist ist seine Frau ?
-seine Frau,seine ART Fem|Nom|Sg,Frau N Fem|Nom|Sg,wie heist ist seine Frau ?
-Wenn,Wenn N Neut|Nom|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
-sein Baby geworen,sein ART Neut|Nom|Sg,Baby N Neut|Nom|Sg,geworen N Neut|Nom|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
-Baby geworen,Baby N Neut|Nom|Sg,geworen N Neut|Nom|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
-für seine Baby,für PREP Acc,seine ART Neut|Acc|Sg,Baby N Neut|Acc|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
-einen Shöenen,einen ART Indef|Masc|Acc|Sg,Shöenen N Masc|Acc|Sg,Ich wünsche Dir einen Shöenen tag und vielglück für seine Baby .
-für Seine Frau,für PREP Acc,Seine ART Fem|Acc|Sg,Frau N Fem|Acc|Sg,und viele Gruße für Seine Frau .
-Dein Freund,Dein ART Masc|Nom|Sg,Freund N Masc|Nom|Sg,Dein Freund .
-Maria,Maria N _|_|Sg,Maria
+1_1,Herr Jens,Herr N Masc|_|Sg,Jens N Masc|_|Sg,"Herr Jens , Hallo !"
+1_2,Herr Jens,Herr N Masc|_|Sg,Jens N Masc|_|Sg,"Herr Jens , Hallo !"
+2_3,gehts,gehts N _,"Wie gehts dir , Ich wünsche das seine Frau hat des Baby gekommen , und jetz bis du vater ."
+2_4,seine Frau,seine ART Fem|Nom|Sg,Frau N Fem|Nom|Sg,"Wie gehts dir , Ich wünsche das seine Frau hat des Baby gekommen , und jetz bis du vater ."
+2_5,des Baby,des ART Def|_|Gen|Sg,Baby N _|Gen|Sg,"Wie gehts dir , Ich wünsche das seine Frau hat des Baby gekommen , und jetz bis du vater ."
+3_6,heist,heist N _,wie heist ist seine Frau ?
+3_7,seine Frau,seine ART Fem|Nom|Sg,Frau N Fem|Nom|Sg,wie heist ist seine Frau ?
+4_8,Wenn,Wenn N Neut|Nom|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
+4_9,sein Baby geworen,sein ART Neut|Nom|Sg,Baby N Neut|Nom|Sg,geworen N Neut|Nom|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
+4_10,Baby geworen,Baby N Neut|Nom|Sg,geworen N Neut|Nom|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
+4_12,für seine Baby,für PREP Acc,seine ART Neut|Acc|Sg,Baby N Neut|Acc|Sg,"und Wenn ist sein Baby geworen , ist seine Baby a jung oder menschen , und was willst du die name für seine Baby ?"
+5_13,einen Shöenen,einen ART Indef|Masc|Acc|Sg,Shöenen N Masc|Acc|Sg,Ich wünsche Dir einen Shöenen tag und vielglück für seine Baby .
+6_17,für Seine Frau,für PREP Acc,Seine ART Fem|Acc|Sg,Frau N Fem|Acc|Sg,und viele Gruße für Seine Frau .
+7_18,Dein Freund,Dein ART Masc|Nom|Sg,Freund N Masc|Nom|Sg,Dein Freund .
+8_19,Maria,Maria N _|_|Sg,Maria

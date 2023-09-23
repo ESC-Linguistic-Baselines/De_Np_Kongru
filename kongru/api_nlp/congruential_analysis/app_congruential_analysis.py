@@ -22,6 +22,7 @@ from kongru.api_general.universal.funcs import (
     get_ast_data,
     get_np_data,
     get_np_results,
+    json_creator,
 )
 
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
@@ -42,6 +43,11 @@ from kongru.api_nlp.congruential_analysis.congruency.multi_np_analysis import (
 from kongru.api_nlp.congruential_analysis.congruency.run_congruency_algorithm import (
     run_batch_congruency,
 )
+
+
+from kongru.api_general.database_managers.managers.merlin_manager import MerlinManager
+
+merlin = MerlinManager()
 
 congruential_keys = Mk.AppCongruentialAnalysis
 general_keys = Mk.General
@@ -137,37 +143,51 @@ def singular_nominal_phrase_agreement_analysis(
     help=congruential_keys.NP_AGREEMENT_MULTI_HELP.value,
 )
 def multi_nominal_phrase_agreement_analysis(
-    text_amount: str = typer.Option(
+    text_amount: int = typer.Option(
         congruential_keys.MULTI_AGREEMENT_AMOUNT_DEFAULT.value,
-        congruential_keys.MULTI_AGREEMENT_AMOUNT_HELP.value,
+        congruential_keys.MULTI_AGREEMENT_AMOUNT_LONG.value,
         congruential_keys.MULTI_AGREEMENT_AMOUNT_SHORT.value,
         help=congruential_keys.MULTI_AGREEMENT_AMOUNT_HELP.value,
     ),
+    text_id_sources: str = typer.Option(
+        Gp.NP_TRAINING_IDS.value,
+        congruential_keys.MULTI_AGREEMENT_ID_SOURCE_LONG.value,
+        congruential_keys.MULTI_AGREEMENT_ID_SOURCE_SHORT.value,
+        help=congruential_keys.MULTI_AGREEMENT_ID_SOURCE_HELP.value,
+    ),
 ):
     # Dateien aufstellen
-    ids = open(Gp.NP_TRAINING_IDS.value, mode="r", encoding="utf-8").readlines()
-    training_ids = [i.strip() for i in ids]
-    np_extracted_files = glob.glob("user/outgoing/extracted_nominal_phrases/*.*")
-    np_res_files = glob.glob("user/outgoing/nominal_phrase_analysis_results/*.*")
+    file_ids = open(text_id_sources, mode="r", encoding="utf-8").readlines()
 
-    # Skript ausfuehren
+    text_id_numbers = [file.strip() for file in file_ids]
+    np_extracted_files = glob.glob(Gp.NP_EXTRACTED_FILES_GLOB.value)
+    np_res_files = glob.glob(Gp.NP_CSV_RES_FILES_GLOB.value)
+
     # Time, damit die Dateien zeitlich erfasst werden.
     get_ast_data.ast_data()
-    time.sleep(1)
+    time.sleep(0.500)
     get_np_data.np_data()
 
     # Kongruenz fuer mehrere Dateien durchfuehren
     run_batch_congruency(
         congruency_algo=singular_nominal_phrase_agreement_analysis,
         np_files=np_extracted_files,
-        text_id_numbers=training_ids,
+        text_id_numbers=text_id_numbers,
         text_limit=text_amount,
     )
 
-    time.sleep(1)
+    time.sleep(0.500)
     count_results = get_np_results.count_np_results(np_res_files)
-    time.sleep(1)
+    time.sleep(0.500)
     generate_results_file(count_results)
+    time.sleep(0.500)
+
+    typer.echo("....json Dateien generieren")
+    json_creator.generate_np_json_files(text_id_numbers)
+
+    typer.echo(".json und .csv Ergebnisse zusammenfuehren")
+    json_creator.combine_csv_json_data()
+    typer.echo(".json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.")
 
 
 if __name__ == "__main__":

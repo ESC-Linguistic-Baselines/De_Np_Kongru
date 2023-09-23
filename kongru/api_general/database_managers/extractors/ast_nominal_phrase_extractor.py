@@ -32,7 +32,7 @@ class AstNominalPhraseExtractor:
 
     def __init__(
         self,
-        ast_file_id: str = None,
+        ast_file_name: str = None,
         save_name: str = None,
         incoming_data: str = None,
         pylist_name: str = None,
@@ -40,7 +40,7 @@ class AstNominalPhraseExtractor:
         self.pylist_name = pylist_name
         self.save_name = save_name.replace("ast", "csv")
         self.incoming_data = incoming_data
-        self.ast_file_id = ast_file_id
+        self.ast_file_name = ast_file_name
 
     def get_ast_data(self) -> list:
         """
@@ -62,10 +62,10 @@ class AstNominalPhraseExtractor:
             ast_data = ast.literal_eval(ast_data[0][0])
             return ast_data
 
-        if self.ast_file_id and not self.pylist_name:
+        if self.ast_file_name and not self.pylist_name:
             try:
                 file = open(
-                    self.ast_file_id,
+                    self.ast_file_name,
                     mode="r",
                     encoding="utf-8",
                     errors="ignore",
@@ -119,7 +119,7 @@ class AstNominalPhraseExtractor:
                 if len(raw) == 7:
                     true_np = ""
                     c += 1
-                    np_value = []
+                    mp_morpho_info = []
                     for token in raw[6]:
 
                         if token[3] in allowed_pos:
@@ -130,8 +130,8 @@ class AstNominalPhraseExtractor:
                                     token[5],
                                 )  # case, 'PREP'-tag)
 
-                                np_value.append(token_data)
-                                np_data[c] = np_value
+                                mp_morpho_info.append(token_data)
+                                np_data[c] = mp_morpho_info
                             else:
                                 token_data = (
                                     token[1],
@@ -139,9 +139,9 @@ class AstNominalPhraseExtractor:
                                     token[5],
                                 )  # (word form, POS-tag)
 
-                                np_value.append(token_data)
-                                if isinstance(np_value, list):
-                                    d = [item[0] for item in np_value]
+                                mp_morpho_info.append(token_data)
+                                if isinstance(mp_morpho_info, list):
+                                    d = [item[0] for item in mp_morpho_info]
                                     true_np = " ".join(d)
 
                                 if isinstance(raw[2], str):
@@ -149,7 +149,9 @@ class AstNominalPhraseExtractor:
                                 else:
                                     sentence = raw[3]
 
-                                np_data[c] = [true_np, np_value, sentence]
+                                np_id = raw[0]
+
+                                np_data[c] = [np_id, true_np, mp_morpho_info, sentence]
 
         return np_data
 
@@ -160,29 +162,47 @@ class AstNominalPhraseExtractor:
         Die Methode ruft 'get_ast_data_overview()' auf, um die AST-Daten abzurufen,
         und speichert sie in einer CSV-Datei
         mit dem in 'self.save_name' angegebenen Namen.
-        Die CSV-Datei enthält Informationen ueber die AST-Struktur.
+        Die CSV-Datei enthaelt Informationen ueber die AST-Struktur.
 
         Returns:
         None:
         """
-
         nps_dict = self.get_ast_data_overview()
 
         with open(self.save_name, mode="w", encoding="utf-8", newline="") as save:
             csv_writer = csv.writer(save)
             result_set = list()
+
             for key, values in nps_dict.items():
 
-                if isinstance(values[1], list):
-                    res = [" ".join(tups) for tups in values[1]]
+                try:
+                    if isinstance(values[2], list):
+                        np_res = [" ".join(tups) for tups in values[2]]
+                        np_id = values[0]
+                        np = values[1]
 
-                    result_set.append(res)
-                    res.append(values[-1])
-                    res.insert(0, values[0])
-                    csv_writer.writerow(res)
+                        result_set.append(np_res)
+
+                        np_res.append(values[-1])
+                        np_res.insert(0, np)
+                        np_res.insert(0, np_id)
+                        csv_writer.writerow(np_res)
+
+                except Exception as e:
+                    catch_and_log_error(
+                        custom_message="Diese NP ist zu kurz, um analysiert zu werden",
+                        echo_error=False,
+                        error=e,
+                    )
 
         return None
 
 
 if __name__ == "__main__":
-    pass
+    data = AstNominalPhraseExtractor(
+        ast_file_name="/Users/christopherchandler/repo/Python/computerlinguistik"
+        "/de_np_kongru/user/incoming/ast/1023_0101851.ast",
+        save_name="test.csv",
+    )
+
+    res = data.save_extracted_ast_nps()

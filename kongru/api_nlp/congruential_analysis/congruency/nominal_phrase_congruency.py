@@ -325,7 +325,7 @@ class NominalPhraseCongruency:
         Es wird auch festgestllt, ob die Nominalphrase eine gaengige Redwendung ist.
         Wenn es eine gaenige Redewendung ist wie z.B. 'Mit freundlichen Grueßen'
         oder "Liebe XYZ", kann man fast davon ausegehen, dass diese NPs entweder
-        richtig sind oder hoechstens uninteressant.
+        richtig oder hoechstens uninteressant sind.
 
         Args:
             vocabulary_np (list): Eine Liste von Woertern, die mit der Nominalphrase
@@ -431,8 +431,8 @@ class NominalPhraseCongruency:
         self, np_info: dict, np_demorphy: list, demorphy_dict: dict
     ) -> dict:
         """
-        Hier werden alle NPS auf moegliche Sorten getestet. Es wird dann entschieden
-        welche Np-Methode verwendet werden soll.
+        Hier werden alle NPS auf moegliche Sorten getestet. Es wird dann entschieden,
+        welche Np-Methode-Heuristik verwendet werden soll.
 
         Args:
             np_info (dict): Die morphologischen Information ueber diese NP
@@ -458,6 +458,7 @@ class NominalPhraseCongruency:
             ##########################################
 
             # Die Informationen aus den entsprechenden Dictionaries extrahieren
+
             full_np = np_info.get("full_np")
             sentence_np = np_info.get("sentence")
             vocabulary_np = full_np.split(" ")
@@ -681,7 +682,7 @@ class NominalPhraseCongruency:
             read_in_pickle_dict=True
         )
 
-        # Es werden alle NPs aus der Dateien Iterativ analysiert.
+        # Es werden alle NPs aus der Dateien iterativ analysiert.
         for np_key, np_value in tqdm(
             np_data.items(),
             file=sys.stdout,
@@ -694,7 +695,9 @@ class NominalPhraseCongruency:
 
             # wenn die NP leer sein soll bzw. es ist kein Eintrag vorhanden
             # dann wird sie auch nicht analysiert.
+
             if np_info:
+
                 np_analysis = self.nominal_congruency_check(
                     np_info=np_info,
                     np_demorphy=np_demorphy,
@@ -734,6 +737,7 @@ class NominalPhraseCongruency:
             duplicate_keys = list()
 
             for congruency_entry in congruency_results:
+
                 entry = congruency_entry.split("_")[1]
 
                 if entry not in duplicate_keys:
@@ -745,14 +749,16 @@ class NominalPhraseCongruency:
                             i.replace("\n", "") for i in result if isinstance(i, str)
                         ]
 
-                        # Den Code wieder einfuehren
+                        # Den Code wieder einfuegen
                         # 99 kommt kann im String doppelt vorkommen
                         # dies wird dann entfernt
                         if final_result[0] == "99":
+                            final_result.insert(0, congruency_entry)
                             csv_writer.writerow(final_result)
                         else:
                             code = result[0]
                             final_result.insert(0, code)
+                            final_result.insert(0, congruency_entry)
                             csv_writer.writerow(final_result)
 
                         duplicate_keys.append(entry)
@@ -760,7 +766,8 @@ class NominalPhraseCongruency:
                     except Exception as e:
                         catch_and_log_error(
                             error=e,
-                            custom_message=f"{congruency_entry} konnte nicht  gespeichert werden.",
+                            custom_message=f"{congruency_entry} konnte nicht  "
+                            f"gespeichert werden.",
                         )
 
 

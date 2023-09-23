@@ -60,8 +60,8 @@ def get_report() -> None:
 
     try:
         # Dateien aufstellen
-        gold_files = [CODE_NAMES[code] for code in get_files(Gp.GOLD_FILES.value)]
-        raw_files = [CODE_NAMES[code] for code in get_files(Gp.RAW_FILES.value)]
+        gold_files = [CODE_NAMES[code] for code in get_files(Gp.GOLD_FILES_GLOB.value)]
+        raw_files = [CODE_NAMES[code] for code in get_files(Gp.RAW_FILES_GLOB.value)]
 
         # Ergebnisse
         with warnings.catch_warnings():

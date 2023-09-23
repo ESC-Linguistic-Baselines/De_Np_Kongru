@@ -1,20 +1,20 @@
-Ingo,Ingo N Masc|_|Sg,"Lieber Ingo , wie geht es mit dir ?"
-eine Arbeit,eine ART Indef|Fem|Acc|Sg,Arbeit N Fem|Acc|Sg,Mir geht es gut : ich habe eine Arbeit in Neuburg gefunden !
-in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Mir geht es gut : ich habe eine Arbeit in Neuburg gefunden !
-eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Ich brauche jetzt eine Wohnung .
-Meine Arbeit,Meine ART Fem|Nom|Sg,Arbeit N Fem|Nom|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
-Juli,Juli N Masc|_|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
-eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
-in Neuburg,in PREP _,Neuburg N Fem|_|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
-Juli,Juli N Masc|_|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
-in Neuburg,in PREP _,Neuburg N Fem|_|Sg,"Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
-in die Wohnungen,in PREP _,die ART Def|Fem|_|Pl,Wohnungen N Fem|_|Pl,"Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
-im Juni,im PREP Dat,Juni N Masc|Dat|Sg,"Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
-eine kleine Wohnung,eine ART Indef|Fem|Acc|Sg,kleine ADJA Pos|Fem|Acc|Sg|_|,Wohnung N Fem|Acc|Sg,Ich möchte eine kleine Wohnung mieten .
-ein Badzimmer Wohnzimmer,ein ART Indef|Neut|Acc|Sg,Badzimmer N Neut|Acc|Sg,Wohnzimmer N Neut|Acc|Sg,"Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
-Badzimmer ein Wohnzimmer,Badzimmer N Neut|Acc|Sg,ein ART Indef|Neut|Acc|Sg,Wohnzimmer N Neut|Acc|Sg,"Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
-ein Schlafzimmer,ein ART Indef|Neut|Acc|Sg,Schlafzimmer N Neut|Acc|Sg,"Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
-im Juni,im PREP Dat,Juni N Masc|Dat|Sg,Kann ich dich besuchen im Juni ?
-für die Hilfe,für PREP Acc,die ART Def|Fem|Acc|Sg,Hilfe N Fem|Acc|Sg,Vielen Dank für die Hilfe !
-Grüß Maria,Grüß N Fem|_|Sg,Maria N Fem|_|Sg,"Grüß , deine Maria"
-Grüß deine Maria,Grüß N Fem|_|Sg,deine ART Fem|_|Sg,Maria N Fem|_|Sg,"Grüß , deine Maria"
+1_1,Ingo,Ingo N Masc|_|Sg,"Lieber Ingo , wie geht es mit dir ?"
+2_2,eine Arbeit,eine ART Indef|Fem|Acc|Sg,Arbeit N Fem|Acc|Sg,Mir geht es gut : ich habe eine Arbeit in Neuburg gefunden !
+2_3,in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Mir geht es gut : ich habe eine Arbeit in Neuburg gefunden !
+3_4,eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Ich brauche jetzt eine Wohnung .
+5_5,Meine Arbeit,Meine ART Fem|Nom|Sg,Arbeit N Fem|Nom|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_6,Juli,Juli N Masc|_|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_7,eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_8,in Neuburg,in PREP _,Neuburg N Fem|_|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_9,Juli,Juli N Masc|_|Sg,"Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+6_10,in Neuburg,in PREP _,Neuburg N Fem|_|Sg,"Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
+6_11,in die Wohnungen,in PREP _,die ART Def|Fem|_|Pl,Wohnungen N Fem|_|Pl,"Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
+6_13,im Juni,im PREP Dat,Juni N Masc|Dat|Sg,"Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
+7_14,eine kleine Wohnung,eine ART Indef|Fem|Acc|Sg,kleine ADJA Pos|Fem|Acc|Sg|_|,Wohnung N Fem|Acc|Sg,Ich möchte eine kleine Wohnung mieten .
+8_15,ein Badzimmer Wohnzimmer,ein ART Indef|Neut|Acc|Sg,Badzimmer N Neut|Acc|Sg,Wohnzimmer N Neut|Acc|Sg,"Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
+8_16,Badzimmer ein Wohnzimmer,Badzimmer N Neut|Acc|Sg,ein ART Indef|Neut|Acc|Sg,Wohnzimmer N Neut|Acc|Sg,"Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
+8_17,ein Schlafzimmer,ein ART Indef|Neut|Acc|Sg,Schlafzimmer N Neut|Acc|Sg,"Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
+9_18,im Juni,im PREP Dat,Juni N Masc|Dat|Sg,Kann ich dich besuchen im Juni ?
+10_20,für die Hilfe,für PREP Acc,die ART Def|Fem|Acc|Sg,Hilfe N Fem|Acc|Sg,Vielen Dank für die Hilfe !
+11_21,Grüß Maria,Grüß N Fem|_|Sg,Maria N Fem|_|Sg,"Grüß , deine Maria"
+11_22,Grüß deine Maria,Grüß N Fem|_|Sg,deine ART Fem|_|Sg,Maria N Fem|_|Sg,"Grüß , deine Maria"

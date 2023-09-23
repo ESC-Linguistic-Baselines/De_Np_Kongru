@@ -49,7 +49,10 @@ class MessageKeys:
         EMPTY_DIRECTORY_TRG_SHORT = "--trg"
         EMPTY_DIRECTORY_TRG_HELP = "Das Verzeichnis, das geleert werden soll."
 
-        FILE_TYPE_HELP = "Die Dateien, die geloescht werden sollen."
+        FILE_TYPE_HELP = (
+            "Die Dateien, die geloescht werden sollen. 'alle' loescht "
+            "\nalle Dateien im angegebenen Verzeichnis "
+        )
 
         MAIN_APP_START = "Die Hauptanwendung wurde gestartet."
         MAIN_APP_FATAL_ERROR = (
@@ -177,11 +180,17 @@ class MessageKeys:
         NP_AGREEMENT_MULTI_HELP = "Die Kongruenz der Nps in mehreren Dateien bestimmen"
 
         MULTI_AGREEMENT_AMOUNT_DEFAULT = 5
-
         MULTI_AGREEMENT_AMOUNT_LONG = "--text_anzahl"
         MULTI_AGREEMENT_AMOUNT_SHORT = "--anzahl"
         MULTI_AGREEMENT_AMOUNT_HELP = (
-            "bestimmt wie viele Texte verarbeitet werden sollen"
+            "bestimmt wie viele Texte verarbeitet werden " "sollen "
+        )
+
+        MULTI_AGREEMENT_ID_SOURCE_DEFAULT = 5
+        MULTI_AGREEMENT_ID_SOURCE_LONG = "--text_id_quelle"
+        MULTI_AGREEMENT_ID_SOURCE_SHORT = "--quelle"
+        MULTI_AGREEMENT_ID_SOURCE_HELP = (
+            "bestimmt aus welcher Datei, die Ids gelesen " "werden sollen."
         )
 
         NP_AGEREMENT_SAVE_DEFAULT = True

@@ -1,40 +1,40 @@
-Julia Winkelmann,Julia N Fem|_|Sg,Winkelmann N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
-Julia Winkelmann Müllergasse,Julia N Fem|_|Sg,Winkelmann N Fem|_|Sg,Müllergasse N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
-Winkelmann Müllergasse,Winkelmann N Fem|_|Sg,Müllergasse N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
-Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
-Stadt X Aupairsglobal,Stadt N Fem|_|Sg,X N Fem|_|Sg,Aupairsglobal N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
-X Aupairsglobal Bahnhofstr,X N Fem|_|Sg,Aupairsglobal N Fem|_|Sg,Bahnhofstr N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
-Aupairsglobal Bahnhofstr,Aupairsglobal N Fem|_|Sg,Bahnhofstr N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
-Wiesbaden Stadt,Wiesbaden N Fem|_|Sg,Stadt N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-Wiesbaden Stadt X,Wiesbaden N Fem|_|Sg,Stadt N Fem|_|Sg,X N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-März,März N Masc|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-Betreffzeile,Betreffzeile N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-Informationen,Informationen N _|Acc|Pl,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-geehrte Damen,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-Herren,Herren N Masc|_|_,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-Schülerin von Gymnasium,Schülerin N Neut|_|Sg,von PREP _,Gymnasium N Neut|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-von Beauticu,von PREP _,Beauticu N _|_|_,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-in der Schweiz,in PREP Dat,der ART Def|Fem|Dat|Sg,Schweiz N Fem|Dat|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-Au-pair,Au-pair N _,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
-einige Fragen,einige ART _|Acc|_,Fragen N _|Acc|_,"Zuerst , habe ich einige Fragen über die Sprache : muss ich nur in Deutsch sprechen ?"
-über die Sprache,über PREP Acc,die ART Def|Fem|Acc|Sg,Sprache N Fem|Acc|Sg,"Zuerst , habe ich einige Fragen über die Sprache : muss ich nur in Deutsch sprechen ?"
-in Deutsch,in PREP _,Deutsch N Neut|_|Sg,"Zuerst , habe ich einige Fragen über die Sprache : muss ich nur in Deutsch sprechen ?"
-Französisch,Französisch N Neut|Dat|Sg,Oder Französisch wären auch möglich ?
-Kindern,Kindern N _|Acc|_,"Vielleicht beide wären benutzt , mit die Kindern zu sprechen ."
-für Freizeitaktivitäten,für PREP Acc,Freizeitaktivitäten N Fem|Acc|Pl,Kann ich auch für Freizeitaktivitäten hoffen ?
-mit die Kindern,mit PREP Dat,die ART Def|Masc|_|Pl,Kindern N Masc|_|Pl,Oder mit die Kindern arbeiten wäre nur was ich machen sollte ?
-mit Tiere,mit PREP Dat,Tiere N Neut|Dat|Sg,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
-einige Aktivitäten,einige ART Fem|Nom|Pl,Aktivitäten N Fem|Nom|Pl,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
-mit Kindern,mit PREP Dat,Kindern N _|Dat|_,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
-Tiere,Tiere N Neut|Dat|Sg,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
-Aus den genannten Fragen,Aus PREP Dat,den ART Def|Fem|Dat|Pl,genannten ADJA Pos|Fem|Dat|Pl|_|,Fragen N Fem|Dat|Pl,"Aus den oben genannten Fragen , möchte ich Sie bitten , mir weitere Informationen senden ."
-weitere Informationen,weitere ADJA Comp|_|Acc|Pl|St|,Informationen N _|Acc|Pl,"Aus den oben genannten Fragen , möchte ich Sie bitten , mir weitere Informationen senden ."
-in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Eine Au-Pair-Stelle in Deutschland wäre eine wunderschönes Innovation für mich , um meinem Deutsch zu verbessern ."
-meinem Deutsch,meinem ART Neut|Dat|Sg,Deutsch N Neut|Dat|Sg,"Eine Au-Pair-Stelle in Deutschland wäre eine wunderschönes Innovation für mich , um meinem Deutsch zu verbessern ."
-mit Kindern,mit PREP Dat,Kindern N _|Dat|_,"Das wäre auch sehr positiv , mit Kindern zu arbeiten , als sie wirklich wichtig für mich sind ."
-zur verfügung,zur PREP Dat,verfügung N _|Dat|_,Natürlich stehe ich Ihnen jeder Zeit zur verfügung und verbleibe mit freundlichen Grüssen .
-mit freundlichen Grüssen,mit PREP Dat,freundlichen ADJA Pos|_|Dat|_|_|,Grüssen N _|Dat|_,Natürlich stehe ich Ihnen jeder Zeit zur verfügung und verbleibe mit freundlichen Grüssen .
-J. Winkelmann,J. N _|_|Sg,Winkelmann N _|_|Sg,J. Winkelmann
-J. Winkelmann,J. N _|_|Sg,Winkelmann N _|_|Sg,J. Winkelmann
+1_1,Julia Winkelmann,Julia N Fem|_|Sg,Winkelmann N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
+1_2,Julia Winkelmann Müllergasse,Julia N Fem|_|Sg,Winkelmann N Fem|_|Sg,Müllergasse N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
+1_3,Winkelmann Müllergasse,Winkelmann N Fem|_|Sg,Müllergasse N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
+1_4,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
+1_5,Stadt X Aupairsglobal,Stadt N Fem|_|Sg,X N Fem|_|Sg,Aupairsglobal N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
+1_6,X Aupairsglobal Bahnhofstr,X N Fem|_|Sg,Aupairsglobal N Fem|_|Sg,Bahnhofstr N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
+1_7,Aupairsglobal Bahnhofstr,Aupairsglobal N Fem|_|Sg,Bahnhofstr N Fem|_|Sg,Julia Winkelmann Müllergasse 12 12345 Stadt X Aupairsglobal Bahnhofstr .
+2_8,Wiesbaden Stadt,Wiesbaden N Fem|_|Sg,Stadt N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_9,Wiesbaden Stadt X,Wiesbaden N Fem|_|Sg,Stadt N Fem|_|Sg,X N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_10,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_11,März,März N Masc|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_12,Betreffzeile,Betreffzeile N Fem|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_13,Informationen,Informationen N _|Acc|Pl,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_14,geehrte Damen,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_15,Herren,Herren N Masc|_|_,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_16,Schülerin von Gymnasium,Schülerin N Neut|_|Sg,von PREP _,Gymnasium N Neut|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_17,von Beauticu,von PREP _,Beauticu N _|_|_,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_19,in der Schweiz,in PREP Dat,der ART Def|Fem|Dat|Sg,Schweiz N Fem|Dat|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_20,Au-pair,Au-pair N _,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+2_21,in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"101 65185 Wiesbaden Stadt X , den 29 März 2011 Betreffzeile : Informationen zu fragen Sehr geehrte Damen und Herren als Schülerin von Beauticu Gymnasium in der Schweiz , wende ich mich an Ihnen , weil ich als Au-pair sehr gerne in Deutschland werden möchte ."
+3_22,einige Fragen,einige ART _|Acc|_,Fragen N _|Acc|_,"Zuerst , habe ich einige Fragen über die Sprache : muss ich nur in Deutsch sprechen ?"
+3_23,über die Sprache,über PREP Acc,die ART Def|Fem|Acc|Sg,Sprache N Fem|Acc|Sg,"Zuerst , habe ich einige Fragen über die Sprache : muss ich nur in Deutsch sprechen ?"
+3_24,in Deutsch,in PREP _,Deutsch N Neut|_|Sg,"Zuerst , habe ich einige Fragen über die Sprache : muss ich nur in Deutsch sprechen ?"
+4_25,Französisch,Französisch N Neut|Dat|Sg,Oder Französisch wären auch möglich ?
+5_26,Kindern,Kindern N _|Acc|_,"Vielleicht beide wären benutzt , mit die Kindern zu sprechen ."
+6_27,für Freizeitaktivitäten,für PREP Acc,Freizeitaktivitäten N Fem|Acc|Pl,Kann ich auch für Freizeitaktivitäten hoffen ?
+7_28,mit die Kindern,mit PREP Dat,die ART Def|Masc|_|Pl,Kindern N Masc|_|Pl,Oder mit die Kindern arbeiten wäre nur was ich machen sollte ?
+8_29,mit Tiere,mit PREP Dat,Tiere N Neut|Dat|Sg,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
+8_30,einige Aktivitäten,einige ART Fem|Nom|Pl,Aktivitäten N Fem|Nom|Pl,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
+8_31,mit Kindern,mit PREP Dat,Kindern N _|Dat|_,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
+8_32,Tiere,Tiere N Neut|Dat|Sg,"Ausserdem , ich habe viel mit Tiere gearbeitet und deshalb möchte ich wissen , ob einige Aktivitäten mit Kindern und Tiere möglich wurden ."
+9_33,Aus den genannten Fragen,Aus PREP Dat,den ART Def|Fem|Dat|Pl,genannten ADJA Pos|Fem|Dat|Pl|_|,Fragen N Fem|Dat|Pl,"Aus den oben genannten Fragen , möchte ich Sie bitten , mir weitere Informationen senden ."
+9_34,weitere Informationen,weitere ADJA Comp|_|Acc|Pl|St|,Informationen N _|Acc|Pl,"Aus den oben genannten Fragen , möchte ich Sie bitten , mir weitere Informationen senden ."
+10_36,in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Eine Au-Pair-Stelle in Deutschland wäre eine wunderschönes Innovation für mich , um meinem Deutsch zu verbessern ."
+10_38,meinem Deutsch,meinem ART Neut|Dat|Sg,Deutsch N Neut|Dat|Sg,"Eine Au-Pair-Stelle in Deutschland wäre eine wunderschönes Innovation für mich , um meinem Deutsch zu verbessern ."
+11_39,mit Kindern,mit PREP Dat,Kindern N _|Dat|_,"Das wäre auch sehr positiv , mit Kindern zu arbeiten , als sie wirklich wichtig für mich sind ."
+12_41,zur verfügung,zur PREP Dat,verfügung N _|Dat|_,Natürlich stehe ich Ihnen jeder Zeit zur verfügung und verbleibe mit freundlichen Grüssen .
+12_42,mit freundlichen Grüssen,mit PREP Dat,freundlichen ADJA Pos|_|Dat|_|_|,Grüssen N _|Dat|_,Natürlich stehe ich Ihnen jeder Zeit zur verfügung und verbleibe mit freundlichen Grüssen .
+13_43,J. Winkelmann,J. N _|_|Sg,Winkelmann N _|_|Sg,J. Winkelmann
+13_44,J. Winkelmann,J. N _|_|Sg,Winkelmann N _|_|Sg,J. Winkelmann

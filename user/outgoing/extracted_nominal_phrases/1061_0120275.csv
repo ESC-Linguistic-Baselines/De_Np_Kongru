@@ -1,28 +1,28 @@
-Lieb Dana,Lieb N _,Dana N _,Lieb Dana .
-Lieb Dana,Lieb N _,Dana N _,Lieb Dana .
-für diene Brief,für PREP Acc,diene ADJA _|Masc|Acc|Sg|_,Brief N Masc|Acc|Sg,Vielen Danke für diene Brief .
-im Turkei,im PREP Dat,Turkei N _|Dat|_,"Ich freue mich dass du im Turkei bist , weil eines schönes Land es ist ."
-eines schönes Land,eines ART Indef|_|Gen|Sg,schönes ADJA Pos|Neut|_|Sg|St|,Land N _|Gen|Sg,"Ich freue mich dass du im Turkei bist , weil eines schönes Land es ist ."
-für deine Prüfung,für PREP Acc,deine ART Fem|Acc|Sg,Prüfung N Fem|Acc|Sg,Ich wunsche dir alles gütes für deine Prüfung .
-Technisches Schüle beim deine liebslinge,Technisches N Neut|_|Sg,Schüle N Neut|_|Sg,beim PREP Dat,deine ART Neut|_|Sg,liebslinge ADJA _|Neut|_|Sg|_,hofentich klappt es und kannst du beim deine liebslinge Technisches Schüle dich anmelden .
-Technisches Schüle,Technisches N Neut|_|Sg,Schüle N Neut|_|Sg,hofentich klappt es und kannst du beim deine liebslinge Technisches Schüle dich anmelden .
-Zeit,Zeit N Fem|Acc|Sg,"Wenn du Zeit hättest , kannst du mir eine paar blaue Augen kaufen und zuruck bringen ."
-paar blaue Augen eine,paar ART Neut|Acc|Pl,blaue ADJA Pos|Neut|Acc|Pl|St|,Augen N Neut|Acc|Pl,eine ART Indef|Fem|_|Sg,"Wenn du Zeit hättest , kannst du mir eine paar blaue Augen kaufen und zuruck bringen ."
-zuruck,zuruck N _|_|_,"Wenn du Zeit hättest , kannst du mir eine paar blaue Augen kaufen und zuruck bringen ."
-im Türkei,im PREP Dat,Türkei N Fem|_|Sg,Ich weiss dass im Türkei sie Glück bringen .
-Glück,Glück N Neut|Acc|Sg,Ich weiss dass im Türkei sie Glück bringen .
-Eltern,Eltern N _|Acc|Pl,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
-für Jahren,für PREP Acc,Jahren N Neut|Dat|Pl,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
-in Istanbul,in PREP _,Istanbul N Neut|_|Sg,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
-gewhonnen,gewhonnen N _|Nom|Pl,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
-beider Lehrer,beider ART Masc|Gen|Pl,Lehrer N Masc|Gen|Pl,"Sie waren beider Lehrer , und eine slelle in das Istanbul Französisches gymnasium bekommen hatten ."
-Istanbul Französisches gymnasium,Istanbul N Neut|Acc|Sg,Französisches ADJA Pos|Neut|Acc|Sg|St|,gymnasium N Neut|Acc|Sg,"Sie waren beider Lehrer , und eine slelle in das Istanbul Französisches gymnasium bekommen hatten ."
-meiner Vater,meiner ART _|_|_,Vater N Fem|Dat|Sg,Jetzt whonnt meiner Vater im Frankreich meine Mutter leider gestorben ist .
-im Frankreich,im PREP Dat,Frankreich N Neut|Dat|Sg,Jetzt whonnt meiner Vater im Frankreich meine Mutter leider gestorben ist .
-meine Mutter,meine ART Fem|Nom|Sg,Mutter N Fem|Nom|Sg,Jetzt whonnt meiner Vater im Frankreich meine Mutter leider gestorben ist .
-ein neues Job,ein ART Indef|Masc|Nom|Sg,neues ADJA Pos|Neut|_|Sg|St|,Job N Masc|Nom|Sg,Ich habe gerade ein neues Job gefunden und kann kein frei Tagen nehmenm .
-kein Tagen nehmenm,kein ART Neut|Acc|Sg,Tagen N Neut|Acc|Sg,nehmenm N Neut|Acc|Sg,Ich habe gerade ein neues Job gefunden und kann kein frei Tagen nehmenm .
-Tagen nehmenm,Tagen N Neut|Acc|Sg,nehmenm N Neut|Acc|Sg,Ich habe gerade ein neues Job gefunden und kann kein frei Tagen nehmenm .
-Monaten,Monaten N Masc|Dat|Pl,bevor 3 Monaten .
-aus Stadt,aus PREP Dat,Stadt N Fem|Dat|Sg,Vieler grusser aus Stadt X wo ich gerade Dleutsche lerne
-Dleutsche,Dleutsche N _|_|_,Vieler grusser aus Stadt X wo ich gerade Dleutsche lerne
+1_1,Lieb Dana,Lieb N _,Dana N _,Lieb Dana .
+1_2,Lieb Dana,Lieb N _,Dana N _,Lieb Dana .
+2_4,für diene Brief,für PREP Acc,diene ADJA _|Masc|Acc|Sg|_,Brief N Masc|Acc|Sg,Vielen Danke für diene Brief .
+3_5,im Turkei,im PREP Dat,Turkei N _|Dat|_,"Ich freue mich dass du im Turkei bist , weil eines schönes Land es ist ."
+3_6,eines schönes Land,eines ART Indef|_|Gen|Sg,schönes ADJA Pos|Neut|_|Sg|St|,Land N _|Gen|Sg,"Ich freue mich dass du im Turkei bist , weil eines schönes Land es ist ."
+4_7,für deine Prüfung,für PREP Acc,deine ART Fem|Acc|Sg,Prüfung N Fem|Acc|Sg,Ich wunsche dir alles gütes für deine Prüfung .
+5_8,Technisches Schüle beim deine liebslinge,Technisches N Neut|_|Sg,Schüle N Neut|_|Sg,beim PREP Dat,deine ART Neut|_|Sg,liebslinge ADJA _|Neut|_|Sg|_,hofentich klappt es und kannst du beim deine liebslinge Technisches Schüle dich anmelden .
+5_9,Technisches Schüle,Technisches N Neut|_|Sg,Schüle N Neut|_|Sg,hofentich klappt es und kannst du beim deine liebslinge Technisches Schüle dich anmelden .
+6_10,Zeit,Zeit N Fem|Acc|Sg,"Wenn du Zeit hättest , kannst du mir eine paar blaue Augen kaufen und zuruck bringen ."
+6_11,paar blaue Augen eine,paar ART Neut|Acc|Pl,blaue ADJA Pos|Neut|Acc|Pl|St|,Augen N Neut|Acc|Pl,eine ART Indef|Fem|_|Sg,"Wenn du Zeit hättest , kannst du mir eine paar blaue Augen kaufen und zuruck bringen ."
+6_12,zuruck,zuruck N _|_|_,"Wenn du Zeit hättest , kannst du mir eine paar blaue Augen kaufen und zuruck bringen ."
+7_13,im Türkei,im PREP Dat,Türkei N Fem|_|Sg,Ich weiss dass im Türkei sie Glück bringen .
+7_14,Glück,Glück N Neut|Acc|Sg,Ich weiss dass im Türkei sie Glück bringen .
+8_15,Eltern,Eltern N _|Acc|Pl,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
+8_16,für Jahren,für PREP Acc,Jahren N Neut|Dat|Pl,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
+8_17,in Istanbul,in PREP _,Istanbul N Neut|_|Sg,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
+8_18,gewhonnen,gewhonnen N _|Nom|Pl,"Weiss du , meine Eltern haben für zwei Jahren auch in Istanbul gewhonnen ."
+9_19,beider Lehrer,beider ART Masc|Gen|Pl,Lehrer N Masc|Gen|Pl,"Sie waren beider Lehrer , und eine slelle in das Istanbul Französisches gymnasium bekommen hatten ."
+9_22,Istanbul Französisches gymnasium,Istanbul N Neut|Acc|Sg,Französisches ADJA Pos|Neut|Acc|Sg|St|,gymnasium N Neut|Acc|Sg,"Sie waren beider Lehrer , und eine slelle in das Istanbul Französisches gymnasium bekommen hatten ."
+10_23,meiner Vater,meiner ART _|_|_,Vater N Fem|Dat|Sg,Jetzt whonnt meiner Vater im Frankreich meine Mutter leider gestorben ist .
+10_24,im Frankreich,im PREP Dat,Frankreich N Neut|Dat|Sg,Jetzt whonnt meiner Vater im Frankreich meine Mutter leider gestorben ist .
+10_25,meine Mutter,meine ART Fem|Nom|Sg,Mutter N Fem|Nom|Sg,Jetzt whonnt meiner Vater im Frankreich meine Mutter leider gestorben ist .
+13_26,ein neues Job,ein ART Indef|Masc|Nom|Sg,neues ADJA Pos|Neut|_|Sg|St|,Job N Masc|Nom|Sg,Ich habe gerade ein neues Job gefunden und kann kein frei Tagen nehmenm .
+13_27,kein Tagen nehmenm,kein ART Neut|Acc|Sg,Tagen N Neut|Acc|Sg,nehmenm N Neut|Acc|Sg,Ich habe gerade ein neues Job gefunden und kann kein frei Tagen nehmenm .
+13_28,Tagen nehmenm,Tagen N Neut|Acc|Sg,nehmenm N Neut|Acc|Sg,Ich habe gerade ein neues Job gefunden und kann kein frei Tagen nehmenm .
+14_29,Monaten,Monaten N Masc|Dat|Pl,bevor 3 Monaten .
+16_31,aus Stadt,aus PREP Dat,Stadt N Fem|Dat|Sg,Vieler grusser aus Stadt X wo ich gerade Dleutsche lerne
+16_32,Dleutsche,Dleutsche N _|_|_,Vieler grusser aus Stadt X wo ich gerade Dleutsche lerne

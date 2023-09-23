@@ -21,7 +21,9 @@ class Statistics:
         with open(self.np_results_file, mode="r", encoding="utf-8") as file:
             csv_reader = csv.reader(file)
 
-            results = [i for i in csv_reader if len(i) > 0]
+            results = list()
+            for row in csv_reader:
+                results.append(row[1:])
 
             return results
 

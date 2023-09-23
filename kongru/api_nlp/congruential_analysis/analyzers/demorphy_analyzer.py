@@ -98,7 +98,7 @@ class DemorphyAnalyzer(
                 "np_data": {
                     '1_Katharina': {'full_np': 'Katharina', 'sentence':
                     'Katharina .', 1: {...}},
-                    # Weitere NP-Daten für andere NPs...
+                    # Weitere NP-Daten fuer andere NPs...
                 },
                 "np_morph": {
                     '1_Katharina': [
@@ -112,6 +112,7 @@ class DemorphyAnalyzer(
         """
         np_morph = dict()  # Ein leeres Dictionary zur Speicherung der NP-Morphologie
         np_data = self.get_read_in_np_file()  # Holen der geladenen NP-Daten
+
         morph_dict = self.get_read_in_demorphy_dict()  # Holen der Demorphy-
         # Lexikoneintraege
 

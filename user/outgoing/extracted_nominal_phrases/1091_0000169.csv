@@ -1,23 +1,23 @@
-Liebe Katharina,Liebe ADJA Pos|Fem|_|Sg|_|,Katharina N Fem|_|Sg,"Liebe Katharina , wie geht es dir ?"
-wochende,wochende N _|Dat|_,Diese wochende gehe ich um urlaub in Spanien .
-um urlaub,um PREP _,urlaub N _|_|_,Diese wochende gehe ich um urlaub in Spanien .
-in Spanien,in PREP _,Spanien N Neut|_|Sg,Diese wochende gehe ich um urlaub in Spanien .
-ein Klein problem,ein ART Indef|Neut|Acc|Sg,Klein N Neut|Acc|Sg,problem N Neut|Acc|Sg,Ich habe ein Klein problem .
-Klein problem,Klein N Neut|Acc|Sg,problem N Neut|Acc|Sg,Ich habe ein Klein problem .
-Mein hund,Mein ART _|Nom|Sg,hund N _|Nom|Sg,Mein hund ist alliene zu hause .
-mein hund,mein ART _|Nom|Sg,hund N _|Nom|Sg,Das ist wunderschon wenn mein hund ist mit da in ihre hause .
-ein Klein,ein ART Indef|_|Nom|Sg,Klein N _|Nom|Sg,Das ist ein Klein daschund und ist sehr suß .
-die hund,die ART Def|Fem|Nom|Sg,hund N Fem|Nom|Sg,Ich gebe die hund futter und die hund decke wann du sagt es ist ok .
-ok,ok N _|Nom|_,Ich gebe die hund futter und die hund decke wann du sagt es ist ok .
-Diese Freitag,Diese ART _|_|_,Freitag N _|Nom|Pl,Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
-zum flughafen,zum PREP Dat,flughafen N _|Dat|_,Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
-am Samstag,am PREP Dat,Samstag N _|Dat|Sg,Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
-swei,swei N _|Nom|Sg,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
-in der tag,in PREP Dat,der ART Def|Fem|Dat|Sg,tag N Fem|Dat|Sg,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
-mit Bello,mit PREP Dat,Bello N _|Dat|_,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
-name,name N _|Dat|_,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
-Bitte,Bitte N Fem|Dat|Sg,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
-Bello,Bello N _|_|_,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
-Danke,Danke N Masc|Dat|Sg,Danke für ihr hilfe und ich freue mich für ihre anrüfen .
-Viele Grüße Stefan,Viele ART Masc|_|Pl,Grüße N Masc|_|Pl,Stefan N Masc|_|Sg,"Viele Grüße , Stefan"
-Grüße Stefan,Grüße N Masc|_|Pl,Stefan N Masc|_|Sg,"Viele Grüße , Stefan"
+1_1,Liebe Katharina,Liebe ADJA Pos|Fem|_|Sg|_|,Katharina N Fem|_|Sg,"Liebe Katharina , wie geht es dir ?"
+3_2,wochende,wochende N _|Dat|_,Diese wochende gehe ich um urlaub in Spanien .
+3_3,um urlaub,um PREP _,urlaub N _|_|_,Diese wochende gehe ich um urlaub in Spanien .
+3_4,in Spanien,in PREP _,Spanien N Neut|_|Sg,Diese wochende gehe ich um urlaub in Spanien .
+4_5,ein Klein problem,ein ART Indef|Neut|Acc|Sg,Klein N Neut|Acc|Sg,problem N Neut|Acc|Sg,Ich habe ein Klein problem .
+4_6,Klein problem,Klein N Neut|Acc|Sg,problem N Neut|Acc|Sg,Ich habe ein Klein problem .
+5_7,Mein hund,Mein ART _|Nom|Sg,hund N _|Nom|Sg,Mein hund ist alliene zu hause .
+6_8,mein hund,mein ART _|Nom|Sg,hund N _|Nom|Sg,Das ist wunderschon wenn mein hund ist mit da in ihre hause .
+7_9,ein Klein,ein ART Indef|_|Nom|Sg,Klein N _|Nom|Sg,Das ist ein Klein daschund und ist sehr suß .
+8_10,die hund,die ART Def|Fem|Nom|Sg,hund N Fem|Nom|Sg,Ich gebe die hund futter und die hund decke wann du sagt es ist ok .
+8_11,ok,ok N _|Nom|_,Ich gebe die hund futter und die hund decke wann du sagt es ist ok .
+9_12,Diese Freitag,Diese ART _|_|_,Freitag N _|Nom|Pl,Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
+9_13,zum flughafen,zum PREP Dat,flughafen N _|Dat|_,Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
+9_14,am Samstag,am PREP Dat,Samstag N _|Dat|Sg,Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
+10_15,swei,swei N _|Nom|Sg,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_16,in der tag,in PREP Dat,der ART Def|Fem|Dat|Sg,tag N Fem|Dat|Sg,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_17,mit Bello,mit PREP Dat,Bello N _|Dat|_,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_18,name,name N _|Dat|_,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_19,Bitte,Bitte N Fem|Dat|Sg,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_20,Bello,Bello N _|_|_,"Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+11_21,Danke,Danke N Masc|Dat|Sg,Danke für ihr hilfe und ich freue mich für ihre anrüfen .
+12_23,Viele Grüße Stefan,Viele ART Masc|_|Pl,Grüße N Masc|_|Pl,Stefan N Masc|_|Sg,"Viele Grüße , Stefan"
+12_24,Grüße Stefan,Grüße N Masc|_|Pl,Stefan N Masc|_|Sg,"Viele Grüße , Stefan"

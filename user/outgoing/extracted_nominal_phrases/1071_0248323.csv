@@ -1,18 +1,18 @@
-Hallo Ingo,Hallo N Neut|_|Sg,Ingo N Masc|_|Sg,Hallo Ingo .
-Hallo Ingo,Hallo N Neut|_|Sg,Ingo N Masc|_|Sg,Hallo Ingo .
-eine Arbeit,eine ART Indef|Fem|Acc|Sg,Arbeit N Fem|Acc|Sg,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
-in Neuburg gefundet,in PREP _,Neuburg N _|_|_,gefundet N _|_|_,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
-Neuburg gefundet,Neuburg N _|_|_,gefundet N _|_|_,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
-1st Juli,1st N Masc|Nom|Sg,Juli N Masc|Nom|Sg,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
-1st Juli,1st N Masc|Nom|Sg,Juli N Masc|Nom|Sg,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
-eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Ich brauche eine Wohnung in Neuburg .
-in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Ich brauche eine Wohnung in Neuburg .
-ihr Hilfe,ihr ART _|_|Sg,Hilfe N _|Nom|Sg,Kann ihr Hilfe mich bei der Wohnungssuche .
-bei der Wohnungssuche,bei PREP Dat,der ART Def|Fem|Dat|Sg,Wohnungssuche N Fem|Dat|Sg,Kann ihr Hilfe mich bei der Wohnungssuche .
-an Idee,an PREP _,Idee N Fem|_|Sg,Ich habe an Idee Große der Wohnung .
-Große Wohnung,Große N _|Acc|_,Wohnung N Fem|Gen|Sg,Ich habe an Idee Große der Wohnung .
-Große der Wohnung,Große N _|Acc|_,der ART Def|Fem|Gen|Sg,Wohnung N Fem|Gen|Sg,Ich habe an Idee Große der Wohnung .
-der Zeit,der ART Def|Fem|Dat|Sg,Zeit N Fem|Dat|Sg,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
-Mit Große Freundlich,Mit PREP Dat,Große ADJA Pos|_|_|_|_|,Freundlich N _|_|_,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
-Vielen Vielen,Vielen ART _|Acc|_,Vielen N _|Acc|_,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
-Danke,Danke N Masc|Dat|Sg,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
+1_1,Hallo Ingo,Hallo N Neut|_|Sg,Ingo N Masc|_|Sg,Hallo Ingo .
+1_2,Hallo Ingo,Hallo N Neut|_|Sg,Ingo N Masc|_|Sg,Hallo Ingo .
+2_3,eine Arbeit,eine ART Indef|Fem|Acc|Sg,Arbeit N Fem|Acc|Sg,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+2_4,in Neuburg gefundet,in PREP _,Neuburg N _|_|_,gefundet N _|_|_,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+2_5,Neuburg gefundet,Neuburg N _|_|_,gefundet N _|_|_,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+2_6,1st Juli,1st N Masc|Nom|Sg,Juli N Masc|Nom|Sg,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+2_7,1st Juli,1st N Masc|Nom|Sg,Juli N Masc|Nom|Sg,"Ich haben eine Arbeit in Neuburg gefundet , Ich beginnt 1st Juli ."
+3_8,eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Ich brauche eine Wohnung in Neuburg .
+3_9,in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Ich brauche eine Wohnung in Neuburg .
+4_10,ihr Hilfe,ihr ART _|_|Sg,Hilfe N _|Nom|Sg,Kann ihr Hilfe mich bei der Wohnungssuche .
+4_11,bei der Wohnungssuche,bei PREP Dat,der ART Def|Fem|Dat|Sg,Wohnungssuche N Fem|Dat|Sg,Kann ihr Hilfe mich bei der Wohnungssuche .
+5_12,an Idee,an PREP _,Idee N Fem|_|Sg,Ich habe an Idee Große der Wohnung .
+5_13,Große Wohnung,Große N _|Acc|_,Wohnung N Fem|Gen|Sg,Ich habe an Idee Große der Wohnung .
+5_14,Große der Wohnung,Große N _|Acc|_,der ART Def|Fem|Gen|Sg,Wohnung N Fem|Gen|Sg,Ich habe an Idee Große der Wohnung .
+6_15,der Zeit,der ART Def|Fem|Dat|Sg,Zeit N Fem|Dat|Sg,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
+6_16,Mit Große Freundlich,Mit PREP Dat,Große ADJA Pos|_|_|_|_|,Freundlich N _|_|_,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
+6_17,Vielen Vielen,Vielen ART _|Acc|_,Vielen N _|Acc|_,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .
+6_18,Danke,Danke N Masc|Dat|Sg,Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke .

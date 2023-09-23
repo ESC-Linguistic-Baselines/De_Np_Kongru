@@ -1,14 +1,14 @@
-Stadt X,Stadt N Fem|_|Sg,X N _|_|Pl,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
-Stadt X Lieber,Stadt N Fem|_|Sg,X N _|_|Pl,Lieber N _|_|Pl,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
-X Lieber Jens,X N _|_|Pl,Lieber N _|_|Pl,Jens N Masc|_|Sg,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
-Lieber Jens,Lieber N _|_|Pl,Jens N Masc|_|Sg,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
-Vater,Vater N Masc|Nom|Sg,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
-Glückwünsche,Glückwünsche N Masc|_|Pl,Das ich prima und Glückwünsche .
-die Babys name,die ART Def|Neut|Nom|Pl,Babys N Neut|Nom|Pl,name N Neut|Nom|Pl,Was ist die Babys name ?
-Babys name,Babys N Neut|Nom|Pl,name N Neut|Nom|Pl,Was ist die Babys name ?
-Mutter,Mutter N Fem|_|Sg,Und er Mutter ?
-ALLes clan,ALLes N _|_|_,clan N _|_|_,Ich hope ALLes clan .
-ALLes clan,ALLes N _|_|_,clan N _|_|_,Ich hope ALLes clan .
-Liebe Grüße Frienden,Liebe ADJA Pos|Masc|_|Pl|St|,Grüße N Masc|_|Pl,Frienden N Masc|_|Sg,"Liebe Grüße Frienden , Tobias"
-Grüße Frienden Tobias,Grüße N Masc|_|Pl,Frienden N Masc|_|Sg,Tobias N Masc|_|Sg,"Liebe Grüße Frienden , Tobias"
-Frienden Tobias,Frienden N Masc|_|Sg,Tobias N Masc|_|Sg,"Liebe Grüße Frienden , Tobias"
+1_1,Stadt X,Stadt N Fem|_|Sg,X N _|_|Pl,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
+1_2,Stadt X Lieber,Stadt N Fem|_|Sg,X N _|_|Pl,Lieber N _|_|Pl,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
+1_3,X Lieber Jens,X N _|_|Pl,Lieber N _|_|Pl,Jens N Masc|_|Sg,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
+1_4,Lieber Jens,Lieber N _|_|Pl,Jens N Masc|_|Sg,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
+1_5,Vater,Vater N Masc|Nom|Sg,"Stadt X , 26,04,12 Lieber Jens , Ich hörren er Vater ist geworden ."
+2_6,Glückwünsche,Glückwünsche N Masc|_|Pl,Das ich prima und Glückwünsche .
+3_7,die Babys name,die ART Def|Neut|Nom|Pl,Babys N Neut|Nom|Pl,name N Neut|Nom|Pl,Was ist die Babys name ?
+3_8,Babys name,Babys N Neut|Nom|Pl,name N Neut|Nom|Pl,Was ist die Babys name ?
+5_9,Mutter,Mutter N Fem|_|Sg,Und er Mutter ?
+7_10,ALLes clan,ALLes N _|_|_,clan N _|_|_,Ich hope ALLes clan .
+7_11,ALLes clan,ALLes N _|_|_,clan N _|_|_,Ich hope ALLes clan .
+8_12,Liebe Grüße Frienden,Liebe ADJA Pos|Masc|_|Pl|St|,Grüße N Masc|_|Pl,Frienden N Masc|_|Sg,"Liebe Grüße Frienden , Tobias"
+8_13,Grüße Frienden Tobias,Grüße N Masc|_|Pl,Frienden N Masc|_|Sg,Tobias N Masc|_|Sg,"Liebe Grüße Frienden , Tobias"
+8_14,Frienden Tobias,Frienden N Masc|_|Sg,Tobias N Masc|_|Sg,"Liebe Grüße Frienden , Tobias"

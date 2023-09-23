@@ -1,9 +1,9 @@
-Daniela,Daniela N Fem|_|Sg,"Hallo Daniela , wie geht ´ s ?"
-Wills,Wills N Masc|Gen|Sg,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
-ins schwimmbad,ins PREP Acc,schwimmbad N _|Acc|_,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
-am Mittwoch,am PREP Dat,Mittwoch N Masc|Dat|Sg,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
-uhr,uhr N _|Nom|Pl,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
-Orangensaft flasche,Orangensaft N Fem|Acc|Sg,flasche N Fem|Acc|Sg,Ich habe eine große Orangensaft flasche für uns Möchtest du mit die ein Früchtuk gebringen ?
-ein Früchtuk,ein ART Indef|Neut|Acc|Sg,Früchtuk N Neut|Acc|Sg,Ich habe eine große Orangensaft flasche für uns Möchtest du mit die ein Früchtuk gebringen ?
-Michael,Michael N Masc|_|Sg,Michael ; p
-p,p N _,Michael ; p
+1_1,Daniela,Daniela N Fem|_|Sg,"Hallo Daniela , wie geht ´ s ?"
+2_2,Wills,Wills N Masc|Gen|Sg,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
+2_3,ins schwimmbad,ins PREP Acc,schwimmbad N _|Acc|_,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
+2_4,am Mittwoch,am PREP Dat,Mittwoch N Masc|Dat|Sg,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
+2_5,uhr,uhr N _|Nom|Pl,Wills du mit mir ins schwimmbad gehen am Mittwoch abend ( 13 uhr ) ?
+3_7,Orangensaft flasche,Orangensaft N Fem|Acc|Sg,flasche N Fem|Acc|Sg,Ich habe eine große Orangensaft flasche für uns Möchtest du mit die ein Früchtuk gebringen ?
+3_8,ein Früchtuk,ein ART Indef|Neut|Acc|Sg,Früchtuk N Neut|Acc|Sg,Ich habe eine große Orangensaft flasche für uns Möchtest du mit die ein Früchtuk gebringen ?
+5_9,Michael,Michael N Masc|_|Sg,Michael ; p
+5_10,p,p N _,Michael ; p

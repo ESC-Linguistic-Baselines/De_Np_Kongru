@@ -1,4 +1,5 @@
 # Standard
+import glob
 import os
 
 from enum import Enum
@@ -41,10 +42,14 @@ class GeneralPaths(Enum):
     #  Verzeichnisse  #
     #############
     # Das muss lokal gesetzt werden. Es haengt von dem jeweiligen Rechner ab.
-    DIR_MAIN = config().get("CONFIG_HOME_DIR")
-    DIR_CONLL = None
-    DIR_LOG = "app_log"
+    # Wenn das Lokalverzeichnis nicht gesetzt ist, kann das Programm nicht starten.
+    MAIN_DIR = config().get("CONFIG_HOME_DIR")
+
+    CONOLL_DIR = None
+    LOG_DIR = "app_log"
     AST_DIR = "user/incoming/ast"
+    JSON_DIR = "user/incoming/full_json"
+    JSON_RES_DIR = "user/outgoing/nominal_phrase_analysis_results_json"
 
     MERLIN_AST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/ast"
     MERLIN_CONLL_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/conll"
@@ -86,7 +91,7 @@ class GeneralPaths(Enum):
 
     # Ergebnissdateien
     RES_AST_NP_FILE = f"user/outgoing/extracted_nominal_phrases/nps"
-    RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_results/"
+    RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_csv_results/"
 
     NP_HEADER_FILE = "dokumentation/project_layout/results_header_file.txt"
     NP_MAIN_SAVE_FILE = "user/outgoing/batch_results/batch_evaluation_np.csv"
@@ -99,10 +104,18 @@ class GeneralPaths(Enum):
     NP_TRAINING_IDS = "user/text_ids/test_ids.txt"
     NP_TEST_IDS = "user/text_ids/test_ids.txt"
 
-    GOLD_FILES = "user/kongru_evaluation/gold_files/*.csv"
-    RAW_FILES = "user/kongru_evaluation/raw_files/*.*"
-
     RAW_MERLIN_TXT = "user/incoming/raw/1023_0001416.txt"
+
+    # GLOB
+    GOLD_FILES_GLOB: glob = "user/kongru_evaluation/gold_files/*.csv"
+    RAW_FILES_GLOB: glob = "user/kongru_evaluation/raw_files/*.*"
+    NP_EXTRACTED_FILES_GLOB: glob = "user/outgoing/extracted_nominal_phrases/*.*"
+    NP_CSV_RES_FILES_GLOB: glob = (
+        "user/outgoing/nominal_phrase_analysis_csv_results/*.*"
+    )
+    NP_JSON_RAW_FILES_GLOB: glob = "user/incoming/full_json/*.*"
+
+    AST_ID_GLOB: glob = "user/incoming/ast/*.*"
 
 
 try:
@@ -110,7 +123,7 @@ try:
     Das Hauptverzeichnis soll hier festgelegt werden,
     damit die folgenden Pfade auch nachher stimmen.
     """
-    os.chdir(GeneralPaths.DIR_MAIN.value)
+    os.chdir(GeneralPaths.MAIN_DIR.value)
 except Exception as e:
     catch_and_log_error(
         error=e,

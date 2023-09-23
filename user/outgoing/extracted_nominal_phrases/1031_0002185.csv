@@ -1,72 +1,72 @@
-Das Thema,Das ART Def|Neut|Nom|Sg,Thema N Neut|Nom|Sg,Das Thema ist von besonderer Aktualität .
-von besonderer Aktualität,von PREP _,besonderer ADJA Pos|Fem|_|Sg|St|,Aktualität N Fem|_|Sg,Das Thema ist von besonderer Aktualität .
-mehr Leute,mehr ART _|Nom|Pl,Leute N _|Nom|Pl,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
-aus beruflichen Gründen,aus PREP Dat,beruflichen ADJA Pos|_|Dat|_|_|,Gründen N _|Dat|_,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
-Stadt,Stadt N Fem|_|Sg,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
-Y,Y N _|_|Pl,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
-von diesen Leuten,von PREP Dat,diesen ART _|Dat|Pl,Leuten N _|Dat|Pl,Viele von diesen Leuten stammen aus anderen Ländern .
-aus anderen Ländern,aus PREP Dat,anderen ADJA _|_|Dat|Pl|_,Ländern N _|Dat|Pl,Viele von diesen Leuten stammen aus anderen Ländern .
-nach Stadt Y,nach PREP Dat,Stadt N Fem|Dat|Sg,Y N _|Gen|Pl,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
-Stadt,Stadt N Fem|_|Sg,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
-Stadt Y,Stadt N Fem|Dat|Sg,Y N _|Gen|Pl,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
-über den Wohnungsmark,über PREP _,den ART Def|_|_|_,Wohnungsmark N _|_|_,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
-in einer Stadt,in PREP Dat,einer ART Indef|Fem|Dat|Sg,Stadt N Fem|Dat|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
-underschiedlich,underschiedlich N _|Nom|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
-von Stadt,von PREP _,Stadt N Fem|_|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
-zu Stadt,zu PREP Dat,Stadt N Fem|Dat|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
-der wichtigsten Faktoren,der ART Def|Masc|Gen|Pl,wichtigsten ADJA Sup|Masc|Gen|Pl|Wk|,Faktoren N Masc|Gen|Pl,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
-den Erfolg Umzogs,den ART Def|Masc|Acc|Sg,Erfolg N Masc|Acc|Sg,Umzogs N _|Gen|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
-Erfolg des Umzogs,Erfolg N Masc|Acc|Sg,des ART Def|_|Gen|Sg,Umzogs N _|Gen|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
-entscheidende Faktoren,entscheidende ADJA Pos|Masc|Acc|Pl|St|_,Faktoren N Masc|Acc|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
-von Familien,von PREP _,Familien N Fem|_|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
-Einzelpersonen Hinweise,Einzelpersonen N Fem|_|Pl,Hinweise N Masc|_|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
-Einzelpersonen bestimmte Hinweise,Einzelpersonen N Fem|_|Pl,bestimmte ADJA Pos|Masc|_|Pl|St|,Hinweise N Masc|_|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
-die Frage,die ART Def|Fem|_|Sg,Frage N Fem|_|Sg,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
-Mieten,Mieten N _|_|_,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
-Kaufen,Kaufen N Neut|_|Sg,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
-Familien,Familien N Fem|Nom|Pl,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
-Einzelpersonen,Einzelpersonen N Fem|Nom|Pl,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
-in Stadt,in PREP _,Stadt N Fem|_|Sg,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
-Stadt Y,Stadt N Fem|_|Sg,Y N Fem|_|Sg,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
-Stadt Y,Stadt N Fem|_|Sg,Y N Fem|_|Sg,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
-Nachbaren,Nachbaren N _|Nom|Pl,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
-ihre alltägliche Aktivitäten,ihre ART Fem|Nom|Pl,alltägliche ADJA Pos|Fem|Nom|Pl|St|,Aktivitäten N Fem|Nom|Pl,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
-viele Ähnlichkeiten,viele ART Fem|Acc|Pl,Ähnlichkeiten N Fem|Acc|Pl,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
-Arbeit,Arbeit N Fem|Nom|Sg,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
-Freizeit,Freizeit N Fem|Nom|Sg,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
-die Freizeitaktivitäten Familie,die ART Def|Fem|_|Pl,Freizeitaktivitäten N Fem|_|Pl,Familie N Fem|Gen|Sg,Sicher orientiert sich die Freizeitaktivitäten einer Familie über die Kinder .
-Kinder über die,Kinder N Neut|Acc|Pl,über PREP Acc,die ART Def|Neut|Acc|Pl,Sicher orientiert sich die Freizeitaktivitäten einer Familie über die Kinder .
-für Familien,für PREP Acc,Familien N Fem|Acc|Pl,"Was für nicht nur Familien sondern auch für Einzelpersonen wichtig ist , ist der Stadtteil ."
-für Einzelpersonen,für PREP Acc,Einzelpersonen N Fem|Acc|Pl,"Was für nicht nur Familien sondern auch für Einzelpersonen wichtig ist , ist der Stadtteil ."
-der Stadtteil,der ART Def|Masc|Nom|Sg,Stadtteil N Masc|Nom|Sg,"Was für nicht nur Familien sondern auch für Einzelpersonen wichtig ist , ist der Stadtteil ."
-viel Zeit,viel ART Fem|Acc|Sg,Zeit N Fem|Acc|Sg,"Das bedeutet , dass man möchte , nicht , zu viel Zeit unterwegs sein ."
-wichtige Hinweise,wichtige ADJA Pos|Masc|Acc|Pl|St|,Hinweise N Masc|Acc|Pl,Dazu gibt es zwei wichtige Hinweise .
-in Stadt X,in PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,Erstens : Es ist kritisch in Stadt X ein Auto zu haben .
-Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,Erstens : Es ist kritisch in Stadt X ein Auto zu haben .
-Auto ein,Auto N Neut|Acc|Sg,ein ART Indef|Neut|Acc|Sg,Erstens : Es ist kritisch in Stadt X ein Auto zu haben .
-Verkehrsmittel,Verkehrsmittel N _|Nom|Sg,Öffentlich Verkehrsmittel ist unterentwickelt .
-der Verkehr,der ART Def|Masc|Nom|Sg,Verkehr N Masc|Nom|Sg,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
-Beispiel Stau,Beispiel N Masc|Dat|Sg,Stau N Masc|Dat|Sg,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
-Umfälle,Umfälle N _,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
-Durch gute Vorbereitung,Durch PREP Acc,gute ADJA Pos|Fem|Acc|Sg|_|,Vorbereitung N Fem|Acc|Sg,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
-viele Probleme,viele ART Neut|_|Pl,Probleme N Neut|_|Pl,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
-ein Haus,ein ART Indef|Neut|Nom|Sg,Haus N Neut|Nom|Sg,"Ob man ein Haus oder eine Wohnnung mieten oder kaufen sollte , ist ein schwer zu beantwortende Frage ."
-eine Wohnnung,eine ART Indef|Fem|Nom|Sg,Wohnnung N Fem|Nom|Sg,"Ob man ein Haus oder eine Wohnnung mieten oder kaufen sollte , ist ein schwer zu beantwortende Frage ."
-ein beantwortende Frage,ein ART Indef|_|_|Sg,beantwortende ADJA Pos|_|Nom|Sg|Wk|<PPRES,Frage N _|Nom|Sg,"Ob man ein Haus oder eine Wohnnung mieten oder kaufen sollte , ist ein schwer zu beantwortende Frage ."
-Die Antwort,Die ART Def|Fem|Nom|Sg,Antwort N Fem|Nom|Sg,Die Antwort hängt von vielen Faktoren ab .
-von vielen Faktoren,von PREP _,vielen ART _|_|_,Faktoren N _|_|_,Die Antwort hängt von vielen Faktoren ab .
-einen Immobilienmakler,einen ART Indef|Masc|Acc|Sg,Immobilienmakler N Masc|Acc|Sg,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
-die Vorteile,die ART Def|_|Acc|Pl,Vorteile N _|Acc|Pl,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
-Nachteile,Nachteile N _|Acc|_,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
-die Regeln,die ART Def|Fem|Acc|Pl,Regeln N Fem|Acc|Pl,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
-der Ansicht,der ART Def|Fem|Dat|Sg,Ansicht N Fem|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
-bei der Ankunft,bei PREP Dat,der ART Def|Fem|Dat|Sg,Ankunft N Fem|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
-in einer neuen Stadt,in PREP Dat,einer ART Indef|Fem|Dat|Sg,neuen ADJA Pos|Fem|Dat|Sg|Wk|,Stadt N Fem|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
-einem neuen Land,einem ART Indef|Neut|Dat|Sg,neuen ADJA Pos|Neut|Dat|Sg|Wk|,Land N Neut|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
-eine Wohnung,eine ART Indef|Fem|Nom|Sg,Wohnung N Fem|Nom|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
-ein Haus,ein ART Indef|Neut|Nom|Sg,Haus N Neut|Nom|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
-zu dem Ergebnis,zu PREP Dat,dem ART Def|Neut|Dat|Sg,Ergebnis N Neut|Dat|Sg,"Abschließend könnte man zu dem Ergebnis kommen , dass solch ein Umzog zu kompliziert wäre ."
-solch ein Umzog,solch ART _|Nom|Sg,ein ART Indef|_|Nom|Sg,Umzog N _|Nom|Sg,"Abschließend könnte man zu dem Ergebnis kommen , dass solch ein Umzog zu kompliziert wäre ."
-viele Faktoren,viele ART Masc|Acc|Pl,Faktoren N Masc|Acc|Pl,"Es gibt viele Faktoren , an die man denken muss ."
-die Gelegenheit,die ART Def|Fem|_|Sg,Gelegenheit N Fem|_|Sg,Aber die Gelegenheit einen in einen neuen Stadt sollte ergriffen werden .
-in einen neuen Stadt,in PREP Acc,einen ART Indef|Masc|Acc|Sg,neuen ADJA Pos|Masc|Acc|Sg|_|,Stadt N Masc|Acc|Sg,Aber die Gelegenheit einen in einen neuen Stadt sollte ergriffen werden .
+1_1,Das Thema,Das ART Def|Neut|Nom|Sg,Thema N Neut|Nom|Sg,Das Thema ist von besonderer Aktualität .
+1_2,von besonderer Aktualität,von PREP _,besonderer ADJA Pos|Fem|_|Sg|St|,Aktualität N Fem|_|Sg,Das Thema ist von besonderer Aktualität .
+2_3,mehr Leute,mehr ART _|Nom|Pl,Leute N _|Nom|Pl,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
+2_4,aus beruflichen Gründen,aus PREP Dat,beruflichen ADJA Pos|_|Dat|_|_|,Gründen N _|Dat|_,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
+2_6,Stadt,Stadt N Fem|_|Sg,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
+2_7,Y,Y N _|_|Pl,Heutzutage ziehen immer mehr Leute aus beruflichen Gründen nach Stadt X / Stadt Y um .
+3_8,von diesen Leuten,von PREP Dat,diesen ART _|Dat|Pl,Leuten N _|Dat|Pl,Viele von diesen Leuten stammen aus anderen Ländern .
+3_9,aus anderen Ländern,aus PREP Dat,anderen ADJA _|_|Dat|Pl|_,Ländern N _|Dat|Pl,Viele von diesen Leuten stammen aus anderen Ländern .
+4_10,nach Stadt Y,nach PREP Dat,Stadt N Fem|Dat|Sg,Y N _|Gen|Pl,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
+4_11,Stadt,Stadt N Fem|_|Sg,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
+4_12,Stadt Y,Stadt N Fem|Dat|Sg,Y N _|Gen|Pl,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
+4_13,über den Wohnungsmark,über PREP _,den ART Def|_|_|_,Wohnungsmark N _|_|_,"Bevor man nach Stadt X / Stadt Y umzieht , sollte man über den Wohnungsmark nachdenken ."
+5_14,in einer Stadt,in PREP Dat,einer ART Indef|Fem|Dat|Sg,Stadt N Fem|Dat|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
+5_15,underschiedlich,underschiedlich N _|Nom|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
+5_16,von Stadt,von PREP _,Stadt N Fem|_|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
+5_17,zu Stadt,zu PREP Dat,Stadt N Fem|Dat|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
+5_18,der wichtigsten Faktoren,der ART Def|Masc|Gen|Pl,wichtigsten ADJA Sup|Masc|Gen|Pl|Wk|,Faktoren N Masc|Gen|Pl,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
+5_19,den Erfolg Umzogs,den ART Def|Masc|Acc|Sg,Erfolg N Masc|Acc|Sg,Umzogs N _|Gen|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
+5_20,Erfolg des Umzogs,Erfolg N Masc|Acc|Sg,des ART Def|_|Gen|Sg,Umzogs N _|Gen|Sg,"Wie und wo man in einer Stadt lebt , ist underschiedlich von Stadt zu Stadt un einer der wichtigsten Faktoren , um den Erfolg des Umzogs zu garantieren ."
+6_21,entscheidende Faktoren,entscheidende ADJA Pos|Masc|Acc|Pl|St|_,Faktoren N Masc|Acc|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
+6_23,von Familien,von PREP _,Familien N Fem|_|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
+6_24,Einzelpersonen Hinweise,Einzelpersonen N Fem|_|Pl,Hinweise N Masc|_|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
+6_25,Einzelpersonen bestimmte Hinweise,Einzelpersonen N Fem|_|Pl,bestimmte ADJA Pos|Masc|_|Pl|St|,Hinweise N Masc|_|Pl,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
+6_26,die Frage,die ART Def|Fem|_|Sg,Frage N Fem|_|Sg,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
+6_27,Mieten,Mieten N _|_|_,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
+6_28,Kaufen,Kaufen N Neut|_|Sg,"Dazu gibt es entscheidende Faktoren : Lebensarten von Familien und Einzelpersonen , bestimmte Hinweise und die Frage - Mieten oder Kaufen ."
+7_29,Familien,Familien N Fem|Nom|Pl,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
+7_30,Einzelpersonen,Einzelpersonen N Fem|Nom|Pl,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
+7_31,in Stadt,in PREP _,Stadt N Fem|_|Sg,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
+7_32,Stadt Y,Stadt N Fem|_|Sg,Y N Fem|_|Sg,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
+7_33,Stadt Y,Stadt N Fem|_|Sg,Y N Fem|_|Sg,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
+7_34,Nachbaren,Nachbaren N _|Nom|Pl,Familien und Einzelpersonen sind häufig in Stadt X / Stadt Y Nachbaren .
+8_35,ihre alltägliche Aktivitäten,ihre ART Fem|Nom|Pl,alltägliche ADJA Pos|Fem|Nom|Pl|St|,Aktivitäten N Fem|Nom|Pl,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
+8_36,viele Ähnlichkeiten,viele ART Fem|Acc|Pl,Ähnlichkeiten N Fem|Acc|Pl,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
+8_37,Arbeit,Arbeit N Fem|Nom|Sg,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
+8_38,Freizeit,Freizeit N Fem|Nom|Sg,"Obwohl ihre alltägliche Aktivitäten unterschiedliche sind , gibt es viele Ähnlichkeiten : Arbeit und Freizeit sind dafür beispielhaft ."
+9_39,die Freizeitaktivitäten Familie,die ART Def|Fem|_|Pl,Freizeitaktivitäten N Fem|_|Pl,Familie N Fem|Gen|Sg,Sicher orientiert sich die Freizeitaktivitäten einer Familie über die Kinder .
+9_41,Kinder über die,Kinder N Neut|Acc|Pl,über PREP Acc,die ART Def|Neut|Acc|Pl,Sicher orientiert sich die Freizeitaktivitäten einer Familie über die Kinder .
+10_42,für Familien,für PREP Acc,Familien N Fem|Acc|Pl,"Was für nicht nur Familien sondern auch für Einzelpersonen wichtig ist , ist der Stadtteil ."
+10_43,für Einzelpersonen,für PREP Acc,Einzelpersonen N Fem|Acc|Pl,"Was für nicht nur Familien sondern auch für Einzelpersonen wichtig ist , ist der Stadtteil ."
+10_44,der Stadtteil,der ART Def|Masc|Nom|Sg,Stadtteil N Masc|Nom|Sg,"Was für nicht nur Familien sondern auch für Einzelpersonen wichtig ist , ist der Stadtteil ."
+11_45,viel Zeit,viel ART Fem|Acc|Sg,Zeit N Fem|Acc|Sg,"Das bedeutet , dass man möchte , nicht , zu viel Zeit unterwegs sein ."
+12_46,wichtige Hinweise,wichtige ADJA Pos|Masc|Acc|Pl|St|,Hinweise N Masc|Acc|Pl,Dazu gibt es zwei wichtige Hinweise .
+13_47,in Stadt X,in PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,Erstens : Es ist kritisch in Stadt X ein Auto zu haben .
+13_48,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,Erstens : Es ist kritisch in Stadt X ein Auto zu haben .
+13_49,Auto ein,Auto N Neut|Acc|Sg,ein ART Indef|Neut|Acc|Sg,Erstens : Es ist kritisch in Stadt X ein Auto zu haben .
+14_50,Verkehrsmittel,Verkehrsmittel N _|Nom|Sg,Öffentlich Verkehrsmittel ist unterentwickelt .
+15_51,der Verkehr,der ART Def|Masc|Nom|Sg,Verkehr N Masc|Nom|Sg,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
+15_53,Beispiel Stau,Beispiel N Masc|Dat|Sg,Stau N Masc|Dat|Sg,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
+15_54,Umfälle,Umfälle N _,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
+15_55,Durch gute Vorbereitung,Durch PREP Acc,gute ADJA Pos|Fem|Acc|Sg|_|,Vorbereitung N Fem|Acc|Sg,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
+15_56,viele Probleme,viele ART Neut|_|Pl,Probleme N Neut|_|Pl,"Zweitens kann der Verkehr schlecht sein , wie zum Beispiel Stau , Umfälle usw. Durch gute Vorbereitung kann viele Probleme vermieden werden ."
+16_57,ein Haus,ein ART Indef|Neut|Nom|Sg,Haus N Neut|Nom|Sg,"Ob man ein Haus oder eine Wohnnung mieten oder kaufen sollte , ist ein schwer zu beantwortende Frage ."
+16_58,eine Wohnnung,eine ART Indef|Fem|Nom|Sg,Wohnnung N Fem|Nom|Sg,"Ob man ein Haus oder eine Wohnnung mieten oder kaufen sollte , ist ein schwer zu beantwortende Frage ."
+16_59,ein beantwortende Frage,ein ART Indef|_|_|Sg,beantwortende ADJA Pos|_|Nom|Sg|Wk|<PPRES,Frage N _|Nom|Sg,"Ob man ein Haus oder eine Wohnnung mieten oder kaufen sollte , ist ein schwer zu beantwortende Frage ."
+17_60,Die Antwort,Die ART Def|Fem|Nom|Sg,Antwort N Fem|Nom|Sg,Die Antwort hängt von vielen Faktoren ab .
+17_61,von vielen Faktoren,von PREP _,vielen ART _|_|_,Faktoren N _|_|_,Die Antwort hängt von vielen Faktoren ab .
+18_62,einen Immobilienmakler,einen ART Indef|Masc|Acc|Sg,Immobilienmakler N Masc|Acc|Sg,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
+18_63,die Vorteile,die ART Def|_|Acc|Pl,Vorteile N _|Acc|Pl,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
+18_64,Nachteile,Nachteile N _|Acc|_,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
+18_65,die Regeln,die ART Def|Fem|Acc|Pl,Regeln N Fem|Acc|Pl,"Es ist empfehelnswert einen Immobilienmakler zu beauftragen , um die Vorteile und Nachteile zu vergleichen und die Regeln kennenzulernen ."
+19_66,der Ansicht,der ART Def|Fem|Dat|Sg,Ansicht N Fem|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
+19_67,bei der Ankunft,bei PREP Dat,der ART Def|Fem|Dat|Sg,Ankunft N Fem|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
+19_68,in einer neuen Stadt,in PREP Dat,einer ART Indef|Fem|Dat|Sg,neuen ADJA Pos|Fem|Dat|Sg|Wk|,Stadt N Fem|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
+19_69,einem neuen Land,einem ART Indef|Neut|Dat|Sg,neuen ADJA Pos|Neut|Dat|Sg|Wk|,Land N Neut|Dat|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
+19_70,eine Wohnung,eine ART Indef|Fem|Nom|Sg,Wohnung N Fem|Nom|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
+19_71,ein Haus,ein ART Indef|Neut|Nom|Sg,Haus N Neut|Nom|Sg,"Ich bin der Ansicht , dass bei der Ankunft in einer neuen Stadt und einem neuen Land eine Wohnung oder ein Haus zu mieten ist empfehlenswert ."
+20_72,zu dem Ergebnis,zu PREP Dat,dem ART Def|Neut|Dat|Sg,Ergebnis N Neut|Dat|Sg,"Abschließend könnte man zu dem Ergebnis kommen , dass solch ein Umzog zu kompliziert wäre ."
+20_73,solch ein Umzog,solch ART _|Nom|Sg,ein ART Indef|_|Nom|Sg,Umzog N _|Nom|Sg,"Abschließend könnte man zu dem Ergebnis kommen , dass solch ein Umzog zu kompliziert wäre ."
+22_74,viele Faktoren,viele ART Masc|Acc|Pl,Faktoren N Masc|Acc|Pl,"Es gibt viele Faktoren , an die man denken muss ."
+23_75,die Gelegenheit,die ART Def|Fem|_|Sg,Gelegenheit N Fem|_|Sg,Aber die Gelegenheit einen in einen neuen Stadt sollte ergriffen werden .
+23_76,in einen neuen Stadt,in PREP Acc,einen ART Indef|Masc|Acc|Sg,neuen ADJA Pos|Masc|Acc|Sg|_|,Stadt N Masc|Acc|Sg,Aber die Gelegenheit einen in einen neuen Stadt sollte ergriffen werden .

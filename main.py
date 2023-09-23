@@ -55,7 +55,7 @@ main_typer_app.add_typer(app_typer_statics)
 )
 def empty_chosen_directory(
     trg_dir: str = typer.Option(
-        Gp.DIR_LOG.DIR_LOG.value,
+        Gp.LOG_DIR.LOG_DIR.value,
         main_keys.EMPTY_DIRECTORY_TRG_LONG.value,
         main_keys.EMPTY_DIRECTORY_TRG_SHORT.value,
         help=main_keys.EMPTY_DIRECTORY_TRG_HELP.value,
@@ -67,20 +67,29 @@ def empty_chosen_directory(
         help=main_keys.FILE_TYPE_HELP.value,
     ),
 ) -> None:
-    files_to_be_deleted = f"{trg_dir}/*.{file_type}"
-    file_directory = glob.glob(files_to_be_deleted)
 
-    if file_directory:
-        for file in file_directory:
+    if file_type == "alle":
+        file_type = "*"
+
+    file_directory = f"{trg_dir}/*.{file_type}"
+    files_to_be_deleted = glob.glob(file_directory)
+
+    folder_path = os.path.exists(trg_dir)
+    is_file_directory_emtpy = bool(file_directory)
+
+    if len(files_to_be_deleted) > 0 and folder_path is True:
+        for file in files_to_be_deleted:
             os.remove(file)
 
         catch_and_log_info(
-            msg=f"die Dateien {files_to_be_deleted} wurden geloescht.", echo_msg=True
+            msg=f"Die Dateien '{file_directory}' wurden geloescht.", echo_msg=True
         )
+
+    elif len(files_to_be_deleted) == 0 and folder_path is True:
+        catch_and_log_info(msg=f"Der Ordner '{trg_dir}' ist schon leer.", echo_msg=True)
+
     else:
-        catch_and_log_info(
-            msg=f"die Dateien {files_to_be_deleted} existieren nicht.", echo_msg=True
-        )
+        catch_and_log_info(msg=f"Ein unbekannter Fehler ist aufgetreten", echo_msg=True)
 
 
 if __name__ == "__main__":

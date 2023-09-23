@@ -249,7 +249,7 @@ def extract_nps_from_local_file(
         file_id = os.path.basename(ast_file_id)
         if file_type == "ast_nps":
             np_file_handler = AstNominalPhraseExtractor(
-                ast_file_id=ast_file_id,
+                ast_file_name=ast_file_id,
                 save_name=f"user/outgoing/extracted_nominal_phrases/{file_id}",
             )
             np_file_handler.save_extracted_ast_nps()

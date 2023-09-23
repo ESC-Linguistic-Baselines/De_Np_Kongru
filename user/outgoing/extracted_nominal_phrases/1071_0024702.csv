@@ -1,17 +1,17 @@
-Ingo,Ingo N Masc|_|Sg,Lieber Ingo wie geht es dir ?
-neue Arbeit,neue ADJA Pos|Fem|Acc|Sg|_|,Arbeit N Fem|Acc|Sg,Ich habe neue Arbeit in Neuburg gefunden .
-in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Ich habe neue Arbeit in Neuburg gefunden .
-für eine Wohnung,für PREP Acc,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Jetzt ich suche für eine Wohnung in Neuburg .
-in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Jetzt ich suche für eine Wohnung in Neuburg .
-Meine Arbeit,Meine ART Fem|Nom|Sg,Arbeit N Fem|Nom|Sg,Meine Arbeit fängt am 11 Juli an und ich brauche eine Wohnung bevor dann .
-Juli,Juli N Masc|_|Sg,Meine Arbeit fängt am 11 Juli an und ich brauche eine Wohnung bevor dann .
-eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Meine Arbeit fängt am 11 Juli an und ich brauche eine Wohnung bevor dann .
-mit meine Wohnungsuchen hilfen,mit PREP Dat,meine ART _|_|_,Wohnungsuchen N _|_|_,hilfen N _|_|_,Kannst du mir mit meine Wohnungsuchen hilfen ?
-Wohnungsuchen hilfen,Wohnungsuchen N _|_|_,hilfen N _|_|_,Kannst du mir mit meine Wohnungsuchen hilfen ?
-eine Wohnung,eine ART Indef|Fem|Nom|Sg,Wohnung N Fem|Nom|Sg,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
-m,m N _|_|Pl,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
-²,² N _|Nom|_,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
-eine Größe,eine ART Indef|Fem|Acc|Sg,Größe N Fem|Acc|Sg,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
-Familien,Familien N Fem|Nom|Pl,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
-Gruß Michael,Gruß N Masc|_|Sg,Michael N Masc|_|Sg,"Schön Gruß , Michael"
-Gruß Michael,Gruß N Masc|_|Sg,Michael N Masc|_|Sg,"Schön Gruß , Michael"
+1_1,Ingo,Ingo N Masc|_|Sg,Lieber Ingo wie geht es dir ?
+2_2,neue Arbeit,neue ADJA Pos|Fem|Acc|Sg|_|,Arbeit N Fem|Acc|Sg,Ich habe neue Arbeit in Neuburg gefunden .
+2_3,in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Ich habe neue Arbeit in Neuburg gefunden .
+3_4,für eine Wohnung,für PREP Acc,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Jetzt ich suche für eine Wohnung in Neuburg .
+3_5,in Neuburg,in PREP _,Neuburg N Fem|_|Sg,Jetzt ich suche für eine Wohnung in Neuburg .
+4_6,Meine Arbeit,Meine ART Fem|Nom|Sg,Arbeit N Fem|Nom|Sg,Meine Arbeit fängt am 11 Juli an und ich brauche eine Wohnung bevor dann .
+4_7,Juli,Juli N Masc|_|Sg,Meine Arbeit fängt am 11 Juli an und ich brauche eine Wohnung bevor dann .
+4_8,eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,Meine Arbeit fängt am 11 Juli an und ich brauche eine Wohnung bevor dann .
+5_9,mit meine Wohnungsuchen hilfen,mit PREP Dat,meine ART _|_|_,Wohnungsuchen N _|_|_,hilfen N _|_|_,Kannst du mir mit meine Wohnungsuchen hilfen ?
+5_10,Wohnungsuchen hilfen,Wohnungsuchen N _|_|_,hilfen N _|_|_,Kannst du mir mit meine Wohnungsuchen hilfen ?
+6_11,eine Wohnung,eine ART Indef|Fem|Nom|Sg,Wohnung N Fem|Nom|Sg,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
+6_12,m,m N _|_|Pl,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
+6_13,²,² N _|Nom|_,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
+6_14,eine Größe,eine ART Indef|Fem|Acc|Sg,Größe N Fem|Acc|Sg,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
+6_15,Familien,Familien N Fem|Nom|Pl,"Ich brauche eine Wohnung dass ist mindestens 120 m ² , weil ich eine Größe Familien haben ."
+7_16,Gruß Michael,Gruß N Masc|_|Sg,Michael N Masc|_|Sg,"Schön Gruß , Michael"
+7_17,Gruß Michael,Gruß N Masc|_|Sg,Michael N Masc|_|Sg,"Schön Gruß , Michael"
