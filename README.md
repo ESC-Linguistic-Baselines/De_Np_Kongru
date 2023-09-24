@@ -335,28 +335,31 @@ damit sie in einem anderen Programm weiter verarbeitet werden koennen.
 Die .json hat dann die folgende Struktur. 
 ```
  {
-        "file_ID": "1031_0003133",
+        "file_ID": "1023_0101841",
         "sent_NP_ID": "1_1",
-        "sentence": "Wenn man umziehen muss , dann muss man nach einer Wohnung oder einem Haus suchen .",
-        "np_congruency_info": null,
+        "sentence": "Maria Schmidt Addresse Computer Spezialist Odenwaldstra\u00dfe 5.",
+        "np_congruency_info": {
+            "congruency_code": "1",
+            "nominal_phrase": "Maria Schmidt"
+        },
         "metadata": {
             "corpus": "MERLIN_DE",
             "author": {
-                "author_ID": "1031_0003133",
+                "author_ID": "1023_0101841",
                 "L1": "English",
-                "age": "33",
+                "age": "32",
                 "gender": "female"
             },
             "CEFR": {
-                "overall_fairRating": "C1",
-                "test_level": "C1"
+                "overall_fairRating": "B1+",
+                "test_level": "B2"
             },
             "task": {
                 "formality": "formal",
-                "text_type": "report",
-                "topic": "reporting about the housing situation"
+                "text_type": "letter",
+                "topic": "apply for internship in sales department"
             }
-        }
+        },
 ```
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
