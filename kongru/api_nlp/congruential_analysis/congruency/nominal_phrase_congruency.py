@@ -726,8 +726,9 @@ class NominalPhraseCongruency:
         Returns:
             None
         """
+
         with open(
-            f"{Gp.RES_SAVE_NP.value}{self.save_file_name}",
+            f"{Gp.RES_SAVE_NP.value}/{self.save_file_name}",
             mode="w",
             encoding="utf-8",
         ) as save:

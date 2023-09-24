@@ -1,5 +1,4 @@
 # Standard
-# None
 import glob
 import time
 
@@ -15,6 +14,8 @@ from rich.table import Table
 
 # const
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
+
 
 # funcs
 from kongru.api_general.universal.funcs import (
@@ -62,6 +63,7 @@ app_typer_congruential_analysis = typer.Typer(
 
 # Konsole zur Erstellung einer Tabelle
 console = Console()
+SLEEP_TIME = 0.500
 
 
 @app_typer_congruential_analysis.command(
@@ -105,16 +107,26 @@ def singular_nominal_phrase_agreement_analysis(
         demorphy = DemorphyAnalyzer()
         demorphy.file_name = file_name
 
+        files = generate_abs_rel_path([file_name])
+        rel_file_name = list(files.keys())[0]
+        text_id = rel_file_name.replace(".csv", "")
+
         # Morphologische Ergebnisse
         morpho_results = demorphy.get_raw_np_morphology()
 
         # Kongruenz bestimmen
         np_congruency = NominalPhraseCongruency(
-            file_name=file_name, morpho_results=morpho_results, save_file_name=save_file
+            file_name=file_name,
+            morpho_results=morpho_results,
+            save_file_name=rel_file_name,
         )
 
         # Ergebnisse speichern
         if save_results:
+
+            # Json-Datei erstellen
+            json_creator.generate_np_json_files([text_id])
+
             # Die Ergebnisse werden zwar gespeichert, aber nicht angezeigt.
             np_congruency.save_congruency_results()
 
@@ -122,6 +134,20 @@ def singular_nominal_phrase_agreement_analysis(
                 custom_message=congruential_keys.NP_AGREEMENT_SAVE.value,
                 echo_msg=True,
             )
+
+            basic_logger.catch_and_log_info(
+                echo_msg=True,
+                custom_message=congruential_keys.JSON_CSV_CREATED_COM.value,
+            )
+
+            json_creator.combine_csv_json_data()
+            time.sleep(SLEEP_TIME)
+
+            basic_logger.catch_and_log_info(
+                echo_msg=True,
+                custom_message=congruential_keys.JSON_CSV_CREATED_COM_SUCCESS.value,
+            )
+
         else:
             # Die Ergebnisse werden zwar angezeigt, aber nicht gespeichert
             congruency_check = np_congruency.run_congruency_check()
@@ -157,15 +183,17 @@ def multi_nominal_phrase_agreement_analysis(
     ),
 ) -> None:
     """
+    Hier werden mehrere Texten auf einmal anaylsiert. Die Ergebnisse werden in einer
+    Csv-Datei und in einer Json-Datei gespeichert.
 
     Args:
-        text_amount:
-        text_id_sources:
+        text_amount (int): Bestimmte wie viele Texte auf einmal analysiert werden sollen
+        text_id_sources (str): Die Datei, woraus die Text-Ids gelesen werden sollen.
 
     Returns:
         None
-
     """
+
     # Dateien aufstellen
     file_ids = open(text_id_sources, mode="r", encoding="utf-8").readlines()
 
@@ -175,7 +203,7 @@ def multi_nominal_phrase_agreement_analysis(
 
     # Time, damit die Dateien zeitlich erfasst werden.
     get_ast_data.ast_data()
-    time.sleep(0.500)
+    time.sleep(SLEEP_TIME)
     get_np_data.np_data()
 
     # Kongruenz fuer mehrere Dateien durchfuehren
@@ -186,18 +214,29 @@ def multi_nominal_phrase_agreement_analysis(
         text_limit=text_amount,
     )
 
-    time.sleep(0.500)
+    time.sleep(SLEEP_TIME)
     count_results = get_np_results.count_np_results(np_res_files)
-    time.sleep(0.500)
+
+    time.sleep(SLEEP_TIME)
     generate_results_file(count_results)
-    time.sleep(0.500)
 
-    typer.echo("....json Dateien generieren")
+    time.sleep(SLEEP_TIME)
+    basic_logger.catch_and_log_info(
+        echo_msg=True, custom_message=congruential_keys.GENERATE_JSON_FILES.value
+    )
+
     json_creator.generate_np_json_files(text_id_numbers)
+    basic_logger.catch_and_log_info(
+        echo_msg=True, custom_message=congruential_keys.JSON_CSV_CREATED_COM.value
+    )
 
-    typer.echo(".json und .csv Ergebnisse zusammenfuehren")
     json_creator.combine_csv_json_data()
-    typer.echo(".json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.")
+    time.sleep(SLEEP_TIME)
+
+    basic_logger.catch_and_log_info(
+        echo_msg=True,
+        custom_message=congruential_keys.JSON_CSV_CREATED_COM_SUCCESS.value,
+    )
 
 
 if __name__ == "__main__":

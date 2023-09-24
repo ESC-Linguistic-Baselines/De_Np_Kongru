@@ -49,7 +49,7 @@ class GeneralPaths(Enum):
     LOG_DIR = "app_log"
     AST_DIR = "user/incoming/ast"
     JSON_DIR = "user/incoming/full_json"
-    JSON_RES_DIR = "user/outgoing/nominal_phrase_analysis_results_json"
+    JSON_RES_DIR = "user/outgoing/nominal_phrase_analysis_json_results"
 
     MERLIN_AST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/ast"
     MERLIN_CONLL_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/conll"
@@ -90,8 +90,8 @@ class GeneralPaths(Enum):
     )
 
     # Ergebnissdateien
-    RES_AST_NP_FILE = f"user/outgoing/extracted_nominal_phrases/nps"
-    RES_SAVE_NP = f"user/outgoing/nominal_phrase_analysis_csv_results/"
+    RES_AST_NP_FILE = "user/outgoing/extracted_nominal_phrases/nps"
+    RES_SAVE_NP = "user/outgoing/nominal_phrase_analysis_csv_results"
 
     NP_HEADER_FILE = "dokumentation/project_layout/results_header_file.txt"
     NP_MAIN_SAVE_FILE = "user/outgoing/batch_results/batch_evaluation_np.csv"

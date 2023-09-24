@@ -198,6 +198,13 @@ class MessageKeys:
         NP_AGREEMENT_SAVE_FALSE = "--anzeigen"
         NP_AGREEMENT_SAVE_HELP = "Ergebnisse speichern oder anzeigen"
 
+        GENERATE_JSON_FILES = "....json Dateien generieren"
+        JSON_CSV_CREATED_COM = ".json und .csv Ergebnisse zusammenfuehren"
+
+        JSON_CSV_CREATED_COM_SUCCESS = (
+            ".json und .csv Ergebnisse erfolgreich zusammengefuehrt worden."
+        )
+
     class NominalPhraseCongruency(Enum):
         NP_ART_ERR = "Np konnte als ART nicht verarbeitet werden."
         MISSING_KEY = "Key in dem 'token_data' ist nicht vorhanden"

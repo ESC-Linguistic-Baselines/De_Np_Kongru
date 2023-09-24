@@ -34,7 +34,7 @@
 <details>
     <summary>Inhaltsverzeichnis</summary>
     <ol>
-        <li><a href="#ueber-das-projekt"Ueber das Projekt</a></li>
+        <li><a href="#ueber-das-projekt">Über das Projekt</a></li>
         <ul>
             <li><a href="#hintergrund">Hintergrund</a></li>
             <li><a href="#ergebnisse">Ergebnisse</a></li>
@@ -43,7 +43,7 @@
         <ul>
             <li><a href="#libraries">Libraries</a></li>
             <li><a href="#korpora">Korpora</a></li>
-            <li><a href="#zusaetzliche-tools">Zusaetzliche Tools</a></li>
+            <li><a href="#zusaetzliche-tools">Zusätzliche Tools</a></li>
         </ul>
         <li><a href="#erste-schritte">Erste Schritte</a></li>
         <ul>
@@ -57,13 +57,19 @@
             <li><a href="#api">API</a></li>
             <li><a href="#cli">CLI</a></li>
             <li><a href="#ordnerstruktur">Ordnerstruktur</a></li>
-            <li><a href="#analyse-durchfuehren">Analyse durchfuehren</a></li>
+            <li><a href="#analyse-durchfuehren">Analyse durchführen</a></li>
             <ul>
               <li><a href="#ergebnisdatei">Ergebnisdatei</a></li>          
                 <li><a href="#ergebniscodes">Ergebniscodes</a></li>    
-                <li><a href="#nicht-kongruenz">Kongruenz</a></li>    
-                <li><a href="#kongruenz">Nicht Kongruenz</a></li>    
-          </ul>
+                <li><a href="#nicht-kongruenz">Nicht Kongruenz</a></li>    
+                <li><a href="#kongruenz">Kongruenz</a></li>    
+            </ul>
+        </ul>
+        <li><a href="#beispiele">Beispiele</a></li>
+        <ul>
+            <li><a href="#csv-eingangsdatei">CSV - Eingangsdatei</a></li>
+            <li><a href="#csv-ergebnisdatei">CSV - Ergebnisdatei</a></li>
+            <li><a href="#json-ergebnisdatei">JSON - Ergebnisdatei</a></li>
         </ul>
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#beitragen">Beitragen</a></li>
@@ -113,8 +119,8 @@ Eine Liste der Ressourcen, die bei der Entwicklung des Programms verwendet wurde
 * [Deutsche morphologische Woerterbuecher](https://github.com/DuyguA/german-morph-dictionaries)
 
 ### Zusaetzliche Tools
- Diese Tools wurden benutzt, um die Lernertexte zu taggen und zu parsen.
-Dieses Verfahren wurde in einem anderen, verwandten [Projekt](https://github.com/imgeyuez/automatic_np_extraction) gemacht.
+Diese Tools wurden benutzt, um die Lernertexte zu taggen und zu parsen.
+Dieses Verfahren wurde in einem anderen, verwandten [Projekt](https://github.com/imgeyuez/automatic_np_extraction) durchgefuehrt.
 * [Parzu - deutscher Parser](https://github.com/rsennrich/ParZu)
 * [Conluu - CoNLL-U Parser](https://pypi.org/project/conllu/)
   *  Wie genau diese Tools verwendet wurden, bitte [hier nachlesen](https://github.com/imgeyuez/automatic_np_extraction)
@@ -126,9 +132,9 @@ Dieses Verfahren wurde in einem anderen, verwandten [Projekt](https://github.com
 
 ### Korpora entpacken
  Das Projekt bezieht sich auf einige Korpora und Datenbanken. Ohne diese kann das 
-Projekt nicht gestartet werden. 
+Projekt nicht gestartet werden.
 
-Alle korpora muessen erstmal entpackt werden: 
+Alle Korpora muessen erstmal entpackt werden: 
 
 app_resources/data/demorphy
 - [demorphy_de_kongru.zip](app_resources%2Fdata%2Fdemorphy%2Fdemorphy_de_kongru.zip)
@@ -138,12 +144,12 @@ app_resources/data/merlin_corpus
 
 Die Verzeichnisse sollte nachher die folgenden Strukturen haben: 
 
-Demorphy
+**Demorphy**
 - Inhalt 
   - [demoprhy_dict.pkl](app_resources%2Fdata%2Fdemorphy%2Fdemoprhy_dict.pkl)
   - [demorpy_dict.txt](app_resources%2Fdata%2Fdemorphy%2Fdemorpy_dict.txt)
 
-Merlin
+**Merlin**
 
 - Inhalt
   - [merlin_corpus.db.zip](app_resources%2Fdata%2Fmerlin_corpus%2Fmerlin_corpus.db.zip)
@@ -154,8 +160,9 @@ Merlin
   - [README.md](app_resources%2Fdata%2Fmerlin_corpus%2FREADME.md)
   - [merlin_corpus.db](app_resources%2Fdata%2Fmerlin_corpus%2Fmerlin_corpus.db)
 
-Andere Korpora und Dateien sind zwar enthalten, aber diese muessen nicht 
+Andere Korpora und Dateien sind zwar enthalten, aber diese muessen nicht zwangslaeufig
 entpackt werden. 
+
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ### Hauptverzeichnis festlegen
@@ -164,10 +171,14 @@ Dies tut man in der `main_config.yaml` Datei.
 z.B. 
 - `/Users/christopherchandler/de_np_kongru`
 
+**Wenn das Hauptverzeichnis nicht richtig gesetzt wurde, kann das Programm nicht 
+wie erwartet gestartet werden!**
+
 # Voraussetzungen
  Das Programm wurde mit [Python 3.10](https://www.python.org/downloads/release/python-3100/) konzepiert und entwicklet. 
  Es besteht die Moeglichkeit  eine altere Python-Version zu benutzen, aber dann kann es
 sein, dass das Programm nicht stabil ist. 
+
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 # Installation
@@ -192,8 +203,8 @@ from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
 ### CLI
 
 Um DeNP Kongru als CLI starten zu koennen,  den `python main.py` im Hauptverzeichnis
-ausfuehren. Wenn alles korrekt eingerichtet wurden, soll Folgendes in der Konsole 
-erscheinen
+ausfuehren. Wenn alles korrekt eingerichtet wurde, soll Folgendes in der Konsole 
+erscheinen:
 
 ```
 Usage: main.py [OPTIONS] COMMAND [ARGS]...
@@ -204,15 +215,13 @@ Commands:
   datenbank           Die Datenbankcorpora verwalten und durchsuchen
   kongruenz           Die Np-Eintraege auswerten
   statistik           Eine einfache Analyse ueber DeNpKongru ausfuehren
-  verzeichnis_leeren  Ein ausgewaehltes Verzeichnis leeren
-christopherchandler@Mac-Studio de_np_kongru % 
+  verzeichnis_leeren  Ein ausgewaehltes Verzeichnis leeren 
 ```
 
 Bei jedem Befehl kann man einen Hinweis ausgeben lassen, wie die Befehle funktionieren
 und welche Argumente erforderlich sind, indem man `--help` am Ende eingibt.  
 
-Zum Beispiel: 
- 
+Z.B.:
 `python main.py datenbank text_lesen --help`
 
 ```
@@ -233,8 +242,9 @@ verstehen zu koennen, bitte die Dokumentation von
 
 ### Ordnerstruktur
 Die Dateien, die DeNpKongru braucht, um eine Analyse durchzufuehren. 
+
 Die Order sind zwar leer, aber werden befuellt, je nachdem welche Kommandos 
-man ausfuehlt. Man kann auch die Dateien manuell in dem entsprechenden Ordner 
+man ausfuehrt. Man kann auch die Dateien manuell in dem entsprechenden Ordner 
 ablegen.
 
 - [user](user)
@@ -268,7 +278,7 @@ ablegen.
         extrahiert wurden, werden hier gespeichert.
       - [nominal_phrase_analysis_csv_results](user%2Foutgoing%2Fnominal_phrase_analysis_csv_results)
       - Die Auswertung der Nominalphrasen werden hier gespeichert. 
-    - [nominal_phrase_json](user%2Foutgoing%2Fnominal_phrase_json)
+    - [nominal_phrase_analysis_json_results](user%2Foutgoing%2Fnominal_phrase_analysis_json_results)
       - Die Nominalphrasen und deren Ergebnisse werden in der entsprechenden JSON-Datei
         gespeichert. 
     - [text_ids](user%2Ftext_ids)
@@ -280,30 +290,73 @@ ablegen.
 
  ### Analyse durchfuehren
 Die Analyse kann man entweder ueber die API oder die CLI durchfuehren. 
-an [multi_np_analysis.py](kongru%2Fapi_nlp%2Fcongruential_analysis%2Fmulti_np_analysis.py) 
-kann man sich orientieren, wenn man neue  Skript anlegen moechte.
+An [run_main_analysis.sh](run_main_analysis.sh) kann man sich orientieren, 
+wenn man neue Skripte anlegen moechte.
 
 Wenn die Pfade korrekt eingerichtet wurden, sollte dieses Skript problemlos funktioniern.
 Man muss also nur das Skript starten oder es durch die CLI aufrufen. 
 
+In dieser Skript-datei wird `main.py kongruenz multi` bzw. 
+`multi_nominal_phrase_agreement_analysis` ausgefueht. Hier werden meherere Text-Id
+auf meherere Dateien analysiert (Batch Analysis). 
+
+Es bleibt einem ueberlassen, wie und wo man dieses Skript ausfuehrt. 
+
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
-#### Ergebnisdatei
+#### Nominalphrasen - Dateien
 Das Programm erwartet die folgende Struktur:
 
-``` 
-CSV
-Nominalphrase,Morphologische Information, Satz  
+##### CSV - Eingangsdatei 
+Es muss eine .CSV Datei mit der folgenden Struktur eingegeben werden: 
 
-Maria Schmidt,Maria N Masc|_|Sg,Schmidt N Masc|_|Sg,Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+``` 
+NP_ID, Nominalphrase,Morphologische Information, Satz  
+1_1,Maria Schmidt,Maria N Masc|_|Sg,Schmidt N Masc|_|Sg,Maria Schmidt
 ```
 
 Alle Ergebnisse Dateien haben die folgene Struktur: 
 
+##### CSV - Ergebnisdatei 
+Die Ergebnisse werden auch in einer separaten CSV-Datei gespeichert, 
+damit man die Ergebnisse auf den ersten Blick verstehen kann.
+
 ```
 CSV
-Ergebniscode, Nominalphrase, Morphologische Information, Satz
-1,Maria Schmidt,"Maria,N,_|Masc|_|Sg","Schmidt,N,_|Masc|_|Sg",Maria Schmidt Addresse Computer Spezialist Odenwaldstraße 5.
+NP_ID,Ergebniscode, Nominalphrase, Morphologische Information, Satz
+1_2,3,einem Haus,"einem,ART,Indef|Neut|Dat|Sg","Haus,N,_|Neut|Dat|Sg"," einem Haus suchen ."
+```
+
+##### JSON - Ergebnisdatei 
+
+Die Ergebnisse werden auch in einer separaten Json-Datei gespeichert,
+damit sie in einem anderen Programm weiter verarbeitet werden koennen.
+
+Die .json hat dann die folgende Struktur. 
+```
+ {
+        "file_ID": "1031_0003133",
+        "sent_NP_ID": "1_1",
+        "sentence": "Wenn man umziehen muss , dann muss man nach einer Wohnung oder einem Haus suchen .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003133",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "C1",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        }
 ```
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
@@ -317,10 +370,31 @@ um welche Art von Kongruenz es sich handelt.
 | EINFACH          | Stadt                                |
 | ART              | Das Leben                            |
 | PREP             | Mit Kindern                          |
-| Rechtschreibfehler | Reche Pfliche*,Wiviel*               |
 | Eigennamen       | Katharina, Maria Meier               |
 | Redewendungen    | Liebe Julia, Mit freundlichen Grüßen |
 
+
+##### Beispiele 
+- `EINFACH` - Nomen, die alleine bzw. ohne Artikel vorkommen. 
+- `ART` - Nomen, die mit Artikeln oder Adjektiven vorkommen
+  - Wenn es nicht kongruiert, liegt es vermutlich daran, dass es Rechtschreibfehler
+    vorliegen 
+- `EIGENNAMEN` - Sie sind immer richtig. Das sind z.B. Namen oder Städte. 
+- `Redewendung` - Sofern sie keine Rechtschreibfehler aufweisen, 
+kann man davon ausgehen, dass sie immer richtig sind. Das sind wie z.B. 
+  - Mit freundlichen Grüßen
+  - Sehr geehrte Damen und Herren 
+  - Liebe(r) Frau/Herr Schmidt
+
+Wenn eine Np in einer Kategorie vorkommt, kann man erkennen, ob es kongruiert oder 
+nicht und warum.
+
+z.B. 
+```
+10 - Es ist eine Einfache Nominalphrase, 
+aber es liegen Rechtschreibfehler vor
+```
+  
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ##### Kongruenz
@@ -337,7 +411,7 @@ Gruende, weswegen die Nominalphrase kongruiert
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ##### Nicht Kongruenz
-Gruende, weswegen die Nominalphrase nicht kongruiert
+Gruende, weswegen die Nominalphrase nicht kongruiert.
 
 | Code | Bedeutung     |
 |------|-------------|
@@ -346,10 +420,12 @@ Gruende, weswegen die Nominalphrase nicht kongruiert
 | 12   | PREP        |
 | 99   | Unbekannt   |
 
-- 99 - Aus unbekannten Gruenden konnte die Kongruenz nicht bestimmt werden.
+- 99 
+  -   Aus unbekannten Gruenden konnte die Kongruenz nicht bestimmt werden.
 Es ist vermutlich irgendwo ein Fehler aufgetreten. Es kann auch sein,
-dass die Kongruenz einfach nicht ermittelt werden konnte.
-
+dass die Kongruenz einfach nicht ermittelt werden konnte. 
+ 
+  
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 <!-- ROADMAP -->
@@ -406,7 +482,7 @@ Christopher Chandler - christopher.chandler at outlook.de
 [contributors-url]: https://github.com/christopher-chandler/De_NP_Kongru/graphs/contributors
 
 [stars-shield]: https://img.shields.io/github/stars/christopher-chandler/De_NP_Kongru?logoColor=yellow&style=social
-[stars-url]: https://github.com/christopher-chandler/De_NP_Kongru/stargazers
+[stars-url]: https://github.com/christopher-chandler/De_Np_Kongru/stargazers
 
 [license-shield]: https://img.shields.io/github/license/christopher-chandler/De_NP_Kongru?color=yellow
 [license-url]: https://github.com/christopher-chandler/De_Np_Kongru/blob/main/LICENSE
@@ -417,4 +493,3 @@ Christopher Chandler - christopher.chandler at outlook.de
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
 [version-shield]: https://img.shields.io/badge/Version-0.9.0-brightgreen
 [update-shield]: https://img.shields.io/badge/Last_Updated-09_2023-blue
- 
