@@ -76,7 +76,7 @@ def get_report() -> None:
             typer.echo(classification_rep)
     except Exception as e:
         catch_and_log_error(
-            echo_error=True,
+            echo_msg=True,
             error=e,
             custom_message=statistics_keys.GOLD_AND_RAW_FILES_INCORRECT.value,
         )

@@ -82,20 +82,25 @@ def empty_chosen_directory(
             os.remove(file)
 
         catch_and_log_info(
-            msg=f"Die Dateien '{file_directory}' wurden geloescht.", echo_msg=True
+            custom_message=f"Die Dateien '{file_directory}' wurden geloescht.",
+            echo_msg=True,
         )
 
     elif len(files_to_be_deleted) == 0 and folder_path is True:
-        catch_and_log_info(msg=f"Der Ordner '{trg_dir}' ist schon leer.", echo_msg=True)
+        catch_and_log_info(
+            custom_message=f"Der Ordner '{trg_dir}' ist schon leer.", echo_msg=True
+        )
 
     else:
-        catch_and_log_info(msg=f"Ein unbekannter Fehler ist aufgetreten", echo_msg=True)
+        catch_and_log_info(
+            custom_message=f"Ein unbekannter Fehler ist aufgetreten", echo_msg=True
+        )
 
 
 if __name__ == "__main__":
     try:
         main_typer_app()
-        catch_and_log_info(msg=main_keys.MAIN_APP_START.value)
+        catch_and_log_info(custom_message=main_keys.MAIN_APP_START.value)
     except Exception as e:
         msg = Mk.MainApp.MAIN_APP_FATAL_ERROR.value
         catch_and_log_error(error=e, custom_message=msg, kill_if_fatal_error=True)

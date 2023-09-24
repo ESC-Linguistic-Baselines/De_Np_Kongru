@@ -191,7 +191,7 @@ class AstNominalPhraseExtractor:
                 except Exception as e:
                     catch_and_log_error(
                         custom_message="Diese NP ist zu kurz, um analysiert zu werden",
-                        echo_error=False,
+                        echo_msg=False,
                         error=e,
                     )
 

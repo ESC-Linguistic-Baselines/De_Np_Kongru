@@ -119,7 +119,7 @@ def singular_nominal_phrase_agreement_analysis(
             np_congruency.save_congruency_results()
 
             basic_logger.catch_and_log_info(
-                msg=congruential_keys.NP_AGREEMENT_SAVE.value,
+                custom_message=congruential_keys.NP_AGREEMENT_SAVE.value,
                 echo_msg=True,
             )
         else:
@@ -155,7 +155,17 @@ def multi_nominal_phrase_agreement_analysis(
         congruential_keys.MULTI_AGREEMENT_ID_SOURCE_SHORT.value,
         help=congruential_keys.MULTI_AGREEMENT_ID_SOURCE_HELP.value,
     ),
-):
+) -> None:
+    """
+
+    Args:
+        text_amount:
+        text_id_sources:
+
+    Returns:
+        None
+
+    """
     # Dateien aufstellen
     file_ids = open(text_id_sources, mode="r", encoding="utf-8").readlines()
 

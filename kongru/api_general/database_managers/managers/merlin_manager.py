@@ -345,7 +345,7 @@ class MerlinManager:
         # Leere Ergebnisse werden nicht beruecksichtigt.
         if table_result is not None:
             catch_and_log_info(
-                msg=f"Der Eintrag {text_id} ist schon vorhanden.",
+                custom_message=f"Der Eintrag {text_id} ist schon vorhanden.",
                 log_info_message=True,
                 echo_msg=False,
             )
@@ -372,7 +372,7 @@ class MerlinManager:
             connector.close()
 
             catch_and_log_info(
-                msg=f"Der Text {text_id} wurde erfolgreich gespeichert",
+                custom_message=f"Der Text {text_id} wurde erfolgreich gespeichert",
                 echo_msg=False,
                 log_info_message=False,
             )
@@ -493,7 +493,7 @@ class MerlinManager:
 
         else:
             catch_and_log_info(
-                msg=merlin_keys.MERLIN_DATABASE_UNZIP_DATA.value,
+                custom_message=merlin_keys.MERLIN_DATABASE_UNZIP_DATA.value,
                 echo_msg=True,
                 echo_color=typer.colors.RED,
             )

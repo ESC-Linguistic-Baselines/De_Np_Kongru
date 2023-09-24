@@ -1,5 +1,4 @@
 # Standard
-import ast
 import glob
 
 # Pip
@@ -7,6 +6,10 @@ from tqdm import tqdm
 
 # Custom
 # api_general
+
+# funcs
+from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
+
 
 # const
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
@@ -17,10 +20,19 @@ from kongru.api_general.database_managers.managers.merlin_manager import MerlinM
 from kongru.api_general.database_managers.managers.nominal_phrase_json_manager import (
     NominalPhraseJsonManager as Npjm,
 )
-from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
 
 
-def generate_np_json_files(text_id_source):
+def generate_np_json_files(text_id_source) -> None:
+    """
+    die zugehoerige Json-Daten werden fuer jede Np-Id aus der Merlin-Corpus-Datenbank
+    extrahiert. Diese werden dann anschließend gespeichert.
+
+    Args:
+        text_id_source (list): Ids, die aus der Datenbank extrahiert werden sollen.
+
+    Returns:
+        None
+    """
     for text_id in tqdm(text_id_source, desc="Processing Text IDs"):
         merlin = MerlinManager()
         merlin.sql_command = f"""
@@ -35,7 +47,17 @@ def generate_np_json_files(text_id_source):
             outfile.write(data)
 
 
-def combine_csv_json_data():
+def combine_csv_json_data() -> None:
+    """
+    Die Dateien aus der .csv-Datei und .json Datei werden zusammen gefuehrt.
+
+    Hinweis:
+        Die Dateien werden nur zusammengefuehrt, wenn es sowohl eine .csv-Datei
+        als auch eine .json Datei.
+
+    Returns:
+        None
+    """
     csv_data = glob.glob(Gp.NP_CSV_RES_FILES_GLOB.value)
     json_data = glob.glob(Gp.NP_JSON_RAW_FILES_GLOB.value)
 

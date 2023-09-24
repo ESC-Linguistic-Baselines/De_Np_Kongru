@@ -117,7 +117,7 @@ def get_and_show_text_by_id(
             )
     else:
         catch_and_log_info(
-            msg=merlin_keys.INVALID_TEXT_ID.value,
+            custom_message=merlin_keys.INVALID_TEXT_ID.value,
             echo_msg=True,
             log_info_message=False,
             echo_color=typer.colors.RED,
@@ -204,7 +204,9 @@ def extract_nps_from_database(
             )
 
     elif not database_results:
-        catch_and_log_info(msg=merlin_keys.INVALID_TEXT_ID.value, echo_msg=True)
+        catch_and_log_info(
+            custom_message=merlin_keys.INVALID_TEXT_ID.value, echo_msg=True
+        )
 
 
 @app_typer_data_managers.command(
@@ -267,7 +269,8 @@ def extract_nps_from_local_file(
             np_file_handler.save_extracted_ast_nps()
 
             catch_and_log_info(
-                msg=manager_keys.EXTRACT_NPS_LOCAL_ECHO_SAVE.value, echo_msg=echo_msg
+                custom_message=manager_keys.EXTRACT_NPS_LOCAL_ECHO_SAVE.value,
+                echo_msg=echo_msg,
             )
 
         if file_type == "conll":

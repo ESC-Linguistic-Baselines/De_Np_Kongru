@@ -1,13 +1,10 @@
 # Standard
-# None
-from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
-
 
 # Pip
 # None
 
 # Custom
-# None
+from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
 
 def open_merlin_file(
@@ -37,7 +34,7 @@ def open_merlin_file(
                 error=e,
                 custom_message=f"Die Datei {file_raw_data} konnte nicht eingelesen "
                 f"werden.",
-                echo_error=False,
+                echo_msg=False,
             )
             return ""
 

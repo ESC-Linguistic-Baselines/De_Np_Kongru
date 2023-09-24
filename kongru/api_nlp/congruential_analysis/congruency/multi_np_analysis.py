@@ -18,7 +18,10 @@ from kongru.api_general.database_managers.app_data_managers import (
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.constants import general_vars as gv
 from kongru.api_general.statistics.statistics import Statistics
-from kongru.api_general.universal.funcs.basic_logger import catch_and_log_info
+from kongru.api_general.universal.funcs.basic_logger import (
+    catch_and_log_info,
+    catch_and_log_error,
+)
 
 
 def get_ast_data() -> None:
@@ -102,11 +105,19 @@ def generate_results_file(collective_results) -> None:
         command = gv.SQL_MERLIN_META_DATA_QUERY.replace("(?)", f"'{txt_id}'")
         meta_data_text = MerlinManager(sql_command=command)
 
-        merlin_sql_result = list(meta_data_text.read_merlin_corpus_database()[0])
-        txt_id_data = list(collective_results.get(txt_id).values())
-        new_data = merlin_sql_result + txt_id_data
-        # Ergebnisse speichern
-        csv_data.writerow(new_data)
+        try:
+            corpus_data = meta_data_text.read_merlin_corpus_database()
+            merlin_sql_result = list(corpus_data[0])
+            txt_id_data = list(collective_results.get(txt_id).values())
+            new_data = merlin_sql_result + txt_id_data
+            # Ergebnisse speichern
+            csv_data.writerow(new_data)
+        except Exception as e:
+            catch_and_log_error(
+                error=e,
+                custom_message="Ergebnisdatei erfolgreich generiert!",
+                echo_msg=False,
+            )
 
     catch_and_log_info("Ergebnisdatei erfolgreich generiert!", echo_msg=True)
 

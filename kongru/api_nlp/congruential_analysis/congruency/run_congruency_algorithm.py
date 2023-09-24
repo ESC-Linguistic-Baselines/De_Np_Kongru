@@ -25,7 +25,7 @@ def run_batch_congruency(
         all_texts(bool): Alle Texte sollen analysiert werden.
         np_files(list): Die Dateien, die analysiert werden sollen.
         text_id_numbers(list): Die Text-Id-Nummer der Texte, die anaylsiert werden sollen.
-        text_limit (int): Die Anzahl der Dateien, die analysiert werdne sollen.
+        text_limit (int): Die Anzahl der Dateien, die analysiert werden sollen.
 
     Returns:
             None

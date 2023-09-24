@@ -13,15 +13,15 @@ from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
 
 def get_logger(log_level=logging.ERROR) -> logging.Logger:
     """
-    Gibt einen konfigurierten Logger zurück.
+    Gibt einen konfigurierten Logger zurueck.
 
     Dies ist eine Hilfsfunktion zum Erstellen eines konfigurierten Loggers,
     der verwendet werden kann, um Fehler und Informationen
     in eine Protokolldatei zu schreiben.
 
     Args:
-        log_level (int, optional): Das gewünschte Log-Level.
-        Standardmäßig ist es logging.ERROR.
+        log_level (int, optional): Das gewuenschte Log-Level.
+        Standardmaessig ist es logging.ERROR.
 
     Returns:
         logging.Logger: Ein konfigurierter Logger.
@@ -64,7 +64,7 @@ def get_logger(log_level=logging.ERROR) -> logging.Logger:
 def catch_and_log_error(
     error: Exception,
     custom_message: str,
-    echo_error=True,
+    echo_msg=True,
     kill_if_fatal_error=False,
     echo_color=typer.colors.RED,
 ) -> None:
@@ -79,13 +79,13 @@ def catch_and_log_error(
         error (Exception): Die aufgetretene Ausnahme.
         custom_message (str): Eine benutzerdefinierte Nachricht, die in der
         Protokolldatei angezeigt wird.
-        echo_error (bool, optional): Ob die Fehlermeldung auf der Konsole ausgegeben
-         werden soll. Standardmäßig True.
+        echo_msg (bool, optional): Ob die Fehlermeldung auf der Konsole ausgegeben
+         werden soll. Standardmaessig True.
         kill_if_fatal_error (bool, optional): Wenn True, wird das Programm beendet,
          wenn der Fehler als kritisch eingestuft wird.
-            Standardmäßig False.
-        echo_color (typer.colors, optional): Die Farbe für die Ausgabe auf der Konsole.
-         Standardmäßig typer.colors.RED.
+            Standardmaessig False.
+        echo_color (typer.colors, optional): Die Farbe fuer die Ausgabe auf der Konsole.
+         Standardmaessig typer.colors.RED.
 
     Returns:
         None
@@ -93,7 +93,7 @@ def catch_and_log_error(
     logger = get_logger()
     traceback_str = traceback.format_exc()
 
-    if echo_error:
+    if echo_msg:
         typer.secho(custom_message, fg=echo_color)
         typer.echo(traceback_str)
 
@@ -106,7 +106,7 @@ def catch_and_log_error(
 
 
 def catch_and_log_info(
-    msg: str = "log info",
+    custom_message: str = "log info",
     echo_msg=False,
     log_info_message=True,
     echo_color=typer.colors.GREEN,
@@ -117,24 +117,24 @@ def catch_and_log_info(
     Diese Funktion erstellt einen Logger und protokolliert eine Informationsmeldung.
 
     Args:
-        msg (str, optional): Die Informationsmeldung, die protokolliert werden soll.
-        Standardmäßig "log info".
+        custom_message (str, optional): Die Informationsmeldung,
+        die protokolliert werden soll. Standardmaessig "log info".
         echo_msg (bool, optional): Ob die Informationsmeldung auf der Konsole ausgegeben
-        werden soll. Standardmäßig False.
+            werden soll. Standardmaessig False.
         log_info_message (bool, optional): Ob die Informationsmeldung in der
-        Protokolldatei gespeichert werden soll.
-            Standardmäßig True.
-        echo_color (typer.colors, optional): Die Farbe für die Ausgabe auf der Konsole.
-        Standardmäßig typer.colors.GREEN.
+            Protokolldatei gespeichert werden soll.
+            Standardmaessig True.
+        echo_color (typer.colors, optional): Die Farbe fuer die Ausgabe auf der Konsole.
+            Standardmaessig typer.colors.GREEN.
 
     Returns:
         None
     """
     logger = get_logger(log_level=logging.INFO)
     if echo_msg:
-        typer.secho(msg, fg=echo_color)
+        typer.secho(custom_message, fg=echo_color)
     if log_info_message:
-        logger.info(msg)
+        logger.info(custom_message)
 
 
 if __name__ == "__main__":

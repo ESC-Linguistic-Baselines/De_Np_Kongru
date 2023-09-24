@@ -177,7 +177,7 @@ class NominalPhraseCongruency:
             catch_and_log_error(
                 error=e,
                 custom_message=nominal_keys.NP_ART_ERR.value,
-                echo_error=False,
+                echo_msg=False,
             )
             return 99
 
@@ -597,7 +597,7 @@ class NominalPhraseCongruency:
                         catch_and_log_error(
                             error=e,
                             custom_message=nominal_keys.NP_ART_ERR.value,
-                            echo_error=False,
+                            echo_msg=False,
                         )
                         congruency_result = "99"
 
@@ -706,7 +706,7 @@ class NominalPhraseCongruency:
                 congruency_results[np_key] = np_analysis
 
         catch_and_log_info(
-            msg=f"Die NP-Analyse fuer {self.file_name} wurde abgeschlossen...",
+            custom_message=f"Die NP-Analyse fuer {self.file_name} wurde abgeschlossen...",
             echo_msg=True,
         )
 

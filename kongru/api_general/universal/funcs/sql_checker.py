@@ -30,7 +30,7 @@ def check_sql_command(sql_command: str) -> None or str:
             raise Cusem.MerlinDeleteSQL()
         except Cusem.MerlinDeleteSQL as e:
             catch_and_log_error(
-                error=e, custom_message=e, echo_error=False, kill_if_fatal_error=True
+                error=e, custom_message=e, echo_msg=False, kill_if_fatal_error=True
             )
     else:
         return sql_command

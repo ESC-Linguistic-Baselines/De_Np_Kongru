@@ -13,21 +13,44 @@ from kongru.api_general.universal.constants.general_paths import GeneralPaths as
 
 
 class Statistics:
+    """
+    Hier werden die Ergbenisse der Auswerten zusammengetragen, damit eine Uebersicht
+    der Ergebnisse erstellt werden kann. Es handelt sich hierbei um eine reine
+    Auszaehlung der Ergebnisse und es werden dabei keine statistischen Verfahren
+    ausgefuehrt.
+    """
+
     def __init__(self, np_results_file=None):
         self.np_results_file = np_results_file
         self.header_file = Gp.NP_HEADER_FILE.value
 
-    def __open_file(self):
+    def open_csv_file(self) -> list:
+        """
+        Die .CSV Datei aufmachen und auslesen
+
+        Returns:
+            csv_result(list): Die Daten aus der .csv Datei
+        """
         with open(self.np_results_file, mode="r", encoding="utf-8") as file:
             csv_reader = csv.reader(file)
 
-            results = list()
+            csv_results = list()
             for row in csv_reader:
-                results.append(row[1:])
+                csv_results.append(row[1:])
 
-            return results
+            return csv_results
 
-    def get_file_header(self):
+    def get_file_header(self) -> dict:
+        """
+        Es gibt Header-Daten fuer die Merlin-Dateien und fuer die Ergebnissdateien.
+        Diese werden hier gesplittet und dann spaeter zusammengefuehrt, weil die Daten
+        fuer den jeweiligen Header getrennt gesammelt werden.
+
+        Returns:
+            complete_data dict[OrderedDict, str[list]]:
+                die Daten aus der Header-Datei, die fuer die Gesamtergebnisse wichtig
+                sind und die au
+        """
         header_file = open(self.header_file, mode="r", encoding="utf-8")
         csv_header = [i for i in header_file]
         header_results, merlin_meta_data = OrderedDict(), list()
@@ -39,10 +62,13 @@ class Statistics:
             else:
                 merlin_meta_data.append(row)
 
-        data = {"header_results": header_results, "merlin_meta_data": merlin_meta_data}
-
+        complete_data = {
+            "header_results": header_results,
+            "merlin_meta_data": merlin_meta_data,
+        }
         header_file.close()
-        return data
+
+        return complete_data
 
     def create_csv_results_file(self):
         csv_header = list(self.get_file_header().get("header_results").keys())
@@ -58,8 +84,43 @@ class Statistics:
 
         return csv_writer
 
-    def count_congruency_codes(self):
-        np_result_data = self.__open_file()
+    def count_congruency_codes(self) -> OrderedDict:
+        """
+        zaehlt die verschiedenen Kongruenzcodes in den geoeffneten CSV-Daten.
+        Die Codes werden entsprechend ihrer Bedeutung in Kategorien wie "EINFACH", "ART",
+        "PREP", usw. gezaehlt. Außerdem werden Gesamtzahlen fuer korrekte, falsche und
+        unbekannte Codes berechnet.
+
+        Returns:
+            data_set (OrderedDict): Ein OrderedDict, das die gezählten
+                Kongruenzcodes enthält.
+
+                Ein Beispiel:
+                                {
+                    "EINFACH": {
+                        "0": Anzahl,
+                        "10": Anzahl
+                    },
+                    "ART": {
+                        "1": Anzahl,
+                        "11": Anzahl
+                    },
+                    "PREP": {
+                        "2": Anzahl,
+                        "12": Anzahl
+                    },
+                    "EIGENNAMEN": {
+                        "3": Anzahl
+                    },
+                    "REDEWENDUNGEN": {
+                        "4": Anzahl
+                    },
+                    "GESAMT_WAHR": Gesamtzahl der korrekten Codes,
+                    "GESAMT_FALSCH": Gesamtzahl der falschen Codes,
+                    "GESAMT_UNBEKANNT": Gesamtzahl der unbekannten Codes
+                }
+        """
+        np_result_data = self.open_csv_file()
         data_set = OrderedDict(
             [
                 ("EINFACH", {"0": 0, "10": 0}),
@@ -107,6 +168,14 @@ class Statistics:
         return data_set
 
     def get_data_as_string(self):
+        """
+        Die ganzen Daten aus get_file_header().get("header_results")' werden
+        zusammengefuehrt und gezaehlt.
+
+        Returns:
+            code_data(dict): die Kongruenzdaten als dict, dessen Werte spaeter
+            in einen String umgewandelt werden.
+        """
 
         code_data = self.get_file_header().get("header_results")
         codes = self.count_congruency_codes()
@@ -156,4 +225,4 @@ class Statistics:
 
 
 if __name__ == "__main__":
-    res = Statistics().get_file_header()
+    pass

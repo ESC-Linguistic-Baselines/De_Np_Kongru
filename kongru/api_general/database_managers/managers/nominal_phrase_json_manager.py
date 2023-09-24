@@ -6,22 +6,50 @@ import json
 # None
 
 # Custom
+
+# funcs
 from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
+
+# constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 
 class NominalPhraseJsonManager:
+    """
+    verwaltet JSON-Daten, die Informationen ueber nominale Phrasen enthalten.
+
+    Sie bietet Methoden zum Lesen von JSON-Daten aus Dateien, zum Hinzufuegen
+    von Kongruenzinformationen aus einer CSV-Datei zu den JSON-Daten
+    und zum Speichern der aktualisierten JSON-Daten in einer neuen Datei.
+
+    Hier werden Informationen aus der Json-datei und CSV-Datei zusammengefuehrt,
+    damit die Json Datei ggf. von einem anderen Programm weiterverarbeitet werden kann.
+    """
+
     def __init__(self, np_json_file, np_csv_file=None):
         self.np_file_json = np_json_file
         self.np_csv_file = np_csv_file
 
-    def read_in_json_file(self):
-        with open(self.np_file_json, mode="r") as json_file:
-            data = json.load(json_file)
-            return data
+    def read_in_json_file(self) -> dict:
+        """
+        Liest die Daten aus der .json-Datei ein.
 
-    def read_in_csv_file(self):
+        Returns:
+            json_data (dict): die Daten in der .json-Datei
+        """
+        with open(self.np_file_json, mode="r") as json_file:
+            json_data = json.load(json_file)
+            return json_data
+
+    def read_in_csv_file(self) -> dict:
+        """
+        Liest die NP-Daten aus der .csv-Datei ein.
+
+        Returns: csv_data (dict): die NP-Daten aus der .csv-Datei, wobei die NP-IDs
+            als Schluessel verwendet werden.
+        """
         csv_data = dict()
+
         with open(self.np_csv_file, mode="r", encoding="utf-8") as csv_file:
             csv_reader = csv.reader(csv_file)
             for row in csv_reader:
@@ -29,6 +57,7 @@ class NominalPhraseJsonManager:
                 np_id = row[0]
                 congruency_code = row[1]
                 np = row[2]
+
                 csv_data[np_id] = {
                     "congruency_code": congruency_code,
                     "nominal_phrase": np,
@@ -37,6 +66,18 @@ class NominalPhraseJsonManager:
         return csv_data
 
     def add_np_congruency_information_from_csv_to_json(self):
+        """
+        Fuegt Kongruenzinformationen aus einer .csv-Datei zu einem JSON-Datensatz
+        hinzu.
+
+        Hinweis: Diese Funktion aktualisiert nicht das urspruengliche
+        JSON-Datenobjekt, sondern gibt eine neue Liste von Dictionaries zurueck,
+        die die aktualisierten Daten enthalten.
+
+        Returns: new_json_data (list): Eine Liste von Dictionaries, wobei jedes
+            Dictionary die urspruenglichen JSON-Daten und die hinzugefügten
+            Kongruenzinformationen enthaelt.
+        """
 
         json_data = self.read_in_json_file()
         csv_data = self.read_in_csv_file()
@@ -65,6 +106,17 @@ class NominalPhraseJsonManager:
         return new_json_data
 
     def save_new_json_file(self):
+        """
+        Speichert die aktualisierten JSON-Daten in einer neuen Datei.
+
+        Returns:
+            None
+
+        Hinweis: Die aktualisierten JSON-Daten werden in einer neuen Datei
+        gespeichert, und der Dateiname wird basierend auf dem urspruenglichen
+        Dateinamen generiert. Die Datei wird im JSON-Resultatverzeichnis (sofern
+        konfiguriert) gespeichert.
+        """
 
         new_json_data = self.add_np_congruency_information_from_csv_to_json()
 
