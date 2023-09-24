@@ -42,7 +42,7 @@ def get_files(dataset: list[str]) -> list:
         csv_reader_objects.append(reference_data)
 
     for data_row in csv_reader_objects:
-        get_values = [i[0] for i in list(data_row)]
+        get_values = [i[1] for i in list(data_row)]
         csv_reader_data.extend(get_values)
 
     return csv_reader_data

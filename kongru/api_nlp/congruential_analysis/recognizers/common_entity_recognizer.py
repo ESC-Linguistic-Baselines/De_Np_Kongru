@@ -83,7 +83,7 @@ class CommonEntityRecognizer:
 
         if entity_check == "common_phrases":
             checklist = common_phrases
-        elif entity_check == "proper_common":
+        elif entity_check == "common_proper":
             checklist = common_proper
         else:
             raise CusEm.CerPhraseorProperArgument

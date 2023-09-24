@@ -1,0 +1,3773 @@
+[
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_1",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Stadt X Oktober"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "X",
+                "lemma": "X",
+                "POS_STTS": "NE",
+                "index": "2",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Fem|_|Sg"
+            },
+            "P_TOK2": {
+                "word_type": "N",
+                "word_form": "Oktober",
+                "lemma": "Oktober",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Masc|_|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadt",
+                "lemma": "Stadt",
+                "POS_STTS": "NN",
+                "index": "1",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_2",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadt X"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadt",
+                    "lemma": "Stadt",
+                    "POS_STTS": "NN",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "X",
+                "lemma": "X",
+                "POS_STTS": "NE",
+                "index": "2",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_3",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Stadt 28. Oktober"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadt",
+                    "lemma": "Stadt",
+                    "POS_STTS": "NN",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "CARD",
+                "word_form": "2011",
+                "lemma": "2011",
+                "POS_STTS": "CARD",
+                "index": "6",
+                "dep_rel": "app",
+                "head_index": "5",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "28.",
+                "lemma": "28.",
+                "POS_STTS": "ADJA",
+                "index": "4",
+                "dep_rel": "attr",
+                "head_index": "5",
+                "parser_morph_features": "_|Masc|_|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Oktober",
+                "lemma": "Oktober",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Masc|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_4",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Julia Meier"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Meier",
+                "lemma": "Meier",
+                "POS_STTS": "NE",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "7",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Julia",
+                "lemma": "Julia",
+                "POS_STTS": "NE",
+                "index": "7",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_5",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Julia Meier M\u00fcllergasse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Julia",
+                    "lemma": "Julia",
+                    "POS_STTS": "NE",
+                    "index": "7",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "M\u00fcllergasse",
+                "lemma": "M\u00fcllergasse",
+                "POS_STTS": "NE",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Meier",
+                "lemma": "Meier",
+                "POS_STTS": "NE",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "7",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_6",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Meier M\u00fcllergasse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Meier",
+                    "lemma": "Meier",
+                    "POS_STTS": "NE",
+                    "index": "8",
+                    "dep_rel": "app",
+                    "head_index": "7",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Julia",
+                    "lemma": "Julia",
+                    "POS_STTS": "NE",
+                    "index": "7",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "CARD",
+                "word_form": "1",
+                "lemma": "1",
+                "POS_STTS": "CARD",
+                "index": "10",
+                "dep_rel": "app",
+                "head_index": "9",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "M\u00fcllergasse",
+                "lemma": "M\u00fcllergasse",
+                "POS_STTS": "NE",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_7",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadt Y"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Y",
+                "lemma": "Y",
+                "POS_STTS": "NE",
+                "index": "13",
+                "dep_rel": "app",
+                "head_index": "12",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadt",
+                "lemma": "Stadt",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_8",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadt Y Aupairsglobal"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadt",
+                    "lemma": "Stadt",
+                    "POS_STTS": "NN",
+                    "index": "12",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Aupairsglobal",
+                "lemma": "Aupairsglobal",
+                "POS_STTS": "NE",
+                "index": "14",
+                "dep_rel": "app",
+                "head_index": "13",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Y",
+                "lemma": "Y",
+                "POS_STTS": "NE",
+                "index": "13",
+                "dep_rel": "app",
+                "head_index": "12",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_9",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Y Aupairsglobal Bahnhofstr"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Y",
+                    "lemma": "Y",
+                    "POS_STTS": "NE",
+                    "index": "13",
+                    "dep_rel": "app",
+                    "head_index": "12",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadt",
+                    "lemma": "Stadt",
+                    "POS_STTS": "NN",
+                    "index": "12",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Bahnhofstr",
+                "lemma": "Bahnhofstr",
+                "POS_STTS": "NE",
+                "index": "15",
+                "dep_rel": "app",
+                "head_index": "14",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Aupairsglobal",
+                "lemma": "Aupairsglobal",
+                "POS_STTS": "NE",
+                "index": "14",
+                "dep_rel": "app",
+                "head_index": "13",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "1_10",
+        "sentence": "Stadt X , 28. Oktober 2011 Julia Meier M\u00fcllergasse 1 1234 Stadt Y Aupairsglobal Bahnhofstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Aupairsglobal Bahnhofstr"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Aupairsglobal",
+                    "lemma": "Aupairsglobal",
+                    "POS_STTS": "NE",
+                    "index": "14",
+                    "dep_rel": "app",
+                    "head_index": "13",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Y",
+                    "lemma": "Y",
+                    "POS_STTS": "NE",
+                    "index": "13",
+                    "dep_rel": "app",
+                    "head_index": "12",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Bahnhofstr",
+                "lemma": "Bahnhofstr",
+                "POS_STTS": "NE",
+                "index": "15",
+                "dep_rel": "app",
+                "head_index": "14",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "2_11",
+        "sentence": "101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Wiesbaden Interesse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Interesse",
+                "lemma": "Interesse",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "app",
+                "head_index": "3",
+                "parser_morph_features": "Neut|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Wiesbaden",
+                "lemma": "Wiesbaden",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "2_12",
+        "sentence": "101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Wiesbaden Interesse an Programm"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Wiesbaden",
+                    "lemma": "Wiesbaden",
+                    "POS_STTS": "NE",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Neut|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "an",
+                "lemma": "an",
+                "POS_STTS": "APPR",
+                "index": "5",
+                "dep_rel": "pp",
+                "head_index": "4",
+                "parser_morph_features": "Dat"
+            },
+            "P_TOK2": {
+                "word_type": "N",
+                "word_form": "Programm",
+                "lemma": "Programm",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "4",
+                "parser_morph_features": "Neut|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Interesse",
+                "lemma": "Interesse",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "app",
+                "head_index": "3",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "2_13",
+        "sentence": "101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "an Ihrem Au-pair"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "4",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Interesse",
+                    "lemma": "Interesse",
+                    "POS_STTS": "NN",
+                    "index": "4",
+                    "dep_rel": "app",
+                    "head_index": "3",
+                    "parser_morph_features": "Neut|_|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ihrem",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "6",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "_|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Au-pair",
+                "lemma": "Au-pair",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "_|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "2_14",
+        "sentence": "101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Damen Interesse Programm"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "2_14",
+                "2_15",
+                "2_16"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Interesse",
+                    "lemma": "Interesse",
+                    "POS_STTS": "NN",
+                    "index": "4",
+                    "dep_rel": "app",
+                    "head_index": "3",
+                    "parser_morph_features": "Neut|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Wiesbaden",
+                    "lemma": "Wiesbaden",
+                    "POS_STTS": "NE",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Neut|_|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Damen",
+                "lemma": "Dame",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|_|Pl"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Programm",
+                "lemma": "Programm",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "4",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "2_15",
+        "sentence": "101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "geehrte Damen Programm"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": [
+                "2_14",
+                "2_15",
+                "2_16"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Programm",
+                    "lemma": "Programm",
+                    "POS_STTS": "NN",
+                    "index": "8",
+                    "dep_rel": "app",
+                    "head_index": "4",
+                    "parser_morph_features": "Neut|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Interesse",
+                    "lemma": "Interesse",
+                    "POS_STTS": "NN",
+                    "index": "4",
+                    "dep_rel": "app",
+                    "head_index": "3",
+                    "parser_morph_features": "Neut|_|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADV",
+                "word_form": "Sehr",
+                "lemma": "sehr",
+                "POS_STTS": "ADV",
+                "index": "9",
+                "dep_rel": "adv",
+                "head_index": "10",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "geehrte",
+                "lemma": "geehrt",
+                "POS_STTS": "ADJA",
+                "index": "10",
+                "dep_rel": "attr",
+                "head_index": "11",
+                "parser_morph_features": "Pos|Fem|_|Pl|St|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Damen",
+                "lemma": "Dame",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|_|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "2_16",
+        "sentence": "101 65185 Wiesbaden Interesse an Ihrem Au-pair Programm Sehr geehrte Damen und Herren .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Herren"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "2_14",
+                "2_15",
+                "2_16"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "12",
+                    "dep_rel": "kon",
+                    "head_index": "11",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Damen",
+                    "lemma": "Dame",
+                    "POS_STTS": "NN",
+                    "index": "11",
+                    "dep_rel": "app",
+                    "head_index": "8",
+                    "parser_morph_features": "Fem|_|Pl"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Herren",
+                "lemma": "Herr",
+                "POS_STTS": "NN",
+                "index": "13",
+                "dep_rel": "cj",
+                "head_index": "12",
+                "parser_morph_features": "Masc|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "3_17",
+        "sentence": "als ich Ihre Anzeige gelesen habe , war ich sehr begeistert .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Ihre Anzeige"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gelesen",
+                    "lemma": "lesen",
+                    "POS_STTS": "VVPP",
+                    "index": "5",
+                    "dep_rel": "aux",
+                    "head_index": "6",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "habe",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "6",
+                    "dep_rel": "neb",
+                    "head_index": "8",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ihre",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Anzeige",
+                "lemma": "Anzeige",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "obja",
+                "head_index": "5",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "4_18",
+        "sentence": "Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen .",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "Seit meiner Kindheit"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "Seit",
+                    "lemma": "seit",
+                    "POS_STTS": "APPR",
+                    "index": "1",
+                    "dep_rel": "pp",
+                    "head_index": "4",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hatte",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "meiner",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "2",
+                "dep_rel": "det",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kindheit",
+                "lemma": "Kindheit",
+                "POS_STTS": "NN",
+                "index": "3",
+                "dep_rel": "pn",
+                "head_index": "1",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "4_19",
+        "sentence": "Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "das Traum"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hatte",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "das",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "6",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Def|Neut|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Traum",
+                "lemma": "Traum",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "obja",
+                "head_index": "4",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "4_20",
+        "sentence": "Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "9",
+                    "dep_rel": "pp",
+                    "head_index": "15",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "teilzunehmen",
+                    "lemma": "teilnehmen",
+                    "POS_STTS": "VVIZU",
+                    "index": "15",
+                    "dep_rel": "obji",
+                    "head_index": "4",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Programm",
+                "lemma": "Programm",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "app",
+                "head_index": "11",
+                "parser_morph_features": "Neut|Dat|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "einem",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "Indef|Neut|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Au-pair",
+                "lemma": "Au-pair",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "pn",
+                "head_index": "9",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "4_21",
+        "sentence": "Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Au-pair Programm"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Au-pair",
+                    "lemma": "Au-pair",
+                    "POS_STTS": "NN",
+                    "index": "11",
+                    "dep_rel": "pn",
+                    "head_index": "9",
+                    "parser_morph_features": "Neut|Dat|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "9",
+                    "dep_rel": "pp",
+                    "head_index": "15",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Programm",
+                "lemma": "Programm",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "app",
+                "head_index": "11",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "4_22",
+        "sentence": "Seit meiner Kindheit hatte ich das Traum , in einem Au-pair Programm in Deutschland teilzunehmen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "in Deutschland"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "13",
+                    "dep_rel": "pp",
+                    "head_index": "15",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "teilzunehmen",
+                    "lemma": "teilnehmen",
+                    "POS_STTS": "VVIZU",
+                    "index": "15",
+                    "dep_rel": "obji",
+                    "head_index": "4",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Deutschland",
+                "lemma": "Deutschland",
+                "POS_STTS": "NE",
+                "index": "14",
+                "dep_rel": "pn",
+                "head_index": "13",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "5_23",
+        "sentence": "Daf\u00fcr habe ich Tag f\u00fcr Tag Geld gesparen .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "habe",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "f\u00fcr",
+                "lemma": "f\u00fcr",
+                "POS_STTS": "APPR",
+                "index": "5",
+                "dep_rel": "pp",
+                "head_index": "4",
+                "parser_morph_features": "Acc"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Tag",
+                "lemma": "Tag",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "obja",
+                "head_index": "2",
+                "parser_morph_features": "Masc|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "5_24",
+        "sentence": "Daf\u00fcr habe ich Tag f\u00fcr Tag Geld gesparen .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "f\u00fcr Tag Geld"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "f\u00fcr",
+                    "lemma": "f\u00fcr",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "4",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Tag",
+                    "lemma": "Tag",
+                    "POS_STTS": "NN",
+                    "index": "4",
+                    "dep_rel": "obja",
+                    "head_index": "2",
+                    "parser_morph_features": "Masc|Acc|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Geld",
+                "lemma": "Geld",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "app",
+                "head_index": "6",
+                "parser_morph_features": "Neut|Acc|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Tag",
+                "lemma": "Tag",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "5_25",
+        "sentence": "Daf\u00fcr habe ich Tag f\u00fcr Tag Geld gesparen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Tag Geld"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Tag",
+                    "lemma": "Tag",
+                    "POS_STTS": "NN",
+                    "index": "6",
+                    "dep_rel": "pn",
+                    "head_index": "5",
+                    "parser_morph_features": "Neut|Acc|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "f\u00fcr",
+                    "lemma": "f\u00fcr",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "4",
+                    "parser_morph_features": "Acc"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Geld",
+                "lemma": "Geld",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "app",
+                "head_index": "6",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "6_26",
+        "sentence": "Ihr Angebot scheint sehr gut zu sein , aber ich m\u00f6chte Ihnen noch einige Fragen stellen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Ihr Angebot"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "scheint",
+                    "lemma": "scheinen",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ihr",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Neut|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Angebot",
+                "lemma": "Angebot",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "Neut|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "6_27",
+        "sentence": "Ihr Angebot scheint sehr gut zu sein , aber ich m\u00f6chte Ihnen noch einige Fragen stellen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "einige Fragen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "stellen",
+                    "lemma": "stellen",
+                    "POS_STTS": "VVINF",
+                    "index": "16",
+                    "dep_rel": "aux",
+                    "head_index": "11",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "m\u00f6chte",
+                    "lemma": "m\u00f6gen",
+                    "POS_STTS": "VMFIN",
+                    "index": "11",
+                    "dep_rel": "cj",
+                    "head_index": "9",
+                    "parser_morph_features": "1|Sg|Past|Subj"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "einige",
+                "lemma": "einige",
+                "POS_STTS": "PIAT",
+                "index": "14",
+                "dep_rel": "det",
+                "head_index": "15",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Fragen",
+                "lemma": "Frage",
+                "POS_STTS": "NN",
+                "index": "15",
+                "dep_rel": "obja",
+                "head_index": "16",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "7_28",
+        "sentence": "1 ) Ich habe ein schweizerischen Pass .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "ein schweizerischen Pass"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "habe",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Indef|_|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "schweizerischen",
+                "lemma": "schweizerisch",
+                "POS_STTS": "ADJA",
+                "index": "6",
+                "dep_rel": "attr",
+                "head_index": "7",
+                "parser_morph_features": "Pos|_|_|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Pass",
+                "lemma": "Pass",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "obja",
+                "head_index": "4",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "8_29",
+        "sentence": "Was sind die Aufenthaltsformalit\u00e4ten ?",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "die Aufenthaltsformalit\u00e4ten"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sind",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "Def|Fem|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Aufenthaltsformalit\u00e4ten",
+                "lemma": "Aufenthaltsformalit\u00e4t",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "subj",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "9_30",
+        "sentence": "Werden Sie um diese Formalit\u00e4ten k\u00fcmmern oder soll ich es allein machen ?",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "um diese Formalit\u00e4ten"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "um",
+                    "lemma": "um",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "objp",
+                    "head_index": "6",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "k\u00fcmmern",
+                    "lemma": "k\u00fcmmern",
+                    "POS_STTS": "VVINF",
+                    "index": "6",
+                    "dep_rel": "aux",
+                    "head_index": "1",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "diese",
+                "lemma": "diese",
+                "POS_STTS": "PDAT",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Formalit\u00e4ten",
+                "lemma": "Formalit\u00e4t",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "pn",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "10_31",
+        "sentence": "2 ) ich habe f\u00fcr mehrere Jahre Deutsch in der Schule gelernt .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "f\u00fcr mehrere Jahre Deutsch"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "f\u00fcr",
+                    "lemma": "f\u00fcr",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "12",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gelernt",
+                    "lemma": "lernen",
+                    "POS_STTS": "VVPP",
+                    "index": "12",
+                    "dep_rel": "aux",
+                    "head_index": "4",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Deutsch",
+                "lemma": "Deutsch",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "7",
+                "parser_morph_features": "Neut|Acc|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mehrere",
+                "lemma": "mehrere",
+                "POS_STTS": "PIAT",
+                "index": "6",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Jahre",
+                "lemma": "Jahr",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "10_32",
+        "sentence": "2 ) ich habe f\u00fcr mehrere Jahre Deutsch in der Schule gelernt .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Jahre Deutsch"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Jahre",
+                    "lemma": "Jahr",
+                    "POS_STTS": "NN",
+                    "index": "7",
+                    "dep_rel": "pn",
+                    "head_index": "5",
+                    "parser_morph_features": "Neut|Acc|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "f\u00fcr",
+                    "lemma": "f\u00fcr",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "12",
+                    "parser_morph_features": "Acc"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Deutsch",
+                "lemma": "Deutsch",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "7",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "10_33",
+        "sentence": "2 ) ich habe f\u00fcr mehrere Jahre Deutsch in der Schule gelernt .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "9",
+                    "dep_rel": "pp",
+                    "head_index": "12",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gelernt",
+                    "lemma": "lernen",
+                    "POS_STTS": "VVPP",
+                    "index": "12",
+                    "dep_rel": "aux",
+                    "head_index": "4",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "Def|Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Schule",
+                "lemma": "Schule",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "pn",
+                "head_index": "9",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "11_34",
+        "sentence": "Nun m\u00f6chte ich meine Sprachkenntnisse verbessern , um die Deutsche Literatur zu studieren .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "meine Sprachkenntnisse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "verbessern",
+                    "lemma": "verbessern",
+                    "POS_STTS": "VVINF",
+                    "index": "6",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "m\u00f6chte",
+                    "lemma": "m\u00f6gen",
+                    "POS_STTS": "VMFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Subj"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "meine",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Sprachkenntnisse",
+                "lemma": "Sprachkenntnis",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "obja",
+                "head_index": "6",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "11_35",
+        "sentence": "Nun m\u00f6chte ich meine Sprachkenntnisse verbessern , um die Deutsche Literatur zu studieren .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Deutsche Literatur die"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "studieren",
+                    "lemma": "studieren",
+                    "POS_STTS": "VVINF",
+                    "index": "13",
+                    "dep_rel": "neb",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "m\u00f6chte",
+                    "lemma": "m\u00f6gen",
+                    "POS_STTS": "VMFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Subj"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "9",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "Def|Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "Deutsche",
+                "lemma": "deutsch",
+                "POS_STTS": "ADJA",
+                "index": "10",
+                "dep_rel": "attr",
+                "head_index": "11",
+                "parser_morph_features": "Pos|Fem|Acc|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Literatur",
+                "lemma": "Literatur",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "obja",
+                "head_index": "13",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "12_36",
+        "sentence": "Ist es m\u00f6glich mit Universit\u00e4tsprofessoren zu bleiben ?",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "mit Universit\u00e4tsprofessoren"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "4",
+                    "dep_rel": "pp",
+                    "head_index": "7",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "bleiben",
+                    "lemma": "bleiben",
+                    "POS_STTS": "VVINF",
+                    "index": "7",
+                    "dep_rel": "aux",
+                    "head_index": "1",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Universit\u00e4tsprofessoren",
+                "lemma": "Universit\u00e4tsprofessor",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "pn",
+                "head_index": "4",
+                "parser_morph_features": "_|Dat|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "13_37",
+        "sentence": "3 ) Meine letzten Frage ist \u00fcber die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Meine letzten Frage"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "6",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Meine",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "letzten",
+                "lemma": "letzte",
+                "POS_STTS": "ADJA",
+                "index": "4",
+                "dep_rel": "attr",
+                "head_index": "5",
+                "parser_morph_features": "Pos|_|_|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Frage",
+                "lemma": "Frage",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "subj",
+                "head_index": "6",
+                "parser_morph_features": "_|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "13_38",
+        "sentence": "3 ) Meine letzten Frage ist \u00fcber die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "\u00fcber die Rechte"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "13_38",
+                "13_39"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "\u00fcber",
+                    "lemma": "\u00fcber",
+                    "POS_STTS": "APPR",
+                    "index": "7",
+                    "dep_rel": "pp",
+                    "head_index": "6",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "6",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "8",
+                "dep_rel": "det",
+                "head_index": "9",
+                "parser_morph_features": "Def|_|Acc|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Rechte",
+                "lemma": "Recht",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "pn",
+                "head_index": "7",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "13_39",
+        "sentence": "3 ) Meine letzten Frage ist \u00fcber die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Pflichte"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "13_38",
+                "13_39"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "10",
+                    "dep_rel": "kon",
+                    "head_index": "9",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Rechte",
+                    "lemma": "Recht",
+                    "POS_STTS": "NN",
+                    "index": "9",
+                    "dep_rel": "pn",
+                    "head_index": "7",
+                    "parser_morph_features": "_|Acc|_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "V",
+                "word_form": "haben",
+                "lemma": "haben",
+                "POS_STTS": "VAFIN",
+                "index": "18",
+                "dep_rel": "rel",
+                "head_index": "11",
+                "parser_morph_features": "_|Pl|Pres|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Pflichte",
+                "lemma": "Pflichte",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "cj",
+                "head_index": "10",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "13_40",
+        "sentence": "3 ) Meine letzten Frage ist \u00fcber die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "die Gastfamilie"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "haben",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "18",
+                    "dep_rel": "rel",
+                    "head_index": "11",
+                    "parser_morph_features": "_|Pl|Pres|_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Pflichte",
+                    "lemma": "Pflichte",
+                    "POS_STTS": "NN",
+                    "index": "11",
+                    "dep_rel": "cj",
+                    "head_index": "10",
+                    "parser_morph_features": "_|Acc|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "14",
+                "dep_rel": "det",
+                "head_index": "15",
+                "parser_morph_features": "Def|Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gastfamilie",
+                "lemma": "Gastfamilie",
+                "POS_STTS": "NN",
+                "index": "15",
+                "dep_rel": "subj",
+                "head_index": "18",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "13_41",
+        "sentence": "3 ) Meine letzten Frage ist \u00fcber die Rechte und Pflichte , die die Gastfamilie und ich haben , um alle dieselbe Erwartungen haben .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "alle dieselbe Erwartungen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "haben",
+                    "lemma": "haben",
+                    "POS_STTS": "VAINF",
+                    "index": "24",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "alle",
+                "lemma": "alle",
+                "POS_STTS": "PIDAT",
+                "index": "21",
+                "dep_rel": "det",
+                "head_index": "23",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ART",
+                "word_form": "dieselbe",
+                "lemma": "dieselbe",
+                "POS_STTS": "PDAT",
+                "index": "22",
+                "dep_rel": "det",
+                "head_index": "23",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Erwartungen",
+                "lemma": "Erwartung",
+                "POS_STTS": "NN",
+                "index": "23",
+                "dep_rel": "obja",
+                "head_index": "24",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "14_42",
+        "sentence": "Ich freue mich auf Ihre baldige Antwort .",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "auf Ihre baldige Antwort"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "auf",
+                    "lemma": "auf",
+                    "POS_STTS": "APPR",
+                    "index": "4",
+                    "dep_rel": "pp",
+                    "head_index": "2",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "freue",
+                    "lemma": "freuen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ihre",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "baldige",
+                "lemma": "baldig",
+                "POS_STTS": "ADJA",
+                "index": "6",
+                "dep_rel": "attr",
+                "head_index": "7",
+                "parser_morph_features": "Pos|Fem|Acc|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Antwort",
+                "lemma": "Antwort",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "pn",
+                "head_index": "4",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "15_43",
+        "sentence": "Mit freundlichen Gr\u00fc\u00dfen Julia",
+        "np_congruency_info": {
+            "congruency_code": "4",
+            "nominal_phrase": "Mit freundlichen Gr\u00fc\u00dfen Julia"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "Mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Julia",
+                "lemma": "Julia",
+                "POS_STTS": "NE",
+                "index": "4",
+                "dep_rel": "app",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Dat|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "freundlichen",
+                "lemma": "freundlich",
+                "POS_STTS": "ADJA",
+                "index": "2",
+                "dep_rel": "attr",
+                "head_index": "3",
+                "parser_morph_features": "Pos|_|Dat|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gr\u00fc\u00dfen",
+                "lemma": "Gru\u00df",
+                "POS_STTS": "NN",
+                "index": "3",
+                "dep_rel": "pn",
+                "head_index": "1",
+                "parser_morph_features": "_|Dat|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109880",
+        "sent_NP_ID": "15_44",
+        "sentence": "Mit freundlichen Gr\u00fc\u00dfen Julia",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Gr\u00fc\u00dfen Julia"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109880",
+                "L1": "French",
+                "age": "29",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "ask for information at Au pair Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Gr\u00fc\u00dfen",
+                    "lemma": "Gru\u00df",
+                    "POS_STTS": "NN",
+                    "index": "3",
+                    "dep_rel": "pn",
+                    "head_index": "1",
+                    "parser_morph_features": "_|Dat|_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "Mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Julia",
+                "lemma": "Julia",
+                "POS_STTS": "NE",
+                "index": "4",
+                "dep_rel": "app",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    }
+]

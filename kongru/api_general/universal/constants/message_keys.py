@@ -198,12 +198,20 @@ class MessageKeys:
         NP_AGREEMENT_SAVE_FALSE = "--anzeigen"
         NP_AGREEMENT_SAVE_HELP = "Ergebnisse speichern oder anzeigen"
 
-        GENERATE_JSON_FILES = "....json Dateien generieren"
+        GENERATE_JSON_FILES = ".json Dateien generieren"
         JSON_CSV_CREATED_COM = ".json und .csv Ergebnisse zusammenfuehren"
 
         JSON_CSV_CREATED_COM_SUCCESS = (
             ".json und .csv Ergebnisse erfolgreich zusammengefuehrt worden."
         )
+
+        AST_DATA_EXTRACTED = "AST-Dateien erfolgreich extrahiert!"
+        NP_DATA_EXTRACT = "Nominalphrasen aus AST-Dateien extrahieren"
+        NP_DATA_EXTRACTED = "Nominalphrasen erfolgreich extrahiert!"
+        NP_COUNT_RESULTS = "die Ergebnisse aus der NP-Datei zaehlen."
+        NP_RESULTS_COUNTED = "Ergebnisse erfolgreich gezaehlt!"
+        GENERATE_RESULT_FILES = "Ergebnisdatei generieren"
+        RESULT_FILES_CREATED = "Ergebnisdatei erfolgreich generiert!"
 
     class NominalPhraseCongruency(Enum):
         NP_ART_ERR = "Np konnte als ART nicht verarbeitet werden."

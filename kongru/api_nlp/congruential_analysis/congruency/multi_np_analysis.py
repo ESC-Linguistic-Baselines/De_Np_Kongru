@@ -1,9 +1,6 @@
 # Standard
 import glob
 import os
-import time
-
-import typer
 
 # Pip
 from tqdm import tqdm
@@ -22,6 +19,9 @@ from kongru.api_general.universal.funcs.basic_logger import (
     catch_and_log_info,
     catch_and_log_error,
 )
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
+congruential_keys = Mk.AppCongruentialAnalysis
 
 
 def get_ast_data() -> None:
@@ -36,7 +36,7 @@ def get_ast_data() -> None:
         file_extension="ast",
     )
 
-    catch_and_log_info("AST-Dateien erfolgreich extrahiert!", echo_msg=False)
+    catch_and_log_info(congruential_keys.AST_DATA_EXTRACTED.value, echo_msg=False)
 
 
 def get_np_data() -> None:
@@ -45,7 +45,7 @@ def get_np_data() -> None:
     Returns:
         None
     """
-    catch_and_log_info("Extrahiere Nominalphrasen aus AST-Dateien...", echo_msg=False)
+    catch_and_log_info(congruential_keys.NP_DATA_EXTRACT.value, echo_msg=False)
 
     # Nominalphrasen aus dem Ast verzeichnis extrahieren
     ast_id_number = glob.glob("user/incoming/ast/*.*")
@@ -54,7 +54,7 @@ def get_np_data() -> None:
             ast_file_id=id_num, file_type="ast_nps", echo_msg=False
         )
 
-    catch_and_log_info("Nominalphrasen erfolgreich extrahiert!", echo_msg=False)
+    catch_and_log_info(congruential_keys.NP_DATA_EXTRACTED.value, echo_msg=False)
 
 
 def count_np_results(np_res_files) -> dict:
@@ -65,7 +65,7 @@ def count_np_results(np_res_files) -> dict:
     Returns:
         statistics_results (dict): Die Ergebnisse der Auszaehlung
     """
-    catch_and_log_info("Zaehle die Ergebnisse aus der NP-Datei...", echo_msg=True)
+    catch_and_log_info(congruential_keys.NP_COUNT_RESULTS.value, echo_msg=True)
     statistics_results = dict()
 
     for np_res in np_res_files:
@@ -79,7 +79,7 @@ def count_np_results(np_res_files) -> dict:
         np_results = np_statistics.get_data_as_string()
         statistics_results[txt_id] = np_results
 
-    catch_and_log_info("Ergebnisse erfolgreich gezaehlt!", echo_msg=True)
+    catch_and_log_info(congruential_keys.NP_RESULTS_COUNTED.value, echo_msg=True)
 
     return statistics_results
 
@@ -95,7 +95,7 @@ def generate_results_file(collective_results) -> None:
     Returns:
         None
     """
-    catch_and_log_info("Generiere Ergebnisdatei...", echo_msg=True)
+    catch_and_log_info(congruential_keys.GENERATE_RESULT_FILES.value, echo_msg=True)
 
     # Header-Datei aufstellen
     statistics = Statistics()
@@ -115,11 +115,11 @@ def generate_results_file(collective_results) -> None:
         except Exception as e:
             catch_and_log_error(
                 error=e,
-                custom_message="Ergebnisdatei erfolgreich generiert!",
+                custom_message=congruential_keys.RESULT_FILES_CREATED.value,
                 echo_msg=False,
             )
 
-    catch_and_log_info("Ergebnisdatei erfolgreich generiert!", echo_msg=True)
+    catch_and_log_info(congruential_keys.RESULT_FILES_CREATED.value, echo_msg=True)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,829 @@
+[
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "1_1",
+        "sentence": "Daniela , Ich m\u00f6chte mit dich schwimmen .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Daniela"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "m\u00f6chte",
+                    "lemma": "m\u00f6gen",
+                    "POS_STTS": "VMFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Subj"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Daniela",
+                "lemma": "Daniela",
+                "POS_STTS": "NE",
+                "index": "1",
+                "dep_rel": "vok",
+                "head_index": "4",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "3_2",
+        "sentence": "Kannst du mich nebenmeine Hause treffen ?",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Hause"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "treffen",
+                    "lemma": "treffen",
+                    "POS_STTS": "VVINF",
+                    "index": "6",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Hause",
+                "lemma": "Haus",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "objd",
+                "head_index": "6",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "4_3",
+        "sentence": "Oder ich kann dichnach Arbeitet im Park treffen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "dichnach Arbeitet"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "treffen",
+                    "lemma": "treffen",
+                    "POS_STTS": "VVINF",
+                    "index": "8",
+                    "dep_rel": "aux",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "kann",
+                    "lemma": "k\u00f6nnen",
+                    "POS_STTS": "VMFIN",
+                    "index": "3",
+                    "dep_rel": "cj",
+                    "head_index": "1",
+                    "parser_morph_features": "1|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Arbeitet",
+                "lemma": "Arbeitet",
+                "POS_STTS": "NE",
+                "index": "5",
+                "dep_rel": "app",
+                "head_index": "4",
+                "parser_morph_features": "_|_|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "dichnach",
+                "lemma": "dichnach",
+                "POS_STTS": "NE",
+                "index": "4",
+                "dep_rel": "obja",
+                "head_index": "8",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "4_4",
+        "sentence": "Oder ich kann dichnach Arbeitet im Park treffen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "dichnach Arbeitet"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "dichnach",
+                    "lemma": "dichnach",
+                    "POS_STTS": "NE",
+                    "index": "4",
+                    "dep_rel": "obja",
+                    "head_index": "8",
+                    "parser_morph_features": "_|_|_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "treffen",
+                    "lemma": "treffen",
+                    "POS_STTS": "VVINF",
+                    "index": "8",
+                    "dep_rel": "aux",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Arbeitet",
+                "lemma": "Arbeitet",
+                "POS_STTS": "NE",
+                "index": "5",
+                "dep_rel": "app",
+                "head_index": "4",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "4_5",
+        "sentence": "Oder ich kann dichnach Arbeitet im Park treffen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "im Park"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "im",
+                    "lemma": "in",
+                    "POS_STTS": "APPRART",
+                    "index": "6",
+                    "dep_rel": "pp",
+                    "head_index": "8",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "treffen",
+                    "lemma": "treffen",
+                    "POS_STTS": "VVINF",
+                    "index": "8",
+                    "dep_rel": "aux",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Park",
+                "lemma": "Park",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "pn",
+                "head_index": "6",
+                "parser_morph_features": "Masc|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "5_6",
+        "sentence": "Du sollst deine badenhose ein Tuch und dein iPod mitbringen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "deine badenhose"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "mitbringen",
+                    "lemma": "mitbringen",
+                    "POS_STTS": "VVINF",
+                    "index": "10",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sollst",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "2|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "deine",
+                "lemma": "deine",
+                "POS_STTS": "PPOSAT",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "badenhose",
+                "lemma": "badenhose",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "obja",
+                "head_index": "10",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "5_7",
+        "sentence": "Du sollst deine badenhose ein Tuch und dein iPod mitbringen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "ein Tuch"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "5_7",
+                "5_8"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sollst",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "2|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "6",
+                "parser_morph_features": "Indef|Neut|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Tuch",
+                "lemma": "Tuch",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "subj",
+                "head_index": "2",
+                "parser_morph_features": "Neut|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "5_8",
+        "sentence": "Du sollst deine badenhose ein Tuch und dein iPod mitbringen .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "dein iPod"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "5_7",
+                "5_8"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "7",
+                    "dep_rel": "kon",
+                    "head_index": "6",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Tuch",
+                    "lemma": "Tuch",
+                    "POS_STTS": "NN",
+                    "index": "6",
+                    "dep_rel": "subj",
+                    "head_index": "2",
+                    "parser_morph_features": "Neut|Nom|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "dein",
+                "lemma": "deine",
+                "POS_STTS": "PPOSAT",
+                "index": "8",
+                "dep_rel": "det",
+                "head_index": "9",
+                "parser_morph_features": "_|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "iPod",
+                "lemma": "iPod",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "cj",
+                "head_index": "7",
+                "parser_morph_features": "_|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "6_9",
+        "sentence": "Wir k\u00f6nnen zu Musik nach swimmen h\u00f6ren !",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "zu Musik"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "zu",
+                    "lemma": "zu",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "pp",
+                    "head_index": "7",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "h\u00f6ren",
+                    "lemma": "h\u00f6ren",
+                    "POS_STTS": "VVINF",
+                    "index": "7",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Musik",
+                "lemma": "Musik",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "pn",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "6_10",
+        "sentence": "Wir k\u00f6nnen zu Musik nach swimmen h\u00f6ren !",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "nach swimmen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "nach",
+                    "lemma": "nach",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "7",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "h\u00f6ren",
+                    "lemma": "h\u00f6ren",
+                    "POS_STTS": "VVINF",
+                    "index": "7",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "swimmen",
+                "lemma": "swimmen",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "_|Dat|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024814",
+        "sent_NP_ID": "8_11",
+        "sentence": "Maria",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Maria"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024814",
+                "L1": "English",
+                "age": "33",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "arrange appointment with friend to go swimming together"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Maria",
+                "lemma": "Maria",
+                "POS_STTS": "NE",
+                "index": "1",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "_|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    }
+]

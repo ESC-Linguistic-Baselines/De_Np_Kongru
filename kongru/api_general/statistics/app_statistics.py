@@ -36,6 +36,7 @@ def dekongru_accuracy() -> None:
     Returns:
         None
     """
+
     get_report()
 
 

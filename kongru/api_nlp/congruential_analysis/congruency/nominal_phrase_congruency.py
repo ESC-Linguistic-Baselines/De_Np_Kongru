@@ -68,7 +68,7 @@ class NominalPhraseCongruency:
     +------+-----------------------+
     | Code | Meaning               |
     +------+-----------------------+
-     | 10   | EINFACH        |
+    | 10   | EINFACH        |
     | 11   | ART                   |
     | 12   | PREP                  |
     | 99   | Unbekannt             |
@@ -82,7 +82,6 @@ class NominalPhraseCongruency:
 
     def __init__(self, morpho_results: dict, save_file_name: str, file_name: str):
         """
-
         Args:
             morpho_results (str): Die morphologischen Ergebnisse von Demorphy.
             save_file_name (str): Der Name der Datei, die gespeichert werden soll.
@@ -125,7 +124,6 @@ class NominalPhraseCongruency:
             head = vocabulary_np[-1]
             res = DemorphyAnalyzer().guess_noun_by_suffix(head)
 
-            # TODO Das Programm kann nicht mit NPS umgehen, die keinen Artikel haben
             (
                 _,
                 np_genus,
@@ -219,7 +217,6 @@ class NominalPhraseCongruency:
         # nach ADJ oder DEF suchen
         for row in extracted_info:
             row = row.split(",")
-
             if "ART" in row:
                 inflected_word_classes_exist["ART"] = True
             if "ADJA" in row:
@@ -338,7 +335,7 @@ class NominalPhraseCongruency:
             0 -> Erfolgreich
             10 ->  Nicht Erfolgreich
             3  -> Unbekannt
-            4 ->     richtiger Satz
+            4 ->  richtiger Satz
         """
 
         phrasing_and_spelling = {
@@ -360,7 +357,7 @@ class NominalPhraseCongruency:
             detecor = Cer(phrases_or_proper=[word])
             demorphy_entry = demorphy_dict.get(word)
             proper_common = detecor.check_common_phrase_or_proper(
-                entity_check="proper_common"
+                entity_check="common_proper"
             )
 
             # Boolean aufstellen, um die Ergebnisse zu sortieren
@@ -415,7 +412,7 @@ class NominalPhraseCongruency:
         misspelling_only = phrasing_and_spelling.get("misspelling")
 
         # Welche Schreibweise bzw. welcher Typ ist vorhanden ?
-        if correct_word:
+        if correct_word and len(vocabulary_np) == 1:
             return 0
 
         elif misspelling_only:
@@ -423,8 +420,8 @@ class NominalPhraseCongruency:
 
         elif proper_common_correct:
             return 3
-        elif common_phrases:
 
+        elif common_phrases:
             return 4
 
     def nominal_congruency_check(
@@ -476,6 +473,7 @@ class NominalPhraseCongruency:
             und hier gespeichert, damit sie nachher in der Ergebniss-Datei mit
             gespeichert werden koennen. 
             """
+
             complete_noun_info = []
             extracted_info = []
 
@@ -497,9 +495,11 @@ class NominalPhraseCongruency:
 
             if full_np in sentence_np:
                 # einfache np
+
                 if phrasing_and_spelling == 0:
+
                     if np_type_exists is False:
-                        np_type["TYPE"] = 1
+                        np_type["TYPE"] = phrasing_and_spelling
 
                 # Rechtschreibfehler in dem Satz
                 elif phrasing_and_spelling == 10:
@@ -550,7 +550,7 @@ class NominalPhraseCongruency:
                 falsch geschrieben wurden. 
                 """
 
-                if full_np in sentence_np and phrasing_and_spelling == 20:
+                if full_np in sentence_np and phrasing_and_spelling == 10:
 
                     # Die Analyse haengt vom ersten Wort ab
                     initial_word = np_info.get(1).get("pos")
@@ -559,8 +559,10 @@ class NominalPhraseCongruency:
                     if initial_word == "ART":
                         if np_type.get("TYPE") is None:
                             np_type["TYPE"] = initial_word
+
                     # NPs, die mit Praepositionen anfangen
                     elif initial_word == "PREP":
+
                         np_type["TYPE"] = initial_word
 
             ##############################
@@ -569,10 +571,10 @@ class NominalPhraseCongruency:
 
             # NP-Typ extrahieren, um die richtige Analyse
             # automatisch bestimmen zu koennen
-            congurency_type = np_type.get("TYPE", "99")
+            congurency_type = np_type.get("TYPE", 99)
 
-            known_congruency = ["ART", "PREP"]
-            unknown_congruency = ["2", "99", "4", "3", "1"]
+            known_congruency = ("ART", "PREP")
+            unknown_congruency = (10, 11, 12, 99)
 
             if congurency_type in unknown_congruency:
 
@@ -599,7 +601,7 @@ class NominalPhraseCongruency:
                             custom_message=nominal_keys.NP_ART_ERR.value,
                             echo_msg=False,
                         )
-                        congruency_result = "99"
+                        congruency_result = 99
 
                     # Die NP-Kongruenz-Information
                     extracted_np_info = [
@@ -657,12 +659,12 @@ class NominalPhraseCongruency:
         """
         Fuehrt eine Kongruenzpruefung für die aktuellen NP urch.
 
-        Diese Methode startet den Prozess zur Pruefung der Kongruenz der aktuellen Daten.
-        Sie analysiert die vorhandenen Informationen und gibt das Ergebnis der Kongruenzpruefung
+        Diese Methode startet den Prozess zur Pruefung der Kongruenz
+        der aktuellen Daten.
+        Sie analysiert die vorhandenen Informationen und gibt das Ergebnis der
+        Kongruenzpruefung
         zurueck.
 
-        Args:
-            None
 
         Returns:
             congruency_results (dict): Die Ergebnisse der Auswertung
@@ -671,6 +673,7 @@ class NominalPhraseCongruency:
                 "freundlichen,ADJA,_|_|Dat|_","Grüßen,N,_|_|Dat|_",
                 Mit freundlichen Grüßen
         """
+
         # Die Daten aus Demorphy und die NP-Dateien
         morpho_results = self.morpho_results
         np_data = morpho_results.get("np_data")
@@ -697,7 +700,6 @@ class NominalPhraseCongruency:
             # dann wird sie auch nicht analysiert.
 
             if np_info:
-
                 np_analysis = self.nominal_congruency_check(
                     np_info=np_info,
                     np_demorphy=np_demorphy,
@@ -719,9 +721,6 @@ class NominalPhraseCongruency:
         Diese Methode wird verwendet, um die Ergebnisse der Nominalphrasen-Analyse
         zu speichern. Die gespeicherten Ergebnisse koennen dann für
         spaetere Analysen oder Berichterstattung verwendet werden.
-
-        Args:
-            None
 
         Returns:
             None
@@ -753,7 +752,7 @@ class NominalPhraseCongruency:
                         # Den Code wieder einfuegen
                         # 99 kommt kann im String doppelt vorkommen
                         # dies wird dann entfernt
-                        if final_result[0] == "99":
+                        if final_result[0] == 99:
                             final_result.insert(0, congruency_entry)
                             csv_writer.writerow(final_result)
                         else:

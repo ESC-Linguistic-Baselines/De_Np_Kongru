@@ -21,7 +21,7 @@ CODE_NAMES = {
     "3": "03 - Eigennamen",
     "4": "04 - Redewendung bzw. gaengiger Satz",
     "10": "10 - EINFACH (Nicht Kongruenz)",
-    "11": "11 -ART (Nicht Kongruenz)",
+    "11": "11 - ART (Nicht Kongruenz)",
     "12": "12 - PREP (Nicht Kongruenz)",
     "99": "99 - Unbekannt (Nicht Kongruenz)",
 }

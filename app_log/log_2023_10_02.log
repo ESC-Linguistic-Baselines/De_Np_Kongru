@@ -1,0 +1,18 @@
+Zeitpunkt: 2023-10-02 06:11:14,078
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0108752.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-10-02 06:13:00,568
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0108752.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

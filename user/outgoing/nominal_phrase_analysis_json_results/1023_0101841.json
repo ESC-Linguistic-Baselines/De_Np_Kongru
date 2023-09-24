@@ -4,7 +4,7 @@
         "sent_NP_ID": "1_1",
         "sentence": "Maria Schmidt Addresse Computer Spezialist Odenwaldstra\u00dfe 5.",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "3",
             "nominal_phrase": "Maria Schmidt"
         },
         "metadata": {
@@ -815,7 +815,7 @@
         "sent_NP_ID": "3_12",
         "sentence": ": Bewerbung um ein Praktikum als IT-System Kauffrau .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "um ein Praktikum"
         },
         "metadata": {
@@ -1259,7 +1259,7 @@
         "sent_NP_ID": "4_17",
         "sentence": "Sehr geehrte Damen und Herren , im Montag \u00b4 s Morgen Post , habe ich Ihre Anziege f\u00fcr Vertriebspraktikant gelesen .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "im Montag"
         },
         "metadata": {
@@ -1352,7 +1352,7 @@
         "sent_NP_ID": "4_18",
         "sentence": "Sehr geehrte Damen und Herren , im Montag \u00b4 s Morgen Post , habe ich Ihre Anziege f\u00fcr Vertriebspraktikant gelesen .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "Morgen Post"
         },
         "metadata": {
@@ -1435,7 +1435,7 @@
         "sent_NP_ID": "4_19",
         "sentence": "Sehr geehrte Damen und Herren , im Montag \u00b4 s Morgen Post , habe ich Ihre Anziege f\u00fcr Vertriebspraktikant gelesen .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "Morgen Post"
         },
         "metadata": {
@@ -1608,7 +1608,7 @@
         "sent_NP_ID": "4_21",
         "sentence": "Sehr geehrte Damen und Herren , im Montag \u00b4 s Morgen Post , habe ich Ihre Anziege f\u00fcr Vertriebspraktikant gelesen .",
         "np_congruency_info": {
-            "congruency_code": "10",
+            "congruency_code": "12",
             "nominal_phrase": "f\u00fcr Vertriebspraktikant"
         },
         "metadata": {
@@ -1680,7 +1680,7 @@
         "sent_NP_ID": "5_22",
         "sentence": "Ich bewerbe mich daf\u00fcr zum einen praktikumsplatz bei Ihren Firma , als IT-Systemkauffrau .",
         "np_congruency_info": {
-            "congruency_code": "10",
+            "congruency_code": "12",
             "nominal_phrase": "zum einen praktikumsplatz"
         },
         "metadata": {
@@ -1945,7 +1945,7 @@
         "sent_NP_ID": "6_25",
         "sentence": "Nach die Schule , habe ich Kommunikationswissenschaft am der Deutsche Universit\u00e4t studiert .",
         "np_congruency_info": {
-            "congruency_code": "10",
+            "congruency_code": "12",
             "nominal_phrase": "Nach die Schule"
         },
         "metadata": {
@@ -2027,7 +2027,7 @@
         "sent_NP_ID": "6_26",
         "sentence": "Nach die Schule , habe ich Kommunikationswissenschaft am der Deutsche Universit\u00e4t studiert .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "0",
             "nominal_phrase": "Kommunikationswissenschaft"
         },
         "metadata": {
@@ -2248,7 +2248,7 @@
         "sent_NP_ID": "7_28",
         "sentence": "Ich habe auch Informatik studiert als mein Nebenfach .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "0",
             "nominal_phrase": "Informatik"
         },
         "metadata": {
@@ -2320,7 +2320,7 @@
         "sent_NP_ID": "7_29",
         "sentence": "Ich habe auch Informatik studiert als mein Nebenfach .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "mein Nebenfach"
         },
         "metadata": {
@@ -2413,7 +2413,7 @@
         "sent_NP_ID": "8_30",
         "sentence": "Englisch und Spanisch beherrsche ich in Wort und Schrift .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "0",
             "nominal_phrase": "Englisch"
         },
         "metadata": {
@@ -2477,7 +2477,7 @@
         "sent_NP_ID": "8_31",
         "sentence": "Englisch und Spanisch beherrsche ich in Wort und Schrift .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "0",
             "nominal_phrase": "Spanisch"
         },
         "metadata": {
@@ -2552,7 +2552,7 @@
         "sent_NP_ID": "8_32",
         "sentence": "Englisch und Spanisch beherrsche ich in Wort und Schrift .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "in Wort"
         },
         "metadata": {
@@ -2627,7 +2627,7 @@
         "sent_NP_ID": "8_33",
         "sentence": "Englisch und Spanisch beherrsche ich in Wort und Schrift .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "0",
             "nominal_phrase": "Schrift"
         },
         "metadata": {
@@ -2763,7 +2763,7 @@
         "sent_NP_ID": "9_35",
         "sentence": "Ich habe auch gut Kenntniss im Deutsch und Franz\u00f6zich .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "im Deutsch"
         },
         "metadata": {
@@ -3013,7 +3013,7 @@
         "sent_NP_ID": "10_38",
         "sentence": "Meine Kompetenz mit verschiedene Sprache k\u00f6n ich gut benutzen mit Ihren international Kunden .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "mit verschiedene Sprache"
         },
         "metadata": {
@@ -3106,7 +3106,7 @@
         "sent_NP_ID": "10_39",
         "sentence": "Meine Kompetenz mit verschiedene Sprache k\u00f6n ich gut benutzen mit Ihren international Kunden .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "0",
             "nominal_phrase": "Kunden"
         },
         "metadata": {
@@ -3167,7 +3167,7 @@
         "sent_NP_ID": "11_40",
         "sentence": "Ich arbeite gern in Team , weil die Zusammenarbeit macht mir viel spa\u00df .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "in Team"
         },
         "metadata": {
@@ -3239,7 +3239,7 @@
         "sent_NP_ID": "11_41",
         "sentence": "Ich arbeite gern in Team , weil die Zusammenarbeit macht mir viel spa\u00df .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "die Zusammenarbeit"
         },
         "metadata": {
@@ -3332,7 +3332,7 @@
         "sent_NP_ID": "12_42",
         "sentence": "Bei der Uni war ich Pr\u00e4sident der Informatik-Club , und habt viele Projecte gefuhrt .",
         "np_congruency_info": {
-            "congruency_code": "10",
+            "congruency_code": "12",
             "nominal_phrase": "Bei der Uni"
         },
         "metadata": {
@@ -3425,7 +3425,7 @@
         "sent_NP_ID": "12_43",
         "sentence": "Bei der Uni war ich Pr\u00e4sident der Informatik-Club , und habt viele Projecte gefuhrt .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "0",
             "nominal_phrase": "Pr\u00e4sident"
         },
         "metadata": {
@@ -3744,7 +3744,7 @@
         "sent_NP_ID": "13_47",
         "sentence": "Ich kann auch gut selb-standig arbeiten , und habe viel Websites selbst-aufgebaut .",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "viel Websites"
         },
         "metadata": {
@@ -4371,7 +4371,7 @@
         "sent_NP_ID": "15_53",
         "sentence": "Ich wollte auch mein deutsch verbessern und prakticher Erpharung mit die deutsche Culture sammeln .",
         "np_congruency_info": {
-            "congruency_code": "10",
+            "congruency_code": "12",
             "nominal_phrase": "mit die deutsche Culture"
         },
         "metadata": {
@@ -4493,7 +4493,7 @@
         "sent_NP_ID": "16_54",
         "sentence": "Ich kann am anfang Juli einer Praktikum antretten .",
         "np_congruency_info": {
-            "congruency_code": "10",
+            "congruency_code": "12",
             "nominal_phrase": "am anfang"
         },
         "metadata": {
@@ -5295,7 +5295,7 @@
         "sent_NP_ID": "18_63",
         "sentence": "Mit freundlichen Gru\u00dfen Maria Schmidt Anlage : Lebenslauf Zeugnisse",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "3",
             "nominal_phrase": "Maria Schmidt Anlage"
         },
         "metadata": {
@@ -5378,7 +5378,7 @@
         "sent_NP_ID": "18_64",
         "sentence": "Mit freundlichen Gru\u00dfen Maria Schmidt Anlage : Lebenslauf Zeugnisse",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "3",
             "nominal_phrase": "Schmidt Anlage"
         },
         "metadata": {
@@ -5450,7 +5450,7 @@
         "sent_NP_ID": "18_65",
         "sentence": "Mit freundlichen Gru\u00dfen Maria Schmidt Anlage : Lebenslauf Zeugnisse",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "Lebenslauf Zeugnisse"
         },
         "metadata": {
@@ -5511,7 +5511,7 @@
         "sent_NP_ID": "18_66",
         "sentence": "Mit freundlichen Gru\u00dfen Maria Schmidt Anlage : Lebenslauf Zeugnisse",
         "np_congruency_info": {
-            "congruency_code": "1",
+            "congruency_code": "99",
             "nominal_phrase": "Lebenslauf Zeugnisse"
         },
         "metadata": {

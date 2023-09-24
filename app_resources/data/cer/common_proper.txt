@@ -44,7 +44,6 @@ schlesischen technischen universität
 siemens
 stadt x ökonomie hochschule
 stadt y rundhaus
-student
 süddeutsche zeitung
 süddeutschen zeitung
 technische universität in stadt x
@@ -60,4 +59,20 @@ ipod
 ökonomischen akademie
 gazeta wyborcza
 stadt x
-stad
+stadt
+ingo
+jens
+jens
+jula
+julia
+alex
+dan
+daniela
+dolly
+friedrich
+friedrich
+maria
+schmidt
+Bonn
+Katharina Müller
+Müller

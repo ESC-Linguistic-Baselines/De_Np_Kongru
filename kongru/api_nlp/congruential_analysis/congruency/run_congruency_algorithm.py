@@ -68,7 +68,7 @@ def run_batch_congruency(
                 f"Text-Id {txt_id}: " f"Führe Hauptanalyse durch...", echo_msg=True
             )
 
-            congruency_algo(file_name=np_ext_file, save_file=file_name)
+            congruency_algo(file_name=np_ext_file)
 
             catch_and_log_info(
                 f"Text-Id {txt_id}: " f"Hauptanalyse abgeschlossen \n", echo_msg=True

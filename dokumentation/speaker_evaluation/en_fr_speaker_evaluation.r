@@ -54,7 +54,6 @@ aux_functions <- "/Users/christopherchandler/repo/Python/computerlinguistik/de_n
 dataset <- "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/outgoing/batch_results/batch_evaluation_np.csv"
 excel_file <- "/Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/user/outgoing/batch_results/nominal_phrase_results.xlsx"
 
-
 # Das lokale Verzeichnis festlegen, worin die Hauptergebnis-Datei gespeichert ist.
 setwd(batch_results)
  #/Users/christopherchandler/repo/Python/computerlinguistik/NP - Computerlinguistik/de_np_kongru/user/outgoing/batch_results
@@ -82,7 +81,8 @@ intermediate <- en_fr_data[
   en_fr_data$general_cefr=="B1" |
     en_fr_data$general_cefr=="B2",
 ]
-intermediate_data <- collect_language_data(intermediate, "Intermediär", table_type)
+intermediate_data <- collect_language_data(intermediate, "Mittelstuffe",
+                                           table_type)
 
 # Fortgeschritten
 advanced <- en_fr_data[
@@ -118,24 +118,29 @@ c1_data <-generate_t_test_data(c1_en, c1_fr, group="C1")
 data <- list(
  a1_data$one,
  a1_data$two,
+ a1_data$three,
 
  a2_data$one,
  a2_data$two,
+ a2_data$three,
 
  b1_data$one,
  b1_data$two,
+ b1_data$three,
 
  b2_data$one,
  b2_data$two,
+ b2_data$three,
 
  c1_data$one,
- c1_data$two
+ c1_data$two,
+ c1_data$three
 )
 
 collect_data_scores(
   data,
   "statistical_data ",
-  "training"
+  "Training"
 )
 
 
@@ -179,3 +184,4 @@ true_averages <- list(
 
 
 saveWorkbook(wb, file = excel_file, overwrite = TRUE)
+print("Ergebnisse wurden gespeichert")

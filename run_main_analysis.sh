@@ -1,3 +1,4 @@
+clear
 # Alle Verzeichnisse vorher leeren
 function empty_all_directories(){
   python main.py verzeichnis_leeren --trg user/outgoing/batch_results --typ alle
@@ -24,5 +25,7 @@ function run_r_analysis(){
 
 
 ### Bash script fuer die Kongruenz ausfuehren ausfuehren
-run_congruency 3 user/text_ids/test_ids.txt
+#run_congruency 1 user/text_ids/test_ids.txt
+run_r_analysis
+
 

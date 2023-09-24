@@ -83,18 +83,11 @@ def singular_nominal_phrase_agreement_analysis(
         congruential_keys.NP_AGREEMENT_SAVE_FALSE.value,
         help=congruential_keys.NP_AGREEMENT_SAVE_HELP.value,
     ),
-    save_file: str = typer.Option(
-        general_keys.SAVE_DEFAULT_CSV.value,
-        general_keys.SAVE_RESULTS_LONG.value,
-        general_keys.SAVE_DIR_SHORT.value,
-        help=general_keys.SAVE_RESULTS_HELP.value,
-    ),
 ) -> None:
     """
     Analysiere die Kongruenz in nominalen Phrasen in einer gegebenen CSV-Datei.
 
     Args: file_name (str): Der Name der CSV-Datei mit den Daten zur Analyse.
-    save_results (bool): Ob die Analyseergebnisse in einer CSV-Datei gespeichert
     werden sollen. save_file (str): Der Name der CSV-Datei, in die die Ergebnisse
     gespeichert werden sollen.
 
@@ -151,12 +144,14 @@ def singular_nominal_phrase_agreement_analysis(
         else:
             # Die Ergebnisse werden zwar angezeigt, aber nicht gespeichert
             congruency_check = np_congruency.run_congruency_check()
-            table = Table("Status", "Nominal Phrase")
+            table = Table("NP-ID", "Status", "Nominal Phrase")
             for entry in congruency_check:
+
                 data = congruency_check.get(entry)
                 status, nominal_phrase = data[:2]
-                table.add_row(status, nominal_phrase)
-            console.print(table)
+                table.add_row(str(entry), str(status), str(nominal_phrase))
+
+                console.print(table)
 
     except Exception as e:
         basic_logger.catch_and_log_error(

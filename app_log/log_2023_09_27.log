@@ -1,0 +1,1706 @@
+Zeitpunkt: 2023-09-27 13:56:18,183
+Loggername: root
+LogLevel: INFO
+Nachricht: AST-Dateien erfolgreich extrahiert!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,689
+Loggername: root
+LogLevel: INFO
+Nachricht: Extrahiere Nominalphrasen aus AST-Dateien...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,700
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,701
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109096.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,703
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,703
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024857.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,706
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_1202911.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,710
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108955.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,715
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,715
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,716
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0002079.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,717
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024840.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,721
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0107244.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,723
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,724
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003170.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,725
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024702.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,728
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0107042.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,731
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,731
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120370.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,732
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,732
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120358.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,735
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0002043.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,736
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,736
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024701.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,738
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1091_0000169.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,741
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,742
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108993.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,744
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109022.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,745
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024820.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,747
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,747
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0002187.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,749
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120275.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,751
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,751
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120881.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,754
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,754
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,754
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0002185.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,755
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024759.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,757
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108935.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,759
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,759
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,759
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109391.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,761
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108931.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,762
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024775.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,765
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003077.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,767
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,767
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,767
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003274.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,769
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0101848.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,770
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,770
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0002195.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,771
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024827.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,773
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109192.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,790
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,790
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,790
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003314.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,792
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108932.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,795
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0001703.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,796
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109609.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,798
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109033.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,800
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,800
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003074.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,802
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,802
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0002197.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,803
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024818.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,804
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,804
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120304.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,806
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,806
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,806
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108933.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,809
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,809
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,809
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,809
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108888.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,809
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024814.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,810
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,810
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120283.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,811
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,812
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,812
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120487.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,814
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003133.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,814
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120281.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,815
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,815
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024802.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,817
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0101851.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,817
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024816.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,818
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024817.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,818
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024803.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,821
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,821
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0002199.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,823
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,823
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,823
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003132.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,824
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024778.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,826
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109401.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,828
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,828
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003136.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,831
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,831
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,831
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0101841.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,833
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,833
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,833
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,833
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,834
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109951.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,835
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,835
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,835
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120481.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,836
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,836
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024804.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,838
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0101895.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,839
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1091_0000116.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,842
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,842
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108752.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,843
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0248323.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,844
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,844
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120343.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,845
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,845
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024691.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,846
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,847
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109880.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,849
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,849
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,850
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003357.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,852
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003155.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,852
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024864.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,853
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1071_0024865.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,854
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,854
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,855
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108423.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,856
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,856
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120345.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,858
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003356.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,860
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,860
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0108958.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,862
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,862
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003354.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,864
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,864
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109878.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,866
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,866
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,867
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0107672.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,868
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,868
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1061_0120347.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,884
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0003023.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,886
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,886
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1023_0109716.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,888
+Loggername: root
+LogLevel: ERROR
+Nachricht: list index out of range
+Modul: basic_logger
+Funktion: catch_and_log_error
+Linie: 100
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,888
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ast-Datei user/incoming/ast/1031_0001998.ast wurde ausgelesen und die NPs gespeichert 
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,888
+Loggername: root
+LogLevel: INFO
+Nachricht: Nominalphrasen erfolgreich extrahiert!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:18,888
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003170: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:23,908
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1031_0003170.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:24,030
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:24,030
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse zusammenfuehren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:24,561
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:24,562
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003170: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:24,563
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003133: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:28,736
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1031_0003133.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:28,857
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:28,857
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse zusammenfuehren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:29,385
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:29,388
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1031_0003133: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:29,388
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024802: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:33,443
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1071_0024802.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:33,565
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:33,565
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse zusammenfuehren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:34,094
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:34,096
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024802: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:34,096
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024816: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:38,337
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1071_0024816.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:38,460
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:38,460
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse zusammenfuehren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:38,989
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:38,989
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1071_0024816: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:38,989
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1023_0101851: Führe Hauptanalyse durch...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:43,797
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0101851.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:43,918
+Loggername: root
+LogLevel: INFO
+Nachricht: Die Ergebnisse der Auswertung wurden gespeichert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:43,918
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse zusammenfuehren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:44,447
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:44,449
+Loggername: root
+LogLevel: INFO
+Nachricht: Text-Id 1023_0101851: Hauptanalyse abgeschlossen 
+
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:44,450
+Loggername: root
+LogLevel: INFO
+Nachricht: Alle Texte wurden erfolgreich analysiert.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:44,954
+Loggername: root
+LogLevel: INFO
+Nachricht: Zaehle die Ergebnisse aus der NP-Datei...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:44,960
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisse erfolgreich gezaehlt!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:45,465
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisdatei generieren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:45,470
+Loggername: root
+LogLevel: INFO
+Nachricht: Ergebnisdatei erfolgreich generiert!
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:45,976
+Loggername: root
+LogLevel: INFO
+Nachricht: .json Dateien generieren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:46,004
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse zusammenfuehren
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 13:56:46,534
+Loggername: root
+LogLevel: INFO
+Nachricht: .json und .csv Ergebnisse erfolgreich zusammengefuehrt worden.
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+
+Zeitpunkt: 2023-09-27 16:35:29,082
+Loggername: root
+LogLevel: INFO
+Nachricht: Die NP-Analyse fuer 1023_0101841.csv wurde abgeschlossen...
+Modul: basic_logger
+Funktion: catch_and_log_info
+Linie: 137
+Dateipfad: /Users/christopherchandler/repo/Python/computerlinguistik/de_np_kongru/kongru/api_general/universal/funcs/basic_logger.py
+

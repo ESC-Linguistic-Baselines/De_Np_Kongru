@@ -13,25 +13,29 @@ collect_language_data <-function(dataset, sheet_level_name, table_type) {
     txt_len_in_char = dataset_sorted$txt_len_in_char
   )
 
-  congruency_positive_data <- data.frame(
+  congruency_positive_data_one <- data.frame(
     general_author_id = dataset_sorted$general_author_id,
     ART = dataset_sorted$ART,
     EINFACH = dataset_sorted$EINFACH,
-    PREP = dataset_sorted$PREP,
-    EIGENNAMEN = dataset_sorted$EIGENNAMEN
+    PREP = dataset_sorted$PREP
+   )
+  congruency_positive_data_two <- data.frame(
+    general_author_id = dataset_sorted$general_author_id,
+    EIGENNAMEN = dataset_sorted$EIGENNAMEN,
+    REDEWENDUNGEN = dataset_sorted$REDEWENDUNGEN
   )
 
   congruency_negative_data <- data.frame(
     general_author_id = dataset_sorted$general_author_id,
     ART_NICHT = dataset_sorted$ART_NICHT,
-    EINFACH_NICHT = dataset_sorted$EINFACH_NICHT,
-    PREP_NICHT = dataset_sorted$PREP_NICHT
-  )
+    PREP_NICHT = dataset_sorted$PREP_NICHT,
+    EINFACH_NICHT = dataset_sorted$EINFACH_NICHT
+   )
 
     data <- data.frame(
     general_author_id = dataset_sorted$general_author_id,
     GESAMT_UNBEKANNT = dataset_sorted$GESAMT_UNBEKANNT,
-    EINFACH_NICHT = dataset_sorted$GESAMT_WAHR,
+    GESAMT_WAHR = dataset_sorted$GESAMT_WAHR,
     GESAMT_FALSCH = dataset_sorted$GESAMT_FALSCH
   )
 
@@ -55,7 +59,8 @@ collect_language_data <-function(dataset, sheet_level_name, table_type) {
   # Tabellen Daten aufstellen
   table_data <- list(
     general_data,
-    congruency_positive_data,
+    congruency_positive_data_one,
+    congruency_positive_data_two,
     congruency_negative_data,
     data,
     true,
@@ -85,12 +90,13 @@ generate_tables <- function(table_data, sheet_level_name, table_type) {
       writeData(wb, sheet = sheet_level_name, x = table_info,
                 startRow = cumulative_rows + nrow(table_data[[i]]) + 1, startCol = 1)
 
-      cumulative_rows <- cumulative_rows + nrow(table_data[[i]]) + 4
+      cumulative_rows <- cumulative_rows + nrow(table_data[[i]]) + 3
     } else {
       # Handle other types of data, if necessary
     }
   }
 }
+
 
 
 general_cefr_data <-function (en_fr_data){
@@ -192,12 +198,19 @@ generate_t_test_data <- function(x, y, group_name) {
       "ESTIMATE" = t_test_result$estimate,
       "CONF_INT_LOWER" = t_test_result$conf.int[1],
       "CONF_INT_UPPER" = t_test_result$conf.int[2],
+      row.names = NULL
+    )
+
+    t_test_data_three <- data.frame(
+      "GRUPPEN_NAMEN" = group_name,
       "STATISTIC" = t_test_result$statistic,
       "METHOD" = t_test_result$method,
       row.names = NULL
     )
 
-    result <- list("one" = t_test_data_one, "two" = t_test_data_two)
+
+    result <- list("one" = t_test_data_one, "two" = t_test_data_two,
+                   "three" = t_test_data_three)
     return(result)
   } else {
     t_test_data_unk_one <- data.frame(
@@ -211,15 +224,22 @@ generate_t_test_data <- function(x, y, group_name) {
       "GRUPPEN_NAMEN" = group_name,
       "ESTIMATE" = "UNK",
       "CONF_INT_LOWER" = "UNK",
-      "CONF_INT_UPPER" = "UNK",
+      "CONF_INT_UPPER" = "UNK"
+
+    )
+
+     t_test_data_unk_three <- data.frame(
+      "GRUPPEN_NAMEN" = group_name,
       "STATISTIC" = "UNK",
       "METHOD" = "UNK"
     )
 
-    unk <- list("one" = t_test_data_unk_one, "two" = t_test_data_unk_two)
+
+    unk <- list("one" = t_test_data_unk_one,
+                "two" = t_test_data_unk_two,
+                "three" = t_test_data_unk_three)
+
     return(unk)
   }
-
-
 
 }
