@@ -409,9 +409,9 @@ Christopher Chandler - christopher.chandler at outlook.de
 [stars-url]: https://github.com/christopher-chandler/De_NP_Kongru/stargazers
 
 [license-shield]: https://img.shields.io/github/license/christopher-chandler/De_NP_Kongru?color=yellow
-[license-url]: https://github.com/christopher-chandler/De_NP_Kongru/blob/master/LICENSE
+[license-url]: https://github.com/christopher-chandler/De_Np_Kongru/blob/main/LICENSE
 
-[download-shield]: https://img.shields.io/github/downloads/christopher-chandler/De_NP_Kongru/total
+[download-shield]: https://img.shields.io/github/downloads/christopher-chandler/De_Np_Kongru/total
 
 [windows-shield]:  https://img.shields.io/badge/Windows-Tested-purple 
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
