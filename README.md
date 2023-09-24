@@ -34,7 +34,7 @@
 <details>
     <summary>Inhaltsverzeichnis</summary>
     <ol>
-        <li><a href="#ueber-das-projekt">ueber das Projekt</a></li>
+        <li><a href="#ueber-das-projekt"Ueber das Projekt</a></li>
         <ul>
             <li><a href="#hintergrund">Hintergrund</a></li>
             <li><a href="#ergebnisse">Ergebnisse</a></li>
@@ -74,7 +74,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-# ueber das Projekt
+# Ueber das Projekt
 
 ## Hintergrund
 Im Rahmen dieses Projekts soll die Kongruenz in deutschen Nominalphrasen 
@@ -409,12 +409,12 @@ Christopher Chandler - christopher.chandler at outlook.de
 [stars-url]: https://github.com/christopher-chandler/De_NP_Kongru/stargazers
 
 [license-shield]: https://img.shields.io/github/license/christopher-chandler/De_NP_Kongru?color=yellow
-[license-url]: https://github.com/christopher-chandler/De_NP_Kongru/blob/master/LICENSE.txt
+[license-url]: https://github.com/christopher-chandler/De_NP_Kongru/blob/master/LICENSE
 
 [download-shield]: https://img.shields.io/github/downloads/christopher-chandler/De_NP_Kongru/total
 
 [windows-shield]:  https://img.shields.io/badge/Windows-Tested-purple 
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
-[version-shield]: https://img.shields.io/badge/Version-0.0.1-brightgreen
-[update-shield]: https://img.shields.io/badge/Last_Updated-08_2023-blue
+[version-shield]: https://img.shields.io/badge/Version-0.9.0-brightgreen
+[update-shield]: https://img.shields.io/badge/Last_Updated-09_2023-blue
  
