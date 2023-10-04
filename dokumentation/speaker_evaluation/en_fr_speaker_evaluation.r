@@ -144,42 +144,78 @@ collect_data_scores(
 )
 
 
-true_averages <- list(
+average_data <- list(
   data.frame(
     "A1_EN_AVG_WAHR" = mean(general_cefr_data_results$A1_EN_GESAMT_WAHR),
     "A1_EN_AVG_FALSCH" = mean(general_cefr_data_results$A1_EN_GESAMT_FALSCH),
+    "A1_EN_AVG_UNBEKANNT" = mean(general_cefr_data_results$A1_EN_GESAMT_UNBEKANNT)
+  ),
+
+  data.frame(
+    "A1_FR_AVG_WAHR" = mean(general_cefr_data_results$A1_FR_GESAMT_WAHR),
+    "A1_FR_AVG_FALSCH" = mean(general_cefr_data_results$A1_FR_GESAMT_FALSCH),
     "A1_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$A1_FR_GESAMT_UNBEKANNT)
   ),
 
   data.frame(
     "A2_EN_AVG_WAHR" = mean(general_cefr_data_results$A2_EN_GESAMT_WAHR),
     "A2_EN_AVG_FALSCH" = mean(general_cefr_data_results$A2_EN_GESAMT_FALSCH),
+    "A2_EN_AVG_UNBEKANNT" = mean(general_cefr_data_results$A2_EN_GESAMT_UNBEKANNT)
+  ),
+
+   data.frame(
+    "A2_EN_AVG_WAHR" = mean(general_cefr_data_results$A2_EN_GESAMT_WAHR),
+    "A2_EN_AVG_FALSCH" = mean(general_cefr_data_results$A2_EN_GESAMT_FALSCH),
+    "A2_EN_AVG_UNBEKANNT" = mean(general_cefr_data_results$A2_EN_GESAMT_UNBEKANNT)
+  ),
+
+  data.frame(
+    "A2_FR_AVG_WAHR" = mean(general_cefr_data_results$A2_FR_GESAMT_WAHR),
+    "A2_FR_AVG_FALSCH" = mean(general_cefr_data_results$A2_FR_GESAMT_FALSCH),
     "A2_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$A2_FR_GESAMT_UNBEKANNT)
   ),
+
 
   data.frame(
     "B1_EN_AVG_WAHR" = mean(general_cefr_data_results$B1_EN_GESAMT_WAHR),
     "B1_EN_AVG_FALSCH" = mean(general_cefr_data_results$B1_EN_GESAMT_FALSCH),
-    "B1_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$B1_FR_GESAMT_UNBEKANNT)
+    "B1_EN_AVG_UNBEKANNT" = mean(general_cefr_data_results$B1_EN_GESAMT_UNBEKANNT)
+  ),
+
+  data.frame(
+    "B1_EN_AVG_WAHR" = mean(general_cefr_data_results$B1_FR_GESAMT_WAHR),
+    "B1_EN_AVG_FALSCH" = mean(general_cefr_data_results$B1_FR_GESAMT_FALSCH),
+    "B1_EN_AVG_UNBEKANNT" = mean(general_cefr_data_results$B1_FR_GESAMT_UNBEKANNT)
   ),
 
   data.frame(
     "B2_EN_AVG_WAHR" = mean(general_cefr_data_results$B2_EN_GESAMT_WAHR),
     "B2_EN_AVG_FALSCH" = mean(general_cefr_data_results$B2_EN_GESAMT_FALSCH),
+    "B2_EN_AVG_UNBEKANNT" = mean(general_cefr_data_results$B2_EN_GESAMT_UNBEKANNT)
+  ),
+
+    data.frame(
+    "B2_FR_AVG_WAHR" = mean(general_cefr_data_results$B2_FR_GESAMT_WAHR),
+    "B2_FR_AVG_FALSCH" = mean(general_cefr_data_results$B2_FR_GESAMT_FALSCH),
     "B2_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$B2_FR_GESAMT_UNBEKANNT)
   ),
 
   data.frame(
     "C1_EN_AVG_WAHR" = mean(general_cefr_data_results$C1_EN_GESAMT_WAHR),
     "C1_EN_AVG_FALSCH" = mean(general_cefr_data_results$C1_EN_GESAMT_FALSCH),
+    "C1_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$C1_EN_GESAMT_UNBEKANNT)
+  ),
+    data.frame(
+    "C1_FR_AVG_WAHR" = mean(general_cefr_data_results$C1_FR_GESAMT_WAHR),
+    "C1_FR_AVG_FALSCH" = mean(general_cefr_data_results$C1_FR_GESAMT_FALSCH),
     "C1_FR_AVG_UNBEKANNT" = mean(general_cefr_data_results$C1_FR_GESAMT_UNBEKANNT)
   )
 )
 
  collect_data_scores(
-  true_averages,
-  "averages",
-  "training"
+   average_data,
+   "averages",
+   "training"
 )
 
 

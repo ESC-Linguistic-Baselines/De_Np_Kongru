@@ -1,0 +1,10 @@
+1_1,3,Liebe Ingo,"Liebe,N,_|_|Acc|_","Ingo,N,_|Masc|Acc|Sg",Liebe Ingo Kannst du mir bitte Hilfe bei der Wohnungs suche .
+1_2,3,Liebe Ingo,"Liebe,N,_|_|Acc|_","Ingo,N,_|Masc|Acc|Sg",Liebe Ingo Kannst du mir bitte Hilfe bei der Wohnungs suche .
+1_3,0,Hilfe,"Hilfe,N,_|Fem|Nom|Sg",Liebe Ingo Kannst du mir bitte Hilfe bei der Wohnungs suche .
+1_4,99,Wohnungs bei der,"Wohnungs,N,_|Fem|Dat|Sg","bei,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg",Liebe Ingo Kannst du mir bitte Hilfe bei der Wohnungs suche .
+2_5,10,der Größ,"der,ART,Def|Masc|Nom|Sg","Größ,N,_|Masc|Nom|Sg",Ich habe der Größ Neue Wohnung in Neuber gefunder .
+2_6,99,Neue Wohnung,"Neue,ADJA,_|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg",Ich habe der Größ Neue Wohnung in Neuber gefunder .
+2_7,12,in Neuber gefunder,"in,PREP,_|_|_|_","Neuber,N,_|_|_|_","gefunder,N,_|_|_|_",Ich habe der Größ Neue Wohnung in Neuber gefunder .
+2_8,10,Neuber gefunder,"Neuber,N,_|_|_|_","gefunder,N,_|_|_|_",Ich habe der Größ Neue Wohnung in Neuber gefunder .
+3_10,99,um Uhr,"um,PREP,_|_|_|_","Uhr,N,_|Fem|_|Sg",am Samstag um 10 Uhr ?
+4_11,0,Hilfe,"Hilfe,N,_|Fem|Nom|Sg",Ich siech um kannst du mir bitte Hilfe beider umsiechen .

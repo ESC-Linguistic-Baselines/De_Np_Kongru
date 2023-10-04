@@ -1,0 +1,47 @@
+1_1,3,Katharina Schmidt,"Katharina,N,_|Fem|_|Sg","Schmidt,N,_|Fem|_|Sg","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_2,10,Katharina Schmidt Müllergasse,"Katharina,N,_|Fem|_|Sg","Schmidt,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_3,10,Schmidt Müllergasse,"Schmidt,N,_|Fem|_|Sg","Müllergasse,N,_|Fem|_|Sg","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_4,10,Stadt X.,"Stadt,N,_|Fem|_|Sg","X.,N,_|Fem|_|Sg","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_5,10,Stadt X. Au-pair-Agentur,"Stadt,N,_|Fem|_|Sg","X.,N,_|Fem|_|Sg","Au-pair-Agentur,N,_|Fem|_|Sg","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_6,99,Schultz X. Au-pair-Agentur,"Schultz,N,_|Masc|_|_","X.,N,_|Fem|_|Sg","Au-pair-Agentur,N,_|Fem|_|Sg","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_7,99,Schultz Au-pair-Agentur,"Schultz,N,_|Masc|_|_","Au-pair-Agentur,N,_|Fem|_|Sg","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_8,10,Partner Regenstr,"Partner,N,_|Masc|_|_","Regenstr,N,_|Masc|_|_","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+1_9,10,Partner Regenstr,"Partner,N,_|Masc|_|_","Regenstr,N,_|Masc|_|_","Katharina Schmidt Müllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr ."
+2_10,3,Nürnberg Stadt,"Nürnberg,N,_|Fem|_|Sg","Stadt,N,_|Fem|_|Sg","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+2_11,10,Nürnberg Stadt X,"Nürnberg,N,_|Fem|_|Sg","Stadt,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+2_12,10,Stadt X,"Stadt,N,_|Fem|_|Sg","X,N,_|Fem|_|Sg","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+2_13,99,Damen Beschwerdebrief,"Damen,N,_|Fem|_|Pl","Beschwerdebrief,N,_|Masc|_|Sg","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+2_14,99,geehrte Damen Beschwerdebrief,"geehrte,ADJA,_|Fem|_|Pl","Damen,N,_|Fem|_|Pl","Beschwerdebrief,N,_|Masc|_|Sg","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+2_15,0,Herren,"Herren,N,_|Masc|_|_","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+2_16,12,mit grossem Interesse,"mit,PREP,_|_|Dat|_","grossem,ADJA,_|Neut|Dat|Sg","Interesse,N,_|Neut|Dat|Sg","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+2_17,10,Ihre Anzeige,"Ihre,ART,_|Fem|Acc|Sg","Anzeige,N,_|Fem|Acc|Sg","101 90451 Nürnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen ."
+3_19,10,Au-pair,"Au-pair,N,_|_|_|_",Dann habe ich mich als Au-pair beworben .
+4_20,99,im Juni,"im,PREP,_|_|Dat|_","Juni,N,_|Masc|Dat|Sg","und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+4_21,99,nach Deutschland,"nach,PREP,_|_|Dat|_","Deutschland,N,_|Neut|Dat|Sg","und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+4_22,10,mein Entäuschung,"mein,ART,_|_|Nom|Sg","Entäuschung,N,_|_|Nom|Sg","und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+4_23,99,am Bahnhof,"am,PREP,_|_|Dat|_","Bahnhof,N,_|Masc|Dat|Sg","und ging im Juni 2011 nach Deutschland Wie grosse war mein Entäuschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war ."
+5_24,99,ein Taxi,"ein,ART,Indef|Neut|Acc|Sg","Taxi,N,_|Neut|Acc|Sg",Nahm ich ein Taxi zu meine Gastfamilie .
+5_25,3,zu meine Gastfamilie,"zu,PREP,_|_|Dat|_","meine,ART,_|Fem|_|Sg","Gastfamilie,N,_|Fem|_|Sg",Nahm ich ein Taxi zu meine Gastfamilie .
+6_26,10,mein zweite Entäuschung,"mein,ART,_|_|Nom|Sg","zweite,ADJA,_|_|Nom|Sg","Entäuschung,N,_|_|Nom|Sg",Dort kam mein zweite Entäuschung .
+7_27,99,kein eigene Zimmer,"kein,ART,_|Neut|Acc|Sg","eigene,ADJA,_|Neut|Acc|Sg","Zimmer,N,_|Neut|Acc|Sg",Ich hatte kein eigene Zimmer .
+8_28,99,mit dem Kindern Schlafen,"mit,PREP,_|_|Dat|_","dem,ART,Def|Neut|Dat|Sg","Kindern,N,_|Neut|Dat|Sg","Schlafen,N,_|Neut|Dat|Sg",Ich müsste mit dem Kindern Schlafen .
+8_29,99,Kindern Schlafen,"Kindern,N,_|Neut|Dat|Sg","Schlafen,N,_|Neut|Dat|Sg",Ich müsste mit dem Kindern Schlafen .
+9_30,10,Die Eltern,"Die,ART,Def|_|_|Pl","Eltern,N,_|_|_|Pl",Die Eltern war nett aber die Kindern was böse .
+9_31,99,die Kindern,"die,ART,Def|Masc|Nom|Pl","Kindern,N,_|Masc|Nom|Pl",Die Eltern war nett aber die Kindern was böse .
+10_32,99,neben mein Job,"neben,PREP,_|_|_|_","mein,ART,_|Masc|Nom|Sg","Job,N,_|Masc|Nom|Sg","Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+10_33,10,Au-pair,"Au-pair,N,_|_|_|_","Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+10_34,10,mein Deutsch kenntnisse,"mein,ART,_|Neut|Acc|Sg","Deutsch,N,_|Neut|Acc|Sg","kenntnisse,N,_|Neut|Acc|Sg","Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+10_35,10,Deutsch kenntnisse,"Deutsch,N,_|Neut|Acc|Sg","kenntnisse,N,_|Neut|Acc|Sg","Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern ."
+11_36,99,Englisch die Familie,"Englisch,N,_|Neut|_|Sg","die,ART,Def|_|_|_","Familie,N,_|Neut|_|Sg","ich konnte es nicht machen weil die Familie nur Englisch sprechte , könnte ich nicht auch die Deutschschule besuchen ."
+11_37,99,Englisch Familie,"Englisch,N,_|Neut|_|Sg","Familie,N,_|Neut|_|Sg","ich konnte es nicht machen weil die Familie nur Englisch sprechte , könnte ich nicht auch die Deutschschule besuchen ."
+11_38,10,die Deutschschule,"die,ART,Def|Fem|Acc|Sg","Deutschschule,N,_|Fem|Acc|Sg","ich konnte es nicht machen weil die Familie nur Englisch sprechte , könnte ich nicht auch die Deutschschule besuchen ."
+12_39,10,Ihre Anzeige,"Ihre,ART,_|Fem|Nom|Sg","Anzeige,N,_|Fem|Nom|Sg","Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung ."
+12_40,0,Vermittlung,"Vermittlung,N,_|Fem|Nom|Sg","Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung ."
+12_41,0,Betreuung,"Betreuung,N,_|Fem|Nom|Sg","Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung ."
+13_42,12,von Ihre Geschäft,"von,PREP,_|_|_|_","Ihre,ART,_|Neut|_|Sg","Geschäft,N,_|Neut|_|Sg",Nie mal von Ihre Geschäft mir gefragt wurde ob ich zufrieden bin .
+14_43,12,Aufgrund den obengenannten Mängel,"Aufgrund,PREP,_|_|Dat|_","den,ART,Def|_|_|_","obengenannten,ADJA,_|_|Dat|Pl","Mängel,N,_|_|Dat|Pl",Aufgrund den obengenannten Mängel erwart ich ein Entsädigung in die höhe von 500 € .
+15_46,10,Ansonst,"Ansonst,N,_|_|_|_","Ansonst fühle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu übergeben ."
+15_47,10,die Anlegenheit,"die,ART,Def|_|Acc|_","Anlegenheit,N,_|_|Acc|_","Ansonst fühle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu übergeben ."
+15_49,99,zum meinen Anwalt,"zum,PREP,_|_|Dat|_","meinen,ART,_|Masc|Dat|Sg","Anwalt,N,_|Masc|Dat|Sg","Ansonst fühle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu übergeben ."
+16_50,4,Mit Freundlichen Grüssen,"Mit,PREP,_|_|Dat|_","Freundlichen,ADJA,_|_|Dat|_","Grüssen,N,_|_|Dat|_",Mit Freundlichen Grüssen .
+17_51,0,Katharina,"Katharina,N,_|Fem|_|Sg",Katharina

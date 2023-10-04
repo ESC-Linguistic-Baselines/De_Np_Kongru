@@ -1,0 +1,23 @@
+1_1,99,Liebe Katharina,"Liebe,ADJA,_|Fem|_|Sg","Katharina,N,_|Fem|_|Sg","Liebe Katharina , wie geht es dir ?"
+3_2,10,wochende,"wochende,N,_|_|Dat|_",Diese wochende gehe ich um urlaub in Spanien .
+3_3,99,um urlaub,"um,PREP,_|_|_|_","urlaub,N,_|_|_|_",Diese wochende gehe ich um urlaub in Spanien .
+3_4,99,in Spanien,"in,PREP,_|_|_|_","Spanien,N,_|Neut|_|Sg",Diese wochende gehe ich um urlaub in Spanien .
+4_5,10,ein Klein problem,"ein,ART,Indef|Neut|Acc|Sg","Klein,N,_|Neut|Acc|Sg","problem,N,_|Neut|Acc|Sg",Ich habe ein Klein problem .
+4_6,10,Klein problem,"Klein,N,_|Neut|Acc|Sg","problem,N,_|Neut|Acc|Sg",Ich habe ein Klein problem .
+5_7,10,Mein hund,"Mein,ART,_|_|Nom|Sg","hund,N,_|_|Nom|Sg",Mein hund ist alliene zu hause .
+6_8,10,mein hund,"mein,ART,_|_|Nom|Sg","hund,N,_|_|Nom|Sg",Das ist wunderschon wenn mein hund ist mit da in ihre hause .
+7_9,10,ein Klein,"ein,ART,Indef|_|Nom|Sg","Klein,N,_|_|Nom|Sg",Das ist ein Klein daschund und ist sehr suß .
+8_10,10,die hund,"die,ART,Def|Fem|Nom|Sg","hund,N,_|Fem|Nom|Sg",Ich gebe die hund futter und die hund decke wann du sagt es ist ok .
+8_11,10,ok,"ok,N,_|_|Nom|_",Ich gebe die hund futter und die hund decke wann du sagt es ist ok .
+9_12,10,Diese Freitag,"Diese,ART,_|_|_|_","Freitag,N,_|_|Nom|Pl",Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
+9_13,12,zum flughafen,"zum,PREP,_|_|Dat|_","flughafen,N,_|_|Dat|_",Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
+9_14,99,am Samstag,"am,PREP,_|_|Dat|_","Samstag,N,_|_|Dat|Sg",Diese Freitag abend fahren ich zum flughafen und Komme ich zuruck am Samstag nacht .
+10_15,10,swei,"swei,N,_|_|Nom|Sg","Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_16,99,in der tag,"in,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","tag,N,_|Fem|Dat|Sg","Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_17,12,mit Bello,"mit,PREP,_|_|Dat|_","Bello,N,_|_|Dat|_","Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_18,10,name,"name,N,_|_|Dat|_","Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_19,0,Bitte,"Bitte,N,_|Fem|Dat|Sg","Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+10_20,10,Bello,"Bello,N,_|_|_|_","Du Kann swei oder trei maal in der tag spazieren gehen mit Bello , das ist ihr name : - ) Bitte rufen mich an wann es ist ok und ich bringe Bello zu ihre hause ."
+11_21,0,Danke,"Danke,N,_|Masc|Dat|Sg",Danke für ihr hilfe und ich freue mich für ihre anrüfen .
+12_23,99,Viele Grüße Stefan,"Viele,ART,_|Masc|_|Pl","Grüße,N,_|Masc|_|Pl","Stefan,N,_|Masc|_|Sg","Viele Grüße , Stefan"
+12_24,99,Grüße Stefan,"Grüße,N,_|Masc|_|Pl","Stefan,N,_|Masc|_|Sg","Viele Grüße , Stefan"

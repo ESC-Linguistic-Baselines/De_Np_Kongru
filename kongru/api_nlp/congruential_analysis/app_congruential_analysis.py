@@ -151,7 +151,7 @@ def singular_nominal_phrase_agreement_analysis(
                 status, nominal_phrase = data[:2]
                 table.add_row(str(entry), str(status), str(nominal_phrase))
 
-                console.print(table)
+            console.print(table)
 
     except Exception as e:
         basic_logger.catch_and_log_error(

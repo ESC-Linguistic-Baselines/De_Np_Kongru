@@ -1,0 +1,30 @@
+1_1,3,an das Gastland,"an,PREP,_|_|Acc|_","das,ART,Def|Neut|Acc|Sg","Gastland,N,_|Neut|Acc|Sg",Man solltet sich an das Gastland orientieren .
+2_2,12,in einen Fremden Land auswanderen,"in,PREP,_|_|Acc|_","einen,ART,Indef|Masc|Acc|Sg","Fremden,ADJA,_|Masc|Acc|Sg","Land,N,_|Masc|Acc|Sg","auswanderen,N,_|Masc|Acc|Sg","Also wen ich persönlich in einen Fremden Land auswanderen oder nur reise , dann orientiere mich an die neue und fremde Kultur ."
+2_3,10,Land auswanderen,"Land,N,_|Masc|Acc|Sg","auswanderen,N,_|Masc|Acc|Sg","Also wen ich persönlich in einen Fremden Land auswanderen oder nur reise , dann orientiere mich an die neue und fremde Kultur ."
+2_4,99,an die neue Kultur,"an,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","neue,ADJA,_|Fem|Acc|Sg","Kultur,N,_|Fem|Acc|Sg","Also wen ich persönlich in einen Fremden Land auswanderen oder nur reise , dann orientiere mich an die neue und fremde Kultur ."
+4_5,0,Ausländer,"Ausländer,N,_|_|Nom|Pl","Es ist wie wen Ausländer hier in die Schweiz kommen , sie müssen sich auch an uns anpassen ."
+4_6,99,in die Schweiz,"in,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","Schweiz,N,_|Fem|Acc|Sg","Es ist wie wen Ausländer hier in die Schweiz kommen , sie müssen sich auch an uns anpassen ."
+5_7,10,überal,"überal,N,_|_|_|_",Wie überal gibt es regeln und man muss sie follgen .
+6_8,10,Katolisch,"Katolisch,N,_|_|_|_","Religiös ist etwas anderen , wen ich Katolisch geboren bin dann bleibe ich es auch aber ich baue keine Kirchen in einem Musulmanischen Land ."
+6_9,99,keine Kirchen,"keine,ART,_|Fem|Acc|Pl","Kirchen,N,_|Fem|Acc|Pl","Religiös ist etwas anderen , wen ich Katolisch geboren bin dann bleibe ich es auch aber ich baue keine Kirchen in einem Musulmanischen Land ."
+6_10,12,in einem Musulmanischen Land,"in,PREP,_|_|Dat|_","einem,ART,Indef|Neut|Dat|Sg","Musulmanischen,N,_|Neut|Dat|Sg","Land,N,_|Neut|Dat|Sg","Religiös ist etwas anderen , wen ich Katolisch geboren bin dann bleibe ich es auch aber ich baue keine Kirchen in einem Musulmanischen Land ."
+6_11,10,Musulmanischen Land,"Musulmanischen,N,_|Neut|Dat|Sg","Land,N,_|Neut|Dat|Sg","Religiös ist etwas anderen , wen ich Katolisch geboren bin dann bleibe ich es auch aber ich baue keine Kirchen in einem Musulmanischen Land ."
+7_12,10,sein Religion follgt,"sein,ART,_|_|_|Sg","Religion,N,_|_|_|Sg","follgt,N,_|_|_|Sg","Es ist haber für mich kein problem wen man sein Religion follgt , es ist auch für mich egal wen sich Frauen hier in die Schweiz mit Kopftücher nach draussen gehen ."
+7_13,10,Religion follgt,"Religion,N,_|_|_|Sg","follgt,N,_|_|_|Sg","Es ist haber für mich kein problem wen man sein Religion follgt , es ist auch für mich egal wen sich Frauen hier in die Schweiz mit Kopftücher nach draussen gehen ."
+7_14,0,Frauen,"Frauen,N,_|Fem|Nom|Pl","Es ist haber für mich kein problem wen man sein Religion follgt , es ist auch für mich egal wen sich Frauen hier in die Schweiz mit Kopftücher nach draussen gehen ."
+8_17,3,in einen anderen Land,"in,PREP,_|_|Acc|_","einen,ART,Indef|Masc|Acc|Sg","anderen,ADJA,_|Masc|Acc|Sg","Land,N,_|Masc|Acc|Sg","Wen ich selber in einen anderen Land gehe , passe ich mich an die Kultur an aber nicht an die Religion ."
+8_18,3,an die Kultur,"an,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","Kultur,N,_|Fem|Acc|Sg","Wen ich selber in einen anderen Land gehe , passe ich mich an die Kultur an aber nicht an die Religion ."
+8_19,3,an die Religion,"an,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","Religion,N,_|Fem|Acc|Sg","Wen ich selber in einen anderen Land gehe , passe ich mich an die Kultur an aber nicht an die Religion ."
+9_20,3,an die Kultur,"an,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","Kultur,N,_|Fem|Acc|Sg","Sich an die Kultur anpassen heisst es nach meinen Meinung , an die Relgel wie auch an das Regierung anordnen ."
+9_21,99,Meinung nach meinen,"Meinung,N,_|Fem|Dat|Sg","nach,PREP,_|_|Dat|_","meinen,ART,_|Fem|Dat|Sg","Sich an die Kultur anpassen heisst es nach meinen Meinung , an die Relgel wie auch an das Regierung anordnen ."
+9_22,12,an die Relgel,"an,PREP,_|_|Acc|_","die,ART,Def|_|Acc|_","Relgel,N,_|_|Acc|_","Sich an die Kultur anpassen heisst es nach meinen Meinung , an die Relgel wie auch an das Regierung anordnen ."
+9_23,3,an das Regierung,"an,PREP,_|_|Acc|_","das,ART,Def|Neut|_|Sg","Regierung,N,_|Neut|Acc|Sg","Sich an die Kultur anpassen heisst es nach meinen Meinung , an die Relgel wie auch an das Regierung anordnen ."
+10_24,99,unter die Population,"unter,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","Population,N,_|Fem|Acc|Sg",Es heisst aber auch sich unter die Population klar kommen und die Sprache solltet man auch beherschen .
+10_25,99,die Sprache,"die,ART,Def|Fem|Acc|Sg","Sprache,N,_|Fem|Acc|Sg",Es heisst aber auch sich unter die Population klar kommen und die Sprache solltet man auch beherschen .
+11_26,99,in Ausland,"in,PREP,_|_|_|_","Ausland,N,_|Neut|_|Sg","Wen wir in Ausland in die Ferien gehen , lesen wir zur erst ein Reisebuch über den Land die man besuchen will ."
+11_27,99,in die Ferien,"in,PREP,_|_|Acc|_","die,ART,Def|_|Acc|Pl","Ferien,N,_|_|Acc|Pl","Wen wir in Ausland in die Ferien gehen , lesen wir zur erst ein Reisebuch über den Land die man besuchen will ."
+11_28,99,zur ein Reisebuch,"zur,PREP,_|_|Dat|_","ein,ART,Indef|Neut|_|Sg","Reisebuch,N,_|Neut|_|Sg","Wen wir in Ausland in die Ferien gehen , lesen wir zur erst ein Reisebuch über den Land die man besuchen will ."
+11_29,3,über den Land,"über,PREP,_|_|_|_","den,ART,Def|_|_|_","Land,N,_|_|_|_","Wen wir in Ausland in die Ferien gehen , lesen wir zur erst ein Reisebuch über den Land die man besuchen will ."
+12_30,10,ein bild,"ein,ART,Indef|Neut|Acc|Sg","bild,N,_|Neut|Acc|Sg",So kan man sich schon ein bild machen von wass uns genau erwartet .
+13_32,10,mein eingenen,"mein,ART,_|_|_|Sg","eingenen,N,_|_|Nom|Sg",Aber das ist mein eingenen und persönlichen Meinung .
+13_33,99,persönlichen Meinung,"persönlichen,ADJA,_|Fem|_|Sg","Meinung,N,_|Fem|_|Sg",Aber das ist mein eingenen und persönlichen Meinung .

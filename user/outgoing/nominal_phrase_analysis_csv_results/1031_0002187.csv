@@ -1,0 +1,36 @@
+1_1,10,Ein Haus,"Ein,ART,Indef|Neut|_|Sg","Haus,N,_|Neut|_|Sg","Ein Haus , oder eine Wohnung zu mieten oder kaufen in Stadt X könnte entweder teuer oder billig sein ."
+1_2,99,eine Wohnung,"eine,ART,Indef|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg","Ein Haus , oder eine Wohnung zu mieten oder kaufen in Stadt X könnte entweder teuer oder billig sein ."
+1_3,3,in Stadt,"in,PREP,_|_|_|_","Stadt,N,_|Fem|_|Sg","Ein Haus , oder eine Wohnung zu mieten oder kaufen in Stadt X könnte entweder teuer oder billig sein ."
+2_4,3,an die Ort,"an,PREP,_|_|Acc|_","die,ART,Def|_|_|_","Ort,N,_|_|Acc|_",Das kommt darauf an die Ort und der Umgebung wo man leben möchte .
+2_5,99,der Umgebung,"der,ART,Def|Fem|_|Sg","Umgebung,N,_|Fem|_|Sg",Das kommt darauf an die Ort und der Umgebung wo man leben möchte .
+3_6,99,Studenten z.B.,"Studenten,N,_|Masc|Nom|Pl","z.B.,N,_|Masc|Nom|Pl","Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und günstig sein könnten ."
+3_7,99,Studenten z.B.,"Studenten,N,_|Masc|Nom|Pl","z.B.,N,_|Masc|Nom|Pl","Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und günstig sein könnten ."
+3_8,0,Geld,"Geld,N,_|Neut|Acc|Sg","Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und günstig sein könnten ."
+3_9,0,Studentenwohnungen,"Studentenwohnungen,N,_|Fem|Acc|Pl","Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und günstig sein könnten ."
+4_10,0,Studenten,"Studenten,N,_|Masc|Nom|Pl","Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und „ Multikulti "" sein könnte ."
+4_11,99,X diese Studentenwohnungen,"X,N,_|_|Acc|Sg","diese,ART,_|Fem|Acc|Pl","Studentenwohnungen,N,_|Fem|Acc|Pl","Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und „ Multikulti "" sein könnte ."
+4_12,99,in Orten,"in,PREP,_|_|_|_","Orten,N,_|_|_|_","Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und „ Multikulti "" sein könnte ."
+4_13,0,Stadtteil,"Stadtteil,N,_|_|_|Sg","Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und „ Multikulti "" sein könnte ."
+4_15,10,Stadtteil Y,"Stadtteil,N,_|_|Acc|Sg","Y,N,_|_|Acc|Sg","Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und „ Multikulti "" sein könnte ."
+4_16,10,Stadtteil Y,"Stadtteil,N,_|_|Acc|Sg","Y,N,_|_|Acc|Sg","Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und „ Multikulti "" sein könnte ."
+4_17,99,die Umgebung,"die,ART,Def|Fem|_|Sg","Umgebung,N,_|Fem|_|Sg","Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und „ Multikulti "" sein könnte ."
+5_18,99,Für Menschen Orten,"Für,PREP,_|_|Acc|_","Menschen,N,_|Neut|Acc|Sg","Orten,N,_|Neut|Acc|Sg","Für Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen ."
+5_19,99,ein ruhiges Leben,"ein,ART,Indef|Neut|Acc|Sg","ruhiges,ADJA,_|Neut|Acc|Sg","Leben,N,_|Neut|Acc|Sg","Für Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen ."
+5_20,99,mehr Geld,"mehr,ART,_|Neut|Acc|Sg","Geld,N,_|Neut|Acc|Sg","Für Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen ."
+5_21,99,Menschen Orten,"Menschen,N,_|Neut|Acc|Sg","Orten,N,_|Neut|Acc|Sg","Für Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen ."
+5_22,10,Stadtteil Z,"Stadtteil,N,_|Neut|_|_","Z,N,_|Neut|Acc|_","Für Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen ."
+5_23,10,Stadtteil Z,"Stadtteil,N,_|Neut|_|_","Z,N,_|Neut|Acc|_","Für Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen ."
+6_26,99,von Zentralplatz,"von,PREP,_|_|Dat|_","Zentralplatz,N,_|Masc|Dat|Sg",Orten in der Nähe von Zentralplatz bis Bahnhofsstraße wären die ideale Umgebung für Familien .
+6_27,99,bis Bahnhofsstraße,"bis,PREP,_|_|Acc|_","Bahnhofsstraße,N,_|_|Acc|_",Orten in der Nähe von Zentralplatz bis Bahnhofsstraße wären die ideale Umgebung für Familien .
+6_29,3,für Familien,"für,PREP,_|_|Acc|_","Familien,N,_|Fem|Acc|Pl",Orten in der Nähe von Zentralplatz bis Bahnhofsstraße wären die ideale Umgebung für Familien .
+7_30,10,Solche Straßen,"Solche,ART,_|Fem|Nom|Pl","Straßen,N,_|Fem|Nom|Pl","Solche Straßen bieten immer freie Wohnungen an , die normalerweiße in der Ecke von dem Einkaufszentrum sind ."
+7_31,99,freie Wohnungen,"freie,ADJA,_|_|Acc|_","Wohnungen,N,_|_|Acc|_","Solche Straßen bieten immer freie Wohnungen an , die normalerweiße in der Ecke von dem Einkaufszentrum sind ."
+7_33,99,von dem Einkaufszentrum,"von,PREP,_|_|Dat|_","dem,ART,Def|_|Dat|Sg","Einkaufszentrum,N,_|_|Dat|Sg","Solche Straßen bieten immer freie Wohnungen an , die normalerweiße in der Ecke von dem Einkaufszentrum sind ."
+8_34,99,ein Haus,"ein,ART,Indef|Neut|Acc|Sg","Haus,N,_|Neut|Acc|Sg","Wenn man jedoch ein Haus kaufen möchte , man sollte aber auch bereit sein , mehrere Verantwortungen zu übernehmen ."
+8_35,99,mehrere Verantwortungen,"mehrere,ART,_|_|Acc|_","Verantwortungen,N,_|_|Acc|_","Wenn man jedoch ein Haus kaufen möchte , man sollte aber auch bereit sein , mehrere Verantwortungen zu übernehmen ."
+9_37,99,mit dem Mieten Wohnung,"mit,PREP,_|_|Dat|_","dem,ART,Def|Neut|Dat|Sg","Mieten,N,_|Neut|Dat|Sg","Wohnung,N,_|Fem|Gen|Sg",Im vergleich mit dem Mieten einer Wohnung ist das Hauskaufen schwieriger .
+9_38,99,Mieten einer Wohnung,"Mieten,N,_|Neut|Dat|Sg","einer,ART,Indef|Fem|Gen|Sg","Wohnung,N,_|Fem|Gen|Sg",Im vergleich mit dem Mieten einer Wohnung ist das Hauskaufen schwieriger .
+9_39,99,Hauskaufen das,"Hauskaufen,N,_|Neut|Nom|Sg","das,ART,Def|Neut|Nom|Sg",Im vergleich mit dem Mieten einer Wohnung ist das Hauskaufen schwieriger .
+10_40,99,auf die Ort,"auf,PREP,_|_|Acc|_","die,ART,Def|_|_|_","Ort,N,_|_|Acc|_","Man achtet nicht nur auf die Ort wo man sein Haus haben möchte , aber auch auf die andere Voraussetzungen die immer nachgefragt wurden ."
+10_41,99,sein Haus,"sein,ART,_|Neut|Acc|Sg","Haus,N,_|Neut|Acc|Sg","Man achtet nicht nur auf die Ort wo man sein Haus haben möchte , aber auch auf die andere Voraussetzungen die immer nachgefragt wurden ."
+10_42,99,auf die andere Voraussetzungen,"auf,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Pl","andere,ADJA,_|Fem|Acc|Pl","Voraussetzungen,N,_|Fem|Acc|Pl","Man achtet nicht nur auf die Ort wo man sein Haus haben möchte , aber auch auf die andere Voraussetzungen die immer nachgefragt wurden ."

@@ -1,0 +1,20 @@
+1_1,3,Ingo,"Ingo,N,_|Masc|_|Sg","Lieber Ingo , wie geht es mit dir ?"
+2_2,99,eine Arbeit,"eine,ART,Indef|Fem|Acc|Sg","Arbeit,N,_|Fem|Acc|Sg",Mir geht es gut : ich habe eine Arbeit in Neuburg gefunden !
+2_3,99,in Neuburg,"in,PREP,_|_|_|_","Neuburg,N,_|Fem|_|Sg",Mir geht es gut : ich habe eine Arbeit in Neuburg gefunden !
+3_4,99,eine Wohnung,"eine,ART,Indef|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg",Ich brauche jetzt eine Wohnung .
+5_5,3,Meine Arbeit,"Meine,ART,_|Fem|Nom|Sg","Arbeit,N,_|Fem|Nom|Sg","Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_6,3,Juli,"Juli,N,_|Masc|_|Sg","Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_7,99,eine Wohnung,"eine,ART,Indef|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg","Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_8,99,in Neuburg,"in,PREP,_|_|_|_","Neuburg,N,_|Fem|_|Sg","Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+5_9,3,Juli,"Juli,N,_|Masc|_|Sg","Meine Arbeit beginnt am 09 Juli , deshalb brauche ich eine Wohnung in Neuburg von 01 Juli ."
+6_10,99,in Neuburg,"in,PREP,_|_|_|_","Neuburg,N,_|Fem|_|Sg","Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
+6_11,99,in die Wohnungen,"in,PREP,_|_|_|_","die,ART,Def|Fem|_|Pl","Wohnungen,N,_|Fem|_|Pl","Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
+6_13,99,im Juni,"im,PREP,_|_|Dat|_","Juni,N,_|Masc|Dat|Sg","Ich möchte nur ein mal in Neuburg die Wohnungen besichtigen , vielleich im Juni ."
+7_14,99,eine kleine Wohnung,"eine,ART,Indef|Fem|Acc|Sg","kleine,ADJA,_|Fem|Acc|Sg","Wohnung,N,_|Fem|Acc|Sg",Ich möchte eine kleine Wohnung mieten .
+8_15,99,ein Badzimmer Wohnzimmer,"ein,ART,Indef|Neut|Acc|Sg","Badzimmer,N,_|Neut|Acc|Sg","Wohnzimmer,N,_|Neut|Acc|Sg","Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
+8_16,99,Badzimmer ein Wohnzimmer,"Badzimmer,N,_|Neut|Acc|Sg","ein,ART,Indef|Neut|Acc|Sg","Wohnzimmer,N,_|Neut|Acc|Sg","Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
+8_17,99,ein Schlafzimmer,"ein,ART,Indef|Neut|Acc|Sg","Schlafzimmer,N,_|Neut|Acc|Sg","Sie muss nur ein Badzimmer , ein Wohnzimmer und ein Schlafzimmer haben ."
+9_18,99,im Juni,"im,PREP,_|_|Dat|_","Juni,N,_|Masc|Dat|Sg",Kann ich dich besuchen im Juni ?
+10_20,3,für die Hilfe,"für,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","Hilfe,N,_|Fem|Acc|Sg",Vielen Dank für die Hilfe !
+11_21,99,Grüß Maria,"Grüß,N,_|Fem|_|Sg","Maria,N,_|Fem|_|Sg","Grüß , deine Maria"
+11_22,99,Grüß deine Maria,"Grüß,N,_|Fem|_|Sg","deine,ART,_|Fem|_|Sg","Maria,N,_|Fem|_|Sg","Grüß , deine Maria"

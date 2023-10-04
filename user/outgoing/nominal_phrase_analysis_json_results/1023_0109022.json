@@ -1,0 +1,4232 @@
+[
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_1",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Katharina Schmidt"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Schmidt",
+                "lemma": "Schmidt",
+                "POS_STTS": "NE",
+                "index": "2",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Katharina",
+                "lemma": "Katharina",
+                "POS_STTS": "NE",
+                "index": "1",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_2",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Katharina Schmidt M\u00fcllergasse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Katharina",
+                    "lemma": "Katharina",
+                    "POS_STTS": "NE",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "M\u00fcllergasse",
+                "lemma": "M\u00fcllergasse",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "app",
+                "head_index": "2",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Schmidt",
+                "lemma": "Schmidt",
+                "POS_STTS": "NE",
+                "index": "2",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_3",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Schmidt M\u00fcllergasse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Schmidt",
+                    "lemma": "Schmidt",
+                    "POS_STTS": "NE",
+                    "index": "2",
+                    "dep_rel": "app",
+                    "head_index": "1",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Katharina",
+                    "lemma": "Katharina",
+                    "POS_STTS": "NE",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "CARD",
+                "word_form": "12",
+                "lemma": "12",
+                "POS_STTS": "CARD",
+                "index": "4",
+                "dep_rel": "app",
+                "head_index": "3",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "M\u00fcllergasse",
+                "lemma": "M\u00fcllergasse",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "app",
+                "head_index": "2",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_4",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadt X."
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "X.",
+                "lemma": "X.",
+                "POS_STTS": "NE",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "7",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadt",
+                "lemma": "Stadt",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_5",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadt X. Au-pair-Agentur"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadt",
+                    "lemma": "Stadt",
+                    "POS_STTS": "NN",
+                    "index": "7",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Au-pair-Agentur",
+                "lemma": "Au-pair-Agentur",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "X.",
+                "lemma": "X.",
+                "POS_STTS": "NE",
+                "index": "8",
+                "dep_rel": "app",
+                "head_index": "7",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_6",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Schultz X. Au-pair-Agentur"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "1_6",
+                "1_7",
+                "1_8"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "X.",
+                    "lemma": "X.",
+                    "POS_STTS": "NE",
+                    "index": "8",
+                    "dep_rel": "app",
+                    "head_index": "7",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadt",
+                    "lemma": "Stadt",
+                    "POS_STTS": "NN",
+                    "index": "7",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Schultz",
+                "lemma": "Schultz",
+                "POS_STTS": "NE",
+                "index": "10",
+                "dep_rel": "app",
+                "head_index": "9",
+                "parser_morph_features": "Masc|_|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Au-pair-Agentur",
+                "lemma": "Au-pair-Agentur",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_7",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Schultz Au-pair-Agentur"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "1_6",
+                "1_7",
+                "1_8"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Au-pair-Agentur",
+                    "lemma": "Au-pair-Agentur",
+                    "POS_STTS": "NN",
+                    "index": "9",
+                    "dep_rel": "app",
+                    "head_index": "8",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "X.",
+                    "lemma": "X.",
+                    "POS_STTS": "NE",
+                    "index": "8",
+                    "dep_rel": "app",
+                    "head_index": "7",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Schultz",
+                "lemma": "Schultz",
+                "POS_STTS": "NE",
+                "index": "10",
+                "dep_rel": "app",
+                "head_index": "9",
+                "parser_morph_features": "Masc|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_8",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Partner Regenstr"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "1_6",
+                "1_7",
+                "1_8"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "&",
+                    "lemma": "&",
+                    "POS_STTS": "KON",
+                    "index": "11",
+                    "dep_rel": "kon",
+                    "head_index": "10",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Schultz",
+                    "lemma": "Schultz",
+                    "POS_STTS": "NE",
+                    "index": "10",
+                    "dep_rel": "app",
+                    "head_index": "9",
+                    "parser_morph_features": "Masc|_|_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Regenstr",
+                "lemma": "Regenstr",
+                "POS_STTS": "NE",
+                "index": "13",
+                "dep_rel": "app",
+                "head_index": "12",
+                "parser_morph_features": "Masc|_|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Partner",
+                "lemma": "Partner",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "cj",
+                "head_index": "11",
+                "parser_morph_features": "Masc|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "1_9",
+        "sentence": "Katharina Schmidt M\u00fcllergasse 12 , 1234 Stadt X. Au-pair-Agentur Schultz & Partner Regenstr .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Partner Regenstr"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Partner",
+                    "lemma": "Partner",
+                    "POS_STTS": "NN",
+                    "index": "12",
+                    "dep_rel": "cj",
+                    "head_index": "11",
+                    "parser_morph_features": "Masc|_|_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "&",
+                    "lemma": "&",
+                    "POS_STTS": "KON",
+                    "index": "11",
+                    "dep_rel": "kon",
+                    "head_index": "10",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Regenstr",
+                "lemma": "Regenstr",
+                "POS_STTS": "NE",
+                "index": "13",
+                "dep_rel": "app",
+                "head_index": "12",
+                "parser_morph_features": "Masc|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_10",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "N\u00fcrnberg Stadt"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Stadt",
+                "lemma": "Stadt",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "app",
+                "head_index": "3",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "N\u00fcrnberg",
+                "lemma": "N\u00fcrnberg",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_11",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "N\u00fcrnberg Stadt X"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "N\u00fcrnberg",
+                    "lemma": "N\u00fcrnberg",
+                    "POS_STTS": "NE",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "X",
+                "lemma": "X",
+                "POS_STTS": "NE",
+                "index": "5",
+                "dep_rel": "app",
+                "head_index": "4",
+                "parser_morph_features": "Fem|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadt",
+                "lemma": "Stadt",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "app",
+                "head_index": "3",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_12",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadt X"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadt",
+                    "lemma": "Stadt",
+                    "POS_STTS": "NN",
+                    "index": "4",
+                    "dep_rel": "app",
+                    "head_index": "3",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "N\u00fcrnberg",
+                    "lemma": "N\u00fcrnberg",
+                    "POS_STTS": "NE",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Fem|_|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "X",
+                "lemma": "X",
+                "POS_STTS": "NE",
+                "index": "5",
+                "dep_rel": "app",
+                "head_index": "4",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_13",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Damen Beschwerdebrief"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "2_13",
+                "2_14",
+                "2_15"
+            ]
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Damen",
+                "lemma": "Dame",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "app",
+                "head_index": "9",
+                "parser_morph_features": "Fem|_|Pl"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Beschwerdebrief",
+                "lemma": "Beschwerdebrief",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Masc|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_14",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "geehrte Damen Beschwerdebrief"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": [
+                "2_13",
+                "2_14",
+                "2_15"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Beschwerdebrief",
+                    "lemma": "Beschwerdebrief",
+                    "POS_STTS": "NN",
+                    "index": "9",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Masc|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADV",
+                "word_form": "Sehr",
+                "lemma": "sehr",
+                "POS_STTS": "ADV",
+                "index": "10",
+                "dep_rel": "adv",
+                "head_index": "11",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "geehrte",
+                "lemma": "geehrt",
+                "POS_STTS": "ADJA",
+                "index": "11",
+                "dep_rel": "attr",
+                "head_index": "12",
+                "parser_morph_features": "Pos|Fem|_|Pl|St|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Damen",
+                "lemma": "Dame",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "app",
+                "head_index": "9",
+                "parser_morph_features": "Fem|_|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_15",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Herren"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "2_13",
+                "2_14",
+                "2_15"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "13",
+                    "dep_rel": "kon",
+                    "head_index": "12",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Damen",
+                    "lemma": "Dame",
+                    "POS_STTS": "NN",
+                    "index": "12",
+                    "dep_rel": "app",
+                    "head_index": "9",
+                    "parser_morph_features": "Fem|_|Pl"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Herren",
+                "lemma": "Herr",
+                "POS_STTS": "NN",
+                "index": "14",
+                "dep_rel": "cj",
+                "head_index": "13",
+                "parser_morph_features": "Masc|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_16",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "mit grossem Interesse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "16",
+                    "dep_rel": "pp",
+                    "head_index": "20",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "habe",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "20",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "grossem",
+                "lemma": "gro\u00df",
+                "POS_STTS": "ADJA",
+                "index": "17",
+                "dep_rel": "attr",
+                "head_index": "18",
+                "parser_morph_features": "Pos|Neut|Dat|Sg|St|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Interesse",
+                "lemma": "Interesse",
+                "POS_STTS": "NN",
+                "index": "18",
+                "dep_rel": "pn",
+                "head_index": "16",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_17",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Ihre Anzeige"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gelesen",
+                    "lemma": "lesen",
+                    "POS_STTS": "VVPP",
+                    "index": "29",
+                    "dep_rel": "aux",
+                    "head_index": "20",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "habe",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "20",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ihre",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "22",
+                "dep_rel": "det",
+                "head_index": "23",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Anzeige",
+                "lemma": "Anzeige",
+                "POS_STTS": "NN",
+                "index": "23",
+                "dep_rel": "obja",
+                "head_index": "29",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "2_18",
+        "sentence": "101 90451 N\u00fcrnberg Stadt X , den 20.08.2011 Beschwerdebrief Sehr geehrte Damen und Herren , mit grossem Interesse , habe ich Ihre Anzeige in der NZZ vom 1.01.2010 gelesen .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "24",
+                    "dep_rel": "pp",
+                    "head_index": "29",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gelesen",
+                    "lemma": "lesen",
+                    "POS_STTS": "VVPP",
+                    "index": "29",
+                    "dep_rel": "aux",
+                    "head_index": "20",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "vom",
+                "lemma": "von",
+                "POS_STTS": "APPRART",
+                "index": "27",
+                "dep_rel": "pp",
+                "head_index": "26",
+                "parser_morph_features": "Dat"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "25",
+                "dep_rel": "det",
+                "head_index": "26",
+                "parser_morph_features": "Def|Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "NZZ",
+                "lemma": "NZZ",
+                "POS_STTS": "NN",
+                "index": "26",
+                "dep_rel": "pn",
+                "head_index": "24",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "3_19",
+        "sentence": "Dann habe ich mich als Au-pair beworben .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Au-pair"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KOKOM",
+                    "word_form": "als",
+                    "lemma": "als",
+                    "POS_STTS": "KOKOM",
+                    "index": "5",
+                    "dep_rel": "kom",
+                    "head_index": "7",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "beworben",
+                    "lemma": "bewerben",
+                    "POS_STTS": "VVPP",
+                    "index": "7",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Au-pair",
+                "lemma": "Au-pair",
+                "POS_STTS": "NE",
+                "index": "6",
+                "dep_rel": "cj",
+                "head_index": "5",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "4_20",
+        "sentence": "und ging im Juni 2011 nach Deutschland Wie grosse war mein Ent\u00e4uschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "im Juni"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "im",
+                    "lemma": "in",
+                    "POS_STTS": "APPRART",
+                    "index": "3",
+                    "dep_rel": "pp",
+                    "head_index": "10",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "war",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "10",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|Ind"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "CARD",
+                "word_form": "2011",
+                "lemma": "2011",
+                "POS_STTS": "CARD",
+                "index": "5",
+                "dep_rel": "app",
+                "head_index": "4",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Juni",
+                "lemma": "Juni",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "pn",
+                "head_index": "3",
+                "parser_morph_features": "Masc|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "4_21",
+        "sentence": "und ging im Juni 2011 nach Deutschland Wie grosse war mein Ent\u00e4uschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "nach Deutschland"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "nach",
+                    "lemma": "nach",
+                    "POS_STTS": "APPR",
+                    "index": "6",
+                    "dep_rel": "pp",
+                    "head_index": "5",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "CARD",
+                    "word_form": "2011",
+                    "lemma": "2011",
+                    "POS_STTS": "CARD",
+                    "index": "5",
+                    "dep_rel": "app",
+                    "head_index": "4",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "KOKOM",
+                "word_form": "Wie",
+                "lemma": "wie",
+                "POS_STTS": "KOKOM",
+                "index": "8",
+                "dep_rel": "kom",
+                "head_index": "7",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Deutschland",
+                "lemma": "Deutschland",
+                "POS_STTS": "NE",
+                "index": "7",
+                "dep_rel": "pn",
+                "head_index": "6",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "4_22",
+        "sentence": "und ging im Juni 2011 nach Deutschland Wie grosse war mein Ent\u00e4uschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "mein Ent\u00e4uschung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "war",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "10",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mein",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "11",
+                "dep_rel": "det",
+                "head_index": "12",
+                "parser_morph_features": "_|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ent\u00e4uschung",
+                "lemma": "Ent\u00e4uschung",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "subj",
+                "head_index": "10",
+                "parser_morph_features": "_|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "4_23",
+        "sentence": "und ging im Juni 2011 nach Deutschland Wie grosse war mein Ent\u00e4uschung als ich ankam , niemand war am Bahnhof mir abzuholen , wie es versprochen war .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "am Bahnhof"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "am",
+                    "lemma": "an",
+                    "POS_STTS": "APPRART",
+                    "index": "19",
+                    "dep_rel": "pp",
+                    "head_index": "22",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "abzuholen",
+                    "lemma": "abholen",
+                    "POS_STTS": "VVIZU",
+                    "index": "22",
+                    "dep_rel": "aux",
+                    "head_index": "18",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Bahnhof",
+                "lemma": "Bahnhof",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "pn",
+                "head_index": "19",
+                "parser_morph_features": "Masc|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "5_24",
+        "sentence": "Nahm ich ein Taxi zu meine Gastfamilie .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "ein Taxi"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "Nahm",
+                    "lemma": "nehmen",
+                    "POS_STTS": "VVFIN",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "Indef|Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Taxi",
+                "lemma": "Taxi",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "obja",
+                "head_index": "1",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "5_25",
+        "sentence": "Nahm ich ein Taxi zu meine Gastfamilie .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "zu meine Gastfamilie"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "zu",
+                    "lemma": "zu",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "objp",
+                    "head_index": "1",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "Nahm",
+                    "lemma": "nehmen",
+                    "POS_STTS": "VVFIN",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "meine",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "6",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gastfamilie",
+                "lemma": "Gastfamilie",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "6_26",
+        "sentence": "Dort kam mein zweite Ent\u00e4uschung .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "mein zweite Ent\u00e4uschung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "kam",
+                    "lemma": "kommen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mein",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "_|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "zweite",
+                "lemma": "zweit",
+                "POS_STTS": "ADJA",
+                "index": "4",
+                "dep_rel": "attr",
+                "head_index": "5",
+                "parser_morph_features": "_|_|Nom|Sg|Wk|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Ent\u00e4uschung",
+                "lemma": "Ent\u00e4uschung",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "subj",
+                "head_index": "2",
+                "parser_morph_features": "_|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "7_27",
+        "sentence": "Ich hatte kein eigene Zimmer .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "kein eigene Zimmer"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hatte",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "kein",
+                "lemma": "keine",
+                "POS_STTS": "PIAT",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "eigene",
+                "lemma": "eigen",
+                "POS_STTS": "ADJA",
+                "index": "4",
+                "dep_rel": "attr",
+                "head_index": "5",
+                "parser_morph_features": "Pos|Neut|Acc|Sg|Wk|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Zimmer",
+                "lemma": "Zimmer",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "obja",
+                "head_index": "2",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "8_28",
+        "sentence": "Ich m\u00fcsste mit dem Kindern Schlafen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "mit dem Kindern Schlafen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "pp",
+                    "head_index": "2",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "m\u00fcsste",
+                    "lemma": "m\u00fcssen",
+                    "POS_STTS": "VMFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Subj"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Schlafen",
+                "lemma": "Schlafen",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "app",
+                "head_index": "5",
+                "parser_morph_features": "Neut|Dat|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "dem",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Def|Neut|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kindern",
+                "lemma": "Kind",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "pn",
+                "head_index": "3",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "8_29",
+        "sentence": "Ich m\u00fcsste mit dem Kindern Schlafen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Kindern Schlafen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Kindern",
+                    "lemma": "Kind",
+                    "POS_STTS": "NN",
+                    "index": "5",
+                    "dep_rel": "pn",
+                    "head_index": "3",
+                    "parser_morph_features": "Neut|Dat|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "pp",
+                    "head_index": "2",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Schlafen",
+                "lemma": "Schlafen",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "app",
+                "head_index": "5",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "9_30",
+        "sentence": "Die Eltern war nett aber die Kindern was b\u00f6se .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Die Eltern"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Def|_|_|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Eltern",
+                "lemma": "Elter",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "_|_|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "9_31",
+        "sentence": "Die Eltern war nett aber die Kindern was b\u00f6se .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "die Kindern"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "war",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "6",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Def|Masc|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kindern",
+                "lemma": "Kind",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "pred",
+                "head_index": "3",
+                "parser_morph_features": "Masc|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "10_32",
+        "sentence": "Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "neben mein Job"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "neben",
+                    "lemma": "neben",
+                    "POS_STTS": "APPR",
+                    "index": "6",
+                    "dep_rel": "pp",
+                    "head_index": "14",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "verbessern",
+                    "lemma": "verbessern",
+                    "POS_STTS": "VVFIN",
+                    "index": "14",
+                    "dep_rel": "objc",
+                    "head_index": "3",
+                    "parser_morph_features": "_|Pl|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mein",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Masc|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Job",
+                "lemma": "Job",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "pn",
+                "head_index": "6",
+                "parser_morph_features": "Masc|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "10_33",
+        "sentence": "Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Au-pair"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KOKOM",
+                    "word_form": "als",
+                    "lemma": "als",
+                    "POS_STTS": "KOKOM",
+                    "index": "9",
+                    "dep_rel": "kom",
+                    "head_index": "14",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "verbessern",
+                    "lemma": "verbessern",
+                    "POS_STTS": "VVFIN",
+                    "index": "14",
+                    "dep_rel": "objc",
+                    "head_index": "3",
+                    "parser_morph_features": "_|Pl|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Au-pair",
+                "lemma": "Au-pair",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "cj",
+                "head_index": "9",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "10_34",
+        "sentence": "Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "mein Deutsch kenntnisse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "verbessern",
+                    "lemma": "verbessern",
+                    "POS_STTS": "VVFIN",
+                    "index": "14",
+                    "dep_rel": "objc",
+                    "head_index": "3",
+                    "parser_morph_features": "_|Pl|Pres|_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "erwartet",
+                    "lemma": "erwarten",
+                    "POS_STTS": "VVPP",
+                    "index": "3",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "kenntnisse",
+                "lemma": "kenntnisse",
+                "POS_STTS": "NE",
+                "index": "13",
+                "dep_rel": "app",
+                "head_index": "12",
+                "parser_morph_features": "Neut|Acc|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mein",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "11",
+                "dep_rel": "det",
+                "head_index": "12",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Deutsch",
+                "lemma": "Deutsch",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "obja",
+                "head_index": "14",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "10_35",
+        "sentence": "Ich hatte erwartet , dass neben mein Job als Au-pair mein Deutsch kenntnisse verbessern .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Deutsch kenntnisse"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Deutsch",
+                    "lemma": "Deutsch",
+                    "POS_STTS": "NN",
+                    "index": "12",
+                    "dep_rel": "obja",
+                    "head_index": "14",
+                    "parser_morph_features": "Neut|Acc|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "verbessern",
+                    "lemma": "verbessern",
+                    "POS_STTS": "VVFIN",
+                    "index": "14",
+                    "dep_rel": "objc",
+                    "head_index": "3",
+                    "parser_morph_features": "_|Pl|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "kenntnisse",
+                "lemma": "kenntnisse",
+                "POS_STTS": "NE",
+                "index": "13",
+                "dep_rel": "app",
+                "head_index": "12",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "11_36",
+        "sentence": "ich konnte es nicht machen weil die Familie nur Englisch sprechte , k\u00f6nnte ich nicht auch die Deutschschule besuchen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Englisch die Familie"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Englisch",
+                "lemma": "Englisch",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Neut|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Def|_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Familie",
+                "lemma": "Familie",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "11_37",
+        "sentence": "ich konnte es nicht machen weil die Familie nur Englisch sprechte , k\u00f6nnte ich nicht auch die Deutschschule besuchen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Englisch Familie"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Familie",
+                    "lemma": "Familie",
+                    "POS_STTS": "NN",
+                    "index": "8",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Neut|_|Sg"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "FM",
+                "word_form": "sprechte",
+                "lemma": "sprechte",
+                "POS_STTS": "FM",
+                "index": "11",
+                "dep_rel": "app",
+                "head_index": "10",
+                "parser_morph_features": "Neut|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADV",
+                "word_form": "nur",
+                "lemma": "nur",
+                "POS_STTS": "ADV",
+                "index": "9",
+                "dep_rel": "adv",
+                "head_index": "10",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Englisch",
+                "lemma": "Englisch",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "11_38",
+        "sentence": "ich konnte es nicht machen weil die Familie nur Englisch sprechte , k\u00f6nnte ich nicht auch die Deutschschule besuchen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "die Deutschschule"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "k\u00f6nnte",
+                    "lemma": "k\u00f6nnen",
+                    "POS_STTS": "VMFIN",
+                    "index": "13",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Past|Subj"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "17",
+                "dep_rel": "det",
+                "head_index": "18",
+                "parser_morph_features": "Def|Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Deutschschule",
+                "lemma": "Deutschschule",
+                "POS_STTS": "NN",
+                "index": "18",
+                "dep_rel": "obja",
+                "head_index": "13",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "12_39",
+        "sentence": "Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Ihre Anzeige"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "war",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ihre",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Anzeige",
+                "lemma": "Anzeige",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "12_40",
+        "sentence": "Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Vermittlung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "12_40",
+                "12_41"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "war",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "14",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Vermittlung",
+                "lemma": "Vermittlung",
+                "POS_STTS": "NN",
+                "index": "15",
+                "dep_rel": "subj",
+                "head_index": "14",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "12_41",
+        "sentence": "Ihre Anzeige war viel versprechend , alles was stimmte aber was nicht stimmte war Vermittlung und Betreuung .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Betreuung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "12_40",
+                "12_41"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "16",
+                    "dep_rel": "kon",
+                    "head_index": "15",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Vermittlung",
+                    "lemma": "Vermittlung",
+                    "POS_STTS": "NN",
+                    "index": "15",
+                    "dep_rel": "subj",
+                    "head_index": "14",
+                    "parser_morph_features": "Fem|Nom|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Betreuung",
+                "lemma": "Betreuung",
+                "POS_STTS": "NN",
+                "index": "17",
+                "dep_rel": "cj",
+                "head_index": "16",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "13_42",
+        "sentence": "Nie mal von Ihre Gesch\u00e4ft mir gefragt wurde ob ich zufrieden bin .",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "von Ihre Gesch\u00e4ft"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "von",
+                    "lemma": "von",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "pp",
+                    "head_index": "6",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PRO",
+                    "word_form": "mir",
+                    "lemma": "ich",
+                    "POS_STTS": "PPER",
+                    "index": "6",
+                    "dep_rel": "objd",
+                    "head_index": "7",
+                    "parser_morph_features": "1|Sg|_|Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ihre",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gesch\u00e4ft",
+                "lemma": "Gesch\u00e4ft",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "pn",
+                "head_index": "3",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "14_43",
+        "sentence": "Aufgrund den obengenannten M\u00e4ngel erwart ich ein Ents\u00e4digung in die h\u00f6he von 500 \u20ac .",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "Aufgrund den obengenannten M\u00e4ngel"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "Aufgrund",
+                    "lemma": "aufgrund",
+                    "POS_STTS": "APPR",
+                    "index": "1",
+                    "dep_rel": "pp",
+                    "head_index": "5",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "erwart",
+                    "lemma": "ersein",
+                    "POS_STTS": "VVFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "2|Pl|Past|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "den",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "2",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "Def|_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "obengenannten",
+                "lemma": "obengenannt",
+                "POS_STTS": "ADJA",
+                "index": "3",
+                "dep_rel": "attr",
+                "head_index": "4",
+                "parser_morph_features": "Pos|_|Dat|Pl|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "M\u00e4ngel",
+                "lemma": "Mangel",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "pn",
+                "head_index": "1",
+                "parser_morph_features": "_|Dat|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "14_44",
+        "sentence": "Aufgrund den obengenannten M\u00e4ngel erwart ich ein Ents\u00e4digung in die h\u00f6he von 500 \u20ac .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "in",
+                "lemma": "in",
+                "POS_STTS": "APPR",
+                "index": "9",
+                "dep_rel": "pp",
+                "head_index": "8",
+                "parser_morph_features": "Acc"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Indef|_|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ents\u00e4digung",
+                "lemma": "Ents\u00e4digung",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "_|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "14_45",
+        "sentence": "Aufgrund den obengenannten M\u00e4ngel erwart ich ein Ents\u00e4digung in die h\u00f6he von 500 \u20ac .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "9",
+                    "dep_rel": "pp",
+                    "head_index": "8",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Ents\u00e4digung",
+                    "lemma": "Ents\u00e4digung",
+                    "POS_STTS": "NN",
+                    "index": "8",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|_|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "von",
+                "lemma": "von",
+                "POS_STTS": "APPR",
+                "index": "12",
+                "dep_rel": "pp",
+                "head_index": "11",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "Def|_|Acc|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "h\u00f6he",
+                "lemma": "h\u00f6he",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "pn",
+                "head_index": "9",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "15_46",
+        "sentence": "Ansonst f\u00fchle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu \u00fcbergeben .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Ansonst"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "f\u00fchle",
+                    "lemma": "f\u00fchlen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Ansonst",
+                "lemma": "Ansonst",
+                "POS_STTS": "NE",
+                "index": "1",
+                "dep_rel": "obja",
+                "head_index": "2",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "15_47",
+        "sentence": "Ansonst f\u00fchle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu \u00fcbergeben .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "die Anlegenheit"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gegeben",
+                    "lemma": "geben",
+                    "POS_STTS": "VVPP",
+                    "index": "12",
+                    "dep_rel": "neb",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "f\u00fchle",
+                    "lemma": "f\u00fchlen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Def|_|Acc|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Anlegenheit",
+                "lemma": "Anlegenheit",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "obja",
+                "head_index": "12",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "15_48",
+        "sentence": "Ansonst f\u00fchle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu \u00fcbergeben .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "9",
+                    "dep_rel": "objp",
+                    "head_index": "12",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gegeben",
+                    "lemma": "geben",
+                    "POS_STTS": "VVPP",
+                    "index": "12",
+                    "dep_rel": "neb",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "Def|_|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Medien",
+                "lemma": "Media",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "pn",
+                "head_index": "9",
+                "parser_morph_features": "_|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "15_49",
+        "sentence": "Ansonst f\u00fchle ich mich gezwungen , die Anlegenheit in die Medien gegeben oder zum meinen Anwalt zu \u00fcbergeben .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "zum meinen Anwalt"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "zum",
+                    "lemma": "zu",
+                    "POS_STTS": "APPRART",
+                    "index": "14",
+                    "dep_rel": "pp",
+                    "head_index": "18",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "\u00fcbergeben",
+                    "lemma": "\u00fcbergeben",
+                    "POS_STTS": "VVINF",
+                    "index": "18",
+                    "dep_rel": "cj",
+                    "head_index": "13",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "meinen",
+                "lemma": "meine",
+                "POS_STTS": "PPOSAT",
+                "index": "15",
+                "dep_rel": "det",
+                "head_index": "16",
+                "parser_morph_features": "Masc|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Anwalt",
+                "lemma": "Anwalt",
+                "POS_STTS": "NN",
+                "index": "16",
+                "dep_rel": "pn",
+                "head_index": "14",
+                "parser_morph_features": "Masc|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "16_50",
+        "sentence": "Mit Freundlichen Gr\u00fcssen .",
+        "np_congruency_info": {
+            "congruency_code": "4",
+            "nominal_phrase": "Mit Freundlichen Gr\u00fcssen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "Mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "Freundlichen",
+                "lemma": "freundlich",
+                "POS_STTS": "ADJA",
+                "index": "2",
+                "dep_rel": "attr",
+                "head_index": "3",
+                "parser_morph_features": "Pos|_|Dat|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gr\u00fcssen",
+                "lemma": "Gruss",
+                "POS_STTS": "NN",
+                "index": "3",
+                "dep_rel": "pn",
+                "head_index": "1",
+                "parser_morph_features": "_|Dat|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1023_0109022",
+        "sent_NP_ID": "17_51",
+        "sentence": "Katharina",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Katharina"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1023_0109022",
+                "L1": "English",
+                "age": "56",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2",
+                "test_level": "B2"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "letter",
+                "topic": "Au pair writes letter of complaint to Agency"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Katharina",
+                "lemma": "Katharina",
+                "POS_STTS": "NN",
+                "index": "1",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    }
+]

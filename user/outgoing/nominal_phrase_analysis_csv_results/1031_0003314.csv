@@ -1,0 +1,51 @@
+1_1,99,zur Kenntnis,"zur,PREP,_|_|Dat|_","Kenntnis,N,_|Fem|Dat|Sg","Einleitend möchte ich zur Kenntnis bringen , dass immer mehr Einzelner im Ausland leben ."
+1_3,99,im Ausland,"im,PREP,_|_|Dat|_","Ausland,N,_|Neut|Dat|Sg","Einleitend möchte ich zur Kenntnis bringen , dass immer mehr Einzelner im Ausland leben ."
+2_4,10,Der folgende Text,"Der,ART,Def|Masc|Nom|Sg","folgende,ADJA,_|Masc|Nom|Sg","Text,N,_|Masc|Nom|Sg",Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?
+2_5,12,mit der Frage „,"mit,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Frage,N,_|Fem|Dat|Sg","„,N,_|Fem|Dat|Sg",Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?
+2_6,10,Frage „,"Frage,N,_|Fem|Dat|Sg","„,N,_|Fem|Dat|Sg",Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?
+2_7,99,diese Ausländer,"diese,ART,_|_|Nom|Pl","Ausländer,N,_|_|Nom|Pl",Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?
+2_8,99,ihre eigenen Traditionen,"ihre,ART,_|Fem|Acc|Pl","eigenen,ADJA,_|Fem|Acc|Pl","Traditionen,N,_|Fem|Acc|Pl",Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?
+2_9,99,an der Kultur Gastlandes,"an,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Kultur,N,_|Fem|Dat|Sg","Gastlandes,N,_|Neut|Gen|Sg",Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?
+2_10,99,Kultur des Gastlandes,"Kultur,N,_|Fem|Dat|Sg","des,ART,Def|Neut|Gen|Sg","Gastlandes,N,_|Neut|Gen|Sg",Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?
+3_11,3,An dieser Frage,"An,PREP,_|_|Dat|_","dieser,ART,_|Fem|Dat|Sg","Frage,N,_|Fem|Dat|Sg",""" An dieser Frage scheiden sich die Geister ."
+3_12,99,die Geister,"die,ART,Def|Masc|Nom|Pl","Geister,N,_|Masc|Nom|Pl",""" An dieser Frage scheiden sich die Geister ."
+4_13,0,Tendenzen,"Tendenzen,N,_|Fem|Acc|Pl","Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen ."
+4_14,10,Die Ausländer,"Die,ART,Def|_|_|Pl","Ausländer,N,_|_|_|Pl","Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen ."
+4_15,99,ihre eigene Kultur,"ihre,ART,_|Fem|Acc|Sg","eigene,ADJA,_|Fem|Acc|Sg","Kultur,N,_|Fem|Acc|Sg","Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen ."
+4_16,99,wegen ihrer Integration,"wegen,PREP,_|_|_|_","ihrer,ART,_|Fem|_|Sg","Integration,N,_|Fem|_|Sg","Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen ."
+5_17,10,die Anderen,"die,ART,Def|_|_|_","Anderen,N,_|_|_|Pl","Und die Anderen , die vor allem sich integrieren möchten ."
+6_19,99,an die Kultur Landes,"an,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Sg","Kultur,N,_|Fem|Acc|Sg","Landes,N,_|Neut|Gen|Sg","Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen ."
+6_20,99,Kultur des Landes,"Kultur,N,_|Fem|Acc|Sg","des,ART,Def|Neut|Gen|Sg","Landes,N,_|Neut|Gen|Sg","Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen ."
+6_21,99,auf keine Fall,"auf,PREP,_|_|_|_","keine,ART,_|_|_|_","Fall,N,_|Masc|_|Sg","Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen ."
+6_22,99,die eigene Kultur,"die,ART,Def|Fem|Nom|Sg","eigene,ADJA,_|Fem|Nom|Sg","Kultur,N,_|Fem|Nom|Sg","Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen ."
+7_23,99,in Kauf,"in,PREP,_|_|_|_","Kauf,N,_|Masc|_|Sg","Man muss in Kauf nehmen , dass man ursprünglichen Hintergrund hat ."
+7_24,99,Hintergrund ursprünglichen,"Hintergrund,N,_|Masc|Acc|Sg","ursprünglichen,ADJA,_|Masc|Acc|Sg","Man muss in Kauf nehmen , dass man ursprünglichen Hintergrund hat ."
+8_25,10,Viele Einwandere,"Viele,ART,_|_|Nom|Pl","Einwandere,N,_|_|Nom|Pl","Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren ."
+8_26,99,eigene Kultur,"eigene,ADJA,_|Fem|Acc|Sg","Kultur,N,_|Fem|Acc|Sg","Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren ."
+8_27,99,Gastlandes mit Kultur,"Gastlandes,N,_|Neut|Gen|Sg","mit,PREP,_|_|Dat|_","Kultur,N,_|Fem|Dat|Sg","Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren ."
+8_28,99,Gastlandes Kultur des,"Gastlandes,N,_|Neut|Gen|Sg","Kultur,N,_|Fem|Dat|Sg","des,ART,Def|Neut|Gen|Sg","Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren ."
+9_29,99,Der Verzicht Tradizionen,"Der,ART,Def|Masc|Nom|Sg","Verzicht,N,_|Masc|Nom|Sg","Tradizionen,N,_|_|Gen|_",Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .
+9_30,10,Verzicht ihrer Tradizionen,"Verzicht,N,_|Masc|Nom|Sg","ihrer,ART,_|_|Gen|_","Tradizionen,N,_|_|Gen|_",Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .
+9_31,99,Probleme heilende psychologue,"Probleme,N,_|Neut|Acc|Pl","heilende,ADJA,_|Neut|Acc|Pl","psychologue,ADJA,_|Neut|Acc|Pl",Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .
+9_32,99,zur Folge,"zur,PREP,_|_|Dat|_","Folge,N,_|Fem|Dat|Sg",Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .
+10_33,2,Im Gegensatz,"Im,PREP,_|_|Dat|_","Gegensatz,N,_|Masc|Dat|Sg",Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .
+10_34,99,der Verzicht Integration,"der,ART,Def|Masc|Nom|Sg","Verzicht,N,_|Masc|Nom|Sg","Integration,N,_|Fem|Gen|Sg",Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .
+10_35,99,Verzicht der Integration,"Verzicht,N,_|Masc|Nom|Sg","der,ART,Def|Fem|Gen|Sg","Integration,N,_|Fem|Gen|Sg",Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .
+10_36,99,schlimmere Konsequenzen,"schlimmere,ADJA,_|Fem|Acc|Pl","Konsequenzen,N,_|Fem|Acc|Pl",Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .
+11_37,10,Die Exklusion,"Die,ART,Def|Fem|Nom|Sg","Exklusion,N,_|Fem|Nom|Sg",Die Exklusion ist nämlich ein schwer zu lösendes Problem in unserer modernen Gesellschaft .
+11_38,99,in ein lösendes Problem,"in,PREP,_|_|Dat|_","ein,ART,Indef|Neut|Nom|Sg","lösendes,ADJA,_|Neut|Nom|Sg","Problem,N,_|Neut|Nom|Sg",Die Exklusion ist nämlich ein schwer zu lösendes Problem in unserer modernen Gesellschaft .
+11_39,99,in unserer modernen Gesellschaft,"in,PREP,_|_|Dat|_","unserer,ART,_|Fem|Dat|Sg","modernen,ADJA,_|Fem|Dat|Sg","Gesellschaft,N,_|Fem|Dat|Sg",Die Exklusion ist nämlich ein schwer zu lösendes Problem in unserer modernen Gesellschaft .
+12_40,0,Schlussfolgerung,"Schlussfolgerung,N,_|Fem|_|Sg","Als Schlussfolgerung lässt sich feststellen , dass keine Kultur besser als eine andere ist ."
+12_41,99,keine Kultur,"keine,ART,_|Fem|Nom|Sg","Kultur,N,_|Fem|Nom|Sg","Als Schlussfolgerung lässt sich feststellen , dass keine Kultur besser als eine andere ist ."
+13_42,10,Die einheimische Bevolkerung,"Die,ART,Def|Fem|Nom|Sg","einheimische,ADJA,_|Fem|Nom|Sg","Bevolkerung,N,_|Fem|Nom|Sg",Die einheimische Bevolkerung sollte Rücksicht auf die Einwanderer nehmen .
+13_44,99,auf die Einwanderer,"auf,PREP,_|_|Acc|_","die,ART,Def|Masc|Acc|Pl","Einwanderer,N,_|Masc|Acc|Pl",Die einheimische Bevolkerung sollte Rücksicht auf die Einwanderer nehmen .
+14_45,99,die Zuwanderer,"die,ART,Def|Masc|Nom|Pl","Zuwanderer,N,_|Masc|Nom|Pl","Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren ."
+14_46,10,die Muhe,"die,ART,Def|_|_|_","Muhe,N,_|_|_|_","Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren ."
+14_47,99,an der Kultur Gastlandes,"an,PREP,_|_|Dat|_","der,ART,Def|Fem|Dat|Sg","Kultur,N,_|Fem|Dat|Sg","Gastlandes,N,_|Neut|Gen|Sg","Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren ."
+14_48,99,Kultur des Gastlandes,"Kultur,N,_|Fem|Dat|Sg","des,ART,Def|Neut|Gen|Sg","Gastlandes,N,_|Neut|Gen|Sg","Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren ."
+15_49,10,Der Staat,"Der,ART,Def|Masc|Nom|Sg","Staat,N,_|Masc|Nom|Sg","Der Staat sollte auch in Erwägung ziehen , sich mehr und besser um die ausländischen Gemeinschaften zu kümmern ."
+15_50,99,in Erwägung,"in,PREP,_|_|_|_","Erwägung,N,_|Fem|_|Sg","Der Staat sollte auch in Erwägung ziehen , sich mehr und besser um die ausländischen Gemeinschaften zu kümmern ."
+15_51,99,um die ausländischen Gemeinschaften,"um,PREP,_|_|Acc|_","die,ART,Def|Fem|Acc|Pl","ausländischen,ADJA,_|Fem|Acc|Pl","Gemeinschaften,N,_|Fem|Acc|Pl","Der Staat sollte auch in Erwägung ziehen , sich mehr und besser um die ausländischen Gemeinschaften zu kümmern ."
+16_52,99,genug Infrastruktur,"genug,ART,_|Fem|Nom|Sg","Infrastruktur,N,_|Fem|Nom|Sg",Es steht nämlich nicht genug Infrastruktur für Migranten zur Verfügung .
+16_53,3,für Migranten,"für,PREP,_|_|Acc|_","Migranten,N,_|Masc|Acc|_",Es steht nämlich nicht genug Infrastruktur für Migranten zur Verfügung .
+17_55,99,die Ausländer,"die,ART,Def|_|Nom|Pl","Ausländer,N,_|_|Nom|Pl",Darüber hinaus werden die Ausländer zu oft schlecht betrachtet

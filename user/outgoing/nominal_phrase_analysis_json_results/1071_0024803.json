@@ -1,0 +1,943 @@
+[
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "1_1",
+        "sentence": "Liebe Ingo , 06.03.2012 wie gehts ist dir ?",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Liebe Ingo"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Ingo",
+                "lemma": "Ingo",
+                "POS_STTS": "NE",
+                "index": "2",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Masc|_|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Liebe",
+                "lemma": "Liebe",
+                "POS_STTS": "NN",
+                "index": "1",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "1_2",
+        "sentence": "Liebe Ingo , 06.03.2012 wie gehts ist dir ?",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "Liebe Ingo"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Liebe",
+                    "lemma": "Liebe",
+                    "POS_STTS": "NN",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|_|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Ingo",
+                "lemma": "Ingo",
+                "POS_STTS": "NE",
+                "index": "2",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Masc|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "1_3",
+        "sentence": "Liebe Ingo , 06.03.2012 wie gehts ist dir ?",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "gehts"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KOKOM",
+                    "word_form": "wie",
+                    "lemma": "wie",
+                    "POS_STTS": "KOKOM",
+                    "index": "5",
+                    "dep_rel": "kom",
+                    "head_index": "7",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "7",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "gehts",
+                "lemma": "gehts",
+                "POS_STTS": "NE",
+                "index": "6",
+                "dep_rel": "cj",
+                "head_index": "5",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "2_4",
+        "sentence": "Ich habe eine Arbeit in Neuburg und brauche ich Neue wohnung bei n\u00e4chste woche 20.03.2012 .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "eine Arbeit"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "habe",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "eine",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "Indef|Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Arbeit",
+                "lemma": "Arbeit",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "obja",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "2_5",
+        "sentence": "Ich habe eine Arbeit in Neuburg und brauche ich Neue wohnung bei n\u00e4chste woche 20.03.2012 .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "in Neuburg"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "habe",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Neuburg",
+                "lemma": "Neuburg",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "2_6",
+        "sentence": "Ich habe eine Arbeit in Neuburg und brauche ich Neue wohnung bei n\u00e4chste woche 20.03.2012 .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Neue wohnung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "brauche",
+                    "lemma": "brauchen",
+                    "POS_STTS": "VVFIN",
+                    "index": "8",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "Neue",
+                "lemma": "neu",
+                "POS_STTS": "ADJA",
+                "index": "10",
+                "dep_rel": "attr",
+                "head_index": "11",
+                "parser_morph_features": "Pos|_|Acc|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "wohnung",
+                "lemma": "wohnung",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "obja",
+                "head_index": "8",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "2_7",
+        "sentence": "Ich habe eine Arbeit in Neuburg und brauche ich Neue wohnung bei n\u00e4chste woche 20.03.2012 .",
+        "np_congruency_info": {
+            "congruency_code": "12",
+            "nominal_phrase": "bei n\u00e4chste woche"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "bei",
+                    "lemma": "bei",
+                    "POS_STTS": "APPR",
+                    "index": "12",
+                    "dep_rel": "pp",
+                    "head_index": "8",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "brauche",
+                    "lemma": "brauchen",
+                    "POS_STTS": "VVFIN",
+                    "index": "8",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "CARD",
+                "word_form": "20.03.2012",
+                "lemma": "20.03.2012",
+                "POS_STTS": "CARD",
+                "index": "15",
+                "dep_rel": "app",
+                "head_index": "14",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "n\u00e4chste",
+                "lemma": "nah",
+                "POS_STTS": "ADJA",
+                "index": "13",
+                "dep_rel": "attr",
+                "head_index": "14",
+                "parser_morph_features": "_|_|_|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "woche",
+                "lemma": "woche",
+                "POS_STTS": "NN",
+                "index": "14",
+                "dep_rel": "pn",
+                "head_index": "12",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "4_8",
+        "sentence": "Ich brauche nur ein Schlafzimmer und ein Kinder Zimmer .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "ein Schlafzimmer"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "4_8",
+                "4_9"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "brauche",
+                    "lemma": "brauchen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "1|Sg|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Indef|Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Schlafzimmer",
+                "lemma": "Schlafzimmer",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "obja",
+                "head_index": "2",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "4_9",
+        "sentence": "Ich brauche nur ein Schlafzimmer und ein Kinder Zimmer .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "ein Kinder Zimmer"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "4_8",
+                "4_9"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "6",
+                    "dep_rel": "kon",
+                    "head_index": "5",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Schlafzimmer",
+                    "lemma": "Schlafzimmer",
+                    "POS_STTS": "NN",
+                    "index": "5",
+                    "dep_rel": "obja",
+                    "head_index": "2",
+                    "parser_morph_features": "Neut|Acc|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Zimmer",
+                "lemma": "Zimmer",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Neut|Acc|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Indef|Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kinder",
+                "lemma": "Kind",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "cj",
+                "head_index": "6",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "4_10",
+        "sentence": "Ich brauche nur ein Schlafzimmer und ein Kinder Zimmer .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Kinder Zimmer"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Kinder",
+                    "lemma": "Kind",
+                    "POS_STTS": "NN",
+                    "index": "8",
+                    "dep_rel": "cj",
+                    "head_index": "6",
+                    "parser_morph_features": "Neut|Acc|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "6",
+                    "dep_rel": "kon",
+                    "head_index": "5",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Zimmer",
+                "lemma": "Zimmer",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Neut|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "5_11",
+        "sentence": "Viele Gr\u00fc\u00dfe Katharina",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Viele Gr\u00fc\u00dfe Katharina"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Katharina",
+                "lemma": "Katharina",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "app",
+                "head_index": "2",
+                "parser_morph_features": "Masc|_|Pl"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Viele",
+                "lemma": "viele",
+                "POS_STTS": "PIDAT",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Masc|_|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gr\u00fc\u00dfe",
+                "lemma": "Gru\u00df",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Masc|_|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1071_0024803",
+        "sent_NP_ID": "5_12",
+        "sentence": "Viele Gr\u00fc\u00dfe Katharina",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Gr\u00fc\u00dfe Katharina"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1071_0024803",
+                "L1": "English",
+                "age": "34",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "A2",
+                "test_level": "A1"
+            },
+            "task": {
+                "formality": "informal",
+                "text_type": "email",
+                "topic": "ask friend for help for finding apartment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Gr\u00fc\u00dfe",
+                    "lemma": "Gru\u00df",
+                    "POS_STTS": "NN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "Masc|_|Pl"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Katharina",
+                "lemma": "Katharina",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "app",
+                "head_index": "2",
+                "parser_morph_features": "Masc|_|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    }
+]

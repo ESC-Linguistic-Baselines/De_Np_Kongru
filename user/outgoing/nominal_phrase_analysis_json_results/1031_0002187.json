@@ -1,0 +1,3750 @@
+[
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "1_1",
+        "sentence": "Ein Haus , oder eine Wohnung zu mieten oder kaufen in Stadt X k\u00f6nnte entweder teuer oder billig sein .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Ein Haus"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Ein",
+                "lemma": "ein",
+                "POS_STTS": "ART",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Indef|Neut|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Haus",
+                "lemma": "Haus",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Neut|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "1_2",
+        "sentence": "Ein Haus , oder eine Wohnung zu mieten oder kaufen in Stadt X k\u00f6nnte entweder teuer oder billig sein .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "eine Wohnung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "mieten",
+                    "lemma": "mieten",
+                    "POS_STTS": "VVINF",
+                    "index": "8",
+                    "dep_rel": "cj",
+                    "head_index": "4",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "oder",
+                    "lemma": "oder",
+                    "POS_STTS": "KON",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "eine",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "6",
+                "parser_morph_features": "Indef|Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Wohnung",
+                "lemma": "Wohnung",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "obja",
+                "head_index": "8",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "1_3",
+        "sentence": "Ein Haus , oder eine Wohnung zu mieten oder kaufen in Stadt X k\u00f6nnte entweder teuer oder billig sein .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "in Stadt"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "11",
+                    "dep_rel": "pp",
+                    "head_index": "14",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "k\u00f6nnte",
+                    "lemma": "k\u00f6nnen",
+                    "POS_STTS": "VMFIN",
+                    "index": "14",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Sg|Past|Subj"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "CARD",
+                "word_form": "X",
+                "lemma": "X",
+                "POS_STTS": "CARD",
+                "index": "13",
+                "dep_rel": "app",
+                "head_index": "12",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadt",
+                "lemma": "Stadt",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "pn",
+                "head_index": "11",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "2_4",
+        "sentence": "Das kommt darauf an die Ort und der Umgebung wo man leben m\u00f6chte .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "an die Ort"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "2_4",
+                "2_5"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "4",
+                    "dep_rel": "objp",
+                    "head_index": "2",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "kommt",
+                    "lemma": "kommen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "6",
+                "parser_morph_features": "Def|_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ort",
+                "lemma": "Ort",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "pn",
+                "head_index": "4",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "2_5",
+        "sentence": "Das kommt darauf an die Ort und der Umgebung wo man leben m\u00f6chte .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "der Umgebung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "2_4",
+                "2_5"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "7",
+                    "dep_rel": "kon",
+                    "head_index": "6",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Ort",
+                    "lemma": "Ort",
+                    "POS_STTS": "NN",
+                    "index": "6",
+                    "dep_rel": "pn",
+                    "head_index": "4",
+                    "parser_morph_features": "_|Acc|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "8",
+                "dep_rel": "det",
+                "head_index": "9",
+                "parser_morph_features": "Def|Fem|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Umgebung",
+                "lemma": "Umgebung",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "cj",
+                "head_index": "7",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "3_6",
+        "sentence": "Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und g\u00fcnstig sein k\u00f6nnten .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Studenten z.B."
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "werden",
+                    "lemma": "werden",
+                    "POS_STTS": "VAFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "z.B.",
+                "lemma": "z.B.",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Masc|Nom|Pl"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Studenten",
+                "lemma": "Student",
+                "POS_STTS": "NN",
+                "index": "1",
+                "dep_rel": "subj",
+                "head_index": "5",
+                "parser_morph_features": "Masc|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "3_7",
+        "sentence": "Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und g\u00fcnstig sein k\u00f6nnten .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Studenten z.B."
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Studenten",
+                    "lemma": "Student",
+                    "POS_STTS": "NN",
+                    "index": "1",
+                    "dep_rel": "subj",
+                    "head_index": "5",
+                    "parser_morph_features": "Masc|Nom|Pl"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "werden",
+                    "lemma": "werden",
+                    "POS_STTS": "VAFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "z.B.",
+                "lemma": "z.B.",
+                "POS_STTS": "NE",
+                "index": "3",
+                "dep_rel": "app",
+                "head_index": "1",
+                "parser_morph_features": "Masc|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "3_8",
+        "sentence": "Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und g\u00fcnstig sein k\u00f6nnten .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Geld"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sparen",
+                    "lemma": "sparen",
+                    "POS_STTS": "VVINF",
+                    "index": "11",
+                    "dep_rel": "obji",
+                    "head_index": "8",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "schaffen",
+                    "lemma": "schaffen",
+                    "POS_STTS": "VVINF",
+                    "index": "8",
+                    "dep_rel": "aux",
+                    "head_index": "5",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Geld",
+                "lemma": "Geld",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "obja",
+                "head_index": "11",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "3_9",
+        "sentence": "Studenten , z.B. , werden es immer schaffen Geld zu sparen , da es Studentenwohnungen gibt , die ganz billig und g\u00fcnstig sein k\u00f6nnten .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Studentenwohnungen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gibt",
+                    "lemma": "geben",
+                    "POS_STTS": "VVFIN",
+                    "index": "16",
+                    "dep_rel": "neb",
+                    "head_index": "11",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sparen",
+                    "lemma": "sparen",
+                    "POS_STTS": "VVINF",
+                    "index": "11",
+                    "dep_rel": "obji",
+                    "head_index": "8",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "V",
+                "word_form": "k\u00f6nnten",
+                "lemma": "k\u00f6nnen",
+                "POS_STTS": "VMFIN",
+                "index": "24",
+                "dep_rel": "rel",
+                "head_index": "15",
+                "parser_morph_features": "3|Pl|Past|Subj"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Studentenwohnungen",
+                "lemma": "Studentenwohnung",
+                "POS_STTS": "NN",
+                "index": "15",
+                "dep_rel": "obja",
+                "head_index": "16",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_10",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Studenten"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "suchen",
+                    "lemma": "suchen",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "s",
+                    "head_index": "1",
+                    "parser_morph_features": "3|Pl|Pres|_",
+                    "lemma_split_verb": "aussuchen"
+                },
+                "H_TOK2": {
+                    "word_type": "PTKVZ",
+                    "word_form": "aus",
+                    "lemma": "aus",
+                    "POS_STTS": "PTKVZ",
+                    "index": "16",
+                    "dep_rel": "avz",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "Mansche",
+                    "lemma": "manschen",
+                    "POS_STTS": "VVFIN",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Studenten",
+                "lemma": "Student",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "Masc|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_11",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "X diese Studentenwohnungen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "4_11",
+                "4_14",
+                "4_15"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "suchen",
+                    "lemma": "suchen",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "s",
+                    "head_index": "1",
+                    "parser_morph_features": "3|Pl|Pres|_",
+                    "lemma_split_verb": "aussuchen"
+                },
+                "H_TOK2": {
+                    "word_type": "PTKVZ",
+                    "word_form": "aus",
+                    "lemma": "aus",
+                    "POS_STTS": "PTKVZ",
+                    "index": "16",
+                    "dep_rel": "avz",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "Mansche",
+                    "lemma": "manschen",
+                    "POS_STTS": "VVFIN",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Sg|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "diese",
+                "lemma": "diese",
+                "POS_STTS": "PDAT",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "6",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Studentenwohnungen",
+                "lemma": "Studentenwohnung",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "obja",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_12",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "in Orten"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "4_12",
+                "4_13"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "8",
+                    "dep_rel": "pp",
+                    "head_index": "12",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "X",
+                    "lemma": "X",
+                    "POS_STTS": "NE",
+                    "index": "12",
+                    "dep_rel": "kon",
+                    "head_index": "6",
+                    "parser_morph_features": "_|Acc|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "KOKOM",
+                "word_form": "wie",
+                "lemma": "wie",
+                "POS_STTS": "KOKOM",
+                "index": "10",
+                "dep_rel": "kom",
+                "head_index": "9",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Orten",
+                "lemma": "Ort",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "pn",
+                "head_index": "8",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_13",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": {
+            "congruency_code": "0",
+            "nominal_phrase": "Stadtteil"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "4_12",
+                "4_13"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KOKOM",
+                    "word_form": "wie",
+                    "lemma": "wie",
+                    "POS_STTS": "KOKOM",
+                    "index": "10",
+                    "dep_rel": "kom",
+                    "head_index": "9",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Orten",
+                    "lemma": "Ort",
+                    "POS_STTS": "NN",
+                    "index": "9",
+                    "dep_rel": "pn",
+                    "head_index": "8",
+                    "parser_morph_features": "_|_|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadtteil",
+                "lemma": "Stadtteil",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "cj",
+                "head_index": "10",
+                "parser_morph_features": "_|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_14",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": [
+                "4_11",
+                "4_14",
+                "4_15"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Studentenwohnungen",
+                    "lemma": "Studentenwohnung",
+                    "POS_STTS": "NN",
+                    "index": "6",
+                    "dep_rel": "obja",
+                    "head_index": "3",
+                    "parser_morph_features": "Fem|Acc|Pl"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "suchen",
+                    "lemma": "suchen",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "s",
+                    "head_index": "1",
+                    "parser_morph_features": "3|Pl|Pres|_",
+                    "lemma_split_verb": "aussuchen"
+                },
+                "SH_TOK2": {
+                    "word_type": "PTKVZ",
+                    "word_form": "aus",
+                    "lemma": "aus",
+                    "POS_STTS": "PTKVZ",
+                    "index": "16",
+                    "dep_rel": "avz",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "PREP",
+                "word_form": "in",
+                "lemma": "in",
+                "POS_STTS": "APPR",
+                "index": "8",
+                "dep_rel": "pp",
+                "head_index": "12",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "X",
+                "lemma": "X",
+                "POS_STTS": "NE",
+                "index": "12",
+                "dep_rel": "kon",
+                "head_index": "6",
+                "parser_morph_features": "_|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_15",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadtteil Y"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "4_11",
+                "4_14",
+                "4_15"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "oder",
+                    "lemma": "oder",
+                    "POS_STTS": "KON",
+                    "index": "13",
+                    "dep_rel": "kon",
+                    "head_index": "12",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "X",
+                    "lemma": "X",
+                    "POS_STTS": "NE",
+                    "index": "12",
+                    "dep_rel": "kon",
+                    "head_index": "6",
+                    "parser_morph_features": "_|Acc|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Y",
+                "lemma": "Y",
+                "POS_STTS": "NE",
+                "index": "15",
+                "dep_rel": "app",
+                "head_index": "14",
+                "parser_morph_features": "_|Acc|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadtteil",
+                "lemma": "Stadtteil",
+                "POS_STTS": "NN",
+                "index": "14",
+                "dep_rel": "cj",
+                "head_index": "13",
+                "parser_morph_features": "_|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_16",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadtteil Y"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadtteil",
+                    "lemma": "Stadtteil",
+                    "POS_STTS": "NN",
+                    "index": "14",
+                    "dep_rel": "cj",
+                    "head_index": "13",
+                    "parser_morph_features": "_|Acc|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "oder",
+                    "lemma": "oder",
+                    "POS_STTS": "KON",
+                    "index": "13",
+                    "dep_rel": "kon",
+                    "head_index": "12",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Y",
+                "lemma": "Y",
+                "POS_STTS": "NE",
+                "index": "15",
+                "dep_rel": "app",
+                "head_index": "14",
+                "parser_morph_features": "_|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "4_17",
+        "sentence": "Mansche Studenten suchen sich diese Studentenwohnungen , in Orten wie Stadtteil X oder Stadtteil Y aus , weil die Umgebung ganz lebendig und \u201e Multikulti \" sein k\u00f6nnte .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "die Umgebung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "ADV",
+                "word_form": "ganz",
+                "lemma": "ganz",
+                "POS_STTS": "ADV",
+                "index": "21",
+                "dep_rel": "adv",
+                "head_index": "20",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "19",
+                "dep_rel": "det",
+                "head_index": "20",
+                "parser_morph_features": "Def|Fem|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Umgebung",
+                "lemma": "Umgebung",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "5_18",
+        "sentence": "F\u00fcr Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "F\u00fcr Menschen Orten"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "F\u00fcr",
+                    "lemma": "f\u00fcr",
+                    "POS_STTS": "APPR",
+                    "index": "1",
+                    "dep_rel": "pp",
+                    "head_index": "24",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "wurde",
+                    "lemma": "werden",
+                    "POS_STTS": "VAFIN",
+                    "index": "24",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Sg|Past|Ind"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "V",
+                "word_form": "wollen",
+                "lemma": "wollen",
+                "POS_STTS": "VMFIN",
+                "index": "9",
+                "dep_rel": "rel",
+                "head_index": "2",
+                "parser_morph_features": "3|Pl|Pres|_"
+            },
+            "P_TOK2": {
+                "word_type": "N",
+                "word_form": "Orten",
+                "lemma": "Ort",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "app",
+                "head_index": "2",
+                "parser_morph_features": "Neut|Acc|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Menschen",
+                "lemma": "Mensch",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "pn",
+                "head_index": "1",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "5_19",
+        "sentence": "F\u00fcr Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "ein ruhiges Leben"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "erhalten",
+                    "lemma": "erhalten",
+                    "POS_STTS": "VVINF",
+                    "index": "8",
+                    "dep_rel": "aux",
+                    "head_index": "9",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "wollen",
+                    "lemma": "wollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "9",
+                    "dep_rel": "rel",
+                    "head_index": "2",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Indef|Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "ruhiges",
+                "lemma": "ruhig",
+                "POS_STTS": "ADJA",
+                "index": "6",
+                "dep_rel": "attr",
+                "head_index": "7",
+                "parser_morph_features": "Pos|Neut|Acc|Sg|St|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Leben",
+                "lemma": "Leben",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "obja",
+                "head_index": "8",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "5_20",
+        "sentence": "F\u00fcr Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "mehr Geld"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "auszugeben",
+                    "lemma": "ausgeben",
+                    "POS_STTS": "VVIZU",
+                    "index": "18",
+                    "dep_rel": "obji",
+                    "head_index": "14",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sind",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "14",
+                    "dep_rel": "rel",
+                    "head_index": "4",
+                    "parser_morph_features": "3|Pl|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mehr",
+                "lemma": "mehr",
+                "POS_STTS": "PIAT",
+                "index": "16",
+                "dep_rel": "det",
+                "head_index": "17",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Geld",
+                "lemma": "Geld",
+                "POS_STTS": "NN",
+                "index": "17",
+                "dep_rel": "obja",
+                "head_index": "18",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "5_21",
+        "sentence": "F\u00fcr Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Menschen Orten"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "5_21",
+                "5_22"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Menschen",
+                    "lemma": "Mensch",
+                    "POS_STTS": "NN",
+                    "index": "2",
+                    "dep_rel": "pn",
+                    "head_index": "1",
+                    "parser_morph_features": "Neut|Acc|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "F\u00fcr",
+                    "lemma": "f\u00fcr",
+                    "POS_STTS": "APPR",
+                    "index": "1",
+                    "dep_rel": "pp",
+                    "head_index": "24",
+                    "parser_morph_features": "Acc"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "KOKOM",
+                "word_form": "wie",
+                "lemma": "wie",
+                "POS_STTS": "KOKOM",
+                "index": "21",
+                "dep_rel": "kom",
+                "head_index": "20",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Orten",
+                "lemma": "Ort",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "app",
+                "head_index": "2",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "5_22",
+        "sentence": "F\u00fcr Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadtteil Z"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": [
+                "5_21",
+                "5_22"
+            ]
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KOKOM",
+                    "word_form": "wie",
+                    "lemma": "wie",
+                    "POS_STTS": "KOKOM",
+                    "index": "21",
+                    "dep_rel": "kom",
+                    "head_index": "20",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Orten",
+                    "lemma": "Ort",
+                    "POS_STTS": "NN",
+                    "index": "20",
+                    "dep_rel": "app",
+                    "head_index": "2",
+                    "parser_morph_features": "Neut|Acc|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Z",
+                "lemma": "Z",
+                "POS_STTS": "NN",
+                "index": "23",
+                "dep_rel": "app",
+                "head_index": "22",
+                "parser_morph_features": "Neut|Acc|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Stadtteil",
+                "lemma": "Stadtteil",
+                "POS_STTS": "NN",
+                "index": "22",
+                "dep_rel": "cj",
+                "head_index": "21",
+                "parser_morph_features": "Neut|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "5_23",
+        "sentence": "F\u00fcr Menschen , die ein ruhiges Leben erhalten wollen , die auch bereits sind , mehr Geld auszugeben , Orten wie Stadtteil Z wurde empfehlen .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Stadtteil Z"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Stadtteil",
+                    "lemma": "Stadtteil",
+                    "POS_STTS": "NN",
+                    "index": "22",
+                    "dep_rel": "cj",
+                    "head_index": "21",
+                    "parser_morph_features": "Neut|_|_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "KOKOM",
+                    "word_form": "wie",
+                    "lemma": "wie",
+                    "POS_STTS": "KOKOM",
+                    "index": "21",
+                    "dep_rel": "kom",
+                    "head_index": "20",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Z",
+                "lemma": "Z",
+                "POS_STTS": "NN",
+                "index": "23",
+                "dep_rel": "app",
+                "head_index": "22",
+                "parser_morph_features": "Neut|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "6_24",
+        "sentence": "Orten in der N\u00e4he von Zentralplatz bis Bahnhofsstra\u00dfe w\u00e4ren die ideale Umgebung f\u00fcr Familien .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "w\u00e4ren",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "9",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Pl|Past|Subj"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "in",
+                "lemma": "in",
+                "POS_STTS": "APPR",
+                "index": "2",
+                "dep_rel": "pp",
+                "head_index": "1",
+                "parser_morph_features": "Dat"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Orten",
+                "lemma": "Ort",
+                "POS_STTS": "NN",
+                "index": "1",
+                "dep_rel": "subj",
+                "head_index": "9",
+                "parser_morph_features": "Neut|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "6_25",
+        "sentence": "Orten in der N\u00e4he von Zentralplatz bis Bahnhofsstra\u00dfe w\u00e4ren die ideale Umgebung f\u00fcr Familien .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "2",
+                    "dep_rel": "pp",
+                    "head_index": "1",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Orten",
+                    "lemma": "Ort",
+                    "POS_STTS": "NN",
+                    "index": "1",
+                    "dep_rel": "subj",
+                    "head_index": "9",
+                    "parser_morph_features": "Neut|Nom|Sg"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "von",
+                "lemma": "von",
+                "POS_STTS": "APPR",
+                "index": "5",
+                "dep_rel": "pp",
+                "head_index": "4",
+                "parser_morph_features": "Dat"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "Def|Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "N\u00e4he",
+                "lemma": "N\u00e4he",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "pn",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "6_26",
+        "sentence": "Orten in der N\u00e4he von Zentralplatz bis Bahnhofsstra\u00dfe w\u00e4ren die ideale Umgebung f\u00fcr Familien .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "von Zentralplatz"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "von",
+                    "lemma": "von",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "4",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "N\u00e4he",
+                    "lemma": "N\u00e4he",
+                    "POS_STTS": "NN",
+                    "index": "4",
+                    "dep_rel": "pn",
+                    "head_index": "2",
+                    "parser_morph_features": "Fem|Dat|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Zentralplatz",
+                "lemma": "Zentralplatz",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "Masc|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "6_27",
+        "sentence": "Orten in der N\u00e4he von Zentralplatz bis Bahnhofsstra\u00dfe w\u00e4ren die ideale Umgebung f\u00fcr Familien .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "bis Bahnhofsstra\u00dfe"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "bis",
+                    "lemma": "bis",
+                    "POS_STTS": "APPR",
+                    "index": "7",
+                    "dep_rel": "kon",
+                    "head_index": "5",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "von",
+                    "lemma": "von",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "pp",
+                    "head_index": "4",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Bahnhofsstra\u00dfe",
+                "lemma": "Bahnhofsstra\u00df",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "pn",
+                "head_index": "7",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "6_28",
+        "sentence": "Orten in der N\u00e4he von Zentralplatz bis Bahnhofsstra\u00dfe w\u00e4ren die ideale Umgebung f\u00fcr Familien .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "w\u00e4ren",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "9",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Pl|Past|Subj"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "f\u00fcr",
+                "lemma": "f\u00fcr",
+                "POS_STTS": "APPR",
+                "index": "13",
+                "dep_rel": "pp",
+                "head_index": "12",
+                "parser_morph_features": "Acc"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "12",
+                "parser_morph_features": "Def|Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "ideale",
+                "lemma": "ideal",
+                "POS_STTS": "ADJA",
+                "index": "11",
+                "dep_rel": "attr",
+                "head_index": "12",
+                "parser_morph_features": "Pos|Fem|Nom|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Umgebung",
+                "lemma": "Umgebung",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "pred",
+                "head_index": "9",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "6_29",
+        "sentence": "Orten in der N\u00e4he von Zentralplatz bis Bahnhofsstra\u00dfe w\u00e4ren die ideale Umgebung f\u00fcr Familien .",
+        "np_congruency_info": {
+            "congruency_code": "3",
+            "nominal_phrase": "f\u00fcr Familien"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "f\u00fcr",
+                    "lemma": "f\u00fcr",
+                    "POS_STTS": "APPR",
+                    "index": "13",
+                    "dep_rel": "pp",
+                    "head_index": "12",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Umgebung",
+                    "lemma": "Umgebung",
+                    "POS_STTS": "NN",
+                    "index": "12",
+                    "dep_rel": "pred",
+                    "head_index": "9",
+                    "parser_morph_features": "Fem|Nom|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Familien",
+                "lemma": "Familie",
+                "POS_STTS": "NN",
+                "index": "14",
+                "dep_rel": "pn",
+                "head_index": "13",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "7_30",
+        "sentence": "Solche Stra\u00dfen bieten immer freie Wohnungen an , die normalerwei\u00dfe in der Ecke von dem Einkaufszentrum sind .",
+        "np_congruency_info": {
+            "congruency_code": "10",
+            "nominal_phrase": "Solche Stra\u00dfen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "bieten",
+                    "lemma": "bieten",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_",
+                    "lemma_split_verb": "anbieten"
+                },
+                "H_TOK2": {
+                    "word_type": "PTKVZ",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "PTKVZ",
+                    "index": "7",
+                    "dep_rel": "avz",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Solche",
+                "lemma": "solche",
+                "POS_STTS": "PIDAT",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Stra\u00dfen",
+                "lemma": "Stra\u00df",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "7_31",
+        "sentence": "Solche Stra\u00dfen bieten immer freie Wohnungen an , die normalerwei\u00dfe in der Ecke von dem Einkaufszentrum sind .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "freie Wohnungen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "bieten",
+                    "lemma": "bieten",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_",
+                    "lemma_split_verb": "anbieten"
+                },
+                "H_TOK2": {
+                    "word_type": "PTKVZ",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "PTKVZ",
+                    "index": "7",
+                    "dep_rel": "avz",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADV",
+                "word_form": "immer",
+                "lemma": "immer",
+                "POS_STTS": "ADV",
+                "index": "4",
+                "dep_rel": "adv",
+                "head_index": "5",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "freie",
+                "lemma": "frei",
+                "POS_STTS": "ADJA",
+                "index": "5",
+                "dep_rel": "attr",
+                "head_index": "6",
+                "parser_morph_features": "Pos|_|Acc|_|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Wohnungen",
+                "lemma": "Wohnung",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "obja",
+                "head_index": "3",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "7_32",
+        "sentence": "Solche Stra\u00dfen bieten immer freie Wohnungen an , die normalerwei\u00dfe in der Ecke von dem Einkaufszentrum sind .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "11",
+                    "dep_rel": "pp",
+                    "head_index": "10",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "ADJA",
+                    "word_form": "normalerwei\u00dfe",
+                    "lemma": "normalerwei\u00df",
+                    "POS_STTS": "ADJA",
+                    "index": "10",
+                    "dep_rel": "subj",
+                    "head_index": "17",
+                    "parser_morph_features": "_|_|_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "von",
+                "lemma": "von",
+                "POS_STTS": "APPR",
+                "index": "14",
+                "dep_rel": "pp",
+                "head_index": "13",
+                "parser_morph_features": "Dat"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "12",
+                "dep_rel": "det",
+                "head_index": "13",
+                "parser_morph_features": "Def|Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ecke",
+                "lemma": "Eck",
+                "POS_STTS": "NN",
+                "index": "13",
+                "dep_rel": "pn",
+                "head_index": "11",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "7_33",
+        "sentence": "Solche Stra\u00dfen bieten immer freie Wohnungen an , die normalerwei\u00dfe in der Ecke von dem Einkaufszentrum sind .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "von dem Einkaufszentrum"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "von",
+                    "lemma": "von",
+                    "POS_STTS": "APPR",
+                    "index": "14",
+                    "dep_rel": "pp",
+                    "head_index": "13",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Ecke",
+                    "lemma": "Eck",
+                    "POS_STTS": "NN",
+                    "index": "13",
+                    "dep_rel": "pn",
+                    "head_index": "11",
+                    "parser_morph_features": "Fem|Dat|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "dem",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "15",
+                "dep_rel": "det",
+                "head_index": "16",
+                "parser_morph_features": "Def|_|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Einkaufszentrum",
+                "lemma": "Einkaufszentrum",
+                "POS_STTS": "NN",
+                "index": "16",
+                "dep_rel": "pn",
+                "head_index": "14",
+                "parser_morph_features": "_|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "8_34",
+        "sentence": "Wenn man jedoch ein Haus kaufen m\u00f6chte , man sollte aber auch bereit sein , mehrere Verantwortungen zu \u00fcbernehmen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "ein Haus"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "kaufen",
+                    "lemma": "kaufen",
+                    "POS_STTS": "VVINF",
+                    "index": "6",
+                    "dep_rel": "aux",
+                    "head_index": "7",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "m\u00f6chte",
+                    "lemma": "m\u00f6gen",
+                    "POS_STTS": "VMFIN",
+                    "index": "7",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|Subj"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Indef|Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Haus",
+                "lemma": "Haus",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "obja",
+                "head_index": "6",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "8_35",
+        "sentence": "Wenn man jedoch ein Haus kaufen m\u00f6chte , man sollte aber auch bereit sein , mehrere Verantwortungen zu \u00fcbernehmen .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "mehrere Verantwortungen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "\u00fcbernehmen",
+                    "lemma": "\u00fcbernehmen",
+                    "POS_STTS": "VVINF",
+                    "index": "19",
+                    "dep_rel": "obji",
+                    "head_index": "14",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sein",
+                    "lemma": "sein",
+                    "POS_STTS": "VAINF",
+                    "index": "14",
+                    "dep_rel": "aux",
+                    "head_index": "10",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mehrere",
+                "lemma": "mehrere",
+                "POS_STTS": "PIAT",
+                "index": "16",
+                "dep_rel": "det",
+                "head_index": "17",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Verantwortungen",
+                "lemma": "Verantwortung",
+                "POS_STTS": "NN",
+                "index": "17",
+                "dep_rel": "obja",
+                "head_index": "19",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "9_36",
+        "sentence": "Im vergleich mit dem Mieten einer Wohnung ist das Hauskaufen schwieriger .",
+        "np_congruency_info": null,
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "Im",
+                    "lemma": "in",
+                    "POS_STTS": "APPRART",
+                    "index": "1",
+                    "dep_rel": "pp",
+                    "head_index": "8",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "8",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "mit",
+                "lemma": "mit",
+                "POS_STTS": "APPR",
+                "index": "3",
+                "dep_rel": "pp",
+                "head_index": "2",
+                "parser_morph_features": "Dat"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "vergleich",
+                "lemma": "vergleich",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "pn",
+                "head_index": "1",
+                "parser_morph_features": "_|Dat|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "9_37",
+        "sentence": "Im vergleich mit dem Mieten einer Wohnung ist das Hauskaufen schwieriger .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "mit dem Mieten Wohnung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "pp",
+                    "head_index": "2",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "vergleich",
+                    "lemma": "vergleich",
+                    "POS_STTS": "NN",
+                    "index": "2",
+                    "dep_rel": "pn",
+                    "head_index": "1",
+                    "parser_morph_features": "_|Dat|_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Wohnung",
+                "lemma": "Wohnung",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "gmod",
+                "head_index": "5",
+                "parser_morph_features": "Fem|Gen|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "dem",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Def|Neut|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Mieten",
+                "lemma": "Miete",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "pn",
+                "head_index": "3",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "9_38",
+        "sentence": "Im vergleich mit dem Mieten einer Wohnung ist das Hauskaufen schwieriger .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Mieten einer Wohnung"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Mieten",
+                    "lemma": "Miete",
+                    "POS_STTS": "NN",
+                    "index": "5",
+                    "dep_rel": "pn",
+                    "head_index": "3",
+                    "parser_morph_features": "Neut|Dat|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "pp",
+                    "head_index": "2",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "einer",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "6",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Indef|Fem|Gen|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Wohnung",
+                "lemma": "Wohnung",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "gmod",
+                "head_index": "5",
+                "parser_morph_features": "Fem|Gen|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "9_39",
+        "sentence": "Im vergleich mit dem Mieten einer Wohnung ist das Hauskaufen schwieriger .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "Hauskaufen das"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "8",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "das",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "9",
+                "dep_rel": "det",
+                "head_index": "10",
+                "parser_morph_features": "Def|Neut|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Hauskaufen",
+                "lemma": "Hauskaufen",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "subj",
+                "head_index": "8",
+                "parser_morph_features": "Neut|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "10_40",
+        "sentence": "Man achtet nicht nur auf die Ort wo man sein Haus haben m\u00f6chte , aber auch auf die andere Voraussetzungen die immer nachgefragt wurden .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "auf die Ort"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "auf",
+                    "lemma": "auf",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "objp",
+                    "head_index": "2",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "achtet",
+                    "lemma": "achten",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "V",
+                "word_form": "m\u00f6chte",
+                "lemma": "m\u00f6gen",
+                "POS_STTS": "VMFIN",
+                "index": "13",
+                "dep_rel": "objc",
+                "head_index": "7",
+                "parser_morph_features": "3|Sg|Past|Subj"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "6",
+                "dep_rel": "det",
+                "head_index": "7",
+                "parser_morph_features": "Def|_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ort",
+                "lemma": "Ort",
+                "POS_STTS": "NN",
+                "index": "7",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "_|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "10_41",
+        "sentence": "Man achtet nicht nur auf die Ort wo man sein Haus haben m\u00f6chte , aber auch auf die andere Voraussetzungen die immer nachgefragt wurden .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "sein Haus"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "haben",
+                    "lemma": "haben",
+                    "POS_STTS": "VAINF",
+                    "index": "12",
+                    "dep_rel": "aux",
+                    "head_index": "13",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "m\u00f6chte",
+                    "lemma": "m\u00f6gen",
+                    "POS_STTS": "VMFIN",
+                    "index": "13",
+                    "dep_rel": "objc",
+                    "head_index": "7",
+                    "parser_morph_features": "3|Sg|Past|Subj"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "sein",
+                "lemma": "seine",
+                "POS_STTS": "PPOSAT",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Haus",
+                "lemma": "Haus",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "obja",
+                "head_index": "12",
+                "parser_morph_features": "Neut|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0002187",
+        "sent_NP_ID": "10_42",
+        "sentence": "Man achtet nicht nur auf die Ort wo man sein Haus haben m\u00f6chte , aber auch auf die andere Voraussetzungen die immer nachgefragt wurden .",
+        "np_congruency_info": {
+            "congruency_code": "99",
+            "nominal_phrase": "auf die andere Voraussetzungen"
+        },
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0002187",
+                "L1": "English",
+                "age": "22",
+                "gender": "female"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "report",
+                "topic": "reporting about the housing situation"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "auf",
+                    "lemma": "auf",
+                    "POS_STTS": "APPR",
+                    "index": "17",
+                    "dep_rel": "cj",
+                    "head_index": "15",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "aber",
+                    "lemma": "aber",
+                    "POS_STTS": "KON",
+                    "index": "15",
+                    "dep_rel": "kon",
+                    "head_index": "5",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "18",
+                "dep_rel": "det",
+                "head_index": "20",
+                "parser_morph_features": "Def|Fem|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "andere",
+                "lemma": "andere",
+                "POS_STTS": "ADJA",
+                "index": "19",
+                "dep_rel": "attr",
+                "head_index": "20",
+                "parser_morph_features": "_|Fem|Acc|Pl|_",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Voraussetzungen",
+                "lemma": "Voraussetzung",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "pn",
+                "head_index": "17",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    }
+]
