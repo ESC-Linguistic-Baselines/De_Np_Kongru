@@ -1,0 +1,11 @@
+1_1,3,Daniela,"Daniela,N,_|Fem|_|Sg","Daniela , Ich möchte mit dich schwimmen ."
+3_2,0,Hause,"Hause,N,_|Neut|Dat|Sg",Kannst du mich nebenmeine Hause treffen ?
+4_3,10,dichnach Arbeitet,"dichnach,N,_|_|_|_","Arbeitet,N,_|_|_|_",Oder ich kann dichnach Arbeitet im Park treffen .
+4_4,10,dichnach Arbeitet,"dichnach,N,_|_|_|_","Arbeitet,N,_|_|_|_",Oder ich kann dichnach Arbeitet im Park treffen .
+4_5,99,im Park,"im,PREP,_|_|Dat|_","Park,N,_|Masc|Dat|Sg",Oder ich kann dichnach Arbeitet im Park treffen .
+5_6,10,deine badenhose,"deine,ART,_|_|Acc|_","badenhose,N,_|_|Acc|_",Du sollst deine badenhose ein Tuch und dein iPod mitbringen .
+5_7,99,ein Tuch,"ein,ART,Indef|Neut|Nom|Sg","Tuch,N,_|Neut|Nom|Sg",Du sollst deine badenhose ein Tuch und dein iPod mitbringen .
+5_8,3,dein iPod,"dein,ART,_|_|Nom|Sg","iPod,N,_|_|Nom|Sg",Du sollst deine badenhose ein Tuch und dein iPod mitbringen .
+6_9,99,zu Musik,"zu,PREP,_|_|Dat|_","Musik,N,_|Fem|Dat|Sg",Wir können zu Musik nach swimmen hören !
+6_10,12,nach swimmen,"nach,PREP,_|_|Dat|_","swimmen,N,_|_|Dat|_",Wir können zu Musik nach swimmen hören !
+8_11,3,Maria,"Maria,N,_|_|_|Sg",Maria
