@@ -1,5 +1,6 @@
 # Standard
 import glob
+import os
 import time
 
 # Pip
@@ -142,7 +143,7 @@ def singular_nominal_phrase_agreement_analysis(
             )
 
         else:
-            # Die Ergebnisse werden zwar angezeigt, aber nicht gespeichert
+            # Die Ergebnisse werden zwar angezeigt, aber nicht gespeichert.
             congruency_check = np_congruency.run_congruency_check()
             table = Table("NP-ID", "Status", "Nominal Phrase")
             for entry in congruency_check:
@@ -176,12 +177,19 @@ def multi_nominal_phrase_agreement_analysis(
         congruential_keys.MULTI_AGREEMENT_ID_SOURCE_SHORT.value,
         help=congruential_keys.MULTI_AGREEMENT_ID_SOURCE_HELP.value,
     ),
+    save_results: bool = typer.Option(
+        congruential_keys.NP_AGEREMENT_SAVE_DEFAULT.value,
+        congruential_keys.NP_AGREEMENT_SAVE_TRUE.value,
+        congruential_keys.MULTI_AGREEMENT_AMOUNT_SAVE_FALSE.value,
+        help=congruential_keys.MULTI_AGREEMENT_AMOUNT_SAVE_HELP.value,
+    ),
 ) -> None:
     """
     Hier werden mehrere Texten auf einmal anaylsiert. Die Ergebnisse werden in einer
     Csv-Datei und in einer Json-Datei gespeichert.
 
     Args:
+        save_results:
         text_amount (int): Bestimmte wie viele Texte auf einmal analysiert werden sollen
         text_id_sources (str): Die Datei, woraus die Text-Ids gelesen werden sollen.
 
@@ -202,36 +210,40 @@ def multi_nominal_phrase_agreement_analysis(
     get_np_data.np_data()
 
     # Kongruenz fuer mehrere Dateien durchfuehren
-    run_batch_congruency(
-        congruency_algo=singular_nominal_phrase_agreement_analysis,
-        np_files=np_extracted_files,
-        text_id_numbers=text_id_numbers,
-        text_limit=text_amount,
-    )
 
-    time.sleep(SLEEP_TIME)
-    count_results = get_np_results.count_np_results(np_res_files)
+    if not save_results:
+        run_batch_congruency(
+            congruency_algo=singular_nominal_phrase_agreement_analysis,
+            np_files=np_extracted_files,
+            text_id_numbers=text_id_numbers,
+            text_limit=text_amount,
+        )
 
-    time.sleep(SLEEP_TIME)
-    generate_results_file(count_results)
+    else:
 
-    time.sleep(SLEEP_TIME)
-    basic_logger.catch_and_log_info(
-        echo_msg=True, custom_message=congruential_keys.GENERATE_JSON_FILES.value
-    )
+        time.sleep(SLEEP_TIME)
+        count_results = get_np_results.count_np_results(np_res_files)
 
-    json_creator.generate_np_json_files(text_id_numbers)
-    basic_logger.catch_and_log_info(
-        echo_msg=True, custom_message=congruential_keys.JSON_CSV_CREATED_COM.value
-    )
+        time.sleep(SLEEP_TIME)
+        generate_results_file(count_results)
 
-    json_creator.combine_csv_json_data()
-    time.sleep(SLEEP_TIME)
+        time.sleep(SLEEP_TIME)
+        basic_logger.catch_and_log_info(
+            echo_msg=True, custom_message=congruential_keys.GENERATE_JSON_FILES.value
+        )
 
-    basic_logger.catch_and_log_info(
-        echo_msg=True,
-        custom_message=congruential_keys.JSON_CSV_CREATED_COM_SUCCESS.value,
-    )
+        json_creator.generate_np_json_files(text_id_numbers)
+        basic_logger.catch_and_log_info(
+            echo_msg=True, custom_message=congruential_keys.JSON_CSV_CREATED_COM.value
+        )
+
+        json_creator.combine_csv_json_data()
+        time.sleep(SLEEP_TIME)
+
+        basic_logger.catch_and_log_info(
+            echo_msg=True,
+            custom_message=congruential_keys.JSON_CSV_CREATED_COM_SUCCESS.value,
+        )
 
 
 if __name__ == "__main__":

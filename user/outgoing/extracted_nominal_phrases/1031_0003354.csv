@@ -1,0 +1,43 @@
+1_3,in eine bestimmte Stadt,in PREP Acc,eine ART Indef|Fem|Acc|Sg,bestimmte ADJA Pos|Fem|Acc|Sg|_|,Stadt N Fem|Acc|Sg,"Informationen über die Wohnungsmarkt in eine bestimmte Stadt sind sehr wichtig für Leute , die im Ausland umziehen möchten ."
+1_4,für Leute,für PREP Acc,Leute N _|Acc|Pl,"Informationen über die Wohnungsmarkt in eine bestimmte Stadt sind sehr wichtig für Leute , die im Ausland umziehen möchten ."
+1_5,im Ausland,im PREP Dat,Ausland N Neut|Dat|Sg,"Informationen über die Wohnungsmarkt in eine bestimmte Stadt sind sehr wichtig für Leute , die im Ausland umziehen möchten ."
+2_6,Auslander,Auslander N Masc|_|Sg,"Als Auslander , der in Stadt X wohnt , kann ich die Lage hier sehr gut beschreiben ."
+2_7,in Stadt X,in PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,"Als Auslander , der in Stadt X wohnt , kann ich die Lage hier sehr gut beschreiben ."
+2_8,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"Als Auslander , der in Stadt X wohnt , kann ich die Lage hier sehr gut beschreiben ."
+2_9,die Lage,die ART Def|Fem|Acc|Sg,Lage N Fem|Acc|Sg,"Als Auslander , der in Stadt X wohnt , kann ich die Lage hier sehr gut beschreiben ."
+3_10,eine Wohnung,eine ART Indef|Fem|Acc|Sg,Wohnung N Fem|Acc|Sg,"Wenn man allein einreist , ist es naturlich einfacher , eine Wohnung zu finden ."
+4_11,Studiowohnungen,Studiowohnungen N _|_|_,Einzimmer- und Studiowohnungen sind mehr einfacher zu finden .
+5_12,Zimmer,Zimmer N Neut|Acc|_,"Man kann auch Zimmer in Familienhäusern zu vermieten finden , oder in einer Wohngemeinschaft eintreten ."
+5_13,in Familienhäusern,in PREP Dat,Familienhäusern N _|Dat|Pl,"Man kann auch Zimmer in Familienhäusern zu vermieten finden , oder in einer Wohngemeinschaft eintreten ."
+5_14,in einer Wohngemeinschaft,in PREP Dat,einer ART Indef|Fem|Dat|Sg,Wohngemeinschaft N Fem|Dat|Sg,"Man kann auch Zimmer in Familienhäusern zu vermieten finden , oder in einer Wohngemeinschaft eintreten ."
+6_15,Diese Lösungen,Diese ART Fem|Nom|Pl,Lösungen N Fem|Nom|Pl,Diese Lösungen sind auch gunstiger .
+7_16,für Einzelpersonen,für PREP Acc,Einzelpersonen N Fem|Acc|Pl,"Was weniger wichtig für Einzelpersonen ist , ist das Gebiet woran das Haus oder Wohnung liegt ."
+7_17,Gebiet das,Gebiet N Neut|Nom|Sg,das ART Def|Neut|Nom|Sg,"Was weniger wichtig für Einzelpersonen ist , ist das Gebiet woran das Haus oder Wohnung liegt ."
+7_18,das Haus,das ART Def|Neut|Nom|Sg,Haus N Neut|Nom|Sg,"Was weniger wichtig für Einzelpersonen ist , ist das Gebiet woran das Haus oder Wohnung liegt ."
+7_19,Wohnung,Wohnung N Fem|Nom|Sg,"Was weniger wichtig für Einzelpersonen ist , ist das Gebiet woran das Haus oder Wohnung liegt ."
+8_20,Für Familien,Für PREP Acc,Familien N Fem|Acc|Pl,Für Familien ist das auf der anderen Seite viel wichtiger .
+8_21,auf der anderen Seite,auf PREP Dat,der ART Def|Fem|Dat|Sg,anderen ADJA _|Fem|Dat|Sg|_,Seite N Fem|Dat|Sg,Für Familien ist das auf der anderen Seite viel wichtiger .
+9_22,die Nachbarschaft,die ART Def|Fem|Acc|Sg,Nachbarschaft N Fem|Acc|Sg,Hat die Nachbarschaft ein Spielplatz ?
+9_23,ein Spielplatz,ein ART Indef|Masc|Nom|Sg,Spielplatz N Masc|Nom|Sg,Hat die Nachbarschaft ein Spielplatz ?
+10_25,für die Kinder,für PREP Acc,die ART Def|Neut|Acc|Pl,Kinder N Neut|Acc|Pl,Gibt es genug Raum für die Kinder herumzulaufen ?
+11_26,ein Laden,ein ART Indef|Neut|Acc|Sg,Laden N Neut|Acc|Sg,"Gibt es ein Laden in der Nähe , wo man kleinen Sachen in Not kaufen kann ?"
+11_27,in der Nähe,in PREP Dat,der ART Def|Fem|Dat|Sg,Nähe N Fem|Dat|Sg,"Gibt es ein Laden in der Nähe , wo man kleinen Sachen in Not kaufen kann ?"
+11_28,kleinen Sachen,kleinen ADJA Pos|Fem|Acc|Pl|Wk|,Sachen N Fem|Acc|Pl,"Gibt es ein Laden in der Nähe , wo man kleinen Sachen in Not kaufen kann ?"
+11_29,in Not,in PREP _,Not N Fem|_|Sg,"Gibt es ein Laden in der Nähe , wo man kleinen Sachen in Not kaufen kann ?"
+12_30,Tamhaltestelle,Tamhaltestelle N Fem|_|Sg,Gibt es eine Bus- oder Tamhaltestelle in der Nähe ?
+12_31,in der Nähe,in PREP Dat,der ART Def|Fem|Dat|Sg,Nähe N Fem|Dat|Sg,Gibt es eine Bus- oder Tamhaltestelle in der Nähe ?
+13_32,In solchen Gebieten,In PREP Dat,solchen ART Neut|Dat|_,Gebieten N Neut|Dat|_,In solchen Gebieten sind die Mieten allerdings höher .
+13_33,die Mieten,die ART Def|Fem|Nom|Pl,Mieten N Fem|Nom|Pl,In solchen Gebieten sind die Mieten allerdings höher .
+14_34,Hauses die Qualität,Hauses N Neut|Gen|Sg,die ART Def|Fem|Nom|Sg,Qualität N Fem|Nom|Sg,"Was sonst zu beachten gibt , ist die Qualität des Hauses oder der Wohnung ."
+14_35,des Hauses Qualität,des ART Def|Neut|Gen|Sg,Hauses N Neut|Gen|Sg,Qualität N Fem|Nom|Sg,"Was sonst zu beachten gibt , ist die Qualität des Hauses oder der Wohnung ."
+14_36,der Wohnung,der ART Def|Fem|Gen|Sg,Wohnung N Fem|Gen|Sg,"Was sonst zu beachten gibt , ist die Qualität des Hauses oder der Wohnung ."
+15_37,eine Waschküche,eine ART Indef|Fem|Acc|Sg,Waschküche N Fem|Acc|Sg,Gibt es eine Waschküche und Trockenraum ?
+15_38,Trockenraum,Trockenraum N Masc|Acc|Sg,Gibt es eine Waschküche und Trockenraum ?
+16_39,die Haustür,die ART Def|_|_|_,Haustür N Fem|Nom|Sg,Kann die Haustür und Fenstern gut geschlossen werden .
+16_40,Fenstern,Fenstern N Neut|Dat|Pl,Kann die Haustür und Fenstern gut geschlossen werden .
+17_41,durch das Leben,durch PREP Acc,das ART Def|Neut|Acc|Sg,Leben N Neut|Acc|Sg,"Hoffentlich durch das Leben diesem Bereicht fällt es Ihnen , leichter , auf Problemen beim Wohen oder Haussuche zu vermeiden ."
+17_42,durch diesem Bereicht,durch PREP Acc,diesem ART _|Dat|Sg,Bereicht N _|Dat|Sg,"Hoffentlich durch das Leben diesem Bereicht fällt es Ihnen , leichter , auf Problemen beim Wohen oder Haussuche zu vermeiden ."
+17_44,beim Wohen,beim PREP Dat,Wohen N _|Dat|_,"Hoffentlich durch das Leben diesem Bereicht fällt es Ihnen , leichter , auf Problemen beim Wohen oder Haussuche zu vermeiden ."
+17_45,Haussuche,Haussuche N Fem|Dat|Sg,"Hoffentlich durch das Leben diesem Bereicht fällt es Ihnen , leichter , auf Problemen beim Wohen oder Haussuche zu vermeiden ."
+18_47,Geduld viel,Geduld N Fem|Nom|Sg,viel ART Fem|Nom|Sg,"Meiner Erfahrung nach kann ich sagen , das viel Geduld gebraucht wird ."
+19_48,Viel Glück,Viel ART Neut|_|Sg,Glück N Neut|_|Sg,Viel Glück !

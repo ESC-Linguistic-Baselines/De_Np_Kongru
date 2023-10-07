@@ -1,5 +1,4 @@
 # Standard
-
 import os
 
 # Pip
@@ -7,10 +6,10 @@ import os
 
 # Custom
 
+# api_general
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_info
 
-# general
 from kongru.api_general.statistics.statistics import Statistics
 
 

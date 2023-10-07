@@ -1,0 +1,47 @@
+1_1,Deutschlernen,Deutschlernen N Neut|Nom|Sg,Ist Deutschlernen sinnvoll ?
+2_2,Deutschlernen,Deutschlernen N Neut|Acc|Sg,"Ich halte Deutschlernen für sinnvoll , weil ich in Deutschland lebe ."
+3_4,Deutsch,Deutsch N Neut|Nom|Sg,"Aber Deutsch ist nicht nur in Deutschland gesprochen , sondern auch in Österreich und in die Schweiz ."
+3_5,in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Aber Deutsch ist nicht nur in Deutschland gesprochen , sondern auch in Österreich und in die Schweiz ."
+3_6,in Österreich,in PREP _,Österreich N Neut|_|Sg,"Aber Deutsch ist nicht nur in Deutschland gesprochen , sondern auch in Österreich und in die Schweiz ."
+3_7,in die Schweiz,in PREP Acc,die ART Def|Fem|Acc|Sg,Schweiz N Fem|Acc|Sg,"Aber Deutsch ist nicht nur in Deutschland gesprochen , sondern auch in Österreich und in die Schweiz ."
+4_8,In den Niederlände,In PREP _,den ART Def|_|_|_,Niederlände N _|_|_,In den Niederlände ist die Sprache auch ein Bisschen ähnlich zu Deutsch .
+4_9,die Sprache,die ART Def|Fem|Nom|Sg,Sprache N Fem|Nom|Sg,In den Niederlände ist die Sprache auch ein Bisschen ähnlich zu Deutsch .
+4_10,zu ein Bisschen,zu PREP Dat,ein ART Indef|Neut|Nom|Sg,Bisschen N Neut|Nom|Sg,In den Niederlände ist die Sprache auch ein Bisschen ähnlich zu Deutsch .
+4_11,zu Deutsch,zu PREP Dat,Deutsch N Neut|Dat|Sg,In den Niederlände ist die Sprache auch ein Bisschen ähnlich zu Deutsch .
+5_12,in den ersten Mal,in PREP _,den ART Def|_|_|_,ersten ADJA _|_|_|_|_|,Mal N _|_|_,"Als ich in den ersten Mal in Tscheschien war , habe ich bemerkt , dass nur ein Paar Leute Englisch sprechen könnten ."
+5_13,in Tscheschien,in PREP _,Tscheschien N _|_|_,"Als ich in den ersten Mal in Tscheschien war , habe ich bemerkt , dass nur ein Paar Leute Englisch sprechen könnten ."
+5_14,ein Paar Leute,ein ART Indef|Neut|Nom|Sg,Paar N Neut|Nom|Sg,Leute N Neut|Nom|Sg,"Als ich in den ersten Mal in Tscheschien war , habe ich bemerkt , dass nur ein Paar Leute Englisch sprechen könnten ."
+5_15,Paar Leute Englisch,Paar N Neut|Nom|Sg,Leute N Neut|Nom|Sg,Englisch N Neut|Nom|Sg,"Als ich in den ersten Mal in Tscheschien war , habe ich bemerkt , dass nur ein Paar Leute Englisch sprechen könnten ."
+5_16,Leute Englisch,Leute N Neut|Nom|Sg,Englisch N Neut|Nom|Sg,"Als ich in den ersten Mal in Tscheschien war , habe ich bemerkt , dass nur ein Paar Leute Englisch sprechen könnten ."
+6_17,Wärhend Reise,Wärhend N _|Dat|_,Reise N _|Gen|_,"Wärhend meiner nächsten Reise merkte ich , dass viele Leute dort Deutsch verstehen und sprechen konnen . !"
+6_18,Wärhend meiner nächsten Reise,Wärhend N _|Dat|_,meiner ART _|Gen|_,nächsten ADJA _|_|Gen|_|Wk|,Reise N _|Gen|_,"Wärhend meiner nächsten Reise merkte ich , dass viele Leute dort Deutsch verstehen und sprechen konnen . !"
+6_19,Leute viele,Leute N _|Nom|Pl,viele ART _|Nom|Pl,"Wärhend meiner nächsten Reise merkte ich , dass viele Leute dort Deutsch verstehen und sprechen konnen . !"
+6_20,Deutsch,Deutsch N Neut|Acc|Sg,"Wärhend meiner nächsten Reise merkte ich , dass viele Leute dort Deutsch verstehen und sprechen konnen . !"
+6_21,konnen,konnen N _|_|_,"Wärhend meiner nächsten Reise merkte ich , dass viele Leute dort Deutsch verstehen und sprechen konnen . !"
+7_22,mit Deutschkenntnisse,mit PREP Dat,Deutschkenntnisse N Fem|_|Pl,"Wenn man mit Deutschkenntnisse durch so viele Länder reisen kann und mit die Leute in diesen Ländern sprechen kann , ist es selbstverstandlich „ nützlich "" und „ sinnvoll "" Deutsch zu lernen ."
+7_23,durch viele Länder,durch PREP Acc,viele ART _|Acc|Pl,Länder N _|Acc|Pl,"Wenn man mit Deutschkenntnisse durch so viele Länder reisen kann und mit die Leute in diesen Ländern sprechen kann , ist es selbstverstandlich „ nützlich "" und „ sinnvoll "" Deutsch zu lernen ."
+7_24,mit die Leute,mit PREP Dat,die ART Def|_|_|Pl,Leute N _|_|Pl,"Wenn man mit Deutschkenntnisse durch so viele Länder reisen kann und mit die Leute in diesen Ländern sprechen kann , ist es selbstverstandlich „ nützlich "" und „ sinnvoll "" Deutsch zu lernen ."
+7_25,in diesen Ländern,in PREP Dat,diesen ART _|Dat|Pl,Ländern N _|Dat|Pl,"Wenn man mit Deutschkenntnisse durch so viele Länder reisen kann und mit die Leute in diesen Ländern sprechen kann , ist es selbstverstandlich „ nützlich "" und „ sinnvoll "" Deutsch zu lernen ."
+8_26,Die Deutsche Wirtschaft,Die ART Def|Fem|Nom|Sg,Deutsche ADJA Pos|Fem|Nom|Sg|_|,Wirtschaft N Fem|Nom|Sg,Die Deutsche Wirtschaft ist auch sehr stark und mehrere Leute in anderen Länder lernen Deutsch um mit Deutsche Geschäfte besser zu komunizieren .
+8_27,Leute mehrere,Leute N _|Acc|Pl,mehrere ART _|Acc|Pl,Die Deutsche Wirtschaft ist auch sehr stark und mehrere Leute in anderen Länder lernen Deutsch um mit Deutsche Geschäfte besser zu komunizieren .
+8_28,in anderen Länder,in PREP _,anderen ADJA _|_|_|_|_,Länder N _|_|_,Die Deutsche Wirtschaft ist auch sehr stark und mehrere Leute in anderen Länder lernen Deutsch um mit Deutsche Geschäfte besser zu komunizieren .
+8_29,Deutsch,Deutsch N Neut|Acc|Sg,Die Deutsche Wirtschaft ist auch sehr stark und mehrere Leute in anderen Länder lernen Deutsch um mit Deutsche Geschäfte besser zu komunizieren .
+8_30,mit Deutsche Geschäfte,mit PREP Dat,Deutsche ADJA Pos|Neut|_|Pl|St|,Geschäfte N Neut|_|Pl,Die Deutsche Wirtschaft ist auch sehr stark und mehrere Leute in anderen Länder lernen Deutsch um mit Deutsche Geschäfte besser zu komunizieren .
+11_33,viele andere Auslanders,viele ART _|_|_,andere ADJA _|_|Nom|_|_,Auslanders N _|Nom|_,Ich und viele andere Auslanders benützen Deutsch jeden Tag um ein normale Leben zu führen .
+11_34,Deutsch,Deutsch N Neut|Acc|Sg,Ich und viele andere Auslanders benützen Deutsch jeden Tag um ein normale Leben zu führen .
+11_35,jeden Tag,jeden ART Masc|Acc|Sg,Tag N Masc|Acc|Sg,Ich und viele andere Auslanders benützen Deutsch jeden Tag um ein normale Leben zu führen .
+11_36,um ein normale Leben,um PREP Acc,ein ART Indef|Neut|Acc|Sg,normale ADJA Pos|Neut|Acc|Sg|Wk|,Leben N Neut|Acc|Sg,Ich und viele andere Auslanders benützen Deutsch jeden Tag um ein normale Leben zu führen .
+12_37,mehr Menschen,mehr ART Masc|Nom|Pl,Menschen N Masc|Nom|Pl,"Vielleicht sprechen mehr Menschen weltweit Englisch , Französisch und Spanisch aber Deutsch ist in einem großen Teil der Welt gesprochen ."
+12_38,Englisch,Englisch N Neut|Acc|Sg,"Vielleicht sprechen mehr Menschen weltweit Englisch , Französisch und Spanisch aber Deutsch ist in einem großen Teil der Welt gesprochen ."
+12_39,Französisch,Französisch N Neut|Nom|Sg,"Vielleicht sprechen mehr Menschen weltweit Englisch , Französisch und Spanisch aber Deutsch ist in einem großen Teil der Welt gesprochen ."
+12_40,Spanisch Deutsch,Spanisch N Neut|Nom|Sg,Deutsch N Neut|Nom|Sg,"Vielleicht sprechen mehr Menschen weltweit Englisch , Französisch und Spanisch aber Deutsch ist in einem großen Teil der Welt gesprochen ."
+12_41,Spanisch Deutsch,Spanisch N Neut|Nom|Sg,Deutsch N Neut|Nom|Sg,"Vielleicht sprechen mehr Menschen weltweit Englisch , Französisch und Spanisch aber Deutsch ist in einem großen Teil der Welt gesprochen ."
+12_42,in einem großen Teil Welt,in PREP Dat,einem ART Indef|_|Dat|Sg,großen ADJA Pos|_|Dat|Sg|Wk|,Teil N _|Dat|Sg,Welt N Fem|Gen|Sg,"Vielleicht sprechen mehr Menschen weltweit Englisch , Französisch und Spanisch aber Deutsch ist in einem großen Teil der Welt gesprochen ."
+12_43,Teil der Welt,Teil N _|Dat|Sg,der ART Def|Fem|Gen|Sg,Welt N Fem|Gen|Sg,"Vielleicht sprechen mehr Menschen weltweit Englisch , Französisch und Spanisch aber Deutsch ist in einem großen Teil der Welt gesprochen ."
+13_44,Zussamenfassend,Zussamenfassend N _|Nom|Sg,"Zussamenfassend halte ich Deutschlernen für sinnvoll , weil ich Deutsch für täglichen Leben brauche und , weil ich mit Deutsch mit den Menschen in mehreren Landern in Europa komunizieren kann ."
+13_46,Deutsch,Deutsch N Neut|Acc|Sg,"Zussamenfassend halte ich Deutschlernen für sinnvoll , weil ich Deutsch für täglichen Leben brauche und , weil ich mit Deutsch mit den Menschen in mehreren Landern in Europa komunizieren kann ."
+13_47,für täglichen Leben,für PREP Acc,täglichen ADJA Pos|Neut|Acc|Pl|Wk|,Leben N Neut|Acc|Pl,"Zussamenfassend halte ich Deutschlernen für sinnvoll , weil ich Deutsch für täglichen Leben brauche und , weil ich mit Deutsch mit den Menschen in mehreren Landern in Europa komunizieren kann ."
+13_48,mit Deutsch,mit PREP Dat,Deutsch N Neut|Dat|Sg,"Zussamenfassend halte ich Deutschlernen für sinnvoll , weil ich Deutsch für täglichen Leben brauche und , weil ich mit Deutsch mit den Menschen in mehreren Landern in Europa komunizieren kann ."
+13_49,mit den Menschen,mit PREP Dat,den ART Def|Masc|Dat|Pl,Menschen N Masc|Dat|Pl,"Zussamenfassend halte ich Deutschlernen für sinnvoll , weil ich Deutsch für täglichen Leben brauche und , weil ich mit Deutsch mit den Menschen in mehreren Landern in Europa komunizieren kann ."
+13_50,in mehreren Landern,in PREP _,mehreren ART Masc|_|_,Landern N Masc|_|_,"Zussamenfassend halte ich Deutschlernen für sinnvoll , weil ich Deutsch für täglichen Leben brauche und , weil ich mit Deutsch mit den Menschen in mehreren Landern in Europa komunizieren kann ."
+13_51,in Europa,in PREP _,Europa N _|_|Sg,"Zussamenfassend halte ich Deutschlernen für sinnvoll , weil ich Deutsch für täglichen Leben brauche und , weil ich mit Deutsch mit den Menschen in mehreren Landern in Europa komunizieren kann ."

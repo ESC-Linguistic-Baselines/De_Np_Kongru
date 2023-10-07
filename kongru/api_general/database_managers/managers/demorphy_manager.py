@@ -5,16 +5,16 @@ import pickle
 # Pip
 # None
 
-# universals
+# Custom
 
+# api_general
 # constants
-# Paths
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
 
 class DemorphyManager:
     """
-    Ein Manager für Demorphy-Daten, der verschiedene Ressourcen und Dateien verwaltet.
+    Ein Manager fuer Demorphy-Daten, der verschiedene Ressourcen und Dateien verwaltet.
     Hier wird die Demoprhy-Dict-Datei und die Lemmata eingelesen
     """
 
@@ -34,10 +34,10 @@ class DemorphyManager:
         Args:
             read_in_pickle_dict (bool, optional): Wenn True, wird das Pickle-Objekt
             verwendet, andernfalls die Datei.
-                Standardmäßig True.
+                Standardmaessig True.
 
         Returns:
-            demorphy_dict_data(dict): Ein Dictionary, das die Demorphy-Daten enthält.
+            demorphy_dict_data(dict): Ein Dictionary, das die Demorphy-Daten enthaelt.
         """
 
         # Wenn 'read_in_pickle_dict' True ist, wird das Pickle-Objekt verwendet
@@ -57,7 +57,7 @@ class DemorphyManager:
                 for row in data:
                     row_data = row.strip().split(" ")
 
-                    # Wenn eine Zeile nur einen Eintrag enthält, wird ein leerer Wert erstellt
+                    # Wenn eine Zeile nur einen Eintrag enthaelt, wird ein leerer Wert erstellt
                     if len(row_data) == 1:
                         key = row.strip()
                         demorphy_dict_data[key] = []
@@ -70,7 +70,7 @@ class DemorphyManager:
         """
         Diese Methode liest Informationen aus einer CSV-Datei ein und
         strukturiert sie in einem Python-Dictionary.
-        Das Dictionary enthält eine Übersicht über Nominalphrasen (NPs)
+        Das Dictionary enthaelt eine uebersicht ueber Nominalphrasen (NPs)
         in Form von Schluessel-Wert-Paaren.
 
         Returns:
@@ -88,14 +88,14 @@ class DemorphyManager:
         number = "Pl", "Sg"
         article = "Def", "Indef"
 
-        # Öffnen der CSV-Datei und Lesen ihrer Inhalte
+        # oeffnen der CSV-Datei und Lesen ihrer Inhalte
         with open(file_name, mode="r", encoding="utf-8") as file:
             csv_reader = csv.reader(file)
 
             # Schleife durch jede Zeile der CSV-Datei
             for line in csv_reader:
 
-                # Initialisierung eines internen NPs und Zählers
+                # Initialisierung eines internen NPs und Zaehlers
                 internal_np = dict()
                 np_id_number = line[0]
                 data_count = 0
@@ -105,7 +105,7 @@ class DemorphyManager:
                 np_morpho_info = line[2:-1]
                 sentence = line[-1]
 
-                # Schleife durch die morphologischen Informationen für die NP
+                # Schleife durch die morphologischen Informationen fuer die NP
                 for entry in np_morpho_info:
                     data_count += 1
 
@@ -115,7 +115,7 @@ class DemorphyManager:
                     np, pos, morpho_info = np_morpho_entry_data
                     congruency_info = morpho_info.split("|")
 
-                    # Initialisierung eines Dictionaries für die Kongruenzinformationen
+                    # Initialisierung eines Dictionaries fuer die Kongruenzinformationen
                     congru = dict()
                     congru["unk"] = []  # Unbekannte Merkmale
 
@@ -132,14 +132,14 @@ class DemorphyManager:
                         else:
                             congru["unk"].append(info)
 
-                    # Hinzufügen der internen NP-Daten zum internen NP-Dictionary
+                    # Hinzufuegen der internen NP-Daten zum internen NP-Dictionary
                     internal_np[data_count] = {
                         "noun": np,
                         "pos": pos,
                         "noun_info": congru,
                     }
 
-                # Zusammenführen der internen NP-Daten und Speichern im
+                # Zusammenfuehren der internen NP-Daten und Speichern im
                 # Haupt-NP-Dictionary
 
                 np_data[np_id_number] = {
@@ -147,15 +147,15 @@ class DemorphyManager:
                     "sentence": sentence,
                 } | internal_np
 
-        # Rückgabe des gesammelten NP-Dictionaries
+        # Rueckgabe des gesammelten NP-Dictionaries
         return np_data
 
     def get_read_in_lemmas(self) -> list:
         """
-        Diese Methode liest Lemmata aus einer Datei und gibt sie als Liste zurück.
+        Diese Methode liest Lemmata aus einer Datei und gibt sie als Liste zurueck.
 
         Returns:
-            lemmas (list): Eine Liste von Lemmata, ohne Zeilenumbrüche.
+            lemmas (list): Eine Liste von Lemmata, ohne Zeilenumbrueche.
         """
         with open(self.lemma_txt, mode="r", encoding="utf-8") as file:
             lemmas = [lemma.replace("\n", "") for lemma in file.readlines()]

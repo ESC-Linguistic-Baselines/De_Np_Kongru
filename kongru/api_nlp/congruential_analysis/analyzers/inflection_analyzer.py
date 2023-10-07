@@ -27,7 +27,8 @@ class InflectionAnalyzer:
         pos=None,
     ):
         """
-        Initialisiert einen InflectionAnalyzer mit verschiedenen Optionen zur Analyse von Flexionen.
+        Initialisiert einen InflectionAnalyzer mit verschiedenen Optionen zur Analyse
+        von Flexionen.
 
         Args:
             article (str, optional): Der Artikel der Flexion. Standardwert ist None.

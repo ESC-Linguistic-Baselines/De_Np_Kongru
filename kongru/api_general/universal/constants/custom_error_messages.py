@@ -6,13 +6,14 @@
 
 # Custom
 
+# api_general
 # Message Keys
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 
 
 class CustomErrorMessages:
     """
-    Hier werden Fehler angegeben, die bei gewissen Funktionen auftauchen koennten
+    Hier werden Fehler angegeben, die bei gewissen Funktionen auftauchen koennen.
     """
 
     class MerlinMissingSeparator(Exception):

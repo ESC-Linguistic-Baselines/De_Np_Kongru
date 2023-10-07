@@ -1,0 +1,36 @@
+1_1,Stadt X,Stadt N Fem|_|Sg,X N Masc|Acc|Sg,"Stadt X , den 26. März 2012 Lieber Michael , vielen Dank für deinen Brief ."
+1_2,Stadt X März,Stadt N Fem|_|Sg,X N Masc|Acc|Sg,März N Masc|Acc|Sg,"Stadt X , den 26. März 2012 Lieber Michael , vielen Dank für deinen Brief ."
+1_3,X den 26. März Lieber,X N Masc|Acc|Sg,den ART Def|Masc|Acc|Sg,26. ADJA _|Masc|Acc|Sg|_|,März N Masc|Acc|Sg,Lieber N Masc|Acc|Pl,"Stadt X , den 26. März 2012 Lieber Michael , vielen Dank für deinen Brief ."
+1_4,März Lieber Michael,März N Masc|Acc|Sg,Lieber N Masc|Acc|Pl,Michael N Masc|Acc|Sg,"Stadt X , den 26. März 2012 Lieber Michael , vielen Dank für deinen Brief ."
+1_5,Dank Lieber Michael,Dank N Masc|Acc|Sg,Lieber N Masc|Acc|Pl,Michael N Masc|Acc|Sg,"Stadt X , den 26. März 2012 Lieber Michael , vielen Dank für deinen Brief ."
+1_6,vielen Dank für Michael,vielen ART Masc|Acc|Sg,Dank N Masc|Acc|Sg,für PREP Acc,Michael N Masc|Acc|Sg,"Stadt X , den 26. März 2012 Lieber Michael , vielen Dank für deinen Brief ."
+1_7,für deinen Brief,für PREP Acc,deinen ART Masc|Acc|Sg,Brief N Masc|Acc|Sg,"Stadt X , den 26. März 2012 Lieber Michael , vielen Dank für deinen Brief ."
+3_8,Silvester,Silvester N _|Nom|Sg,Silvester ist immer Spaß .
+3_9,Spaß,Spaß N Masc|Nom|Sg,Silvester ist immer Spaß .
+4_10,Ein Jahr,Ein ART Indef|Neut|Nom|Sg,Jahr N Neut|Nom|Sg,Ein Jahr ist schon vorbei und für das neue Jahr habe ich nicht so viele Wünsche .
+4_11,Jahr für das neue,Jahr N Neut|Acc|Sg,für PREP Acc,das ART Def|Neut|Acc|Sg,neue ADJA Pos|Neut|Acc|Sg|Wk|,Ein Jahr ist schon vorbei und für das neue Jahr habe ich nicht so viele Wünsche .
+4_12,viele Wünsche,viele ART Masc|Acc|Pl,Wünsche N Masc|Acc|Pl,Ein Jahr ist schon vorbei und für das neue Jahr habe ich nicht so viele Wünsche .
+5_13,mehr Sport,mehr ART Masc|Acc|Sg,Sport N Masc|Acc|Sg,Ich möchte gesund bleiben und mehr Sport treiben Vielleicht sollte ich auch kein Pommes oder Schokolade essen .
+5_14,kein Pommes,kein ART _|_|Sg,Pommes N _|Acc|Pl,Ich möchte gesund bleiben und mehr Sport treiben Vielleicht sollte ich auch kein Pommes oder Schokolade essen .
+5_15,Schokolade,Schokolade N Fem|Acc|Sg,Ich möchte gesund bleiben und mehr Sport treiben Vielleicht sollte ich auch kein Pommes oder Schokolade essen .
+6_16,mehrere schlechtes Essen,mehrere ART Neut|_|Sg,schlechtes ADJA Pos|Neut|_|Sg|St|,Essen N Neut|_|Sg,"Je mehrere schlechtes Essen ich esse , desto mehrere ich nehme zu !"
+7_17,Am Silvester,Am PREP Dat,Silvester N _|Dat|Sg,Am Silvester haben wir gut gefeirt .
+8_18,zu Hause,zu PREP Dat,Hause N Neut|Dat|Sg,"Wir sind zu Hause geblieben , aber wir haben das Feuerwerk vom Balkon angesehen ( genauso wie euch ) ."
+8_20,vom Balkon,vom PREP Dat,Balkon N Masc|Dat|Sg,"Wir sind zu Hause geblieben , aber wir haben das Feuerwerk vom Balkon angesehen ( genauso wie euch ) ."
+9_21,ein Glas,ein ART Indef|Neut|Acc|Sg,Glas N Neut|Acc|Sg,Natürlich haben wir auch ein Glas Sekt getrunken .
+9_22,Sekt,Sekt N Masc|_|Sg,Natürlich haben wir auch ein Glas Sekt getrunken .
+10_24,der Feuerzangenbowle,der ART Def|Fem|Dat|Sg,Feuerzangenbowle N Fem|Dat|Sg,Das Beste für mich war der Feuerzangenbowle .
+11_25,in England,in PREP _,England N Neut|_|Sg,Leider in England haben wir keine solche Dinge .
+11_26,keine solche Dinge,keine ART Neut|Acc|Pl,solche ART Neut|Acc|Pl,Dinge N Neut|Acc|Pl,Leider in England haben wir keine solche Dinge .
+12_27,nach meiner Arbeit,nach PREP Dat,meiner ART Fem|Dat|Sg,Arbeit N Fem|Dat|Sg,Sie haben nach meiner Arbeit gefragt .
+13_28,Arbeit,Arbeit N Fem|Nom|Sg,Arbeit ist immer schwer und wir haben eine neue kolleagin .
+13_29,kolleagin eine neue,kolleagin N Fem|_|Sg,eine ART Indef|Fem|_|Sg,neue ADJA Pos|Fem|_|Sg|_|,Arbeit ist immer schwer und wir haben eine neue kolleagin .
+15_30,Nach einer Woche,Nach PREP Dat,einer ART Indef|Fem|Dat|Sg,Woche N Fem|Dat|Sg,"Nach einer Woche , hat sie alles sehr gut gemacht ."
+16_31,Nächste Woche,Nächste ADJA _|Fem|Acc|Sg|_|,Woche N Fem|Acc|Sg,Nächste Woche erhalten wir eine Praktikantin für zwei Woche .
+16_32,eine Praktikantin,eine ART Indef|Fem|Acc|Sg,Praktikantin N Fem|Acc|Sg,Nächste Woche erhalten wir eine Praktikantin für zwei Woche .
+16_33,Woche,Woche N Fem|_|Sg,Nächste Woche erhalten wir eine Praktikantin für zwei Woche .
+17_34,zum Besuch,zum PREP Dat,Besuch N Masc|Dat|Sg,"Ruf mich an , wenn euch zum Besuch kommen möchte ."
+19_36,in Stadtteil X,in PREP _,Stadtteil N _|_|Sg,X N _|_|Sg,können wir irgendwo in Stadtteil X treffen ?
+19_37,Stadtteil X,Stadtteil N _|_|Sg,X N _|_|Sg,können wir irgendwo in Stadtteil X treffen ?
+22_38,Liebe Grüße Maria,Liebe ADJA Pos|Masc|_|Pl|St|,Grüße N Masc|_|Pl,Maria N _|_|Sg,Liebe Grüße Maria
+22_39,Grüße Maria,Grüße N Masc|_|Pl,Maria N _|_|Sg,Liebe Grüße Maria

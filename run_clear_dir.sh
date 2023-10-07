@@ -1,3 +1,0 @@
-source run_main_analysis.sh
-
-empty_all_directories

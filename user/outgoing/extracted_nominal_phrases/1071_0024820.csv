@@ -1,0 +1,4 @@
+3_1,deine schwimmen Kleidung,deine ART Fem|Acc|Sg,schwimmen ADJA _|Fem|Acc|Sg|_,Kleidung N Fem|Acc|Sg,Bringen Sie deine schwimmen Kleidung .
+5_2,Mit freundlichen Grüße Michael,Mit PREP Dat,freundlichen ADJA Pos|Masc|_|Pl|Wk|,Grüße N Masc|_|Pl,Michael N Masc|_|Sg,"Mit freundlichen Grüße , Michael Meier"
+5_3,Grüße Michael Meier,Grüße N Masc|_|Pl,Michael N Masc|_|Sg,Meier N _|_|Sg,"Mit freundlichen Grüße , Michael Meier"
+5_4,Michael Meier,Michael N Masc|_|Sg,Meier N _|_|Sg,"Mit freundlichen Grüße , Michael Meier"

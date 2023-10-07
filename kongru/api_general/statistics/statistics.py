@@ -70,16 +70,22 @@ class Statistics:
 
         return complete_data
 
-    def create_csv_results_file(self):
-        csv_header = list(self.get_file_header().get("header_results").keys())
+    def create_csv_results_file(self) -> csv.writer:
+        """
+        Erstellt die CSV-Datei, worin die Ergebnisse nachher gespeichert werden.
 
+        Returns:
+            csv_writer (csv.writer): Die Header-Datei, woran die Ergebnisse
+                angehangen werden.
+        """
+
+        csv_header = list(self.get_file_header().get("header_results").keys())
         meta_data = self.get_file_header().get("merlin_meta_data")
         meta_data = [i.strip() for i in meta_data]
 
         # Ergebniss-Datei aufstellen
         save_data = Gp.NP_MAIN_SAVE_FILE.value
-        csv_writer = csv.writer(open(save_data, mode="w+", newline=""))
-
+        csv_writer = csv.writer(open(save_data, mode="w+"))
         csv_writer.writerow(meta_data + csv_header)
 
         return csv_writer
@@ -87,9 +93,9 @@ class Statistics:
     def count_congruency_codes(self) -> OrderedDict:
         """
         zaehlt die verschiedenen Kongruenzcodes in den geoeffneten CSV-Daten.
-        Die Codes werden entsprechend ihrer Bedeutung in Kategorien wie "EINFACH", "ART",
-        "PREP", usw. gezaehlt. Außerdem werden Gesamtzahlen fuer korrekte, falsche und
-        unbekannte Codes berechnet.
+        Die Codes werden entsprechend ihrer Bedeutung in Kategorien wie "EINFACH",
+        "ART", "PREP", usw. gezaehlt. Außerdem werden Gesamtzahlen fuer korrekte,
+        falsche und unbekannte Codes berechnet.
 
         Returns:
             data_set (OrderedDict): Ein OrderedDict, das die gezählten

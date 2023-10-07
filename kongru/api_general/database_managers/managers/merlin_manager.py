@@ -13,22 +13,17 @@ from tqdm import tqdm
 
 # Custom
 
+# api_general
 # constants
-
-# generals
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.constants.general_vars import (
     SQL_MERLIN_TABLE_ENTRY_FORMAT,
 )
-
-# errors
 from kongru.api_general.universal.constants.custom_error_messages import (
     CustomErrorMessages as Cusem,
 )
 
-# Message keys
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
-
 
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import (
@@ -49,7 +44,8 @@ class MerlinManager:
     Das ist ein Parser fuer die Merlin-Corpus-Datenbank.
     Die Daten waren ursprueglich als Textdateien gespeichert,
     die jetzt aber in einer SQL-Datenbank liegen. Die urspruenglichen Dateien
-    findet man in dem Verzeichnis 'app_resources/data/corpus/raw_corpus_data.zip',
+    findet man in dem Verzeichnis
+    'app_resources/data/merlin_corpus/merlin_raw_corpus.zip',
     sofern sie nicht geloescht wurden.
 
     # SQL-Datenbank
@@ -115,7 +111,7 @@ class MerlinManager:
 
     def __open_sql_db(self) -> dict[str, sqlite3.Connection, str, sqlite3.Cursor]:
         """
-        Die SQL-DB wird auf gemacht und der Conner und Cursor werden weitergegeben.
+        Die SQL-DB wird aufgemacht und der Connector und Cursor werden weitergegeben.
 
         Returns:
             sql_con_cur (dict): der Cursor und Connector der SQL-DB
@@ -132,11 +128,8 @@ class MerlinManager:
         """
         Entpackt das Merlin-Rohkorpus aus einer ZIP-Datei in das Zielverzeichnis.
 
-        Dieser Methode wird die Merlin-Raw_Corpus-ZIP-Datei geoeffnet und der Inhalt
-         in das Zielverzeichnis extrahiert.
-
-        Args:
-            self: Die Instanz der Klasse, auf der die Methode aufgerufen wird.
+        Dieser Methode oeffnet die Merlin-Raw_Corpus-ZIP-Datei und extrahiert
+        deren Inhalt in das Zielverzeichnis extrahiert.
 
         Returns:
             None
@@ -152,8 +145,8 @@ class MerlinManager:
         eingelesen, damit die Pfade gesammelt werden koennen.
 
         Returns:
-                abs_rel_paths (dict): die Pfade der Dateien aus den entsprechenden
-                    Verzeichnissen
+            abs_rel_paths (dict): die Pfade der Dateien aus den entsprechenden
+                Verzeichnissen
         """
 
         ast_files = glob.glob(f"{Gp.MERLIN_AST_DIR.value}/*.*")
@@ -237,10 +230,11 @@ class MerlinManager:
 
     def return_incoming_file_meta_data(self) -> dict[str, str]:
         """
-        Extrahiert und gibt Metadaten und Textdaten aus der Eingabe zurueck.
+        Extrahiert und gibt die Metadaten und Textdaten aus der Eingabe zurueck.
 
         Returns:
-            dict: Ein dcit, das die extrahierten Daten mit den folgenden Schluesseln enthaelt:
+            dict: Ein dict, das die extrahierten Daten mit den folgenden Schluesseln
+             enthaelt:
                 - 'meta': Metadaten-String
                 - 'text': Textdaten-String
                 - 'tg1': Ziel-Daten 1-String
@@ -379,11 +373,13 @@ class MerlinManager:
 
     def extract_merlin_corpus_entry_by_id(self) -> dict:
         """
-        Extrahiert einen Eintrag aus der Merlin-Korpus SQL-Datenbank anhand einer bestimmten ID.
+        Extrahiert einen Eintrag aus der Merlin-Korpus SQL-Datenbank anhand einer
+            vorgegebenen TextID.
 
         Returns:
             dict: Ein dict, das den extrahierten Eintrag darstellt.
-                  Die genaue Struktur des Eintrags kann je nach Implementierung variieren.
+                  Die genaue Struktur des Eintrags kann je nach Implementierung
+                   variieren.
         """
 
         # SQL
@@ -443,8 +439,6 @@ class MerlinManager:
 
     def generate_merlin_database(self) -> None:
         """
-        Generiert die Merlin-Datenbank.
-
         Diese Methode erstellt die Merlin-Datenbank.
         Returns:
             None
@@ -502,4 +496,4 @@ class MerlinManager:
 
 
 if __name__ == "__main__":
-    MerlinManager().generate_merlin_database()
+    pass

@@ -1,0 +1,29 @@
+1_2,für eine wertvoller Welt,für PREP Acc,eine ART Indef|Fem|_|Sg,wertvoller ADJA Pos|_|_|_|St|,Welt N Fem|Acc|Sg,Multikultur für eine wertvoller Welt .
+2_4,von meinem Leben,von PREP Dat,meinem ART Neut|Dat|Sg,Leben N Neut|Dat|Sg,"Während ich die letzte vier Jahren von meinem Leben im Ausland verbracht , war ich sehr oft mit der Frage der Kulturmischung konfrontiert ."
+2_5,im Ausland,im PREP Dat,Ausland N Neut|Dat|Sg,"Während ich die letzte vier Jahren von meinem Leben im Ausland verbracht , war ich sehr oft mit der Frage der Kulturmischung konfrontiert ."
+2_6,mit der Frage Kulturmischung,mit PREP Dat,der ART Def|Fem|Dat|Sg,Frage N Fem|Dat|Sg,Kulturmischung N Fem|Gen|Sg,"Während ich die letzte vier Jahren von meinem Leben im Ausland verbracht , war ich sehr oft mit der Frage der Kulturmischung konfrontiert ."
+2_7,Frage der Kulturmischung,Frage N Fem|Dat|Sg,der ART Def|Fem|Gen|Sg,Kulturmischung N Fem|Gen|Sg,"Während ich die letzte vier Jahren von meinem Leben im Ausland verbracht , war ich sehr oft mit der Frage der Kulturmischung konfrontiert ."
+3_8,zwischen meinen Traditionen,zwischen PREP _,meinen ART Fem|_|Pl,Traditionen N Fem|_|Pl,Sollte ich überhaupt wählen zwischen meinen Traditionen und den meines Gaslandes ?
+3_9,meines Gaslandes,meines ART Neut|Gen|Sg,Gaslandes N Neut|Gen|Sg,Sollte ich überhaupt wählen zwischen meinen Traditionen und den meines Gaslandes ?
+4_10,in Stadt X,in PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,"Als ich in Stadt X angekommen bin , war es für mich sehr wichtig diese fremde Kultur zu respektieren ."
+4_11,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"Als ich in Stadt X angekommen bin , war es für mich sehr wichtig diese fremde Kultur zu respektieren ."
+4_12,diese fremde Kultur,diese ART Fem|Acc|Sg,fremde ADJA Pos|Fem|Acc|Sg|_|,Kultur N Fem|Acc|Sg,"Als ich in Stadt X angekommen bin , war es für mich sehr wichtig diese fremde Kultur zu respektieren ."
+5_13,mit den Einwohner,mit PREP Dat,den ART Def|Masc|Acc|Sg,Einwohner N Masc|Acc|Sg,"Obwohl ich es noch nicht verstehen könnte , habe ich sofort probiert mit den Einwohner in Kontakt zu kommen ."
+5_14,in Kontakt,in PREP _,Kontakt N Masc|_|Sg,"Obwohl ich es noch nicht verstehen könnte , habe ich sofort probiert mit den Einwohner in Kontakt zu kommen ."
+6_15,Leben,Leben N Neut|Acc|_,Das war wichtig ihres Leben zu teilen um mich besser in ihre Kultur zu orientieren .
+6_16,in ihre Kultur,in PREP Acc,ihre ART Fem|Acc|Sg,Kultur N Fem|Acc|Sg,Das war wichtig ihres Leben zu teilen um mich besser in ihre Kultur zu orientieren .
+7_18,Heimat mit meinem neuen,Heimat N _|Dat|Sg,mit PREP Dat,meinem ART _|Dat|Sg,neuen ADJA Pos|_|Dat|Sg|Wk|,"Einerseits hat mir diese erste Erfahrung mit meinem neuen Heimat geholfen , aber anderseits habe ich starke Heimweh gefühlt ."
+7_19,starke Heimweh,starke ADJA Pos|Neut|Acc|Sg|Wk|,Heimweh N Neut|Acc|Sg,"Einerseits hat mir diese erste Erfahrung mit meinem neuen Heimat geholfen , aber anderseits habe ich starke Heimweh gefühlt ."
+8_20,meine eigene Identität,meine ART Fem|Nom|Sg,eigene ADJA Pos|Fem|Nom|Sg|_|,Identität N Fem|Nom|Sg,Was ich dort vergessen hatte war meine eigene Identität und die Werte meiner Kultur .
+8_21,die Werte Kultur,die ART Def|_|Nom|_,Werte N _|Nom|_,Kultur N Fem|Gen|Sg,Was ich dort vergessen hatte war meine eigene Identität und die Werte meiner Kultur .
+8_22,Werte meiner Kultur,Werte N _|Nom|_,meiner ART Fem|Gen|Sg,Kultur N Fem|Gen|Sg,Was ich dort vergessen hatte war meine eigene Identität und die Werte meiner Kultur .
+9_23,eine neue Kultur,eine ART Indef|Fem|Acc|Sg,neue ADJA Pos|Fem|Acc|Sg|_|,Kultur N Fem|Acc|Sg,"Obwohl man eine neue Kultur respektieren und verstehen muss , sollte man nich vergessen unsere eigne Diversität mitzubringen ."
+9_24,Diversität,Diversität N Fem|Nom|Sg,"Obwohl man eine neue Kultur respektieren und verstehen muss , sollte man nich vergessen unsere eigne Diversität mitzubringen ."
+10_25,Interkultureller Austausch,Interkultureller ADJA Pos|Masc|Nom|Sg|St|,Austausch N Masc|Nom|Sg,"Interkultureller Austausch macht eine bessere und reiche Welt und deswegen muss man nicht nur an der Kultur des Gastlandes orientieren , sondern auch die Traditionen seines Heimatlandes fortzusetzen ."
+10_26,eine bessere Welt,eine ART Indef|Fem|Acc|Sg,bessere ADJA Comp|Fem|Acc|Sg|_|,Welt N Fem|Acc|Sg,"Interkultureller Austausch macht eine bessere und reiche Welt und deswegen muss man nicht nur an der Kultur des Gastlandes orientieren , sondern auch die Traditionen seines Heimatlandes fortzusetzen ."
+10_27,an der Kultur Gastlandes,an PREP Dat,der ART Def|Fem|Dat|Sg,Kultur N Fem|Dat|Sg,Gastlandes N Neut|Gen|Sg,"Interkultureller Austausch macht eine bessere und reiche Welt und deswegen muss man nicht nur an der Kultur des Gastlandes orientieren , sondern auch die Traditionen seines Heimatlandes fortzusetzen ."
+10_28,Kultur des Gastlandes,Kultur N Fem|Dat|Sg,des ART Def|Neut|Gen|Sg,Gastlandes N Neut|Gen|Sg,"Interkultureller Austausch macht eine bessere und reiche Welt und deswegen muss man nicht nur an der Kultur des Gastlandes orientieren , sondern auch die Traditionen seines Heimatlandes fortzusetzen ."
+10_29,die Traditionen Heimatlandes,die ART Def|Fem|Acc|Pl,Traditionen N Fem|Acc|Pl,Heimatlandes N Neut|Gen|Sg,"Interkultureller Austausch macht eine bessere und reiche Welt und deswegen muss man nicht nur an der Kultur des Gastlandes orientieren , sondern auch die Traditionen seines Heimatlandes fortzusetzen ."
+10_30,Traditionen seines Heimatlandes,Traditionen N Fem|Acc|Pl,seines ART Neut|Gen|Sg,Heimatlandes N Neut|Gen|Sg,"Interkultureller Austausch macht eine bessere und reiche Welt und deswegen muss man nicht nur an der Kultur des Gastlandes orientieren , sondern auch die Traditionen seines Heimatlandes fortzusetzen ."
+11_31,Multikultur,Multikultur N _|Nom|Sg,Multikultur macht die Welt wertvoller .
+11_32,die Welt,die ART Def|Fem|Acc|Sg,Welt N Fem|Acc|Sg,Multikultur macht die Welt wertvoller .

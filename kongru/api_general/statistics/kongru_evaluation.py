@@ -1,7 +1,6 @@
 # Standard
 import csv
 import glob
-
 import warnings
 
 # Pip
@@ -12,18 +11,24 @@ from sklearn.metrics import classification_report
 
 # Custom
 
-# generals
+# api_general
+
+# constants
 from kongru.api_general.universal.constants.general_vars import CODE_NAMES
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
+# funcs
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
+# Messsage Keys
 statistics_keys = Mk.Statistics
 
 
 def get_files(dataset: list[str]) -> list:
     """
-    Diese Funktion liest CSV-Dateien aus einem gegebenen Datensatz und gibt die Inhalte als Liste zurück.
+    Diese Funktion liest CSV-Dateien aus einem gegebenen Datensatz und
+    gibt die Inhalte als Liste zurueck.
 
     Args:
         dataset (list[str]): Eine Liste von Dateipfaden zu den CSV-Dateien.
@@ -51,8 +56,7 @@ def get_files(dataset: list[str]) -> list:
 def get_report() -> None:
     """
     Diese Funktion liest Gold- und Rohdaten aus CSV-Dateien,
-    erstellt eine Klassifikationsbericht
-    und gibt diesen Bericht aus.
+    erstellt eine Klassifikationsbericht und gibt diesen Bericht aus.
 
     Returns:
         None
@@ -74,6 +78,7 @@ def get_report() -> None:
                 gold_files, raw_files, zero_division="warn"
             )
             typer.echo(classification_rep)
+
     except Exception as e:
         catch_and_log_error(
             echo_msg=True,

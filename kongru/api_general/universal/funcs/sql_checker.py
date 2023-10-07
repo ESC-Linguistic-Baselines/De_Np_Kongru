@@ -14,14 +14,14 @@ from kongru.api_general.universal.constants.custom_error_messages import (
 
 def check_sql_command(sql_command: str) -> None or str:
     """
-    Überprüft einen SQL-Befehl auf das Vorhandensein des Wortes "DELETE"
+    ueberprueft einen SQL-Befehl auf das Vorhandensein des Wortes "DELETE"
     (Groß-/Kleinschreibung wird ignoriert).
 
     Args:
-        sql_command (str): Der zu überprüfende SQL-Befehl als Zeichenkette.
+        sql_command (str): Der zu ueberpruefende SQL-Befehl als Zeichenkette.
 
     Returns:
-        str or None: Der ursprüngliche SQL-Befehl, wenn "DELETE" nicht gefunden
+        str or None: Der urspruengliche SQL-Befehl, wenn "DELETE" nicht gefunden
         wurde. Andernfalls None.
     """
 

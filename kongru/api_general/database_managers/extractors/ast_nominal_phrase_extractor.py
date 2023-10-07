@@ -11,15 +11,16 @@ from io import StringIO
 
 # universals
 
-# paths
+# api general
+
+# constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 
 # funcs
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_error
 
-# constants
-from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
-
+# Message Keys
 general_keys = Mk.General
 
 
@@ -44,7 +45,8 @@ class AstNominalPhraseExtractor:
 
     def get_ast_data(self) -> list:
         """
-        Diese Funktion gibt die abstrakten Syntaxbaeume (AST) der eingehenden Daten zurueck.
+        Diese Funktion gibt die abstrakten Syntaxbaeume (AST) der eingehenden
+        Daten zurueck.
 
         Beispiel:
         [[['1_1', '1023_0001416_output.txt', 1,
@@ -199,10 +201,4 @@ class AstNominalPhraseExtractor:
 
 
 if __name__ == "__main__":
-    data = AstNominalPhraseExtractor(
-        ast_file_name="/Users/christopherchandler/repo/Python/computerlinguistik"
-        "/de_np_kongru/user/incoming/ast/1023_0101851.ast",
-        save_name="test.csv",
-    )
-
-    res = data.save_extracted_ast_nps()
+    pass

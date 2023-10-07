@@ -1,13 +1,12 @@
 # Standard
 # None
 
-
 # Pip
 # None
 
 # Custom
 
-# general
+# api_general
 from kongru.api_general.database_managers.managers.demorphy_manager import (
     DemorphyManager,
 )
@@ -15,7 +14,7 @@ from kongru.api_nlp.congruential_analysis.analyzers.inflection_analyzer import (
     InflectionAnalyzer,
 )
 
-# nlp
+# api_nlp
 from kongru.api_nlp.congruential_analysis.analyzers.suffix_analyzer import (
     SuffixAnalyzer,
 )
@@ -27,20 +26,19 @@ class DemorphyAnalyzer(
 ):
     """
     Eine Klasse zur Analyse und Verarbeitung von Textdaten mithilfe von Demorphy und
-    verschiedenen Analysatoren.
-    Diese Klasse erbt von mehreren anderen Klassen, um eine Vielzahl von Analysefunktionen
-    bereitzustellen.
+    verschiedenen Analysatoren. Diese Klasse erbt von mehreren anderen Klassen,
+    um eine Vielzahl von Analysefunktionen bereitzustellen.
     Sie kombiniert alle Klassen zusammen, damit nur diese Klasse aufgerufen werden muss.
-    Die Argumente werden auch weiter gegeben
+    Die Argumente werden auch weitergegeben.
 
     Args:
-        DemorphyManager (class): Eine Managerklasse für Demorphy-Daten und Ressourcen.
+        DemorphyManager (class): Eine Managerklasse fuer Demorphy-Daten und Ressourcen.
             - Demorphy Dateien einlesen
         SuffixAnalyzer (class): Ein Analysator fuer Suffixe in Textdaten.
             - Suffixe von Tokens bestimmen
-        TokenAnalyzer (class): Ein Analysator für Token   in Textdaten.
+        TokenAnalyzer (class): Ein Analysator fuer Token   in Textdaten.
             - Tokenart bestimmen
-        InflectionAnalyzer (class): Ein Analysator für Flexionen in Textdaten.
+        InflectionAnalyzer (class): Ein Analysator fuer Flexionen in Textdaten.
             - Die Inflektion in Tokens bestimmen
     """
 
@@ -83,13 +81,12 @@ class DemorphyAnalyzer(
         Diese Methode extrahiert die Rohmorphologie von Nominalphrasen (NPs)
         aus den gelesenen Daten.
 
-        Sie verwendet die zuvor geladenen NP-Daten und Demorphy-Lexikoneinträge,
-        um die Morphologie
-        für jede NP im Dictionary zu erfassen.
+        Sie verwendet die zuvor geladenen NP-Daten und Demorphy-Lexikoneintraege,
+        um die Morphologie fuer jede NP im Dictionary zu erfassen.
 
         Returns:
             np_morh_results(dict): Ein dict, das die extrahierte Morphologie der NPs
-            und die ursprünglichen NP-Daten enthaelt.
+            und die urspruenglichen NP-Daten enthaelt.
 
         Beispiel:
             Die Ausgabe kann wie folgt aussehen:
@@ -104,9 +101,9 @@ class DemorphyAnalyzer(
                     '1_Katharina': [
                         ('Katharina', ['Katharina NN,fem,dat,sing',
                         'Katharina NN,fem,nom,sing', ...]),
-                        # Weitere Morphologiedaten für andere NPs...
+                        # Weitere Morphologiedaten fuer andere NPs...
                     ],
-                    # Weitere NP-Morphologie für andere NPs...
+                    # Weitere NP-Morphologie fuer andere NPs...
                 }
             }
         """
@@ -121,15 +118,15 @@ class DemorphyAnalyzer(
             full_np = np_data.get(key).get("full_np")
             tokens = full_np.split(" ")  # Aufteilen der NP in einzelne Tokens
 
-            np_morph[key] = list()  # Ein leeres Listenelement für die aktuelle NP
+            np_morph[key] = list()  # Ein leeres Listenelement fuer die aktuelle NP
 
             # Schleife durch die Tokens in der NP
             for t in tokens:
-                # Hinzufügen des Token und der zugehörigen Demorphy-Morphologiedaten
+                # Hinzufuegen des Token und der zugehoerigen Demorphy-Morphologiedaten
                 # zur Liste
                 np_morph[key].append((t, morph_dict.get(t)))
 
-        # Zusammenführen der NP-Daten und der extrahierten NP-Morphologie
+        # Zusammenfuehren der NP-Daten und der extrahierten NP-Morphologie
         # in einem Ergebnis-Dictionary
         np_morh_results = {"np_data": np_data, "np_morph": np_morph}
 

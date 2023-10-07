@@ -7,7 +7,9 @@ import typer
 
 # Custom
 
-# constans
+# api general
+
+# constants
 from kongru.api_general.universal.constants.general_vars import SIMPLE_TIMESTAMP
 
 

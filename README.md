@@ -22,12 +22,12 @@
     Dieses Projekt wurde im Rahmen des computerlinguistischen Kurses
     <code>Korpuslinguistische Analysen der Nominalflexion im Deutschen (050041-SoSe23)</code>
     an der Ruhr-Universitaet Bochum in Deutschland entwickelt.
-    <br />
-    <br />
+    <br>
+    <br>
     <a href="https://github.com/christopher-chandler/De_NP_Kongru/issues">Fehler melden</a>
     ·
     <a href="https://github.com/christopher-chandler/De_NP_Kongru/issues">Funktion anfragen</a>
-  </code>
+  
 </div>
  
 <!-- TABLE OF CONTENTS -->
@@ -83,15 +83,51 @@
 # Ueber das Projekt
 
 ## Hintergrund
+<p align="justify">
 Im Rahmen dieses Projekts soll die Kongruenz in deutschen Nominalphrasen 
 bestimmt werden. Daraus resultierend werden die Ergebnisse aus verscheidenen
 Lernergruppen miteinander verglichen, um die Unterschiede zwischen
 den jeweiligen Sprechergruppen z.B. Spanisch, Franzoesisch, Deutsch, etc
 veranschaulichen zu koennen.
+</p>
 
 ## Ergebnisse
-ausstehend
+ <p align="justify">
+Nominale Kongruenz im Deutschen bereitet Lernern der deutschen Sprache etliche 
+Schwierigkeiten aufgrund der Komplexität des deutschen Kasussystems. 
+Aufgrund dessen wurden einfache heuristische Methoden entwickelt, um die Kongruenz 
+innerhalb der Nominalphrasen zu bestimmen.  Um diese Problematik besser darstellen 
+zu können, wurden Anglophonen und Frankophonen in Bezug auf ihre Deutschkenntnisse 
+miteinander verglichen. Es wird angenommen, dass Frankophonen weniger Probleme mit 
+Nominalphrasen als Anglophonen hätten, da das Kongruenzprinzip im Französischen stärker 
+vertreten ist als im Englischen. Um dieser Annahme auf den Grund zu gehen, wurden 
+entsprechende Nominalphrasen aus dem Lernerkorpus Merlin extrahiert und analysiert.  
+Die hier erzielten Ergebnisse bezüglich der Eingangshypothese sind nicht eindeutig und
+somit lässt sich nicht sagen, ob die Hypothese anzunehmen bzw. zu verwerfen ist, wobei 
+die Ergebnisse leicht andeuten, dass beide Sprechergruppen fast gleich stark sind, 
+was Kongruenz im Deutschen betrifft. Man kann jedoch anhand der Ergebnisse sehen, 
+dass um so ein Projekt durchzuführen, könnte es von Vorteil sein, ein Korpus zu 
+analysieren, das für so eine Aufgabestellung angefertigt wurde, denn so könnte man 
+aussagekräftigere Ergebnisse erzielen. 
 
+| Class                                | Precision | Recall | F1-Score | Support |
+|--------------------------------------|-----------|--------|----------|---------|
+| 0 - EINFACH                          | 0.91      | 0.50   | 0.65     | 20      |
+| 01 - ART                             | 0.13      | 0.09   | 0.11     | 32      |
+| 02 - PREP                            | 1.00      | 0.08   | 0.15     | 24      |
+| 03 - Eigennamen                      | 0.38      | 0.38   | 0.38     | 26      |
+| 04 - Redewendung bzw. Satz           | 1.00      | 0.25   | 0.40     | 8       |
+| 10 - EINFACH (Nicht Kongruenz)       | 0.33      | 1.00   | 0.49     | 17      |
+| 11 - ART (Nicht Kongruenz)           | 0.00      | 0.00   | 0.00     | 9       |
+| 12 - PREP (Nicht Kongruenz)          | 0.75      | 0.35   | 0.48     | 17      |
+| 99 - Unbekannt (Nicht Kongruenz)     | 0.48      | 0.77   | 0.59     | 48      |
+| Accuracy                             |           |        | 0.43     | 201     |
+| Macro Avg                            | 0.55      | 0.38   | 0.36     | 201     |
+| Weighted Avg                         | 0.53      | 0.43   | 0.39     | 201     |
+
+<i> Ergebnisse anhand von Sci-Kit learn generiert. </i>
+
+</p>
 <div align="center">
   <a href="https://github.com/christopher-chandler/De_NP_Kongru">
   </a>
@@ -104,6 +140,8 @@ Eine Liste der Ressourcen, die bei der Entwicklung des Programms verwendet wurde
 ## Libraries
 
 ### Pip
+ <p align="justify">
+
  - [click==8.1.3](https://pypi.org/project/click/8.1.3/)
 - [pandas==1.5.2](https://pypi.org/project/pandas/1.5.2/)
 - [PyYAML==6.0.1](https://pypi.org/project/PyYAML/6.0.1/)
@@ -119,6 +157,7 @@ Eine Liste der Ressourcen, die bei der Entwicklung des Programms verwendet wurde
 * [Deutsche morphologische Woerterbuecher](https://github.com/DuyguA/german-morph-dictionaries)
 
 ### Zusaetzliche Tools
+
 Diese Tools wurden benutzt, um die Lernertexte zu taggen und zu parsen.
 Dieses Verfahren wurde in einem anderen, verwandten [Projekt](https://github.com/imgeyuez/automatic_np_extraction) durchgefuehrt.
 * [Parzu - deutscher Parser](https://github.com/rsennrich/ParZu)
@@ -212,10 +251,11 @@ Usage: main.py [OPTIONS] COMMAND [ARGS]...
   Die Hauptapp von DeNpKongru
 
 Commands:
-  datenbank           Die Datenbankcorpora verwalten und durchsuchen
+  verzeichnis_leeren  Ein ausgewaehltes Verzeichnis leeren
+  kongruenz_leeren    verzeichnis_leeren
   kongruenz           Die Np-Eintraege auswerten
+  datenbank           Die Datenbankcorpora verwalten und durchsuchen
   statistik           Eine einfache Analyse ueber DeNpKongru ausfuehren
-  verzeichnis_leeren  Ein ausgewaehltes Verzeichnis leeren 
 ```
 
 Bei jedem Befehl kann man einen Hinweis ausgeben lassen, wie die Befehle funktionieren

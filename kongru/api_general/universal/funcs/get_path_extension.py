@@ -11,7 +11,7 @@
 def generate_abs_rel_path(file_data: list) -> dict:
     """
     Die Dateien werden eingelesen und dann gesplittet, sodass
-    der Key der relative Pfade und der Schluessel der absolute Pfada
+    der Key der relative Pfade und der Schluessel der absolute Pfade
 
     Args:
         file_data (list): Die Pfade der Dateien

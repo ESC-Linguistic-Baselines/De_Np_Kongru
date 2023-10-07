@@ -32,7 +32,7 @@ def get_ast_data() -> None:
     """
     extract_data_from_merlin_database(
         sql_script=Gp.SQL_MERLIN.value,
-        save_directory=Gp.AST_DIR.value,
+        save_directory=Gp.AST_INCOMING_DIR.value,
         file_extension="ast",
     )
 
@@ -110,6 +110,7 @@ def generate_results_file(collective_results) -> None:
             merlin_sql_result = list(corpus_data[0])
             txt_id_data = list(collective_results.get(txt_id).values())
             new_data = merlin_sql_result + txt_id_data
+
             # Ergebnisse speichern
             csv_data.writerow(new_data)
         except Exception as e:

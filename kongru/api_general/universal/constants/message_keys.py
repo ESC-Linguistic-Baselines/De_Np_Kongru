@@ -10,7 +10,7 @@ from enum import Enum
 
 class MessageKeys:
     """
-    Hier werden die Nachrichten und Meldungen, die vom Programm ausgegeben,
+    Hier werden die Bezeichnungen und Meldungen, die vom Programm ausgegeben,
     zentral gespeichert.
     """
 
@@ -48,6 +48,9 @@ class MessageKeys:
         EMPTY_DIRECTORY_TRG_LONG = "--trg_dir"
         EMPTY_DIRECTORY_TRG_SHORT = "--trg"
         EMPTY_DIRECTORY_TRG_HELP = "Das Verzeichnis, das geleert werden soll."
+
+        EMPTY_BULK_DIRECTIORIES_NAME = "kongruenz_leeren"
+        EMPTY_BULK_DIRECTIORIES_HELP = "Verzeichnisse der Kongruenz-Ergebnisse leeren"
 
         FILE_TYPE_HELP = (
             "Die Dateien, die geloescht werden sollen. 'alle' loescht "
@@ -185,7 +188,10 @@ class MessageKeys:
         MULTI_AGREEMENT_AMOUNT_HELP = (
             "bestimmt wie viele Texte verarbeitet werden " "sollen "
         )
-
+        MULTI_AGREEMENT_AMOUNT_SAVE_FALSE = "--kongruenz"
+        MULTI_AGREEMENT_AMOUNT_SAVE_HELP = (
+            "Multi-kongruenz durchfuehren oder Ergebnisse speichern"
+        )
         MULTI_AGREEMENT_ID_SOURCE_DEFAULT = 5
         MULTI_AGREEMENT_ID_SOURCE_LONG = "--text_id_quelle"
         MULTI_AGREEMENT_ID_SOURCE_SHORT = "--quelle"
@@ -193,7 +199,7 @@ class MessageKeys:
             "bestimmt aus welcher Datei, die Ids gelesen " "werden sollen."
         )
 
-        NP_AGEREMENT_SAVE_DEFAULT = True
+        NP_AGEREMENT_SAVE_DEFAULT = False
         NP_AGREEMENT_SAVE_TRUE = "--speichern"
         NP_AGREEMENT_SAVE_FALSE = "--anzeigen"
         NP_AGREEMENT_SAVE_HELP = "Ergebnisse speichern oder anzeigen"

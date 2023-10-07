@@ -7,11 +7,13 @@ import json
 
 # Custom
 
-# funcs
-from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
+# api_general
 
 # constants
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+
+# funcs
+from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
 
 
 class NominalPhraseJsonManager:
@@ -45,7 +47,8 @@ class NominalPhraseJsonManager:
         """
         Liest die NP-Daten aus der .csv-Datei ein.
 
-        Returns: csv_data (dict): die NP-Daten aus der .csv-Datei, wobei die NP-IDs
+        Returns:
+            csv_data (dict): die NP-Daten aus der .csv-Datei, wobei die NP-IDs
             als Schluessel verwendet werden.
         """
         csv_data = dict()
@@ -70,7 +73,7 @@ class NominalPhraseJsonManager:
         Fuegt Kongruenzinformationen aus einer .csv-Datei zu einem JSON-Datensatz
         hinzu.
 
-        Hinweis: Diese Funktion aktualisiert nicht das urspruengliche
+        Hinweis: Diese Funktion aktualisiert das urspruengliche nicht
         JSON-Datenobjekt, sondern gibt eine neue Liste von Dictionaries zurueck,
         die die aktualisierten Daten enthalten.
 
@@ -113,7 +116,7 @@ class NominalPhraseJsonManager:
             None
 
         Hinweis: Die aktualisierten JSON-Daten werden in einer neuen Datei
-        gespeichert, und der Dateiname wird basierend auf dem urspruenglichen
+        gespeichert. Der Dateiname wird basierend auf dem urspruenglichen
         Dateinamen generiert. Die Datei wird im JSON-Resultatverzeichnis (sofern
         konfiguriert) gespeichert.
         """
@@ -125,7 +128,7 @@ class NominalPhraseJsonManager:
         abs_rel = generate_abs_rel_path(files)
         file_name = list(abs_rel)[0]
 
-        save_dir = f"{Gp.JSON_RES_DIR.value}/{file_name}"
+        save_dir = f"{Gp.JSON_RES_OUTGOING_DIR.value}/{file_name}"
 
         with open(save_dir, mode="w+") as out_file:
             json.dump(new_json_data, out_file, indent=4)

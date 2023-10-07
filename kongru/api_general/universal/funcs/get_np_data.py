@@ -4,22 +4,22 @@ import glob
 
 from tqdm import tqdm
 
+# Pip
+# None
+
+# Custom
+
+# api_general
 from kongru.api_general.database_managers.app_data_managers import (
     extract_nps_from_local_file,
 )
 from kongru.api_general.universal.funcs.basic_logger import catch_and_log_info
 
 
-# Pip
-# None
-
-# Custom
-# None
-
-
 def np_data() -> None:
     """
     Die Nominalphrasen aus den jeweiligen Ast-Dateien extrahieren
+
     Returns:
         None
     """

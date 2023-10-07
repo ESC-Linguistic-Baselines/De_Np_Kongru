@@ -8,7 +8,7 @@ import datetime
 # None
 
 """
-Hier sind Konstanten, die zum Teil von anderen Funktionen eingesetzt werden. 
+Hier sind Konstanten, die von anderen Funktionen verwendet werden. 
 """
 
 current_datetime = datetime.datetime.now()

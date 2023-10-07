@@ -1,0 +1,42 @@
+1_1,Maria Meier,Maria N Fem|Acc|Sg,Meier N Fem|Acc|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_2,Maria Meier Stadt,Maria N Fem|Acc|Sg,Meier N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_3,Meier Stadt X August,Meier N Fem|Acc|Sg,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,August N Masc|Acc|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_4,Stadt X,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_5,Stadt den 12. August,Stadt N Fem|Acc|Sg,den ART Def|Masc|Acc|Sg,12. ADJA _|Masc|Acc|Sg|_|,August N Masc|Acc|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_6,Müllergasse,Müllergasse N Fem|_|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_7,Stadt Y,Stadt N Fem|_|Sg,Y N Fem|_|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_8,Stadt Y Au-pair-Agentur,Stadt N Fem|_|Sg,Y N Fem|_|Sg,Au-pair-Agentur N Fem|_|Sg,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_9,Y Au-pair-Agentur Schultz,Y N Fem|_|Sg,Au-pair-Agentur N Fem|_|Sg,Schultz N Masc|_|_,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_10,Au-pair-Agentur Schultz,Au-pair-Agentur N Fem|_|Sg,Schultz N Masc|_|_,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_11,Partner Regegenstr,Partner N Masc|_|_,Regegenstr N Masc|_|_,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+1_12,Partner Regegenstr,Partner N Masc|_|_,Regegenstr N Masc|_|_,"Maria Meier Stadt X , den 12. August 2011 Müllergasse 2 1234 Stadt Y Au-pair-Agentur Schultz & Partner Regegenstr ."
+2_13,Nürnberg Beschwerdebrief,Nürnberg N Masc|_|Sg,Beschwerdebrief N Masc|_|Sg,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+2_15,Damen über meine Erfahrung,Damen N Fem|Acc|Pl,über PREP Acc,meine ART Fem|Acc|Sg,Erfahrung N Fem|Acc|Sg,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+2_16,Au-pair,Au-pair N _,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+2_17,in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+2_18,geehrte Damen Erfahrung,geehrte ADJA Pos|Fem|Acc|Pl|St|,Damen N Fem|Acc|Pl,Erfahrung N Fem|Acc|Sg,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+2_19,Herren,Herren N Masc|Acc|_,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+2_20,diesen Brief,diesen ART Masc|Acc|Sg,Brief N Masc|Acc|Sg,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+2_21,mit Ihre Angebot,mit PREP Dat,Ihre ART Neut|_|Sg,Angebot N Neut|_|Sg,"101 90451 Nürnberg Beschwerdebrief über meine Erfahrung als Au-pair in Deutschland Sehr geehrte Damen und Herren , Ich schreibe diesen Brief weil ich nicht mit Ihre Angebot zufrieden bin ."
+3_22,Jetz,Jetz N _|Nom|_,"Jetz bin ich in Deutschland als Au-pair in eine Familie , aber ich war gleich zu Beginn sehr enttäuscht ."
+3_23,in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Jetz bin ich in Deutschland als Au-pair in eine Familie , aber ich war gleich zu Beginn sehr enttäuscht ."
+3_24,Au-pair,Au-pair N _,"Jetz bin ich in Deutschland als Au-pair in eine Familie , aber ich war gleich zu Beginn sehr enttäuscht ."
+3_25,Familie in eine,Familie N Fem|Acc|Sg,in PREP Acc,eine ART Indef|Fem|Acc|Sg,"Jetz bin ich in Deutschland als Au-pair in eine Familie , aber ich war gleich zu Beginn sehr enttäuscht ."
+3_26,zu Beginn,zu PREP Dat,Beginn N Masc|Dat|Sg,"Jetz bin ich in Deutschland als Au-pair in eine Familie , aber ich war gleich zu Beginn sehr enttäuscht ."
+4_27,In Ihre Angebot,In PREP Acc,Ihre ART Neut|Acc|Sg,Angebot N Neut|Acc|Sg,In Ihre Angebot haben Sie günstige Konditionen und langjährige Erfahrung versprochen .
+4_28,günstige Konditionen,günstige ADJA Pos|Fem|Acc|Pl|St|,Konditionen N Fem|Acc|Pl,In Ihre Angebot haben Sie günstige Konditionen und langjährige Erfahrung versprochen .
+4_29,Erfahrung langjährige,Erfahrung N Fem|Acc|Sg,langjährige ADJA Pos|Fem|Acc|Sg|_|,In Ihre Angebot haben Sie günstige Konditionen und langjährige Erfahrung versprochen .
+6_30,bis Januar,bis PREP Acc,Januar N Masc|Acc|Sg,Ich kann nur bis Januar bleiben .
+7_31,Die Familie,Die ART Def|Fem|Nom|Sg,Familie N Fem|Nom|Sg,Die Familie ist sehr böse mit mir .
+8_32,Zimmer,Zimmer N Neut|Acc|Pl,Sie hat nur zwei Zimmer deswegen wohne ich mit die Kindern in der gleiche Zimmer .
+8_34,in der gleiche Zimmer,in PREP Dat,der ART Def|_|_|_,gleiche ADJA Pos|_|_|_|_|,Zimmer N Fem|Dat|Sg,Sie hat nur zwei Zimmer deswegen wohne ich mit die Kindern in der gleiche Zimmer .
+9_35,Ihre Angebot,Ihre ART Neut|Nom|Sg,Angebot N Neut|Nom|Sg,"Ich war ganz überzeugt , dass Ihre Angebot ehrlich war aber Sie haben Ihren Versprochen nicht gehaltet ."
+9_36,Ihren Versprochen,Ihren ART _|Nom|Pl,Versprochen N _|Nom|Pl,"Ich war ganz überzeugt , dass Ihre Angebot ehrlich war aber Sie haben Ihren Versprochen nicht gehaltet ."
+10_37,ein Lösungsvorschlag,ein ART Indef|Masc|Nom|Sg,Lösungsvorschlag N Masc|Nom|Sg,"Hier ist ein Lösungsvorschlag : aus die angegebenen Gründen , fordere ich eine Entschädigung ."
+10_38,die angegebenen Gründen,die ART Def|_|_|_,angegebenen ADJA Pos|_|_|Pl|Wk|,Gründen N _|_|_,"Hier ist ein Lösungsvorschlag : aus die angegebenen Gründen , fordere ich eine Entschädigung ."
+10_39,eine Entschädigung,eine ART Indef|Fem|Acc|Sg,Entschädigung N Fem|Acc|Sg,"Hier ist ein Lösungsvorschlag : aus die angegebenen Gründen , fordere ich eine Entschädigung ."
+11_40,mein Geld,mein ART Neut|_|Sg,Geld N Neut|_|Sg,Geben Sie mich mein Geld zurück !
+12_41,mein Vorschlag,mein ART Masc|Nom|Sg,Vorschlag N Masc|Nom|Sg,"Ich hoffe , dass mein Vorschlag möglich ist ."
+14_43,Mit freundlichen Grüssen Maria,Mit PREP Dat,freundlichen ADJA Pos|_|Dat|_|_|,Grüssen N _|Dat|_,Maria N _|Dat|Sg,Mit freundlichen Grüssen Maria Meier
+14_44,Grüssen Maria Meier,Grüssen N _|Dat|_,Maria N _|Dat|Sg,Meier N _|Dat|Sg,Mit freundlichen Grüssen Maria Meier
+14_45,Maria Meier,Maria N _|Dat|Sg,Meier N _|Dat|Sg,Mit freundlichen Grüssen Maria Meier

@@ -86,7 +86,7 @@ class NominalPhraseCongruency:
             morpho_results (str): Die morphologischen Ergebnisse von Demorphy.
             save_file_name (str): Der Name der Datei, die gespeichert werden soll.
             file_name (str): Der Name, der Datei, die analysiert wurde.
-                Das ist nur fuer die Benennung der Ergebnissdatei wichtig
+                Das ist nur fuer die Benennung der Ergebnissdatei wichtig.
         """
         self.morpho_results = morpho_results
         self.save_file_name = save_file_name
@@ -110,7 +110,7 @@ class NominalPhraseCongruency:
             die mit der Nominalphrase in Verbindung stehen.
             np_demorphy (list): Die Morphologische Informationen ueber diese NP
                 aus demorphy
-            vocabulary_np_data (dict): Ein Dictionary mit zusätzlichen
+            vocabulary_np_data (dict): Ein Dictionary mit zusaetzlichen
             Informationen zur Nominalphrase.
 
         Returns:
@@ -195,9 +195,8 @@ class NominalPhraseCongruency:
             sentence_np (str): Die Nominalphrase im Satz, zu der die PNP hinzugefuegt wird.
             vocabulary_np (list): Eine Liste von Woertern,
             die mit der Nominalphrase in Verbindung stehen.
-            np_demorphy (list): Die Morphologische Informationen ueber diese NP
-                aus demorphy
-            vocabulary_np_data (dict): Ein Dictionary mit zusätzlichen
+            np_demorphy (list): Die Morphologische Informationen ueber diese NP aus demorphy
+            vocabulary_np_data (dict): Ein Dictionary mit zusaetzlichen
             Informationen zur Nominalphrase.
 
         Returns:
@@ -546,8 +545,8 @@ class NominalPhraseCongruency:
                 Wenn die NP nict in dem Satz vorkommt, wird sie nicht beruecksichtigt
                 und gilt automatisch als unbekannt. Eine NP kann z.B. in einem 
                 Satz nicht vorkommen, wenn die Datei nicht korrekt POS-gepaarst.
-                wurde. Es werden auch nicht Nps beruecksichtigt, die 
-                falsch geschrieben wurden. 
+                wurde. Es werden auch nicht Nps beruecksichtigt, die  falsch 
+                geschrieben wurden. 
                 """
 
                 if full_np in sentence_np and phrasing_and_spelling == 10:
@@ -657,14 +656,13 @@ class NominalPhraseCongruency:
 
     def run_congruency_check(self) -> list:
         """
-        Fuehrt eine Kongruenzpruefung für die aktuellen NP urch.
+        Fuehrt eine Kongruenzpruefung fuer die aktuellen NP durch.
 
         Diese Methode startet den Prozess zur Pruefung der Kongruenz
         der aktuellen Daten.
         Sie analysiert die vorhandenen Informationen und gibt das Ergebnis der
         Kongruenzpruefung
         zurueck.
-
 
         Returns:
             congruency_results (dict): Die Ergebnisse der Auswertung
@@ -719,7 +717,7 @@ class NominalPhraseCongruency:
         Speichert die Ergebnisse der NP-Analyse als CSV Datei.
 
         Diese Methode wird verwendet, um die Ergebnisse der Nominalphrasen-Analyse
-        zu speichern. Die gespeicherten Ergebnisse koennen dann für
+        zu speichern. Die gespeicherten Ergebnisse koennen dann fuer
         spaetere Analysen oder Berichterstattung verwendet werden.
 
         Returns:
@@ -727,7 +725,7 @@ class NominalPhraseCongruency:
         """
 
         with open(
-            f"{Gp.RES_SAVE_NP.value}/{self.save_file_name}",
+            f"{Gp.CSV_RES_OUTGOING_DIR.value}/{self.save_file_name}",
             mode="w",
             encoding="utf-8",
         ) as save:

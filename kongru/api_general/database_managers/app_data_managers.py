@@ -11,6 +11,12 @@ from rich.table import Table
 
 # Custom
 
+# api_general
+
+# constants
+from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
+from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
+
 # extractors
 from kongru.api_general.database_managers.extractors.extract_conll_to_pylist import (
     main_conll_to_pylist,
@@ -31,10 +37,6 @@ from kongru.api_general.universal.funcs.basic_logger import (
 )
 from kongru.api_general.universal.funcs.natural_order_group import NaturalOrderGroup
 
-# constants
-from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
-from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
-
 
 # Strings als Enums
 manager_keys = Mk.AppDataManager
@@ -50,6 +52,7 @@ app_typer_data_managers = typer.Typer(
     cls=NaturalOrderGroup,
 )
 
+# Tabelle zum Anzeigen der Daten
 console = Console()
 
 
@@ -73,6 +76,8 @@ def show_text_ids() -> None:
     table = Table(manager_keys.SHOW_TEXT_IDS_COMMAND_NAME.value)
     for id_entry in sorted(text_ids):
         table.add_row(*id_entry)
+
+    # Tabelle ausgeben
     console.print(table)
 
 
@@ -91,7 +96,8 @@ def get_and_show_text_by_id(
     """
     Zeigt den Text anhand seiner ID an.
 
-    Diese Funktion zeigt den Text an, der mit der angegebenen Text-ID in Verbindung steht.
+    Diese Funktion zeigt den Text an, der mit der angegebenen
+    Text-ID in Verbindung steht.
 
     Args:
         text_id (str): Die ID des anzuzeigenden Texts.
@@ -185,7 +191,7 @@ def extract_nps_from_database(
         if data_type == "ast_nps":
             ast_np = AstNominalPhraseExtractor(
                 incoming_data=database_results,
-                save_name=f"{Gp.RES_AST_NP_FILE.value}_{text_id}.csv",
+                save_name=f"{Gp.RES_AST_NP_OUTGOING.value}_{text_id}.csv",
             )
             ast_results = ast_np.get_ast_data_overview()
 
@@ -295,7 +301,7 @@ def extract_data_from_merlin_database(
         help=manager_keys.EXTRACT_DATA_FROM_MERLIN_SQL_HELP.value,
     ),
     save_directory=typer.Option(
-        Gp.AST_DIR.value,
+        Gp.AST_INCOMING_DIR.value,
         general_keys.SAVE_DIR_LONG.value,
         general_keys.SAVE_DIR_SHORT.value,
         help=general_keys.SAVE_DIR_HELP.value,
@@ -310,12 +316,14 @@ def extract_data_from_merlin_database(
     """
     Extrahiert Daten aus der Merlin-Datenbank.
 
-    Diese Funktion extrahiert Daten aus der Merlin-Datenbank basierend auf den angegebenen Parametern.
+    Diese Funktion extrahiert Daten aus der Merlin-Datenbank basierend auf den
+    angegebenen Parametern.
 
     Args:
         sql_script (str): Das SQL-Skript, um Daten abzurufen.
-        save_directory (str): Das Verzeichnis, in dem die extrahierten Daten gespeichert werden sollen.
-        file_extension (str): Die Dateierweiterung für die gespeicherten Dateien.
+        save_directory (str): Das Verzeichnis, in dem die extrahierten Daten gespeichert
+        werden sollen.
+        file_extension (str): Die Dateierweiterung fuer die gespeicherten Dateien.
 
     Returns:
         None
@@ -337,10 +345,5 @@ def extract_data_from_merlin_database(
             r.write(extracted_element)
 
 
-@app_typer_data_managers.command(name="np_zu_json", help="Funktion fehlt noch")
-def add_np_results_to_np_json_file():
-    pass
-
-
 if __name__ == "__main__":
-    app_typer_data_managers()
+    pass

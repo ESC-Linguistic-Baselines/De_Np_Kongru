@@ -10,7 +10,6 @@ from tqdm import tqdm
 # funcs
 from kongru.api_general.universal.funcs.get_path_extension import generate_abs_rel_path
 
-
 # const
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 
@@ -41,7 +40,7 @@ def generate_np_json_files(text_id_source) -> None:
 
         res = merlin.read_merlin_corpus_database()
 
-        file_name = f"{Gp.JSON_DIR.value}/{text_id}.json"
+        file_name = f"{Gp.JSON_INCOMING_DIR.value}/{text_id}.json"
         with open(file_name, encoding="utf-8", mode="w") as outfile:
             data = res[0][0]
             outfile.write(data)

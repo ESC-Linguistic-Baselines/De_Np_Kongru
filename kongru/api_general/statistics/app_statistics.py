@@ -6,6 +6,7 @@ import typer
 
 # Custom
 
+# api_general
 # statistics
 from kongru.api_general.statistics.kongru_evaluation import get_report
 
@@ -13,7 +14,9 @@ from kongru.api_general.statistics.kongru_evaluation import get_report
 from kongru.api_general.universal.constants.message_keys import MessageKeys as Mk
 from kongru.api_general.universal.funcs.natural_order_group import NaturalOrderGroup
 
+# Message Keys
 statistics = Mk.Statistics
+
 
 app_typer_statics = typer.Typer(
     name=statistics.APP_NAME.value,
@@ -41,4 +44,4 @@ def dekongru_accuracy() -> None:
 
 
 if __name__ == "__main__":
-    app_typer_statics()
+    pass

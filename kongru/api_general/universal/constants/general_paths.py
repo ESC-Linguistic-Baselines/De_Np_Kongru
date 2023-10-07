@@ -44,21 +44,29 @@ class GeneralPaths(Enum):
     # Das muss lokal gesetzt werden. Es haengt von dem jeweiligen Rechner ab.
     # Wenn das Lokalverzeichnis nicht gesetzt ist, kann das Programm nicht starten.
     MAIN_DIR = config().get("CONFIG_HOME_DIR")
-
-    CONOLL_DIR = None
     LOG_DIR = "app_log"
-    AST_DIR = "user/incoming/ast"
-    JSON_DIR = "user/incoming/full_json"
-    JSON_RES_DIR = "user/outgoing/nominal_phrase_analysis_json_results"
 
+    # Incoming
+    CONOLL_INCOMING_DIR = "user/incoming/conll"
+    AST_INCOMING_DIR = "user/incoming/ast"
+    JSON_INCOMING_DIR = "user/incoming/full_json"
+    PYLIST_INCOMING_DIR = "user/incoming/pylist"
+
+    # Outgoing
+    BATCH_RESULTS_OUTGOING_DIR = "user/outgoing/batch_results"
+    CSV_RES_OUTGOING_DIR = "user/outgoing/nominal_phrase_analysis_csv_results"
+    JSON_RES_OUTGOING_DIR = "user/outgoing/nominal_phrase_analysis_json_results"
+    RES_AST_NP_OUTGOING = "user/outgoing/extracted_nominal_phrases/nps"
+
+    # Resourcen
+    MERLIN_PYLIST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/pylist"
+    MERLIN_RAW_TEXT_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/raw_text"
+    MERLIN_EXTRACT_DIR = "app_resources/data/merlin_corpus/"
     MERLIN_AST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/ast"
     MERLIN_CONLL_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/conll"
     MERLIN_FULL_JSON_DIR = (
         "app_resources/data/merlin_corpus/merlin_raw_corpus/full_json"
     )
-    MERLIN_PYLIST_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/pylist"
-    MERLIN_RAW_TEXT_DIR = "app_resources/data/merlin_corpus/merlin_raw_corpus/raw_text"
-    MERLIN_EXTRACT_DIR = "app_resources/data/merlin_corpus/"
 
     #############
     #  Datenbank  #
@@ -90,9 +98,6 @@ class GeneralPaths(Enum):
     )
 
     # Ergebnissdateien
-    RES_AST_NP_FILE = "user/outgoing/extracted_nominal_phrases/nps"
-    RES_SAVE_NP = "user/outgoing/nominal_phrase_analysis_csv_results"
-
     NP_HEADER_FILE = "dokumentation/project_layout/results_header_file.txt"
     NP_MAIN_SAVE_FILE = "user/outgoing/batch_results/batch_evaluation_np.csv"
 
@@ -103,7 +108,6 @@ class GeneralPaths(Enum):
     # Text-Sorten
     NP_TRAINING_IDS = "user/text_ids/test_ids.txt"
     NP_TEST_IDS = "user/text_ids/test_ids.txt"
-
     RAW_MERLIN_TXT = "user/incoming/raw/1023_0001416.txt"
 
     # GLOB
@@ -114,7 +118,6 @@ class GeneralPaths(Enum):
         "user/outgoing/nominal_phrase_analysis_csv_results/*.*"
     )
     NP_JSON_RAW_FILES_GLOB: glob = "user/incoming/full_json/*.*"
-
     AST_ID_GLOB: glob = "user/incoming/ast/*.*"
 
 

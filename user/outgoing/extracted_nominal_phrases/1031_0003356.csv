@@ -1,0 +1,55 @@
+1_1,In Stadt X,In PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_2,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_3,Die Hauptstadt Schweiz,Die ART Def|Fem|Nom|Sg,Hauptstadt N Fem|Nom|Sg,Schweiz N Fem|Gen|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_4,Hauptstadt der Schweiz,Hauptstadt N Fem|Nom|Sg,der ART Def|Fem|Gen|Sg,Schweiz N Fem|Gen|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_5,mit London Paris,mit PREP Dat,London N Neut|Dat|Sg,Paris N _|Dat|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_6,London Paris,London N Neut|Dat|Sg,Paris N _|Dat|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_7,Tokyo,Tokyo N Neut|Dat|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_8,Charakter,Charakter N Masc|Acc|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_9,die Altstadt,die ART Def|Fem|Nom|Sg,Altstadt N Fem|Nom|Sg,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+1_10,mit alten Gebäuden,mit PREP Dat,alten ADJA Pos|Neut|Dat|Pl|_|,Gebäuden N Neut|Dat|Pl,"In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London , Paris oder Tokyo vergleicht , aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden ."
+2_11,In Stadt,In PREP _,Stadt N Fem|_|Sg,"In Stadt X zu wohnen ist schön , wenn um die Stadt X zu sehen , aber nah genug um die Laden zu besichtigen oder für den Ausgang am Abend ."
+2_12,um die Stadt X,um PREP Acc,die ART Def|Fem|Acc|Sg,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"In Stadt X zu wohnen ist schön , wenn um die Stadt X zu sehen , aber nah genug um die Laden zu besichtigen oder für den Ausgang am Abend ."
+2_13,Stadt X,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"In Stadt X zu wohnen ist schön , wenn um die Stadt X zu sehen , aber nah genug um die Laden zu besichtigen oder für den Ausgang am Abend ."
+2_14,um die Laden,um PREP Acc,die ART Def|_|Acc|Pl,Laden N _|Acc|Pl,"In Stadt X zu wohnen ist schön , wenn um die Stadt X zu sehen , aber nah genug um die Laden zu besichtigen oder für den Ausgang am Abend ."
+2_16,am Abend,am PREP Dat,Abend N Masc|Dat|Sg,"In Stadt X zu wohnen ist schön , wenn um die Stadt X zu sehen , aber nah genug um die Laden zu besichtigen oder für den Ausgang am Abend ."
+3_17,für Familien,für PREP Acc,Familien N Fem|Acc|Pl,Es ist sicher für Familien mit Kleinkindern und billiger in den Agromelationen zu wohnen als in der Stadt selber .
+3_18,mit Kleinkindern,mit PREP Dat,Kleinkindern N _|Dat|_,Es ist sicher für Familien mit Kleinkindern und billiger in den Agromelationen zu wohnen als in der Stadt selber .
+3_19,in den Agromelationen,in PREP _,den ART Def|_|_|_,Agromelationen N _|_|_,Es ist sicher für Familien mit Kleinkindern und billiger in den Agromelationen zu wohnen als in der Stadt selber .
+3_20,in der Stadt,in PREP Dat,der ART Def|Fem|Dat|Sg,Stadt N Fem|Dat|Sg,Es ist sicher für Familien mit Kleinkindern und billiger in den Agromelationen zu wohnen als in der Stadt selber .
+4_21,in Stadt,in PREP _,Stadt N Fem|_|Sg,Aber was genau kann man in Stadt X machen ?
+5_22,Für Jugendliche,Für PREP Acc,Jugendliche N _|Acc|_,Für Jugendliche braucht es nicht lange um in die Stadt zu fahren .
+5_23,Stadt in die,Stadt N Fem|Acc|Sg,in PREP Acc,die ART Def|Fem|Acc|Sg,Für Jugendliche braucht es nicht lange um in die Stadt zu fahren .
+6_24,minuten,minuten N _|_|Pl,Ich brauchte nur zehn minuten mit dem Tram bis ich in der Innenstadt bin .
+6_25,mit dem Tram,mit PREP Dat,dem ART Def|_|Dat|Sg,Tram N _|Dat|Sg,Ich brauchte nur zehn minuten mit dem Tram bis ich in der Innenstadt bin .
+6_26,in der Innenstadt,in PREP Dat,der ART Def|Fem|Dat|Sg,Innenstadt N Fem|Dat|Sg,Ich brauchte nur zehn minuten mit dem Tram bis ich in der Innenstadt bin .
+7_27,Am Abend,Am PREP Dat,Abend N Masc|Dat|Sg,Am Abend ist Stadt X ein sehr gute Ort mit viele Optionen wo man gehen kann .
+7_28,Stadt X,Stadt N Fem|Nom|Sg,X N Fem|Nom|Sg,Am Abend ist Stadt X ein sehr gute Ort mit viele Optionen wo man gehen kann .
+7_29,Stadt X,Stadt N Fem|Nom|Sg,X N Fem|Nom|Sg,Am Abend ist Stadt X ein sehr gute Ort mit viele Optionen wo man gehen kann .
+7_30,mit ein gute Ort,mit PREP Dat,ein ART Indef|_|Nom|Sg,gute ADJA Pos|_|Nom|Sg|Wk|,Ort N _|Nom|Sg,Am Abend ist Stadt X ein sehr gute Ort mit viele Optionen wo man gehen kann .
+7_31,mit viele Optionen,mit PREP Dat,viele ART Fem|_|Pl,Optionen N Fem|_|Pl,Am Abend ist Stadt X ein sehr gute Ort mit viele Optionen wo man gehen kann .
+8_32,im Kino,im PREP Dat,Kino N Neut|Dat|Sg,"z.B. im Kino oder Theater gehen , in verschiedenen Discotheken oder am Donnerstag den Abendschaut anschauen ."
+8_33,Theater,Theater N Neut|Dat|Sg,"z.B. im Kino oder Theater gehen , in verschiedenen Discotheken oder am Donnerstag den Abendschaut anschauen ."
+8_34,Discotheken in verschiedenen,Discotheken N Fem|_|Pl,in PREP _,verschiedenen ADJA Pos|Fem|_|Pl|_|,"z.B. im Kino oder Theater gehen , in verschiedenen Discotheken oder am Donnerstag den Abendschaut anschauen ."
+8_35,am Donnerstag,am PREP Dat,Donnerstag N _|Dat|Sg,"z.B. im Kino oder Theater gehen , in verschiedenen Discotheken oder am Donnerstag den Abendschaut anschauen ."
+8_36,den Abendschaut,den ART Def|Masc|Acc|Sg,Abendschaut N Masc|Acc|Sg,"z.B. im Kino oder Theater gehen , in verschiedenen Discotheken oder am Donnerstag den Abendschaut anschauen ."
+9_37,in ein Restaurant,in PREP Acc,ein ART Indef|Neut|Acc|Sg,Restaurant N Neut|Acc|Sg,"Wenn man hingegen in ein Restaurant gehen will , nicht schokiert sein wenn man die Preiss sieht ."
+9_38,die Preiss,die ART Def|_|Acc|_,Preiss N _|Acc|_,"Wenn man hingegen in ein Restaurant gehen will , nicht schokiert sein wenn man die Preiss sieht ."
+10_39,Restaurants,Restaurants N Neut|Nom|Pl,"Restaurants sind teuer , nicht nur in Stadt X , sondern Schweizweit ."
+10_40,in Stadt X,in PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,"Restaurants sind teuer , nicht nur in Stadt X , sondern Schweizweit ."
+10_41,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"Restaurants sind teuer , nicht nur in Stadt X , sondern Schweizweit ."
+10_42,Schweizweit,Schweizweit N Fem|_|Sg,"Restaurants sind teuer , nicht nur in Stadt X , sondern Schweizweit ."
+11_43,In Stadt X,In PREP _,Stadt N Fem|_|Sg,X N Fem|_|Sg,"In Stadt X , sind Wohnblöcke viel billiger als Häuser ."
+11_44,Stadt X,Stadt N Fem|_|Sg,X N Fem|_|Sg,"In Stadt X , sind Wohnblöcke viel billiger als Häuser ."
+11_45,Wohnblöcke,Wohnblöcke N Masc|Nom|Pl,"In Stadt X , sind Wohnblöcke viel billiger als Häuser ."
+11_46,Häuser,Häuser N _|_|_,"In Stadt X , sind Wohnblöcke viel billiger als Häuser ."
+12_47,Auf dem Land,Auf PREP Dat,dem ART Def|Neut|Dat|Sg,Land N Neut|Dat|Sg,Auf dem Land ist es biliiger als in der Stadt zu wohnen .
+12_48,Stadt in der,Stadt N Fem|Dat|Sg,in PREP Dat,der ART Def|Fem|Dat|Sg,Auf dem Land ist es biliiger als in der Stadt zu wohnen .
+13_49,Mein Fazit,Mein ART Neut|_|Sg,Fazit N Neut|_|Sg,"Mein Fazit : Stadt X ist eine sicher Stadt für Familien mit Kinder hingegen eine "" coole "" Stadt für Jugendliche ."
+13_50,Stadt,Stadt N Fem|Dat|Sg,"Mein Fazit : Stadt X ist eine sicher Stadt für Familien mit Kinder hingegen eine "" coole "" Stadt für Jugendliche ."
+13_51,eine Stadt,eine ART Indef|Fem|Nom|Sg,Stadt N Fem|Nom|Sg,"Mein Fazit : Stadt X ist eine sicher Stadt für Familien mit Kinder hingegen eine "" coole "" Stadt für Jugendliche ."
+13_52,für Familien,für PREP Acc,Familien N Fem|Acc|Pl,"Mein Fazit : Stadt X ist eine sicher Stadt für Familien mit Kinder hingegen eine "" coole "" Stadt für Jugendliche ."
+13_53,mit Kinder,mit PREP Dat,Kinder N Neut|_|Pl,"Mein Fazit : Stadt X ist eine sicher Stadt für Familien mit Kinder hingegen eine "" coole "" Stadt für Jugendliche ."
+13_55,für Jugendliche,für PREP Acc,Jugendliche N _|Acc|_,"Mein Fazit : Stadt X ist eine sicher Stadt für Familien mit Kinder hingegen eine "" coole "" Stadt für Jugendliche ."
+15_56,Sontags,Sontags N _|Nom|Pl,Sontags sind fast alle Lädern zu .
+15_57,alle Lädern,alle ART _|_|_,Lädern N Masc|Dat|Pl,Sontags sind fast alle Lädern zu .

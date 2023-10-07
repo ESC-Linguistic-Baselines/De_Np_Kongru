@@ -1,0 +1,44 @@
+1_1,Katharina Müller,Katharina N Masc|_|Sg,Müller N Masc|_|Sg,Katharina Müller Zentralplatz 12 12345 Stadt X 22. März 2010 Computer-Spezialist Odenwaldstr .
+1_2,Katharina Müller Zentralplatz,Katharina N Masc|_|Sg,Müller N Masc|_|Sg,Zentralplatz N Masc|_|Sg,Katharina Müller Zentralplatz 12 12345 Stadt X 22. März 2010 Computer-Spezialist Odenwaldstr .
+1_3,Müller Zentralplatz,Müller N Masc|_|Sg,Zentralplatz N Masc|_|Sg,Katharina Müller Zentralplatz 12 12345 Stadt X 22. März 2010 Computer-Spezialist Odenwaldstr .
+1_4,Stadt,Stadt N Fem|_|Sg,Katharina Müller Zentralplatz 12 12345 Stadt X 22. März 2010 Computer-Spezialist Odenwaldstr .
+1_5,22. März,22. ADJA _|Masc|_|Sg|_|,März N Masc|_|Sg,Katharina Müller Zentralplatz 12 12345 Stadt X 22. März 2010 Computer-Spezialist Odenwaldstr .
+1_6,Computer-Spezialist Odenwaldstr,Computer-Spezialist N Masc|_|Sg,Odenwaldstr N Masc|_|Sg,Katharina Müller Zentralplatz 12 12345 Stadt X 22. März 2010 Computer-Spezialist Odenwaldstr .
+1_7,Computer-Spezialist Odenwaldstr,Computer-Spezialist N Masc|_|Sg,Odenwaldstr N Masc|_|Sg,Katharina Müller Zentralplatz 12 12345 Stadt X 22. März 2010 Computer-Spezialist Odenwaldstr .
+2_8,Bonn Bewerbung,Bonn N Fem|_|Sg,Bewerbung N Fem|_|Sg,5 53119 Bonn Bewerbung als Vertriebspraktikantin Ihre Anzeige vom 21.03.2010 in der Morgenpost .
+2_9,Bonn Bewerbung,Bonn N Fem|_|Sg,Bewerbung N Fem|_|Sg,5 53119 Bonn Bewerbung als Vertriebspraktikantin Ihre Anzeige vom 21.03.2010 in der Morgenpost .
+2_10,Vertriebspraktikantin,Vertriebspraktikantin N Fem|_|Sg,5 53119 Bonn Bewerbung als Vertriebspraktikantin Ihre Anzeige vom 21.03.2010 in der Morgenpost .
+2_12,in der Morgenpost,in PREP Dat,der ART Def|Fem|Dat|Sg,Morgenpost N Fem|Dat|Sg,5 53119 Bonn Bewerbung als Vertriebspraktikantin Ihre Anzeige vom 21.03.2010 in der Morgenpost .
+3_13,geehrte Damen,geehrte ADJA Pos|Fem|_|Pl|St|,Damen N Fem|_|Pl,"Sehr geehrte Damen und Herren , mit großem interesse habe ich Ihre Anzeige gelesen und bewerbe mich um eine Praktikantinstelle bei Ihnen ."
+3_14,Herren,Herren N Masc|_|_,"Sehr geehrte Damen und Herren , mit großem interesse habe ich Ihre Anzeige gelesen und bewerbe mich um eine Praktikantinstelle bei Ihnen ."
+3_15,mit großem interesse,mit PREP Dat,großem ADJA Pos|_|Dat|Sg|St|,interesse N _|Dat|Sg,"Sehr geehrte Damen und Herren , mit großem interesse habe ich Ihre Anzeige gelesen und bewerbe mich um eine Praktikantinstelle bei Ihnen ."
+3_16,Ihre Anzeige,Ihre ART Fem|Acc|Sg,Anzeige N Fem|Acc|Sg,"Sehr geehrte Damen und Herren , mit großem interesse habe ich Ihre Anzeige gelesen und bewerbe mich um eine Praktikantinstelle bei Ihnen ."
+3_17,um eine Praktikantinstelle,um PREP Acc,eine ART Indef|Fem|Acc|Sg,Praktikantinstelle N Fem|Acc|Sg,"Sehr geehrte Damen und Herren , mit großem interesse habe ich Ihre Anzeige gelesen und bewerbe mich um eine Praktikantinstelle bei Ihnen ."
+4_18,mein größter Wunsch,mein ART Masc|Nom|Sg,größter ADJA Sup|Masc|Nom|Sg|St|,Wunsch N Masc|Nom|Sg,"Es war schon immer mein größter Wunsch , in einer großen deutschen Firma tätig zu sein ."
+5_20,Nach meinem Deutshkurs,Nach PREP Dat,meinem ART _|Dat|Sg,Deutshkurs N _|Dat|Sg,"Nach meinem Deutshkurs würde ich gerne die Zeit nutzen , um praktische Erfahrungen in Deutschland zu sammeln ."
+5_21,die Zeit,die ART Def|Fem|Acc|Sg,Zeit N Fem|Acc|Sg,"Nach meinem Deutshkurs würde ich gerne die Zeit nutzen , um praktische Erfahrungen in Deutschland zu sammeln ."
+5_22,praktische Erfahrungen,praktische ADJA Pos|_|Acc|_|_|,Erfahrungen N _|Acc|_,"Nach meinem Deutshkurs würde ich gerne die Zeit nutzen , um praktische Erfahrungen in Deutschland zu sammeln ."
+5_23,in Deutschland,in PREP _,Deutschland N Neut|_|Sg,"Nach meinem Deutshkurs würde ich gerne die Zeit nutzen , um praktische Erfahrungen in Deutschland zu sammeln ."
+6_24,meine Deutschkenntnisse,meine ART Fem|Acc|Pl,Deutschkenntnisse N Fem|Acc|Pl,Dabei möchte ich auch meine Deutschkenntnisse verbessern .
+7_25,Nach dem Schulabschluss,Nach PREP Dat,dem ART Def|Masc|Dat|Sg,Schulabschluss N Masc|Dat|Sg,Nach dem Schulabschluss habe ich in meiner Heimat eine Ausbildung als IT-Systemkauffrau absolviert .
+7_26,in meiner Heimat,in PREP Dat,meiner ART Fem|Dat|Sg,Heimat N Fem|Dat|Sg,Nach dem Schulabschluss habe ich in meiner Heimat eine Ausbildung als IT-Systemkauffrau absolviert .
+7_27,Ausbildung eine,Ausbildung N Fem|Acc|Sg,eine ART Indef|Fem|Acc|Sg,Nach dem Schulabschluss habe ich in meiner Heimat eine Ausbildung als IT-Systemkauffrau absolviert .
+7_28,IT-Systemkauffrau,IT-Systemkauffrau N Fem|_|Sg,Nach dem Schulabschluss habe ich in meiner Heimat eine Ausbildung als IT-Systemkauffrau absolviert .
+8_29,Jahre,Jahre N Neut|Acc|Pl,Ich habe 3 Jahre bei einer Firma in Südafrika als Betriebswirtschaftslehrin gearbeitet .
+8_30,bei einer Firma,bei PREP Dat,einer ART Indef|Fem|Dat|Sg,Firma N Fem|Dat|Sg,Ich habe 3 Jahre bei einer Firma in Südafrika als Betriebswirtschaftslehrin gearbeitet .
+8_31,in Südafrika,in PREP _,Südafrika N Neut|_|Sg,Ich habe 3 Jahre bei einer Firma in Südafrika als Betriebswirtschaftslehrin gearbeitet .
+8_32,Betriebswirtschaftslehrin,Betriebswirtschaftslehrin N Fem|_|Sg,Ich habe 3 Jahre bei einer Firma in Südafrika als Betriebswirtschaftslehrin gearbeitet .
+9_33,Spaß im Team,Spaß N Masc|Dat|Sg,im PREP Dat,Team N Masc|Dat|Sg,"Ich arbeite gerne im Team , den die Zusammenarbeiten mit macht mir viel Spaß ."
+9_34,die Zusammenarbeiten,die ART Def|_|_|_,Zusammenarbeiten N Fem|Nom|Sg,"Ich arbeite gerne im Team , den die Zusammenarbeiten mit macht mir viel Spaß ."
+9_35,Spaß Team,Spaß N Masc|Dat|Sg,Team N Masc|Dat|Sg,"Ich arbeite gerne im Team , den die Zusammenarbeiten mit macht mir viel Spaß ."
+10_36,Auserdem,Auserdem N _,Auserdem kann ich auch allerdings gut selbststandig Aufgaben bearbeiten .
+10_37,Aufgaben,Aufgaben N Fem|Acc|Pl,Auserdem kann ich auch allerdings gut selbststandig Aufgaben bearbeiten .
+11_38,Deutsh,Deutsh N Neut|Acc|Sg,Ich spreche fließend Deutsh und Englisch .
+11_39,Englisch,Englisch N Neut|Acc|Sg,Ich spreche fließend Deutsh und Englisch .
+12_40,Eine Praktikum,Eine ART Indef|Fem|_|Sg,Praktikum N Fem|Acc|Sg,Eine Praktikum konnte ich Anfang April antreten .
+12_41,Anfang April,Anfang N Masc|Acc|Sg,April N Masc|Acc|Sg,Eine Praktikum konnte ich Anfang April antreten .
+12_42,Anfang April,Anfang N Masc|Acc|Sg,April N Masc|Acc|Sg,Eine Praktikum konnte ich Anfang April antreten .
+14_43,Mit Freundlichen,Mit PREP Dat,Freundlichen N _|Dat|_,"Mit Freundlichen grüssen , Anlagen : Lebenslauf , 2x Zeugnisse"
+14_44,Anlagen,Anlagen N Fem|_|Pl,"Mit Freundlichen grüssen , Anlagen : Lebenslauf , 2x Zeugnisse"
+14_45,Zeugnisse Lebenslauf,Zeugnisse N _|_|_,Lebenslauf N Masc|_|Sg,"Mit Freundlichen grüssen , Anlagen : Lebenslauf , 2x Zeugnisse"
+14_46,Zeugnisse Lebenslauf,Zeugnisse N _|_|_,Lebenslauf N Masc|_|Sg,"Mit Freundlichen grüssen , Anlagen : Lebenslauf , 2x Zeugnisse"
