@@ -1,9 +1,0 @@
-1_1,Daniela,Daniela N Fem|_|Sg,Hallo Daniela !
-2_2,Schwimmen,Schwimmen N Neut|Dat|Sg,Mochtest du mit mir Schwimmen gehen ?
-3_3,Vielliecht,Vielliecht N _|Dat|_,"Vielliecht gehen wir ins Schwimmbad Stadt X , heute abend um sieben uhr ?"
-3_4,ins Schwimmbad Stadt,ins PREP Acc,Schwimmbad N Fem|_|Sg,Stadt N Fem|Acc|Sg,"Vielliecht gehen wir ins Schwimmbad Stadt X , heute abend um sieben uhr ?"
-3_5,Schwimmbad Stadt X,Schwimmbad N Fem|_|Sg,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"Vielliecht gehen wir ins Schwimmbad Stadt X , heute abend um sieben uhr ?"
-3_6,Stadt X,Stadt N Fem|Acc|Sg,X N Fem|Acc|Sg,"Vielliecht gehen wir ins Schwimmbad Stadt X , heute abend um sieben uhr ?"
-3_7,um uhr,um PREP _,uhr N _|_|Pl,"Vielliecht gehen wir ins Schwimmbad Stadt X , heute abend um sieben uhr ?"
-6_8,LG Michael,LG N Masc|_|Sg,Michael N Masc|_|Sg,"LG , Michael"
-6_9,LG Michael,LG N Masc|_|Sg,Michael N Masc|_|Sg,"LG , Michael"
