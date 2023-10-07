@@ -13,7 +13,7 @@
 
 [![Stargazers][stars-shield]][stars-url]
 
-![Windows][windows-shield] ![Mac][Mac-shield]
+ ![Mac][Mac-shield]
 
 <h3 align="center">DeNp Kongru</h3>
   <p align="justify">
@@ -210,7 +210,7 @@ Dies tut man in der `main_config.yaml` Datei.
 z.B. 
 - `/Users/christopherchandler/de_np_kongru`
 
-**Wenn das Hauptverzeichnis nicht richtig gesetzt wurde, kann das Programm nicht 
+**Wenn das Hauptverzeichnis nicht richtig eingestellt, kann das Programm nicht 
 wie erwartet gestartet werden!**
 
 # Voraussetzungen
@@ -221,8 +221,8 @@ sein, dass das Programm nicht stabil ist.
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 # Installation
-Um die notwendige libraries installieren zu koennen, das folgendene Kommando
-in der Konsole ausgeben: `pip install -r requirements.txt` 
+Um die notwendigen Libraries installieren zu koennen, muss man das folgendene Kommando
+in die Konsole eingeben: `pip install -r requirements.txt` 
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
@@ -230,8 +230,8 @@ in der Konsole ausgeben: `pip install -r requirements.txt`
 ## Anwendung 
 
 ### API
-Wenn man die Module einfach so importieren will, 
-kann man das auch ueber den ganz normalen Weg machen. 
+Wenn man die Module einfach so importieren will,  
+kann man das auch ueber den ganz normalen Weg in Python machen. 
 
 ```
 from kongru.api_nlp.congruential_analysis.app_congruential_analysis import (
@@ -254,7 +254,7 @@ Commands:
   verzeichnis_leeren  Ein ausgewaehltes Verzeichnis leeren
   kongruenz_leeren    verzeichnis_leeren
   kongruenz           Die Np-Eintraege auswerten
-  datenbank           Die Datenbankcorpora verwalten und durchsuchen
+  datenbank           Die Datenbankkorpora verwalten und durchsuchen
   statistik           Eine einfache Analyse ueber DeNpKongru ausfuehren
 ```
 
@@ -311,7 +311,7 @@ ablegen.
       Hier werden die Ergebnisse gespeichert. 
 <br>
     - [batch_results](user%2Foutgoing%2Fbatch_results)  
-      - wenn man [multi_np_analysis.py](kongru%2Fapi_nlp%2Fcongruential_analysis%2Fmulti_np_analysis.py) ausfuehrt, 
+      - wenn man z.B. [run_main.sh](run_main.sh) run_main.sh  ausfuehrt, 
       werden die Ergebnisse hier als .csv-Datei gespeichert. 
     - [extracted_nominal_phrases](user%2Foutgoing%2Fextracted_nominal_phrases)
       - Die unverarbeiteten Nominalphrasen, die aus den AST oder Pylist-dateien 
@@ -323,7 +323,7 @@ ablegen.
         gespeichert. 
     - [text_ids](user%2Ftext_ids)
       - Dieser Ordner enthaelt die Dateien `test_ids.txt` und `training_ids.txt`. 
-      Die sind wichtig fuer [multi_np_analysis.py](kongru%2Fapi_nlp%2Fcongruential_analysis%2Fmulti_np_analysis.py)
+      Die sind wichtig fuer [run_main.sh](run_main.sh)[multi_np_analysis.py](kongru%2Fapi_nlp%2Fcongruential_analysis%2Fmulti_np_analysis.py)
 . Alle Ids,
       sofern sie in der SQL-DB existieren, werden eingelesen und ausgewertet.
  <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
@@ -336,11 +336,14 @@ wenn man neue Skripte anlegen moechte.
 Wenn die Pfade korrekt eingerichtet wurden, sollte dieses Skript problemlos funktioniern.
 Man muss also nur das Skript starten oder es durch die CLI aufrufen. 
 
-In dieser Skript-datei wird `main.py kongruenz multi` bzw. 
+In dieser Skript-datei wird `python main.py kongruenz multi --anzahl "$1" --quelle "$2"` bzw. 
 `multi_nominal_phrase_agreement_analysis` ausgefueht. Hier werden meherere Text-Id
 auf meherere Dateien analysiert (Batch Analysis). 
 
-Es bleibt einem ueberlassen, wie und wo man dieses Skript ausfuehrt. 
+Es bleibt einem natuerlich ueberlassen, wie und wo man dieses Skript ausfuehrt. 
+
+$<sup>Die Parameter die bei der Bash-Datei angegeben werden koennen.</sup>
+
 
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
@@ -441,7 +444,7 @@ aber es liegen Rechtschreibfehler vor
 <p align="right">(<a href="#top">Zurueck zum Anfang</a>)</p>
 
 ##### Kongruenz
-Gruende, weswegen die Nominalphrase kongruiert
+Gruende, weswegen die Nominalphrase kongruiert.
 
 | Code | Bedeutung                      |
 |------|--------------------------------|
@@ -512,7 +515,7 @@ Christopher Chandler - christopher.chandler at outlook.de
 
 <!-- ACKNOWLEDGMENTS -->
 # Danksagungen
-
+* [Ronja Laarmann Quante](https://de.linkedin.com/in/ronja-laarmann-quante-55ba54226/en?trk=people-guest_people_search-card)
 * [Imge Yuezuencueoglu](https://github.com/imgeyuez)
 * [Georg Stin]()
 * [Ikram Abdalla]()
@@ -532,7 +535,6 @@ Christopher Chandler - christopher.chandler at outlook.de
 
 [download-shield]: https://img.shields.io/github/downloads/christopher-chandler/De_Np_Kongru/total
 
-[windows-shield]:  https://img.shields.io/badge/Windows-Tested-purple 
 [mac-shield]: https://img.shields.io/badge/Mac-Tested-purple
 [version-shield]: https://img.shields.io/badge/Version-0.9.0-brightgreen
 [update-shield]: https://img.shields.io/badge/Last_Updated-09_2023-blue

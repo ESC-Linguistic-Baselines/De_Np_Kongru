@@ -81,7 +81,7 @@ class MessageKeys:
 
     class AppDataManager(Enum):
         APP_NAME = "datenbank"
-        APP_NAME_HELP = "Die Datenbankcorpora verwalten und durchsuchen"
+        APP_NAME_HELP = "Die Datenbankkorpora verwalten und durchsuchen"
 
         SHOW_TEXT_IDS_COMMAND_NAME = "text_ids"
         SHOW_TEXT_IDS_COMMAND_HELP = "Ids der Textdateien auflisten"

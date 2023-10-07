@@ -54,10 +54,10 @@ function empty_directories(){
 }
 
 ### Bash-Skript für die Kongruenz-Analyse ausführen
-# run_congruency 24 user/text_ids/training_ids.txt
+#run_congruency 24 user/text_ids/training_ids.txt
 #python main.py kongruenz_leeren
-# run_congruency 1 user/text_ids/test_ids.txt
-# run_r_analysis
+run_congruency 26 user/text_ids/test_ids.txt
+run_r_analysis
 
 
-empty_directories
+#empty_directories
