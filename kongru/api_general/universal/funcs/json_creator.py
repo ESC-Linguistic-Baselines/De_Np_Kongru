@@ -32,7 +32,8 @@ def generate_np_json_files(text_id_source) -> None:
     Returns:
         None
     """
-    for text_id in tqdm(text_id_source, desc="Processing Text IDs"):
+    for text_id in tqdm(text_id_source, desc="Text-Id verarbeiten"):
+
         merlin = MerlinManager()
         merlin.sql_command = f"""
         select json_nps from learner_text_data where general_author_id = '{text_id}'
@@ -41,6 +42,7 @@ def generate_np_json_files(text_id_source) -> None:
         res = merlin.read_merlin_corpus_database()
 
         file_name = f"{Gp.JSON_INCOMING_DIR.value}/{text_id}.json"
+
         with open(file_name, encoding="utf-8", mode="w") as outfile:
             data = res[0][0]
             outfile.write(data)

@@ -64,6 +64,33 @@ FROM learner_text_data
 WHERE general_author_id = (?)
 """
 
+SQL_MERLIN_CORPUS_TEMPLATE = """
+CREATE TABLE "learner_text_data" (
+    "general_author_id"	TEXT,
+    "general_test_language"	TEXT,
+    "general_cefr"	TEXT,
+    "general_task"	TEXT,
+    "general_mother_tongue"	TEXT,
+    "general_age"	TEXT,
+    "general_gender"	TEXT,
+    "rating_overall_cefr_rating"	TEXT,
+    "rating_grammatical_accuracy"	TEXT,
+    "rating_orthography"	TEXT,
+    "rating_vocabulary_range"	TEXT,
+    "rating_vocabulary_control"	TEXT,
+    "rating_coherence_cohesion"	TEXT,
+    "rating_sociolinguistic_appropriateness"	TEXT,
+    "txt_len_in_char"	TEXT,
+    "original_text"	TEXT,
+    "target_hypothesis_1"	TEXT,
+    "target_hypothesis_2"	TEXT,
+    "conll"	TEXT,
+    "ast_nps"	TEXT,
+    "pylist_nps"	TEXT,
+    "json_nps"	TEXT
+);
+        """
+
 
 if __name__ == "__main__":
     pass

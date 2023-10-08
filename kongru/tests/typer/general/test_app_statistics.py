@@ -11,7 +11,7 @@ runner = CliRunner()
 
 
 def test_show_text_ids():
-    result = runner.invoke(app_typer_statics, "")
+    result = runner.invoke(app_typer_statics)
     assert result.exit_code == 0
     print(result.stdout)
 

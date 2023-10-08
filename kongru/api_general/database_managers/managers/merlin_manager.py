@@ -18,6 +18,7 @@ from tqdm import tqdm
 from kongru.api_general.universal.constants.general_paths import GeneralPaths as Gp
 from kongru.api_general.universal.constants.general_vars import (
     SQL_MERLIN_TABLE_ENTRY_FORMAT,
+    SQL_MERLIN_CORPUS_TEMPLATE,
 )
 from kongru.api_general.universal.constants.custom_error_messages import (
     CustomErrorMessages as Cusem,
@@ -122,6 +123,22 @@ class MerlinManager:
         sql_con_cur = {"connector": connector, "cursor": cursor}
 
         return sql_con_cur
+
+    def generate_merlin_template(self) -> None:
+        """
+        Eine neue SQL-Datenbank fuer die Merlin-Daten anlegen
+        Returns:
+            None
+        """
+
+        db_name = self.merlin_corpus_db
+        if os.path.exists(db_name):
+            os.remove(db_name)
+
+        connector = sqlite3.connect(db_name)
+        cursor = connector.cursor()
+        cursor.execute(SQL_MERLIN_CORPUS_TEMPLATE)
+        connector.close()
 
     @staticmethod
     def __unzip_merlin_raw_corpus() -> None:
@@ -443,7 +460,10 @@ class MerlinManager:
         Returns:
             None
         """
+
         merlin_manager = MerlinManager()
+        merlin_manager.generate_merlin_template()
+
         merin_raw_corpus = os.path.isfile(Gp.MERLIN_ZIP_CORPUS.value)
 
         if merin_raw_corpus:

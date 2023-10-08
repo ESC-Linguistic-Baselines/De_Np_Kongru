@@ -728,6 +728,7 @@ class NominalPhraseCongruency:
             f"{Gp.CSV_RES_OUTGOING_DIR.value}/{self.save_file_name}",
             mode="w",
             encoding="utf-8",
+            newline="",
         ) as save:
             csv_writer = csv.writer(save, delimiter=",")
             congruency_results = self.run_congruency_check()

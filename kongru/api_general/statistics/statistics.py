@@ -85,7 +85,7 @@ class Statistics:
 
         # Ergebniss-Datei aufstellen
         save_data = Gp.NP_MAIN_SAVE_FILE.value
-        csv_writer = csv.writer(open(save_data, mode="w+"))
+        csv_writer = csv.writer(open(save_data, mode="w+", newline=""))
         csv_writer.writerow(meta_data + csv_header)
 
         return csv_writer

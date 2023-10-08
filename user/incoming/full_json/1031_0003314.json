@@ -1,0 +1,4869 @@
+[
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "1_1",
+        "sentence": "Einleitend möchte ich zur Kenntnis bringen , dass immer mehr Einzelner im Ausland leben .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "zur",
+                    "lemma": "zu",
+                    "POS_STTS": "APPRART",
+                    "index": "4",
+                    "dep_rel": "objp",
+                    "head_index": "6",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "bringen",
+                    "lemma": "bringen",
+                    "POS_STTS": "VVINF",
+                    "index": "6",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Kenntnis",
+                "lemma": "Kenntnis",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "pn",
+                "head_index": "4",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "1_2",
+        "sentence": "Einleitend möchte ich zur Kenntnis bringen , dass immer mehr Einzelner im Ausland leben .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "im",
+                "lemma": "in",
+                "POS_STTS": "APPRART",
+                "index": "12",
+                "dep_rel": "pp",
+                "head_index": "11",
+                "parser_morph_features": "Dat"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "mehr",
+                "lemma": "mehr",
+                "POS_STTS": "PIAT",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Einzelner",
+                "lemma": "Einzelne",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "1_3",
+        "sentence": "Einleitend möchte ich zur Kenntnis bringen , dass immer mehr Einzelner im Ausland leben .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "im",
+                    "lemma": "in",
+                    "POS_STTS": "APPRART",
+                    "index": "12",
+                    "dep_rel": "pp",
+                    "head_index": "11",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Einzelner",
+                    "lemma": "Einzelne",
+                    "POS_STTS": "NN",
+                    "index": "11",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|_|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Ausland",
+                "lemma": "Ausland",
+                "POS_STTS": "NN",
+                "index": "13",
+                "dep_rel": "pn",
+                "head_index": "12",
+                "parser_morph_features": "Neut|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "2_4",
+        "sentence": "Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "beschäftigt",
+                    "lemma": "beschäftigen",
+                    "POS_STTS": "VVFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "3",
+                "parser_morph_features": "Def|Masc|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "folgende",
+                "lemma": "folgend",
+                "POS_STTS": "ADJA",
+                "index": "2",
+                "dep_rel": "attr",
+                "head_index": "3",
+                "parser_morph_features": "Pos|Masc|Nom|Sg|Wk|_",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Text",
+                "lemma": "Text",
+                "POS_STTS": "NN",
+                "index": "3",
+                "dep_rel": "subj",
+                "head_index": "4",
+                "parser_morph_features": "Masc|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "2_5",
+        "sentence": "Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "6",
+                    "dep_rel": "pp",
+                    "head_index": "10",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "Sollten",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "10",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Past|_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "„",
+                "lemma": "„",
+                "POS_STTS": "NE",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|Dat|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Def|Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Frage",
+                "lemma": "Frage",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "pn",
+                "head_index": "6",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "2_6",
+        "sentence": "Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Frage",
+                    "lemma": "Frage",
+                    "POS_STTS": "NN",
+                    "index": "8",
+                    "dep_rel": "pn",
+                    "head_index": "6",
+                    "parser_morph_features": "Fem|Dat|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "6",
+                    "dep_rel": "pp",
+                    "head_index": "10",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "„",
+                "lemma": "„",
+                "POS_STTS": "NE",
+                "index": "9",
+                "dep_rel": "app",
+                "head_index": "8",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "2_7",
+        "sentence": "Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "Sollten",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "10",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Past|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "diese",
+                "lemma": "diese",
+                "POS_STTS": "PDAT",
+                "index": "11",
+                "dep_rel": "det",
+                "head_index": "12",
+                "parser_morph_features": "_|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ausländer",
+                "lemma": "Ausländer",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "subj",
+                "head_index": "10",
+                "parser_morph_features": "_|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "2_8",
+        "sentence": "Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "fortsetzen",
+                    "lemma": "fortsetzen",
+                    "POS_STTS": "VVINF",
+                    "index": "16",
+                    "dep_rel": "aux",
+                    "head_index": "10",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "Sollten",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "10",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Past|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ihre",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "13",
+                "dep_rel": "det",
+                "head_index": "15",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "eigenen",
+                "lemma": "eigen",
+                "POS_STTS": "ADJA",
+                "index": "14",
+                "dep_rel": "attr",
+                "head_index": "15",
+                "parser_morph_features": "Pos|Fem|Acc|Pl|Wk|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Traditionen",
+                "lemma": "Tradition",
+                "POS_STTS": "NN",
+                "index": "15",
+                "dep_rel": "obja",
+                "head_index": "16",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "2_9",
+        "sentence": "Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "18",
+                    "dep_rel": "pp",
+                    "head_index": "23",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "orientieren",
+                    "lemma": "orientieren",
+                    "POS_STTS": "VVINF",
+                    "index": "23",
+                    "dep_rel": "cj",
+                    "head_index": "17",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Gastlandes",
+                "lemma": "Gastland",
+                "POS_STTS": "NN",
+                "index": "22",
+                "dep_rel": "gmod",
+                "head_index": "20",
+                "parser_morph_features": "Neut|Gen|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "19",
+                "dep_rel": "det",
+                "head_index": "20",
+                "parser_morph_features": "Def|Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "pn",
+                "head_index": "18",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "2_10",
+        "sentence": "Der folgende Text beschäftigt sich mit der Frage „ Sollten diese Ausländer ihre eigenen Traditionen fortsetzen oder an der Kultur des Gastlandes orientieren ?",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Kultur",
+                    "lemma": "Kultur",
+                    "POS_STTS": "NN",
+                    "index": "20",
+                    "dep_rel": "pn",
+                    "head_index": "18",
+                    "parser_morph_features": "Fem|Dat|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "18",
+                    "dep_rel": "pp",
+                    "head_index": "23",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "des",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "21",
+                "dep_rel": "det",
+                "head_index": "22",
+                "parser_morph_features": "Def|Neut|Gen|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gastlandes",
+                "lemma": "Gastland",
+                "POS_STTS": "NN",
+                "index": "22",
+                "dep_rel": "gmod",
+                "head_index": "20",
+                "parser_morph_features": "Neut|Gen|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "3_11",
+        "sentence": "\" An dieser Frage scheiden sich die Geister .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "An",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "2",
+                    "dep_rel": "pp",
+                    "head_index": "5",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "scheiden",
+                    "lemma": "scheiden",
+                    "POS_STTS": "VVFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "dieser",
+                "lemma": "diese",
+                "POS_STTS": "PDAT",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Frage",
+                "lemma": "Frage",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "pn",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "3_12",
+        "sentence": "\" An dieser Frage scheiden sich die Geister .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "scheiden",
+                    "lemma": "scheiden",
+                    "POS_STTS": "VVFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Def|Masc|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Geister",
+                "lemma": "Geist",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "subj",
+                "head_index": "5",
+                "parser_morph_features": "Masc|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "4_13",
+        "sentence": "Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "gibt",
+                    "lemma": "geben",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "CARD",
+                "word_form": "zwei",
+                "lemma": "zwei",
+                "POS_STTS": "CARD",
+                "index": "4",
+                "dep_rel": "attr",
+                "head_index": "5",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Tendenzen",
+                "lemma": "Tendenz",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "obja",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "4_14",
+        "sentence": "Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "V",
+                "word_form": "vernachlässigen",
+                "lemma": "vernachlässigen",
+                "POS_STTS": "VVFIN",
+                "index": "17",
+                "dep_rel": "rel",
+                "head_index": "8",
+                "parser_morph_features": "3|Pl|Pres|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Def|_|_|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ausländer",
+                "lemma": "Ausländer",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "_|_|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "4_15",
+        "sentence": "Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "vernachlässigen",
+                    "lemma": "vernachlässigen",
+                    "POS_STTS": "VVFIN",
+                    "index": "17",
+                    "dep_rel": "rel",
+                    "head_index": "8",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Ausländer",
+                    "lemma": "Ausländer",
+                    "POS_STTS": "NN",
+                    "index": "8",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|_|Pl"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ihre",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "11",
+                "dep_rel": "det",
+                "head_index": "13",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "eigene",
+                "lemma": "eigen",
+                "POS_STTS": "ADJA",
+                "index": "12",
+                "dep_rel": "attr",
+                "head_index": "13",
+                "parser_morph_features": "Pos|Fem|Acc|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "13",
+                "dep_rel": "obja",
+                "head_index": "17",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "4_16",
+        "sentence": "Tatsächlich gibt es zwei Tendenzen : Die Ausländer , die ihre eigene Kultur wegen ihrer Integration vernachlässigen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "wegen",
+                    "lemma": "wegen",
+                    "POS_STTS": "APPR",
+                    "index": "14",
+                    "dep_rel": "pp",
+                    "head_index": "17",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "vernachlässigen",
+                    "lemma": "vernachlässigen",
+                    "POS_STTS": "VVFIN",
+                    "index": "17",
+                    "dep_rel": "rel",
+                    "head_index": "8",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ihrer",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "15",
+                "dep_rel": "det",
+                "head_index": "16",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Integration",
+                "lemma": "Integration",
+                "POS_STTS": "NN",
+                "index": "16",
+                "dep_rel": "pn",
+                "head_index": "14",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "5_17",
+        "sentence": "Und die Anderen , die vor allem sich integrieren möchten .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KON",
+                    "word_form": "Und",
+                    "lemma": "und",
+                    "POS_STTS": "KON",
+                    "index": "1",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "V",
+                "word_form": "möchten",
+                "lemma": "mögen",
+                "POS_STTS": "VMFIN",
+                "index": "10",
+                "dep_rel": "rel",
+                "head_index": "3",
+                "parser_morph_features": "3|Pl|Past|Subj"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "2",
+                "dep_rel": "det",
+                "head_index": "3",
+                "parser_morph_features": "Def|_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Anderen",
+                "lemma": "Anderen",
+                "POS_STTS": "NN",
+                "index": "3",
+                "dep_rel": "cj",
+                "head_index": "1",
+                "parser_morph_features": "_|_|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "6_18",
+        "sentence": "Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "von",
+                    "lemma": "von",
+                    "POS_STTS": "APPR",
+                    "index": "9",
+                    "dep_rel": "pp",
+                    "head_index": "12",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "angesehen",
+                    "lemma": "ansehen",
+                    "POS_STTS": "VVPP",
+                    "index": "12",
+                    "dep_rel": "aux",
+                    "head_index": "13",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "den",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "10",
+                "dep_rel": "det",
+                "head_index": "11",
+                "parser_morph_features": "Def|_|Dat|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Einheimischen",
+                "lemma": "Einheimische",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "pn",
+                "head_index": "9",
+                "parser_morph_features": "_|Dat|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "6_19",
+        "sentence": "Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "16",
+                    "dep_rel": "objp",
+                    "head_index": "21",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "anpassen",
+                    "lemma": "anpassen",
+                    "POS_STTS": "VVINF",
+                    "index": "21",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Landes",
+                "lemma": "Land",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "gmod",
+                "head_index": "18",
+                "parser_morph_features": "Neut|Gen|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "17",
+                "dep_rel": "det",
+                "head_index": "18",
+                "parser_morph_features": "Def|Fem|Acc|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "18",
+                "dep_rel": "pn",
+                "head_index": "16",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "6_20",
+        "sentence": "Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Kultur",
+                    "lemma": "Kultur",
+                    "POS_STTS": "NN",
+                    "index": "18",
+                    "dep_rel": "pn",
+                    "head_index": "16",
+                    "parser_morph_features": "Fem|Acc|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "16",
+                    "dep_rel": "objp",
+                    "head_index": "21",
+                    "parser_morph_features": "Acc"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "des",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "19",
+                "dep_rel": "det",
+                "head_index": "20",
+                "parser_morph_features": "Def|Neut|Gen|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Landes",
+                "lemma": "Land",
+                "POS_STTS": "NN",
+                "index": "20",
+                "dep_rel": "gmod",
+                "head_index": "18",
+                "parser_morph_features": "Neut|Gen|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "6_21",
+        "sentence": "Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "auf",
+                    "lemma": "auf",
+                    "POS_STTS": "APPR",
+                    "index": "26",
+                    "dep_rel": "pp",
+                    "head_index": "25",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sollte",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "25",
+                    "dep_rel": "cj",
+                    "head_index": "23",
+                    "parser_morph_features": "3|Sg|Past|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "keine",
+                "lemma": "keine",
+                "POS_STTS": "PIAT",
+                "index": "27",
+                "dep_rel": "det",
+                "head_index": "28",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Fall",
+                "lemma": "Fall",
+                "POS_STTS": "NN",
+                "index": "28",
+                "dep_rel": "pn",
+                "head_index": "26",
+                "parser_morph_features": "Masc|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "6_22",
+        "sentence": "Zwar sollt man zugeben , dass es gut von den Einheimischen angesehen wird , sich an die Kultur des Landes anpassen , aber man sollte auf keine Fall die eigene Kultur vergessen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "vergessen",
+                    "lemma": "veressen",
+                    "POS_STTS": "VVPP",
+                    "index": "32",
+                    "dep_rel": "neb",
+                    "head_index": "25",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sollte",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "25",
+                    "dep_rel": "cj",
+                    "head_index": "23",
+                    "parser_morph_features": "3|Sg|Past|_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "29",
+                "dep_rel": "det",
+                "head_index": "31",
+                "parser_morph_features": "Def|Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "eigene",
+                "lemma": "eigen",
+                "POS_STTS": "ADJA",
+                "index": "30",
+                "dep_rel": "attr",
+                "head_index": "31",
+                "parser_morph_features": "Pos|Fem|Nom|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "31",
+                "dep_rel": "subj",
+                "head_index": "32",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "7_23",
+        "sentence": "Man muss in Kauf nehmen , dass man ursprünglichen Hintergrund hat .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "3",
+                    "dep_rel": "objp",
+                    "head_index": "5",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "nehmen",
+                    "lemma": "nehmen",
+                    "POS_STTS": "VVINF",
+                    "index": "5",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Kauf",
+                "lemma": "Kauf",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "pn",
+                "head_index": "3",
+                "parser_morph_features": "Masc|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "7_24",
+        "sentence": "Man muss in Kauf nehmen , dass man ursprünglichen Hintergrund hat .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "11",
+                    "dep_rel": "objc",
+                    "head_index": "5",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "nehmen",
+                    "lemma": "nehmen",
+                    "POS_STTS": "VVINF",
+                    "index": "5",
+                    "dep_rel": "aux",
+                    "head_index": "2",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "ursprünglichen",
+                "lemma": "ursprünglich",
+                "POS_STTS": "ADJA",
+                "index": "9",
+                "dep_rel": "attr",
+                "head_index": "10",
+                "parser_morph_features": "Pos|Masc|Acc|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Hintergrund",
+                "lemma": "Hintergrund",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "obja",
+                "head_index": "11",
+                "parser_morph_features": "Masc|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "8_25",
+        "sentence": "Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "schaffen",
+                    "lemma": "schaffen",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Viele",
+                "lemma": "viele",
+                "POS_STTS": "PIDAT",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "_|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Einwandere",
+                "lemma": "Einwandere",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "_|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "8_26",
+        "sentence": "Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "vereinbaren",
+                    "lemma": "vereinbaren",
+                    "POS_STTS": "VVINF",
+                    "index": "11",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADJA",
+                "word_form": "eigene",
+                "lemma": "eigen",
+                "POS_STTS": "ADJA",
+                "index": "5",
+                "dep_rel": "attr",
+                "head_index": "6",
+                "parser_morph_features": "Pos|Fem|Acc|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "obja",
+                "head_index": "11",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "8_27",
+        "sentence": "Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "7",
+                    "dep_rel": "objp",
+                    "head_index": "11",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "vereinbaren",
+                    "lemma": "vereinbaren",
+                    "POS_STTS": "VVINF",
+                    "index": "11",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Gastlandes",
+                "lemma": "Gastland",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "gmod",
+                "head_index": "8",
+                "parser_morph_features": "Neut|Gen|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "pn",
+                "head_index": "7",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "8_28",
+        "sentence": "Viele Einwandere schaffen , eigene Kultur mit Kultur des Gastlandes vereinbaren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Kultur",
+                    "lemma": "Kultur",
+                    "POS_STTS": "NN",
+                    "index": "8",
+                    "dep_rel": "pn",
+                    "head_index": "7",
+                    "parser_morph_features": "Fem|Dat|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "mit",
+                    "lemma": "mit",
+                    "POS_STTS": "APPR",
+                    "index": "7",
+                    "dep_rel": "objp",
+                    "head_index": "11",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "des",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "9",
+                "dep_rel": "det",
+                "head_index": "10",
+                "parser_morph_features": "Def|Neut|Gen|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gastlandes",
+                "lemma": "Gastland",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "gmod",
+                "head_index": "8",
+                "parser_morph_features": "Neut|Gen|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "9_29",
+        "sentence": "Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Tradizionen",
+                "lemma": "Tradizionen",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "gmod",
+                "head_index": "2",
+                "parser_morph_features": "_|Gen|_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Def|Masc|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Verzicht",
+                "lemma": "Verzicht",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "5",
+                "parser_morph_features": "Masc|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "9_30",
+        "sentence": "Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Verzicht",
+                    "lemma": "Verzicht",
+                    "POS_STTS": "NN",
+                    "index": "2",
+                    "dep_rel": "subj",
+                    "head_index": "5",
+                    "parser_morph_features": "Masc|Nom|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ihrer",
+                "lemma": "ihre",
+                "POS_STTS": "PPOSAT",
+                "index": "3",
+                "dep_rel": "det",
+                "head_index": "4",
+                "parser_morph_features": "_|Gen|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Tradizionen",
+                "lemma": "Tradizionen",
+                "POS_STTS": "NN",
+                "index": "4",
+                "dep_rel": "gmod",
+                "head_index": "2",
+                "parser_morph_features": "_|Gen|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "9_31",
+        "sentence": "Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 5,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADV",
+                "word_form": "schwer",
+                "lemma": "schwer",
+                "POS_STTS": "ADJD",
+                "index": "6",
+                "dep_rel": "adv",
+                "head_index": "8",
+                "parser_morph_features": "Pos|",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "PTKZU",
+                "word_form": "zu",
+                "lemma": "zu",
+                "POS_STTS": "PTKZU",
+                "index": "7",
+                "dep_rel": "part",
+                "head_index": "8",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "ADJA",
+                "word_form": "heilende",
+                "lemma": "heilend",
+                "POS_STTS": "ADJA",
+                "index": "8",
+                "dep_rel": "attr",
+                "head_index": "10",
+                "parser_morph_features": "Pos|Neut|Acc|Pl|St|<PPRES",
+                "possible_morph_features": []
+            },
+            "TOK4": {
+                "word_type": "ADJA",
+                "word_form": "psychologue",
+                "lemma": "psychologue",
+                "POS_STTS": "ADJA",
+                "index": "9",
+                "dep_rel": "attr",
+                "head_index": "10",
+                "parser_morph_features": "_|Neut|Acc|Pl|_",
+                "possible_morph_features": []
+            },
+            "TOK5": {
+                "word_type": "N",
+                "word_form": "Probleme",
+                "lemma": "Problem",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "obja",
+                "head_index": "5",
+                "parser_morph_features": "Neut|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK4"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK5",
+                    "TOK3"
+                ],
+                "ruler": "TOK5",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK5",
+                    "TOK4"
+                ],
+                "ruler": "TOK5",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "9_32",
+        "sentence": "Der Verzicht ihrer Tradizionen hat schwer zu heilende psychologue Probleme zur Folge .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "zur",
+                    "lemma": "zu",
+                    "POS_STTS": "APPRART",
+                    "index": "11",
+                    "dep_rel": "pp",
+                    "head_index": "5",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "5",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Folge",
+                "lemma": "Folge",
+                "POS_STTS": "NN",
+                "index": "12",
+                "dep_rel": "pn",
+                "head_index": "11",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "10_33",
+        "sentence": "Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "Im",
+                    "lemma": "in",
+                    "POS_STTS": "APPRART",
+                    "index": "1",
+                    "dep_rel": "pp",
+                    "head_index": "4",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PROAV",
+                "word_form": "dazu",
+                "lemma": "dazu",
+                "POS_STTS": "PROAV",
+                "index": "3",
+                "dep_rel": "pp",
+                "head_index": "2",
+                "parser_morph_features": "_"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Gegensatz",
+                "lemma": "Gegensatz",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "pn",
+                "head_index": "1",
+                "parser_morph_features": "Masc|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "10_34",
+        "sentence": "Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Integration",
+                "lemma": "Integration",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "gmod",
+                "head_index": "6",
+                "parser_morph_features": "Fem|Gen|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "6",
+                "parser_morph_features": "Def|Masc|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Verzicht",
+                "lemma": "Verzicht",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "subj",
+                "head_index": "4",
+                "parser_morph_features": "Masc|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "10_35",
+        "sentence": "Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Verzicht",
+                    "lemma": "Verzicht",
+                    "POS_STTS": "NN",
+                    "index": "6",
+                    "dep_rel": "subj",
+                    "head_index": "4",
+                    "parser_morph_features": "Masc|Nom|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Def|Fem|Gen|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Integration",
+                "lemma": "Integration",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "gmod",
+                "head_index": "6",
+                "parser_morph_features": "Fem|Gen|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "10_36",
+        "sentence": "Im Gegensatz dazu hat der Verzicht der Integration noch schlimmere Konsequenzen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "hat",
+                    "lemma": "haben",
+                    "POS_STTS": "VAFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ADV",
+                "word_form": "noch",
+                "lemma": "noch",
+                "POS_STTS": "ADV",
+                "index": "9",
+                "dep_rel": "adv",
+                "head_index": "10",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "schlimmere",
+                "lemma": "schlimm",
+                "POS_STTS": "ADJA",
+                "index": "10",
+                "dep_rel": "attr",
+                "head_index": "11",
+                "parser_morph_features": "Comp|Fem|Acc|Pl|St|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Konsequenzen",
+                "lemma": "Konsequenz",
+                "POS_STTS": "NN",
+                "index": "11",
+                "dep_rel": "obja",
+                "head_index": "4",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "11_37",
+        "sentence": "Die Exklusion ist nämlich ein schwer zu lösendes Problem in unserer modernen Gesellschaft .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Def|Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Exklusion",
+                "lemma": "Exklusion",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "11_38",
+        "sentence": "Die Exklusion ist nämlich ein schwer zu lösendes Problem in unserer modernen Gesellschaft .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 5,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "in",
+                "lemma": "in",
+                "POS_STTS": "APPR",
+                "index": "10",
+                "dep_rel": "pp",
+                "head_index": "9",
+                "parser_morph_features": "Dat"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "ein",
+                "lemma": "eine",
+                "POS_STTS": "ART",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "9",
+                "parser_morph_features": "Indef|Neut|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADV",
+                "word_form": "schwer",
+                "lemma": "schwer",
+                "POS_STTS": "ADJD",
+                "index": "6",
+                "dep_rel": "adv",
+                "head_index": "8",
+                "parser_morph_features": "Pos|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "PTKZU",
+                "word_form": "zu",
+                "lemma": "zu",
+                "POS_STTS": "PTKZU",
+                "index": "7",
+                "dep_rel": "part",
+                "head_index": "8",
+                "parser_morph_features": "_",
+                "possible_morph_features": []
+            },
+            "TOK4": {
+                "word_type": "ADJA",
+                "word_form": "lösendes",
+                "lemma": "lösend",
+                "POS_STTS": "ADJA",
+                "index": "8",
+                "dep_rel": "attr",
+                "head_index": "9",
+                "parser_morph_features": "Pos|Neut|Nom|Sg|St|<PPRES",
+                "possible_morph_features": []
+            },
+            "TOK5": {
+                "word_type": "N",
+                "word_form": "Problem",
+                "lemma": "Problem",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "pred",
+                "head_index": "3",
+                "parser_morph_features": "Neut|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK4"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK5",
+                    "TOK1"
+                ],
+                "ruler": "TOK5",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK5",
+                    "TOK4"
+                ],
+                "ruler": "TOK5",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "11_39",
+        "sentence": "Die Exklusion ist nämlich ein schwer zu lösendes Problem in unserer modernen Gesellschaft .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "10",
+                    "dep_rel": "pp",
+                    "head_index": "9",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Problem",
+                    "lemma": "Problem",
+                    "POS_STTS": "NN",
+                    "index": "9",
+                    "dep_rel": "pred",
+                    "head_index": "3",
+                    "parser_morph_features": "Neut|Nom|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "unserer",
+                "lemma": "unsre",
+                "POS_STTS": "PPOSAT",
+                "index": "11",
+                "dep_rel": "det",
+                "head_index": "13",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "modernen",
+                "lemma": "modern",
+                "POS_STTS": "ADJA",
+                "index": "12",
+                "dep_rel": "attr",
+                "head_index": "13",
+                "parser_morph_features": "Pos|Fem|Dat|Sg|Wk|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Gesellschaft",
+                "lemma": "Gesellschaft",
+                "POS_STTS": "NN",
+                "index": "13",
+                "dep_rel": "pn",
+                "head_index": "10",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "12_40",
+        "sentence": "Als Schlussfolgerung lässt sich feststellen , dass keine Kultur besser als eine andere ist .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "KOKOM",
+                    "word_form": "Als",
+                    "lemma": "Als",
+                    "POS_STTS": "KOKOM",
+                    "index": "1",
+                    "dep_rel": "kom",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "lässt",
+                    "lemma": "lassen",
+                    "POS_STTS": "VVFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Schlussfolgerung",
+                "lemma": "Schlussfolgerung",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "cj",
+                "head_index": "1",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "12_41",
+        "sentence": "Als Schlussfolgerung lässt sich feststellen , dass keine Kultur besser als eine andere ist .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ist",
+                    "lemma": "sein",
+                    "POS_STTS": "VAFIN",
+                    "index": "14",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "keine",
+                "lemma": "keine",
+                "POS_STTS": "PIAT",
+                "index": "8",
+                "dep_rel": "det",
+                "head_index": "9",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "subj",
+                "head_index": "14",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "13_42",
+        "sentence": "Die einheimische Bevolkerung sollte Rücksicht auf die Einwanderer nehmen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sollte",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "3",
+                "parser_morph_features": "Def|Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "einheimische",
+                "lemma": "einheimisch",
+                "POS_STTS": "ADJA",
+                "index": "2",
+                "dep_rel": "attr",
+                "head_index": "3",
+                "parser_morph_features": "Pos|Fem|Nom|Sg|_|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Bevolkerung",
+                "lemma": "Bevolkerung",
+                "POS_STTS": "NN",
+                "index": "3",
+                "dep_rel": "subj",
+                "head_index": "4",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "13_43",
+        "sentence": "Die einheimische Bevolkerung sollte Rücksicht auf die Einwanderer nehmen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "nehmen",
+                    "lemma": "nehmen",
+                    "POS_STTS": "VVINF",
+                    "index": "9",
+                    "dep_rel": "aux",
+                    "head_index": "4",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sollte",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "4",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "PREP",
+                "word_form": "auf",
+                "lemma": "auf",
+                "POS_STTS": "APPR",
+                "index": "6",
+                "dep_rel": "pp",
+                "head_index": "5",
+                "parser_morph_features": "Acc"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Rücksicht",
+                "lemma": "Rücksicht",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "obja",
+                "head_index": "9",
+                "parser_morph_features": "Fem|Acc|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "13_44",
+        "sentence": "Die einheimische Bevolkerung sollte Rücksicht auf die Einwanderer nehmen .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "auf",
+                    "lemma": "auf",
+                    "POS_STTS": "APPR",
+                    "index": "6",
+                    "dep_rel": "pp",
+                    "head_index": "5",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Rücksicht",
+                    "lemma": "Rücksicht",
+                    "POS_STTS": "NN",
+                    "index": "5",
+                    "dep_rel": "obja",
+                    "head_index": "9",
+                    "parser_morph_features": "Fem|Acc|Sg"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "7",
+                "dep_rel": "det",
+                "head_index": "8",
+                "parser_morph_features": "Def|Masc|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Einwanderer",
+                "lemma": "Einwanderer",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "pn",
+                "head_index": "6",
+                "parser_morph_features": "Masc|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "14_45",
+        "sentence": "Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "müssen",
+                    "lemma": "müssen",
+                    "POS_STTS": "VMFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Def|Masc|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Zuwanderer",
+                "lemma": "Zuwanderer",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "Masc|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "14_46",
+        "sentence": "Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {},
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "8",
+                "dep_rel": "det",
+                "head_index": "9",
+                "parser_morph_features": "Def|_|_|_",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Muhe",
+                "lemma": "Muhe",
+                "POS_STTS": "NN",
+                "index": "9",
+                "dep_rel": "root",
+                "head_index": "0",
+                "parser_morph_features": "_|_|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "14_47",
+        "sentence": "Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "14",
+                    "dep_rel": "pp",
+                    "head_index": "19",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "orientieren",
+                    "lemma": "orientieren",
+                    "POS_STTS": "VVINF",
+                    "index": "19",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {
+            "P_TOK1": {
+                "word_type": "N",
+                "word_form": "Gastlandes",
+                "lemma": "Gastland",
+                "POS_STTS": "NN",
+                "index": "18",
+                "dep_rel": "gmod",
+                "head_index": "16",
+                "parser_morph_features": "Neut|Gen|Sg"
+            }
+        },
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "15",
+                "dep_rel": "det",
+                "head_index": "16",
+                "parser_morph_features": "Def|Fem|Dat|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Kultur",
+                "lemma": "Kultur",
+                "POS_STTS": "NN",
+                "index": "16",
+                "dep_rel": "pn",
+                "head_index": "14",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "14_48",
+        "sentence": "Darüber hinaus müssen die Zuwanderer , sich die Muhe geben , um sich an der Kultur des Gastlandes orientieren .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "N",
+                    "word_form": "Kultur",
+                    "lemma": "Kultur",
+                    "POS_STTS": "NN",
+                    "index": "16",
+                    "dep_rel": "pn",
+                    "head_index": "14",
+                    "parser_morph_features": "Fem|Dat|Sg"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "an",
+                    "lemma": "an",
+                    "POS_STTS": "APPR",
+                    "index": "14",
+                    "dep_rel": "pp",
+                    "head_index": "19",
+                    "parser_morph_features": "Dat"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "des",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "17",
+                "dep_rel": "det",
+                "head_index": "18",
+                "parser_morph_features": "Def|Neut|Gen|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Gastlandes",
+                "lemma": "Gastland",
+                "POS_STTS": "NN",
+                "index": "18",
+                "dep_rel": "gmod",
+                "head_index": "16",
+                "parser_morph_features": "Neut|Gen|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "15_49",
+        "sentence": "Der Staat sollte auch in Erwägung ziehen , sich mehr und besser um die ausländischen Gemeinschaften zu kümmern .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "sollte",
+                    "lemma": "sollen",
+                    "POS_STTS": "VMFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Past|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "Der",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "1",
+                "dep_rel": "det",
+                "head_index": "2",
+                "parser_morph_features": "Def|Masc|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Staat",
+                "lemma": "Staat",
+                "POS_STTS": "NN",
+                "index": "2",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "Masc|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "15_50",
+        "sentence": "Der Staat sollte auch in Erwägung ziehen , sich mehr und besser um die ausländischen Gemeinschaften zu kümmern .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "in",
+                    "lemma": "in",
+                    "POS_STTS": "APPR",
+                    "index": "5",
+                    "dep_rel": "objp",
+                    "head_index": "7",
+                    "parser_morph_features": "_"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "ziehen",
+                    "lemma": "ziehen",
+                    "POS_STTS": "VVINF",
+                    "index": "7",
+                    "dep_rel": "aux",
+                    "head_index": "3",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Erwägung",
+                "lemma": "Erwägung",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "pn",
+                "head_index": "5",
+                "parser_morph_features": "Fem|_|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "15_51",
+        "sentence": "Der Staat sollte auch in Erwägung ziehen , sich mehr und besser um die ausländischen Gemeinschaften zu kümmern .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 3,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "um",
+                    "lemma": "um",
+                    "POS_STTS": "APPR",
+                    "index": "13",
+                    "dep_rel": "objp",
+                    "head_index": "18",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "kümmern",
+                    "lemma": "kümmern",
+                    "POS_STTS": "VVINF",
+                    "index": "18",
+                    "dep_rel": "obji",
+                    "head_index": "7",
+                    "parser_morph_features": "_"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "14",
+                "dep_rel": "det",
+                "head_index": "16",
+                "parser_morph_features": "Def|Fem|Acc|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "ADJA",
+                "word_form": "ausländischen",
+                "lemma": "ausländisch",
+                "POS_STTS": "ADJA",
+                "index": "15",
+                "dep_rel": "attr",
+                "head_index": "16",
+                "parser_morph_features": "Pos|Fem|Acc|Pl|Wk|",
+                "possible_morph_features": []
+            },
+            "TOK3": {
+                "word_type": "N",
+                "word_form": "Gemeinschaften",
+                "lemma": "Gemeinschaft",
+                "POS_STTS": "NN",
+                "index": "16",
+                "dep_rel": "pn",
+                "head_index": "13",
+                "parser_morph_features": "Fem|Acc|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "TOK2"
+                ],
+                "ruler": null,
+                "possible_agreement": null
+            },
+            "rel_2": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK1"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            },
+            "rel_3": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK3",
+                    "TOK2"
+                ],
+                "ruler": "TOK3",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "16_52",
+        "sentence": "Es steht nämlich nicht genug Infrastruktur für Migranten zur Verfügung .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "steht",
+                    "lemma": "stehen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "genug",
+                "lemma": "genug",
+                "POS_STTS": "PIAT",
+                "index": "5",
+                "dep_rel": "det",
+                "head_index": "6",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Infrastruktur",
+                "lemma": "Infrastruktur",
+                "POS_STTS": "NN",
+                "index": "6",
+                "dep_rel": "subj",
+                "head_index": "2",
+                "parser_morph_features": "Fem|Nom|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "16_53",
+        "sentence": "Es steht nämlich nicht genug Infrastruktur für Migranten zur Verfügung .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "für",
+                    "lemma": "für",
+                    "POS_STTS": "APPR",
+                    "index": "7",
+                    "dep_rel": "pp",
+                    "head_index": "2",
+                    "parser_morph_features": "Acc"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "steht",
+                    "lemma": "stehen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Migranten",
+                "lemma": "Migrant",
+                "POS_STTS": "NN",
+                "index": "8",
+                "dep_rel": "pn",
+                "head_index": "7",
+                "parser_morph_features": "Masc|Acc|_",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {}
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "16_54",
+        "sentence": "Es steht nämlich nicht genug Infrastruktur für Migranten zur Verfügung .",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 1,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "PREP",
+                    "word_form": "zur",
+                    "lemma": "zu",
+                    "POS_STTS": "APPRART",
+                    "index": "9",
+                    "dep_rel": "objp",
+                    "head_index": "2",
+                    "parser_morph_features": "Dat"
+                }
+            },
+            "super_head": {
+                "SH_TOK1": {
+                    "word_type": "V",
+                    "word_form": "steht",
+                    "lemma": "stehen",
+                    "POS_STTS": "VVFIN",
+                    "index": "2",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Sg|Pres|Ind"
+                }
+            }
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "N",
+                "word_form": "Verfügung",
+                "lemma": "Verfügung",
+                "POS_STTS": "NN",
+                "index": "10",
+                "dep_rel": "pn",
+                "head_index": "9",
+                "parser_morph_features": "Fem|Dat|Sg",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK1",
+                    "H_TOK1"
+                ],
+                "ruler": "TOK1",
+                "possible_agreement": null
+            }
+        }
+    },
+    {
+        "file_ID": "1031_0003314",
+        "sent_NP_ID": "17_55",
+        "sentence": "Darüber hinaus werden die Ausländer zu oft schlecht betrachtet",
+        "metadata": {
+            "corpus": "MERLIN_DE",
+            "author": {
+                "author_ID": "1031_0003314",
+                "L1": "French",
+                "age": "19",
+                "gender": "male"
+            },
+            "CEFR": {
+                "overall_fairRating": "B2+",
+                "test_level": "C1"
+            },
+            "task": {
+                "formality": "formal",
+                "text_type": "online article",
+                "topic": "write article about sticking to one's traditions and assimilation in a new environment"
+            }
+        },
+        "NP_info": {
+            "len_np": 2,
+            "coordination": null
+        },
+        "HEAD_info": {
+            "head": {
+                "H_TOK1": {
+                    "word_type": "V",
+                    "word_form": "werden",
+                    "lemma": "werden",
+                    "POS_STTS": "VAFIN",
+                    "index": "3",
+                    "dep_rel": "root",
+                    "head_index": "0",
+                    "parser_morph_features": "3|Pl|Pres|_"
+                }
+            },
+            "super_head": {}
+        },
+        "POST_info": {},
+        "TOK_info": {
+            "TOK1": {
+                "word_type": "ART",
+                "word_form": "die",
+                "lemma": "die",
+                "POS_STTS": "ART",
+                "index": "4",
+                "dep_rel": "det",
+                "head_index": "5",
+                "parser_morph_features": "Def|_|Nom|Pl",
+                "possible_morph_features": []
+            },
+            "TOK2": {
+                "word_type": "N",
+                "word_form": "Ausländer",
+                "lemma": "Ausländer",
+                "POS_STTS": "NN",
+                "index": "5",
+                "dep_rel": "subj",
+                "head_index": "3",
+                "parser_morph_features": "_|Nom|Pl",
+                "possible_morph_features": []
+            }
+        },
+        "relations": {
+            "rel_1": {
+                "rel_type": "must_agree",
+                "involved": [
+                    "TOK2",
+                    "TOK1"
+                ],
+                "ruler": "TOK2",
+                "possible_agreement": null
+            }
+        }
+    }
+]
