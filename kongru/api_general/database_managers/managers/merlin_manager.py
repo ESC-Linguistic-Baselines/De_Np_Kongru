@@ -390,7 +390,7 @@ class MerlinManager:
 
     def extract_merlin_corpus_entry_by_id(self) -> dict:
         """
-        Extrahiert einen Eintrag aus der Merlin-Korpus SQL-Datenbank anhand einer
+        Extrahiert einen Eintrag aus der Merlin-Korpus-SQL-Datenbank anhand einer
             vorgegebenen TextID.
 
         Returns:
